@@ -1,0 +1,1186 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{array,booktabs,graphicx,tabularx}
+\usepackage{fancyvrb}
+\usepackage{hyperref}
+\usepackage{xurl}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\title{An All-Obtuse Convex Hexagon Compiler for Planar Shifts of Finite Type\\[0.4em]\large Exact decoding under unrestricted contacts}
+\author{}
+\date{Referee draft, 27 July 2026}
+\begin{document}
+\maketitle
+
+
+\begin{abstract}
+
+We give an effective construction that maps every nearest-neighbor
+\(\mathbb Z^2\)-shift of finite type \(S\) to a finite protoset \(P(S)\) of
+unmarked strictly convex rational hexagons. Every interior angle of every
+output hexagon lies in \((\pi/2,\pi)\). Tiles may be translated, rotated, or
+reflected, and contacts are unrestricted. Even under this permissive model,
+every \(P(S)\)-tiling is forced to be edge-to-edge, its abstract cell complex
+is the standard honeycomb, and it locally decodes to a point of \(S\).
+Conversely, every point of \(S\) deforms the affine honeycomb into a
+\(P(S)\)-tiling. Hence \(P(S)\) tiles the plane if and only if \(S\) is
+nonempty.
+
+The construction yields undecidability of tileability for finite sets of
+strictly convex rational hexagons whose angles are all obtuse, with all
+Euclidean isometries and arbitrary contacts allowed. If \(S\) is strongly
+aperiodic, then \(P(S)\) is aperiodic in the same unrestricted shape-only
+sense. As an explicit instance, the phase-two compilation of the 13
+Kari-Culik Wang tiles has 4,956 pairwise noncongruent prototiles. An exact
+finite artifact enumerates its states, graph edges, and coronas and checks
+the finite inequalities used in the construction.
+
+\end{abstract}
+\section*{1. Introduction}
+
+Matching rules are easy to state when tiles carry colors, arrows, or signed
+edges. They are harder to enforce when the final objects are unmarked
+polygons, reflections are permitted, and one cannot assume an edge-to-edge
+tiling. A geometric encoding must first control arbitrary contacts, then
+recover the intended local state at every vertex, and finally prove that no
+other global assembly remains.
+
+This paper gives such an encoding for any nearest-neighbor
+\(\mathbb Z^2\)-shift of finite type. The output polygons have a deliberately
+restricted form:
+
+\begin{enumerate}
+\item every tile is a strictly convex hexagon;
+\item every coordinate is rational;
+\item every interior angle is strictly obtuse;
+\item every Euclidean isometry, including reflection, is permitted; and
+\item no contact rule is imposed beyond disjoint interiors and coverage of the
+   plane.
+\end{enumerate}
+
+The all-obtuse condition removes T-junctions. A finite phase carrier fixes the
+three honeycomb edge directions. Locally legal source triples are collared at
+honeycomb vertices. A mixed-radix horizontal displacement assigns a different
+length to every compatible pair of collared endpoint states. At an arbitrary
+physical vertex, the three decoded graph edges form a triangle in a line
+graph. Bipartiteness forces that triangle to be a star, recovering one
+collared state rather than three pairwise compatible fragments.
+
+The main result is a compiler theorem, rather than a theorem restricted to
+aperiodic inputs. Aperiodicity and undecidability follow as separate
+corollaries.
+
+\subsection*{Theorem 1.1. All-obtuse compiler}
+
+For every nearest-neighbor \(\mathbb Z^2\)-shift of finite type \(S\), one can
+effectively construct a finite set \(P(S)\) of unmarked strictly convex
+rational hexagons such that:
+
+\begin{enumerate}
+\item every angle of every polygon in \(P(S)\) lies in \((\pi/2,\pi)\);
+\item \(P(S)\) tiles \(\mathbb R^2\) if and only if \(S\neq\varnothing\);
+\item every unrestricted \(P(S)\)-tiling is edge-to-edge and trivalent, with
+   abstract cell complex the standard honeycomb;
+\item its decoded phase map is the universal cover of \(H_2\) and its face
+   symbols form a configuration in \(S\);
+\item up to one global orthogonal map and translation, that tiling is exactly
+   the bounded piecewise-affine deformation associated with its decoded
+   source point; and
+\item every configuration in \(S\) gives such an unrestricted
+   \(P(S)\)-tiling.
+\end{enumerate}
+
+Here unrestricted means that translations, rotations, and reflections are
+allowed and no edge-to-edge convention, selected atlas, matching relation, or
+one-sidedness assumption is supplied.
+
+\subsection*{Corollary 1.2. Undecidability}
+
+It is undecidable whether a finite set of unmarked strictly convex rational
+hexagons, all of whose angles lie in \((\pi/2,\pi)\), tiles the plane when all
+Euclidean isometries and unrestricted contacts are allowed.
+
+\subsection*{Corollary 1.3. Strong aperiodicity}
+
+If \(S\) is nonempty and every point of \(S\) has no nonzero
+\(\mathbb Z^2\)-period, then \(P(S)\) is aperiodic: it tiles the plane and no
+admitted \(P(S)\)-tiling has a nonzero translational symmetry.
+
+The priority boundary is narrow. Robinson announced a reduction to finite
+sets of convex lattice-coordinate pentagons or hexagons in 1971, including
+rotations and reflections, but the cited paper does not give that
+construction or its proof. The contribution here is an explicit compiler
+with the all-obtuse output restriction and a classification of every
+unrestricted-contact tiling. We make no claim to have originated the broad
+idea that convex polygons can carry undecidable tiling systems.
+
+\section*{2. Source systems and polygon tilings}
+
+\subsection*{2.1. Nearest-neighbor shifts}
+
+Let \(A\) be a finite alphabet and let
+\[
+  R_E,R_N\subseteq A\times A
+\]
+be directed east and north adjacency relations. Define
+\[
+S=S(A,R_E,R_N)
+\]
+to be the set of all \(x\in A^{\mathbb Z^2}\) satisfying
+\[
+  (x_{i,j},x_{i+1,j})\in R_E,\qquad
+  (x_{i,j},x_{i,j+1})\in R_N
+\]
+for every \((i,j)\in\mathbb Z^2\).
+
+We place these symbols on the faces of a honeycomb. Two of the three
+face-neighbor directions carry \(R_E\) and \(R_N\). The third direction is
+unconstrained. This is an embedding of a square nearest-neighbor shift into
+the triangular face lattice, not a claim about arbitrary three-relation
+triangular-lattice shifts.
+
+A point \(x\in S\) is periodic if some nonzero
+\((u,v)\in\mathbb Z^2\) satisfies
+\[
+  x_{i+u,j+v}=x_{i,j}
+\]
+for all \(i,j\). We call \(S\) strongly aperiodic when it is nonempty and no
+point of \(S\) is periodic in this sense.
+
+\subsection*{2.2. Shape-only tilings}
+
+A prototile is an unmarked simple polygon considered up to Euclidean
+congruence. A \(P\)-tiling is a covering of \(\mathbb R^2\) by congruent
+copies of members of a finite protoset \(P\), with pairwise disjoint
+interiors. Reflections are allowed. Contacts may be partial, and an
+edge-to-edge convention is not assumed. A finite protoset is allowed to be
+empty; the empty protoset is a valid no-instance and does not tile.
+
+This definition is the only placement rule used below. Symbols, phase
+coordinates, and graph states are construction and proof devices. They are
+not retained as marks on the polygons.
+
+\section*{3. The finite phase carrier}
+
+\subsection*{3.1. A four-face honeycomb torus}
+
+Let \(H_2\) have vertices
+\[
+  B_{ij},W_{ij},\qquad i,j\in\mathbb Z/2\mathbb Z.
+\]
+The three neighbors of \(B_{ij}\) are
+\[
+  W_{ij},\qquad W_{i-1,j},\qquad W_{i,j-1}.
+\]
+Its four faces are the simple cycles
+\[
+\begin{split}
+C_{ij}={}&(B_{ij},W_{ij},B_{i+1,j},W_{i+1,j-1},\\
+          &B_{i+1,j-1},W_{i,j-1}).
+\end{split}
+\]
+Thus \(H_2\) has 8 vertices, 12 edges, and 4 faces. It is a torus
+cellulation, and its universal cover is the standard honeycomb.
+
+Here is a direct check. Modulo two, the three displayed neighbors of every
+black vertex are distinct. Each \(C_{ij}\) is a simple six-cycle; every edge
+occurs in exactly two such cycles, with opposite induced orientations; and
+the incident face sectors form one cyclic link at each vertex. The resulting
+complex is therefore a connected closed orientable surface. Its Euler
+characteristic is
+\[
+  8-12+4=0,
+\]
+so it is a torus. If the indices \(i,j\) are instead allowed to range over
+\(\mathbb Z\), the same face cycles embed as the affine honeycomb of Section
+4.1. Quotienting that planar complex by the translations
+\((i,j)\mapsto(i+2,j)\) and \((i,j)\mapsto(i,j+2)\) gives \(H_2\). Hence the
+planar honeycomb is its universal cover.
+
+The modulus two phase has two jobs. It makes every face boundary a simple
+six-cycle, and it ensures that the endpoints of a state-graph edge determine
+one fixed phase edge rather than several parallel witnesses.
+
+\subsection*{3.2. Collared vertex states}
+
+Place a source face \(x_{ij}\) at every \((i,j)\in\mathbb Z^2\). At a black
+honeycomb vertex use the ordered triple
+\[
+  B_{ij}(x_{ij},x_{i-1,j+1},x_{i-1,j}),
+\]
+and at a white vertex use
+\[
+  W_{ij}(x_{ij},x_{i,j+1},x_{i-1,j+1}).
+\]
+
+A black triple \(B_{ij}(a,b,c)\) is locally legal when
+\[
+  (c,a)\in R_E,\qquad (c,b)\in R_N.
+\]
+A white triple \(W_{ij}(a,d,b)\) is locally legal when
+\[
+  (a,d)\in R_N,\qquad (b,d)\in R_E.
+\]
+A vertex state is a phase vertex of \(H_2\) together with one such locally
+legal ordered triple.
+
+Order all black states and all white states effectively:
+\[
+  Q_B=\{q^B_0,\ldots,q^B_{B-1}\},\qquad
+  Q_W=\{q^W_0,\ldots,q^W_{W-1}\}.
+\]
+If either set is empty, the construction returns the empty protoset. This
+case cannot occur when \(S\) is nonempty.
+
+\subsection*{3.3. Legal coronas}
+
+Name a central source face \(a\) and its six cyclic neighbors
+\[
+  b,d,e,f,g,c.
+\]
+The seven symbols form a legal corona when
+\[
+  (c,a),(a,e),(b,d),(g,f)\in R_E
+\]
+and
+\[
+  (g,a),(a,d),(c,b),(f,e)\in R_N.
+\]
+
+For phase \(C_{ij}\), associate the six states
+\[
+\begin{split}
+q_0&=B_{ij}(a,b,c),\\
+q_1&=W_{ij}(a,d,b),\\
+q_2&=B_{i+1,j}(e,d,a),\\
+q_3&=W_{i+1,j-1}(f,e,a),\\
+q_4&=B_{i+1,j-1}(f,a,g),\\
+q_5&=W_{i,j-1}(g,a,c).
+\end{split}
+\]
+
+Let \(G\) be the simple bipartite graph with vertex set
+\[
+  Q_B\sqcup Q_W.
+\]
+An unordered pair \(\{q,r\}\) is an edge of \(G\) when \(q,r\) occur
+consecutively in at least one legal corona cycle. Multiple witnesses create
+one graph edge.
+
+Every state already contains its phase vertex. Hence a graph edge has a
+fixed black phase endpoint, a fixed white phase endpoint, and one fixed
+black-to-white phase vector. The graph has no loops or parallel edges.
+
+\section*{4. Exact polygon geometry}
+
+\subsection*{4.1. The affine base honeycomb}
+
+Use the centrally symmetric hexagon
+\[
+\begin{aligned}
+v_0&=(2,0),&
+v_1&=(1,3/2),&
+v_2&=(-1,3/2),\\
+v_3&=(-2,0),&
+v_4&=(-1,-3/2),&
+v_5&=(1,-3/2).
+\end{aligned}
+\]
+Its face-center lattice has basis
+\[
+  a=(-3,3/2),\qquad b=(0,3).
+\]
+The face at \((i,j)\) is the translate of the base face by
+\[
+  ia+jb.
+\]
+These translates form an affine image of the regular honeycomb.
+
+\subsection*{4.2. Mixed-radix displacements}
+
+Put
+\[
+  D=4096BW.
+\]
+Assign a horizontal displacement to every state:
+\[
+z(q)=
+\begin{cases}
+ b/D,&q=q^B_b,\\
+ B(w+1)/D,&q=q^W_w.
+\end{cases}
+\]
+For a legal corona cycle \((q_0,\ldots,q_5)\), define the polygon
+\[
+  P(q_0,\ldots,q_5)
+  =
+  \operatorname{poly}
+  \bigl(v_0+(z(q_0),0),\ldots,v_5+(z(q_5),0)\bigr).
+\]
+Finally, \(P(S)\) is the finite set of congruence classes of these polygons
+over all four phases and all legal coronas.
+
+Every coordinate belongs to \((2D)^{-1}\mathbb Z\). Multiplication by
+\(2D\) gives an integer-coordinate representative. The construction is
+finite and effective from \(A,R_E,R_N\).
+
+\subsection*{4.3. Every graph edge has a unique length}
+
+Let \(q^B_bq^W_w\) be an edge of \(G\), and put
+\[
+  \delta=z(q^W_w)-z(q^B_b)
+  =\frac{B(w+1)-b}{D}.
+\]
+Its numerator belongs to the block
+\[
+  \{Bw+1,\ldots,Bw+B\}.
+\]
+These blocks are pairwise disjoint, so \(\delta\) determines both \(b\) and
+\(w\). Moreover,
+\[
+  0<\delta\leq\eta,\qquad \eta=\frac1{4096}.
+\]
+
+The squared lengths are
+\[
+  L_h(\delta)=4+4\delta+\delta^2
+\]
+for a horizontal phase edge and
+\[
+  L_s(\delta)=\frac{13}{4}-2\delta+\delta^2
+\]
+for either slant direction. The function \(L_h\) is strictly increasing on
+\((0,\eta]\), and \(L_s\) is strictly decreasing there. Their ranges are
+disjoint because
+\[
+  L_s(\delta)<\frac{13}{4}<4<L_h(\delta).
+\]
+
+A state pair fixes one edge of the simple phase graph \(H_2\), including the
+sign of the slant component of its black-to-white vector. It cannot occur in
+both slant directions. It follows that distinct graph edges have distinct
+lengths.
+
+\subsection*{Lemma 4.1. Corona cycles are pairwise noncongruent}
+
+No two distinct legal corona cycles define congruent polygons.
+
+\paragraph{Proof}
+
+A congruence preserves the cyclic word of side lengths up to rotation and
+reversal. Every length identifies one graph edge. Consecutive distinct edges
+in a simple graph recover their unique common endpoint. The cyclic edge word
+therefore reconstructs the cyclic state word. Two congruent polygons came
+from the same corona cycle up to the dihedral presentation already absorbed
+by congruence. \(\square\)
+
+\subsection*{4.4. Quantitative convexity and obtuseness}
+
+The following calculation supplies the deformation margin used later.
+
+\subsection*{Lemma 4.2. Uniform all-obtuse bound}
+
+For any legal corona and every assignment produced above, the polygon is
+strictly convex and every interior angle is obtuse. More precisely, every
+cross product of consecutive forward edges is at least
+\[
+  3-3\eta>0,
+\]
+and every dot product of consecutive forward edges is at least
+\[
+  \frac54>0.
+\]
+Equivalently, the dot product of the two rays from a polygon vertex to its
+neighbors is at most \(-5/4\).
+
+\paragraph{Proof}
+
+Write \(\delta_k\in(0,\eta]\) for the black-to-white displacement difference
+on side \(k\), with the index attached to the corresponding graph edge. In
+cyclic order the six forward edge vectors have the forms
+\[
+\begin{split}
+e_0&=(-1+\delta_0,3/2),\\
+e_1&=(-2-\delta_1,0),\\
+e_2&=(-1+\delta_2,-3/2),\\
+e_3&=(1-\delta_3,-3/2),\\
+e_4&=(2+\delta_4,0),\\
+e_5&=(1-\delta_5,3/2).
+\end{split}
+\]
+Their consecutive cross products are of two types:
+\[
+  \frac32(2+\delta_k)
+\]
+and
+\[
+  3-\frac32(\delta_k+\delta_{k+1}).
+\]
+They are at least \(3-3\eta\).
+
+Their consecutive forward dot products are of two types:
+\[
+  (2+\delta_k)(1-\delta_{k+1})
+\]
+and
+\[
+  \frac94-(1-\delta_k)(1-\delta_{k+1}).
+\]
+The first is at least \(2(1-\eta)>5/4\), and the second is at least
+\(5/4\). Positive cross products give strict convexity. At a vertex the two
+interior rays are \(-e_{k-1}\) and \(e_k\), whose dot product is the negative
+of the displayed forward dot product. Thus every interior angle lies in
+\((\pi/2,\pi)\). \(\square\)
+
+The same calculation applies to the three rays at a honeycomb vertex. In
+their cyclic order, their pairwise cross products have the two forms just
+displayed. Their cyclic order therefore survives every permitted
+displacement.
+
+\section*{5. Arbitrary contacts become a honeycomb}
+
+\subsection*{Lemma 5.1. All admitted tilings are edge-to-edge and trivalent}
+
+Let \(P\) be any finite set of strictly convex polygons whose interior angles
+all lie in \((\pi/2,\pi)\). Every unrestricted \(P\)-tiling is edge-to-edge,
+and exactly three tile corners meet at every tiling vertex.
+
+\paragraph{Proof}
+
+First note that the tiling is locally finite. Let \(r>0\) be the minimum
+inradius and \(M<\infty\) the maximum diameter among the finitely many
+prototiles. Every tile meeting a compact set \(K\) has a disjoint
+radius-\(r\) inball contained in the bounded \(M\)-neighborhood of \(K\).
+Area packing permits only finitely many such inballs.
+
+Consider a point \(x\) in the relative interior of a side of one tile. That
+tile contributes a sector of angle \(\pi\). All sectors contributed by tiles
+on the other side must sum to \(\pi\).
+
+If a tile corner occurred at \(x\), one corner would leave a positive angle
+smaller than \(\pi/2\), which cannot be filled by another permitted corner
+or by an edge-interior sector of angle \(\pi\). Two corners would already
+sum to more than \(\pi\). Hence no tile corner can lie in the relative
+interior of another tile side. The remaining half-plane is occupied by
+exactly one edge-interior sector.
+
+A change from one neighboring side to another along a side would create a
+tile corner in its relative interior. Thus every side is paired along its
+full length with one whole side.
+
+At a tiling vertex, only polygon corners occur. Two corners sum to less than
+\(2\pi\), while four corners sum to more than \(2\pi\). Exactly three
+corners meet. \(\square\)
+
+\subsection*{Lemma 5.2. Honeycomb regularization}
+
+The abstract cell complex of any unrestricted \(P(S)\)-tiling is the
+standard \(\{6,3\}\) honeycomb.
+
+\paragraph{Proof}
+
+Lemma 5.1 makes the tiling a locally finite edge-to-edge trivalent
+hexangulation.
+
+Replace every physical face by a unit regular hexagon and glue corresponding
+full sides. The topological realization of this abstract complex is
+homeomorphic to the original polygon tiling and hence to \(\mathbb R^2\).
+At every vertex, three sectors of angle \(2\pi/3\) meet. The regularized
+surface is therefore locally Euclidean, including at its vertices.
+
+The regularized path metric is complete. Triangulate every physical polygon
+and its regular replacement by joining its barycenter to its six vertices.
+On each prototile class, the resulting cellwise map and its inverse are
+piecewise affine and Lipschitz. There are only finitely many prototile
+classes, so one constant works for every triangle. The cellwise maps agree
+on glued edges and give a global bi-Lipschitz homeomorphism from the physical
+Euclidean plane to the regularized intrinsic surface. Completeness of the
+physical plane therefore implies completeness of the regularized metric.
+
+Choose an oriented frame in one face and analytically continue it across
+edges. Since the surface is simply connected and flat, this gives a
+developing local isometry
+\[
+  \operatorname{dev}:M\longrightarrow\mathbb R^2.
+\]
+A local isometry from a complete connected Euclidean surface to
+\(\mathbb R^2\) has the path-lifting property for complete geodesics and is
+a covering map. Because \(\mathbb R^2\) is simply connected,
+\(\operatorname{dev}\) is a global Euclidean isometry. Its regular hexagonal
+faces form the standard honeycomb. \(\square\)
+
+The completeness step rules out a developing map whose image is only a
+proper open subset of the plane. The covering step then supplies injectivity,
+not merely local flatness.
+
+\section*{6. Decoding every shape-only tiling}
+
+\subsection*{Lemma 6.1. The line-graph star lemma}
+
+At every vertex of an arbitrary \(P(S)\)-tiling, the three incident physical
+sides recover three graph edges of \(G\) with one common endpoint state.
+
+\paragraph{Proof}
+
+Side length identifies a graph edge. Each pair among the three physical
+sides occurs as a corner of one of the three incident polygon faces. The
+corona that defined that polygon shows that the corresponding pair of graph
+edges shares an endpoint.
+
+The three graph edges are distinct. Otherwise an incident face would contain
+two equal consecutive graph edges, contradicting the simplicity of its phase
+face cycle.
+
+Thus the three graph edges form a triangle in the line graph \(L(G)\). In a
+simple graph, three pairwise incident edges either share one common vertex or
+form a triangle. The graph \(G\) is bipartite, so it has no triangle. The
+three edges form a star at one state \(q\). \(\square\)
+
+\subsection*{Lemma 6.2. A physical edge recovers opposite state endpoints}
+
+If a physical side decodes to \(\{q,r\}\in E(G)\), its two physical endpoints
+decode to \(q\) and \(r\), in one of the two orders.
+
+\paragraph{Proof}
+
+Choose either incident polygon. In its corona cycle, the two ends of the side
+are \(q\) and \(r\). At the physical endpoint corresponding to \(q\), the two
+consecutive graph edges of that polygon share \(q\). Two distinct edges in a
+simple graph have at most one common endpoint, so the common star state from
+Lemma 6.1 is \(q\). The other endpoint similarly recovers \(r\). A reflected
+placement may exchange the physical order, but cannot identify the two
+states. \(\square\)
+
+\subsection*{Lemma 6.3. The phase map is the universal honeycomb cover}
+
+The decoded state labels define a cellular covering from the physical
+honeycomb to \(H_2\).
+
+\paragraph{Proof}
+
+Map each physical vertex to the phase vertex contained in its decoded state,
+each physical edge to the phase edge determined by its graph edge, and each
+physical face to the phase face contained in its corona cycle.
+
+At a physical vertex, the three incident graph edges project to distinct
+phase edges. If two projected to the same phase edge, the physical face
+between them would map two consecutive boundary edges to one edge of the
+simple cycle \(C_{ij}\). Thus the vertex star maps bijectively to a phase
+vertex star.
+
+It remains to exclude folding along an edge. Suppose the two physical faces
+adjacent to one edge mapped to the same phase face. At either endpoint, the
+two other physical rays belonging to those faces would then map to the same
+adjacent boundary edge of that phase face. This contradicts injectivity of
+the vertex-star map. Hence the two sides of every physical edge map to the
+two different incident phase faces.
+
+The cellular map is now a local homeomorphism in face interiors, edge
+interiors, and vertex stars.
+
+For completeness, the image is all of \(H_2\). Starting from any image
+vertex, bijectivity of its physical vertex star supplies all three incident
+phase edges and their opposite endpoints. Iterating through the connected
+one-skeleton reaches every phase vertex and edge. Along each lifted edge,
+the no-folding argument supplies its two distinct incident phase faces, so
+every face is reached as well.
+
+Now take barycentric subdivisions of the physical complex and \(H_2\). A
+vertex in either subdivision represents a face, an edge, or a vertex of the
+original complex. Face recognition, the two-sided edge result, and the
+bijective vertex-star result say exactly that the link of each physical
+barycentric vertex maps isomorphically to the corresponding target link.
+Consequently, the inverse image of every open barycentric star is a disjoint
+union of open barycentric stars, each mapped homeomorphically onto the
+target star. This is the cellular covering criterion. The phase map is
+therefore a covering of \(H_2\). By Lemma 5.2 its domain is simply connected,
+so it is the universal cover. \(\square\)
+
+The local orientation sign of a covering between oriented surfaces is a
+locally constant function with values in \(\{1,-1\}\). The physical
+honeycomb is connected, so this sign is constant. Reflections are therefore
+handled by one global choice rather than a hidden local chirality rule.
+
+\subsection*{Lemma 6.4. Polygon placements have one global orthogonal frame}
+
+There is one \(R\in O(2)\) such that the orthogonal part of every tile
+placement is \(R\).
+
+\paragraph{Proof}
+
+A graph edge has one fixed canonical black-to-white vector because its state
+endpoints include their phase vertices. The two canonical phase faces
+incident to that edge traverse this vector in opposite directions and lie on
+opposite sides of its line.
+
+Consider two physical polygons sharing the corresponding side. After
+orienting the canonical vector consistently, their orthogonal parts both map
+it to the same physical vector. Two orthogonal maps agreeing on a nonzero
+vector are either equal or differ by reflection in its line. In the second
+case, the two canonical face interiors, initially on opposite sides, are
+placed on the same physical side of the shared edge. Their interiors overlap
+near the edge. This is forbidden in a tiling.
+
+The orthogonal parts agree across every adjacency. The honeycomb adjacency
+graph is connected, so one \(R\) applies to every tile. \(\square\)
+
+\subsection*{Proposition 6.5. Source reconstruction}
+
+Every unrestricted \(P(S)\)-tiling determines a point of \(S\), up to a
+global deck-coordinate choice and the global frame \(R\).
+
+\paragraph{Proof}
+
+Lemma 6.3 identifies the physical cell complex with the universal cover of
+\(H_2\). Use its deck coordinates to index physical faces by
+\((i,j)\in\mathbb Z^2\). The six states around a physical face came from one
+legal corona and therefore give the same central symbol. Lemma 6.2 makes
+these state assignments agree across physical edges.
+
+The phase edge specifies whether an adjacency is east-west, north-south, or
+the unconstrained third direction. The legal triples and coronas impose
+\(R_E\) and \(R_N\) on the first two directions. The reconstructed symbols
+therefore define \(x\in S\). Every step used only side lengths, polygon
+incidence, and the unmarked phase geometry encoded by those lengths.
+
+Fix one physical vertex and its canonical lifted phase vertex. Lemma 6.4
+gives one orthogonal part \(R\), and Lemma 6.2 gives the canonical vector
+across every incident edge. Induction through the connected honeycomb now
+shows that every physical vertex has the form
+\[
+  R\bigl(u+(z(q(u)),0)\bigr)+t
+\]
+for one translation \(t\). Thus the arbitrary tiling is exactly the
+deformation associated with the reconstructed source point, up to \(R\) and
+\(t\).
+\(\square\)
+
+Proposition 6.5 proves the soundness half of Theorem 1.1. It also classifies
+every component of the shape-admitted tiling space. No selected generator
+orbit is substituted for the complete space.
+
+\section*{7. Constructing a tiling from every source point}
+
+The converse requires a global deformation statement. A large finite patch
+does not suffice.
+
+\subsection*{Lemma 7.1. Quantitative honeycomb deformation}
+
+Let \(x\in S\). Move each vertex of the affine honeycomb horizontally by the
+displacement of its collared state. Add the barycenter of every face, move it
+by the average of the six incident vertex displacements, and extend the map
+affinely over the six center-fan triangles. The resulting map
+\[
+  F_x:\mathbb R^2\longrightarrow\mathbb R^2
+\]
+is a proper orientation-preserving local homeomorphism at bounded distance
+from the identity.
+
+\paragraph{Proof}
+
+Every honeycomb vertex receives one state determined by the adjacent source
+faces, so neighboring faces move a shared vertex to the same point. Every
+vertex and barycenter displacement belongs to
+\([0,\eta]\times\{0\}\).
+
+For each center-fan triangle, direct expansion of its determinant gives
+\[
+  \det(F_x(v_k)-F_x(c),F_x(v_{k+1})-F_x(c))
+  \geq 3-3\eta>0.
+\]
+The ray-star calculation following Lemma 4.2 gives the same lower bound for
+every consecutive pair among the three deformed edge rays at a honeycomb
+vertex. Thus every face fan stays embedded and positively oriented, while
+every deformed three-face star keeps cyclic degree one. These facts make the
+piecewise-affine extension a local homeomorphism in triangle interiors,
+across triangulation edges, across tile edges, at face centers, and at
+honeycomb vertices.
+
+On every triangle, \(F_x-\operatorname{id}\) is a convex combination of its
+vertex displacements. Hence
+\[
+  \lVert F_x(y)-y\rVert\leq\eta
+\]
+for every \(y\in\mathbb R^2\). If \(K\) is compact, then
+\[
+  F_x^{-1}(K)\subseteq
+  \{y:\operatorname{dist}(y,K)\leq\eta\}.
+\]
+The preimage is closed and bounded, hence compact. Thus \(F_x\) is proper.
+\(\square\)
+
+\subsection*{Proposition 7.2. Completeness of the compiler}
+
+If \(S\neq\varnothing\), then \(P(S)\) tiles \(\mathbb R^2\).
+
+\paragraph{Proof}
+
+Choose \(x\in S\). A proper local homeomorphism from the plane to the plane
+has open image. Properness also makes its image closed. The image is
+nonempty, so connectedness of \(\mathbb R^2\) makes it surjective. It is a
+covering map, and the simply connected target has no nontrivial connected
+cover. Hence \(F_x\) is a homeomorphism.
+
+The images under \(F_x\) of the affine honeycomb faces cover the plane with
+disjoint interiors. Each image face is exactly the polygon associated with
+its legal corona. These images form a \(P(S)\)-tiling. \(\square\)
+
+Combining Proposition 7.2 with Proposition 6.5 gives
+\[
+  P(S)\text{ tiles }\mathbb R^2
+  \quad\Longleftrightarrow\quad
+  S\neq\varnothing.
+\]
+This proves the tileability and decoding parts of Theorem 1.1.
+
+\section*{8. Consequences}
+
+\subsection*{8.1. Undecidable tileability}
+
+Nonemptiness of nearest-neighbor \(\mathbb Z^2\)-shifts of finite type is
+undecidable. The construction of \(P(S)\) uses finite enumeration and
+rational arithmetic. Therefore an algorithm deciding unrestricted
+tileability for finite sets of strictly convex rational all-obtuse hexagons
+would decide whether \(S\) is nonempty. This proves Corollary 1.2.
+
+The reduction permits rotations and reflections and does not assume
+edge-to-edge contacts. The latter property is a conclusion of Lemma 5.1.
+The decision-problem encoding admits the empty finite list, as specified in
+Section 2.2.
+After a common multiplication by \(2D\), every output coordinate is an
+integer. The number of polygons is not bounded independently of the source.
+
+\subsection*{8.2. Strong aperiodicity}
+
+Let \(S\) be strongly aperiodic and suppose a \(P(S)\)-tiling
+\(\mathcal T\) had translational period \(t\neq0\). The regularization and
+decoding are local and commute with translations. Thus \(t\) preserves the
+regular affine honeycomb obtained from \(\mathcal T\). It is a nonzero
+honeycomb lattice vector and induces a nonzero element of
+\(\mathbb Z^2\) in the deck coordinates of Lemma 6.3. Proposition 6.5 then
+gives a point of \(S\) with that period, a contradiction. This proves
+Corollary 1.3.
+
+\subsection*{8.3. From ordinary aperiodicity to strong aperiodicity for a planar SFT}
+
+For completeness, suppose a two-dimensional SFT has a configuration with
+one nonzero period vector \(p\). Quotienting by \(p\) gives a nonempty
+one-dimensional SFT over a finite alphabet of transverse strips. Every
+nonempty one-dimensional SFT contains a periodic point, obtained from a
+directed cycle in its finite presentation. Lifting that point gives a
+doubly periodic configuration of the original SFT. Consequently, a Wang
+shift with no doubly periodic configuration has no singly periodic
+configuration either.
+
+\section*{9. An explicit Kari-Culik instance}
+
+\subsection*{9.1. The 13 source tiles}
+
+Write a Wang tile as \((S,W,N,E)\). The six division tiles, with multiplier
+\(1/3\), are
+
+\begin{center}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llll}
+\toprule
+\(S\) & \(W\) & \(N\) & \(E\) \\
+\midrule
+\(1\) & \(0/3\) & \(0\) & \(1/3\) \\
+\(1\) & \(1/3\) & \(0\) & \(2/3\) \\
+\(1\) & \(2/3\) & \(1\) & \(0/3\) \\
+\(2\) & \(0/3\) & \(0\) & \(2/3\) \\
+\(2\) & \(1/3\) & \(1\) & \(0/3\) \\
+\(2\) & \(2/3\) & \(1\) & \(1/3\) \\
+\bottomrule
+\end{tabular}%
+}
+\end{center}
+
+The seven doubling tiles, with multiplier \(2\), are
+
+\begin{center}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llll}
+\toprule
+\(S\) & \(W\) & \(N\) & \(E\) \\
+\midrule
+\(0\) & \(-1\) & \(0'\) & \(-1\) \\
+\(0\) & \(0\) & \(0'\) & \(0\) \\
+\(0\) & \(0\) & \(1\) & \(-1\) \\
+\(1\) & \(-1\) & \(1\) & \(0\) \\
+\(1\) & \(-1\) & \(2\) & \(-1\) \\
+\(1\) & \(0\) & \(2\) & \(0\) \\
+\(0'\) & \(0\) & \(1\) & \(-1\) \\
+\bottomrule
+\end{tabular}%
+}
+\end{center}
+
+The colors \(0\) and \(0'\) are distinct. The symbols \(0/3,1/3,2/3\)
+are formal colors.
+
+\subsection*{9.2. An exact bi-infinite source point}
+
+Set
+\[
+  \alpha_0=\sqrt2
+\]
+and define
+\[
+\alpha_{j+1}=
+\begin{cases}
+2\alpha_j,&\alpha_j<1,\\
+\alpha_j/3,&\alpha_j>1.
+\end{cases}
+\]
+The orbit stays in \([1/3,2)\). Its inverse is
+\[
+\alpha_{j-1}=
+\begin{cases}
+3\alpha_j,&\alpha_j<2/3,\\
+\alpha_j/2,&\alpha_j>2/3.
+\end{cases}
+\]
+Every \(\alpha_j\) is a nonzero rational multiple of \(\sqrt2\), so the orbit
+never meets a rational branch boundary. The recurrence is therefore
+unambiguous for every \(j\in\mathbb Z\).
+
+For \(n,j\in\mathbb Z\), put
+\[
+  A_j(n)=\lfloor n\alpha_j\rfloor
+\]
+and let
+\[
+  \lambda_j=\frac{\alpha_{j+1}}{\alpha_j}\in\{2,1/3\}.
+\]
+Define
+\[
+\begin{aligned}
+S_{n,j}&=A_j(n)-A_j(n-1),\\
+N_{n,j}&=A_{j+1}(n)-A_{j+1}(n-1),\\
+W_{n,j}&=\lambda_jA_j(n-1)-A_{j+1}(n-1),\\
+E_{n,j}&=\lambda_jA_j(n)-A_{j+1}(n).
+\end{aligned}
+\]
+On a division row, retain \(W\) and \(E\) in formal thirds notation. A zero
+on the south side of row \(j\) is labeled \(0'\) exactly when
+\[
+  \alpha_{j-1}\in[1/3,1/2],
+\]
+and a zero on the north side is labeled \(0'\) exactly when
+\[
+  \alpha_j\in[1/3,1/2].
+\]
+All other numerical zeros are labeled \(0\).
+
+\subsection*{Lemma 9.1. Exact floor classification}
+
+For every \((n,j)\in\mathbb Z^2\), the four labels above form exactly one of
+the 13 Kari-Culik tiles.
+
+\paragraph{Proof}
+
+Fix a row and write \(\alpha=\alpha_j\),
+\(\beta=\alpha_{j+1}\).
+
+First suppose \(\alpha<1\), so \(\beta=2\alpha\). For an integer \(k\), write
+\[
+  k\alpha=A+t,\qquad A\in\mathbb Z,\quad 0\leq t<1.
+\]
+Then
+\[
+  2A-\lfloor2k\alpha\rfloor=-\lfloor2t\rfloor\in\{-1,0\}.
+\]
+It follows that \(W,E\in\{-1,0\}\), while \(S\in\{0,1\}\) and
+\(N\in\{0,1,2\}\). The definitions give the exact identity
+\[
+  2S+W=N+E.
+\]
+These ranges and this identity leave precisely the six numerical patterns
+\[
+\begin{gathered}
+(0,-1,0,-1),\quad (0,0,0,0),\quad (0,0,1,-1),\\
+(1,-1,1,0),\quad (1,-1,2,-1),\quad (1,0,2,0).
+\end{gathered}
+\]
+
+If \(N=0\), then \(\beta<1\), hence
+\(\alpha\in[1/3,1/2)\); the north zero is therefore \(0'\). If
+\((S,W,N,E)=(0,0,1,-1)\), the south zero may occur on either side of
+\(\alpha=2/3\). Indeed, the inverse branch is \(3\alpha\) below \(2/3\)
+and \(\alpha/2\) above \(2/3\), so a south zero is \(0'\) exactly when
+\(\alpha>2/3\). This gives the two distinct table entries
+\((0,0,1,-1)\) and \((0',0,1,-1)\). The remaining south zeros in the two
+\(N=0\) patterns are unprimed because there \(\alpha<1/2\). Thus the seven
+doubling tiles are exactly the possible formal patterns.
+
+Now suppose \(\alpha>1\), so \(\beta=\alpha/3\). For an integer \(k\), write
+\[
+  \lfloor k\alpha\rfloor=3\lfloor k\alpha/3\rfloor+r_k,
+  \qquad r_k\in\{0,1,2\}.
+\]
+Then \(W=r_{n-1}/3\) and \(E=r_n/3\) as formal thirds. Also
+\[
+  S\in\{1,2\},\qquad N\in\{0,1\},
+\]
+and
+\[
+  \frac13S+W=N+E.
+\]
+Equivalently, if \(W=w/3\) and \(E=e/3\),
+\[
+  S+w=3N+e.
+\]
+The stated ranges leave exactly the six division rows in the table. A north
+zero on a division row is unprimed because \(\alpha>1\). This proves
+exhaustion and uniqueness. \(\square\)
+
+\subsection*{Lemma 9.2. Matching and occurrence}
+
+The floor construction is a valid bi-infinite Kari-Culik configuration. All
+13 base tile types occur.
+
+\paragraph{Proof}
+
+Horizontal matching is an identity:
+\[
+  E_{n,j}=W_{n+1,j}.
+\]
+Vertical matching follows from
+\[
+  N_{n,j}=S_{n,j+1}.
+\]
+The prime convention is also identical on the shared vertical edge: both
+sides use the condition
+\(\alpha_j\in[1/3,1/2]\). Lemma 9.1 supplies one table tile at every lattice
+site, including negative \(n\) and negative \(j\).
+
+For the final assertion, write
+\[
+  \alpha_j=q_j\sqrt2
+\]
+and abbreviate
+\[
+  (a,b;c,d)=
+  (A_j(n-1),A_j(n);A_{j+1}(n-1),A_{j+1}(n)).
+\]
+Direct exact evaluation gives one occurrence of every type:
+
+\begin{center}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllll}
+\toprule
+Tile & \((n,j)\) & \(q_j\) & \((a,b;c,d)\) & Resulting \((S,W,N,E)\) \\
+\midrule
+1 & \((-1,0)\) & \(1\) & \((-3,-2;-1,-1)\) & \((1,0/3,0,1/3)\) \\
+2 & \((2,0)\) & \(1\) & \((1,2;0,0)\) & \((1,1/3,0,2/3)\) \\
+3 & \((-2,-3)\) & \(3/4\) & \((-4,-3;-2,-1)\) & \((1,2/3,1,0/3)\) \\
+4 & \((-2,3)\) & \(4/3\) & \((-6,-4;-2,-2)\) & \((2,0/3,0,2/3)\) \\
+5 & \((-2,0)\) & \(1\) & \((-5,-3;-2,-1)\) & \((2,1/3,1,0/3)\) \\
+6 & \((3,0)\) & \(1\) & \((2,4;0,1)\) & \((2,2/3,1,1/3)\) \\
+7 & \((-3,-2)\) & \(1/4\) & \((-2,-2;-3,-3)\) & \((0,-1,0',-1)\) \\
+8 & \((4,-2)\) & \(1/4\) & \((1,1;2,2)\) & \((0,0,0',0)\) \\
+9 & \((-1,1)\) & \(1/3\) & \((-1,-1;-2,-1)\) & \((0,0,1,-1)\) \\
+10 & \((-1,-1)\) & \(1/2\) & \((-2,-1;-3,-2)\) & \((1,-1,1,0)\) \\
+11 & \((-2,-1)\) & \(1/2\) & \((-3,-2;-5,-3)\) & \((1,-1,2,-1)\) \\
+12 & \((-2,2)\) & \(2/3\) & \((-3,-2;-6,-4)\) & \((1,0,2,0)\) \\
+13 & \((-3,-1)\) & \(1/2\) & \((-3,-3;-6,-5)\) & \((0',0,1,-1)\) \\
+\bottomrule
+\end{tabular}%
+}
+\end{center}
+
+For \(\alpha_j=(p/q)\sqrt2\) and \(k>0\), every entry is certified by
+\[
+  A_j(k)=
+  \left\lfloor
+    \frac{\lfloor\sqrt{2k^2p^2}\rfloor}{q}
+  \right\rfloor,
+  \qquad
+  A_j(-k)=-A_j(k)-1.
+\]
+The second identity uses irrationality of \(k\alpha_j\). The needed row
+coefficients are
+\[
+q_{-3}=\frac34,\quad
+q_{-2}=\frac14,\quad
+q_{-1}=\frac12,\quad
+q_0=1,\quad
+q_1=\frac13,\quad
+q_2=\frac23,\quad
+q_3=\frac43.
+\]
+This finite table proves occurrence. It is not being used in place of the
+symbolic all-site classification in Lemma 9.1. \(\square\)
+
+Culik proves that this Wang set admits no periodic tiling. The
+one-period-to-two-period argument in Section 8.3 makes its full Wang shift
+strongly aperiodic. Corollary 1.3 therefore applies.
+
+\subsection*{9.3. Size of the compiled instance}
+
+For the phase-two Kari-Culik compilation, exact enumeration gives
+\[
+\begin{array}{c|r}
+\text{quantity}&\text{value}\\ \hline
+\text{source symbols}&13\\
+\text{black vertex states }B&568\\
+\text{white vertex states }W&600\\
+\text{state-graph edges}&3632\\
+\text{legal coronas}&4956\\
+\text{congruence classes}&4956\\
+D&1395916800.
+\end{array}
+\]
+Thus the explicit shape-only protoset contains 4,956 pairwise noncongruent
+strictly convex all-obtuse rational hexagons.
+
+\section*{10. Exact artifact}
+
+The retained artifact is
+
+\begin{Verbatim}[fontsize=\small]
+workbench/kc-convex-candidate.mjs
+\end{Verbatim}
+
+It uses \texttt{\detokenize{BigInt}} arithmetic for source floors, displacement coordinates,
+cross products, dot products, squared lengths, and multiplier identities.
+For a chosen winding modulus and phase modulus it enumerates every source
+symbol, collared vertex state, graph edge, and legal corona. For the
+unlifted Kari-Culik instance, replay:
+
+\begin{Verbatim}[fontsize=\small]
+node workbench/kc-convex-candidate.mjs 1 2 100
+\end{Verbatim}
+
+The principal output is:
+
+\begin{Verbatim}[fontsize=\small]
+alphabetSize                       13
+blackCount                        568
+whiteCount                        600
+graphEdgeCount                   3632
+coronaCount                      4956
+congruenceClassCount             4956
+exactConvexityChecks            29736
+exactVectorConsistencyChecks     3632
+exactUniqueLengthChecks          3632
+coordinateFingerprintSha256
+9be30b636e6a103c9360b5ffc7043e7d255df1a7e317da5369d86eb8c79e5fbd
+\end{Verbatim}
+
+The artifact checks:
+
+\begin{enumerate}
+\item the 13 multiplier identities in exact thirds units;
+\item the exact bi-infinite source formulas on the requested finite audit
+   window;
+\item every face cycle is simple;
+\item every exact corner cross product is positive;
+\item every exact interior-ray dot product is negative;
+\item every graph edge has one canonical black-to-white vector;
+\item every graph edge has one squared length;
+\item different graph edges have different squared lengths; and
+\item distinct corona cycles remain distinct under the dihedral action.
+\end{enumerate}
+
+The SHA-256 value is a reproducibility fingerprint over the ordered
+scaled-integer coordinate enumeration. It is not an independent proof
+certificate. The symbolic arguments in Sections 4, 6, 7, and 9 prove the
+infinite statements. The finite artifact checks the consequential finite
+enumerations and catches implementation drift.
+
+\section*{11. Effectivity and scope}
+
+The compiler is a direct finite algorithm:
+
+\begin{enumerate}
+\item enumerate locally legal black and white state triples;
+\item enumerate seven-face legal coronas in each of four phases;
+\item construct the simple compatibility graph \(G\);
+\item index its black and white vertices;
+\item assign the mixed-radix rational displacements;
+\item emit one exact hexagon per dihedral corona class.
+\end{enumerate}
+
+The output cardinality depends on the source alphabet and its local language.
+This theorem supplies no fixed bound on the number of polygons. It is a
+many-polygon compiler and does not settle tileability for any fixed number
+of convex polygons.
+
+If \(a=|A|\), then the four phases give the coarse bounds
+\[
+  B\leq4a^3,\qquad W\leq4a^3,\qquad |P(S)|\leq4a^7.
+\]
+These bounds are sufficient for effectivity and are not intended to be
+sharp. When \(B=0\) or \(W=0\), the algorithm returns the empty protoset
+before defining \(D\).
+
+The construction is also unsuitable as a practical ceramic inventory in its
+current form. Its edge differences may be far below ordinary manufacturing
+tolerances, and the Kari-Culik instance has thousands of prototiles. Those
+facts do not affect the exact tileability theorem, but they delimit its
+material interpretation.
+
+\section*{12. Relation to prior work}
+
+Robinson's 1971 paper announces variable-cardinality undecidability for
+convex lattice-coordinate pentagons or hexagons even with rotations and
+reflections. It does not present that construction in the cited article.
+This prior announcement prevents a broad priority claim for convex-polygon
+undecidability.
+
+Demaine and Langerman give a proved unrestricted-contact compiler using
+three nonconvex polygons. Stade gives a two-polygon compiler with a highly
+concave carrier. Yang and Zhang study translation-only tilings by
+orthogonally convex polyominoes and ask fixed-cardinality questions. These
+results have different output classes and cardinality goals. The result here
+isolates a direct all-obtuse convex-hexagon mechanism.
+
+Convex hexagon tilings can have irregular and non-edge-to-edge behavior in
+other angle regimes. The present contact reduction uses the strict lower
+bound \(\pi/2\) at every corner, rather than a general classification of
+convex hexagon tilings.
+
+\section*{13. Limitations and proof boundary}
+
+The construction advances an output-class and forcing theorem. It does not
+claim a new symbolic hull when instantiated on a known SFT. A faithful
+nonconvex compiler applied to the same source may produce a locally
+equivalent symbolic presentation.
+
+The explicit Kari-Culik instance is large and visually close to an affine
+honeycomb. Its role is to instantiate the theorem with exact data and a
+strongly aperiodic source.
+
+The novelty search behind this draft is finite. Robinson's unpublished
+announcement is a reason to describe the result as an explicit all-obtuse
+construction and proof, without an unconditional historical priority claim.
+
+\section*{References}
+
+\begin{enumerate}
+\item Robert Berger, \emph{The Undecidability of the Domino Problem}, Memoirs of the
+   American Mathematical Society 66, 1966.
+\item Karel Culik II, "An aperiodic set of 13 Wang tiles,"
+   \emph{Discrete Mathematics} 160 (1996), 245-251.
+   \url{https://doi.org/10.1016/S0012-365X(96)00118-5}
+\item Raphael M. Robinson, "Undecidability and nonperiodicity for tilings of the
+   plane," \emph{Inventiones Mathematicae} 12 (1971), 177-209.
+   \url{https://doi.org/10.1007/BF01418780}
+\item Erik D. Demaine and Stefan Langerman, "Tiling with Three Polygons Is
+   Undecidable," SoCG 2025, article 39.
+   \url{https://doi.org/10.4230/LIPIcs.SoCG.2025.39}
+\item Jack Stade, "Two Tiling is Undecidable," 2025.
+   \url{https://arxiv.org/abs/2506.11628}
+\item Chao Yang and Zhujun Zhang, "Undecidability of Translational Tiling with
+   Orthogonally Convex Polyominoes," 2025.
+   \url{https://arxiv.org/abs/2506.12726}
+\item Dirk Frettlöh, Alexey Glazyrin, and Zsolt Lángi, "Hexagon Tilings of the
+   Plane That Are Not Edge-to-Edge," 2019.
+   \url{https://arxiv.org/abs/1911.12752}
+\end{enumerate}
+
+\end{document}
