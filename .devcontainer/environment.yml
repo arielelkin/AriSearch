@@ -1,0 +1,20 @@
+name: arisearch
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - sage=10.9
+  - z3-solver=4.16.0.0
+  - nauty=2.9.3
+  - graphviz
+  - hypothesis
+  - jq
+  - librsvg
+  - matplotlib
+  - numpy
+  - poppler
+  - pytest
+  - ripgrep
+  - pip
+  - pip:
+      - ortools==9.15.6755
