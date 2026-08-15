@@ -4,6 +4,10 @@
     "dockerfile": "Dockerfile",
     "context": ".."
   },
+  "init": true,
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
   "remoteUser": "vscode",
   "containerEnv": {
     "PYTHONDONTWRITEBYTECODE": "1",
@@ -13,12 +17,21 @@
     "vscode": {
       "extensions": [
         "ms-python.python",
-        "ms-toolsai.jupyter"
+        "ms-toolsai.jupyter",
+        "openai.chatgpt",
+        "anthropic.claude-code"
       ],
       "settings": {
         "python.defaultInterpreterPath": "/opt/conda/envs/arisearch/bin/python"
       }
     }
   },
-  "postCreateCommand": "python .devcontainer/verify_tools.py"
+  "postCreateCommand": ".devcontainer/setup-codespaces.sh && python .devcontainer/verify_tools.py",
+  "portsAttributes": {
+    "8000": {
+      "label": "Python HTTP server",
+      "onAutoForward": "notify",
+      "protocol": "http"
+    }
+  }
 }
