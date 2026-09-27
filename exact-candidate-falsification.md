@@ -15,6 +15,10 @@ defining polynomials, embeddings or isolating intervals, exact coefficients,
 and a canonical serialization. Placements are exact orthogonal matrices and
 translations; reflections are permitted.
 
+This algebraic restriction applies only to this search and certificate
+machinery, not to the mathematical target or all admissible tilings. Any
+claim of completeness beyond that domain requires a separate proof.
+
 Implement in Sage only the predicates required by the active search:
 
 * orientation, convexity, and containment;

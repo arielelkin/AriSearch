@@ -1,6 +1,6 @@
 # Two Convex Tiles
 
-An autonomous search for two unmarked convex polygons that tile the plane only aperiodically.
+An autonomous attempt to construct two unmarked convex polygons that tile the plane only aperiodically, or prove that no such pair exists.
 
 Open the repository in its dev container, then give [`main_prompt.md`](main_prompt.md) to a research agent. The target and procedure are defined in [`research-problem.md`](research-problem.md) and [`research-protocol.md`](research-protocol.md).
 

@@ -11,7 +11,7 @@ Begin by creating or resuming `discovery-log.md`. Preserve the distinction betwe
 * working research state in `discovery-log.md`;
 * stable proved lemmas in self-contained files under `research/lemmas/`;
 * computational searches and certificates under `research/`;
-* the final result, which exists only if every acceptance gate in `research-problem.md` is satisfied.
+* the final result, which exists only if every applicable acceptance gate in `research-problem.md` is satisfied, for either a construction or an impossibility theorem.
 
 Do not weaken the mathematical target because of computational or context limits. Do not promote partial results as a resolution. Follow the actual-limit termination rule in `research-protocol.md` when necessary.
 

@@ -4,8 +4,9 @@
 
 Find two unmarked convex polygons whose geometry alone permits tilings of the
 Euclidean plane, but permits no tiling with a nonzero translational symmetry.
-The result must be an explicit construction with a complete proof, plausibly
-new within a documented literature-search boundary.
+Resolve this by an explicit construction or a complete proof that no such
+pair exists under the definitions below. Either result must have a complete
+proof and be plausibly new within a documented literature-search boundary.
 
 ## Definitions
 
@@ -28,12 +29,17 @@ favored substitution, hierarchy, generator, or local-isomorphism class.
 
 ## Acceptance criteria
 
-A successful result must include:
+A successful construction must satisfy criteria 1–6. A successful
+impossibility theorem must prove that every pair in the defined class either
+admits no plane tiling or admits a tiling with a nonzero translational
+symmetry, and must satisfy criteria 4–6. Excluding only a restricted candidate
+family does not establish impossibility.
 
 1. **Exact tiles.** Give finite exact definitions of `A` and `B`; algebraic
    coordinates must include defining data sufficient for exact verification.
 2. **Existence.** Prove that the shapes tile the entire plane. Arbitrarily
-   large finite patches are insufficient.
+   large finite patches alone are insufficient; a rigorous compactness or
+   extension argument may establish plane tilability.
 3. **Shape-only forcing.** Prove that every admitted tiling is nonperiodic,
    including tilings using reflections, partial-edge contacts, unintended
    assemblies, or only one prototile type.
@@ -49,9 +55,9 @@ A successful result must include:
    hostile reviews under `research/` as specified by `research-protocol.md`.
 
 Symbolic matching rules, substitutions, recompositions, SAT/SMT searches, and
-known aperiodic tiles may be used as intermediate tools. They count only if
-the final two convex unmarked shapes enforce the claimed structure without
-supplementary rules.
+known aperiodic tiles may be used as intermediate tools. For a construction,
+the final two convex unmarked shapes must enforce the claimed structure
+without supplementary rules.
 
 ## Non-results
 
@@ -62,8 +68,14 @@ The following do not resolve the problem:
 * a finite patch, numerical coincidence, or visually persuasive rendering;
 * a candidate with an unproved extension, recognizability, or forcing lemma;
 * a bounded search with no periodic witness;
-* a known construction, literature survey, or research framework; or
+* a known result, literature survey, or research framework; or
 * a weaker theorem obtained by silently changing the definitions above.
 
 Conduct the search and preserve partial progress according to
 `research-protocol.md`. Do not present partial progress as a solution.
+
+## No-result response
+
+Begin with **Unresolved**. State the limit requiring termination, established
+results, exact remaining gaps, artifact paths, and concrete next research
+steps. Checkpoint the restart state in `discovery-log.md` before responding.

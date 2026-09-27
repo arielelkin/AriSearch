@@ -358,6 +358,9 @@ Do not use “proved” for a numerical pattern, renderer output, solver search 
 ## 10. Computational environment
 
 The reproducible Linux environment is defined by `.devcontainer/`.
+Follow `AGENTS.md` to run tools in the `arisearch` Conda environment; the
+default shell may use the base environment. This applies to delegated agents
+as well as the root agent.
 `environment.yml` is the human-edited dependency specification, and
 `conda-lock.yml` is the generated, fully resolved `linux-64` lockfile consumed
 by the Docker build. Do not edit the lockfile manually. After changing
@@ -376,7 +379,7 @@ Commit the specification and regenerated lockfile together, rebuild the
 container, and run:
 
 ```text
-python .devcontainer/verify_tools.py
+conda run --no-capture-output -n arisearch python3 .devcontainer/verify_tools.py
 ```
 
 Use Python or Sage scripts under `research/` for computation. The core tools
@@ -696,11 +699,18 @@ Do not stop merely because:
 
 Continue launching fresh rounds, preserving incompatible approaches, and redirecting away from blocked mechanisms.
 
-Spend at least the minimum active research time stated in `research-problem.md`, if one is specified, before considering a no-result termination.
+Monitor token usage when available and reserve capacity for checkpointing,
+artifact preservation, and the final response. Without telemetry, checkpoint
+after each substantial result and continue until the target is resolved or
+an explicit limit signal requires stopping. Do not invent token counts or
+infer exhaustion from elapsed time, difficulty, or lack of progress.
+Context compaction alone is not token-budget exhaustion; resume from the
+checkpoint when execution can continue.
 
 Do not claim to have spent time that was not actually available.
 
-If an actual execution, tool, or context limit forces termination before a solution is found:
+If an actual token, execution, tool, or context limit requires termination
+before a solution is found, perform these steps before exhausting capacity:
 
 * do not disguise partial progress as success;
 * checkpoint `discovery-log.md`;
@@ -735,4 +745,4 @@ Read `research-problem.md` and the current repository state.
 
 Create or resume `discovery-log.md`.
 
-Build an independent, mechanism-diverse initial portfolio. Launch exact computations early when justified. Preserve all substantial results in self-contained artifacts, keep hostile review active, and continue until the mathematical target is resolved or a real execution limit is reached.
+Build an independent, mechanism-diverse initial portfolio. Launch exact computations early when justified. Preserve all substantial results in self-contained artifacts, keep hostile review active, and continue until the mathematical target is resolved or a real limit requires graceful termination under Section 19.
