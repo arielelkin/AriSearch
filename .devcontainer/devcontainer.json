@@ -26,7 +26,7 @@
       }
     }
   },
-  "postCreateCommand": ".devcontainer/setup-codespaces.sh && python .devcontainer/verify_tools.py",
+  "postCreateCommand": ".devcontainer/setup-codespaces.sh && conda run --no-capture-output -n arisearch python .devcontainer/verify_tools.py",
   "portsAttributes": {
     "8000": {
       "label": "Python HTTP server",
