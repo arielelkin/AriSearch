@@ -63,7 +63,7 @@ Prefer experiments with high expected information gain, e.g. a cheap counterexam
 
 ## 4. Multiagent research strategy
 
-Use available agent delegation aggressively and dynamically when tasks can be made genuinely independent, adversarial, specialized, or mechanically verifiable.
+Use available agent delegation aggressively and dynamically when tasks can be made genuinely independent, adversarial, specialized, or mechanically verifiable Select the most suitable available model for each subagent, balancing task complexity, required reasoning depth, speed, and cost.
 
 Do not use a fixed allocation such as a predetermined number of agents for each approach.
 
