@@ -1,0 +1,605 @@
+{
+  "relative_choices": 24,
+  "results": [
+    {
+      "angle_rank": 12,
+      "charge_flip": 0,
+      "chirality": 1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 0
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 1,
+      "chirality": 1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 0
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 0,
+      "chirality": -1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 0
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 1,
+      "chirality": -1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 0
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 0,
+      "chirality": 1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 1
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 1,
+      "chirality": 1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 1
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 0,
+      "chirality": -1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 1
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 1,
+      "chirality": -1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 1
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 0,
+      "chirality": 1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 2
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 1,
+      "chirality": 1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 2
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 0,
+      "chirality": -1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 2
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 1,
+      "chirality": -1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 2
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 0,
+      "chirality": 1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 3
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 1,
+      "chirality": 1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 3
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 0,
+      "chirality": -1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 3
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 1,
+      "chirality": -1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 3
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 0,
+      "chirality": 1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 4
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 1,
+      "chirality": 1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 4
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 0,
+      "chirality": -1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 4
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 1,
+      "chirality": -1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 4
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 0,
+      "chirality": 1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 5
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 1,
+      "chirality": 1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 5
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 0,
+      "chirality": -1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 5
+    },
+    {
+      "angle_rank": 12,
+      "charge_flip": 1,
+      "chirality": -1,
+      "compatible_ordered_flag_pairs": 240,
+      "distinct_angle_rows_including_sums": 98,
+      "forced_length_classes": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      ],
+      "legal_ordered_triples": 1056,
+      "shift": 5
+    }
+  ]
+}
