@@ -1,5 +1,10 @@
 # Hostile review: Walton state-assignment exhaustion
 
+**Re-review status:** this record includes repairs or extensions made during
+review. A separate independent review of the resulting version is not
+established by the retained record and remains pending under
+[protocol Section 8.2](../../research-protocol.md#82-review-artifacts).
+
 **Artifact reviewed:** [walton-encoding-reconnaissance.md](../searches/walton-encoding-reconnaissance.md).
 
 **Object reviewed:** [research/searches/walton_state_assignment_rank.py](../searches/walton_state_assignment_rank.py) and

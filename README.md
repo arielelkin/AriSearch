@@ -12,13 +12,14 @@ mounts survive container deletion and rebuilds.
 
 The [current discovery log](discovery-log.md) is the restart entry point. The
 problem remains unresolved; both recorded exact pentagon–hexagon pairs are
-falsified. See [the artifact guide](research/README.md) for proof organization,
-review coverage, reproduction limits, and historical checkpoints.
+falsified. The discovery log indexes the subject-specific proofs, exact
+searches, certificates, literature findings, and reviews under `research/`,
+including verification scope and remaining research obligations.
 
 Replay all retained certificates without overwriting them:
 
 ```text
-conda run --no-capture-output -n arisearch python3 research/verify.py
+conda run --no-capture-output -n arisearch python3 research/searches/verify.py
 ```
 
 Inspired by DeepMind's [FunSearch](https://deepmind.google/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/) and OpenAI's [Cycle Double Cover prompt](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_prompt.pdf).

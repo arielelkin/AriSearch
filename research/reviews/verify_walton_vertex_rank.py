@@ -24,7 +24,7 @@ def rank(rows):
     return r
 
 
-data = json.loads(Path(__file__).with_name("walton_vertex_rank_certificate.json").read_text())
+data = json.loads((Path(__file__).resolve().parents[1] / "certificates" / "walton_vertex_rank_certificate.json").read_text())
 rows = data["basis_rows"]
 assert len(rows) == 12
 assert all(len(row) == 12 and all(isinstance(x, int) and 0 <= x <= 6 for x in row)

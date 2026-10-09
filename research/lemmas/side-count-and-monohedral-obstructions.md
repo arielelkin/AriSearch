@@ -1,8 +1,10 @@
 # Side count and monohedral obstructions
 
-**Status:** elementary monohedral and torus arguments checked internally;
-global side-count argument adversarially reviewed. These are necessary
-conditions, not a resolution of the two-tile problem.
+**Status:** Proved internally. The global side-count argument was repaired
+after hostile review; independent re-review of the repaired version is
+pending. The elementary monohedral and torus arguments have no separate
+hostile-review record. These are necessary conditions, not a resolution
+of the two-tile problem.
 
 **Definitions:** use the unrestricted tilings and genuine polygon sides of
 [the research problem](../../research-problem.md). The global side-count proof defines the

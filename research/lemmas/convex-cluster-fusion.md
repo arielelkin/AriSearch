@@ -1,8 +1,9 @@
 # Convex-cluster fusion lemma
 
-**Status:** Adversarially reviewed.  The review required the exact-patch,
-unrestricted-isometry, tile-level-partition, and distinct-class hypotheses
-now stated here.  See [research/reviews/convex-cluster-fusion-review.md](../reviews/convex-cluster-fusion-review.md).
+**Status:** Conditional lemma proved internally; repaired after hostile
+review; independent re-review of the repaired version is pending. The
+exact-patch, unrestricted-isometry, tile-level-partition, and distinct-class
+hypotheses required by that review are now stated here. See [research/reviews/convex-cluster-fusion-review.md](../reviews/convex-cluster-fusion-review.md).
 
 ## Statement
 

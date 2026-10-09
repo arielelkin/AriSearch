@@ -1,6 +1,8 @@
 # Angle-nonresonance forcing of edge-to-edge contacts
 
-**Status:** proved.
+**Status:** Proved internally; repaired after hostile review to include
+isolated point contacts; independent re-review of the repaired version is
+pending.
 
 **Review:** [angle-nonresonance-review](../reviews/angle-nonresonance-review.md).
 

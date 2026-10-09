@@ -99,25 +99,15 @@ corners 3 and 4, while there is no hexagon-only row.  Since angle
 nonresonance forces edge-to-edge contact, this closes the monohedral gate for
 any exact positive closure with this partition.
 
-## Search provenance and reproduction boundary
+## Exact replay and scope
 
-The original notes attribute this partition to seeded randomized enumeration
-of cyclic orders and flips, followed by a numerical positive-kernel check.
-Neither the seed nor the randomized generator was retained. Discovery of the
-partition is therefore not reproducible from these artifacts. The retained
-fixed partition, exact positive closure, local enumeration, and later
-falsification are reproducible; no missing seed should be invented.
-
-The former proposed 12-pentagon/6-hexagon torus search is superseded. The
-full nine-row language already fails a necessary two-ended-edge condition,
-so expanding the six-row support or searching larger maps cannot rescue
-these shapes. A future branch must change the angle data or side partition
-and enforce both endpoints of every edge before testing global existence.
+The retained evidence verifies the fixed partition and exact closure below;
+it does not certify how the partition was discovered or a global tiling.
 
 The discrete claims above replay without SciPy or floating point:
 
 ```text
-conda run --no-capture-output -n arisearch python3 research/verify.py
+conda run --no-capture-output -n arisearch python3 research/searches/verify.py
 ```
 
 The runner replays [the original local verifier](joint_5_6_local_verify.py),
@@ -139,7 +129,6 @@ pass leaves 12 configurations on rows `(2,4,10)` and `(3,8,9)`; the second
 leaves none. Every vertex of an actual tiling would survive every pass, so
 these polygons cannot tile the plane. Reflections are included.
 
-The earlier periodic-hexagon-chain argument was conditional on a tiling
-existing. It is superseded as a restart action by this stronger obstruction;
-its original wording is preserved in the [historical checkpoint](../runs/2026-10-02-checkpoint.md).
-No torus search or chain-synchronization proof is needed for this pair.
+This obstruction proves untileability for the stated exact shapes. It does
+not exclude other partitions or angle data; see the current discovery log
+for the remaining mechanism and restart conditions.

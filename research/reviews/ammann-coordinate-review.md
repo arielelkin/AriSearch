@@ -1,6 +1,11 @@
 # Hostile review: Ammann coordinate and count calculation
 
-**Artifact reviewed:** [ammann-coordinate-parameterization.md](../searches/ammann-coordinate-parameterization.md).
+**Re-review status:** this record includes repairs or extensions made during
+review. A separate independent review of the resulting version is not
+established by the retained record and remains pending under
+[protocol Section 8.2](../../research-protocol.md#82-review-artifacts).
+
+**Artifact reviewed:** [ammann-coordinate-parameterization.md](../lemmas/ammann-coordinate-parameterization.md).
 
 **Date:** 2026-10-02
 **Verdict:** Coordinate formulas valid as a multibranch parameterization;

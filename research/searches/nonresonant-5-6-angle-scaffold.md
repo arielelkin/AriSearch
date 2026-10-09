@@ -4,7 +4,7 @@
 escapes are excluded, but the displayed exact side-length choice is locally
 untileable.  It is therefore a falsified candidate, not a solution.
 
-The later [joint side-partition replacement](joint-5-6-restart.md) is also
+The later [joint side-partition replacement](joint-5-6-synthesis.md) is also
 falsified, by a two-ended-edge check. Use [the current log](../../discovery-log.md)
 for restart decisions; the calculations below retain the original failure.
 
@@ -165,19 +165,10 @@ changing arbitrary closure lengths after the angle search is unsound.
 ## Replay and exact boundary
 
 ```text
-conda run --no-capture-output -n arisearch python3 research/verify.py
+conda run --no-capture-output -n arisearch python3 research/searches/verify.py
 ```
 
 The script uses integer angle units and rational incidence weights.  It
 enumerates every possible half-plane sum, every 3--5-valent full-angle sum,
 and verifies all eleven labelled marginals and curvature.  It does not use
 floating point and does not search for a global tiling.
-
-## Remaining obligations
-
-1. Redesign the side-length equality pattern jointly with the incidence
-   rows; the displayed exact polygons admit no tiling.
-2. Restrict the many extra $360^\circ$ multisets listed in the certificate;
-   the six selected rows are not the full geometry-admitted vertex language.
-3. Prove every tiling in the resulting unrestricted geometric language is
-   nonperiodic.  The present incidence certificate says nothing about that.

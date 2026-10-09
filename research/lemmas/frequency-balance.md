@@ -1,6 +1,7 @@
 # Necessary frequency balance for polygon tilings
 
-**Status:** adversarially reviewed necessary real-frequency certificate.
+**Status:** Proved necessary real-frequency conditions; repaired after
+hostile review; independent re-review of the repaired version is pending.
 Feasibility does not establish edge pairing, a plane tiling, or periodicity.
 
 **Dependencies:** [the research problem](../../research-problem.md) supplies

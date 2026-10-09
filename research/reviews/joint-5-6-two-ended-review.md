@@ -4,7 +4,7 @@
 
 ## Claim and dependencies
 
-The [joint synthesis](../searches/joint-5-6-restart.md) defines two exact
+The [joint synthesis](../searches/joint-5-6-synthesis.md) defines two exact
 strictly convex polygons. The original
 [local verifier](../searches/joint_5_6_local_verify.py) certifies their positive
 closure and five distinct side-length classes. Angle nonresonance forces
@@ -51,7 +51,7 @@ from native side endpoints. It does not import the original star enumerator.
 Run the repository-wide command from the repository root:
 
 ```text
-conda run --no-capture-output -n arisearch python3 research/verify.py
+conda run --no-capture-output -n arisearch python3 research/searches/verify.py
 ```
 
 The runner also accepts an absolute script path from another working directory.

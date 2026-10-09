@@ -1,8 +1,11 @@
 # Hexagon limits and conditional periodicity
 
-**Status:** the higher-side exclusion, defect-free limit, honeycomb reduction,
-contact-density bound, and conditional deterministic-state result have recorded
-adversarial reviews. None proves periodicity for arbitrary two-hexagon tilings.
+**Status:** Proved internally, with claim-specific hostile-review records.
+The higher-side exclusion, defect-free limit, and conditional deterministic-
+state result were repaired during review; independent re-review of those
+repaired claims is pending. The honeycomb and contact-density claims retain
+their recorded reviews. None proves periodicity for arbitrary two-hexagon
+tilings.
 
 **Dependencies and shared definitions:**
 [side-count and monohedral obstructions](side-count-and-monohedral-obstructions.md)

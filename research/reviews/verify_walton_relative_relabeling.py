@@ -62,7 +62,7 @@ def rational_rank(rows):
     return rank
 
 
-certificate = json.loads(Path(__file__).with_name(
+certificate = json.loads((Path(__file__).resolve().parents[1] / "certificates" /
     "walton_relative_relabeling_rank_certificate.json").read_text())
 assert certificate["relative_choices"] == 24
 expected = {(r["shift"], r["chirality"], r["charge_flip"]): r

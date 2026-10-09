@@ -1,8 +1,16 @@
 # Ammann convex recomposition: exact parameterization and conditional counts
 
-**Status:** Coordinate formulas proved and adversarially checked.  Aggregate
-frequency calculation is conditional on the explicitly listed graph and
-ergodic hypotheses.  This is not an exact two-tile candidate.
+**Status:** Proved coordinate formulas and conditional frequency calculation.
+Repairs from the recorded hostile review are incorporated; independent
+re-review of the repaired artifact is pending. The graph counts below are
+explicit hypotheses, not certified diagram data. This is not an exact
+two-tile candidate.
+
+**Review:** [coordinate and count review](../reviews/ammann-coordinate-review.md).
+
+**Dependencies:** the source relations in Figure 4 cited below and the
+standard Penrose thick:thin ratio; the graph and van-Hove hypotheses for
+the count calculation are explicitly conditional.
 
 ## Algebraic coordinate parameterization
 
@@ -61,21 +69,36 @@ Thus these formulas parameterize the diagram but do not select exact tiles.
 
 ## Conditional aggregate face count
 
-Let \(t,T\) count thin and thick source rhombi in a van-Hove patch.  Reading
-the intended marking graph gives three internal segments per thin rhombus and
-five per thick rhombus, hence
+Let \(t,T\) count thin and thick source rhombi in a van-Hove patch.
+Assume its recomposition is represented by a connected finite plane marking
+graph with edge count \(E\) and vertex count \(V\) satisfying
 
 \[
-E=3t+5T+O(\partial).
+E=3t+5T+O(\partial),\qquad V=2t+3T+O(\partial).
 \]
 
-If the recomposition is edge-to-edge, every graph edge is exactly one native
-side of a final pentagon or hexagon, no straight vertex is suppressed, and
-boundary-crossing faces contribute only \(O(\partial)\), write \(h,p\) for
-the final hexagon and total-pentagon counts.  Then
+These are additional incidence-count hypotheses for the intended graph.
+The distance equations above do not establish either count. An exact marking
+and vertex-incidence table is needed before applying them to a source tiling.
+Here \(O(\partial)\) bounds boundary corrections, which must be negligible
+relative to \(t+T\) along the chosen van-Hove sequence.
+
+Let \(F\) be the graph's number of bounded faces. Euler's formula for a
+connected finite plane graph gives \(V-E+F=1\), hence
 
 \[
-h+p=t+2T+O(\partial),\qquad
+F=E-V+1=t+2T+O(\partial).
+\]
+
+Assume also that its bounded faces correspond to final pentagons and hexagons
+up to \(O(\partial)\) boundary faces; every graph edge is exactly one native
+side of an incident final polygon; the recomposition is edge-to-edge; and no
+straight vertex is suppressed. Write \(h,p\) for the final hexagon and
+total-pentagon counts. Face correspondence and edge-incidence counting then
+give
+
+\[
+h+p=F+O(\partial)=t+2T+O(\partial),\qquad
 6h+5p=2E+O(\partial)=6t+10T+O(\partial).
 \]
 

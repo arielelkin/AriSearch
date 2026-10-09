@@ -3,6 +3,9 @@
 **Status:** Proved.  These are local obstructions, not an impossibility
 theorem for nonlocal geometric encodings.
 
+**Review status:** internally checked; no independent hostile-review record
+is retained for these claims.
+
 ## Carrier-preserving obstruction
 
 Suppose an encoding replaces a decorated convex carrier \(C\) by an unmarked

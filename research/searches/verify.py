@@ -10,8 +10,9 @@ from pathlib import Path
 import subprocess
 import sys
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 SEARCHES = ROOT / "research/searches"
+CERTIFICATE_DIR = ROOT / "research/certificates"
 CERTIFICATES = (
     ("walton_vertex_rank.py", "walton_vertex_rank_certificate.json"),
     ("walton_relative_relabeling_rank.py", "walton_relative_relabeling_rank_certificate.json"),
@@ -20,8 +21,8 @@ CERTIFICATES = (
     ("joint_5_6_local_verify.py", "joint_5_6_local_certificate.json"),
 )
 VERIFIERS = (
-    ROOT / "research/searches/verify_walton_vertex_rank.py",
-    ROOT / "research/searches/verify_walton_relative_relabeling.py",
+    ROOT / "research/reviews/verify_walton_vertex_rank.py",
+    ROOT / "research/reviews/verify_walton_relative_relabeling.py",
     ROOT / "research/reviews/verify_joint_5_6_two_ended.py",
 )
 
@@ -43,7 +44,7 @@ def main():
     failures = []
     for script, certificate in CERTIFICATES:
         try:
-            expected = json.loads((SEARCHES / certificate).read_text())
+            expected = json.loads((CERTIFICATE_DIR / certificate).read_text())
             actual = json.loads(run(SEARCHES / script))
             if actual != expected:
                 raise ValueError(f"generated JSON differs from {certificate}")

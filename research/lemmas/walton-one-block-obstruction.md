@@ -3,6 +3,12 @@
 **Status:** proved, conditional only on the explicitly stated compiler model;
 the finite claims have replayable exact certificates.
 
+**Review coverage:** the underlying finite searches have
+[vertex](../reviews/walton-vertex-rank-review.md) and
+[state-assignment/relabeling](../reviews/walton-state-assignment-review.md)
+reviews. The group-theoretic upgrade below has no separate whole-claim
+hostile-review record.
+
 ## Theorem
 
 Consider a compiler from the Walton--Whittaker decorated regular hexagon to
@@ -59,7 +65,7 @@ lattice-periodic monohedral tiling.  Since a tiling by the pair may omit the
 other prototile, aperiodicity fails.  This proves the theorem.
 
 The exact output is retained as
-[research/searches/walton_relative_relabeling_rank_certificate.json](../searches/walton_relative_relabeling_rank_certificate.json).
+[research/certificates/walton_relative_relabeling_rank_certificate.json](../certificates/walton_relative_relabeling_rank_certificate.json).
 
 ## Why this does not solve the research problem
 

@@ -1,5 +1,10 @@
 # Hostile review: angle-nonresonance edge forcing
 
+**Re-review status:** this record includes repairs or extensions made during
+review. A separate independent review of the resulting version is not
+established by the retained record and remains pending under
+[protocol Section 8.2](../../research-protocol.md#82-review-artifacts).
+
 **Artifact reviewed:** [angle-nonresonance-edge-forcing.md](../lemmas/angle-nonresonance-edge-forcing.md).
 
 **Date:** 2026-10-02

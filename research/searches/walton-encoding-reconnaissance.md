@@ -2,7 +2,9 @@
 
 **Status:** Certified exact falsification of the natural tile/mirror compiler
 described below, with recorded hostile reviews of the vertex transcription
-and state-assignment extension. This does not exhaust alternative compilers.
+and state-assignment extension. The certificates remain exact finite evidence;
+independent re-review of the repaired or extended argument is pending.
+This does not exhaust alternative compilers.
 See [vertex review](../reviews/walton-vertex-rank-review.md) and
 [state-assignment review](../reviews/walton-state-assignment-review.md).
 
@@ -48,7 +50,7 @@ is falsified.
 ## Replay and certificate
 
 ```text
-conda run --no-capture-output -n arisearch python3 research/verify.py
+conda run --no-capture-output -n arisearch python3 research/searches/verify.py
 ```
 
 The search and verifier use exact integer/rational arithmetic.  The retained
@@ -85,7 +87,7 @@ at a shared edge exactly as stated there.
    ((1+z^5)(1-e^{it})).  Convexity puts (t) strictly between
    (-\pi/3) and \(\pi/3\), so closure forces (t=0).  Thus this entire
    assignment family also collapses to the regular hexagon.  The certificate
-   is [walton_state_assignment_rank_certificate.json](walton_state_assignment_rank_certificate.json).
+   is [walton_state_assignment_rank_certificate.json](../certificates/walton_state_assignment_rank_certificate.json).
 2. The certificate kills both angle and length discrimination only for the
    requirement that **all** locally legal source contacts/triples be retained.
    A nonempty aperiodic sublanguage might use fewer local configurations.
@@ -111,8 +113,8 @@ choice the full 24-flag enumeration has exactly 1,056 legal ordered triples,
 angle rank 12, and one forced side-length class containing all twelve slots.
 Thus changing the relative phase, handedness, or global charge of the two
 compiled words does not evade the regular-hexagon collapse.  The exact JSON
-certificate is [walton_relative_relabeling_rank_certificate.json](walton_relative_relabeling_rank_certificate.json).
+certificate is [walton_relative_relabeling_rank_certificate.json](../certificates/walton_relative_relabeling_rank_certificate.json).
 The separately implemented
-[verify_walton_relative_relabeling.py](verify_walton_relative_relabeling.py) reconstructs all 24 languages, checks
+[verify_walton_relative_relabeling.py](../reviews/verify_walton_relative_relabeling.py) reconstructs all 24 languages, checks
 their rational ranks and union-find length classes, and compares every count
 with the retained certificate.

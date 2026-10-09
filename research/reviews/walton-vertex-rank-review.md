@@ -1,5 +1,10 @@
 # Hostile review: Walton vertex-rank transcription
 
+**Re-review status:** this record includes repairs or extensions made during
+review. A separate independent review of the resulting version is not
+established by the retained record and remains pending under
+[protocol Section 8.2](../../research-protocol.md#82-review-artifacts).
+
 **Artifact reviewed:** [walton-encoding-reconnaissance.md](../searches/walton-encoding-reconnaissance.md).
 
 **Date:** 2026-10-02
