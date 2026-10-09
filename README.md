@@ -4,6 +4,12 @@ An autonomous attempt to construct two unmarked convex polygons that tile the pl
 
 Open the repository in its dev container, then give [`main_prompt.md`](main_prompt.md) to a research agent. The target and procedure are defined in [`research-problem.md`](research-problem.md) and [`research-protocol.md`](research-protocol.md).
 
+The devcontainer persists Codex and Claude state on the host under
+`~/.agent-state/<checkout-folder>/`, including Claude's `.claude.json`.
+VS Code server files are shared through `~/.vscode-server`, with workspace
+state isolated in `~/.vscode-server-workspaces/<checkout-folder>/`. These
+mounts survive container deletion and rebuilds.
+
 The [current discovery log](discovery-log.md) is the restart entry point. The
 problem remains unresolved; both recorded exact pentagon–hexagon pairs are
 falsified. See [the artifact guide](research/README.md) for proof organization,
