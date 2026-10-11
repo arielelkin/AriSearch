@@ -102,6 +102,7 @@ provide an obstruction when infeasible.
 ## Retained rational certificate
 
 [The exact certificate](../certificates/partial-contact-cairo-alternate-fac-guided-slot-edge-dual.json.xz)
+(xz-compressed; `xz -dk` to read)
 contains the variant list,104 indexed corners,8253 oriented stars, all corner
 counts and signed seam features, and rational vectors W,Y satisfying
 
