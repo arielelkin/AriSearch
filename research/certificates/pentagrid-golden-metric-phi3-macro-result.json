@@ -1,0 +1,74 @@
+{
+  "question": "Partition one phi^3 U parent into five U and eight V at b=c=1",
+  "arithmetic": "exact QF_NRA; phi^2-phi-1=0,3/2<phi<5/3; coordinates in basis(1,z), z=exp(pi*i/5)",
+  "child_count": 13,
+  "child_types": [
+    "U",
+    "U",
+    "U",
+    "U",
+    "U",
+    "V",
+    "V",
+    "V",
+    "V",
+    "V",
+    "V",
+    "V",
+    "V"
+  ],
+  "orientation_domain": "10 reference rotations z^k, k0..9; reflections covered by certified intrinsic symmetries",
+  "raw_remaining_orientation_assignments": 1000000000000,
+  "translation_domain": "arbitrary real coordinates in basis(1,z); no grid, rational denominator, or edge-to-edge assumption",
+  "anchor": "child0 U orientation0, x=(phi^3-1)*phi^3, y=0, its unique36 corner at parent36 corner",
+  "symmetry_reductions": "sort x translations of unanchored U copies and of V copies; no physical placements excluded",
+  "constraints": {
+    "containment_halfplanes": 65,
+    "unordered_polygon_pairs": 78,
+    "separation_axes_per_pair": 5
+  },
+  "intrinsic_reflections": {
+    "U": {
+      "rotation_factor": [
+        "1",
+        "-1",
+        "1",
+        "-1"
+      ],
+      "translation": [
+        "0",
+        "1",
+        "1",
+        "1"
+      ],
+      "vertex_index_map": "j -> (2-j) mod5"
+    },
+    "V": {
+      "rotation_factor": [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      "translation": [
+        "-2",
+        "2",
+        "0",
+        "4"
+      ],
+      "vertex_index_map": "j -> (3-j) mod5"
+    }
+  },
+  "area_identity_exact": true,
+  "solver_timeout_ms": 120000,
+  "random_seed": 0,
+  "z3_version": "4.16.0",
+  "formula_sha256": "92a78e9028b41707d5ab306f28faf76d1449703e6be0929f13d576fcec964727",
+  "formula_bytes": 781096,
+  "build_seconds": 2.3345171109976945,
+  "solver_seconds": 120.20563771300658,
+  "solver_result": "unknown",
+  "solver_statistics": "(:added-eqs                       1611139\n :arith-eq-adapter                9459\n :arith-bound-propagations-lp     609601\n :arith-conflicts                 8550\n :arith-diseq                     524450\n :arith-fixed-eqs                 76012\n :arith-grobner-calls             72\n :arith-horner-calls              134\n :arith-horner-conflicts          9\n :arith-horner-cross-nested-forms 41784\n :arith-lower                     592307\n :arith-make-feasible             155303\n :arith-max-columns               2142\n :arith-max-rows                  1924\n :arith-nla-add-bounds            109\n :arith-nla-lemmas                4504\n :arith-nla-propagate-bounds      2436\n :arith-nla-propagate-eq          245\n :arith-nla-throttled-lemmas      119\n :arith-nra-calls                 80\n :arith-offset-eqs                703937\n :arith-upper                     422655\n :binary-propagations             1334831\n :cnf-encoding-aux-vars           42\n :conflicts                       2829\n :decisions                       1963730\n :del-clause                      23926\n :final-checks                    1490\n :levelwise-calls                 17462\n :max-memory                      85.55\n :memory                          59.02\n :minimized-lits                  700\n :mk-bool-var                     39141\n :mk-clause                       27991\n :mk-clause-binary                6772\n :nlsat-conflicts                 6198\n :nlsat-decisions                 1989\n :nlsat-irrational-assignments    231446\n :nlsat-propagations              852601\n :nlsat-stages                    634532\n :num-allocs                      832616166073.00\n :num-checks                      1\n :pb-conflicts                    3\n :pb-predicates                   12\n :pb-propagations                 39735\n :pb-resolves                     3\n :propagations                    1681241\n :restarts                        23\n :rlimit-count                    200915989\n :solve-eqs-elim-vars             84\n :solve-eqs-steps                 105\n :time                            120.20)",
+  "completion_status": "unknown",
+  "reason_unknown": "timeout"
+}

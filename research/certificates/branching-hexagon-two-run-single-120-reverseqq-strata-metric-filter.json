@@ -1,0 +1,258 @@
+{
+  "source_strata": "branching-hexagon-two-run-single-120-reverseqq-strata-slot-balance.json",
+  "four_linear_infeasible_flats_force_delta0": true,
+  "all48_envelope_samples_verified_exact": true,
+  "all14_SAT_phase_filters": [
+    {
+      "stratum_index": 12,
+      "forced_phase_conditions": [
+        "beta120"
+      ],
+      "active_exception_equations": [
+        1,
+        6,
+        9
+      ],
+      "actual_metric_possible": false,
+      "actual_branches": []
+    },
+    {
+      "stratum_index": 13,
+      "forced_phase_conditions": [
+        "beta120"
+      ],
+      "active_exception_equations": [
+        0,
+        6,
+        8
+      ],
+      "actual_metric_possible": false,
+      "actual_branches": []
+    },
+    {
+      "stratum_index": 14,
+      "forced_phase_conditions": [
+        "beta120"
+      ],
+      "active_exception_equations": [
+        4,
+        6,
+        12
+      ],
+      "actual_metric_possible": false,
+      "actual_branches": []
+    },
+    {
+      "stratum_index": 21,
+      "forced_phase_conditions": [
+        "beta_plus_rho180"
+      ],
+      "active_exception_equations": [
+        11
+      ],
+      "actual_metric_possible": false,
+      "actual_branches": []
+    },
+    {
+      "stratum_index": 22,
+      "forced_phase_conditions": [
+        "beta_plus_rho180"
+      ],
+      "active_exception_equations": [
+        0,
+        11
+      ],
+      "actual_metric_possible": false,
+      "actual_branches": []
+    },
+    {
+      "stratum_index": 23,
+      "forced_phase_conditions": [
+        "beta_plus_rho180"
+      ],
+      "active_exception_equations": [
+        2,
+        11
+      ],
+      "actual_metric_possible": false,
+      "actual_branches": []
+    },
+    {
+      "stratum_index": 24,
+      "forced_phase_conditions": [
+        "beta_plus_rho180"
+      ],
+      "active_exception_equations": [
+        1,
+        7,
+        11,
+        13
+      ],
+      "actual_metric_possible": false,
+      "actual_branches": []
+    },
+    {
+      "stratum_index": 25,
+      "forced_phase_conditions": [
+        "beta_plus_rho180"
+      ],
+      "active_exception_equations": [
+        4,
+        5,
+        11
+      ],
+      "actual_metric_possible": false,
+      "actual_branches": []
+    },
+    {
+      "stratum_index": 38,
+      "forced_phase_conditions": [
+        "rho60"
+      ],
+      "active_exception_equations": [
+        3
+      ],
+      "actual_metric_possible": true,
+      "actual_branches": [
+        {
+          "beta": 60,
+          "delta_domain": "0<delta<30,delta!=15",
+          "active_equations": [
+            3
+          ],
+          "positive_transfer": "reflectB to reviewed complementaryppcone atalpha60"
+        }
+      ]
+    },
+    {
+      "stratum_index": 39,
+      "forced_phase_conditions": [
+        "beta120",
+        "rho60",
+        "beta_plus_rho180"
+      ],
+      "active_exception_equations": [
+        3,
+        6,
+        11
+      ],
+      "actual_metric_possible": true,
+      "actual_branches": [
+        {
+          "beta": 120,
+          "delta_domain": "0<delta<30",
+          "active_equations": [
+            3,
+            6,
+            11
+          ],
+          "positive_transfer": "global reflection of periodic firstcurve"
+        }
+      ]
+    },
+    {
+      "stratum_index": 40,
+      "forced_phase_conditions": [
+        "rho60"
+      ],
+      "active_exception_equations": [
+        3,
+        7,
+        12
+      ],
+      "actual_metric_possible": false,
+      "actual_branches": []
+    },
+    {
+      "stratum_index": 41,
+      "forced_phase_conditions": [
+        "rho60"
+      ],
+      "active_exception_equations": [
+        3,
+        10
+      ],
+      "actual_metric_possible": false,
+      "actual_branches": []
+    },
+    {
+      "stratum_index": 42,
+      "forced_phase_conditions": [
+        "rho60"
+      ],
+      "active_exception_equations": [
+        3,
+        5,
+        9,
+        13
+      ],
+      "actual_metric_possible": false,
+      "actual_branches": []
+    },
+    {
+      "stratum_index": 43,
+      "forced_phase_conditions": [
+        "rho60"
+      ],
+      "active_exception_equations": [
+        3,
+        8
+      ],
+      "actual_metric_possible": true,
+      "actual_branches": [
+        {
+          "beta": 60,
+          "delta_domain": "delta15",
+          "active_equations": [
+            3,
+            8
+          ],
+          "positive_transfer": "same complementaryppcone"
+        }
+      ]
+    }
+  ],
+  "full_actual_branch_active_sets": [
+    {
+      "beta": 120,
+      "delta_domain": "0<delta<30",
+      "active_equations": [
+        3,
+        6,
+        11
+      ],
+      "positive_transfer": "global reflection of periodic firstcurve"
+    },
+    {
+      "beta": 60,
+      "delta_domain": "0<delta<30,delta!=15",
+      "active_equations": [
+        3
+      ],
+      "positive_transfer": "reflectB to reviewed complementaryppcone atalpha60"
+    },
+    {
+      "beta": 60,
+      "delta_domain": "delta15",
+      "active_equations": [
+        3,
+        8
+      ],
+      "positive_transfer": "same complementaryppcone"
+    }
+  ],
+  "actual_surviving_strata": [
+    38,
+    39,
+    43
+  ],
+  "rational_phase_numerators": {
+    "same": "2(u-v)(1-uv)",
+    "cross": "4uv(u-v)",
+    "denominator": "(1+u^2)(1+v^2)"
+  },
+  "phase_domain": "u=sqrt3;v=tan(beta/2)>0finite;0beta180;Pbeta has positive real and imaginaryparts and neverzero",
+  "rho60_branches": "beta120 OR beta60;bothstrictgeometry;beta60 givesm3=180-delta, p2cosdelta",
+  "beta_plus_rho180_branches": "onlybeta120",
+  "scope": "complete reverseqq actualphasefilter, threeactive strata on two reviewedpositivecurves;independentreviewrequired"
+}

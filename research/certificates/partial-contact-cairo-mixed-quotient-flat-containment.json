@@ -1,0 +1,3865 @@
+{
+  "scope": "exact whole-native-side linear identity containment; sufficiency depends on independently reviewed complete carrier cone, no positivity/sample inference",
+  "source_inventory": 117,
+  "carrier_lemmas": [
+    "mixed-quotient-periodic",
+    "mixed-quotient-isolated-cross-periodic",
+    "mixed-quotient-bank-transfer-periodic",
+    "mixed-quotient-double-bank-periodic"
+  ],
+  "records": [
+    {
+      "pattern": "orbit0",
+      "flat_id": 259,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "3/7*w + 4/7"
+            ],
+            [
+              "6/7*w + 1/7"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 265,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "w"
+            ],
+            [
+              "2*w - 1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 279,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "-9/11*w + 32/11"
+            ],
+            [
+              "30/11*w - 37/11"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 332,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "w"
+            ],
+            [
+              "3"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 334,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "-7/13*w + 28/13"
+            ],
+            [
+              "8/13*w + 7/13"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 370,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "-3/11*w + 26/11"
+            ],
+            [
+              "3/11*w - 4/11"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 405,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "5*w - 8"
+            ],
+            [
+              "2*w - 2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 409,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "11/23*w + 8/23"
+            ],
+            [
+              "20/23*w + 2/23"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 426,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "3*w - 4"
+            ],
+            [
+              "-2*w + 5"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 466,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "w + 1"
+            ],
+            [
+              "1/4*w + 1/4"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 487,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "51/13*w - 74/13"
+            ],
+            [
+              "15/13*w - 8/13"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 498,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "5/3*w + 2"
+            ],
+            [
+              "2/3*w + 1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 499,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "19/13*w + 2/13"
+            ],
+            [
+              "2/13*w + 5/13"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 508,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "9/11*w - 10/11"
+            ],
+            [
+              "-9/11*w + 32/11"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 571,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "15/11*w + 20/11"
+            ],
+            [
+              "12/11*w + 5/11"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 573,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "9/13*w + 16/13"
+            ],
+            [
+              "12/13*w + 4/13"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 574,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "45/73*w + 4/73"
+            ],
+            [
+              "66/73*w + 1/73"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 579,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "w"
+            ],
+            [
+              "3*w - 3"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 586,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "w"
+            ],
+            [
+              "18/11*w - 9/11"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 604,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "w"
+            ],
+            [
+              "6/11*w + 3/11"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 610,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "43/73*w + 46/73"
+            ],
+            [
+              "67/73*w - 20/73"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 628,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "7/3*w - 2"
+            ],
+            [
+              "-2/3*w + 2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 691,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "29/37*w + 28/37"
+            ],
+            [
+              "20/37*w + 4/37"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 744,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "w - 4/5"
+            ],
+            [
+              "2/5*w + 1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit1",
+      "flat_id": 759,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 281,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "-4*w + 7"
+            ],
+            [
+              "-5/2*w + 11/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 293,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "2/11*w - 1/11"
+            ],
+            [
+              "19/22*w + 7/22"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 305,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "-1/5*w + 2/5"
+            ],
+            [
+              "2/5*w + 2/5"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 375,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "-13/47*w + 32/47"
+            ],
+            [
+              "23/47*w + 41/47"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 421,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "2*w - 2"
+            ],
+            [
+              "1/2*w + 1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 432,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "1/2*w - 1/2"
+            ],
+            [
+              "-1/4*w + 7/4"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 452,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "w"
+            ],
+            [
+              "2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 500,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "19/73*w + 34/73"
+            ],
+            [
+              "31/73*w + 67/73"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 523,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "w + 1"
+            ],
+            [
+              "w - 1/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 532,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "1/4*w + 1/4"
+            ],
+            [
+              "5/8*w + 5/8"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 542,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "w + 8/5"
+            ],
+            [
+              "2/5*w + 2/5"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 570,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "1/13*w + 4/13"
+            ],
+            [
+              "4/13*w + 16/13"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 600,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "2/11*w - 1/11"
+            ],
+            [
+              "7/22*w + 13/22"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 617,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "4/3*w - 1"
+            ],
+            [
+              "5/6*w + 1/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 644,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "11/59*w + 56/59"
+            ],
+            [
+              "26/59*w + 68/59"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 724,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "2*w + 1"
+            ],
+            [
+              "1/2*w - 1/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 738,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "w + 1"
+            ],
+            [
+              "1/4*w + 1/4"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 772,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "w - 1/2"
+            ],
+            [
+              "1/4*w + 1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 792,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "2*w - 1"
+            ],
+            [
+              "1/2*w + 1/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 801,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "2/5*w - 1/5"
+            ],
+            [
+              "1/10*w + 13/10"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 807,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "25/13*w + 4/13"
+            ],
+            [
+              "4/13*w + 10/13"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 837,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "4*w - 5"
+            ],
+            [
+              "-1/2*w + 5/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 335,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 378,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 481,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 599,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 730,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 784,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 843,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 845,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 846,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 847,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 906,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 459,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 460,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit7",
+          "carrier_flat_id": 12,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-isolated-cross-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "3/23*w + 2/23"
+            ],
+            [
+              "18/23*w + 1/46"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 492,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit7",
+          "carrier_flat_id": 12,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-isolated-cross-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "3/23*w + 2/23"
+            ],
+            [
+              "33/46*w + 11/23"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 575,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 770,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit7",
+          "carrier_flat_id": 12,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-isolated-cross-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "3/11*w - 4/11"
+            ],
+            [
+              "9/22*w + 5/11"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 801,
+      "dimension": 1,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit7",
+          "carrier_flat_id": 12,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-isolated-cross-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "3/11*w - 4/11"
+            ],
+            [
+              "3/11*w + 25/22"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 32,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "3/2*w + 1",
+              "-3/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 42,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "3/2*w - 1",
+              "1/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 50,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1/2*w",
+              "w - 1/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 60,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "5/2*w",
+              "-w - 1/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 66,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "2*w + 3/2",
+              "-1/2*w - 2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 76,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "w - 3/2",
+              "1/2*w + 1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 84,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/4*w - 3/4",
+              "1/4*w + 1/4"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 94,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-5/4*w + 15/4",
+              "-1/4*w + 1/4"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 101,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "3/4*w",
+              "1/4"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 108,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "w",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 116,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "35/22*w + 6/11",
+              "-1/11*w - 23/22"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 127,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "31/22*w - 6/11",
+              "1/11*w + 1/22"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 132,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "w",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 135,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "3/4*w",
+              "1/4"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 140,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "7/4*w - 3/4",
+              "5/4*w - 11/4"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 154,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2*w - 3",
+              "2*w + 5/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 165,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "7/2*w + 3",
+              "-2*w - 7/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 177,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "2*w",
+              "w - 2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 179,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-w - 3",
+              "w + 1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 180,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "16/11*w - 3/11",
+              "2/11*w - 10/11"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 190,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1/2*w",
+              "w - 1/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 196,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "2*w - 3/2",
+              "-1/2*w + 1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 205,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/4*w - 3/4",
+              "1/4*w + 1/4"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 222,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "35/22*w - 6/11",
+              "-1/11*w + 1/22"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 45,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1/2*w",
+              "w + 5/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 61,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/2*w + 2",
+              "1/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 82,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1/2*w + 1",
+              "-w + 3/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 102,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "3/13*w + 15/26",
+              "3/26*w + 7/13"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 132,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1/4*w + 3/4",
+              "-1/4*w + 1/4"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 152,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "3/2",
+              "-3/22*w + 2/11"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 165,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1/3*w + 1/2",
+              "1/6*w"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 194,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "3/2*w",
+              "-1/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 205,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1/2*w",
+              "w - 1/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 216,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "-1/4*w - 3/4",
+              "1/4*w + 1/4"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 234,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "13/22*w + 6/11",
+              "1/11*w + 1/22"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 250,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1/4*w + 5/4",
+              "1/4*w - 1/4"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 142,
+      "dimension": 2,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 239,
+      "dimension": 2,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 34,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit7",
+          "carrier_flat_id": 12,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-isolated-cross-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "3/2*w",
+              "-1/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 55,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit7",
+          "carrier_flat_id": 12,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-isolated-cross-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "3*w + 4",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 72,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit7",
+          "carrier_flat_id": 12,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-isolated-cross-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "3/23*w + 2/23",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 108,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit7",
+          "carrier_flat_id": 12,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-isolated-cross-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "3/4*w",
+              "1/4"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 123,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit7",
+          "carrier_flat_id": 12,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-isolated-cross-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1/2*w + 1/2",
+              "-1/2*w + 1/2"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 140,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit7",
+          "carrier_flat_id": 12,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-isolated-cross-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "3/11*w - 4/11",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 170,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit7",
+          "carrier_flat_id": 12,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-isolated-cross-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "1/2*w + 1/4",
+              "1/4*w"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 208,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit7",
+          "carrier_flat_id": 12,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-isolated-cross-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "w + 1/2",
+              "1/2*w - 1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 212,
+      "dimension": 2,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit7",
+          "carrier_flat_id": 12,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-isolated-cross-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ],
+            [
+              "3/4*w + 1/4",
+              "3/4*w - 3/4"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 11,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-bank-transfer-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit0",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-double-bank-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit2",
+          "carrier_flat_id": 23,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "status": "full-positive-periodic-carrier-contained",
+      "maps": [
+        {
+          "carrier_pattern": "orbit7",
+          "carrier_flat_id": 12,
+          "carrier_lemma": "partial-contact-cairo-mixed-quotient-isolated-cross-periodic.md",
+          "parameter_map_rows": [
+            [
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "pattern": "separated",
+      "flat_id": 46,
+      "dimension": 2,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "separated",
+      "flat_id": 49,
+      "dimension": 2,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    }
+  ],
+  "counts": {
+    "covered": 99,
+    "remaining": 18
+  }
+}

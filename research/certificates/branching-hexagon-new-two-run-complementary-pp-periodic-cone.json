@@ -1,0 +1,1074 @@
+{
+  "domain": "0<delta<30 degrees;60-delta<alpha<120-delta degrees;positive common scale arbitrary",
+  "p_formula": "2*cos(delta)",
+  "q": 1,
+  "affine_coefficient_order": [
+    "constant",
+    "delta",
+    "alpha"
+  ],
+  "A_angles": [
+    [
+      120,
+      1,
+      0
+    ],
+    [
+      120,
+      -1,
+      0
+    ],
+    [
+      120,
+      1,
+      0
+    ],
+    [
+      120,
+      -1,
+      0
+    ],
+    [
+      120,
+      1,
+      0
+    ],
+    [
+      120,
+      -1,
+      0
+    ]
+  ],
+  "B_angles": [
+    [
+      240,
+      -1,
+      -1
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      180,
+      0,
+      -1
+    ],
+    [
+      60,
+      1,
+      1
+    ],
+    [
+      120,
+      -2,
+      0
+    ],
+    [
+      120,
+      2,
+      0
+    ]
+  ],
+  "A_edge_directions": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      60,
+      1,
+      0
+    ],
+    [
+      120,
+      0,
+      0
+    ],
+    [
+      180,
+      1,
+      0
+    ],
+    [
+      240,
+      0,
+      0
+    ],
+    [
+      300,
+      1,
+      0
+    ]
+  ],
+  "B_edge_directions": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      180,
+      0,
+      -1
+    ],
+    [
+      180,
+      0,
+      0
+    ],
+    [
+      300,
+      -1,
+      -1
+    ],
+    [
+      360,
+      1,
+      -1
+    ],
+    [
+      420,
+      -1,
+      -1
+    ]
+  ],
+  "A_turns": [
+    [
+      60,
+      1,
+      0
+    ],
+    [
+      60,
+      -1,
+      0
+    ],
+    [
+      60,
+      1,
+      0
+    ],
+    [
+      60,
+      -1,
+      0
+    ],
+    [
+      60,
+      1,
+      0
+    ],
+    [
+      60,
+      -1,
+      0
+    ]
+  ],
+  "B_turns": [
+    [
+      180,
+      0,
+      -1
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      120,
+      -1,
+      -1
+    ],
+    [
+      60,
+      2,
+      0
+    ],
+    [
+      60,
+      -2,
+      0
+    ],
+    [
+      -60,
+      1,
+      1
+    ]
+  ],
+  "turn_bounds": [
+    {
+      "species": "A",
+      "coefficients": [
+        60,
+        1,
+        0
+      ],
+      "closed_domain_min": 60,
+      "closed_domain_max": 90
+    },
+    {
+      "species": "A",
+      "coefficients": [
+        60,
+        -1,
+        0
+      ],
+      "closed_domain_min": 30,
+      "closed_domain_max": 60
+    },
+    {
+      "species": "A",
+      "coefficients": [
+        60,
+        1,
+        0
+      ],
+      "closed_domain_min": 60,
+      "closed_domain_max": 90
+    },
+    {
+      "species": "A",
+      "coefficients": [
+        60,
+        -1,
+        0
+      ],
+      "closed_domain_min": 30,
+      "closed_domain_max": 60
+    },
+    {
+      "species": "A",
+      "coefficients": [
+        60,
+        1,
+        0
+      ],
+      "closed_domain_min": 60,
+      "closed_domain_max": 90
+    },
+    {
+      "species": "A",
+      "coefficients": [
+        60,
+        -1,
+        0
+      ],
+      "closed_domain_min": 30,
+      "closed_domain_max": 60
+    },
+    {
+      "species": "B",
+      "coefficients": [
+        180,
+        0,
+        -1
+      ],
+      "closed_domain_min": 60,
+      "closed_domain_max": 150
+    },
+    {
+      "species": "B",
+      "coefficients": [
+        0,
+        0,
+        1
+      ],
+      "closed_domain_min": 30,
+      "closed_domain_max": 120
+    },
+    {
+      "species": "B",
+      "coefficients": [
+        120,
+        -1,
+        -1
+      ],
+      "closed_domain_min": 0,
+      "closed_domain_max": 60
+    },
+    {
+      "species": "B",
+      "coefficients": [
+        60,
+        2,
+        0
+      ],
+      "closed_domain_min": 60,
+      "closed_domain_max": 120
+    },
+    {
+      "species": "B",
+      "coefficients": [
+        60,
+        -2,
+        0
+      ],
+      "closed_domain_min": 0,
+      "closed_domain_max": 60
+    },
+    {
+      "species": "B",
+      "coefficients": [
+        -60,
+        1,
+        1
+      ],
+      "closed_domain_min": 0,
+      "closed_domain_max": 60
+    }
+  ],
+  "closed_parameter_polygon_vertices": [
+    [
+      0,
+      60
+    ],
+    [
+      0,
+      120
+    ],
+    [
+      30,
+      90
+    ],
+    [
+      30,
+      30
+    ]
+  ],
+  "faces": [
+    {
+      "species_index": 0,
+      "species": "A",
+      "mirror": false,
+      "labels": [
+        "p",
+        "q",
+        "p",
+        "q",
+        "p",
+        "q"
+      ],
+      "base_face": 0,
+      "copy": 0
+    },
+    {
+      "species_index": 0,
+      "species": "A",
+      "mirror": false,
+      "labels": [
+        "p",
+        "q",
+        "p",
+        "q",
+        "p",
+        "q"
+      ],
+      "base_face": 0,
+      "copy": 1
+    },
+    {
+      "species_index": 0,
+      "species": "A",
+      "mirror": true,
+      "labels": [
+        "q",
+        "p",
+        "q",
+        "p",
+        "q",
+        "p"
+      ],
+      "base_face": 1,
+      "copy": 0
+    },
+    {
+      "species_index": 0,
+      "species": "A",
+      "mirror": true,
+      "labels": [
+        "q",
+        "p",
+        "q",
+        "p",
+        "q",
+        "p"
+      ],
+      "base_face": 1,
+      "copy": 1
+    },
+    {
+      "species_index": 1,
+      "species": "B",
+      "mirror": false,
+      "labels": [
+        "p",
+        "p",
+        "p",
+        "q",
+        "q",
+        "q"
+      ],
+      "base_face": 2,
+      "copy": 0
+    },
+    {
+      "species_index": 1,
+      "species": "B",
+      "mirror": false,
+      "labels": [
+        "p",
+        "p",
+        "p",
+        "q",
+        "q",
+        "q"
+      ],
+      "base_face": 2,
+      "copy": 1
+    },
+    {
+      "species_index": 1,
+      "species": "B",
+      "mirror": true,
+      "labels": [
+        "q",
+        "q",
+        "q",
+        "p",
+        "p",
+        "p"
+      ],
+      "base_face": 3,
+      "copy": 0
+    },
+    {
+      "species_index": 1,
+      "species": "B",
+      "mirror": true,
+      "labels": [
+        "q",
+        "q",
+        "q",
+        "p",
+        "p",
+        "p"
+      ],
+      "base_face": 3,
+      "copy": 1
+    }
+  ],
+  "paired_edges": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        6,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      [
+        7,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        7,
+        2
+      ]
+    ],
+    [
+      [
+        1,
+        1
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        4
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        5
+      ],
+      [
+        7,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        5
+      ],
+      [
+        6,
+        0
+      ]
+    ],
+    [
+      [
+        2,
+        0
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    [
+      [
+        3,
+        0
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    [
+      [
+        2,
+        2
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    [
+      [
+        3,
+        2
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    [
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    [
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    [
+      [
+        2,
+        5
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    [
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    [
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    [
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    [
+      [
+        6,
+        3
+      ],
+      [
+        7,
+        3
+      ]
+    ],
+    [
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        5
+      ]
+    ]
+  ],
+  "vertex_classes": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        7,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        7,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        7,
+        2
+      ]
+    ],
+    [
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    [
+      [
+        0,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        7,
+        5
+      ]
+    ],
+    [
+      [
+        1,
+        1
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        7,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    [
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    [
+      [
+        2,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    [
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    [
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        0
+      ]
+    ],
+    [
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ]
+  ],
+  "angle_sums": [
+    [
+      360,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      0
+    ]
+  ],
+  "fixed_carrier_necessity": {
+    "native_link_types": [
+      [
+        [
+          "AH",
+          "AH",
+          "B4"
+        ],
+        4
+      ],
+      [
+        [
+          "AH",
+          "B0",
+          "B1"
+        ],
+        4
+      ],
+      [
+        [
+          "AL",
+          "AL",
+          "B5"
+        ],
+        4
+      ],
+      [
+        [
+          "AL",
+          "B2",
+          "B3"
+        ],
+        4
+      ]
+    ],
+    "required_angles": [
+      "B0+B1=240-delta",
+      "B2+B3=240+delta",
+      "B4=120-2delta",
+      "B5=120+2delta"
+    ],
+    "closure_times_exp_i_alpha": "p*(exp(i*alpha)-1+exp(-i*beta))+2*cos(delta)=0",
+    "imaginary_condition": "sin(alpha)=sin(beta)",
+    "branches": [
+      "beta=alpha; gamma=180-alpha; 0<gamma<120-delta; p=2*cos(delta)/(1+2*cos(gamma))",
+      "beta=180-alpha;60-delta<alpha<120-delta;p=2*cos(delta)"
+    ],
+    "scope": "only this fixed indexed carrier, not every two-run tiling"
+  },
+  "native_closure_factors": {
+    "P_chain": "p*exp(i*(180-alpha))",
+    "Q_chain": "2*cos(delta)*exp(-i*alpha)"
+  },
+  "exact_fixture_parameters": {
+    "delta": 15,
+    "alpha": 75
+  },
+  "exact_fixture_quotient": "branching-hexagon-new-two-run-third-orbit-eight-face-periodic.json",
+  "exact_fixture_development": "branching-hexagon-new-two-run-complementary-pp-eight-face-development.json",
+  "checks": "48unique sides,24equal-label pairs,8connected oriented faces,16single circular links,all affine angle sums(360,0,0),all native turns strict(0,180) on opendomain"
+}

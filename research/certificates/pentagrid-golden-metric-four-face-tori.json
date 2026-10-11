@@ -1,0 +1,389 @@
+{
+  "domain": "two U and two B faces, B is each listed fixed normalized golden-power metric, sides matched only at full edges with equal lengths, U unreflected by intrinsic symmetry, all four reflection assignments of B; pairings may join same-face sides",
+  "records": [
+    {
+      "status": "no_witness_in_complete_four_face_domain",
+      "complete": true,
+      "matching_domain": 18900,
+      "completed_matchings_reaching_final_test": 28,
+      "recursive_pair_branches_tested": 997,
+      "B_angle_name": "V",
+      "B_side_exponents": [
+        0,
+        3,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "status": "no_witness_in_complete_four_face_domain",
+      "complete": true,
+      "matching_domain": 34020,
+      "completed_matchings_reaching_final_test": 40,
+      "recursive_pair_branches_tested": 1220,
+      "B_angle_name": "V",
+      "B_side_exponents": [
+        1,
+        2,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "status": "no_witness_in_complete_four_face_domain",
+      "complete": true,
+      "matching_domain": 18900,
+      "completed_matchings_reaching_final_test": 28,
+      "recursive_pair_branches_tested": 997,
+      "B_angle_name": "V",
+      "B_side_exponents": [
+        1,
+        3,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "status": "no_witness_in_complete_four_face_domain",
+      "complete": true,
+      "matching_domain": 18900,
+      "completed_matchings_reaching_final_test": 18,
+      "recursive_pair_branches_tested": 866,
+      "B_angle_name": "V",
+      "B_side_exponents": [
+        1,
+        3,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "status": "no_witness_in_complete_four_face_domain",
+      "complete": true,
+      "matching_domain": 18900,
+      "completed_matchings_reaching_final_test": 18,
+      "recursive_pair_branches_tested": 866,
+      "B_angle_name": "V",
+      "B_side_exponents": [
+        2,
+        3,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "status": "no_witness_in_complete_four_face_domain",
+      "complete": true,
+      "matching_domain": 3572100,
+      "completed_matchings_reaching_final_test": 176,
+      "recursive_pair_branches_tested": 27796,
+      "B_angle_name": "V",
+      "B_side_exponents": [
+        3,
+        3,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "status": "witness_found",
+      "complete": false,
+      "matching_domain_for_processed_reflection_assignments": 6081075,
+      "completed_matchings_reaching_final_test": 381,
+      "recursive_pair_branches_tested": 12417,
+      "witness": {
+        "reflected": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "side_pairs": [
+          [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          [
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          [
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        ],
+        "corner_classes": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        ]
+      },
+      "B_angle_name": "W",
+      "B_side_exponents": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "status": "no_witness_in_complete_four_face_domain",
+      "complete": true,
+      "matching_domain": 11340,
+      "completed_matchings_reaching_final_test": 20,
+      "recursive_pair_branches_tested": 1332,
+      "B_angle_name": "W",
+      "B_side_exponents": [
+        0,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "status": "no_witness_in_complete_four_face_domain",
+      "complete": true,
+      "matching_domain": 11340,
+      "completed_matchings_reaching_final_test": 20,
+      "recursive_pair_branches_tested": 1332,
+      "B_angle_name": "W",
+      "B_side_exponents": [
+        1,
+        1,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "status": "no_witness_in_complete_four_face_domain",
+      "complete": true,
+      "matching_domain": 11340,
+      "completed_matchings_reaching_final_test": 20,
+      "recursive_pair_branches_tested": 1332,
+      "B_angle_name": "W",
+      "B_side_exponents": [
+        1,
+        2,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "status": "no_witness_in_complete_four_face_domain",
+      "complete": true,
+      "matching_domain": 11340,
+      "completed_matchings_reaching_final_test": 20,
+      "recursive_pair_branches_tested": 1332,
+      "B_angle_name": "W",
+      "B_side_exponents": [
+        2,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "status": "no_witness_in_complete_four_face_domain",
+      "complete": true,
+      "matching_domain": 11340,
+      "completed_matchings_reaching_final_test": 20,
+      "recursive_pair_branches_tested": 1332,
+      "B_angle_name": "W",
+      "B_side_exponents": [
+        2,
+        1,
+        1,
+        2,
+        0
+      ]
+    }
+  ]
+}

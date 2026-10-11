@@ -1,0 +1,109 @@
+{
+  "status": "six-tile locally legal patch; forced completion falsified; no plane witness",
+  "coordinate_field": {
+    "polynomial": "x^4 - x^3 + x^2 - x + 1",
+    "generator_embedding": "exp(pi*i/5)"
+  },
+  "P_shorts": [
+    "10",
+    "1",
+    "1"
+  ],
+  "Q_shorts": [
+    "1",
+    "-7*z^3 + 7*z^2 - 2",
+    "-z^3 + z^2 + 4"
+  ],
+  "pairwise_disjoint": true,
+  "boundary_cycles": [
+    {
+      "vertices": [
+        "-10*z^3 - z + 7",
+        "-11*z^3 + z^2 - z + 11",
+        "-23*z^3 + 11*z^2 - 11*z + 23",
+        "-11*z^3 + 11*z^2 + 12",
+        "-11*z^3 + 12*z^2 + 12",
+        "-10*z^3 + 12*z^2 + 12",
+        "2*z^2 + 10*z + 2",
+        "z^3 + 2*z^2 + 10*z + 2",
+        "-z^3 + 11*z^2 + z + 4",
+        "10*z^2 + z",
+        "12*z^3 + 11*z - 12",
+        "-1",
+        "-z^2 - 1",
+        "-z^3 - z^2 - 1",
+        "-11*z^3 + 9*z^2 - 10*z + 9",
+        "-12*z^3 + 9*z^2 - 10*z + 9"
+      ],
+      "turn_signs": [
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1,
+        -1,
+        1,
+        1,
+        -1,
+        1
+      ],
+      "area_over_sin36": "-338*z^3 + 338*z^2 + 486"
+    }
+  ],
+  "motifs": [
+    [
+      "0",
+      "-11*z^3 + 11*z^2 + 12",
+      "-11*z^3 + 12*z^2 + 12",
+      "-10*z^3 + 12*z^2 + 12",
+      "2*z^2 + 10*z + 2"
+    ],
+    [
+      "-11*z^3 + 11*z^2 + 11",
+      "-1",
+      "-z^2 - 1",
+      "-z^3 - z^2 - 1",
+      "-11*z^3 + 9*z^2 - 10*z + 9"
+    ],
+    [
+      "12*z^3 + 11*z - 12",
+      "-1",
+      "0",
+      "z",
+      "10*z^2 + z"
+    ],
+    [
+      "-23*z^3 + 11*z^2 - 11*z + 23",
+      "-11*z^3 + 11*z^2 + 12",
+      "-11*z^3 + 11*z^2 + 11",
+      "-11*z^3 + 11*z^2 - z + 11",
+      "-11*z^3 + z^2 - z + 11"
+    ],
+    [
+      "2*z^2 + 10*z + 2",
+      "z^3 + 2*z^2 + 10*z + 2",
+      "-z^3 + 11*z^2 + z + 4",
+      "10*z^2 + z",
+      "z"
+    ],
+    [
+      "-11*z^3 + 9*z^2 - 10*z + 9",
+      "-12*z^3 + 9*z^2 - 10*z + 9",
+      "-10*z^3 - z + 7",
+      "-11*z^3 + z^2 - z + 11",
+      "-11*z^3 + 11*z^2 - z + 11"
+    ]
+  ],
+  "selected_strip_completion": "impossible: forced144 P/Q both excluded at rear double108 vertex",
+  "rear_completion_scalar_checks": {
+    "Q_arm_below_P_min_long": true,
+    "P_d_below_Q_min_long": true,
+    "Q_forward_long_below_remaining_maximum": true
+  }
+}

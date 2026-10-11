@@ -1,0 +1,17 @@
+# Independent hostile review of Penrose recomposition obstructions
+
+**Date:** 2026-10-09. Reviewer: root agent, independently of the construction-angle author. **Verdict:** valid with explicitly named source hierarchy assumptions; no target resolution.
+
+**Claim reviewed:** [whole-parallelogram fusion, rational-area frequency obstruction, exact sun carrier, and irrational-shrink periodic escape](../lemmas/new-angle-penrose-recomposition-obstructions.md). Source inference and theorem scope were checked separately.
+
+**Attacks:** Partial-edge cancellation still holds after finite planar subdivision; isolated point contacts carry zero length. Convex boundary has at most one side in each directed direction, making equal opposing vector measures central symmetry rather than merely perimeter balance. Thus odd-sided convex whole-rhomb fusion is genuinely impossible.
+
+Congruent final pieces have fixed rational source masses because two rational decompositions of the same area cannot differ in either coefficient when the two source areas are rationally independent. This remains true with varying finite subdivisions and irrational cut coordinates whose *areas* are rational fractions. Boundary mass errors are O(R): every source or final tile meeting a boundary strip has bounded mass from finitely many fixed opposite-tiling tile areas; no per-piece positive lower area is assumed or needed. Zero final-type limiting frequency at n=6 is handled explicitly. Positivity of the source thin-tile count forces the denominator in the limiting rational ratio to be nonzero. The argument needs only the source frequencies stated as hypotheses; it does not classify arbitrary unmarked-rhomb tilings as Penrose.
+
+The source frequency application uses the imported plane-wide Robinson hierarchy. For each fixed supertile level, boundary error may depend on that level but vanishes as R tends to infinity; taking the hierarchy level afterward gives the dominant matrix ratio phi without swapping unjustified limits. The plane-wide hierarchy is named rather than claimed from finite patches. This review validates the conditional inference, not a fresh proof of the external recognition theorem.
+
+The sun's five inner triangles have vertices0,z^j,z^(j+1), so their convex regular-pentagon union and fat mass5/2 are exact. For rho in(0,1) the fat-rhomb remainder has vertices rho*u,u,u+v,v,rho*v; its successive turn angles54,72,108,72,54 degrees give interior angles126,108,72,108,126. Strict convexity follows directly from ordered edge directions with all turns in(0,pi), total2pi, and the explicit rhomb-minus-triangle support. The edge from u to u+v has adjacent angles108,72, so two half-turned remainder tiles have straight seam endpoints and a centrally symmetric hexagon union. The cited lattice tiling proof was separately hostile reviewed. This is a valid monohedral periodic escape for every rho, including phi^(-1/2).
+
+**Defects/repairs:** no mathematical defect found; reviewer made no source-proof repair. No computation or external data retrieval is needed for these direct symbolic identities. The exact root specifying z and the symbolic rho provide defining data.
+
+**Remaining uncertainty:** no forward whole-plane repartition or shape-only atlas compiler exists in the artifact. The general rational-area theorem and its named source assumptions do not exclude irrational-area/nonobtuse constructions. None of these side results changes the full target's acceptance gates. No novelty claim is reviewed.

@@ -1,0 +1,3163 @@
+{
+  "homogeneous_resonance_vectors_disjoint_from72": [
+    [
+      120,
+      0,
+      0,
+      -1,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      -1,
+      -2,
+      0,
+      0
+    ],
+    [
+      360,
+      0,
+      -2,
+      -1,
+      0,
+      0
+    ],
+    [
+      120,
+      0,
+      -1,
+      0,
+      0,
+      0
+    ],
+    [
+      120,
+      0,
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      360,
+      0,
+      0,
+      0,
+      -1,
+      -2
+    ],
+    [
+      360,
+      0,
+      0,
+      0,
+      -2,
+      -1
+    ],
+    [
+      120,
+      0,
+      0,
+      0,
+      -1,
+      0
+    ]
+  ],
+  "domain": "delta0..30;nativeBhomogeneousangles0..180;actual strictconvexclosed binaryp!=q shapes only",
+  "coefficient_order": [
+    "constant",
+    "delta",
+    "alpha",
+    "beta",
+    "chi",
+    "psi"
+  ],
+  "mixed_sum": "B0+B3=720-alpha-beta-chi-psi",
+  "raw_prespecified_domain": "4 opposite-mixed joint covers plus12x12 separate covers, no symmetry quotient before retention",
+  "mixed_value_alternatives": [
+    {
+      "homogeneous_corner": "alpha",
+      "other_mixed_corner": "A_high",
+      "value_coefficients": [
+        "240",
+        "-1",
+        "-1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "homogeneous_corner": "alpha",
+      "other_mixed_corner": "A_low",
+      "value_coefficients": [
+        "240",
+        "1",
+        "-1",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "homogeneous_corner": "alpha",
+      "other_mixed_corner": "self",
+      "value_coefficients": [
+        "180",
+        "0",
+        "-1/2",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "homogeneous_corner": "beta",
+      "other_mixed_corner": "A_high",
+      "value_coefficients": [
+        "240",
+        "-1",
+        "0",
+        "-1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "homogeneous_corner": "beta",
+      "other_mixed_corner": "A_low",
+      "value_coefficients": [
+        "240",
+        "1",
+        "0",
+        "-1",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "homogeneous_corner": "beta",
+      "other_mixed_corner": "self",
+      "value_coefficients": [
+        "180",
+        "0",
+        "0",
+        "-1/2",
+        "0",
+        "0"
+      ]
+    },
+    {
+      "homogeneous_corner": "chi",
+      "other_mixed_corner": "A_high",
+      "value_coefficients": [
+        "240",
+        "-1",
+        "0",
+        "0",
+        "-1",
+        "0"
+      ]
+    },
+    {
+      "homogeneous_corner": "chi",
+      "other_mixed_corner": "A_low",
+      "value_coefficients": [
+        "240",
+        "1",
+        "0",
+        "0",
+        "-1",
+        "0"
+      ]
+    },
+    {
+      "homogeneous_corner": "chi",
+      "other_mixed_corner": "self",
+      "value_coefficients": [
+        "180",
+        "0",
+        "0",
+        "0",
+        "-1/2",
+        "0"
+      ]
+    },
+    {
+      "homogeneous_corner": "psi",
+      "other_mixed_corner": "A_high",
+      "value_coefficients": [
+        "240",
+        "-1",
+        "0",
+        "0",
+        "0",
+        "-1"
+      ]
+    },
+    {
+      "homogeneous_corner": "psi",
+      "other_mixed_corner": "A_low",
+      "value_coefficients": [
+        "240",
+        "1",
+        "0",
+        "0",
+        "0",
+        "-1"
+      ]
+    },
+    {
+      "homogeneous_corner": "psi",
+      "other_mixed_corner": "self",
+      "value_coefficients": [
+        "180",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-1/2"
+      ]
+    }
+  ],
+  "all148_cover_eliminations": [
+    {
+      "kind": "opposite_B_mixed_joint",
+      "homogeneous_corner": "alpha",
+      "hyperplane_coefficients": [
+        360,
+        0,
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "opposite_B_mixed_joint",
+      "homogeneous_corner": "beta",
+      "hyperplane_coefficients": [
+        360,
+        0,
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "opposite_B_mixed_joint",
+      "homogeneous_corner": "chi",
+      "hyperplane_coefficients": [
+        360,
+        0,
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "opposite_B_mixed_joint",
+      "homogeneous_corner": "psi",
+      "hyperplane_coefficients": [
+        360,
+        0,
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 0,
+      "B3_alternative": 0,
+      "hyperplane_coefficients": [
+        240,
+        2,
+        1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 0,
+      "B3_alternative": 1,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 0,
+      "B3_alternative": 2,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        1,
+        -2,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 0,
+      "B3_alternative": 3,
+      "hyperplane_coefficients": [
+        240,
+        2,
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 0,
+      "B3_alternative": 4,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 0,
+      "B3_alternative": 5,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        0,
+        -1,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 0,
+      "B3_alternative": 6,
+      "hyperplane_coefficients": [
+        240,
+        2,
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 0,
+      "B3_alternative": 7,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 0,
+      "B3_alternative": 8,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        0,
+        -2,
+        -1,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 0,
+      "B3_alternative": 9,
+      "hyperplane_coefficients": [
+        240,
+        2,
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 0,
+      "B3_alternative": 10,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 0,
+      "B3_alternative": 11,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        0,
+        -2,
+        -2,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 1,
+      "B3_alternative": 0,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 1,
+      "B3_alternative": 1,
+      "hyperplane_coefficients": [
+        240,
+        -2,
+        1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 1,
+      "B3_alternative": 2,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        1,
+        -2,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 1,
+      "B3_alternative": 3,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 1,
+      "B3_alternative": 4,
+      "hyperplane_coefficients": [
+        240,
+        -2,
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 1,
+      "B3_alternative": 5,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        0,
+        -1,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 1,
+      "B3_alternative": 6,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 1,
+      "B3_alternative": 7,
+      "hyperplane_coefficients": [
+        240,
+        -2,
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 1,
+      "B3_alternative": 8,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        0,
+        -2,
+        -1,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 1,
+      "B3_alternative": 9,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 1,
+      "B3_alternative": 10,
+      "hyperplane_coefficients": [
+        240,
+        -2,
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 1,
+      "B3_alternative": 11,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        0,
+        -2,
+        -2,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 2,
+      "B3_alternative": 0,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        1,
+        -2,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 2,
+      "B3_alternative": 1,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        1,
+        -2,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 2,
+      "B3_alternative": 2,
+      "hyperplane_coefficients": [
+        360,
+        0,
+        0,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 2,
+      "B3_alternative": 3,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -1,
+        0,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 2,
+      "B3_alternative": 4,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -1,
+        0,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 2,
+      "B3_alternative": 5,
+      "hyperplane_coefficients": [
+        720,
+        0,
+        -1,
+        -1,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 2,
+      "B3_alternative": 6,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -1,
+        -2,
+        0,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 2,
+      "B3_alternative": 7,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -1,
+        -2,
+        0,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 2,
+      "B3_alternative": 8,
+      "hyperplane_coefficients": [
+        720,
+        0,
+        -1,
+        -2,
+        -1,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 2,
+      "B3_alternative": 9,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -1,
+        -2,
+        -2,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 2,
+      "B3_alternative": 10,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -1,
+        -2,
+        -2,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 2,
+      "B3_alternative": 11,
+      "hyperplane_coefficients": [
+        720,
+        0,
+        -1,
+        -2,
+        -2,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 3,
+      "B3_alternative": 0,
+      "hyperplane_coefficients": [
+        240,
+        2,
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 3,
+      "B3_alternative": 1,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 3,
+      "B3_alternative": 2,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -1,
+        0,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 3,
+      "B3_alternative": 3,
+      "hyperplane_coefficients": [
+        240,
+        2,
+        -1,
+        1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 3,
+      "B3_alternative": 4,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 3,
+      "B3_alternative": 5,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        1,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 3,
+      "B3_alternative": 6,
+      "hyperplane_coefficients": [
+        240,
+        2,
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 3,
+      "B3_alternative": 7,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 3,
+      "B3_alternative": 8,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        0,
+        -1,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 3,
+      "B3_alternative": 9,
+      "hyperplane_coefficients": [
+        240,
+        2,
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 3,
+      "B3_alternative": 10,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 3,
+      "B3_alternative": 11,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        0,
+        -2,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 4,
+      "B3_alternative": 0,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 4,
+      "B3_alternative": 1,
+      "hyperplane_coefficients": [
+        240,
+        -2,
+        0,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 4,
+      "B3_alternative": 2,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -1,
+        0,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 4,
+      "B3_alternative": 3,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 4,
+      "B3_alternative": 4,
+      "hyperplane_coefficients": [
+        240,
+        -2,
+        -1,
+        1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 4,
+      "B3_alternative": 5,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        1,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 4,
+      "B3_alternative": 6,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 4,
+      "B3_alternative": 7,
+      "hyperplane_coefficients": [
+        240,
+        -2,
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 4,
+      "B3_alternative": 8,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        0,
+        -1,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 4,
+      "B3_alternative": 9,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 4,
+      "B3_alternative": 10,
+      "hyperplane_coefficients": [
+        240,
+        -2,
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 4,
+      "B3_alternative": 11,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        0,
+        -2,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 5,
+      "B3_alternative": 0,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        0,
+        -1,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 5,
+      "B3_alternative": 1,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        0,
+        -1,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 5,
+      "B3_alternative": 2,
+      "hyperplane_coefficients": [
+        720,
+        0,
+        -1,
+        -1,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 5,
+      "B3_alternative": 3,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        1,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 5,
+      "B3_alternative": 4,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        1,
+        -2,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 5,
+      "B3_alternative": 5,
+      "hyperplane_coefficients": [
+        360,
+        0,
+        -1,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 5,
+      "B3_alternative": 6,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        -1,
+        0,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 5,
+      "B3_alternative": 7,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        -1,
+        0,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 5,
+      "B3_alternative": 8,
+      "hyperplane_coefficients": [
+        720,
+        0,
+        -2,
+        -1,
+        -1,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 5,
+      "B3_alternative": 9,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        -1,
+        -2,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 5,
+      "B3_alternative": 10,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        -1,
+        -2,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 5,
+      "B3_alternative": 11,
+      "hyperplane_coefficients": [
+        720,
+        0,
+        -2,
+        -1,
+        -2,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 6,
+      "B3_alternative": 0,
+      "hyperplane_coefficients": [
+        240,
+        2,
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 6,
+      "B3_alternative": 1,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 6,
+      "B3_alternative": 2,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -1,
+        -2,
+        0,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 6,
+      "B3_alternative": 3,
+      "hyperplane_coefficients": [
+        240,
+        2,
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 6,
+      "B3_alternative": 4,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 6,
+      "B3_alternative": 5,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        -1,
+        0,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 6,
+      "B3_alternative": 6,
+      "hyperplane_coefficients": [
+        240,
+        2,
+        -1,
+        -1,
+        1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 6,
+      "B3_alternative": 7,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        -1,
+        1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 6,
+      "B3_alternative": 8,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        -2,
+        1,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 6,
+      "B3_alternative": 9,
+      "hyperplane_coefficients": [
+        240,
+        2,
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 6,
+      "B3_alternative": 10,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 6,
+      "B3_alternative": 11,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        -2,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 7,
+      "B3_alternative": 0,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 7,
+      "B3_alternative": 1,
+      "hyperplane_coefficients": [
+        240,
+        -2,
+        0,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 7,
+      "B3_alternative": 2,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -1,
+        -2,
+        0,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 7,
+      "B3_alternative": 3,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 7,
+      "B3_alternative": 4,
+      "hyperplane_coefficients": [
+        240,
+        -2,
+        -1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 7,
+      "B3_alternative": 5,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        -1,
+        0,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 7,
+      "B3_alternative": 6,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        -1,
+        1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 7,
+      "B3_alternative": 7,
+      "hyperplane_coefficients": [
+        240,
+        -2,
+        -1,
+        -1,
+        1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 7,
+      "B3_alternative": 8,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        -2,
+        1,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 7,
+      "B3_alternative": 9,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 7,
+      "B3_alternative": 10,
+      "hyperplane_coefficients": [
+        240,
+        -2,
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 7,
+      "B3_alternative": 11,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        -2,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 8,
+      "B3_alternative": 0,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        0,
+        -2,
+        -1,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 8,
+      "B3_alternative": 1,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        0,
+        -2,
+        -1,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 8,
+      "B3_alternative": 2,
+      "hyperplane_coefficients": [
+        720,
+        0,
+        -1,
+        -2,
+        -1,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 8,
+      "B3_alternative": 3,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        0,
+        -1,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 8,
+      "B3_alternative": 4,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        0,
+        -1,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 8,
+      "B3_alternative": 5,
+      "hyperplane_coefficients": [
+        720,
+        0,
+        -2,
+        -1,
+        -1,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 8,
+      "B3_alternative": 6,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        -2,
+        1,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 8,
+      "B3_alternative": 7,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        -2,
+        1,
+        -2
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 8,
+      "B3_alternative": 8,
+      "hyperplane_coefficients": [
+        360,
+        0,
+        -1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 8,
+      "B3_alternative": 9,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 8,
+      "B3_alternative": 10,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 8,
+      "B3_alternative": 11,
+      "hyperplane_coefficients": [
+        720,
+        0,
+        -2,
+        -2,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 9,
+      "B3_alternative": 0,
+      "hyperplane_coefficients": [
+        240,
+        2,
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 9,
+      "B3_alternative": 1,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 9,
+      "B3_alternative": 2,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -1,
+        -2,
+        -2,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 9,
+      "B3_alternative": 3,
+      "hyperplane_coefficients": [
+        240,
+        2,
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 9,
+      "B3_alternative": 4,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 9,
+      "B3_alternative": 5,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        -1,
+        -2,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 9,
+      "B3_alternative": 6,
+      "hyperplane_coefficients": [
+        240,
+        2,
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 9,
+      "B3_alternative": 7,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 9,
+      "B3_alternative": 8,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 9,
+      "B3_alternative": 9,
+      "hyperplane_coefficients": [
+        240,
+        2,
+        -1,
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 9,
+      "B3_alternative": 10,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 9,
+      "B3_alternative": 11,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        -2,
+        -2,
+        1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 10,
+      "B3_alternative": 0,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 10,
+      "B3_alternative": 1,
+      "hyperplane_coefficients": [
+        240,
+        -2,
+        0,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 10,
+      "B3_alternative": 2,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -1,
+        -2,
+        -2,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 10,
+      "B3_alternative": 3,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 10,
+      "B3_alternative": 4,
+      "hyperplane_coefficients": [
+        240,
+        -2,
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 10,
+      "B3_alternative": 5,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        -1,
+        -2,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 10,
+      "B3_alternative": 6,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 10,
+      "B3_alternative": 7,
+      "hyperplane_coefficients": [
+        240,
+        -2,
+        -1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 10,
+      "B3_alternative": 8,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 10,
+      "B3_alternative": 9,
+      "hyperplane_coefficients": [
+        240,
+        0,
+        -1,
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 10,
+      "B3_alternative": 10,
+      "hyperplane_coefficients": [
+        240,
+        -2,
+        -1,
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 10,
+      "B3_alternative": 11,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        -2,
+        -2,
+        1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 11,
+      "B3_alternative": 0,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        0,
+        -2,
+        -2,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 11,
+      "B3_alternative": 1,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        0,
+        -2,
+        -2,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 11,
+      "B3_alternative": 2,
+      "hyperplane_coefficients": [
+        720,
+        0,
+        -1,
+        -2,
+        -2,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 11,
+      "B3_alternative": 3,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        0,
+        -2,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 11,
+      "B3_alternative": 4,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        0,
+        -2,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 11,
+      "B3_alternative": 5,
+      "hyperplane_coefficients": [
+        720,
+        0,
+        -2,
+        -1,
+        -2,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 11,
+      "B3_alternative": 6,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        -2,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 11,
+      "B3_alternative": 7,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        -2,
+        0,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 11,
+      "B3_alternative": 8,
+      "hyperplane_coefficients": [
+        720,
+        0,
+        -2,
+        -2,
+        -1,
+        -1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 11,
+      "B3_alternative": 9,
+      "hyperplane_coefficients": [
+        600,
+        2,
+        -2,
+        -2,
+        -2,
+        1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 11,
+      "B3_alternative": 10,
+      "hyperplane_coefficients": [
+        600,
+        -2,
+        -2,
+        -2,
+        -2,
+        1
+      ]
+    },
+    {
+      "kind": "separate_B0_B3_cover",
+      "B0_alternative": 11,
+      "B3_alternative": 11,
+      "hyperplane_coefficients": [
+        360,
+        0,
+        -1,
+        -1,
+        -1,
+        0
+      ]
+    }
+  ],
+  "canonical_hyperplanes": [
+    {
+      "coefficients": [
+        240,
+        -2,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "raw_record_indices": [
+        134
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        -2,
+        -1,
+        -1,
+        0,
+        0
+      ],
+      "raw_record_indices": [
+        98,
+        131
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        -2,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "raw_record_indices": [
+        95
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        -2,
+        -1,
+        0,
+        -1,
+        0
+      ],
+      "raw_record_indices": [
+        62,
+        128
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        -2,
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "raw_record_indices": [
+        59,
+        92
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        -2,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "raw_record_indices": [
+        56
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        -2,
+        0,
+        -1,
+        -1,
+        0
+      ],
+      "raw_record_indices": [
+        26,
+        125
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        -2,
+        0,
+        -1,
+        0,
+        -1
+      ],
+      "raw_record_indices": [
+        23,
+        89
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        -2,
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "raw_record_indices": [
+        20,
+        53
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        -2,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "raw_record_indices": [
+        17
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        0,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "raw_record_indices": [
+        122,
+        133
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        0,
+        -1,
+        -1,
+        0,
+        0
+      ],
+      "raw_record_indices": [
+        86,
+        97,
+        119,
+        130
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        0,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "raw_record_indices": [
+        83,
+        94
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        0,
+        -1,
+        0,
+        -1,
+        0
+      ],
+      "raw_record_indices": [
+        50,
+        61,
+        116,
+        127
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        0,
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "raw_record_indices": [
+        47,
+        58,
+        80,
+        91
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        0,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "raw_record_indices": [
+        44,
+        55
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        0,
+        0,
+        -1,
+        -1,
+        0
+      ],
+      "raw_record_indices": [
+        14,
+        25,
+        113,
+        124
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        0,
+        0,
+        -1,
+        0,
+        -1
+      ],
+      "raw_record_indices": [
+        11,
+        22,
+        77,
+        88
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        0,
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "raw_record_indices": [
+        8,
+        19,
+        41,
+        52
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        0,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "raw_record_indices": [
+        5,
+        16
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        2,
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "raw_record_indices": [
+        121
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        2,
+        -1,
+        -1,
+        0,
+        0
+      ],
+      "raw_record_indices": [
+        85,
+        118
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        2,
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      "raw_record_indices": [
+        82
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        2,
+        -1,
+        0,
+        -1,
+        0
+      ],
+      "raw_record_indices": [
+        49,
+        115
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        2,
+        -1,
+        0,
+        0,
+        -1
+      ],
+      "raw_record_indices": [
+        46,
+        79
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        2,
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "raw_record_indices": [
+        43
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        2,
+        0,
+        -1,
+        -1,
+        0
+      ],
+      "raw_record_indices": [
+        13,
+        112
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        2,
+        0,
+        -1,
+        0,
+        -1
+      ],
+      "raw_record_indices": [
+        10,
+        76
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        2,
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "raw_record_indices": [
+        7,
+        40
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        2,
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      "raw_record_indices": [
+        4
+      ]
+    },
+    {
+      "coefficients": [
+        360,
+        0,
+        -1,
+        -1,
+        -1,
+        0
+      ],
+      "raw_record_indices": [
+        3,
+        147
+      ]
+    },
+    {
+      "coefficients": [
+        360,
+        0,
+        -1,
+        -1,
+        0,
+        -1
+      ],
+      "raw_record_indices": [
+        2,
+        108
+      ]
+    },
+    {
+      "coefficients": [
+        360,
+        0,
+        -1,
+        0,
+        -1,
+        -1
+      ],
+      "raw_record_indices": [
+        1,
+        69
+      ]
+    },
+    {
+      "coefficients": [
+        360,
+        0,
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      "raw_record_indices": [
+        0,
+        30
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        -2,
+        -2,
+        -2,
+        -2,
+        1
+      ],
+      "raw_record_indices": [
+        135,
+        146
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        -2,
+        -2,
+        -2,
+        -1,
+        0
+      ],
+      "raw_record_indices": [
+        110,
+        132
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        -2,
+        -2,
+        -2,
+        0,
+        -1
+      ],
+      "raw_record_indices": [
+        99,
+        143
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        -2,
+        -2,
+        -2,
+        1,
+        -2
+      ],
+      "raw_record_indices": [
+        96,
+        107
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        -2,
+        -2,
+        -1,
+        -2,
+        0
+      ],
+      "raw_record_indices": [
+        74,
+        129
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        -2,
+        -2,
+        -1,
+        0,
+        -2
+      ],
+      "raw_record_indices": [
+        71,
+        93
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        -2,
+        -2,
+        0,
+        -2,
+        -1
+      ],
+      "raw_record_indices": [
+        63,
+        140
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        -2,
+        -2,
+        0,
+        -1,
+        -2
+      ],
+      "raw_record_indices": [
+        60,
+        104
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        -2,
+        -2,
+        1,
+        -2,
+        -2
+      ],
+      "raw_record_indices": [
+        57,
+        68
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        -2,
+        -1,
+        -2,
+        -2,
+        0
+      ],
+      "raw_record_indices": [
+        38,
+        126
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        -2,
+        -1,
+        -2,
+        0,
+        -2
+      ],
+      "raw_record_indices": [
+        35,
+        90
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        -2,
+        -1,
+        0,
+        -2,
+        -2
+      ],
+      "raw_record_indices": [
+        32,
+        54
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        -2,
+        0,
+        -2,
+        -2,
+        -1
+      ],
+      "raw_record_indices": [
+        27,
+        137
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        -2,
+        0,
+        -2,
+        -1,
+        -2
+      ],
+      "raw_record_indices": [
+        24,
+        101
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        -2,
+        0,
+        -1,
+        -2,
+        -2
+      ],
+      "raw_record_indices": [
+        21,
+        65
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        -2,
+        1,
+        -2,
+        -2,
+        -2
+      ],
+      "raw_record_indices": [
+        18,
+        29
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        2,
+        -2,
+        -2,
+        -2,
+        1
+      ],
+      "raw_record_indices": [
+        123,
+        145
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        2,
+        -2,
+        -2,
+        -1,
+        0
+      ],
+      "raw_record_indices": [
+        109,
+        120
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        2,
+        -2,
+        -2,
+        0,
+        -1
+      ],
+      "raw_record_indices": [
+        87,
+        142
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        2,
+        -2,
+        -2,
+        1,
+        -2
+      ],
+      "raw_record_indices": [
+        84,
+        106
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        2,
+        -2,
+        -1,
+        -2,
+        0
+      ],
+      "raw_record_indices": [
+        73,
+        117
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        2,
+        -2,
+        -1,
+        0,
+        -2
+      ],
+      "raw_record_indices": [
+        70,
+        81
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        2,
+        -2,
+        0,
+        -2,
+        -1
+      ],
+      "raw_record_indices": [
+        51,
+        139
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        2,
+        -2,
+        0,
+        -1,
+        -2
+      ],
+      "raw_record_indices": [
+        48,
+        103
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        2,
+        -2,
+        1,
+        -2,
+        -2
+      ],
+      "raw_record_indices": [
+        45,
+        67
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        2,
+        -1,
+        -2,
+        -2,
+        0
+      ],
+      "raw_record_indices": [
+        37,
+        114
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        2,
+        -1,
+        -2,
+        0,
+        -2
+      ],
+      "raw_record_indices": [
+        34,
+        78
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        2,
+        -1,
+        0,
+        -2,
+        -2
+      ],
+      "raw_record_indices": [
+        31,
+        42
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        2,
+        0,
+        -2,
+        -2,
+        -1
+      ],
+      "raw_record_indices": [
+        15,
+        136
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        2,
+        0,
+        -2,
+        -1,
+        -2
+      ],
+      "raw_record_indices": [
+        12,
+        100
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        2,
+        0,
+        -1,
+        -2,
+        -2
+      ],
+      "raw_record_indices": [
+        9,
+        64
+      ]
+    },
+    {
+      "coefficients": [
+        600,
+        2,
+        1,
+        -2,
+        -2,
+        -2
+      ],
+      "raw_record_indices": [
+        6,
+        28
+      ]
+    },
+    {
+      "coefficients": [
+        720,
+        0,
+        -2,
+        -2,
+        -1,
+        -1
+      ],
+      "raw_record_indices": [
+        111,
+        144
+      ]
+    },
+    {
+      "coefficients": [
+        720,
+        0,
+        -2,
+        -1,
+        -2,
+        -1
+      ],
+      "raw_record_indices": [
+        75,
+        141
+      ]
+    },
+    {
+      "coefficients": [
+        720,
+        0,
+        -2,
+        -1,
+        -1,
+        -2
+      ],
+      "raw_record_indices": [
+        72,
+        105
+      ]
+    },
+    {
+      "coefficients": [
+        720,
+        0,
+        -1,
+        -2,
+        -2,
+        -1
+      ],
+      "raw_record_indices": [
+        39,
+        138
+      ]
+    },
+    {
+      "coefficients": [
+        720,
+        0,
+        -1,
+        -2,
+        -1,
+        -2
+      ],
+      "raw_record_indices": [
+        36,
+        102
+      ]
+    },
+    {
+      "coefficients": [
+        720,
+        0,
+        -1,
+        -1,
+        -2,
+        -2
+      ],
+      "raw_record_indices": [
+        33,
+        66
+      ]
+    }
+  ],
+  "distinct_hyperplane_count": 72,
+  "claim": "necessary union only; outside union unrestricted untileable via admitted trivalent limit; no sufficiency on union"
+}

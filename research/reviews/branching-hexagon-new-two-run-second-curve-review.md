@@ -1,0 +1,15 @@
+# Fresh root hostile review of the second two-run curve
+
+**Verdict: VALID.** This independently audits [the second curve theorem](../lemmas/branching-hexagon-new-two-run-sqrt2plus3-periodic-escape.md), not the first p=cos(delta) family. The complete claim is a periodic tiling for every0<delta<30degrees with p=2cos(delta), q=1 and the stated A/B native directions. Root did not derive the quotient or author's symbolic extension. This remains a restricted periodic escape, not a global impossibility theorem.
+
+Root independently checked closure of B: its first three native vectors sum ip, and its last unit chain is exp(i(210−delta))*2cos(delta)*exp(i(60+delta))=−ip. The stated angles follow directly from successive native directions. Every positive direction increment is below180, sums360, and its strictly closed polygon has each nonincident vertex to the left of every edge: the successive cross terms have one positive then one negative run, with nonzero first/last terms. Closure keeps every intermediate partial sum strictly positive. Hence both polygons remain genuine convex shapes over the entire open curve. Distinctness also follows from alternating A versus three-consecutive-p B native side words, since p>1.
+
+The independent checker constructs reflected polygons by actual coordinate reflection followed by native vertex-order reversal, preserving vertex0. It verifies exact side labels and angles against every certificate face, equal paired lengths, all24 unique side occurrences and connectedness. It reconstructs actual circular links by the edge involution and next-corner permutation, rather than accepting unioned vertex sets. The eight links each have the affine angle form360+0*delta. Equal-length gluing is orientation preserving in the interiors; Euler characteristic8−12+4=0 and single360 links make a compact connected orientable flat torus. Its complete Euclidean universal cover gives disjoint whole native polygon interiors covering the plane, with a rank-two translation lattice. This is an all-parameter proof, not a sample-continuity or frequency-realizability inference.
+
+At delta15 a separate arithmetic representation Q(g), g^4−10g^2+1=0 with g=sqrt2+sqrt3, reconstructs raw native vertices and a different direct-isometry BFS development. All circular links and strictly convex support determinants are checked. The stated Cartesian lattice contains all side-cycle holonomies, whose integer2x2 minors have gcd1, so it is primitive. Its covolume10+6sqrt3 equals2area(A)+2area(B), with areas9/4+7sqrt3/4 and11/4+5sqrt3/4. No author solver, producer or development data is imported.
+
+[Independent checker](verify_two_run_second_curve_periodic_independent.py) completed PASS:
+
+    conda run --no-capture-output -n arisearch python research/reviews/verify_two_run_second_curve_periodic_independent.py
+
+The positive periodic witness alone kills this curve under the unrestricted problem. No restriction on other original tilings or other catalog survivors is inferred.

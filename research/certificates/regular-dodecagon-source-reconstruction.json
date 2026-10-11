@@ -1,0 +1,73 @@
+{
+  "status": "PASS_exact_candidate_only",
+  "source_identification": "inferred_from_raster_not_certified_atlas",
+  "source_pdf_sha256": "c07f2dfa267cfb7f85064d4f0add374fa9992c46ab8762563cedb289cd6aa153",
+  "field": "CyclotomicField(24), q=exp(i*pi/12)",
+  "pentagon_unit_direction_blocks": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      7,
+      8,
+      9
+    ],
+    [
+      10,
+      11
+    ]
+  ],
+  "pentagon_angles_degrees": [
+    120,
+    105,
+    105,
+    105,
+    105
+  ],
+  "pentagon_side_word": [
+    "S",
+    "L",
+    "S",
+    "L",
+    "S"
+  ],
+  "S_squared": "2+sqrt(3)",
+  "L": "1+sqrt(3)",
+  "family_parameters": {
+    "p": "0",
+    "ell": "1/sqrt(2)",
+    "t": "1/sqrt(2)"
+  },
+  "fragment_angles_degrees": [
+    135,
+    105,
+    105,
+    240,
+    105,
+    105,
+    135,
+    150
+  ],
+  "fragment_edge_word": [
+    "S",
+    "L",
+    "S",
+    "S",
+    "L",
+    "S",
+    "L",
+    "L"
+  ],
+  "fragment_area_over_regular_dodecagon": "1/4",
+  "global_source_tiling_or_regrouping_verified": false
+}

@@ -1,0 +1,310 @@
+{
+  "source_strata": "branching-hexagon-two-run-mixed-pp-strata-slot-balance.json",
+  "all_six_linear_infeasible_flats_force_delta0": true,
+  "all93_linear_samples_verified_exact": true,
+  "all22_SAT_phase_filters": [
+    {
+      "stratum_index": 21,
+      "forced_actual_phase_conditions": [
+        "alpha120"
+      ],
+      "active_exception_equations": [
+        2,
+        7,
+        12
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 23,
+      "forced_actual_phase_conditions": [
+        "alpha120"
+      ],
+      "active_exception_equations": [
+        1,
+        8,
+        12,
+        15,
+        18
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 24,
+      "forced_actual_phase_conditions": [
+        "alpha120"
+      ],
+      "active_exception_equations": [
+        0,
+        9,
+        12
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 34,
+      "forced_actual_phase_conditions": [
+        "alpha_plus_rho180"
+      ],
+      "active_exception_equations": [
+        17
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 35,
+      "forced_actual_phase_conditions": [
+        "alpha_plus_rho180"
+      ],
+      "active_exception_equations": [
+        7,
+        13,
+        17
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 36,
+      "forced_actual_phase_conditions": [
+        "alpha_plus_rho180"
+      ],
+      "active_exception_equations": [
+        2,
+        14,
+        17
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 37,
+      "forced_actual_phase_conditions": [
+        "alpha_plus_rho180"
+      ],
+      "active_exception_equations": [
+        9,
+        17
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 38,
+      "forced_actual_phase_conditions": [
+        "alpha_plus_rho180"
+      ],
+      "active_exception_equations": [
+        15,
+        17
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 39,
+      "forced_actual_phase_conditions": [
+        "alpha_plus_rho180"
+      ],
+      "active_exception_equations": [
+        1,
+        6,
+        11,
+        17
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 40,
+      "forced_actual_phase_conditions": [
+        "alpha_plus_rho180"
+      ],
+      "active_exception_equations": [
+        0,
+        8,
+        10,
+        17,
+        20
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 41,
+      "forced_actual_phase_conditions": [
+        "alpha_plus_rho180"
+      ],
+      "active_exception_equations": [
+        3,
+        17
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 42,
+      "forced_actual_phase_conditions": [
+        "alpha_plus_rho180"
+      ],
+      "active_exception_equations": [
+        17,
+        19
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 62,
+      "forced_actual_phase_conditions": [
+        "rho_equals_2alpha_minus180"
+      ],
+      "active_exception_equations": [
+        16
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 63,
+      "forced_actual_phase_conditions": [
+        "rho_equals_2alpha_minus180"
+      ],
+      "active_exception_equations": [
+        2,
+        11,
+        16
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 64,
+      "forced_actual_phase_conditions": [
+        "rho_equals_2alpha_minus180"
+      ],
+      "active_exception_equations": [
+        7,
+        10,
+        16
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 65,
+      "forced_actual_phase_conditions": [
+        "rho_equals_2alpha_minus180"
+      ],
+      "active_exception_equations": [
+        0,
+        16
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 66,
+      "forced_actual_phase_conditions": [
+        "rho_equals_2alpha_minus180"
+      ],
+      "active_exception_equations": [
+        16,
+        18
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 67,
+      "forced_actual_phase_conditions": [
+        "rho_equals_2alpha_minus180"
+      ],
+      "active_exception_equations": [
+        3,
+        8,
+        13,
+        16
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 68,
+      "forced_actual_phase_conditions": [
+        "rho_equals_2alpha_minus180"
+      ],
+      "active_exception_equations": [
+        1,
+        9,
+        14,
+        16,
+        19
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 69,
+      "forced_actual_phase_conditions": [
+        "rho_equals_2alpha_minus180"
+      ],
+      "active_exception_equations": [
+        6,
+        16
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 70,
+      "forced_actual_phase_conditions": [
+        "rho_equals_2alpha_minus180"
+      ],
+      "active_exception_equations": [
+        16,
+        20
+      ],
+      "actual_metric_possible": false,
+      "metric_reduction": "alpha120rho60;extraoromittedactiveequationsfailfordelta>0"
+    },
+    {
+      "stratum_index": 73,
+      "forced_actual_phase_conditions": [
+        "alpha120",
+        "alpha_plus_rho180",
+        "rho_equals_2alpha_minus180"
+      ],
+      "active_exception_equations": [
+        4,
+        5,
+        12,
+        16,
+        17
+      ],
+      "actual_metric_possible": true,
+      "metric_reduction": "knownperiodicfirstcurve"
+    }
+  ],
+  "metric_active_equations": [
+    4,
+    5,
+    12,
+    16,
+    17
+  ],
+  "actual_surviving_stratum": 73,
+  "positive_geometry": "alpha120,beta120,rho60,p=cos(delta),0delta30",
+  "exact_phase_polynomials": {
+    "Palpha": "1+2i*sin(alpha)",
+    "exp_i_alpha_P_imag": "2u(3-u^2)/(1+u^2)^2",
+    "exp_minus_2i_alpha_P_imag": "-8u^3(3-u^2)/(1+u^2)^3"
+  },
+  "half_angle_domain": "u=tan(alpha/2)>1 finite since90<alpha<180;strictlypositive1+u^2;Palpha realpart1 neverzero",
+  "all_factor_roots": "u0 excluded;u^2=3 givesalpha120;cosalpha1 excluded;no poles and no vanishingPalpha",
+  "scope": "complete actualmetricphasefilter after71strongduals;independentreviewrequiredbeforewhole-slicepromotion"
+}

@@ -1,0 +1,2813 @@
+{
+  "field": "Q(z), z^4-z^3+z^2-z+1=0, z=exp(pi*i/5),phi=z+z^(-1)",
+  "scope": "Exact geometric partitions into unit Robinson triangles ONLY; these specific partitions fail edge-to-edge source legality; global repartition and shape-only forcing unproved",
+  "reference_triangles": {
+    "thin": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ]
+    ],
+    "fat": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ]
+  },
+  "U": {
+    "parent_vertices": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "3",
+        "0",
+        "2",
+        "-2"
+      ],
+      [
+        "0",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "triangle_counts": {
+      "thin": 7,
+      "fat": 9
+    },
+    "triangles": [
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "1",
+            "-1"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "thin",
+        "vertices": [
+          [
+            "1",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "1",
+            "-1"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "translation": [
+            "1",
+            "0",
+            "1",
+            "-1"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "1",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "1",
+            "-1"
+          ],
+          [
+            "2",
+            "0",
+            "1",
+            "-1"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "1",
+            "0",
+            "1",
+            "-1"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "2",
+            "0",
+            "1",
+            "-1"
+          ],
+          [
+            "2",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "1",
+            "0"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "2",
+            "0",
+            "1",
+            "0"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "thin",
+        "vertices": [
+          [
+            "2",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "1",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "1",
+            "0"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "1",
+            "0",
+            "1",
+            "0"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "3",
+            "0",
+            "2",
+            "-2"
+          ],
+          [
+            "2",
+            "0",
+            "2",
+            "-1"
+          ],
+          [
+            "2",
+            "0",
+            "2",
+            "-2"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "2",
+            "0",
+            "2",
+            "-2"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "thin",
+        "vertices": [
+          [
+            "2",
+            "0",
+            "1",
+            "-1"
+          ],
+          [
+            "2",
+            "0",
+            "2",
+            "-2"
+          ],
+          [
+            "2",
+            "0",
+            "2",
+            "-1"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "0",
+            "0",
+            "-1",
+            "0"
+          ],
+          "translation": [
+            "2",
+            "0",
+            "2",
+            "-1"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "2",
+            "0",
+            "1",
+            "-1"
+          ],
+          [
+            "2",
+            "0",
+            "2",
+            "-1"
+          ],
+          [
+            "1",
+            "1",
+            "1",
+            "0"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "-1",
+            "1",
+            "-1",
+            "1"
+          ],
+          "translation": [
+            "2",
+            "0",
+            "2",
+            "-1"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "0",
+            "1",
+            "1",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "1",
+            "0"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "translation": [
+            "0",
+            "1",
+            "1",
+            "0"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "thin",
+        "vertices": [
+          [
+            "1",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "1",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "0",
+            "0",
+            "-1",
+            "0"
+          ],
+          "translation": [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "0",
+            "1",
+            "1",
+            "1"
+          ],
+          [
+            "0",
+            "1",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "1",
+            "1",
+            "0"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "0",
+            "1",
+            "1",
+            "0"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "thin",
+        "vertices": [
+          [
+            "0",
+            "1",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "1",
+            "1",
+            "0"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "1",
+            "1",
+            "1",
+            "0"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "0",
+            "1",
+            "1",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "0",
+            "0",
+            "0",
+            "-1"
+          ],
+          "translation": [
+            "0",
+            "0",
+            "1",
+            "1"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "thin",
+        "vertices": [
+          [
+            "0",
+            "0",
+            "1",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "0",
+            "0",
+            "-1",
+            "0"
+          ],
+          "translation": [
+            "0",
+            "0",
+            "1",
+            "1"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "thin",
+        "vertices": [
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          "translation": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "reflected": false
+        }
+      }
+    ],
+    "all_contained": true,
+    "all_interior_disjoint": true,
+    "exact_area_coverage": true,
+    "pair_separation_tests": 120,
+    "positive_internal_contacts": [
+      {
+        "first_triangle": 0,
+        "first_edge": 1,
+        "second_triangle": 1,
+        "second_edge": 1,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ],
+        "overlap_end": [
+          "0",
+          "1",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "first_triangle": 0,
+        "first_edge": 2,
+        "second_triangle": 10,
+        "second_edge": 2,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "first_triangle": 1,
+        "first_edge": 2,
+        "second_triangle": 2,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ],
+        "overlap_end": [
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      },
+      {
+        "first_triangle": 1,
+        "first_edge": 0,
+        "second_triangle": 10,
+        "second_edge": 2,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "1",
+          "0",
+          "1",
+          "0"
+        ],
+        "overlap_end": [
+          "0",
+          "1",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "first_triangle": 2,
+        "first_edge": 2,
+        "second_triangle": 3,
+        "second_edge": 2,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "2",
+          "0",
+          "1",
+          "-1"
+        ],
+        "overlap_end": [
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      },
+      {
+        "first_triangle": 3,
+        "first_edge": 1,
+        "second_triangle": 4,
+        "second_edge": 2,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "2",
+          "0",
+          "1",
+          "0"
+        ],
+        "overlap_end": [
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      },
+      {
+        "first_triangle": 3,
+        "first_edge": 0,
+        "second_triangle": 7,
+        "second_edge": 2,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "2",
+          "0",
+          "1",
+          "-1"
+        ],
+        "overlap_end": [
+          "2",
+          "0",
+          "1",
+          "0"
+        ]
+      },
+      {
+        "first_triangle": 4,
+        "first_edge": 0,
+        "second_triangle": 7,
+        "second_edge": 2,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "2",
+          "0",
+          "1",
+          "0"
+        ],
+        "overlap_end": [
+          "1",
+          "1",
+          "1",
+          "0"
+        ]
+      },
+      {
+        "first_triangle": 4,
+        "first_edge": 1,
+        "second_triangle": 12,
+        "second_edge": 1,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "1",
+          "1",
+          "1",
+          "0"
+        ],
+        "overlap_end": [
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      },
+      {
+        "first_triangle": 5,
+        "first_edge": 1,
+        "second_triangle": 6,
+        "second_edge": 1,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "2",
+          "0",
+          "2",
+          "-1"
+        ],
+        "overlap_end": [
+          "2",
+          "0",
+          "2",
+          "-2"
+        ]
+      },
+      {
+        "first_triangle": 6,
+        "first_edge": 2,
+        "second_triangle": 7,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "2",
+          "0",
+          "2",
+          "-1"
+        ],
+        "overlap_end": [
+          "2",
+          "0",
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "first_triangle": 8,
+        "first_edge": 1,
+        "second_triangle": 9,
+        "second_edge": 1,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        "overlap_end": [
+          "0",
+          "1",
+          "1",
+          "0"
+        ]
+      },
+      {
+        "first_triangle": 8,
+        "first_edge": 2,
+        "second_triangle": 11,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "0",
+          "1",
+          "1",
+          "0"
+        ],
+        "overlap_end": [
+          "0",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "first_triangle": 8,
+        "first_edge": 0,
+        "second_triangle": 13,
+        "second_edge": 2,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "0",
+          "1",
+          "1",
+          "1"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "1",
+          "0"
+        ]
+      },
+      {
+        "first_triangle": 9,
+        "first_edge": 2,
+        "second_triangle": 10,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        "overlap_end": [
+          "1",
+          "0",
+          "1",
+          "0"
+        ]
+      },
+      {
+        "first_triangle": 9,
+        "first_edge": 0,
+        "second_triangle": 12,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "1",
+          "0",
+          "1",
+          "0"
+        ],
+        "overlap_end": [
+          "0",
+          "1",
+          "1",
+          "0"
+        ]
+      },
+      {
+        "first_triangle": 10,
+        "first_edge": 1,
+        "second_triangle": 15,
+        "second_edge": 1,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "first_triangle": 11,
+        "first_edge": 1,
+        "second_triangle": 12,
+        "second_edge": 2,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "0",
+          "1",
+          "1",
+          "0"
+        ],
+        "overlap_end": [
+          "1",
+          "1",
+          "1",
+          "0"
+        ]
+      },
+      {
+        "first_triangle": 13,
+        "first_edge": 1,
+        "second_triangle": 14,
+        "second_edge": 2,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "0",
+          "0",
+          "1",
+          "1"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "1",
+          "0"
+        ]
+      },
+      {
+        "first_triangle": 14,
+        "first_edge": 1,
+        "second_triangle": 15,
+        "second_edge": 2,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "1",
+          "0"
+        ]
+      }
+    ],
+    "partial_contact_count": 4
+  },
+  "V": {
+    "parent_vertices": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-2",
+        "3",
+        "0",
+        "4"
+      ],
+      [
+        "-2",
+        "2",
+        "0",
+        "4"
+      ],
+      [
+        "-2",
+        "0",
+        "0",
+        "2"
+      ]
+    ],
+    "triangle_counts": {
+      "thin": 9,
+      "fat": 16
+    },
+    "triangles": [
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "-1",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "-2",
+            "1",
+            "0",
+            "2"
+          ],
+          [
+            "-2",
+            "1",
+            "-1",
+            "2"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "1",
+            "-1",
+            "1",
+            "-1"
+          ],
+          "translation": [
+            "-2",
+            "1",
+            "-1",
+            "2"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "thin",
+        "vertices": [
+          [
+            "-2",
+            "0",
+            "0",
+            "2"
+          ],
+          [
+            "-2",
+            "1",
+            "-1",
+            "2"
+          ],
+          [
+            "-2",
+            "1",
+            "0",
+            "2"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "-2",
+            "1",
+            "0",
+            "2"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "-2",
+            "0",
+            "0",
+            "2"
+          ],
+          [
+            "-2",
+            "1",
+            "0",
+            "2"
+          ],
+          [
+            "-2",
+            "1",
+            "0",
+            "3"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "translation": [
+            "-2",
+            "1",
+            "0",
+            "2"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "-1",
+            "1",
+            "-1",
+            "1"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "1",
+            "-1",
+            "1",
+            "-1"
+          ],
+          "translation": [
+            "-1",
+            "1",
+            "-1",
+            "1"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "thin",
+        "vertices": [
+          [
+            "-1",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "-1",
+            "1",
+            "-1",
+            "1"
+          ],
+          [
+            "-1",
+            "1",
+            "0",
+            "1"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "-1",
+            "1",
+            "0",
+            "1"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "-1",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "-1",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "-1",
+            "1",
+            "0",
+            "2"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "translation": [
+            "-1",
+            "1",
+            "0",
+            "1"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "-1",
+            "1",
+            "0",
+            "2"
+          ],
+          [
+            "-2",
+            "2",
+            "0",
+            "3"
+          ],
+          [
+            "-2",
+            "2",
+            "-1",
+            "3"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "1",
+            "-1",
+            "1",
+            "-1"
+          ],
+          "translation": [
+            "-2",
+            "2",
+            "-1",
+            "3"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "thin",
+        "vertices": [
+          [
+            "-2",
+            "1",
+            "0",
+            "3"
+          ],
+          [
+            "-2",
+            "2",
+            "-1",
+            "3"
+          ],
+          [
+            "-2",
+            "2",
+            "0",
+            "3"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "-2",
+            "2",
+            "0",
+            "3"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "-2",
+            "1",
+            "0",
+            "3"
+          ],
+          [
+            "-2",
+            "2",
+            "0",
+            "3"
+          ],
+          [
+            "-2",
+            "2",
+            "0",
+            "4"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "translation": [
+            "-2",
+            "2",
+            "0",
+            "3"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "-2",
+            "1",
+            "0",
+            "3"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "2"
+          ],
+          [
+            "-1",
+            "0",
+            "1",
+            "2"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "-1",
+            "1",
+            "-1",
+            "1"
+          ],
+          "translation": [
+            "-1",
+            "0",
+            "1",
+            "2"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "thin",
+        "vertices": [
+          [
+            "-1",
+            "1",
+            "0",
+            "2"
+          ],
+          [
+            "-1",
+            "0",
+            "1",
+            "2"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "2"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "-1",
+            "0",
+            "0",
+            "2"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "-1",
+            "1",
+            "0",
+            "2"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "2"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "0",
+            "0",
+            "0",
+            "-1"
+          ],
+          "translation": [
+            "-1",
+            "0",
+            "0",
+            "2"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "1",
+            "0",
+            "0",
+            "1"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "2"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "1",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "2"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "2"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "1",
+            "0",
+            "0",
+            "2"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "0",
+            "0",
+            "0",
+            "2"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "2"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "3"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "0",
+            "0",
+            "0",
+            "2"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "1",
+            "0",
+            "0",
+            "2"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "3"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "3"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "1",
+            "0",
+            "0",
+            "3"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "0",
+            "0",
+            "0",
+            "3"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "3"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "4"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "0",
+            "0",
+            "0",
+            "3"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "fat",
+        "vertices": [
+          [
+            "1",
+            "0",
+            "0",
+            "3"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "4"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "4"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "1",
+            "0",
+            "0",
+            "4"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "thin",
+        "vertices": [
+          [
+            "0",
+            "0",
+            "0",
+            "4"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "4"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "4"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "0",
+            "0",
+            "0",
+            "4"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "thin",
+        "vertices": [
+          [
+            "0",
+            "0",
+            "0",
+            "4"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "4"
+          ],
+          [
+            "-1",
+            "1",
+            "0",
+            "4"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "0",
+            "1",
+            "0",
+            "4"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "thin",
+        "vertices": [
+          [
+            "-1",
+            "1",
+            "0",
+            "4"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "4"
+          ],
+          [
+            "-1",
+            "2",
+            "0",
+            "4"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "-1",
+            "1",
+            "0",
+            "4"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "thin",
+        "vertices": [
+          [
+            "-1",
+            "1",
+            "0",
+            "4"
+          ],
+          [
+            "-1",
+            "2",
+            "0",
+            "4"
+          ],
+          [
+            "-2",
+            "2",
+            "0",
+            "4"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "-1",
+            "2",
+            "0",
+            "4"
+          ],
+          "reflected": false
+        }
+      },
+      {
+        "kind": "thin",
+        "vertices": [
+          [
+            "-2",
+            "2",
+            "0",
+            "4"
+          ],
+          [
+            "-1",
+            "2",
+            "0",
+            "4"
+          ],
+          [
+            "-2",
+            "3",
+            "0",
+            "4"
+          ]
+        ],
+        "reference_isometry": {
+          "rotation": [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          "translation": [
+            "-2",
+            "2",
+            "0",
+            "4"
+          ],
+          "reflected": false
+        }
+      }
+    ],
+    "all_contained": true,
+    "all_interior_disjoint": true,
+    "exact_area_coverage": true,
+    "pair_separation_tests": 300,
+    "positive_internal_contacts": [
+      {
+        "first_triangle": 0,
+        "first_edge": 1,
+        "second_triangle": 1,
+        "second_edge": 1,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "-2",
+          "1",
+          "0",
+          "2"
+        ],
+        "overlap_end": [
+          "-2",
+          "1",
+          "-1",
+          "2"
+        ]
+      },
+      {
+        "first_triangle": 0,
+        "first_edge": 0,
+        "second_triangle": 9,
+        "second_edge": 0,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "-1",
+          "0",
+          "0",
+          "2"
+        ],
+        "overlap_end": [
+          "-2",
+          "1",
+          "0",
+          "2"
+        ]
+      },
+      {
+        "first_triangle": 0,
+        "first_edge": 0,
+        "second_triangle": 11,
+        "second_edge": 1,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "-1",
+          "0",
+          "0",
+          "1"
+        ],
+        "overlap_end": [
+          "-1",
+          "0",
+          "0",
+          "2"
+        ]
+      },
+      {
+        "first_triangle": 1,
+        "first_edge": 2,
+        "second_triangle": 2,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "-2",
+          "1",
+          "0",
+          "2"
+        ],
+        "overlap_end": [
+          "-2",
+          "0",
+          "0",
+          "2"
+        ]
+      },
+      {
+        "first_triangle": 2,
+        "first_edge": 1,
+        "second_triangle": 9,
+        "second_edge": 0,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "-2",
+          "1",
+          "0",
+          "2"
+        ],
+        "overlap_end": [
+          "-2",
+          "1",
+          "0",
+          "3"
+        ]
+      },
+      {
+        "first_triangle": 3,
+        "first_edge": 1,
+        "second_triangle": 4,
+        "second_edge": 1,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "-1",
+          "1",
+          "0",
+          "1"
+        ],
+        "overlap_end": [
+          "-1",
+          "1",
+          "-1",
+          "1"
+        ]
+      },
+      {
+        "first_triangle": 3,
+        "first_edge": 0,
+        "second_triangle": 12,
+        "second_edge": 2,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      },
+      {
+        "first_triangle": 3,
+        "first_edge": 0,
+        "second_triangle": 14,
+        "second_edge": 2,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        "overlap_end": [
+          "-1",
+          "1",
+          "0",
+          "1"
+        ]
+      },
+      {
+        "first_triangle": 4,
+        "first_edge": 2,
+        "second_triangle": 5,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "-1",
+          "1",
+          "0",
+          "1"
+        ],
+        "overlap_end": [
+          "-1",
+          "0",
+          "0",
+          "1"
+        ]
+      },
+      {
+        "first_triangle": 5,
+        "first_edge": 2,
+        "second_triangle": 11,
+        "second_edge": 2,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "-1",
+          "1",
+          "0",
+          "2"
+        ],
+        "overlap_end": [
+          "-1",
+          "0",
+          "0",
+          "1"
+        ]
+      },
+      {
+        "first_triangle": 5,
+        "first_edge": 1,
+        "second_triangle": 14,
+        "second_edge": 2,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "-1",
+          "1",
+          "0",
+          "1"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "0",
+          "2"
+        ]
+      },
+      {
+        "first_triangle": 5,
+        "first_edge": 1,
+        "second_triangle": 16,
+        "second_edge": 2,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "0",
+          "0",
+          "0",
+          "2"
+        ],
+        "overlap_end": [
+          "-1",
+          "1",
+          "0",
+          "2"
+        ]
+      },
+      {
+        "first_triangle": 6,
+        "first_edge": 1,
+        "second_triangle": 7,
+        "second_edge": 1,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "-2",
+          "2",
+          "0",
+          "3"
+        ],
+        "overlap_end": [
+          "-2",
+          "2",
+          "-1",
+          "3"
+        ]
+      },
+      {
+        "first_triangle": 6,
+        "first_edge": 2,
+        "second_triangle": 9,
+        "second_edge": 2,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "-2",
+          "2",
+          "-1",
+          "3"
+        ],
+        "overlap_end": [
+          "-1",
+          "0",
+          "1",
+          "2"
+        ]
+      },
+      {
+        "first_triangle": 6,
+        "first_edge": 2,
+        "second_triangle": 10,
+        "second_edge": 0,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "-1",
+          "0",
+          "1",
+          "2"
+        ],
+        "overlap_end": [
+          "-1",
+          "1",
+          "0",
+          "2"
+        ]
+      },
+      {
+        "first_triangle": 6,
+        "first_edge": 0,
+        "second_triangle": 16,
+        "second_edge": 2,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "-1",
+          "1",
+          "0",
+          "2"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "0",
+          "3"
+        ]
+      },
+      {
+        "first_triangle": 6,
+        "first_edge": 0,
+        "second_triangle": 18,
+        "second_edge": 2,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "0",
+          "0",
+          "0",
+          "3"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "0",
+          "4"
+        ]
+      },
+      {
+        "first_triangle": 6,
+        "first_edge": 0,
+        "second_triangle": 21,
+        "second_edge": 2,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "0",
+          "0",
+          "0",
+          "4"
+        ],
+        "overlap_end": [
+          "-2",
+          "2",
+          "0",
+          "3"
+        ]
+      },
+      {
+        "first_triangle": 7,
+        "first_edge": 2,
+        "second_triangle": 8,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "-2",
+          "2",
+          "0",
+          "3"
+        ],
+        "overlap_end": [
+          "-2",
+          "1",
+          "0",
+          "3"
+        ]
+      },
+      {
+        "first_triangle": 7,
+        "first_edge": 0,
+        "second_triangle": 9,
+        "second_edge": 2,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "-2",
+          "1",
+          "0",
+          "3"
+        ],
+        "overlap_end": [
+          "-2",
+          "2",
+          "-1",
+          "3"
+        ]
+      },
+      {
+        "first_triangle": 8,
+        "first_edge": 1,
+        "second_triangle": 21,
+        "second_edge": 2,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "-2",
+          "2",
+          "0",
+          "3"
+        ],
+        "overlap_end": [
+          "-1",
+          "1",
+          "0",
+          "4"
+        ]
+      },
+      {
+        "first_triangle": 8,
+        "first_edge": 1,
+        "second_triangle": 23,
+        "second_edge": 2,
+        "whole_edge_on_both": false,
+        "overlap_start": [
+          "-1",
+          "1",
+          "0",
+          "4"
+        ],
+        "overlap_end": [
+          "-2",
+          "2",
+          "0",
+          "4"
+        ]
+      },
+      {
+        "first_triangle": 9,
+        "first_edge": 1,
+        "second_triangle": 10,
+        "second_edge": 1,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "-1",
+          "0",
+          "0",
+          "2"
+        ],
+        "overlap_end": [
+          "-1",
+          "0",
+          "1",
+          "2"
+        ]
+      },
+      {
+        "first_triangle": 10,
+        "first_edge": 2,
+        "second_triangle": 11,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "-1",
+          "0",
+          "0",
+          "2"
+        ],
+        "overlap_end": [
+          "-1",
+          "1",
+          "0",
+          "2"
+        ]
+      },
+      {
+        "first_triangle": 12,
+        "first_edge": 1,
+        "second_triangle": 13,
+        "second_edge": 2,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      },
+      {
+        "first_triangle": 13,
+        "first_edge": 1,
+        "second_triangle": 14,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      },
+      {
+        "first_triangle": 14,
+        "first_edge": 1,
+        "second_triangle": 15,
+        "second_edge": 2,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "0",
+          "2"
+        ]
+      },
+      {
+        "first_triangle": 15,
+        "first_edge": 1,
+        "second_triangle": 16,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "1",
+          "0",
+          "0",
+          "2"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "0",
+          "2"
+        ]
+      },
+      {
+        "first_triangle": 16,
+        "first_edge": 1,
+        "second_triangle": 17,
+        "second_edge": 2,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "1",
+          "0",
+          "0",
+          "2"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "0",
+          "3"
+        ]
+      },
+      {
+        "first_triangle": 17,
+        "first_edge": 1,
+        "second_triangle": 18,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "1",
+          "0",
+          "0",
+          "3"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "0",
+          "3"
+        ]
+      },
+      {
+        "first_triangle": 18,
+        "first_edge": 1,
+        "second_triangle": 19,
+        "second_edge": 2,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "1",
+          "0",
+          "0",
+          "3"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "0",
+          "4"
+        ]
+      },
+      {
+        "first_triangle": 19,
+        "first_edge": 1,
+        "second_triangle": 20,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "1",
+          "0",
+          "0",
+          "4"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "0",
+          "4"
+        ]
+      },
+      {
+        "first_triangle": 20,
+        "first_edge": 2,
+        "second_triangle": 21,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "0",
+          "1",
+          "0",
+          "4"
+        ],
+        "overlap_end": [
+          "0",
+          "0",
+          "0",
+          "4"
+        ]
+      },
+      {
+        "first_triangle": 21,
+        "first_edge": 1,
+        "second_triangle": 22,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "0",
+          "1",
+          "0",
+          "4"
+        ],
+        "overlap_end": [
+          "-1",
+          "1",
+          "0",
+          "4"
+        ]
+      },
+      {
+        "first_triangle": 22,
+        "first_edge": 2,
+        "second_triangle": 23,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "-1",
+          "2",
+          "0",
+          "4"
+        ],
+        "overlap_end": [
+          "-1",
+          "1",
+          "0",
+          "4"
+        ]
+      },
+      {
+        "first_triangle": 23,
+        "first_edge": 1,
+        "second_triangle": 24,
+        "second_edge": 0,
+        "whole_edge_on_both": true,
+        "overlap_start": [
+          "-1",
+          "2",
+          "0",
+          "4"
+        ],
+        "overlap_end": [
+          "-2",
+          "2",
+          "0",
+          "4"
+        ]
+      }
+    ],
+    "partial_contact_count": 15
+  },
+  "U_construction": "phi^3 thin triangle plus quad cut at z^2 into two thin and one fat",
+  "V_construction": "2phi fat triangle split medially then phi-fat recursion; four unit fat rhombs plus alternating five-thin strip",
+  "content_matrix_thin_fat_rows_U_V_columns": [
+    [
+      7,
+      9
+    ],
+    [
+      9,
+      16
+    ]
+  ],
+  "minimal_medial_interface_rejection": {
+    "scope": "Selected medial fat-cap / four-unit-rhomb-row compiler only",
+    "mandatory_cap_vertex": [
+      "-1",
+      "1",
+      "0",
+      "2"
+    ],
+    "cap_unit_triangle_indices_with_vertex": [
+      5,
+      6,
+      10,
+      11
+    ],
+    "row_unit_triangle": 16,
+    "row_whole_edge": [
+      [
+        "0",
+        "0",
+        "0",
+        "2"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "3"
+      ]
+    ],
+    "fraction_of_row_edge": [
+      "0",
+      "0",
+      "1",
+      "-1"
+    ],
+    "strict_fraction_between_zero_and_one": true,
+    "conclusion": "A native triangle vertex in another whole edge's interior is forbidden in an edge-to-edge source patch."
+  },
+  "marked_source_legality": "These exact partitions are not edge-to-edge, so cannot be patches of actual unit Penrose rhomb halves"
+}

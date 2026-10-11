@@ -1,0 +1,116 @@
+# Exact private-side octagon closure and regular-pentagon chain collars
+
+**Status:** finite exact computation completed; fresh independent audit pending.
+One whole-plane six-motif witness has now been checked separately by all
+lattice overlap comparisons and an area identity; local collars alone do
+not supply plane extension. The associated direct
+periodicity theorem is separate:
+[regular-pentagon-private-octagon-periodicity.md](../lemmas/regular-pentagon-private-octagon-periodicity.md).
+
+## Question, domain, and encoding
+
+P is the regular unit pentagon. Q has nonadjacent108-degree corners at native
+vertices0 and d in {2,3,4}, with all other corners144 degrees. Reflection and
+rotation normalize the smaller alpha separation to this three-value domain.
+A tileable member of the specified metric family must have one private side
+at each alpha corner; this follows from the reviewed defect-free chain limit,
+or directly because two private alpha/beta sides meeting at one alpha would
+place two beta neighbors at that corner. Thus the two private-side choices
+are i in {7,0}, j in {d-1,d}, giving exactly12 cases.
+
+Set z=exp(i*pi/5), selected exactly as the upper-right root of
+z^4-z^3+z^2-z+1=0. Native unit direction j is z^(j+1[j>=d]); side0 has direction1.
+All eight lengths initially equal1. Two exact real closure equations solve
+the private lengths. No arbitrary length bound or numerical reconstruction
+is used. In a parallel case, the source checks inconsistency or forced
+private-length equality analytically.
+
+Exactly four branches have positive, distinct, nonunit private lengths. Two
+reflected pairs give two Q metric classes:
+
+* d=2, private sides0 and2: lengths sqrt(5) and (5-sqrt(5))/2.
+* d=3, private sides0 and3: lengths2 and (1+sqrt(5))/2.
+
+The incoming-side representatives are their reflections: corner relabeling
+k -> d-k sends edge0 to d-1 and edge d to7 and swaps these private lengths.
+All remaining closures are inconsistent, nonpositive, unit, or equal-private.
+Every eligible Q is checked using all strict supporting-side inequalities.
+
+## Mandatory collar and complete overlap domain
+
+For each eligible branch, Q and its half-turn at the second private midpoint
+are the two Q motifs of one straight chain. Its period is u=2(b-a). Across
+each of their unit sides the regular P placement is unique. The requirement
+that all six unit sides have P neighbors comes from the reviewed defect-free
+chain limit; the more general original-tiling periodicity proof does not itself
+make this requirement pointwise.
+
+The producer constructs all twelve prescribed P placements and removes exact
+duplicates modulo u, leaving eight pentagons. For each ordered pair of Q/P
+motifs, projection onto u gives an exact finite interval of possible integer
+chain shifts. Every integer in that interval is checked by exact convex polygon
+clipping. Shifts outside it have disjoint projections. Identity comparisons
+are omitted; boundary contacts are permitted. The full two-Q/eight-P forced
+collar has no interior overlaps:88 comparisons for each d=2 branch,72 for each
+d=3 branch. This establishes a consistent infinite periodic collar only.
+
+## Eight third-Q maps for two representative branches
+
+For d=2 and d=3 outgoing-private representatives, one collar P is selected
+which already shares consecutive sides with Q and its private-side Q neighbor.
+In the good limit its third Q side is the unique side nonadjacent to both.
+The endpoints of that Q side must both be beta corners because the adjacent
+P-side neighbors are P. There are four beta/beta unit Q side indices and
+two allowed geometric endpoint/parity maps per index: exactly8 cases.
+
+The proved straight-chain theorem requires every new Q axis to be parallel
+to the old axis. Nonparallel candidates are discarded. For each remaining
+candidate the producer constructs both entire periodic chain collars, merges
+identical tile copies modulo u, and checks all possible integer-shift overlaps.
+
+For d=2 two candidates have parallel axes, and both have positive overlap.
+The retained first overlap is between Q motifs, with exact area sin(pi/5)>0.
+This is an obstruction to the declared good-limit extension. A full independent
+review must check the third-side forcing, complete eight-map domain, and
+positive collision before promoting it to an unrestricted untileability theorem.
+
+For d=3 three candidates have parallel axes. One overlaps; two have disjoint
+joint collars, respectively202 and204 complete ordered comparisons. Clipping
+the collars between their two axes yields four Q half-polygons and four whole
+P copies. The sum of these eight piece areas equals the exact cylinder-band
+area |cross(u,a_new-a)|. These are complete periodic-band certificates. The positive-parity side5
+map is the pure translation w=(phi+2,-2phi*sin(pi/5)), so it also gives a
+direct whole-plane witness: Q,H_b(Q),S(Q,1),S(Q,2),S(H_b(Q),5),S(H_b(Q),6)
+with lattice generated by u=2(b-a) and w. The producer checks every possibly
+intersecting lattice shift in exact lattice-coordinate bounding boxes:
+36 nonidentity ordered comparisons, all with zero overlap area. The sum
+of the six full tile areas equals the nonzero lattice covolume. Closedness
+and local finiteness then prove whole-plane coverage, as written in the
+[metric classification](../lemmas/regular-pentagon-private-octagon-metric-classification.md).
+No band-gluing or finite-patch-to-plane inference is needed. The full six
+polygons, lattice, area identity, and comparison count are retained under
+whole_plane_witness in the exact certificate.
+
+## Artifacts, arithmetic, replay, and execution
+
+[Producer](regular_pentagon_private_octagon_geometry.py) and
+[certificate](../certificates/regular-pentagon-private-octagon-geometry.json).
+All decisions use Sage AA/QQbar exact arithmetic. Every retained nonrational
+coordinate or area is encoded by its minimal polynomial and an exact rational
+isolating interval containing exactly one real root. Rational values are
+encoded directly. Interval endpoints use exact binary-rational extraction,
+not approximate rational coercion. The producer rejects Python optimization.
+No solver, stochastic seed, timeout, memory cap, or period bound is used.
+
+```text
+conda run --no-capture-output -n arisearch python3 research/searches/regular_pentagon_private_octagon_geometry.py
+```
+
+The producer prints its complete certificate; compare parsed JSON with the
+retained file, or redirect to regenerate intentionally. The12 closures and
+two8-map probes completed. Python3.12/Sage10.9 are the selected environment.
+Elapsed time was not instrumented. Fresh independent verification has not yet
+been supplied. The first serialization attempt used a missing interval-field
+argument; the second used approximate QQ coercion of interval endpoints.
+Both failed explicit checks before any certificate was written. Correct exact
+endpoint extraction then completed; no mathematical result changed.

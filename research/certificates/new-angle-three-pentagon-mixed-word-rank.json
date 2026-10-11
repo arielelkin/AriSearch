@@ -1,0 +1,139 @@
+{
+  "distinct_equality_relations_checked": 3,
+  "enumeration_completeness_dependency": "the declared generator domain/proof; this checker verifies retained models",
+  "exact_rank_certificates": [
+    {
+      "conclusion": "all lengths zero",
+      "partition": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        1
+      ],
+      "rank": 3,
+      "rank_witness": {
+        "nonzero_minor": {
+          "1": "-5/4",
+          "2": "3/4",
+          "3": "-3/4",
+          "6": "1/2"
+        },
+        "rows": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "conclusion": "native side3 of both prototiles forced zero",
+      "partition": [
+        0,
+        3,
+        0,
+        4,
+        1,
+        1,
+        2,
+        3,
+        4,
+        2
+      ],
+      "rank": 4,
+      "rank_witness": {
+        "columns": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "nonzero_minor": {
+          "1": "1/2",
+          "2": "-3/8",
+          "3": "1/4",
+          "6": "-1/8"
+        }
+      },
+      "zero_minor_columns": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "conclusion": "all lengths zero",
+      "partition": [
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        0,
+        1,
+        2,
+        0
+      ],
+      "rank": 3,
+      "rank_witness": {
+        "nonzero_minor": {
+          "1": "5/4",
+          "2": "-3/4",
+          "3": "3/4",
+          "6": "-1/2"
+        },
+        "rows": [
+          0,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "conclusion": "native side3 of both prototiles forced zero",
+      "partition": [
+        3,
+        0,
+        1,
+        4,
+        0,
+        1,
+        2,
+        3,
+        4,
+        2
+      ],
+      "rank": 4,
+      "rank_witness": {
+        "columns": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "nonzero_minor": {
+          "1": "-1/2",
+          "2": "3/8",
+          "3": "-1/4",
+          "6": "1/8"
+        }
+      },
+      "zero_minor_columns": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "raw_partition_labelings_checked": 4,
+  "retained_angle_models_checked": 8,
+  "status": "PASS"
+}

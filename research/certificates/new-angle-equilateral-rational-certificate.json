@@ -1,0 +1,114 @@
+{
+  "claim": "finite angular checks for equilateral rational-angle pentagon-pair obstruction",
+  "acute_L_corner": {
+    "180": {
+      "tested_count_tuples": 48,
+      "roots": [],
+      "identities": []
+    },
+    "360": {
+      "tested_count_tuples": 48,
+      "roots": [],
+      "identities": []
+    }
+  },
+  "theta_30_L_corner": {
+    "180": [],
+    "360": []
+  },
+  "three_corner_rows_containing_S": {
+    "tested_count_tuples": 6,
+    "roots": [
+      {
+        "counts": [
+          0,
+          1,
+          2
+        ],
+        "theta": "84"
+      },
+      {
+        "counts": [
+          0,
+          2,
+          1
+        ],
+        "theta": "66"
+      },
+      {
+        "counts": [
+          0,
+          3,
+          0
+        ],
+        "theta": "60"
+      },
+      {
+        "counts": [
+          1,
+          2,
+          0
+        ],
+        "theta": "60"
+      },
+      {
+        "counts": [
+          2,
+          1,
+          0
+        ],
+        "theta": "60"
+      }
+    ],
+    "identities": []
+  },
+  "exceptional_168_corner": {
+    "180": [],
+    "360": []
+  },
+  "regular_pentagon_corner": {
+    "180": [],
+    "360": []
+  },
+  "exceptional_closure": {
+    "root_order": 30,
+    "exponents": [
+      5,
+      6,
+      12,
+      18,
+      24,
+      25
+    ],
+    "phi30_coefficients_low_to_high": [
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1
+    ],
+    "polynomial_remainder": [],
+    "turns": [
+      120,
+      12,
+      72,
+      72,
+      72,
+      12
+    ],
+    "angles": [
+      60,
+      168,
+      108,
+      108,
+      108,
+      168
+    ]
+  },
+  "scope": "bounded exact counts plus fixed exceptional closure; global polygon classification and periodic construction are proved separately",
+  "verdict": "all stated angular obstructions verified"
+}

@@ -1,0 +1,666 @@
+{
+  "scope": "all fixed strict convex binary p!=q A-alternating/B-two-run shapes; angles0..180;delta0..30",
+  "homogeneous_resonance_lines": [
+    {
+      "arc": "pp",
+      "variables": [
+        "alpha",
+        "beta"
+      ],
+      "coefficients": [
+        0,
+        3
+      ],
+      "rhs": 360,
+      "multiset": [
+        0,
+        3
+      ]
+    },
+    {
+      "arc": "pp",
+      "variables": [
+        "alpha",
+        "beta"
+      ],
+      "coefficients": [
+        1,
+        2
+      ],
+      "rhs": 360,
+      "multiset": [
+        1,
+        2
+      ]
+    },
+    {
+      "arc": "pp",
+      "variables": [
+        "alpha",
+        "beta"
+      ],
+      "coefficients": [
+        2,
+        1
+      ],
+      "rhs": 360,
+      "multiset": [
+        2,
+        1
+      ]
+    },
+    {
+      "arc": "pp",
+      "variables": [
+        "alpha",
+        "beta"
+      ],
+      "coefficients": [
+        3,
+        0
+      ],
+      "rhs": 360,
+      "multiset": [
+        3,
+        0
+      ]
+    },
+    {
+      "arc": "qq",
+      "variables": [
+        "chi",
+        "psi"
+      ],
+      "coefficients": [
+        0,
+        3
+      ],
+      "rhs": 360,
+      "multiset": [
+        0,
+        3
+      ]
+    },
+    {
+      "arc": "qq",
+      "variables": [
+        "chi",
+        "psi"
+      ],
+      "coefficients": [
+        1,
+        2
+      ],
+      "rhs": 360,
+      "multiset": [
+        1,
+        2
+      ]
+    },
+    {
+      "arc": "qq",
+      "variables": [
+        "chi",
+        "psi"
+      ],
+      "coefficients": [
+        2,
+        1
+      ],
+      "rhs": 360,
+      "multiset": [
+        2,
+        1
+      ]
+    },
+    {
+      "arc": "qq",
+      "variables": [
+        "chi",
+        "psi"
+      ],
+      "coefficients": [
+        3,
+        0
+      ],
+      "rhs": 360,
+      "multiset": [
+        3,
+        0
+      ]
+    }
+  ],
+  "same_arc_all_pairwise_intersections": [
+    {
+      "multisets": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "intersection": [
+        "120",
+        "120"
+      ]
+    },
+    {
+      "multisets": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "intersection": [
+        "120",
+        "120"
+      ]
+    },
+    {
+      "multisets": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "intersection": [
+        "120",
+        "120"
+      ]
+    },
+    {
+      "multisets": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "intersection": [
+        "120",
+        "120"
+      ]
+    },
+    {
+      "multisets": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "intersection": [
+        "120",
+        "120"
+      ]
+    },
+    {
+      "multisets": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "intersection": [
+        "120",
+        "120"
+      ]
+    }
+  ],
+  "AAq_possible_angle_locus": [
+    "alpha=120",
+    "beta=120",
+    "(alpha,beta)=(120-2delta,120+2delta)",
+    "(alpha,beta)=(120+2delta,120-2delta)"
+  ],
+  "paired_AAq_has_no_pp_homogeneous_star": [
+    {
+      "multiset": [
+        0,
+        3
+      ],
+      "angle_sum": "360+6*delta",
+      "delta_coefficient": 6
+    },
+    {
+      "multiset": [
+        1,
+        2
+      ],
+      "angle_sum": "360+2*delta",
+      "delta_coefficient": 2
+    },
+    {
+      "multiset": [
+        2,
+        1
+      ],
+      "angle_sum": "360-2*delta",
+      "delta_coefficient": -2
+    },
+    {
+      "multiset": [
+        3,
+        0
+      ],
+      "angle_sum": "360-6*delta",
+      "delta_coefficient": -6
+    }
+  ],
+  "all12_native_reindexings_B_monohedral_family_rejections": [
+    {
+      "shift": 0,
+      "reflected": false,
+      "B_native_word": [
+        "p",
+        "p",
+        "p",
+        "q",
+        "q",
+        "q"
+      ],
+      "H1_H2_opposite_pair": [
+        2,
+        5
+      ],
+      "H1_H2_unequal": true,
+      "H3_unequal_adjacent_pairs": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "shift": 0,
+      "reflected": true,
+      "B_native_word": [
+        "p",
+        "q",
+        "q",
+        "q",
+        "p",
+        "p"
+      ],
+      "H1_H2_opposite_pair": [
+        2,
+        5
+      ],
+      "H1_H2_unequal": true,
+      "H3_unequal_adjacent_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 1,
+      "reflected": false,
+      "B_native_word": [
+        "p",
+        "p",
+        "q",
+        "q",
+        "q",
+        "p"
+      ],
+      "H1_H2_opposite_pair": [
+        2,
+        5
+      ],
+      "H1_H2_unequal": true,
+      "H3_unequal_adjacent_pairs": [
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "shift": 1,
+      "reflected": true,
+      "B_native_word": [
+        "p",
+        "p",
+        "q",
+        "q",
+        "q",
+        "p"
+      ],
+      "H1_H2_opposite_pair": [
+        2,
+        5
+      ],
+      "H1_H2_unequal": true,
+      "H3_unequal_adjacent_pairs": [
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "shift": 2,
+      "reflected": false,
+      "B_native_word": [
+        "p",
+        "q",
+        "q",
+        "q",
+        "p",
+        "p"
+      ],
+      "H1_H2_opposite_pair": [
+        2,
+        5
+      ],
+      "H1_H2_unequal": true,
+      "H3_unequal_adjacent_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 2,
+      "reflected": true,
+      "B_native_word": [
+        "p",
+        "p",
+        "p",
+        "q",
+        "q",
+        "q"
+      ],
+      "H1_H2_opposite_pair": [
+        2,
+        5
+      ],
+      "H1_H2_unequal": true,
+      "H3_unequal_adjacent_pairs": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "shift": 3,
+      "reflected": false,
+      "B_native_word": [
+        "q",
+        "q",
+        "q",
+        "p",
+        "p",
+        "p"
+      ],
+      "H1_H2_opposite_pair": [
+        2,
+        5
+      ],
+      "H1_H2_unequal": true,
+      "H3_unequal_adjacent_pairs": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "shift": 3,
+      "reflected": true,
+      "B_native_word": [
+        "q",
+        "p",
+        "p",
+        "p",
+        "q",
+        "q"
+      ],
+      "H1_H2_opposite_pair": [
+        2,
+        5
+      ],
+      "H1_H2_unequal": true,
+      "H3_unequal_adjacent_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 4,
+      "reflected": false,
+      "B_native_word": [
+        "q",
+        "q",
+        "p",
+        "p",
+        "p",
+        "q"
+      ],
+      "H1_H2_opposite_pair": [
+        2,
+        5
+      ],
+      "H1_H2_unequal": true,
+      "H3_unequal_adjacent_pairs": [
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "shift": 4,
+      "reflected": true,
+      "B_native_word": [
+        "q",
+        "q",
+        "p",
+        "p",
+        "p",
+        "q"
+      ],
+      "H1_H2_opposite_pair": [
+        2,
+        5
+      ],
+      "H1_H2_unequal": true,
+      "H3_unequal_adjacent_pairs": [
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "shift": 5,
+      "reflected": false,
+      "B_native_word": [
+        "q",
+        "p",
+        "p",
+        "p",
+        "q",
+        "q"
+      ],
+      "H1_H2_opposite_pair": [
+        2,
+        5
+      ],
+      "H1_H2_unequal": true,
+      "H3_unequal_adjacent_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "shift": 5,
+      "reflected": true,
+      "B_native_word": [
+        "q",
+        "q",
+        "q",
+        "p",
+        "p",
+        "p"
+      ],
+      "H1_H2_opposite_pair": [
+        2,
+        5
+      ],
+      "H1_H2_unequal": true,
+      "H3_unequal_adjacent_pairs": [
+        [
+          2,
+          3
+        ]
+      ]
+    }
+  ],
+  "classification_source": "https://arxiv.org/html/2508.01404v2 (Main Theorem;Introduction H1,H2,H3)",
+  "frequency_identity": "N_B-N_A=Y_ppp+Y_qqq+O(R)",
+  "frequency_upper_bound_strata": [
+    {
+      "pp": "none",
+      "qq": "none",
+      "Yp_plus_Yq_upper_per_B": "0",
+      "corner_count_lower_A_per_B": "1",
+      "corner_count_alone_excludes_B_only": true
+    },
+    {
+      "pp": "none",
+      "qq": "pure3",
+      "Yp_plus_Yq_upper_per_B": "1/3",
+      "corner_count_lower_A_per_B": "2/3",
+      "corner_count_alone_excludes_B_only": true
+    },
+    {
+      "pp": "none",
+      "qq": "mixed21",
+      "Yp_plus_Yq_upper_per_B": "1/2",
+      "corner_count_lower_A_per_B": "1/2",
+      "corner_count_alone_excludes_B_only": true
+    },
+    {
+      "pp": "none",
+      "qq": "center120",
+      "Yp_plus_Yq_upper_per_B": "2/3",
+      "corner_count_lower_A_per_B": "1/3",
+      "corner_count_alone_excludes_B_only": true
+    },
+    {
+      "pp": "pure3",
+      "qq": "none",
+      "Yp_plus_Yq_upper_per_B": "1/3",
+      "corner_count_lower_A_per_B": "2/3",
+      "corner_count_alone_excludes_B_only": true
+    },
+    {
+      "pp": "pure3",
+      "qq": "pure3",
+      "Yp_plus_Yq_upper_per_B": "2/3",
+      "corner_count_lower_A_per_B": "1/3",
+      "corner_count_alone_excludes_B_only": true
+    },
+    {
+      "pp": "pure3",
+      "qq": "mixed21",
+      "Yp_plus_Yq_upper_per_B": "5/6",
+      "corner_count_lower_A_per_B": "1/6",
+      "corner_count_alone_excludes_B_only": true
+    },
+    {
+      "pp": "pure3",
+      "qq": "center120",
+      "Yp_plus_Yq_upper_per_B": "1",
+      "corner_count_lower_A_per_B": "0",
+      "corner_count_alone_excludes_B_only": false
+    },
+    {
+      "pp": "mixed21",
+      "qq": "none",
+      "Yp_plus_Yq_upper_per_B": "1/2",
+      "corner_count_lower_A_per_B": "1/2",
+      "corner_count_alone_excludes_B_only": true
+    },
+    {
+      "pp": "mixed21",
+      "qq": "pure3",
+      "Yp_plus_Yq_upper_per_B": "5/6",
+      "corner_count_lower_A_per_B": "1/6",
+      "corner_count_alone_excludes_B_only": true
+    },
+    {
+      "pp": "mixed21",
+      "qq": "mixed21",
+      "Yp_plus_Yq_upper_per_B": "1",
+      "corner_count_lower_A_per_B": "0",
+      "corner_count_alone_excludes_B_only": false
+    },
+    {
+      "pp": "mixed21",
+      "qq": "center120",
+      "Yp_plus_Yq_upper_per_B": "7/6",
+      "corner_count_lower_A_per_B": "-1/6",
+      "corner_count_alone_excludes_B_only": false
+    },
+    {
+      "pp": "center120",
+      "qq": "none",
+      "Yp_plus_Yq_upper_per_B": "2/3",
+      "corner_count_lower_A_per_B": "1/3",
+      "corner_count_alone_excludes_B_only": true
+    },
+    {
+      "pp": "center120",
+      "qq": "pure3",
+      "Yp_plus_Yq_upper_per_B": "1",
+      "corner_count_lower_A_per_B": "0",
+      "corner_count_alone_excludes_B_only": false
+    },
+    {
+      "pp": "center120",
+      "qq": "mixed21",
+      "Yp_plus_Yq_upper_per_B": "7/6",
+      "corner_count_lower_A_per_B": "-1/6",
+      "corner_count_alone_excludes_B_only": false
+    },
+    {
+      "pp": "center120",
+      "qq": "center120",
+      "Yp_plus_Yq_upper_per_B": "4/3",
+      "corner_count_lower_A_per_B": "-1/3",
+      "corner_count_alone_excludes_B_only": false
+    }
+  ],
+  "checks": "8properlines;all6samearcintersectionsonly120120;4pairedAAqtriplecoefficientsnonzero;all12BwordreindexingsfailH1H2H3necessarylengthconditions;16exactrationalfrequencyboundstrata"
+}

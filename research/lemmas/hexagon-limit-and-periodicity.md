@@ -1,9 +1,11 @@
 # Hexagon limits and conditional periodicity
 
 **Status:** Proved internally, with claim-specific hostile-review records.
-The higher-side exclusion, defect-free limit, and conditional deterministic-
-state result were repaired during review; independent re-review of those
-repaired claims is pending. The honeycomb and contact-density claims retain
+The higher-side exclusion has passed [fresh independent hostile
+re-review](../reviews/structural-resumption-review.md) as VALID (2026-10-10),
+using its named imported classification. The repaired conditional
+deterministic-state result still has independent re-review pending. The defect-free limit was strengthened by a uniform sector-disk
+vertex separation argument and [freshly re-reviewed](../reviews/hexagon-defect-limit-rereview.md) on 2026-10-09 with a valid verdict. The honeycomb and contact-density claims retain
 their recorded reviews. None proves periodicity for arbitrary two-hexagon
 tilings.
 
@@ -125,9 +127,22 @@ radius-\(L\) candidate disks, so one disk contains no subdivision endpoint
 and no vertex of degree greater than three.  Translate such disks to the
 origin and take a diagonal limit as \(L\to\infty\).  In every fixed window,
 contacts are eventually whole native sides and all vertices are 3-valent.
-The positive minimum native-side length prevents vertices from coalescing in
-the limit.  Thus the limiting tiling is edge-to-edge and everywhere
-3-valent.  It is admitted by the original pair, although one type may vanish
+Here is a uniform separation argument for the last assertion. Choose
+r>0 smaller than the distance from every native vertex of every prototile
+to all its other vertices and to every nonincident side. Such an r exists
+because there are finitely many genuine fixed convex polygons. Within
+B(v,r), each tile incident at an edge-to-edge vertex v is exactly its
+corner sector. Those sectors cover the disk. A different native vertex
+inside the disk could lie neither in a sector interior, by interior
+disjointness, nor on an incident side ray, by full-edge contact and the
+choice of r. Thus distinct vertices in an edge-to-edge patch away from its
+boundary are separated by at least r. In every fixed limit window the
+defect-free disks provide this same separation bound. Native vertices
+cannot coalesce; corner stars and their whole-side matches consequently
+persist under placement convergence. An additional tile or native vertex
+cannot newly enter a star disk, since its incident corner sectors already
+cover that disk. Thus no new side-interior contact or higher-valence star
+appears, and the limiting tiling is edge-to-edge and everywhere 3-valent.  It is admitted by the original pair, although one type may vanish
 in the limit. \(\square\)
 
 This is a structural reduction, not a periodicity theorem.
@@ -137,8 +152,12 @@ limit.  Otherwise one convex hexagon would tile monohedrally; the unrestricted
 hexagon classification cited above would then give that member a periodic
 monohedral tiling, and monohedral escape would refute aperiodicity.  Thus a
 hypothetical aperiodic $(6,6)$ pair necessarily admits an edge-to-edge,
-everywhere-trivalent tiling in which both types occur, even though this
-argument supplies no positive lower density for either type.
+everywhere-trivalent tiling in which both types occur. The separately
+proved and independently reviewed [uniform-density lemma](two-type-uniform-density.md)
+strengthens this: each species occurs within a common bounded distance of
+every point, uniformly over all admitted tilings, and has positive lower
+tile and covered-area density. This does not establish unique frequencies
+or periodicity for branching neighbor choices.
 
 ### Combinatorial hexagon rigidity
 

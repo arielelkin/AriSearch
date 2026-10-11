@@ -1,0 +1,707 @@
+{
+  "field": "Q(z), z^4-z^3+z^2-z+1=0, z=exp(pi*i/5), phi=z+z^(-1)",
+  "parameter_domain": "b>0,c>0 arbitraryreal; proof by linearpositive supporting-side coefficients",
+  "U_side_lengths": [
+    "phi^2*b+phi*c",
+    "phi^2*b+phi*c",
+    "b",
+    "c",
+    "b"
+  ],
+  "V_side_lengths": [
+    "b",
+    "2*phi*b+phi^2*c",
+    "b",
+    "phi*(b+c)",
+    "phi*(b+c)"
+  ],
+  "U": {
+    "vertex_b_coefficients": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "2",
+        "0",
+        "1",
+        "-1"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "vertex_c_coefficients": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "1",
+        "-1"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "supporting_side_linear_coefficients": [
+      {
+        "side": 0,
+        "vertex": 2,
+        "b_coefficient": [
+          "2",
+          "0",
+          "1",
+          "-1"
+        ],
+        "c_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "side": 0,
+        "vertex": 3,
+        "b_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ],
+        "c_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "side": 0,
+        "vertex": 4,
+        "b_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ],
+        "c_coefficient": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "side": 1,
+        "vertex": 0,
+        "b_coefficient": [
+          "2",
+          "0",
+          "1",
+          "-1"
+        ],
+        "c_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "side": 1,
+        "vertex": 3,
+        "b_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ],
+        "c_coefficient": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "side": 1,
+        "vertex": 4,
+        "b_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ],
+        "c_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "side": 2,
+        "vertex": 0,
+        "b_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ],
+        "c_coefficient": [
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "side": 2,
+        "vertex": 1,
+        "b_coefficient": [
+          "3",
+          "0",
+          "2",
+          "-2"
+        ],
+        "c_coefficient": [
+          "2",
+          "0",
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "side": 2,
+        "vertex": 4,
+        "b_coefficient": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "c_coefficient": [
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "side": 3,
+        "vertex": 0,
+        "b_coefficient": [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "c_coefficient": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "side": 3,
+        "vertex": 1,
+        "b_coefficient": [
+          "4",
+          "0",
+          "2",
+          "-2"
+        ],
+        "c_coefficient": [
+          "2",
+          "0",
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "side": 3,
+        "vertex": 2,
+        "b_coefficient": [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "c_coefficient": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "side": 4,
+        "vertex": 1,
+        "b_coefficient": [
+          "3",
+          "0",
+          "2",
+          "-2"
+        ],
+        "c_coefficient": [
+          "2",
+          "0",
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "side": 4,
+        "vertex": 2,
+        "b_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ],
+        "c_coefficient": [
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "side": 4,
+        "vertex": 3,
+        "b_coefficient": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "c_coefficient": [
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ],
+    "normalized_area_b_squared_bc_c_squared": [
+      [
+        "3",
+        "0",
+        "2",
+        "-2"
+      ],
+      [
+        "4",
+        "0",
+        "2",
+        "-2"
+      ],
+      [
+        "1",
+        "0",
+        "1/2",
+        "-1/2"
+      ]
+    ]
+  },
+  "V": {
+    "vertex_b_coefficients": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-1",
+        "2",
+        "0",
+        "2"
+      ],
+      [
+        "-1",
+        "1",
+        "0",
+        "2"
+      ],
+      [
+        "-1",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "vertex_c_coefficients": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-1",
+        "1",
+        "0",
+        "2"
+      ],
+      [
+        "-1",
+        "1",
+        "0",
+        "2"
+      ],
+      [
+        "-1",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "supporting_side_linear_coefficients": [
+      {
+        "side": 0,
+        "vertex": 2,
+        "b_coefficient": [
+          "4",
+          "0",
+          "2",
+          "-2"
+        ],
+        "c_coefficient": [
+          "3",
+          "0",
+          "2",
+          "-2"
+        ]
+      },
+      {
+        "side": 0,
+        "vertex": 3,
+        "b_coefficient": [
+          "3",
+          "0",
+          "2",
+          "-2"
+        ],
+        "c_coefficient": [
+          "3",
+          "0",
+          "2",
+          "-2"
+        ]
+      },
+      {
+        "side": 0,
+        "vertex": 4,
+        "b_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ],
+        "c_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "side": 1,
+        "vertex": 0,
+        "b_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ],
+        "c_coefficient": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "side": 1,
+        "vertex": 3,
+        "b_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ],
+        "c_coefficient": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "side": 1,
+        "vertex": 4,
+        "b_coefficient": [
+          "2",
+          "0",
+          "2",
+          "-2"
+        ],
+        "c_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "side": 2,
+        "vertex": 0,
+        "b_coefficient": [
+          "3",
+          "0",
+          "2",
+          "-2"
+        ],
+        "c_coefficient": [
+          "3",
+          "0",
+          "2",
+          "-2"
+        ]
+      },
+      {
+        "side": 2,
+        "vertex": 1,
+        "b_coefficient": [
+          "4",
+          "0",
+          "2",
+          "-2"
+        ],
+        "c_coefficient": [
+          "3",
+          "0",
+          "2",
+          "-2"
+        ]
+      },
+      {
+        "side": 2,
+        "vertex": 4,
+        "b_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ],
+        "c_coefficient": [
+          "1",
+          "0",
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "side": 3,
+        "vertex": 0,
+        "b_coefficient": [
+          "2",
+          "0",
+          "1",
+          "-1"
+        ],
+        "c_coefficient": [
+          "2",
+          "0",
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "side": 3,
+        "vertex": 1,
+        "b_coefficient": [
+          "3",
+          "0",
+          "2",
+          "-2"
+        ],
+        "c_coefficient": [
+          "2",
+          "0",
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "side": 3,
+        "vertex": 2,
+        "b_coefficient": [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "c_coefficient": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "side": 4,
+        "vertex": 1,
+        "b_coefficient": [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "c_coefficient": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "side": 4,
+        "vertex": 2,
+        "b_coefficient": [
+          "3",
+          "0",
+          "2",
+          "-2"
+        ],
+        "c_coefficient": [
+          "2",
+          "0",
+          "1",
+          "-1"
+        ]
+      },
+      {
+        "side": 4,
+        "vertex": 3,
+        "b_coefficient": [
+          "2",
+          "0",
+          "1",
+          "-1"
+        ],
+        "c_coefficient": [
+          "2",
+          "0",
+          "1",
+          "-1"
+        ]
+      }
+    ],
+    "normalized_area_b_squared_bc_c_squared": [
+      [
+        "5",
+        "0",
+        "3",
+        "-3"
+      ],
+      [
+        "6",
+        "0",
+        "4",
+        "-4"
+      ],
+      [
+        "3/2",
+        "0",
+        "1",
+        "-1"
+      ]
+    ]
+  },
+  "area_V_over_area_U": "phi",
+  "inflation_area_count_matrices": {
+    "1": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "2": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "3": [
+      [
+        5,
+        8
+      ],
+      [
+        8,
+        13
+      ]
+    ]
+  }
+}

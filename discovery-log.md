@@ -1,25 +1,28 @@
 # Current research state for two convex tiles
 
-**Problem status:** unresolved.
-**Checkpoint:** 2026-10-09 repository audit; mathematical state from the October 3 review.
-No construction or complete impossibility theorem meets the acceptance gates.
-No exact pair with established plane-tiling existence survives the recorded
-searches. The most recent joint pentagon–hexagon pair is **falsified**.
+**Problem status: unresolved.** No exact aperiodic pair or complete unrestricted
+impossibility theorem meets the acceptance gates in [research-problem.md](research-problem.md).
+**Checkpoint: 2026-10-11, resumed for user-authorized consolidation and one bounded research cycle.** The unrestricted target remains unresolved. All four-distinct Cairo pairs sharing zero or one arm length are excluded. Exactly two shared-arm pairs have a reviewed complete13-orbit/7,830-flat reduction and493 exact seam exclusions; a new full periodic cone and actual-order duals reduce136 necessary survivors to6 still-open targets. All distinct-length alternating/two-run hexagon pairs with at least one nonhomogeneous B arc are now classified into reviewed periodic escapes up to exact length swap/reflection. A full two-parameter single120 resonance slice is independently classified: tileable exactly on the periodic beta120 curve. The entire paired-qq hexagon family is now classified into the two periodic cones. The remaining pure homogeneous hexagon categories and six Cairo targets are the current bounded research obligations.
+The user narrowed actual new research to two mechanisms: partial-contact
+pentagons and genuinely branching repeated-length hexagons. Other work is
+review, verification and preservation of completed results.
 
-Start with [the problem](research-problem.md), [the protocol](research-protocol.md),
-and this log. Stable proofs, exact search records, certificates, source audits,
-and adversarial reviews are stored by subject under `research/`. Verification
-commands and their scope are recorded below.
+Follow [main_prompt.md](main_prompt.md) and [research-protocol.md](research-protocol.md).
+Run every shell command in Conda arisearch. Rotations, reflections, partial
+contacts and omission of a species remain allowed. No novelty claim is made;
+[the current literature boundary](research/literature/2026-10-10-search.md) and earlier
+source audits record closest matches and imported classifications.
 
 ## Established structural constraints
 
 | Result | Status and scope | Proof and review |
 |---|---|---|
 | Monohedral escape; exclusion of triangles and quadrilaterals; rank-two side-count inequality | Internally checked. The torus inequality does not exclude rank-one periods. | [Side-count proofs](research/lemmas/side-count-and-monohedral-obstructions.md) |
-| Every tileable finite convex protoset has a member with at most six sides | Proved internally; repaired after hostile review; independent re-review pending. Includes partial contacts and T-junctions. | [Proof](research/lemmas/side-count-and-monohedral-obstructions.md), [review](research/reviews/global-side-count-review.md) |
-| A hexagon paired with a polygon of more than six sides cannot be aperiodic | Proved internally; repaired after hostile review; independent re-review pending. Depends on the cited unrestricted monohedral hexagon classification. | [Proof](research/lemmas/hexagon-limit-and-periodicity.md), [review](research/reviews/hexagon-higher-side-review.md) |
-| A tileable two-hexagon pair admits an edge-to-edge, trivalent limit tiling | Defect-free limit proved internally and repaired after hostile review; independent re-review pending. Honeycomb combinatorics and at least one-third same-type contacts follow; periodicity does not. | [Proofs and review links](research/lemmas/hexagon-limit-and-periodicity.md) |
+| Every tileable finite convex protoset has a member with at most six sides | Fresh independent re-review VALID (2026-10-10). Includes partial contacts and T-junctions. | [Proof](research/lemmas/side-count-and-monohedral-obstructions.md), [review](research/reviews/global-side-count-review.md) |
+| A hexagon paired with a polygon of more than six sides cannot be aperiodic | Fresh independent re-review VALID (2026-10-10). Depends on the cited unrestricted monohedral hexagon classification. | [Proof](research/lemmas/hexagon-limit-and-periodicity.md), [review](research/reviews/hexagon-higher-side-review.md) |
+| A tileable two-hexagon pair admits an edge-to-edge, trivalent limit tiling | Defect-free limit adversarially re-reviewed after the uniform sector-disk repair. Honeycomb combinatorics and at least one-third same-type contacts follow; arbitrary periodicity does not. Fresh uniform vertex-separation re-review is valid. | [Proofs and review links](research/lemmas/hexagon-limit-and-periodicity.md) |
 | Pentagon curvature and relative density constraints | Reviewed. An aperiodic (5,6) pair requires positive-density subdivision or excess-valence defects. | [Proof](research/lemmas/pentagon-curvature.md), [review](research/reviews/pentagon-curvature-review.md) |
+| Uniform density when a subfamily cannot tile | Fresh independent review VALID. Every fixed-radius disk meets the complementary types; area/count lower bounds follow. Hypothetical aperiodic two-hexagon pairs require both types at positive lower density in every admitted tiling. | [Density theorem](research/lemmas/two-type-uniform-density.md), [review](research/reviews/two-type-uniform-density-review.md) |
 | No angle multiset summing to pi forces edge-to-edge contacts | Proved internally; repaired after hostile review; independent re-review pending. Permits higher valence. | [Proof](research/lemmas/angle-nonresonance-edge-forcing.md), [review](research/reviews/angle-nonresonance-review.md) |
 | All angles strictly between pi/2 and pi force edge-to-edge trivalence | Proved and reviewed; excludes all-obtuse (5,5) and aperiodic (5,6) pairs. | [Proof](research/lemmas/obtuse-edge-forcing.md), [review](research/reviews/obtuse-edge-forcing-review.md) |
 | Convex fusion transfers strong aperiodicity under explicit source/partition hypotheses | Conditional lemma proved internally; repaired after hostile review; independent re-review pending. No usable source partition certified. | [Proof](research/lemmas/convex-cluster-fusion.md), [review](research/reviews/convex-cluster-fusion-review.md) |
@@ -29,154 +32,206 @@ commands and their scope are recorded below.
 Thus the surviving side-count possibilities are a pair containing a pentagon,
 or two hexagons. These constraints do not resolve either general case.
 
-## Construction routes and exact remaining gaps
+## Current mechanism registry
 
-### Convex fusion and Ammann recomposition
+This is the single current route registry. Earlier round-by-round pending
+entries have been replaced by the strongest saved result. Details and exact
+finite domains live in the linked subject artifacts. A proved periodic witness
+kills only its stated family; it never establishes periodicity of an unrelated
+pair. An every-original-tiling theorem is labeled separately.
 
-**Status:** blocked application; the general fusion lemma remains valid.
-The classical two-pentagon/one-hexagon source has not been certified strongly
-aperiodic with reflections and unrestricted contacts. Exact final tiles,
-legal vertex stars, species frequencies, and a global convex cluster partition
-are also missing. [The source audit](research/reviews/ammann-convex-source-audit.md)
-and [coordinate parameterization](research/lemmas/ammann-coordinate-parameterization.md)
-retain recovered data. The conditional aggregate ratio is H:P = 1:2 phi,
-assuming the marking graph edge/vertex counts and face-incidence hypotheses;
-the split between pentagon species is unproved. Earlier figure-based
-frequency estimates are superseded.
+| Mechanism / current status | Strongest result and hypotheses | First remaining global obligation | Reopening condition / exact restart artifact |
+| --- | --- | --- | --- |
+| **Reciprocal partial-contact mirror V/V — completed reviewed milestone, selected mechanism 1** | Exact A=(a,phi*k+a/phi,a,k,k), B=(k,phi*a+k/phi,k,a,a), a,k>0,a!=k. Four actual convex motifs with six full seams and two directed interval cancellations yield a periodic tiling throughout the positive cone. Partial native contacts persist in all five ratio cases, including coalescence boundaries. Full-cone independent review is VALID;292 complete coordinate comparisons pass. | No unresolved global lemma remains in this cone. Arbitrary independently chosen mirror metrics remain unclassified and are blocked without a new necessity invariant. At a=k the same construction is monohedral. | [Theorem](research/lemmas/pentagrid-v-v-reciprocal-partial-periodic.md), [VALID fresh review](research/reviews/pentagrid-v-v-reciprocal-partial-periodic-review.md), [exact producer](research/searches/pentagrid-v-v-reciprocal-partial-periodic.py). Reopen only changed exact data outside this cone with a new global mechanism. Periodic existence does not assert every tiling periodic. |
+| **Branching repeated-length120-degree hexagons — completed reviewed milestone, selected mechanism 2** | New full 4D closed cone A=(p,a,q,p+a-c,c,q+a-c), B=(p+2(a-c),c,q+2(a-c),p+a-c,a,q+a-c), all eight values positive. A four-face periodic torus throughout the cone is independently reviewed VALID. Special p=a,q=c has a>0,0<c<3a/2,c!=a, adjacent repeats and no monohedral escape. | No unresolved global lemma remains in this full cone. Other repeated-length shapes and global extension of the second local branch are unclassified.24 complete fixture and12 local-branch comparisons independently pass. | [Full-cone theorem](research/lemmas/hexagon-adjacent-repeat-periodic-cone.md), [VALID fresh review](research/reviews/hexagon-adjacent-repeat-periodic-cone-fresh-review.md), [exact producer](research/searches/hexagon-adjacent-repeat-periodic-cone.py). Reopen only changed exact geometry outside the cone, with a new global mechanism; longer branch words do not remove the existing periodic escape. |
+| **Non-affine repeated hexagons — completed reviewed cone** | Rational3D deformation outside affine120-degree families has two actual local branches and a four-face periodic torus; full cone independently reviewed VALID. | No gap inside this cone; other repeated shapes remain. | [Theorem](research/lemmas/branching-hexagon-rational-deformation.md). Existing periodic escape cannot be removed by longer branch words. |
+| **Binary alternating/two-run hexagons — no-homogeneous branch complete, resonance slices active** | All0<delta<30,p!=q,Aalternating/Bpppqqq with no homogeneous stars are untileable or have direct/length-swapped positive periodic-cone escape. Complete72mixed-cover hyperplanes necessary for every member. Single120/qq-low-high fullslice tiles iff beta120 after34exact duals/14exact phase filters; whole-proof synthesis VALID. | The entire unordered paired-qq family is now VALID, including all homogeneous pp planes and both native orders. One noncentral homogeneous arc with the other nonhomogeneous arc now has a VALID complete paired-or-untileable count theorem. The central120/120 case with the other arc nonhomogeneous is now VALID, with same/cross-slot positive families derived from actual contact saturation. Both noncentral mixed homogeneous arcs are now independently excluded in both relative orders. Center/mixed and center/pure are independently classified. Pure/mixed and pure/pure categories remain open. | [No-homogeneous theorem](research/lemmas/branching-hexagon-two-run-no-homogeneous-star-classification.md), [72planes](research/lemmas/branching-hexagon-two-run-mixed-cover-hyperplanes.md), [single120 slice](research/lemmas/branching-hexagon-two-run-single-120-complete-slice.md). No fixed frequency or original edge-to-edge rule is assumed. |
+| **Fixed-B alternating hexagon transport — completed full family** | A threefold alternating(p,q), B=(r,p,q,q,q,q), all3 lengths distinct. Every tileable pair admits a period, including qq resonances. Fresh two-review audit VALID after explicit omission ledger. Required-angle multiplicity handles repeats; unique-target injection gives a saturated admitted limit, with j3periodic and j4/j5 native-parity contradictions. | No global gap inside the stated family. Other A geometries, B words or length coincidences remain. | [Full theorem](research/lemmas/branching-hexagon-new-fixed-b-classification.md), [independent review](research/reviews/branching-hexagon-new-fixed-b-classification-review.md), [root review](research/reviews/branching-hexagon-new-fixed-b-classification-root-review.md). Reopen only changed hypotheses and a concrete new mechanism. |
+| **Fixed unit Robinson U/V compiler — closed** | Proper Penrose, all regular generalized sources at the fixed slope, and the stated local matching closure exclude every mandatory V boundary independently of residual filling. All 409 generalized objects independently certified; two full U objects occur in infinite generalized sources. | Arbitrary singular selections outside the closure are unclassified. This is not unrestricted U/V untileability. | No intercept-only or additional residual search. Require exact changed cuts, macro metric/scale, slope or another used assumption plus the obstruction removed. [Closure theorem and checklist](research/lemmas/pentagrid-robinson-generalized-source-gate.md), [VALID review](research/reviews/pentagrid-robinson-generalized-window-review.md). |
+| **General V/V central-hexagon partner — completed reviewed theorem** | Every positive V-angle pentagon has a continuum of explicitly chosen noncongruent V partners with a periodic four-face dissection. Full4-parameter positive cone and56 complete fixture comparisons pass two independent reviews. | Arbitrary independently specified V/V pairs remain unclassified. | A new necessity/compatibility mechanism, rather than another supportive example, is needed. [Theorem](research/lemmas/pentagrid-v-v-general-double-y-partners.md), [fresh second review](research/reviews/pentagrid-v-v-general-partner-fresh-review.md). The older mirror theorem is a subfamily. |
+| **General Y periodic partner — completed reviewed theorem** | Every positive Y=(R,theta,R,theta,2pi-2theta) pentagon, pi/2<theta<3pi/4, has an explicit distinct periodic Y partner. A given pair with Q2=P0,Q4=P1 also has a periodic carrier. Reflections and partial carrier contacts included. | Arbitrary given Y/Y pairs and other equal-multiplicity words are unclassified. | Need a new necessary edge relation or different global construction. [Theorem](research/lemmas/general-y-pentagon-periodic-partner.md), [fresh second review](research/reviews/general-y-pentagon-partner-fresh-review.md). |
+| **V/W and U/W periodic partners — completed reviewed families** | Every genuine equiangular W has a selected V partner in a full 3D metric cone. U/W has the earlier explicit b>0,0<c<phi*b cone. Each has four-face periodic coverage for every stated parameter. | Unrelated independently specified U/W or V/W pairs remain unclassified. | Exact changed compatibility data or an independent necessity argument. [General V/W](research/lemmas/pentagrid-v-w-general-metric.md), [VALID fresh review](research/reviews/pentagrid-v-w-general-metric-fresh-review.md), [U/W](research/lemmas/pentagrid-u-w-periodic-continuum.md). |
+| **Unique-private octagon chains — completed every-tiling theorem** | ANY equiangular108 P has adjacent-corner rigidity: a repeated side forces an actual reflection symmetry. Q with two nonadjacent108/six144 corners and two distinct unique lengths absent P forces a common nonzero period in EVERY original tiling, including extra Q contacts. | Other private multiplicities and broader Q data are unclassified. | Need exact changed private matching data. [Universal theorem](research/lemmas/private-octagon-adjacent-corner-rigidity.md), [VALID review](research/reviews/private-octagon-adjacent-rigidity-review.md). Supersedes the distinct-P good-limit proof. |
+| **Equal-private octagon branches — completed reviewed restrictions** | Nonsymmetric Q3 with P=(2phi-2,phi,1,phi,2phi-2), Q=(phi^2,2phi-2,phi,phi^2,1,2phi-2,phi,phi) has a certified2Q+4P periodic torus,36 independent complete clips. An actual Q symmetry exchanging its two L slots implies every tiling periodic;12-case regular-unit closure and all actual symmetries independently reviewed VALID. | Arbitrary nonsymmetric equal-private metrics or mixed private choices remain unclassified; no every-tiling claim for Q3. | Inactive research under current portfolio. [Exact Q3 escape](research/counterexamples/new-octagon-q3-equal-private-periodic.md), [VALID independent review](research/reviews/octagon-q3-equal-private-periodic-review.md), [symmetry theorem](research/lemmas/private-octagon-equal-private-symmetric-periodicity.md), [VALID review](research/reviews/private-octagon-equal-private-symmetric-review.md). |
+| **All-obtuse internally distinct(5,n) — completed restricted exclusion** | n>=8 untileable; n7 has a four-face periodic witness. New direct theorem proves a nonzero period in EVERY original tiling using two selected Q-private midpoint chains and unique P corners, without counting limits or graph enumeration. | Repeated native lengths or nonobtuse angles remain outside. | Exact changed metric coincidences/contact data. [General theorem](research/lemmas/distinct-length-obtuse-pentagon-higher.md), [direct strengthening](research/lemmas/distinct-length-obtuse-direct-common-period.md), both reviewed VALID. |
+| **Two-angle(5,7) metric family — completed reviewed restrictions** | alpha4pi/7,beta5pi/7: full 4D positive cone has periodic coverage, even with coincidences. Internally distinct P/H implies EVERY original tiling periodic for all shared orders. Equal-private H=(L,a,L,b,c,d,e), five-distinct P, reduces to a complete2D positive cone with a periodic escape throughout. | Other repeated lengths/positions remain unclassified. | No longer private-chain words in the closed cone. Need exact changed coincidence pattern. [Full theorem](research/lemmas/two-angle-5-7-metric-continuum.md), [VALID second review](research/reviews/two-angle-5-7-metric-continuum-second-review.md), [equal-private theorem](research/lemmas/two-angle-5-7-equal-private-scaffold.md), [VALID review](research/reviews/two-angle-5-7-equal-private-scaffold-review.md). |
+| **Regular higher-polygon partners — completed all-obtuse classification** | Strictly obtuse P with regular Q: n7 exact periodic family, n12 exact2D periodic family; other n>=7 excluded by reviewed angle/contact counts. Regular-Q7/four-alpha-one-beta is untileable. | Irregular Q or nonobtuse P remain outside. | Changed exact angle/metric data, not the same regular family. [Q7](research/lemmas/all-obtuse-pentagon-regular-heptagon-classification.md), [Q12](research/lemmas/all-obtuse-pentagon-regular-dodecagon-classification.md), [n>=13](research/lemmas/all-obtuse-pentagon-regular-large-polygon-obstruction.md), all reviewed. |
+| **Pentagrid angular/metric reduction — reviewed necessary constraints** |101 words/13 classes leave U,V,W; ALL U/U metrics are untileable with unrestricted partial contacts. Conditional Rao filter: U/W monohedrally untileable; V mono iff L2=L4 or L3=L0 in the after-side convention. U/V,U/W,V/V,V/W general metric pairs remain open. | Unrestricted geometric forcing for surviving pairs. | New metric/contact invariant. [Two-U proof](research/lemmas/pentagrid-two-asymmetric-u-obstruction.md), [angular reduction](research/lemmas/pentagrid-pentagon-angular-reduction.md), [explicit Rao dependency](research/lemmas/pentagrid-pentagon-monohedral-filter.md). |
+| **Area-compatible U/V partial-contact family — inactive; global mechanism blocked** | U=(phi^2*b+phi*c twice,b,c,b), V=(b,2phi*b+phi^2*c,b,phi*(b+c) twice), b,c>0, closed/convex and areaV=phi*areaU. EVERY metric lacks an ETE tiling. If c/b outside Q(sqrt5), no homothetic U/V substitution exists; inside, scale lies in Z[phi]. | Nonhomothetic infinite existence and unrestricted forcing lack a concrete mechanism. | New nonhomothetic mechanism or exact changed family; no larger old substitution search. [Area/source record](research/searches/pentagrid-golden-metric-area-compatible.md), [ETE obstruction](research/lemmas/pentagrid-area-family-edge-obstruction.md), [unbounded substitution theorem](research/lemmas/pentagrid-generic-metric-substitution-obstruction.md). Old phi^3 trial was UNKNOWN at120.205638s, never UNSAT. |
+| **Cairo/right-angle partial contacts — generic, monohedral, zero/one-sharing complete; exact two-sharing reduction reviewed** | Complete738generic patterns and monohedral classification. All zero/one-sharing metrics excluded, across every event resonance. Exact two-sharing:72patterns/13orbits,7,830flats,629necessary local strata,493exact seam duals; new reversed-right-pair fullperiodic cone removes one of136 relaxed primals. Known swapped/Y cones remain periodic throughout. |6 necessary targets remain (3 dimension2,3 dimension1; flat239 restricted to its low-ratio subcone), with additional reviewed order restrictions. All four dimension3 parents have reviewed periodic escapes. Internally repeated pairs and three/four shared-arm nongeneric metrics remain outside these complete reductions. | [Zero/one master](research/lemmas/partial-contact-cairo-one-shared-classification.md), [two-cross reduction](research/lemmas/partial-contact-cairo-two-cross-native-reduction.md), [new periodic cone](research/lemmas/partial-contact-cairo-reversed-right-pair-periodic.md), [fresh flat audit](research/reviews/partial-contact-cairo-two-cross-event-flats-review.md). No primal implies existence. |
+| **Three-angle multiplicity and irrational witness — completed audit** | Different multiplicity rows for three combined angle values force rational angles. Equal rows admit periodic irrational theta/pi with cos(theta)=-2/5. Scaling the independently checked witness by sqrt2 gives private lengths sqrt2,sqrt10, both irrational and irrational ratio.52/48/48 complete comparisons pass. | Other equal-row metric pairs and four-angle families remain outside. | Exact changed compatibility data. [Rationality lemma](research/lemmas/three-angle-pentagon-multiplicity-rationality.md), [witness](research/lemmas/new-angle-three-pentagon-private-length-counterexample.md), [VALID review](research/reviews/new-angle-three-pentagon-periodic-review.md). Mixed X/Y finite ansatz967680 cases/8models is exhausted infeasible, not a full X/Y classification. |
+| **Distinct/five-length hexagon graph selection — completed restricted exclusions** | Both internally distinct hexagons admit a periodic torus if tileable. Five-symbol/separation2 repeats: <=2 shared untileable,3 shared periodic; one private-repeat six-symbol order has periodic escape in both generic/doubled-angle cases. Unique complete intrinsic neighbors force a crystallographic group, conditionally. | Other repeated orders and genuinely branching physical neighbors remain outside determinism. | Exact changed repeated order with positive closure and two-ended contacts. [Distinct theorem](research/lemmas/hexagon-holonomy-distinct-lengths.md), [sparse repeats](research/lemmas/hexagon-five-length-sparse-sharing.md), [private repeats](research/lemmas/hexagon-five-length-private-repeat-periodicity.md), [conditional determinism](research/lemmas/hexagon-five-length-intrinsic-determinism.md), all reviewed. |
+| **Equilateral rational-angle root classification — completed restricted exclusions** | Rational-angle equilateral(5,5),(5,6) cannot be aperiodic even at different scales. Two equilateral rational-angle hexagons are untileable or have a monohedral/three-face periodic escape. Imported root-sum theorem explicit. | Irrational-angle equilateral hexagons outside root classification. | Changed angle hypothesis and concrete geometry; denominator/scale enlargement does not repair closed cases. [Pentagons](research/lemmas/new-angle-equilateral-rational-obstruction.md), [hexagons](research/lemmas/new-angle-two-equilateral-hexagons.md), both reviewed. |
+| **Affine-mirror repeated hexagons — completed periodic counterexample** | Two repeated-length irrational-angle noncentral hexagons have an exact periodic escape, with no monohedral escape; an affine image of mirror shapes needs a commuting affine map to keep exactly two classes. | General branching non-affine family remains outside. | New non-affine contact data. [Exact theorem/witness](research/lemmas/hexagon-affine-mirror-periodic-escape.md), [VALID review](research/reviews/hexagon-affine-mirror-escape-review.md). |
+| **Convex source fusion/Ammann — blocked** | Conditional fusion lemma and exact coordinate reconstruction retained. Trivalent ETE sources cannot support finite convex multitile fusion. Aggregate H:P=1:2phi is conditional; species split and unrestricted forcing unproved. | Certified strongly aperiodic source, all exact tiles and a global convex two-class partition are missing. | New source or exact primary forcing and partition data. [Audit](research/reviews/ammann-convex-source-audit.md), [coordinates](research/lemmas/ammann-coordinate-parameterization.md), [fusion](research/lemmas/convex-cluster-fusion.md). |
+| **Walton two-hexagon rule compiler — falsified recorded family** | Natural transcription and all24 relabelings collapse to regular hexagons;4094 state assignments leave4 angular branches, all fail equilateral closure. The one-block obstruction is narrower than the general target. | A different certified geometry compiler and shape-only global forcing are missing. | New source, extendible strict sublanguage or neighborhood-dependent geometry. [Exact domain](research/searches/walton-encoding-reconnaissance.md), [one-block lemma](research/lemmas/walton-one-block-obstruction.md). Do not repeat completed assignments. |
+| **Nonresonant(5,6) scaffolds — falsified exact candidates** | Both recorded exact pairs are untileable. Original full-edge stars omit required corners; joint pair's94 ordered/chiral endpoint cases reduce12 then0. | No survivor exists in the recorded fixed data. | Change side/angle partition and apply cheap two-endpoint filters before global work. [Original](research/searches/nonresonant-5-6-angle-scaffold.md), [joint](research/searches/joint-5-6-synthesis.md), [endpoint review](research/reviews/joint-5-6-two-ended-review.md). |
 
-**Reopening condition and next action:** retrieve the primary unrestricted
-forcing proof and exact diagram data, or propose a different certified convex
-source. Only after source and frequency hypotheses are established should
-cluster enumeration resume. Trivalent edge-to-edge sources cannot support
-finite convex multitile fusion. Identifying/deleting an Ammann class remains
-unsupported because the published forcing uses distinguishing lengths.
+## Current hexagon obligation ledger
 
-### Two obtuse hexagons as a rule compiler
+For B with native side word `pppqqq`, use four arc categories: N has no legal
+homogeneous triple; C has both native angles120; P has one120 angle and one
+other angle; M has a noncentral mixed2+1 homogeneous triple. The four
+homogeneous lines intersect only at C. Distinct p,q and `0<delta<30` remain
+explicit hypotheses. Reflection may swap both native arc orders; exchanging
+length names requires the reviewed A normalization and never changes the
+aperiodicity definition.
 
-**Status:** general mechanism open; the recorded Walton compiler families
-are falsified. For each geometric type, positive side lengths and angles
-in `(pi/2, pi)` must satisfy total exterior turn `2 pi` and exact vector
-closure. Equal side lengths and corner triples summing to `2 pi` define
-the reflection-closed local language. Every unwanted triple must be
-excluded without destroying closure; local feasibility alone does not
-prove global extension or aperiodicity.
-[Walton reconnaissance](research/searches/walton-encoding-reconnaissance.md)
-records 1,056 source-legal triples: the natural transcription and all 24
-relative relabelings force regular hexagons. The 4,094 Boolean state-assignment
-search leaves four angular deformations, all eliminated by equilateral
-closure. [The one-block lemma](research/lemmas/walton-one-block-obstruction.md)
-states the narrower equivariant compiler theorem and its exclusions.
+| Domain | Strongest current result | Exact artifact / remaining obligation |
+| --- | --- | --- |
+| At least one N arc | Every tileable member has a reviewed periodic escape | [No-homogeneous](research/lemmas/branching-hexagon-two-run-no-homogeneous-star-classification.md), [one-noncentral](research/lemmas/branching-hexagon-two-run-one-noncentral-homogeneous-arc.md), [center/N necessity](research/lemmas/branching-hexagon-two-run-pp-center-no-qq-homogeneous-classification.md) |
+| M/M, both relative native orders | Untileable; forward and complete reverse obstruction independently VALID | [Forward](research/lemmas/two-homogeneous-forward-mixed-arcs-obstruction.md), [complete reverse](research/lemmas/two-homogeneous-opposite-mixed-arcs-full-obstruction.md), [fresh whole reverse review](research/reviews/two-homogeneous-opposite-mixed-arcs-full-obstruction-review.md) |
+| C/M, up to length normalization | Complete periodic-escape classification, independently VALID | [Center/mixed](research/lemmas/two-homogeneous-center-mixed-qq-classification.md) |
+| C/P, up to length normalization | Complete periodic-escape classification, independently VALID | [Center/pure](research/lemmas/two-homogeneous-center-pure-qq-classification.md), [fresh whole-proof review](research/reviews/two-homogeneous-center-pure-qq-classification-review.md); all four phase/domain/native-metric transfers checked |
+| C/C | Closure requires p=q, outside distinct-binary scope | Both equal120 arcs have unit chain norm2; closed positive p and q chains therefore require2p=2q |
+| P/M and P/P | OPEN; no actual necessity/realization theorem retained | Both-end native contacts, allowable AA seams and actual phase must be handled. Old no-qq-homogeneity exclusion and center-slot arguments do not apply |
 
-**Reopening condition and next action:** produce a different source, a proved
-extendible strict sublanguage, or a neighborhood/hierarchy-dependent encoding.
-Do not repeat the completed transcription or relabeling searches. General
-branching or infinitely oriented two-hexagon tilings remain outside the
-conditional deterministic-state periodicity theorem.
+The [same-slot](research/lemmas/branching-hexagon-two-run-pp-center-periodic-family.md)
+and [cross-slot](research/lemmas/branching-hexagon-two-run-pp-center-cross-periodic-family.md)
+positive carriers are independently VALID on their full exact domains, both
+admissible quadratic branches and their coalescence. They provide sufficiency,
+not arbitrary-pair necessity. Equal lengths and arbitrary A remain outside the
+negative binary-family classifications. No whole parent-family closure or
+unrestricted impossibility theorem is claimed.
 
-### Nonresonant pentagon and hexagon synthesis
+## Current Cairo obligation ledger
 
-**Status:** both exact pairs explored so far are falsified.
-[The original scaffold](research/searches/nonresonant-5-6-angle-scaffold.md)
-has certified rational angles, positive exact closure, balanced corner counts,
-and monohedral exclusions, but its full-edge stars omit required corners.
-[The joint replacement](research/searches/joint-5-6-synthesis.md) certifies a
-new positive closure and nine initial vertex rows. The October 3
-[two-ended-edge review](research/reviews/joint-5-6-two-ended-review.md)
-reduces all 94 ordered/chiral configurations to 12 and then zero.
-Consequently the replacement also admits no plane tiling. Its proposed torus
-search and periodic-chain synchronization task are superseded.
+[The native master reduction](research/lemmas/partial-contact-cairo-two-cross-native-reduction.md)
+retains the complete72-pattern/13-orbit/7830-flat domain and493 exact seam
+exclusions. Actual-order refinements and native Euclidean carriers replace
+local feasible balances by reviewed periodic witnesses where proved. The
+[seven-target signed native map](research/lemmas/partial-contact-cairo-mixed-quotient-seven-stratum-reduction.md)
+is independently VALID. The [ray459 theorem](research/lemmas/partial-contact-cairo-mixed-quotient-fixed-ray459-periodic.md)
+now has a fresh full native-geometry/links/holonomy/coverage VALID review.
+[The six-target synthesis](research/lemmas/partial-contact-cairo-mixed-quotient-six-stratum-reduction.md)
+removes that entire1D ray and is independently VALID after its separate synthesis review.
 
-**Reopening condition and next action:** change the side partition or angle
-data. Jointly enforce angle sums, distinct length classes, positive polygon
-closure, consistent face chirality, and both endpoints of every shared edge.
-Run the cheap endpoint filter before any global map search. A survivor must
-still prove global existence and universal nonperiodicity; local feasibility
-is insufficient. The rational angle constraints and classification-free
-pentagon monohedral exclusion remain reusable.
+The conservative necessary residual targets are:
 
-## Other closed shortcuts
+- dimension2: separated46, separated49, orbit6 flat239 only on
+  `sqrt(3)*a/4 < b < a/sqrt(3)` with a=Pa,b=Pb;
+- dimension1: orbit1 flat759, orbit6 flat906, orbit7 flat575.
 
-- [Forgetting Penrose arrows](research/counterexamples/forgetting-penrose-arrows.md)
-  admits periodic rhomb tilings.
-- [Convex carrier and reflected-edge obstructions](research/lemmas/convex-mark-encoding-obstructions.md)
-  block faithful edge-local jigsaw encoding, while leaving nonlocal forcing open.
-- [Sugimoto two-type degeneracies](research/literature/sugimoto-two-type-degeneracies.md)
-  are reported by the primary source to have periodic escapes; the new
-  three-type divisions permit periodic tilings when reflections are allowed.
-- [Penrose-to-two-pentagon conversion](research/literature/penrose-to-two-pentagons-audit.md)
-  produces Type-2 periodic monohedral tiles and supplies no converse forcing.
+All original positive/private active-event and actual-order domains remain
+in force. Internally repeated arms and three/four shared-arm coincidences are
+outside this full two-sharing reduction. No remaining primal establishes
+tilability. No claim is made that every original tiling of a killed metric
+is periodic; one admitted periodic witness suffices to kill aperiodicity.
 
-## Assumptions and reproduction boundary
+Preserved bounded negatives: ray759 selected10-face proposal reached its
+1,000,000-node cap; ray575 selected8-face proposal exhausted909,775 nodes;
+ray906 selected10-face proposal exhausted8,995 nodes; low239 selected20-face
+proposal reached its2,000,000-node cap. These are finite-model results only,
+not unrestricted untileability. Exact domains and certificates remain in
+[the native search](research/searches/partial-contact-cairo-mixed-quotient-native-search.py)
+and corresponding subject records. Full residual-color models retained only
+necessary primals. Further quotient-size or balance-model expansion is blocked
+without a new geometric constraint or proved finite-model property.
 
-Reflections, all rotations, partial-edge contacts, and omission of one tile
-type remain permitted. No source construction may silently weaken that scope.
-Ammann unrestricted forcing and its global fusion partition are unverified.
-Completeness of the fifteen pentagon families is not assumed. Hexagon
-classification is an imported preprint theorem; see the
-[literature boundary](research/literature/2026-10-02-search.md) for sources,
-queries, and scope. No new novelty claim is made by this cleanup.
+## Dependency gates and closed-route restart rules
 
-## Exact verification and retained evidence
+Retain the status in the structural table above. Repaired angle-nonresonance,
+convex fusion/trivalent fusion and real frequency balance are not silently
+promoted by successful finite replays. Intrinsic deterministic-state arguments
+require their explicitly stated neighbor uniqueness; their repaired review
+obligation is not replaced by broader periodic examples.
 
-From the repository root:
+The fixed-unit Robinson source compiler remains closed inside the regular
+fixed-slope/local-matching boundary. Its generalized audit covered409 objects,
+with all mandatory V boundaries excluded; singular selections outside that
+boundary are unclassified. Reopen only changed exact cuts, scale, slope or
+another used assumption that removes the actual obstruction; do not rerun
+intercept/residual filling searches. [Source gate and checklist](research/lemmas/pentagrid-robinson-generalized-source-gate.md).
 
-```text
-conda run --no-capture-output -n arisearch python3 research/searches/verify.py
-```
+Arbitrary V/V and Y/Y compatibility needs a new necessity invariant; selected
+periodic partners are not arbitrary-pair classification. Area-compatible U/V
+nonhomothetic existence and forcing remain blocked; the retained phi3 SMT
+trial was UNKNOWN at120.205638s, never UNSAT. [Exact trial](research/searches/pentagrid-golden-metric-phi3-macro.md).
+Convex fusion/Ammann needs a certified source, two-class convex partition and
+unrestricted forcing; [source audit](research/reviews/ammann-convex-source-audit.md).
 
-The [runner](research/searches/verify.py) finds the checkout from its own path,
-so an absolute invocation also works from another working directory. It
-captures generated JSON in memory, compares parsed values with all five
-retained certificates, and runs three independently implemented verifiers.
-It never overwrites certificates. Assertions must remain enabled; a mismatch,
-script error, or failed assertion gives a nonzero exit status.
+## Consolidation and verification (2026-10-11)
 
-| Finite record | Exact domain and result | Retained certificate and review |
-|---|---|---|
-| [Walton natural compiler](research/searches/walton_vertex_rank.py) | All 24 corner flags, 24^2 ordered contacts, and 24^3 ordered triples; 1,056 legal triples force rank 12 and one length class. Falsified compiler. | [Certificate](research/certificates/walton_vertex_rank_certificate.json), [independent verifier](research/reviews/verify_walton_vertex_rank.py), [review](research/reviews/walton-vertex-rank-review.md) |
-| [Walton relabelings](research/searches/walton_relative_relabeling_rank.py) | All 24 relative shift/chirality/charge choices, each with the complete flag domain; every case collapses to regular hexagons. | [Certificate](research/certificates/walton_relative_relabeling_rank_certificate.json), [independent verifier](research/reviews/verify_walton_relative_relabeling.py), [review](research/reviews/walton-state-assignment-review.md) |
-| [Walton state assignments](research/searches/walton_state_assignment_rank.py) | All 4,094 nonconstant assignments of twelve states, both alternating corner patterns; four rank-11 cases fail equilateral closure. | [Certificate](research/certificates/walton_state_assignment_rank_certificate.json), [review](research/reviews/walton-state-assignment-review.md); no standalone independent exhaustive verifier |
-| [Nonresonant scaffold](research/searches/nonresonant_5_6_scaffold.py) | Fixed rational angles, all possible half-plane and 3–5-sector full-angle sums, and all 52 partitions of five length symbols; exact full-edge obstruction proves these shapes untileable. | [Certificate](research/certificates/nonresonant_5_6_scaffold_certificate.json), [report](research/searches/nonresonant-5-6-angle-scaffold.md), [review](research/reviews/nonresonant-5-6-scaffold-review.md) |
-| [Joint local closure](research/searches/joint_5_6_local_verify.py) | Fixed rational angles and side partition; all full-angle rows, cyclic orders, and binary corner flips; positive exact closure and nine local rows. | [Certificate](research/certificates/joint_5_6_local_certificate.json), [report](research/searches/joint-5-6-synthesis.md) |
-| [Joint endpoint obstruction](research/reviews/verify_joint_5_6_two_ended.py) | All 94 ordered/chiral configurations of that fixed pair; endpoint filtering leaves 12, then zero. These shapes admit no plane tiling. | [Review and finite result](research/reviews/joint-5-6-two-ended-review.md); regular-hexagon positive control retained |
+The current restart index replaces the long chronological log; subject proofs,
+counterexamples, computation records and certificates remain retained. Status
+corrections require explicit review provenance. Historical progression is not
+used as mathematical evidence. [Preservation snapshot](research/searches/consolidation-2026-10-11-inventory.json)
+retains file hashes/sizes, Git index digest and status inventory at its stated
+concurrent snapshot. Existing index changes are preserved: root has not
+staged, committed or pushed during this cycle. The earlier prepared319-path
+checkpoint is not a new commit or a final mathematical report.
 
-These computations use integers and exact rational arithmetic, with rational
-intervals for trigonometric closure. No solver or stochastic seed is used.
-Angle multisets and length partitions are enumerated canonically; ordered-star
-checks include every distinct order and reflection flag. Generator reruns repeat
-the original algorithms; they are not independent implementations. The endpoint
-verifier reconstructs stars and endpoints independently but depends on the
-original closure certificate for distinct side lengths.
+Six targeted existing carrier/count/necessity checkers passed this cycle;
+the new complete reverse and reverse-phase checkers passed through the
+nondestructive runner. Ray459 registered replay passed. The consolidation
+snapshot parsed276 Python sources, found all43 registered producer/certificate
+pairs and131 verifier paths, and found no missing Markdown targets;
+`git diff --check` passed at that snapshot. Counts are not the final-cycle
+portfolio, and syntax/path checks are not mathematical evidence.
 
-The retained checks completely enumerate their stated finite domains. Replay
-has no configured timeout or memory cap. Original runtime limits and Python
-versions were not recorded; do not infer them. The October 9 replay environment
-is Conda `arisearch`, Python 3.12.13 on Linux x86_64, using only the standard
-library. All five certificate comparisons and three independent verifiers
-passed in this environment; the retained JSON files were unchanged. See the
-[environment specification](.devcontainer/environment.yml) and
-[lockfile](.devcontainer/conda-lock.yml). This records current replay conditions;
-it does not supply the original execution record required by protocol Section
-11.1. Only fixed-data verification of the joint partition is retained; its
-discovery procedure is not part of the replayable evidence.
+    conda run --no-capture-output -n arisearch python research/searches/verify.py
 
-## Review coverage and restart obligations
+Use repeated `--only SCRIPT` for dependency-affected replay; certificate writes
+require explicit author `--output`. Do not disable assertions. No full historical
+suite rerun is claimed from targeted passes. Final-cycle check counts and baseline certificate/index preservation are
+recorded below and in the inventory artifact.
 
-The current proofs and their claim-specific reviews retain the stated
-hypotheses, objections, repairs, and scope. Repaired or extended claims are
-marked as pending independent re-review in their artifacts and review records;
-the existing review verdicts describe the historical checks and do not
-establish the separate re-review required by
-[protocol Section 8.2](research-protocol.md#82-review-artifacts).
-The elementary monohedral/torus arguments, convex edge-encoding
-obstructions, and the group-theoretic one-block upgrade have no separate
-whole-claim hostile-review record. Their status remains internally proved,
-rather than independently certified by the script runner. The new endpoint
-verifier likewise has no subsequent independent hostile review. Arrange fresh
-reviews before relying on these claims as fully audited cornerstones.
+[Current narrow primary-source boundary](research/literature/2026-10-11-search.md)
+and [earlier source boundary](research/literature/2026-10-10-search.md) retain
+exact queries, sections and imported theorem scope. No novelty claim is made.
 
-No replay establishes a global mixed tiling, universal aperiodicity, or
-completeness of a literature search. Blocked applications remain closed until
-the reopening conditions above are met. Resume from the exact fixed data and
-current falsifications, not from the discarded torus or chain-synchronization
-plans for the untileable joint pair.
+## Bounded cycle authorization and acceptance test
+
+The user resumed the prior explicit pause on2026-10-11 and authorized
+consolidation followed by one bounded research cycle. The cycle consists of
+one necessity/geometry synthesis pass and one fresh independent review/repair
+round on the selected routes. Construction, audit and root integration have
+separate file ownership; every shell command uses Conda arisearch.
+
+The test distinguishes closure of the entire selected A(delta)/Bpppqqq or
+Cairo domain from closure of an exact subfamily. New reviewed slices and
+witnesses are retained partial progress. If neither parent route closes nor
+a new global forcing mechanism survives, record exact blockers and suggest
+substantially different mechanisms with concrete first falsification tests.
+No larger capped quotient search, repeated feasible local balance or renamed
+theorem-strength gap counts as success. This explicit bounded authorization
+is the stopping boundary; elapsed time or difficulty alone is not a limit.
+
+Current pass: center/pure synthesis and full reverse/ray459 audits are independently VALID.
+The Cairo geometric first-corona pass is complete and independently VALID
+within its stated finite scope: all391 variants have relaxed exact neighbor
+assignments, with no new exclusion. Fixed-ray feasibility scales; the three
+dimension2 outcomes are exact fixtures only.
+[Experiment and exact domains](research/searches/partial-contact-cairo-first-corona-geometry.md),
+[fresh finite review](research/reviews/partial-contact-cairo-first-corona-geometry-review.md).
+Neither feasibility nor a finite collar is a plane-extension proof.
+
+**Cycle complete: neither selected parent family closed, and no new global
+forcing mechanism for the residual cases emerged.** The user-authorized bound
+is reached after the one synthesis pass and fresh review round; no resource
+exhaustion or mathematical impossibility is inferred. Scoped results remain
+retained. The parent gaps above are blocked with the current methods and must
+not receive another larger local-balance/quotient search without a materially
+new actual invariant or construction.
+
+[Mechanism reset and exact next falsification gates](research/reviews/bounded-cycle-mechanism-reset.md)
+proposes three different directions: rank1 strip construction; actual Euclidean
+cycle transport beyond marginal balance; and direct inverse design of a
+recognizable expansive hierarchy using acute pentagons/T-junctions outside
+the current templates. These are suggestions, not executed extra cycles or
+proved theorems. No final mathematical report exists; the unrestricted target
+remains unresolved.
+
+## Final preservation and replay checkpoint
+
+All twelve targeted registered checks passed this cycle, including the new
+reverse phase/full count, ray459, center/pure and two first-corona checks.
+The full historical suite was not rerun. Final syntax/path/link consistency
+checks pass 280 research Python sources, 137 registered verifier paths and
+43 registered producer/certificate pairs; `git diff --check` passes. All
+182 baseline certificates have unchanged SHA256 hashes; the 381 pre-existing
+index entries remain byte-for-byte identical as the recorded Git index
+manifest. Seven newly retained first-corona certificates are additional
+evidence with finite-only scope. No index, commit or push mutation occurred.
+All delegated work and bounded searches are complete; no extra research round
+is pending. Dormant repaired review gates retain their status above.

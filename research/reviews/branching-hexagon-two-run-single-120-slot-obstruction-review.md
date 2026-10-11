@@ -1,0 +1,25 @@
+# Fresh independent hostile review: single120-slot native seam obstruction
+
+Verdict: **VALID for the exact new fixture, the stated complete-five-type domain, and the existence of a relative open obstructed neighborhood.** Reviewed the revised actual text of `research/lemmas/branching-hexagon-two-run-single-120-slot-obstruction.md`, the producer, and all retained certificate columns. No maximal resonant-slice classification, unrestricted target resolution, or bound on the neighborhood is inferred.
+
+The independent checker `research/reviews/verify_branching_hexagon_single_120_obstruction_independent.py` imports neither authoring producer nor its reused catalog core and invokes no solver. It reconstructs raw A/B edges in exact algebraic arithmetic from zeta24, the two native chains, positive p and R. The polygons close exactly, R has unit modulus, all lengths have the stipulated binary word and p differs from1. Every nonincident vertex lies strictly to the left of every directed side. Native interior unit phases computed from the raw edge turns recover delta15 and homogeneous angles120,105,90,150. The retained exact p-squared cyclotomic coefficient vector matches.
+
+## Complete native star and seam model
+
+The checker independently generates all24 indexed oriented corner states. It retains a trivalent star exactly when all three cyclic seam-length labels match and the three actual algebraic interior-angle unit phases multiply1. Because every strictly convex angle lies in(0,180), three angles have product1 precisely at angle sum360, with no extra winding interpretation. Canonicalizing rotations yields exactly the retained80 stars. No native A H/L slots are merged.
+
+Every corner-count column and every signed seam feature column is independently reconstructed and matches the certificate, including the36 ordered native side-pair/parity keys. Both native flags reverse at the other end of an actual whole seam, so each signed feature cancels there. Indistinguishable equal-slot/parity1 cases contribute zero. This is a full indexed oriented model, not an unlabelled angle-count test.
+
+The checker evaluates the explicit symmetric integer functional directly. Each A and B has weight−3. The80 stars have precisely the stated charge distributions: AH/AL/alpha36 at0 or2,2AH/chi18 at2,2AL/psi18 at0, B0/B3/beta4 at0, and3alpha4 at0. It also independently verifies the retained original rational dual and its negative total on both species.
+
+## Abstract extension and global implication
+
+A separate combinatorial generation using only the five permitted type names and actual native side words recovers those same80 indexed oriented states, independently of numerical fixture phases. Thus any stated geometry whose complete legal star set is contained in those five types inherits the same nonnegative-star/negative-tile functional. Both species are individually negative, so a compactness limit omitting a species cannot escape the obstruction.
+
+For a square-window selection, each selected tile contributes exactly−3. Complete stars are nonnegative after seam augmentation; internal whole-seam features cancel between their endpoints. Every unmatched endpoint, incomplete star and affected tile lies within a fixed-width boundary strip, containing O(R) tiles by positive minimum area and disjoint interiors. Consequently total corner weight is at least−O(R), contradicting−3N with N=Omega(R²). The already independently reviewed defect-free hexagon limit theorem transfers this obstruction to unrestricted original contacts. No invariant frequency, periodic quotient assumption, species-density lower bound or bounded assembly search is used.
+
+On the fixed alpha120, chi/psi120∓2delta slice, the two three-edge arc magnitudes are nonzero and closure determines p and a continuously varying q-chain phase locally. Strict support inequalities and p!=1 are open at the exact fixture. The five allowed angle equalities are identities there; all other **length-legal** native triples fail the equality at the fixture by the complete enumeration. The finite collection of nonzero angle gaps remains nonzero in some relative open neighborhood. This proves the scoped neighborhood claim, without asserting its maximum extent.
+
+Fresh review found a narrow wording defect in the initial continuity paragraph: arbitrary angle-only triples can sum360 despite incompatible binary labels, for example AH+beta+alpha=135+105+120. The author changed "every other finite native corner triple" to "every other finite length-legal native corner triple". The revised actual wording was inspected; all certificate data were unchanged. This repair is sufficient since p!=q persists locally and label-illegal patterns remain illegal.
+
+Replay: `conda run --no-capture-output -n arisearch python research/reviews/verify_branching_hexagon_single_120_obstruction_independent.py` — PASS raw strict geometry, full80-star/36-feature inventory, all retained columns, both duals, abstract five-type combinatorics and endpoint cancellation. No remaining defect found.

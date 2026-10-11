@@ -1,0 +1,736 @@
+{
+  "b_equals_two_a_triples": [
+    [
+      0,
+      0,
+      3
+    ],
+    [
+      1,
+      1,
+      2
+    ]
+  ],
+  "domain": {
+    "all_sporadic_evaluated_multisets_per_value": 35,
+    "sporadic_168_containing_multisets": 15,
+    "sporadic_evaluated_parameter_values": [
+      12,
+      24,
+      36
+    ],
+    "torus_edges": 9,
+    "torus_faces": 3,
+    "torus_vertices": 6,
+    "triangle_affine_multisets": 20
+  },
+  "positive_triangle_parameter_ratios": [
+    "1/2",
+    "2"
+  ],
+  "proof_dependencies_not_computed": [
+    "unrestricted positive weight-six root-of-unity classification",
+    "defect-free edge-to-edge trivalent hexagon limit",
+    "complete simply connected flat surface is the Euclidean plane"
+  ],
+  "reference_reflections": [
+    false,
+    false,
+    false
+  ],
+  "sporadic_168_parameter_rows": [
+    {
+      "a": "12",
+      "corners": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "a": "24",
+      "corners": [
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "a": "36",
+      "corners": [
+        1,
+        3,
+        4
+      ]
+    }
+  ],
+  "sporadic_cases": [
+    {
+      "a": 12,
+      "angles": [
+        132,
+        108,
+        60,
+        108,
+        168
+      ],
+      "legal_triples": [
+        [
+          0,
+          2,
+          4
+        ]
+      ],
+      "uncovered_categories": [
+        1,
+        3
+      ],
+      "uncovered_sporadic_categories": [
+        3
+      ]
+    },
+    {
+      "a": 24,
+      "angles": [
+        144,
+        96,
+        60,
+        108,
+        168
+      ],
+      "legal_triples": [
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          1,
+          1,
+          4
+        ]
+      ],
+      "uncovered_categories": [
+        2
+      ],
+      "uncovered_sporadic_categories": [
+        2
+      ]
+    },
+    {
+      "a": 36,
+      "angles": [
+        156,
+        84,
+        60,
+        108,
+        168
+      ],
+      "legal_triples": [
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "uncovered_categories": [
+        0,
+        2
+      ],
+      "uncovered_sporadic_categories": [
+        2
+      ]
+    }
+  ],
+  "sporadic_only_triples": [],
+  "status": "PASS",
+  "torus_connected": true,
+  "torus_euler_characteristic": 0,
+  "torus_flat_vertices": [
+    {
+      "a_coefficient": 0,
+      "constant_angle_degrees": 360,
+      "corners": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "a_coefficient": 0,
+      "constant_angle_degrees": 360,
+      "corners": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "a_coefficient": 0,
+      "constant_angle_degrees": 360,
+      "corners": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "a_coefficient": 0,
+      "constant_angle_degrees": 360,
+      "corners": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "a_coefficient": 0,
+      "constant_angle_degrees": 360,
+      "corners": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "a_coefficient": 0,
+      "constant_angle_degrees": 360,
+      "corners": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    }
+  ],
+  "torus_pairings": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    [
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    [
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        5
+      ]
+    ]
+  ],
+  "torus_reversed_endpoint_gluing": true,
+  "torus_seam_endpoint_pairs": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    [
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    [
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    [
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    [
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    [
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        5
+      ]
+    ]
+  ],
+  "triangle_symbolic_rows": [
+    {
+      "a_coefficient": 3,
+      "b_coefficient": 0,
+      "corners": [
+        0,
+        0,
+        0
+      ],
+      "positive_b_over_a": null
+    },
+    {
+      "a_coefficient": 1,
+      "b_coefficient": 0,
+      "corners": [
+        0,
+        0,
+        1
+      ],
+      "positive_b_over_a": null
+    },
+    {
+      "a_coefficient": 2,
+      "b_coefficient": 1,
+      "corners": [
+        0,
+        0,
+        2
+      ],
+      "positive_b_over_a": null
+    },
+    {
+      "a_coefficient": 2,
+      "b_coefficient": -1,
+      "corners": [
+        0,
+        0,
+        3
+      ],
+      "positive_b_over_a": "2"
+    },
+    {
+      "a_coefficient": -1,
+      "b_coefficient": 0,
+      "corners": [
+        0,
+        1,
+        1
+      ],
+      "positive_b_over_a": null
+    },
+    {
+      "a_coefficient": 0,
+      "b_coefficient": 1,
+      "corners": [
+        0,
+        1,
+        2
+      ],
+      "positive_b_over_a": null
+    },
+    {
+      "a_coefficient": 0,
+      "b_coefficient": -1,
+      "corners": [
+        0,
+        1,
+        3
+      ],
+      "positive_b_over_a": null
+    },
+    {
+      "a_coefficient": 1,
+      "b_coefficient": 2,
+      "corners": [
+        0,
+        2,
+        2
+      ],
+      "positive_b_over_a": null
+    },
+    {
+      "a_coefficient": 1,
+      "b_coefficient": 0,
+      "corners": [
+        0,
+        2,
+        3
+      ],
+      "positive_b_over_a": null
+    },
+    {
+      "a_coefficient": 1,
+      "b_coefficient": -2,
+      "corners": [
+        0,
+        3,
+        3
+      ],
+      "positive_b_over_a": "1/2"
+    },
+    {
+      "a_coefficient": -3,
+      "b_coefficient": 0,
+      "corners": [
+        1,
+        1,
+        1
+      ],
+      "positive_b_over_a": null
+    },
+    {
+      "a_coefficient": -2,
+      "b_coefficient": 1,
+      "corners": [
+        1,
+        1,
+        2
+      ],
+      "positive_b_over_a": "2"
+    },
+    {
+      "a_coefficient": -2,
+      "b_coefficient": -1,
+      "corners": [
+        1,
+        1,
+        3
+      ],
+      "positive_b_over_a": null
+    },
+    {
+      "a_coefficient": -1,
+      "b_coefficient": 2,
+      "corners": [
+        1,
+        2,
+        2
+      ],
+      "positive_b_over_a": "1/2"
+    },
+    {
+      "a_coefficient": -1,
+      "b_coefficient": 0,
+      "corners": [
+        1,
+        2,
+        3
+      ],
+      "positive_b_over_a": null
+    },
+    {
+      "a_coefficient": -1,
+      "b_coefficient": -2,
+      "corners": [
+        1,
+        3,
+        3
+      ],
+      "positive_b_over_a": null
+    },
+    {
+      "a_coefficient": 0,
+      "b_coefficient": 3,
+      "corners": [
+        2,
+        2,
+        2
+      ],
+      "positive_b_over_a": null
+    },
+    {
+      "a_coefficient": 0,
+      "b_coefficient": 1,
+      "corners": [
+        2,
+        2,
+        3
+      ],
+      "positive_b_over_a": null
+    },
+    {
+      "a_coefficient": 0,
+      "b_coefficient": -1,
+      "corners": [
+        2,
+        3,
+        3
+      ],
+      "positive_b_over_a": null
+    },
+    {
+      "a_coefficient": 0,
+      "b_coefficient": -3,
+      "corners": [
+        3,
+        3,
+        3
+      ],
+      "positive_b_over_a": null
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "schema": "exact-opposite-mixed-homogeneous-ledger-v1",
+  "status": "PASS",
+  "checks": [
+    "rho first and second derivatives",
+    "all12 B-only nonpure residuals",
+    "all8 native A-cover forms",
+    "all3 locus tables",
+    "all6 homogeneous plane intersections",
+    "all8 binary ray cycles",
+    "complete half-angle rational identity and denominator",
+    "exact y=2x count elimination"
+  ],
+  "tables": {
+    "u": {
+      "alpha": [
+        [
+          "x",
+          "2*x - y",
+          "3*x - 2*y"
+        ],
+        [
+          "-x",
+          "-2*x + y"
+        ]
+      ],
+      "beta": [
+        [
+          "-2*x",
+          "-x - y",
+          "-2*y"
+        ],
+        [
+          "2*x",
+          "x + y"
+        ]
+      ],
+      "chi": [
+        [
+          "2*y",
+          "x + y",
+          "2*x"
+        ],
+        [
+          "-2*y",
+          "-x - y"
+        ]
+      ],
+      "eta": [
+        [
+          "-y",
+          "x - 2*y",
+          "2*x - 3*y"
+        ],
+        [
+          "y",
+          "-x + 2*y"
+        ]
+      ]
+    },
+    "v": {
+      "alpha": [
+        [
+          "3*x - 2*y",
+          "2*x - y",
+          "x"
+        ],
+        [
+          "-2*x + y",
+          "-x"
+        ]
+      ],
+      "beta": [
+        [
+          "-2*y",
+          "-x - y",
+          "-2*x"
+        ],
+        [
+          "x + y",
+          "2*x"
+        ]
+      ],
+      "chi": [
+        [
+          "2*x",
+          "x + y",
+          "2*y"
+        ],
+        [
+          "-x - y",
+          "-2*y"
+        ]
+      ],
+      "eta": [
+        [
+          "2*x - 3*y",
+          "x - 2*y",
+          "-y"
+        ],
+        [
+          "-x + 2*y",
+          "y"
+        ]
+      ]
+    },
+    "sum": {
+      "alpha": [
+        [
+          "x - 2*z",
+          "x",
+          "x + 2*z"
+        ],
+        [
+          "-x + z",
+          "-x - z"
+        ]
+      ],
+      "beta": [
+        [
+          "-2*x - 2*z",
+          "-2*x",
+          "-2*x + 2*z"
+        ],
+        [
+          "2*x + z",
+          "2*x - z"
+        ]
+      ],
+      "chi": [
+        [
+          "2*x - 2*z",
+          "2*x",
+          "2*x + 2*z"
+        ],
+        [
+          "-2*x + z",
+          "-2*x - z"
+        ]
+      ],
+      "eta": [
+        [
+          "-x - 2*z",
+          "-x",
+          "-x + 2*z"
+        ],
+        [
+          "x + z",
+          "x - z"
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,1516 @@
+{
+  "domain": "actualstrictconvexbinarymixed21ppslice:2alpha+beta360;chi120-2delta;psi120+2delta;0delta30;90alpha180;alpha-rho+delta<120;p2cosdelta/abs(Palpha);p!=1",
+  "coefficient_order": [
+    "constant",
+    "delta",
+    "alpha",
+    "rho"
+  ],
+  "Palpha": "1+2i*sin(alpha)",
+  "rho": "actualnativepchainphase",
+  "named_native_angles": {
+    "AH": [
+      120,
+      1,
+      0,
+      0
+    ],
+    "AL": [
+      120,
+      -1,
+      0,
+      0
+    ],
+    "B0": [
+      60,
+      -1,
+      0,
+      1
+    ],
+    "B3": [
+      60,
+      1,
+      1,
+      -1
+    ],
+    "alpha": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "beta": [
+      360,
+      0,
+      -2,
+      0
+    ],
+    "chi": [
+      120,
+      -2,
+      0,
+      0
+    ],
+    "psi": [
+      120,
+      2,
+      0,
+      0
+    ]
+  },
+  "complete48named_star_domain": [
+    {
+      "native_type": [
+        "alpha",
+        "alpha",
+        "alpha"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -360,
+        0,
+        3,
+        0
+      ],
+      "canonical_equation": [
+        120,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "alpha",
+        "alpha",
+        "beta"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "canonical_equation": null
+    },
+    {
+      "native_type": [
+        "alpha",
+        "beta",
+        "beta"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        360,
+        0,
+        -3,
+        0
+      ],
+      "canonical_equation": [
+        120,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "beta",
+        "beta",
+        "beta"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        720,
+        0,
+        -6,
+        0
+      ],
+      "canonical_equation": [
+        120,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "chi",
+        "chi",
+        "chi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        0,
+        -6,
+        0,
+        0
+      ],
+      "canonical_equation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "chi",
+        "chi",
+        "psi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        0,
+        -2,
+        0,
+        0
+      ],
+      "canonical_equation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "chi",
+        "psi",
+        "psi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "canonical_equation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "psi",
+        "psi",
+        "psi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        0,
+        6,
+        0,
+        0
+      ],
+      "canonical_equation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "AH",
+        "AH",
+        "alpha"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -120,
+        2,
+        1,
+        0
+      ],
+      "canonical_equation": [
+        120,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "AH",
+        "AH",
+        "beta"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        240,
+        2,
+        -2,
+        0
+      ],
+      "canonical_equation": [
+        120,
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "AH",
+        "AH",
+        "chi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "canonical_equation": null
+    },
+    {
+      "native_type": [
+        "AH",
+        "AH",
+        "psi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        0,
+        4,
+        0,
+        0
+      ],
+      "canonical_equation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "AH",
+        "AL",
+        "alpha"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -120,
+        0,
+        1,
+        0
+      ],
+      "canonical_equation": [
+        120,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "AH",
+        "AL",
+        "beta"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        240,
+        0,
+        -2,
+        0
+      ],
+      "canonical_equation": [
+        120,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "AH",
+        "AL",
+        "chi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        0,
+        -2,
+        0,
+        0
+      ],
+      "canonical_equation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "AH",
+        "AL",
+        "psi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "canonical_equation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "AH",
+        "B0",
+        "alpha"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -180,
+        0,
+        1,
+        1
+      ],
+      "canonical_equation": [
+        180,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "native_type": [
+        "AH",
+        "B0",
+        "beta"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        180,
+        0,
+        -2,
+        1
+      ],
+      "canonical_equation": [
+        180,
+        0,
+        -2,
+        1
+      ]
+    },
+    {
+      "native_type": [
+        "AH",
+        "B0",
+        "chi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -60,
+        -2,
+        0,
+        1
+      ],
+      "canonical_equation": [
+        60,
+        2,
+        0,
+        -1
+      ]
+    },
+    {
+      "native_type": [
+        "AH",
+        "B0",
+        "psi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -60,
+        2,
+        0,
+        1
+      ],
+      "canonical_equation": [
+        60,
+        -2,
+        0,
+        -1
+      ]
+    },
+    {
+      "native_type": [
+        "AH",
+        "B3",
+        "alpha"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -180,
+        2,
+        2,
+        -1
+      ],
+      "canonical_equation": [
+        180,
+        -2,
+        -2,
+        1
+      ]
+    },
+    {
+      "native_type": [
+        "AH",
+        "B3",
+        "beta"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        180,
+        2,
+        -1,
+        -1
+      ],
+      "canonical_equation": [
+        180,
+        2,
+        -1,
+        -1
+      ]
+    },
+    {
+      "native_type": [
+        "AH",
+        "B3",
+        "chi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -60,
+        0,
+        1,
+        -1
+      ],
+      "canonical_equation": [
+        60,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "native_type": [
+        "AH",
+        "B3",
+        "psi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -60,
+        4,
+        1,
+        -1
+      ],
+      "canonical_equation": [
+        60,
+        -4,
+        -1,
+        1
+      ]
+    },
+    {
+      "native_type": [
+        "AL",
+        "AL",
+        "alpha"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -120,
+        -2,
+        1,
+        0
+      ],
+      "canonical_equation": [
+        120,
+        2,
+        -1,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "AL",
+        "AL",
+        "beta"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        240,
+        -2,
+        -2,
+        0
+      ],
+      "canonical_equation": [
+        120,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "AL",
+        "AL",
+        "chi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        0,
+        -4,
+        0,
+        0
+      ],
+      "canonical_equation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "AL",
+        "AL",
+        "psi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "canonical_equation": null
+    },
+    {
+      "native_type": [
+        "AL",
+        "B0",
+        "alpha"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -180,
+        -2,
+        1,
+        1
+      ],
+      "canonical_equation": [
+        180,
+        2,
+        -1,
+        -1
+      ]
+    },
+    {
+      "native_type": [
+        "AL",
+        "B0",
+        "beta"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        180,
+        -2,
+        -2,
+        1
+      ],
+      "canonical_equation": [
+        180,
+        -2,
+        -2,
+        1
+      ]
+    },
+    {
+      "native_type": [
+        "AL",
+        "B0",
+        "chi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -60,
+        -4,
+        0,
+        1
+      ],
+      "canonical_equation": [
+        60,
+        4,
+        0,
+        -1
+      ]
+    },
+    {
+      "native_type": [
+        "AL",
+        "B0",
+        "psi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -60,
+        0,
+        0,
+        1
+      ],
+      "canonical_equation": [
+        60,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "native_type": [
+        "AL",
+        "B3",
+        "alpha"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -180,
+        0,
+        2,
+        -1
+      ],
+      "canonical_equation": [
+        180,
+        0,
+        -2,
+        1
+      ]
+    },
+    {
+      "native_type": [
+        "AL",
+        "B3",
+        "beta"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        180,
+        0,
+        -1,
+        -1
+      ],
+      "canonical_equation": [
+        180,
+        0,
+        -1,
+        -1
+      ]
+    },
+    {
+      "native_type": [
+        "AL",
+        "B3",
+        "chi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -60,
+        -2,
+        1,
+        -1
+      ],
+      "canonical_equation": [
+        60,
+        2,
+        -1,
+        1
+      ]
+    },
+    {
+      "native_type": [
+        "AL",
+        "B3",
+        "psi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -60,
+        2,
+        1,
+        -1
+      ],
+      "canonical_equation": [
+        60,
+        -2,
+        -1,
+        1
+      ]
+    },
+    {
+      "native_type": [
+        "B0",
+        "B0",
+        "alpha"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -240,
+        -2,
+        1,
+        2
+      ],
+      "canonical_equation": [
+        240,
+        2,
+        -1,
+        -2
+      ]
+    },
+    {
+      "native_type": [
+        "B0",
+        "B0",
+        "beta"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        120,
+        -2,
+        -2,
+        2
+      ],
+      "canonical_equation": [
+        60,
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "native_type": [
+        "B0",
+        "B0",
+        "chi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -120,
+        -4,
+        0,
+        2
+      ],
+      "canonical_equation": [
+        60,
+        2,
+        0,
+        -1
+      ]
+    },
+    {
+      "native_type": [
+        "B0",
+        "B0",
+        "psi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -120,
+        0,
+        0,
+        2
+      ],
+      "canonical_equation": [
+        60,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "native_type": [
+        "B0",
+        "B3",
+        "alpha"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -240,
+        0,
+        2,
+        0
+      ],
+      "canonical_equation": [
+        120,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "B0",
+        "B3",
+        "beta"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        120,
+        0,
+        -1,
+        0
+      ],
+      "canonical_equation": [
+        120,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "B0",
+        "B3",
+        "chi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -120,
+        -2,
+        1,
+        0
+      ],
+      "canonical_equation": [
+        120,
+        2,
+        -1,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "B0",
+        "B3",
+        "psi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -120,
+        2,
+        1,
+        0
+      ],
+      "canonical_equation": [
+        120,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "native_type": [
+        "B3",
+        "B3",
+        "alpha"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -240,
+        2,
+        3,
+        -2
+      ],
+      "canonical_equation": [
+        240,
+        -2,
+        -3,
+        2
+      ]
+    },
+    {
+      "native_type": [
+        "B3",
+        "B3",
+        "beta"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        120,
+        2,
+        0,
+        -2
+      ],
+      "canonical_equation": [
+        60,
+        1,
+        0,
+        -1
+      ]
+    },
+    {
+      "native_type": [
+        "B3",
+        "B3",
+        "chi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -120,
+        0,
+        2,
+        -2
+      ],
+      "canonical_equation": [
+        60,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "native_type": [
+        "B3",
+        "B3",
+        "psi"
+      ],
+      "raw_angle_sum_minus360_coefficients": [
+        -120,
+        4,
+        2,
+        -2
+      ],
+      "canonical_equation": [
+        60,
+        -2,
+        -1,
+        1
+      ]
+    }
+  ],
+  "three_identical_types": [
+    [
+      "alpha",
+      "alpha",
+      "beta"
+    ],
+    [
+      "AH",
+      "AH",
+      "chi"
+    ],
+    [
+      "AL",
+      "AL",
+      "psi"
+    ]
+  ],
+  "all22proper_equation_classes": [
+    {
+      "coefficients": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "raw_star_indices": [
+        4,
+        5,
+        6,
+        7,
+        11,
+        14,
+        15,
+        26
+      ],
+      "excluded_domain_boundary": true
+    },
+    {
+      "coefficients": [
+        60,
+        -4,
+        -1,
+        1
+      ],
+      "raw_star_indices": [
+        23
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        60,
+        -2,
+        -1,
+        1
+      ],
+      "raw_star_indices": [
+        35,
+        47
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        60,
+        -2,
+        0,
+        -1
+      ],
+      "raw_star_indices": [
+        19
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        60,
+        -1,
+        -1,
+        1
+      ],
+      "raw_star_indices": [
+        37
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        60,
+        0,
+        -1,
+        1
+      ],
+      "raw_star_indices": [
+        22,
+        46
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        60,
+        0,
+        0,
+        -1
+      ],
+      "raw_star_indices": [
+        31,
+        39
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        60,
+        1,
+        0,
+        -1
+      ],
+      "raw_star_indices": [
+        45
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        60,
+        2,
+        -1,
+        1
+      ],
+      "raw_star_indices": [
+        34
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        60,
+        2,
+        0,
+        -1
+      ],
+      "raw_star_indices": [
+        18,
+        38
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        60,
+        4,
+        0,
+        -1
+      ],
+      "raw_star_indices": [
+        30
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        120,
+        -2,
+        -1,
+        0
+      ],
+      "raw_star_indices": [
+        8,
+        43
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        120,
+        -1,
+        -1,
+        0
+      ],
+      "raw_star_indices": [
+        25
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        120,
+        0,
+        -1,
+        0
+      ],
+      "raw_star_indices": [
+        0,
+        2,
+        3,
+        12,
+        13,
+        40,
+        41
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        120,
+        1,
+        -1,
+        0
+      ],
+      "raw_star_indices": [
+        9
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        120,
+        2,
+        -1,
+        0
+      ],
+      "raw_star_indices": [
+        24,
+        42
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        180,
+        -2,
+        -2,
+        1
+      ],
+      "raw_star_indices": [
+        20,
+        29
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        180,
+        0,
+        -2,
+        1
+      ],
+      "raw_star_indices": [
+        17,
+        32
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        180,
+        0,
+        -1,
+        -1
+      ],
+      "raw_star_indices": [
+        16,
+        33
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        180,
+        2,
+        -1,
+        -1
+      ],
+      "raw_star_indices": [
+        21,
+        28
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        240,
+        -2,
+        -3,
+        2
+      ],
+      "raw_star_indices": [
+        44
+      ],
+      "excluded_domain_boundary": false
+    },
+    {
+      "coefficients": [
+        240,
+        2,
+        -1,
+        -2
+      ],
+      "raw_star_indices": [
+        36
+      ],
+      "excluded_domain_boundary": false
+    }
+  ],
+  "remaining21exception_curves": [
+    {
+      "coefficients": [
+        60,
+        -4,
+        -1,
+        1
+      ],
+      "raw_star_indices": [
+        23
+      ]
+    },
+    {
+      "coefficients": [
+        60,
+        -2,
+        -1,
+        1
+      ],
+      "raw_star_indices": [
+        35,
+        47
+      ]
+    },
+    {
+      "coefficients": [
+        60,
+        -2,
+        0,
+        -1
+      ],
+      "raw_star_indices": [
+        19
+      ]
+    },
+    {
+      "coefficients": [
+        60,
+        -1,
+        -1,
+        1
+      ],
+      "raw_star_indices": [
+        37
+      ]
+    },
+    {
+      "coefficients": [
+        60,
+        0,
+        -1,
+        1
+      ],
+      "raw_star_indices": [
+        22,
+        46
+      ]
+    },
+    {
+      "coefficients": [
+        60,
+        0,
+        0,
+        -1
+      ],
+      "raw_star_indices": [
+        31,
+        39
+      ]
+    },
+    {
+      "coefficients": [
+        60,
+        1,
+        0,
+        -1
+      ],
+      "raw_star_indices": [
+        45
+      ]
+    },
+    {
+      "coefficients": [
+        60,
+        2,
+        -1,
+        1
+      ],
+      "raw_star_indices": [
+        34
+      ]
+    },
+    {
+      "coefficients": [
+        60,
+        2,
+        0,
+        -1
+      ],
+      "raw_star_indices": [
+        18,
+        38
+      ]
+    },
+    {
+      "coefficients": [
+        60,
+        4,
+        0,
+        -1
+      ],
+      "raw_star_indices": [
+        30
+      ]
+    },
+    {
+      "coefficients": [
+        120,
+        -2,
+        -1,
+        0
+      ],
+      "raw_star_indices": [
+        8,
+        43
+      ]
+    },
+    {
+      "coefficients": [
+        120,
+        -1,
+        -1,
+        0
+      ],
+      "raw_star_indices": [
+        25
+      ]
+    },
+    {
+      "coefficients": [
+        120,
+        0,
+        -1,
+        0
+      ],
+      "raw_star_indices": [
+        0,
+        2,
+        3,
+        12,
+        13,
+        40,
+        41
+      ]
+    },
+    {
+      "coefficients": [
+        120,
+        1,
+        -1,
+        0
+      ],
+      "raw_star_indices": [
+        9
+      ]
+    },
+    {
+      "coefficients": [
+        120,
+        2,
+        -1,
+        0
+      ],
+      "raw_star_indices": [
+        24,
+        42
+      ]
+    },
+    {
+      "coefficients": [
+        180,
+        -2,
+        -2,
+        1
+      ],
+      "raw_star_indices": [
+        20,
+        29
+      ]
+    },
+    {
+      "coefficients": [
+        180,
+        0,
+        -2,
+        1
+      ],
+      "raw_star_indices": [
+        17,
+        32
+      ]
+    },
+    {
+      "coefficients": [
+        180,
+        0,
+        -1,
+        -1
+      ],
+      "raw_star_indices": [
+        16,
+        33
+      ]
+    },
+    {
+      "coefficients": [
+        180,
+        2,
+        -1,
+        -1
+      ],
+      "raw_star_indices": [
+        21,
+        28
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        -2,
+        -3,
+        2
+      ],
+      "raw_star_indices": [
+        44
+      ]
+    },
+    {
+      "coefficients": [
+        240,
+        2,
+        -1,
+        -2
+      ],
+      "raw_star_indices": [
+        36
+      ]
+    }
+  ],
+  "scope": "outside21planescompletelegalstarsetcontainsnomorethanthreeidentitytypes;dualityneededforglobaluntileability;oncurvesnooutcomeclaimed"
+}

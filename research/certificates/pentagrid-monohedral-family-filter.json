@@ -1,0 +1,754 @@
+{
+  "compatible_angle_cases": [
+    {
+      "angle_word": [
+        3,
+        4,
+        4,
+        3,
+        1
+      ],
+      "length_equations": [
+        [
+          -1,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "max_minimum_side": null,
+      "maximizing_normalized_lengths": null,
+      "offset": 1,
+      "positive_closed_metric": false,
+      "side_map": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ],
+      "sign": 1,
+      "type": 2,
+      "word": "U"
+    },
+    {
+      "angle_word": [
+        4,
+        3,
+        1,
+        3,
+        4
+      ],
+      "length_equations": [
+        [
+          1,
+          0,
+          -1,
+          0,
+          0
+        ]
+      ],
+      "max_minimum_side": null,
+      "maximizing_normalized_lengths": null,
+      "offset": 3,
+      "positive_closed_metric": false,
+      "side_map": [
+        3,
+        4,
+        0,
+        1,
+        2
+      ],
+      "sign": 1,
+      "type": 2,
+      "word": "U"
+    },
+    {
+      "angle_word": [
+        4,
+        3,
+        1,
+        3,
+        4
+      ],
+      "length_equations": [
+        [
+          0,
+          0,
+          -1,
+          0,
+          1
+        ]
+      ],
+      "max_minimum_side": null,
+      "maximizing_normalized_lengths": null,
+      "offset": 2,
+      "positive_closed_metric": false,
+      "side_map": [
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "sign": -1,
+      "type": 2,
+      "word": "U"
+    },
+    {
+      "angle_word": [
+        3,
+        4,
+        4,
+        3,
+        1
+      ],
+      "length_equations": [
+        [
+          0,
+          1,
+          0,
+          0,
+          -1
+        ]
+      ],
+      "max_minimum_side": null,
+      "maximizing_normalized_lengths": null,
+      "offset": 4,
+      "positive_closed_metric": false,
+      "side_map": [
+        3,
+        2,
+        1,
+        0,
+        4
+      ],
+      "sign": -1,
+      "type": 2,
+      "word": "U"
+    },
+    {
+      "angle_word": [
+        1,
+        3,
+        4,
+        4,
+        3
+      ],
+      "length_equations": [
+        [
+          1,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          -1,
+          0
+        ]
+      ],
+      "max_minimum_side": null,
+      "maximizing_normalized_lengths": null,
+      "offset": 0,
+      "positive_closed_metric": false,
+      "side_map": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "sign": 1,
+      "type": 8,
+      "word": "U"
+    },
+    {
+      "angle_word": [
+        1,
+        3,
+        4,
+        4,
+        3
+      ],
+      "length_equations": [
+        [
+          0,
+          0,
+          0,
+          -1,
+          1
+        ],
+        [
+          0,
+          0,
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          -1,
+          1,
+          0,
+          0
+        ]
+      ],
+      "max_minimum_side": null,
+      "maximizing_normalized_lengths": null,
+      "offset": 0,
+      "positive_closed_metric": false,
+      "side_map": [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "sign": -1,
+      "type": 8,
+      "word": "U"
+    },
+    {
+      "angle_word": [
+        2,
+        4,
+        3,
+        4,
+        2
+      ],
+      "length_equations": [
+        [
+          -1,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "max_minimum_side": [
+        "0",
+        "0"
+      ],
+      "maximizing_normalized_lengths": [
+        [
+          "3/2",
+          "-1/2"
+        ],
+        [
+          "-2",
+          "1"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "3/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "offset": 1,
+      "positive_closed_metric": false,
+      "side_map": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ],
+      "sign": 1,
+      "type": 2,
+      "word": "V"
+    },
+    {
+      "angle_word": [
+        4,
+        2,
+        2,
+        4,
+        3
+      ],
+      "length_equations": [
+        [
+          0,
+          1,
+          0,
+          -1,
+          0
+        ]
+      ],
+      "max_minimum_side": [
+        "4/11",
+        "-1/11"
+      ],
+      "maximizing_normalized_lengths": [
+        [
+          "-5/11",
+          "4/11"
+        ],
+        [
+          "4/11",
+          "-1/11"
+        ],
+        [
+          "4/11",
+          "-1/11"
+        ],
+        [
+          "4/11",
+          "-1/11"
+        ],
+        [
+          "4/11",
+          "-1/11"
+        ]
+      ],
+      "offset": 4,
+      "positive_closed_metric": true,
+      "side_map": [
+        4,
+        0,
+        1,
+        2,
+        3
+      ],
+      "sign": 1,
+      "type": 2,
+      "word": "V"
+    },
+    {
+      "angle_word": [
+        2,
+        4,
+        3,
+        4,
+        2
+      ],
+      "length_equations": [
+        [
+          -1,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "max_minimum_side": [
+        "0",
+        "0"
+      ],
+      "maximizing_normalized_lengths": [
+        [
+          "3/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "3/2",
+          "-1/2"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-2",
+          "1"
+        ]
+      ],
+      "offset": 0,
+      "positive_closed_metric": false,
+      "side_map": [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "sign": -1,
+      "type": 2,
+      "word": "V"
+    },
+    {
+      "angle_word": [
+        4,
+        2,
+        2,
+        4,
+        3
+      ],
+      "length_equations": [
+        [
+          0,
+          0,
+          -1,
+          0,
+          1
+        ]
+      ],
+      "max_minimum_side": [
+        "4/11",
+        "-1/11"
+      ],
+      "maximizing_normalized_lengths": [
+        [
+          "-5/11",
+          "4/11"
+        ],
+        [
+          "4/11",
+          "-1/11"
+        ],
+        [
+          "4/11",
+          "-1/11"
+        ],
+        [
+          "4/11",
+          "-1/11"
+        ],
+        [
+          "4/11",
+          "-1/11"
+        ]
+      ],
+      "offset": 2,
+      "positive_closed_metric": true,
+      "side_map": [
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "sign": -1,
+      "type": 2,
+      "word": "V"
+    },
+    {
+      "angle_word": [
+        4,
+        2,
+        2,
+        4,
+        3
+      ],
+      "length_equations": [
+        [
+          0,
+          1,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "max_minimum_side": null,
+      "maximizing_normalized_lengths": null,
+      "offset": 4,
+      "positive_closed_metric": false,
+      "side_map": [
+        4,
+        0,
+        1,
+        2,
+        3
+      ],
+      "sign": 1,
+      "type": 6,
+      "word": "V"
+    },
+    {
+      "angle_word": [
+        4,
+        2,
+        2,
+        4,
+        3
+      ],
+      "length_equations": [
+        [
+          0,
+          0,
+          0,
+          -1,
+          1
+        ],
+        [
+          0,
+          0,
+          -1,
+          1,
+          0
+        ],
+        [
+          -1,
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "max_minimum_side": null,
+      "maximizing_normalized_lengths": null,
+      "offset": 2,
+      "positive_closed_metric": false,
+      "side_map": [
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "sign": -1,
+      "type": 6,
+      "word": "V"
+    },
+    {
+      "angle_word": [
+        3,
+        4,
+        2,
+        2,
+        4
+      ],
+      "length_equations": [
+        [
+          0,
+          0,
+          0,
+          1,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          -1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "max_minimum_side": null,
+      "maximizing_normalized_lengths": null,
+      "offset": 3,
+      "positive_closed_metric": false,
+      "side_map": [
+        3,
+        4,
+        0,
+        1,
+        2
+      ],
+      "sign": 1,
+      "type": 8,
+      "word": "V"
+    },
+    {
+      "angle_word": [
+        3,
+        4,
+        2,
+        2,
+        4
+      ],
+      "length_equations": [
+        [
+          0,
+          -1,
+          1,
+          0,
+          0
+        ],
+        [
+          -1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          -1
+        ]
+      ],
+      "max_minimum_side": null,
+      "maximizing_normalized_lengths": null,
+      "offset": 3,
+      "positive_closed_metric": false,
+      "side_map": [
+        2,
+        1,
+        0,
+        4,
+        3
+      ],
+      "sign": -1,
+      "type": 8,
+      "word": "V"
+    },
+    {
+      "angle_word": [
+        4,
+        2,
+        2,
+        4,
+        3
+      ],
+      "length_equations": [
+        [
+          -1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          -1,
+          0,
+          0
+        ]
+      ],
+      "max_minimum_side": null,
+      "maximizing_normalized_lengths": null,
+      "offset": 4,
+      "positive_closed_metric": false,
+      "side_map": [
+        4,
+        0,
+        1,
+        2,
+        3
+      ],
+      "sign": 1,
+      "type": 9,
+      "word": "V"
+    },
+    {
+      "angle_word": [
+        4,
+        2,
+        2,
+        4,
+        3
+      ],
+      "length_equations": [
+        [
+          -1,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          1
+        ]
+      ],
+      "max_minimum_side": null,
+      "maximizing_normalized_lengths": null,
+      "offset": 2,
+      "positive_closed_metric": false,
+      "side_map": [
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "sign": -1,
+      "type": 9,
+      "word": "V"
+    }
+  ],
+  "domain": {
+    "angle_words": {
+      "U": [
+        1,
+        3,
+        4,
+        4,
+        3
+      ],
+      "V": [
+        2,
+        2,
+        4,
+        3,
+        4
+      ],
+      "W": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    "dihedral_maps_per_type": 10,
+    "raw_angle_tests": 450,
+    "type_count": 15
+  },
+  "positive_case_count": 2,
+  "primary_source": "Rao arXiv1708.00274v1 Table2 types1..15"
+}

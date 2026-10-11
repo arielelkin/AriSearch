@@ -1,8 +1,7 @@
 # Side count and monohedral obstructions
 
-**Status:** Proved internally. The global side-count argument was repaired
-after hostile review; independent re-review of the repaired version is
-pending. The elementary monohedral and torus arguments have no separate
+**Status:** The repaired global side-count theorem and its quantitative
+form have passed [fresh independent hostile re-review](../reviews/structural-resumption-review.md) as VALID (2026-10-10). The elementary monohedral and torus arguments have no separate
 hostile-review record. These are necessary conditions, not a resolution
 of the two-tile problem.
 
@@ -41,7 +40,7 @@ a copy across the side joining that pair's vertices.  The two copies form a
 convex centrally symmetric hexagon (with a collinear boundary vertex in the
 equality case).  Its three pairs of opposite sides are parallel and equal,
 so the standard translations pairing opposite sides tile the plane.  Hence
-either shape has a periodic monohedral tiling, and the lemma applies.
+either a triangle nor a convex quadrilateral can belong to an aperiodic pair: either shape admits a periodic monohedral tiling, and the lemma applies.
 \(\square\)
 
 This does **not** justify rejecting an arbitrary pentagon merely because it

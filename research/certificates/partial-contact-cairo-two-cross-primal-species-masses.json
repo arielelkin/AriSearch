@@ -1,0 +1,6765 @@
+{
+  "scope": "actual rawvariant species blocks of existing exact primal witnesses; mono witness never implies mixed infeasibility",
+  "records": [
+    {
+      "pattern": "orbit0",
+      "flat_id": 259,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 96,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 265,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 24,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 279,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 27,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 332,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 16,
+      "Q_variant_count": 72,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 334,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 8,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 370,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 405,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 12,
+      "Q_variant_count": 40,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 409,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 360,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 426,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 60,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 466,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 144,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 487,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 498,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 8,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 499,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 48,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 508,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 571,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 8,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 573,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 8,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 574,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 48,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 579,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 36,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 586,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 24,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 604,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 72,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 610,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 72,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 628,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 24,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 691,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 36,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 744,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 18,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit1",
+      "flat_id": 759,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 18,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 281,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 6,
+      "Q_variant_count": 360,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 293,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 72,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 305,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 144,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 375,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 421,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 8,
+      "Q_variant_count": 48,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 432,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 48,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 452,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 48,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 500,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 72,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 523,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 532,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 8,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 542,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 570,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 600,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 12,
+      "Q_variant_count": 360,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 617,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 644,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 724,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 60,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 738,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 60,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 772,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 96,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 792,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 27,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 801,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 27,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 807,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 27,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 837,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 48,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 335,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 378,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 8,
+      "Q_variant_count": 18,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 481,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 12,
+      "Q_variant_count": 20,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 599,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 730,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 784,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 18,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 843,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 845,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 846,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 847,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 906,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 48,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 459,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 24,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "3/4",
+        "1/4"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 460,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 24,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 492,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 6,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 575,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 36,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/4",
+        "3/4"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 770,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 12,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 801,
+      "dimension": 1,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 18,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 32,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 27,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 32,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 27,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 32,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 27,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 32,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 27,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 32,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 27,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 32,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 27,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 32,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 6,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 42,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 9,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 42,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 9,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 42,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 9,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 42,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 42,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 42,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 42,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 50,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 8,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 50,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 8,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 50,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 8,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 50,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 36,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 50,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 36,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 60,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 60,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 60,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 60,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 60,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 60,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 60,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 60,
+      "dimension": 2,
+      "order_chamber_id": 7,
+      "P_variant_count": 9,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 66,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 60,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 66,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 60,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 66,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 60,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 66,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 10,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 76,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 12,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 76,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 12,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 76,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 76,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 76,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 76,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 76,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 84,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 8,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 84,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 8,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 84,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 8,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 84,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 8,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 84,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 48,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 84,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 48,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 84,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 48,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 94,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 94,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 94,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 94,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 94,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 94,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 12,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 94,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 94,
+      "dimension": 2,
+      "order_chamber_id": 7,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 94,
+      "dimension": 2,
+      "order_chamber_id": 8,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 101,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 8,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 101,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 8,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 101,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 8,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 101,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 48,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 101,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 48,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 101,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 48,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 101,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 48,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 108,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 108,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 108,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 108,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 108,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 12,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 108,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 12,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 108,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 12,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 108,
+      "dimension": 2,
+      "order_chamber_id": 7,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 108,
+      "dimension": 2,
+      "order_chamber_id": 8,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 116,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 24,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 116,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 24,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 116,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 24,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 116,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 24,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 116,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 24,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 116,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 24,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 116,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 4,
+      "Q_variant_count": 9,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 127,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 6,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 127,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 6,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 127,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 6,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 127,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 1,
+      "Q_variant_count": 18,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 132,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 36,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 132,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 36,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 132,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 36,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 132,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 36,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 132,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 6,
+      "Q_variant_count": 18,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 132,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 6,
+      "Q_variant_count": 18,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 132,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 36,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 135,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 24,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 135,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 24,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 135,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 4,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 135,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 4,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 135,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 4,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 135,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 4,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 135,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 4,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 140,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 36,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 140,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 36,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 140,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 36,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 140,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 36,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 140,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 36,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 140,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 36,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 140,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 36,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 140,
+      "dimension": 2,
+      "order_chamber_id": 7,
+      "P_variant_count": 36,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 140,
+      "dimension": 2,
+      "order_chamber_id": 8,
+      "P_variant_count": 36,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 140,
+      "dimension": 2,
+      "order_chamber_id": 9,
+      "P_variant_count": 36,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 154,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 3,
+      "Q_variant_count": 9,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 154,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 18,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 154,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 18,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 154,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 18,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 165,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 1,
+      "Q_variant_count": 18,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 165,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 1,
+      "Q_variant_count": 18,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 165,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 1,
+      "Q_variant_count": 18,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 165,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 1,
+      "Q_variant_count": 18,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 165,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 1,
+      "Q_variant_count": 18,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 165,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 1,
+      "Q_variant_count": 18,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 165,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 1,
+      "Q_variant_count": 18,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 165,
+      "dimension": 2,
+      "order_chamber_id": 7,
+      "P_variant_count": 6,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 165,
+      "dimension": 2,
+      "order_chamber_id": 8,
+      "P_variant_count": 6,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 177,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 3,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 177,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 3,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 177,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 3,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 177,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 3,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 177,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 3,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 179,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 3,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 179,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 3,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 179,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 12,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 179,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 12,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 179,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 3,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 179,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 12,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 180,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 12,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 180,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 12,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 180,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 12,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 180,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 12,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 180,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 12,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 180,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 12,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 190,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 8,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 190,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 8,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 190,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 8,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 190,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 190,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 190,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 190,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 190,
+      "dimension": 2,
+      "order_chamber_id": 7,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 196,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 12,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 196,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 12,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 196,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 12,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 196,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 12,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 196,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 3,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 205,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 8,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 205,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 8,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 205,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 205,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 205,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 205,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 222,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 8,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 222,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 8,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 222,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 8,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 222,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 8,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 222,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 45,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 45,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 2,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 45,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 2,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 45,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 2,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 45,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 45,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 2,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 45,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 2,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 61,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 6,
+      "Q_variant_count": 16,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 61,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 12,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 61,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 2,
+      "Q_variant_count": 48,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 61,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 2,
+      "Q_variant_count": 48,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 61,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 48,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 61,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 2,
+      "Q_variant_count": 48,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 61,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 2,
+      "Q_variant_count": 48,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 82,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 82,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 82,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 82,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 82,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 82,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 82,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 82,
+      "dimension": 2,
+      "order_chamber_id": 7,
+      "P_variant_count": 2,
+      "Q_variant_count": 24,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 102,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 102,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 2,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 102,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 2,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 102,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 4,
+      "Q_variant_count": 18,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 102,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 102,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 2,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 102,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 2,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 102,
+      "dimension": 2,
+      "order_chamber_id": 7,
+      "P_variant_count": 2,
+      "Q_variant_count": 36,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 132,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 60,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 132,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 2,
+      "Q_variant_count": 60,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 152,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 1,
+      "Q_variant_count": 27,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 152,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 1,
+      "Q_variant_count": 27,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 152,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 1,
+      "Q_variant_count": 27,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 152,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 3,
+      "Q_variant_count": 9,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 152,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 1,
+      "Q_variant_count": 27,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 152,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 1,
+      "Q_variant_count": 27,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 152,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 1,
+      "Q_variant_count": 27,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 152,
+      "dimension": 2,
+      "order_chamber_id": 7,
+      "P_variant_count": 1,
+      "Q_variant_count": 27,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 165,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 48,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 165,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 2,
+      "Q_variant_count": 48,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 165,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 12,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 165,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 2,
+      "Q_variant_count": 48,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 165,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 48,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 165,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 2,
+      "Q_variant_count": 48,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 194,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 194,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 194,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 194,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 194,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 194,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 4,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 194,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 4,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 205,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 205,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 4,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 205,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 205,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 205,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 205,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 205,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 216,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 216,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 216,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 8,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 216,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 8,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 216,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 216,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 234,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 3,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 234,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 12,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 234,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 3,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 234,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 3,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 234,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 3,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 234,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 3,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 234,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 3,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 250,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 250,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 8,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 250,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 250,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 250,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 250,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 250,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 2,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 142,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 142,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 4,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 142,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 4,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 142,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 4,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 142,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 4,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 142,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 4,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 239,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 239,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 239,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 239,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 239,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 239,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 239,
+      "dimension": 2,
+      "order_chamber_id": 6,
+      "P_variant_count": 2,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 239,
+      "dimension": 2,
+      "order_chamber_id": 7,
+      "P_variant_count": 8,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 239,
+      "dimension": 2,
+      "order_chamber_id": 8,
+      "P_variant_count": 8,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 239,
+      "dimension": 2,
+      "order_chamber_id": 9,
+      "P_variant_count": 8,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 239,
+      "dimension": 2,
+      "order_chamber_id": 10,
+      "P_variant_count": 8,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 239,
+      "dimension": 2,
+      "order_chamber_id": 11,
+      "P_variant_count": 8,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "4/5",
+        "1/5"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 34,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 48,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 34,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 48,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 34,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 8,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 34,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 8,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 55,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 36,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 55,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 12,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 72,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 6,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 72,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 18,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 72,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 18,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 72,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 27,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 72,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 6,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 72,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 27,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 108,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 36,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 108,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 8,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 108,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 12,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 108,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 12,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 108,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 36,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 123,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 10,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 123,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 15,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 123,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 40,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 123,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 60,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 140,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 4,
+      "Q_variant_count": 9,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 140,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 4,
+      "Q_variant_count": 9,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 140,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 8,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 140,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 8,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 140,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 4,
+      "Q_variant_count": 9,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 140,
+      "dimension": 2,
+      "order_chamber_id": 5,
+      "P_variant_count": 24,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 170,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 18,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 170,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 9,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 170,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 9,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 170,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 18,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 170,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 18,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 208,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 12,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 208,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 12,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 208,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 3,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 208,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 3,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 212,
+      "dimension": 2,
+      "order_chamber_id": 0,
+      "P_variant_count": 12,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 212,
+      "dimension": 2,
+      "order_chamber_id": 1,
+      "P_variant_count": 12,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 212,
+      "dimension": 2,
+      "order_chamber_id": 2,
+      "P_variant_count": 3,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 212,
+      "dimension": 2,
+      "order_chamber_id": 3,
+      "P_variant_count": 3,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 212,
+      "dimension": 2,
+      "order_chamber_id": 4,
+      "P_variant_count": 3,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 0,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 1,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 2,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 3,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 4,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 5,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 6,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 7,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 8,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 9,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 10,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 11,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 12,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 13,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 14,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 15,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 16,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 17,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 18,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 19,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 20,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 21,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 22,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 23,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 24,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 25,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 26,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 27,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 28,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 29,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 30,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 31,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 32,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 33,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 34,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 35,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 36,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 37,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 38,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 39,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 40,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 41,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 42,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 43,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 11,
+      "dimension": 3,
+      "order_chamber_id": 44,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 0,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 1,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 2,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 3,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 4,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 5,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 6,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 7,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 8,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 9,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 10,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 11,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 12,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 13,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 14,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 15,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 16,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 17,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 18,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 19,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 20,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 21,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 22,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 23,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 24,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 25,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 26,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 27,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 28,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 29,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 30,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 31,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 32,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 33,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 34,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 35,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 36,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 37,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 38,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 39,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 40,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 41,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 42,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 43,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 44,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 45,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 46,
+      "P_variant_count": 4,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 47,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 48,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit0",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 49,
+      "P_variant_count": 1,
+      "Q_variant_count": 8,
+      "witness_species_masses": [
+        "2/3",
+        "1/3"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 0,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 1,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 2,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 3,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 4,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 5,
+      "P_variant_count": 2,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 6,
+      "P_variant_count": 2,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 7,
+      "P_variant_count": 4,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 8,
+      "P_variant_count": 4,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 9,
+      "P_variant_count": 4,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 10,
+      "P_variant_count": 2,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 11,
+      "P_variant_count": 4,
+      "Q_variant_count": 3,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 12,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 13,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 14,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 15,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 16,
+      "P_variant_count": 2,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 17,
+      "P_variant_count": 2,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 18,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 19,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 20,
+      "P_variant_count": 2,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 21,
+      "P_variant_count": 2,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 22,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 23,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 24,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 25,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 26,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 27,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 28,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 29,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 30,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 31,
+      "P_variant_count": 2,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 32,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 33,
+      "P_variant_count": 2,
+      "Q_variant_count": 6,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 34,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 35,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit2",
+      "flat_id": 23,
+      "dimension": 3,
+      "order_chamber_id": 36,
+      "P_variant_count": 1,
+      "Q_variant_count": 12,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 0,
+      "P_variant_count": 6,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 1,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 2,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 3,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 4,
+      "P_variant_count": 6,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 5,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 6,
+      "P_variant_count": 6,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 7,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 8,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 9,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 10,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 11,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 12,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 13,
+      "P_variant_count": 6,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 14,
+      "P_variant_count": 6,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 15,
+      "P_variant_count": 6,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 16,
+      "P_variant_count": 6,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 17,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 18,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 19,
+      "P_variant_count": 3,
+      "Q_variant_count": 4,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 20,
+      "P_variant_count": 6,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 21,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 22,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 23,
+      "P_variant_count": 6,
+      "Q_variant_count": 2,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 24,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 12,
+      "dimension": 3,
+      "order_chamber_id": 25,
+      "P_variant_count": 12,
+      "Q_variant_count": 1,
+      "witness_species_masses": [
+        "1/2",
+        "1/2"
+      ],
+      "status": "mixed"
+    }
+  ]
+}

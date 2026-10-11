@@ -1,0 +1,596 @@
+{
+  "scope": "exact native identities plus explicit full142/high239 metric domain; ray sign fixes whole positive1Dcone; no cut sign extrapolated on2Dflat",
+  "source_inventory": 18,
+  "records": [
+    {
+      "pattern": "orbit1",
+      "flat_id": 759,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 335,
+      "dimension": 1,
+      "status": "whole-periodic-escape",
+      "maps": [
+        {
+          "carrier_flat_id": 239,
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "1/5*w + 2/5"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "necessary_sufficient_domain_row": [
+            "-2/15*w + 2/5"
+          ],
+          "domain_relation": ">=0",
+          "positive_ray_kernel_point": [
+            "36565/208*w + 264445/832"
+          ],
+          "positive_ray_cut_value": "34867/1248*w + 23637/416",
+          "positive_ray_native_sides": [
+            "36565/208*w + 264445/832",
+            "111393/832*w + 96767/416",
+            "113091/416*w + 754937/1664",
+            "13069/128*w + 1439/8",
+            "181127/832*w + 83839/208",
+            "36565/208*w + 264445/832",
+            "144041/416*w + 473647/832",
+            "111393/832*w + 96767/416",
+            "13069/64*w + 1439/4",
+            "111393/416*w + 96767/208"
+          ],
+          "scope": "whole-positive-ray"
+        }
+      ]
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 378,
+      "dimension": 1,
+      "status": "whole-periodic-escape",
+      "maps": [
+        {
+          "carrier_flat_id": 142,
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "39/11*w - 52/11"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "scope": "full-positive-native-cone"
+        }
+      ]
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 481,
+      "dimension": 1,
+      "status": "whole-periodic-escape",
+      "maps": [
+        {
+          "carrier_flat_id": 142,
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "21/13*w - 20/13"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "scope": "full-positive-native-cone"
+        }
+      ]
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 599,
+      "dimension": 1,
+      "status": "whole-periodic-escape",
+      "maps": [
+        {
+          "carrier_flat_id": 239,
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "15/107*w + 56/107"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "necessary_sufficient_domain_row": [
+            "-62/321*w + 56/107"
+          ],
+          "domain_relation": ">=0",
+          "positive_ray_kernel_point": [
+            "4631/18*w + 9197/18"
+          ],
+          "positive_ray_cut_value": "971/27*w + 355/3",
+          "positive_ray_native_sides": [
+            "4631/18*w + 9197/18",
+            "3713/18*w + 6761/18",
+            "3913/9*w + 6055/9",
+            "1424/9*w + 2542/9",
+            "1885/6*w + 13151/18",
+            "4631/18*w + 9197/18",
+            "11021/18*w + 15023/18",
+            "3713/18*w + 6761/18",
+            "2848/9*w + 5084/9",
+            "3713/9*w + 6761/9"
+          ],
+          "scope": "whole-positive-ray"
+        }
+      ]
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 730,
+      "dimension": 1,
+      "status": "whole-periodic-escape",
+      "maps": [
+        {
+          "carrier_flat_id": 142,
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "27/23*w - 28/23"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "scope": "full-positive-native-cone"
+        }
+      ]
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 784,
+      "dimension": 1,
+      "status": "whole-periodic-escape",
+      "maps": [
+        {
+          "carrier_flat_id": 239,
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "13/37*w + 10/37"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "necessary_sufficient_domain_row": [
+            "2/111*w + 10/37"
+          ],
+          "domain_relation": ">=0",
+          "positive_ray_kernel_point": [
+            "3703040579/9472*w + 12827756687/18944"
+          ],
+          "positive_ray_cut_value": "3349161461/28416*w + 1933644989/9472",
+          "positive_ray_native_sides": [
+            "3703040579/9472*w + 12827756687/18944",
+            "6508693203/18944*w + 22018303/37",
+            "351499713/592*w + 38964050779/37888",
+            "252425031/1024*w + 109303501/256",
+            "13207016125/18944*w + 11437620535/9472",
+            "3703040579/9472*w + 12827756687/18944",
+            "4751987773/4736*w + 32922725453/18944",
+            "6508693203/18944*w + 22018303/37",
+            "252425031/512*w + 109303501/128",
+            "6508693203/9472*w + 44036606/37"
+          ],
+          "scope": "whole-positive-ray"
+        }
+      ]
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 843,
+      "dimension": 1,
+      "status": "whole-periodic-escape",
+      "maps": [
+        {
+          "carrier_flat_id": 142,
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "w - 4/5"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "scope": "full-positive-native-cone"
+        }
+      ]
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 845,
+      "dimension": 1,
+      "status": "whole-periodic-escape",
+      "maps": [
+        {
+          "carrier_flat_id": 142,
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "5/9*w"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "scope": "full-positive-native-cone"
+        },
+        {
+          "carrier_flat_id": 239,
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "5/9*w"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "necessary_sufficient_domain_row": [
+            "2/9*w"
+          ],
+          "domain_relation": ">=0",
+          "positive_ray_kernel_point": [
+            "12018389985/8*w + 20816462091/8"
+          ],
+          "positive_ray_cut_value": "6938820697/12*w + 4006129995/4",
+          "positive_ray_native_sides": [
+            "12018389985/8*w + 20816462091/8",
+            "34694103485/24*w + 20030649975/8",
+            "6938820697/3*w + 4006129995",
+            "4006129995/4*w + 6938820697/4",
+            "76327027667/24*w + 44067429945/8",
+            "12018389985/8*w + 20816462091/8",
+            "36055169955/8*w + 62449386273/8",
+            "34694103485/24*w + 20030649975/8",
+            "4006129995/2*w + 6938820697/2",
+            "34694103485/12*w + 20030649975/4"
+          ],
+          "scope": "whole-positive-ray"
+        }
+      ]
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 846,
+      "dimension": 1,
+      "status": "whole-periodic-escape",
+      "maps": [
+        {
+          "carrier_flat_id": 142,
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "1/3*w"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "scope": "full-positive-native-cone"
+        }
+      ]
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 847,
+      "dimension": 1,
+      "status": "whole-periodic-escape",
+      "maps": [
+        {
+          "carrier_flat_id": 142,
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "13/11*w - 10/11"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "scope": "full-positive-native-cone"
+        }
+      ]
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 906,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": [
+        {
+          "carrier_flat_id": 239,
+          "parameter_map_rows": [
+            [
+              "1"
+            ],
+            [
+              "21/97*w + 16/97"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "necessary_sufficient_domain_row": [
+            "-34/291*w + 16/97"
+          ],
+          "domain_relation": ">=0",
+          "positive_ray_kernel_point": [
+            "12875/1998*w + 30751/2997"
+          ],
+          "positive_ray_cut_value": "-1222/8991*w - 1697/2997",
+          "positive_ray_native_sides": [
+            "12875/1998*w + 30751/2997",
+            "3281/999*w + 35231/5994",
+            "2836/333*w + 47857/2997",
+            "9232/2997*w + 15070/2997",
+            "233/81*w + 677/162",
+            "12875/1998*w + 30751/2997",
+            "9481/1998*w + 27085/2997",
+            "3281/999*w + 35231/5994",
+            "18464/2997*w + 30140/2997",
+            "6562/999*w + 35231/2997"
+          ],
+          "scope": "no-positive-ray-point-in-carrier-domain"
+        }
+      ]
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 459,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit7",
+      "flat_id": 575,
+      "dimension": 1,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 142,
+      "dimension": 2,
+      "status": "whole-periodic-escape",
+      "maps": [
+        {
+          "carrier_flat_id": 142,
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "scope": "full-positive-native-cone"
+        }
+      ]
+    },
+    {
+      "pattern": "orbit6",
+      "flat_id": 239,
+      "dimension": 2,
+      "status": "partial-periodic-escape",
+      "maps": [
+        {
+          "carrier_flat_id": 239,
+          "parameter_map_rows": [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ],
+          "identical_native_rows": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "necessary_sufficient_domain_row": [
+            "-1/3*w",
+            "1"
+          ],
+          "domain_relation": ">=0",
+          "scope": "partial-metric-cone"
+        }
+      ]
+    },
+    {
+      "pattern": "separated",
+      "flat_id": 46,
+      "dimension": 2,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    },
+    {
+      "pattern": "separated",
+      "flat_id": 49,
+      "dimension": 2,
+      "status": "unmapped-necessary-stratum",
+      "maps": []
+    }
+  ],
+  "counts": {
+    "unmapped-necessary-stratum": 6,
+    "whole-periodic-escape": 11,
+    "partial-periodic-escape": 1
+  },
+  "remaining_whole_strata": 7
+}

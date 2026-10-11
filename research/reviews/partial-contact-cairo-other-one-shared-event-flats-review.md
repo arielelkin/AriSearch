@@ -1,0 +1,23 @@
+# Fresh root review: complete other two single-cross Cairo orbit reductions
+
+**Verdict: VALID as a complete necessary reduction to the specified17 relative strata.**
+
+Root reviewed [the actual theorem](../lemmas/partial-contact-cairo-other-one-shared-event-flat-reduction.md), exact producer/certificate and the native120 contact proof. The [independent checker](verify_cairo_other_one_shared_flats_independent.py) imports no producer or solver. It explicitly solves the native closure equations in five physical variables, independently of the author's eight-coordinate kernel enumeration.
+
+For mixed Pa=Qb it uses P=(s,b,c,s+(b-c)/sqrt3) and Q=(A,s,C,A+(s-C)/sqrt3). For isolated Pb=Qc it uses P=(a,s,c,a+(s-c)/sqrt3) and Q=(A,B,s,A+(B-s)/sqrt3). Fifth sides are derived directly from native closure. Seven self bank totals and the one cross total generate exactly22 potentially relevant event/event, fifth/event and fifth/fifth hyperplanes. All other self-total changes force a removed arm equality. The native bank/perpendicular involution and all equalities are derived from these physical forms.
+
+For each retained flat the checker verifies exact native RREF, rank, inclusion of both closure rows and the specified sole shared-arm row. It compares the entire reduced row space with its active independently generated hyperplanes. Its own complete five-coordinate BFS reproduces all1869 mixed flats and1373 isolated flats. It expands every positive privacy-preserving contact-negative ancestor. Only forced undeclared equality or a certified empty positive cone prunes descendants; at dimension1 an additional proper homogeneous equation leaves only zero. Therefore every positive sole-cross metric lies in a retained relative stratum, including nongeneric metrics of the original root.
+
+The checker independently verifies1468 mixed and1064 isolated forced-extra-arm strata. All47 mixed and28 isolated empty cones have exact nonnegative sum1 Gordan weights annihilating the ten length forms. Every other flat has directly verified positive native arms/fifth sides, both closures, the cross equality and all native flat constraints. It also verifies retained raw arm/fifth kernel forms and their positive kernel witnesses, connecting these data directly to the seam model's input. A positive fixture establishes a nonempty positive cone; finite proper-hyperplane avoidance justifies relative generic strata when a fixture has incidental equalities.
+
+All native120 inventories are reconstructed by ORDERED triples and eight independent reflection choices, unlike the author's unordered enumeration. Actual-slot total intersections are kept without transitive closure, e-host banks are correctly anchored, and whole fifth/fifth rays require equal lengths. Every retained compatibility pair, star and missing-corner set agrees. Missing native corners exclude340 mixed and278 isolated strata. Each species has four distinct arms and is individually a nonmonotile by the independently reviewed private-arm theorem, so omission cannot evade any missing-corner exclusion.
+
+Exactly14 mixed survivors remain:13 have dimension2 including scale and one,121, has dimension3. Exactly3 isolated survivors remain, all dimension2. No Pa=Qd forced-core lemma or new overlap claim is imported. This proves the claimed complete seventeen-stratum necessary reduction. The retained normalized ratio metadata is useful restart data; the independent order-free seam obstruction works on each full raw kernel and requires no order chamber or one-parameter assumption, including mixed121.
+
+The other17 seam models have separately passed [the fresh non-root model audit](partial-contact-cairo-optional-seam-obstruction-review.md), including all exact dual inequalities and the unrestricted O(R)boundary versus Omega(R^2)interior contradiction. Combining these independent valid dependencies excludes both complete endpoint-type orbits. This review does not claim a periodicity theorem for other shared-arm patterns or arbitrary pentagons.
+
+Initial checker execution had a matrix-constructor row-count implementation error, failed, and was corrected before accepting any result. The completed replay additionally verifies native raw kernel forms and positive witnesses:
+
+    conda run --no-capture-output -n arisearch python research/reviews/verify_cairo_other_one_shared_flats_independent.py
+
+PASS all3242 flats, all22-form arrangements, full safe BFS, all75 Gordan duals and ordered native inventories. No substantive mathematical defect was found. No numerical feasibility assertion is trusted and no unreviewed geometric obstruction is used.

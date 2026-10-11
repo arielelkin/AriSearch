@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="550" viewBox="0 0 1000 550">
+<rect width="1000" height="550" fill="white"/>
+<text x="500" y="27" text-anchor="middle" font-family="sans-serif" font-size="19">Exact finite unit rhomb source geometry</text>
+<text x="500" y="51" text-anchor="middle" font-family="sans-serif" font-size="13">Penrose arrows, infinite source membership and global repartition remain unproved</text>
+<polygon points="156.7231,420.5209 235.0424,477.4231 313.3616,420.5209 235.0424,363.6186" fill="#f3f3f3" stroke="#9b9b9b" stroke-width="1" stroke-dasharray="5,4"/>
+<polygon points="313.3616,420.5209 391.6808,477.4231 470.0000,420.5209 391.6808,363.6186" fill="#f3f3f3" stroke="#9b9b9b" stroke-width="1" stroke-dasharray="5,4"/>
+<polygon points="313.3616,306.7164 283.4463,214.6466 186.6384,214.6466 216.5537,306.7164" fill="#f3f3f3" stroke="#9b9b9b" stroke-width="1" stroke-dasharray="5,4"/>
+<polygon points="186.6384,214.6466 216.5537,122.5769 138.2345,179.4791 108.3192,271.5489" fill="#f3f3f3" stroke="#9b9b9b" stroke-width="1" stroke-dasharray="5,4"/>
+<polygon points="59.9153,420.5209 138.2345,363.6186 108.3192,271.5489 30.0000,328.4511" fill="#acd5ed" stroke="#46505c" stroke-width="1.3"/>
+<path d="M 59.9153 420.5209 L 108.3192 271.5489" stroke="#7c8991" stroke-width="0.8" fill="none"/>
+<text x="84.1172" y="346.0349" text-anchor="middle" font-family="sans-serif" font-size="12">1</text>
+<polygon points="59.9153,420.5209 156.7231,420.5209 235.0424,363.6186 138.2345,363.6186" fill="#ffd78c" stroke="#46505c" stroke-width="1.3"/>
+<path d="M 156.7231 420.5209 L 138.2345 363.6186" stroke="#7c8991" stroke-width="0.8" fill="none"/>
+<text x="147.4788" y="392.0698" text-anchor="middle" font-family="sans-serif" font-size="12">2</text>
+<polygon points="30.0000,328.4511 108.3192,271.5489 138.2345,179.4791 59.9153,236.3814" fill="#ffd78c" stroke="#46505c" stroke-width="1.3"/>
+<path d="M 108.3192 271.5489 L 59.9153 236.3814" stroke="#7c8991" stroke-width="0.8" fill="none"/>
+<text x="84.1172" y="253.9651" text-anchor="middle" font-family="sans-serif" font-size="12">3</text>
+<polygon points="138.2345,363.6186 216.5537,306.7164 186.6384,214.6466 108.3192,271.5489" fill="#acd5ed" stroke="#46505c" stroke-width="1.3"/>
+<path d="M 138.2345 363.6186 L 186.6384 214.6466" stroke="#7c8991" stroke-width="0.8" fill="none"/>
+<text x="162.4365" y="289.1326" text-anchor="middle" font-family="sans-serif" font-size="12">4</text>
+<polygon points="138.2345,363.6186 235.0424,363.6186 313.3616,306.7164 216.5537,306.7164" fill="#ffd78c" stroke="#46505c" stroke-width="1.3"/>
+<path d="M 235.0424 363.6186 L 216.5537 306.7164" stroke="#7c8991" stroke-width="0.8" fill="none"/>
+<text x="225.7980" y="335.1675" text-anchor="middle" font-family="sans-serif" font-size="12">5</text>
+<polygon points="235.0424,363.6186 313.3616,420.5209 391.6808,363.6186 313.3616,306.7164" fill="#acd5ed" stroke="#46505c" stroke-width="1.3"/>
+<path d="M 235.0424 363.6186 L 391.6808 363.6186" stroke="#7c8991" stroke-width="0.8" fill="none"/>
+<text x="313.3616" y="363.6186" text-anchor="middle" font-family="sans-serif" font-size="12">6</text>
+<polygon points="156.7231,420.5209 313.3616,420.5209 235.0424,363.6186" fill="#acd5ed" stroke="#46505c" stroke-width="1.3"/>
+<polygon points="313.3616,420.5209 470.0000,420.5209 391.6808,363.6186" fill="#acd5ed" stroke="#46505c" stroke-width="1.3"/>
+<polygon points="313.3616,306.7164 186.6384,214.6466 216.5537,306.7164" fill="#acd5ed" stroke="#46505c" stroke-width="1.3"/>
+<polygon points="186.6384,214.6466 138.2345,179.4791 108.3192,271.5489" fill="#ffd78c" stroke="#46505c" stroke-width="1.3"/>
+<polygon points="59.9153,420.5209 470.0000,420.5209 138.2345,179.4791 59.9153,236.3814 30.0000,328.4511" fill="none" stroke="#151922" stroke-width="2.5"/>
+<text x="250" y="91" text-anchor="middle" font-family="sans-serif" font-size="16">U: 6 whole rhombs + 4 boundary halves</text>
+<polygon points="861.7616,361.7601 883.4077,295.1401 826.7374,253.9667 805.0913,320.5867" fill="#f3f3f3" stroke="#9b9b9b" stroke-width="1" stroke-dasharray="5,4"/>
+<polygon points="826.7374,253.9667 848.3835,187.3468 791.7132,146.1734 770.0671,212.7933" fill="#f3f3f3" stroke="#9b9b9b" stroke-width="1" stroke-dasharray="5,4"/>
+<polygon points="791.7132,146.1734 848.3835,105.0000 778.3352,105.0000 721.6648,146.1734" fill="#f3f3f3" stroke="#9b9b9b" stroke-width="1" stroke-dasharray="5,4"/>
+<polygon points="678.3726,279.4133 608.3242,279.4133 664.9945,320.5867 735.0429,320.5867" fill="#f3f3f3" stroke="#9b9b9b" stroke-width="1" stroke-dasharray="5,4"/>
+<polygon points="664.9945,320.5867 594.9462,320.5867 651.6165,361.7601 721.6648,361.7601" fill="#f3f3f3" stroke="#9b9b9b" stroke-width="1" stroke-dasharray="5,4"/>
+<polygon points="651.6165,361.7601 673.2626,428.3800 743.3110,428.3800 721.6648,361.7601" fill="#f3f3f3" stroke="#9b9b9b" stroke-width="1" stroke-dasharray="5,4"/>
+<polygon points="743.3110,428.3800 764.9571,495.0000 835.0055,495.0000 813.3593,428.3800" fill="#f3f3f3" stroke="#9b9b9b" stroke-width="1" stroke-dasharray="5,4"/>
+<polygon points="664.9945,320.5867 721.6648,361.7601 791.7132,361.7601 735.0429,320.5867" fill="#ffd78c" stroke="#46505c" stroke-width="1.3"/>
+<path d="M 721.6648 361.7601 L 735.0429 320.5867" stroke="#7c8991" stroke-width="0.8" fill="none"/>
+<text x="728.3539" y="341.1734" text-anchor="middle" font-family="sans-serif" font-size="12">1</text>
+<polygon points="700.0187,212.7933 770.0671,212.7933 791.7132,146.1734 721.6648,146.1734" fill="#acd5ed" stroke="#46505c" stroke-width="1.3"/>
+<path d="M 700.0187 212.7933 L 791.7132 146.1734" stroke="#7c8991" stroke-width="0.8" fill="none"/>
+<text x="745.8660" y="179.4834" text-anchor="middle" font-family="sans-serif" font-size="12">2</text>
+<polygon points="743.3110,428.3800 813.3593,428.3800 791.7132,361.7601 721.6648,361.7601" fill="#acd5ed" stroke="#46505c" stroke-width="1.3"/>
+<path d="M 813.3593 428.3800 L 721.6648 361.7601" stroke="#7c8991" stroke-width="0.8" fill="none"/>
+<text x="767.5121" y="395.0701" text-anchor="middle" font-family="sans-serif" font-size="12">3</text>
+<polygon points="735.0429,320.5867 791.7132,361.7601 861.7616,361.7601 805.0913,320.5867" fill="#ffd78c" stroke="#46505c" stroke-width="1.3"/>
+<path d="M 791.7132 361.7601 L 805.0913 320.5867" stroke="#7c8991" stroke-width="0.8" fill="none"/>
+<text x="798.4022" y="341.1734" text-anchor="middle" font-family="sans-serif" font-size="12">4</text>
+<polygon points="835.0055,495.0000 905.0538,495.0000 883.4077,428.3800 813.3593,428.3800" fill="#acd5ed" stroke="#46505c" stroke-width="1.3"/>
+<path d="M 905.0538 495.0000 L 813.3593 428.3800" stroke="#7c8991" stroke-width="0.8" fill="none"/>
+<text x="859.2066" y="461.6900" text-anchor="middle" font-family="sans-serif" font-size="12">5</text>
+<polygon points="813.3593,428.3800 883.4077,428.3800 861.7616,361.7601 791.7132,361.7601" fill="#acd5ed" stroke="#46505c" stroke-width="1.3"/>
+<path d="M 883.4077 428.3800 L 791.7132 361.7601" stroke="#7c8991" stroke-width="0.8" fill="none"/>
+<text x="837.5605" y="395.0701" text-anchor="middle" font-family="sans-serif" font-size="12">6</text>
+<polygon points="678.3726,279.4133 735.0429,320.5867 756.6890,253.9667 700.0187,212.7933" fill="#acd5ed" stroke="#46505c" stroke-width="1.3"/>
+<path d="M 735.0429 320.5867 L 700.0187 212.7933" stroke="#7c8991" stroke-width="0.8" fill="none"/>
+<text x="717.5308" y="266.6900" text-anchor="middle" font-family="sans-serif" font-size="12">7</text>
+<polygon points="700.0187,212.7933 756.6890,253.9667 826.7374,253.9667 770.0671,212.7933" fill="#ffd78c" stroke="#46505c" stroke-width="1.3"/>
+<path d="M 756.6890 253.9667 L 770.0671 212.7933" stroke="#7c8991" stroke-width="0.8" fill="none"/>
+<text x="763.3780" y="233.3800" text-anchor="middle" font-family="sans-serif" font-size="12">8</text>
+<polygon points="735.0429,320.5867 805.0913,320.5867 826.7374,253.9667 756.6890,253.9667" fill="#acd5ed" stroke="#46505c" stroke-width="1.3"/>
+<path d="M 735.0429 320.5867 L 826.7374 253.9667" stroke="#7c8991" stroke-width="0.8" fill="none"/>
+<text x="780.8901" y="287.2767" text-anchor="middle" font-family="sans-serif" font-size="12">9</text>
+<polygon points="861.7616,361.7601 826.7374,253.9667 805.0913,320.5867" fill="#acd5ed" stroke="#46505c" stroke-width="1.3"/>
+<polygon points="826.7374,253.9667 791.7132,146.1734 770.0671,212.7933" fill="#acd5ed" stroke="#46505c" stroke-width="1.3"/>
+<polygon points="791.7132,146.1734 778.3352,105.0000 721.6648,146.1734" fill="#ffd78c" stroke="#46505c" stroke-width="1.3"/>
+<polygon points="678.3726,279.4133 664.9945,320.5867 735.0429,320.5867" fill="#ffd78c" stroke="#46505c" stroke-width="1.3"/>
+<polygon points="664.9945,320.5867 651.6165,361.7601 721.6648,361.7601" fill="#ffd78c" stroke="#46505c" stroke-width="1.3"/>
+<polygon points="651.6165,361.7601 743.3110,428.3800 721.6648,361.7601" fill="#acd5ed" stroke="#46505c" stroke-width="1.3"/>
+<polygon points="743.3110,428.3800 835.0055,495.0000 813.3593,428.3800" fill="#acd5ed" stroke="#46505c" stroke-width="1.3"/>
+<polygon points="835.0055,495.0000 905.0538,495.0000 778.3352,105.0000 721.6648,146.1734 651.6165,361.7601" fill="none" stroke="#151922" stroke-width="2.5"/>
+<text x="750" y="91" text-anchor="middle" font-family="sans-serif" font-size="16">V: 9 whole rhombs + 7 boundary halves</text>
+<text x="500" y="531" text-anchor="middle" font-family="sans-serif" font-size="12">Grey dashed rhombs complete boundary halves outside each pentagon; exact coordinates are retained in the certificate.</text>
+</svg>

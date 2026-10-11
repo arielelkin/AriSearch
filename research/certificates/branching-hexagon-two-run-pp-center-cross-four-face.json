@@ -1,0 +1,8 @@
+{
+  "domain": "fixedA+,A-,B+,B-;allpAB;BmiddleqABoneperA;otherAqselfpair;BouterqcrossBB;genericcrossstarrows",
+  "unfiltered_p_permutation_count": 720,
+  "endpoint_filtered_p_matchings": 72,
+  "attempts": 648,
+  "status": "exhausted_only_stated_finite_domain",
+  "witness": null
+}

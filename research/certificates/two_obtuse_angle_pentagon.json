@@ -1,0 +1,161 @@
+{
+  "domain": {
+    "angle_arithmetic": "rational multiples of pi",
+    "face_side_count": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "p": [
+      1,
+      2
+    ],
+    "pentagon_alpha_count": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "rows": [
+    {
+      "admissible": false,
+      "k": 0,
+      "p": 1,
+      "x": "4/5",
+      "y": "3/5"
+    },
+    {
+      "admissible": false,
+      "k": 1,
+      "p": 1,
+      "x": "1",
+      "y": "1/2"
+    },
+    {
+      "admissible": false,
+      "k": 2,
+      "p": 1,
+      "x": "0",
+      "y": "1"
+    },
+    {
+      "admissible": false,
+      "k": 3,
+      "p": 1,
+      "x": "1/2",
+      "y": "3/4"
+    },
+    {
+      "admissible": true,
+      "faces": [
+        {
+          "alpha_count": 4,
+          "n": 5
+        },
+        {
+          "alpha_count": 2,
+          "n": 6
+        },
+        {
+          "alpha_count": 0,
+          "n": 7
+        }
+      ],
+      "k": 4,
+      "p": 1,
+      "x": "4/7",
+      "y": "5/7"
+    },
+    {
+      "admissible": true,
+      "faces": [
+        {
+          "alpha_count": 5,
+          "n": 5
+        },
+        {
+          "alpha_count": 2,
+          "n": 6
+        }
+      ],
+      "k": 5,
+      "p": 1,
+      "x": "3/5",
+      "y": "7/10"
+    },
+    {
+      "admissible": false,
+      "k": 0,
+      "p": 2,
+      "x": "7/10",
+      "y": "3/5"
+    },
+    {
+      "admissible": false,
+      "k": 1,
+      "p": 2,
+      "x": "5/7",
+      "y": "4/7"
+    },
+    {
+      "admissible": false,
+      "k": 2,
+      "p": 2,
+      "x": "3/4",
+      "y": "1/2"
+    },
+    {
+      "admissible": false,
+      "k": 3,
+      "p": 2,
+      "x": "1",
+      "y": "0"
+    },
+    {
+      "admissible": false,
+      "k": 4,
+      "p": 2,
+      "x": "1/2",
+      "y": "1"
+    },
+    {
+      "admissible": true,
+      "faces": [
+        {
+          "alpha_count": 5,
+          "n": 5
+        },
+        {
+          "alpha_count": 4,
+          "n": 6
+        },
+        {
+          "alpha_count": 3,
+          "n": 7
+        },
+        {
+          "alpha_count": 2,
+          "n": 8
+        },
+        {
+          "alpha_count": 1,
+          "n": 9
+        },
+        {
+          "alpha_count": 0,
+          "n": 10
+        }
+      ],
+      "k": 5,
+      "p": 2,
+      "x": "3/5",
+      "y": "4/5"
+    }
+  ]
+}

@@ -1,0 +1,1458 @@
+{
+  "scope": "necessary angle/length boundary-fan test only; no placement or marked-source legality",
+  "field": "Q(phi), phi^2=phi+1, phi>1",
+  "length_symbols_in_basis_1_phi": {
+    "u": [
+      1,
+      0
+    ],
+    "l": [
+      0,
+      1
+    ],
+    "s": [
+      -1,
+      1
+    ]
+  },
+  "native_corner_classes": [
+    [
+      "thin36",
+      "u",
+      "u",
+      1
+    ],
+    [
+      "thin72",
+      "u",
+      "s",
+      2
+    ],
+    [
+      "fat108",
+      "u",
+      "u",
+      3
+    ],
+    [
+      "fat36",
+      "u",
+      "l",
+      1
+    ]
+  ],
+  "fan_counts": [
+    {
+      "from": "u",
+      "to": "u",
+      "angle_pi_over_5": 1,
+      "walks": 1
+    },
+    {
+      "from": "u",
+      "to": "u",
+      "angle_pi_over_5": 2,
+      "walks": 2
+    },
+    {
+      "from": "u",
+      "to": "u",
+      "angle_pi_over_5": 3,
+      "walks": 4
+    },
+    {
+      "from": "u",
+      "to": "u",
+      "angle_pi_over_5": 4,
+      "walks": 8
+    },
+    {
+      "from": "u",
+      "to": "u",
+      "angle_pi_over_5": 5,
+      "walks": 15
+    },
+    {
+      "from": "u",
+      "to": "l",
+      "angle_pi_over_5": 1,
+      "walks": 1
+    },
+    {
+      "from": "u",
+      "to": "l",
+      "angle_pi_over_5": 2,
+      "walks": 1
+    },
+    {
+      "from": "u",
+      "to": "l",
+      "angle_pi_over_5": 3,
+      "walks": 2
+    },
+    {
+      "from": "u",
+      "to": "l",
+      "angle_pi_over_5": 4,
+      "walks": 4
+    },
+    {
+      "from": "u",
+      "to": "l",
+      "angle_pi_over_5": 5,
+      "walks": 8
+    },
+    {
+      "from": "u",
+      "to": "s",
+      "angle_pi_over_5": 1,
+      "walks": 0
+    },
+    {
+      "from": "u",
+      "to": "s",
+      "angle_pi_over_5": 2,
+      "walks": 1
+    },
+    {
+      "from": "u",
+      "to": "s",
+      "angle_pi_over_5": 3,
+      "walks": 1
+    },
+    {
+      "from": "u",
+      "to": "s",
+      "angle_pi_over_5": 4,
+      "walks": 2
+    },
+    {
+      "from": "u",
+      "to": "s",
+      "angle_pi_over_5": 5,
+      "walks": 4
+    },
+    {
+      "from": "l",
+      "to": "u",
+      "angle_pi_over_5": 1,
+      "walks": 1
+    },
+    {
+      "from": "l",
+      "to": "u",
+      "angle_pi_over_5": 2,
+      "walks": 1
+    },
+    {
+      "from": "l",
+      "to": "u",
+      "angle_pi_over_5": 3,
+      "walks": 2
+    },
+    {
+      "from": "l",
+      "to": "u",
+      "angle_pi_over_5": 4,
+      "walks": 4
+    },
+    {
+      "from": "l",
+      "to": "u",
+      "angle_pi_over_5": 5,
+      "walks": 8
+    },
+    {
+      "from": "l",
+      "to": "l",
+      "angle_pi_over_5": 1,
+      "walks": 0
+    },
+    {
+      "from": "l",
+      "to": "l",
+      "angle_pi_over_5": 2,
+      "walks": 1
+    },
+    {
+      "from": "l",
+      "to": "l",
+      "angle_pi_over_5": 3,
+      "walks": 1
+    },
+    {
+      "from": "l",
+      "to": "l",
+      "angle_pi_over_5": 4,
+      "walks": 2
+    },
+    {
+      "from": "l",
+      "to": "l",
+      "angle_pi_over_5": 5,
+      "walks": 4
+    },
+    {
+      "from": "l",
+      "to": "s",
+      "angle_pi_over_5": 1,
+      "walks": 0
+    },
+    {
+      "from": "l",
+      "to": "s",
+      "angle_pi_over_5": 2,
+      "walks": 0
+    },
+    {
+      "from": "l",
+      "to": "s",
+      "angle_pi_over_5": 3,
+      "walks": 1
+    },
+    {
+      "from": "l",
+      "to": "s",
+      "angle_pi_over_5": 4,
+      "walks": 1
+    },
+    {
+      "from": "l",
+      "to": "s",
+      "angle_pi_over_5": 5,
+      "walks": 2
+    },
+    {
+      "from": "s",
+      "to": "u",
+      "angle_pi_over_5": 1,
+      "walks": 0
+    },
+    {
+      "from": "s",
+      "to": "u",
+      "angle_pi_over_5": 2,
+      "walks": 1
+    },
+    {
+      "from": "s",
+      "to": "u",
+      "angle_pi_over_5": 3,
+      "walks": 1
+    },
+    {
+      "from": "s",
+      "to": "u",
+      "angle_pi_over_5": 4,
+      "walks": 2
+    },
+    {
+      "from": "s",
+      "to": "u",
+      "angle_pi_over_5": 5,
+      "walks": 4
+    },
+    {
+      "from": "s",
+      "to": "l",
+      "angle_pi_over_5": 1,
+      "walks": 0
+    },
+    {
+      "from": "s",
+      "to": "l",
+      "angle_pi_over_5": 2,
+      "walks": 0
+    },
+    {
+      "from": "s",
+      "to": "l",
+      "angle_pi_over_5": 3,
+      "walks": 1
+    },
+    {
+      "from": "s",
+      "to": "l",
+      "angle_pi_over_5": 4,
+      "walks": 1
+    },
+    {
+      "from": "s",
+      "to": "l",
+      "angle_pi_over_5": 5,
+      "walks": 2
+    },
+    {
+      "from": "s",
+      "to": "s",
+      "angle_pi_over_5": 1,
+      "walks": 0
+    },
+    {
+      "from": "s",
+      "to": "s",
+      "angle_pi_over_5": 2,
+      "walks": 0
+    },
+    {
+      "from": "s",
+      "to": "s",
+      "angle_pi_over_5": 3,
+      "walks": 0
+    },
+    {
+      "from": "s",
+      "to": "s",
+      "angle_pi_over_5": 4,
+      "walks": 1
+    },
+    {
+      "from": "s",
+      "to": "s",
+      "angle_pi_over_5": 5,
+      "walks": 1
+    }
+  ],
+  "flat_boundary_all_nine_endpoint_pairs_pass": true,
+  "fixtures": {
+    "U": {
+      "side_lengths_in_basis_1_phi": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "angle_after_side_pi_over_5": [
+        1,
+        3,
+        4,
+        4,
+        3
+      ],
+      "ordered_words_per_side": [
+        25,
+        25,
+        1,
+        1,
+        1
+      ],
+      "boundary_choices_checked": 625,
+      "boundary_choices_passing": 299,
+      "boundary_choices_passing_fans_and_disk_euler": 150,
+      "first_witness": {
+        "side_words": [
+          [
+            "u",
+            "l",
+            "l"
+          ],
+          [
+            "u",
+            "l",
+            "l"
+          ],
+          [
+            "u"
+          ],
+          [
+            "u"
+          ],
+          [
+            "u"
+          ]
+        ],
+        "boundary_fans_in_side_order": [
+          {
+            "from": "u",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "thin36",
+                "u",
+                "u",
+                1
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "u",
+            "angle_pi_over_5": 1,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "u",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "thin36",
+                "u",
+                "u",
+                1
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "u",
+            "angle_pi_over_5": 3,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ],
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "u",
+            "to": "u",
+            "angle_pi_over_5": 4,
+            "corners": [
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "thin36",
+                "u",
+                "u",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "u",
+            "to": "u",
+            "angle_pi_over_5": 4,
+            "corners": [
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "thin36",
+                "u",
+                "u",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "u",
+            "to": "u",
+            "angle_pi_over_5": 3,
+            "corners": [
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ]
+            ]
+          }
+        ],
+        "witness_native_corner_demand": {
+          "fat108": 7,
+          "thin36": 4,
+          "fat36": 10
+        },
+        "available_native_corners": {
+          "thin36": 7,
+          "thin72": 14,
+          "fat108": 9,
+          "fat36": 18
+        },
+        "witness_fits_native_corner_counts": true,
+        "total_boundary_edge_count": 9,
+        "disk_euler_parity_passes": false
+      },
+      "first_witness_also_passing_disk_euler": {
+        "side_words": [
+          [
+            "u",
+            "l",
+            "l"
+          ],
+          [
+            "u",
+            "u",
+            "l",
+            "s"
+          ],
+          [
+            "u"
+          ],
+          [
+            "u"
+          ],
+          [
+            "u"
+          ]
+        ],
+        "boundary_fans_in_side_order": [
+          {
+            "from": "u",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "thin36",
+                "u",
+                "u",
+                1
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "u",
+            "angle_pi_over_5": 1,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "u",
+            "to": "u",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ],
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "u",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "thin36",
+                "u",
+                "u",
+                1
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "s",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ],
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "thin72",
+                "u",
+                "s",
+                2
+              ]
+            ]
+          },
+          {
+            "from": "s",
+            "to": "u",
+            "angle_pi_over_5": 3,
+            "corners": [
+              [
+                "thin72",
+                "s",
+                "u",
+                2
+              ],
+              [
+                "thin36",
+                "u",
+                "u",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "u",
+            "to": "u",
+            "angle_pi_over_5": 4,
+            "corners": [
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "thin36",
+                "u",
+                "u",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "u",
+            "to": "u",
+            "angle_pi_over_5": 4,
+            "corners": [
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "thin36",
+                "u",
+                "u",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "u",
+            "to": "u",
+            "angle_pi_over_5": 3,
+            "corners": [
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ]
+            ]
+          }
+        ],
+        "witness_native_corner_demand": {
+          "fat108": 7,
+          "thin36": 5,
+          "fat36": 10,
+          "thin72": 2
+        },
+        "available_native_corners": {
+          "thin36": 7,
+          "thin72": 14,
+          "fat108": 9,
+          "fat36": 18
+        },
+        "witness_fits_native_corner_counts": true,
+        "total_boundary_edge_count": 10,
+        "disk_euler_parity_passes": true,
+        "required_interior_vertex_count": 4
+      }
+    },
+    "V": {
+      "side_lengths_in_basis_1_phi": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "angle_after_side_pi_over_5": [
+        2,
+        2,
+        4,
+        3,
+        4
+      ],
+      "ordered_words_per_side": [
+        1,
+        129,
+        1,
+        13,
+        13
+      ],
+      "boundary_choices_checked": 21801,
+      "boundary_choices_passing": 18576,
+      "boundary_choices_passing_fans_and_disk_euler": 9288,
+      "first_witness": {
+        "side_words": [
+          [
+            "u"
+          ],
+          [
+            "u",
+            "l",
+            "l",
+            "l"
+          ],
+          [
+            "u"
+          ],
+          [
+            "l",
+            "l"
+          ],
+          [
+            "l",
+            "l"
+          ]
+        ],
+        "boundary_fans_in_side_order": [
+          {
+            "from": "u",
+            "to": "u",
+            "angle_pi_over_5": 2,
+            "corners": [
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ],
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "u",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "thin36",
+                "u",
+                "u",
+                1
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "u",
+            "angle_pi_over_5": 2,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "thin36",
+                "u",
+                "u",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "u",
+            "to": "l",
+            "angle_pi_over_5": 4,
+            "corners": [
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "l",
+            "angle_pi_over_5": 3,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "thin36",
+                "u",
+                "u",
+                1
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "u",
+            "angle_pi_over_5": 4,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ]
+            ]
+          }
+        ],
+        "witness_native_corner_demand": {
+          "fat36": 16,
+          "fat108": 7,
+          "thin36": 3
+        },
+        "available_native_corners": {
+          "thin36": 9,
+          "thin72": 18,
+          "fat108": 16,
+          "fat36": 32
+        },
+        "witness_fits_native_corner_counts": true,
+        "total_boundary_edge_count": 10,
+        "disk_euler_parity_passes": false
+      },
+      "first_witness_also_passing_disk_euler": {
+        "side_words": [
+          [
+            "u"
+          ],
+          [
+            "u",
+            "l",
+            "l",
+            "l"
+          ],
+          [
+            "u"
+          ],
+          [
+            "l",
+            "l"
+          ],
+          [
+            "u",
+            "l",
+            "s"
+          ]
+        ],
+        "boundary_fans_in_side_order": [
+          {
+            "from": "u",
+            "to": "u",
+            "angle_pi_over_5": 2,
+            "corners": [
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ],
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "u",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "thin36",
+                "u",
+                "u",
+                1
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "u",
+            "angle_pi_over_5": 2,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "thin36",
+                "u",
+                "u",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "u",
+            "to": "l",
+            "angle_pi_over_5": 4,
+            "corners": [
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "u",
+            "angle_pi_over_5": 3,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ],
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "u",
+            "to": "l",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat108",
+                "u",
+                "u",
+                3
+              ],
+              [
+                "thin36",
+                "u",
+                "u",
+                1
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ]
+            ]
+          },
+          {
+            "from": "l",
+            "to": "s",
+            "angle_pi_over_5": 5,
+            "corners": [
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ],
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ],
+              [
+                "thin72",
+                "u",
+                "s",
+                2
+              ]
+            ]
+          },
+          {
+            "from": "s",
+            "to": "u",
+            "angle_pi_over_5": 4,
+            "corners": [
+              [
+                "thin72",
+                "s",
+                "u",
+                2
+              ],
+              [
+                "fat36",
+                "u",
+                "l",
+                1
+              ],
+              [
+                "fat36",
+                "l",
+                "u",
+                1
+              ]
+            ]
+          }
+        ],
+        "witness_native_corner_demand": {
+          "fat36": 20,
+          "fat108": 6,
+          "thin36": 3,
+          "thin72": 2
+        },
+        "available_native_corners": {
+          "thin36": 9,
+          "thin72": 18,
+          "fat108": 16,
+          "fat36": 32
+        },
+        "witness_fits_native_corner_counts": true,
+        "total_boundary_edge_count": 11,
+        "disk_euler_parity_passes": true,
+        "required_interior_vertex_count": 8
+      }
+    }
+  },
+  "conclusion": "The necessary boundary-fan test excludes neither U nor V."
+}

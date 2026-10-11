@@ -1,0 +1,38 @@
+{
+  "scope": "bounded copied exact variant frequency at fixedscale only; no global implication",
+  "source_pattern": "orbit7",
+  "source_flat_id": 459,
+  "source_order_chamber_id": 0,
+  "face_count": 4,
+  "variants": [
+    0,
+    1,
+    10,
+    26
+  ],
+  "result": "bounded-parity-obstruction",
+  "odd_piece_classes": [
+    {
+      "color": [
+        2,
+        [
+          "12/61*w + 26/61"
+        ]
+      ],
+      "darts": [
+        4
+      ]
+    },
+    {
+      "color": [
+        2,
+        [
+          "33/61*w + 41/61"
+        ]
+      ],
+      "darts": [
+        23
+      ]
+    }
+  ]
+}
