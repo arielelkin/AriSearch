@@ -1,0 +1,29 @@
+{
+  "status": "PASSED",
+  "matrix_parameter": "t=tan((120-p)/2)",
+  "metric_partitions": 203,
+  "multiplicity_ledgers": 611,
+  "native_B_words": 39628,
+  "A_only_excluded_partitions": 137,
+  "three_length_joint_cases_excluded": 270,
+  "remaining_native_words": 20970,
+  "joint_geometry_orbits": 685,
+  "joint_geometry_excluded_orbits": 628,
+  "six_distinct_native_words_excluded": 900,
+  "distinct_AA_local_cases": 72,
+  "residual_orbits": 37,
+  "empty_native_cores": 30,
+  "functional_native_cores": 7,
+  "index_three_native_tori": 7,
+  "torus_native_vertex_stars": 42,
+  "torus_directed_seams": 126,
+  "source_sha256": {
+    "metric-ledger": "3c6ea36055df3882dcc46040e41340eb2139daf01834ab83e9d704936c4b51c9",
+    "a-side-strata": "2248d485b84a066e9fdd7835d5e4837aa1c752090e2bf16b4ccb308a879d2dba",
+    "three-length-joint-closure": "de59187ccffabf6264c6ce41ded440dc8f79bb3affb9393bb9d4abfb21b008fa",
+    "joint-metric-orbits": "bcdb373a04c46a6918f0d07f5ecfad1db27b368d4f9b33a3d60e43059e6e1fa7",
+    "residual-metric-transport": "73aa17bb72be6397cdf527e92b0ece2c59d2a64373a57cf5b9baede9bfbbe432",
+    "residual-periodic-actions": "39225cd3e661bd9baba07ce9f7f25346efc2bfb9a0e59510a0bb6471011cbe88"
+  },
+  "scope": "Entire specified complementary-angle ALT/ALT actual metric family; reflections/irrational angles/actual real side values; no unrestricted two-convex theorem"
+}

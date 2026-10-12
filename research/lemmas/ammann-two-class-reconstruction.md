@@ -1,13 +1,14 @@
-# Ammann's convex recomposition: exact tiles and complete collapse classification
+# Ammann's convex recomposition: exact tiles and candidate collapse exclusion
 
 **Status.**
 * Reconstruction (tile formulas, branch choice, three direct classes): **Proved**
   for the formulas, with the face structure **checked by exact computation** on
   Penrose patches (4- and 6-fold deflated suns).
-* Collapse classification inside the closed admissible region: **Computational
-  evidence from exact decisions** (certificate below); independent hostile
-  review of exhaustiveness remains outstanding. The unique collapse point is **Falsified**
-  as an aperiodic candidate (monohedral escape).
+* Convex two-class candidate exclusion: **Adversarially reviewed** by
+  [130 independent full-distance systems](../reviews/ammann-two-class-exhaustiveness-review.md).
+  After discarding strata with a triangle or quadrilateral, the sole
+  surviving collapse point is **Falsified** by a monohedral escape.
+  Literal uniqueness on all discarded closed-boundary strata is unclassified.
 * The description of the admissible region by two inequalities is
   **computational evidence** (redundancy of the other 13 inequalities was
   checked on 400 000 random samples only). The classification itself does not
@@ -100,8 +101,10 @@ square. The Figure 4 sample \(J\approx(0.495,0.779)\) lies inside it.
 
 ## Collapse classification (mirror images identified)
 
-**Proposition (exact computation).** In the closed admissible region, the set
-\(\{H_6,P_1,P_2\}\) has at most two congruence classes **only** at
+**Proposition (exact computation, independently reviewed).** In the closed
+admissible region, apart from strata containing a triangle or quadrilateral
+prototile, the set \(\{H_6,P_1,P_2\}\) has at most two congruence
+classes **only** at
 
 \[
 s=t=\tfrac{5+\sqrt5}{10},\qquad J=\text{circumcentre of }BCD,
@@ -145,3 +148,9 @@ It says nothing about aperiodicity of Ammann's generic three-tile set under
 reflections and partial contacts; that question stays open, as recorded in the
 source audit. It also does not cover recompositions other than the
 generalization recorded in the search file.
+
+The [2026-10-12 hostile review](../reviews/ammann-two-class-exhaustiveness-review.md)
+independently rebuilt all 130 full-distance ideals and checked global supporting
+half-planes. It validates the candidate exclusion, while correcting the older
+unqualified closed-region uniqueness wording. Generalized decoration
+exhaustiveness is a separate unresolved gate.

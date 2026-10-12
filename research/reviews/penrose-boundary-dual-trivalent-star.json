@@ -1,0 +1,107 @@
+{
+  "field": "Q(w), w=exp(i*pi/5), basis 1,w,w^2,w^3",
+  "source": "ammann-two-class-patchdata.py 3: exact Robinson sun deflation",
+  "central_vertex": [
+    2,
+    0,
+    2,
+    -1
+  ],
+  "source_rhomb_ids": [
+    0,
+    2,
+    7
+  ],
+  "rhombs": [
+    {
+      "kind": "thin",
+      "vertices": [
+        [
+          3,
+          0,
+          2,
+          -1
+        ],
+        [
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          -1
+        ]
+      ],
+      "central_corner": 3
+    },
+    {
+      "kind": "thick",
+      "vertices": [
+        [
+          3,
+          0,
+          2,
+          -2
+        ],
+        [
+          3,
+          0,
+          2,
+          -1
+        ],
+        [
+          2,
+          0,
+          2,
+          -1
+        ],
+        [
+          2,
+          0,
+          2,
+          -2
+        ]
+      ],
+      "central_corner": 2
+    },
+    {
+      "kind": "thin",
+      "vertices": [
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          -1
+        ],
+        [
+          2,
+          0,
+          2,
+          -2
+        ],
+        [
+          2,
+          0,
+          2,
+          -1
+        ]
+      ],
+      "central_corner": 3
+    }
+  ]
+}

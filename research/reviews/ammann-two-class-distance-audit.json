@@ -1,0 +1,1328 @@
+{
+  "scope": "13 pentagon correspondences, all five shifts, both directions; straightness imposed for H deletion; no <=4-side strata classified",
+  "correspondences": 130,
+  "surviving": [
+    {
+      "s": "0.7236067977499790?",
+      "t": "0.7236067977499790?",
+      "minpolys": [
+        "x^2 - x + 1/5",
+        "x^2 - x + 1/5"
+      ],
+      "all_tiles_convex": true
+    }
+  ],
+  "rows": [
+    {
+      "case": "P1-P2",
+      "direction": 1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "P1-P2",
+      "direction": 1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "P1-P2",
+      "direction": 1,
+      "shift": 2,
+      "dimension": 0,
+      "groebner_basis": [
+        "s + (1/5*zeta10^3 - 1/5*zeta10^2 - 3/5)",
+        "t + (1/5*zeta10^3 - 1/5*zeta10^2 - 3/5)"
+      ],
+      "real_points": [
+        {
+          "s": "0.7236067977499790?",
+          "t": "0.7236067977499790?",
+          "minpolys": [
+            "x^2 - x + 1/5",
+            "x^2 - x + 1/5"
+          ],
+          "all_tiles_convex": true
+        }
+      ]
+    },
+    {
+      "case": "P1-P2",
+      "direction": 1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "P1-P2",
+      "direction": 1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "P1-P2",
+      "direction": -1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "P1-P2",
+      "direction": -1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "P1-P2",
+      "direction": -1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "P1-P2",
+      "direction": -1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "P1-P2",
+      "direction": -1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P1",
+      "direction": 1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P1",
+      "direction": 1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P1",
+      "direction": 1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P1",
+      "direction": 1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P1",
+      "direction": 1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P1",
+      "direction": -1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P1",
+      "direction": -1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P1",
+      "direction": -1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P1",
+      "direction": -1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P1",
+      "direction": -1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P2",
+      "direction": 1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P2",
+      "direction": 1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P2",
+      "direction": 1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P2",
+      "direction": 1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P2",
+      "direction": 1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P2",
+      "direction": -1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P2",
+      "direction": -1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P2",
+      "direction": -1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P2",
+      "direction": -1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-0-P2",
+      "direction": -1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P1",
+      "direction": 1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P1",
+      "direction": 1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P1",
+      "direction": 1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P1",
+      "direction": 1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P1",
+      "direction": 1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P1",
+      "direction": -1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P1",
+      "direction": -1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P1",
+      "direction": -1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P1",
+      "direction": -1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P1",
+      "direction": -1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P2",
+      "direction": 1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P2",
+      "direction": 1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P2",
+      "direction": 1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P2",
+      "direction": 1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P2",
+      "direction": 1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P2",
+      "direction": -1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P2",
+      "direction": -1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P2",
+      "direction": -1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P2",
+      "direction": -1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-1-P2",
+      "direction": -1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P1",
+      "direction": 1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P1",
+      "direction": 1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P1",
+      "direction": 1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P1",
+      "direction": 1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P1",
+      "direction": 1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P1",
+      "direction": -1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P1",
+      "direction": -1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P1",
+      "direction": -1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P1",
+      "direction": -1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P1",
+      "direction": -1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P2",
+      "direction": 1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P2",
+      "direction": 1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P2",
+      "direction": 1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P2",
+      "direction": 1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P2",
+      "direction": 1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P2",
+      "direction": -1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P2",
+      "direction": -1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P2",
+      "direction": -1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P2",
+      "direction": -1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-2-P2",
+      "direction": -1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P1",
+      "direction": 1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P1",
+      "direction": 1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P1",
+      "direction": 1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P1",
+      "direction": 1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P1",
+      "direction": 1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P1",
+      "direction": -1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P1",
+      "direction": -1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P1",
+      "direction": -1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P1",
+      "direction": -1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P1",
+      "direction": -1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P2",
+      "direction": 1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P2",
+      "direction": 1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P2",
+      "direction": 1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P2",
+      "direction": 1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P2",
+      "direction": 1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P2",
+      "direction": -1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P2",
+      "direction": -1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P2",
+      "direction": -1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P2",
+      "direction": -1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-3-P2",
+      "direction": -1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P1",
+      "direction": 1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P1",
+      "direction": 1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P1",
+      "direction": 1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P1",
+      "direction": 1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P1",
+      "direction": 1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P1",
+      "direction": -1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P1",
+      "direction": -1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P1",
+      "direction": -1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P1",
+      "direction": -1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P1",
+      "direction": -1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P2",
+      "direction": 1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P2",
+      "direction": 1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P2",
+      "direction": 1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P2",
+      "direction": 1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P2",
+      "direction": 1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P2",
+      "direction": -1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P2",
+      "direction": -1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P2",
+      "direction": -1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P2",
+      "direction": -1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-4-P2",
+      "direction": -1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P1",
+      "direction": 1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P1",
+      "direction": 1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P1",
+      "direction": 1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P1",
+      "direction": 1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P1",
+      "direction": 1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P1",
+      "direction": -1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P1",
+      "direction": -1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P1",
+      "direction": -1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P1",
+      "direction": -1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P1",
+      "direction": -1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P2",
+      "direction": 1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P2",
+      "direction": 1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P2",
+      "direction": 1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P2",
+      "direction": 1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P2",
+      "direction": 1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P2",
+      "direction": -1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P2",
+      "direction": -1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P2",
+      "direction": -1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P2",
+      "direction": -1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "case": "H-delete-5-P2",
+      "direction": -1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    }
+  ]
+}

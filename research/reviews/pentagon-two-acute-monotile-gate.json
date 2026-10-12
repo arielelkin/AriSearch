@@ -1,0 +1,162 @@
+{
+  "status": "PASSED",
+  "angle_word": [
+    60,
+    60,
+    150,
+    120,
+    150
+  ],
+  "domain": "c,d,e>0;c<d+sqrt(3)e",
+  "a": "(1/3*sqrt_three)*c + (2/3*sqrt_three)*d + e",
+  "b": "(-1/3*sqrt_three)*c + (1/3*sqrt_three)*d + e",
+  "known_types_checked": 15,
+  "dihedral_labelings_per_type": 10,
+  "angle_matches": {
+    "2": 4,
+    "5": 2,
+    "8": 2
+  },
+  "feasible_periodic_loci": [
+    "b=d",
+    "c=e"
+  ],
+  "records": [
+    {
+      "type": 2,
+      "vertex_start": 0,
+      "direction": -1,
+      "side_map": [
+        4,
+        3,
+        2,
+        1,
+        0
+      ],
+      "length_equations": [
+        "(-1/3*sqrt_three + 1)*c + (-2/3*sqrt_three)*d - e"
+      ],
+      "verdict": "IMPOSSIBLE_LARGEST_EDGE"
+    },
+    {
+      "type": 2,
+      "vertex_start": 1,
+      "direction": 1,
+      "side_map": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ],
+      "length_equations": [
+        "(-1/3*sqrt_three)*c + (-2/3*sqrt_three + 1)*d - e"
+      ],
+      "verdict": "IMPOSSIBLE_LARGEST_EDGE"
+    },
+    {
+      "type": 2,
+      "vertex_start": 2,
+      "direction": -1,
+      "side_map": [
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "length_equations": [
+        "-c + e"
+      ],
+      "verdict": "MONOHEDRAL_PERIODIC_LOCUS"
+    },
+    {
+      "type": 2,
+      "vertex_start": 4,
+      "direction": 1,
+      "side_map": [
+        4,
+        0,
+        1,
+        2,
+        3
+      ],
+      "length_equations": [
+        "(-1/3*sqrt_three)*c + (1/3*sqrt_three - 1)*d + e"
+      ],
+      "verdict": "MONOHEDRAL_PERIODIC_LOCUS"
+    },
+    {
+      "type": 5,
+      "vertex_start": 2,
+      "direction": -1,
+      "side_map": [
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "length_equations": [
+        "-c + d",
+        "(1/3*sqrt_three)*c + (2/3*sqrt_three)*d"
+      ],
+      "verdict": "IMPOSSIBLE_LARGEST_EDGE"
+    },
+    {
+      "type": 5,
+      "vertex_start": 4,
+      "direction": 1,
+      "side_map": [
+        4,
+        0,
+        1,
+        2,
+        3
+      ],
+      "length_equations": [
+        "c - d",
+        "(2/3*sqrt_three)*c + (1/3*sqrt_three)*d"
+      ],
+      "verdict": "IMPOSSIBLE_LARGEST_EDGE"
+    },
+    {
+      "type": 8,
+      "vertex_start": 3,
+      "direction": 1,
+      "side_map": [
+        3,
+        4,
+        0,
+        1,
+        2
+      ],
+      "length_equations": [
+        "d - e",
+        "(-1/3*sqrt_three)*c + (-2/3*sqrt_three)*d",
+        "(2/3*sqrt_three)*c + (1/3*sqrt_three)*d"
+      ],
+      "verdict": "IMPOSSIBLE_LARGEST_EDGE"
+    },
+    {
+      "type": 8,
+      "vertex_start": 3,
+      "direction": -1,
+      "side_map": [
+        2,
+        1,
+        0,
+        4,
+        3
+      ],
+      "length_equations": [
+        "(1/3*sqrt_three + 1)*c + (-1/3*sqrt_three)*d - e",
+        "(-2/3*sqrt_three)*c + (-1/3*sqrt_three)*d",
+        "(1/3*sqrt_three)*c + (2/3*sqrt_three)*d"
+      ],
+      "verdict": "IMPOSSIBLE_LARGEST_EDGE"
+    }
+  ],
+  "primary_source": "https://arxiv.org/pdf/1708.00274#page=14",
+  "scope": "All15knownmonohedralfamiliesgate; no mixedtiling existence, periodic exclusion or aperiodicity conclusion"
+}

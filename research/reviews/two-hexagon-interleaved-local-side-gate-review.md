@@ -1,0 +1,11 @@
+# Interleaved native side gate: independent review
+
+Verdict: VALID as a local rejection gate. Its surviving rings were unresolved by this local gate; subsequent [geometric](../lemmas/two-hexagon-interleaved-symbolic-closure-obstruction.md) and [I/ALT](../lemmas/two-hexagon-interleaved-alternating-all-metric-escape.md) theorems close them separately.
+
+The independent checker `check_two_hexagon_interleaved_local_side_gate.py` reuses only the independently derived canonical triangle geometry from the colour review. It computes native corner choices from those triangles, builds the seven-cell patch by coordinates, and finds all twelve internal edges by neighbouring cell positions. Reflected native sides are determined by their corner endpoints. It then computes equality classes by merging actual sets, independently of the producer's union-find and explicit seam formulas.
+
+It reproduces every closure, multiplicity, rejection flag, and native representative: I/C has 3,072 rings, 67 closures, and 384 rejections; I/I has 12,288 rings, 105 closures, and 6,264 rejections; I/ALT has 49,152 rings, 1,628 closures, and no rejections. All twelve native B placements are retained, even when several share a colour word. Every representative is independently checked against all six canonical corner stars.
+
+The analytic obstruction is correct. Independently accumulating exterior turns gives side directions `0,180-p,120,300-p,240,180+p`. Equal even-index lengths sum to zero because their directions differ by 120 degrees. The remaining odd vector sum is a nonzero constant multiple of `exp(i(p-60))-exp(i(180-p))`; it vanishes only when those two angles agree modulo 360 degrees. Both are strictly between 30 and 90 degrees, so this forces `p=120`, excluded by hypothesis. Native side period two, including the equilateral case, is therefore impossible for this interleaved angle word. Cyclic shifts and reflections preserve the argument.
+
+The exact check is retained in `two-hexagon-interleaved-local-side-gate-check.json`; the checker writes only when `--output PATH` is supplied. A zero rejection count or a surviving local ring is not a plane realization or a periodicity certificate. No global SFT compatibility or additional symbolic metric classification is inferred here.

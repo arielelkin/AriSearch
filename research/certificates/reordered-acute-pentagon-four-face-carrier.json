@@ -1,0 +1,388 @@
+{
+  "status": "PASSED",
+  "scope": "Exact support/continuation tables and explicit four-face orientable flat torus; no metric search. For actual strictly convex polygons, length aliases make every pairing isometric and flat universal cover is a periodic plane tiling.",
+  "native_angles_doubled_degrees": {
+    "A": [
+      130,
+      281,
+      150,
+      295,
+      224
+    ],
+    "B": [
+      80,
+      289,
+      272,
+      94,
+      345
+    ]
+  },
+  "flat_native_stars": [
+    [
+      130,
+      150,
+      80
+    ]
+  ],
+  "full_native_stars": [
+    [
+      130,
+      295,
+      295
+    ],
+    [
+      281,
+      150,
+      289
+    ],
+    [
+      281,
+      94,
+      345
+    ],
+    [
+      295,
+      80,
+      345
+    ],
+    [
+      224,
+      224,
+      272
+    ],
+    [
+      130,
+      224,
+      272,
+      94
+    ],
+    [
+      130,
+      130,
+      272,
+      94,
+      94
+    ],
+    [
+      130,
+      130,
+      150,
+      150,
+      80,
+      80
+    ],
+    [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ]
+  ],
+  "full_endpoint_coincidence_hosts_for_y_x_fan": [
+    [
+      "A",
+      3
+    ],
+    [
+      "A",
+      4
+    ],
+    [
+      "B",
+      3
+    ]
+  ],
+  "possible_hosts_including_eligible_endpoint_overrun": [
+    [
+      "A",
+      2
+    ],
+    [
+      "A",
+      3
+    ],
+    [
+      "A",
+      4
+    ],
+    [
+      "B",
+      3
+    ],
+    [
+      "B",
+      4
+    ]
+  ],
+  "actual_length_aliases": [
+    "A0=B1",
+    "A2=B0",
+    "A3=B3"
+  ],
+  "faces": [
+    "A0copy",
+    "A1copy",
+    "B0copy",
+    "B1copy"
+  ],
+  "edge_pairs_reversed_boundary": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    [
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    [
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        3
+      ]
+    ]
+  ],
+  "vertices": [
+    {
+      "corners": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "angles_doubled_degrees": [
+        130,
+        224,
+        94,
+        272
+      ]
+    },
+    {
+      "corners": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "angles_doubled_degrees": [
+        281,
+        150,
+        289
+      ]
+    },
+    {
+      "corners": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "angles_doubled_degrees": [
+        150,
+        281,
+        289
+      ]
+    },
+    {
+      "corners": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "angles_doubled_degrees": [
+        295,
+        80,
+        345
+      ]
+    },
+    {
+      "corners": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "angles_doubled_degrees": [
+        224,
+        130,
+        272,
+        94
+      ]
+    },
+    {
+      "corners": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "angles_doubled_degrees": [
+        295,
+        80,
+        345
+      ]
+    }
+  ],
+  "topology": {
+    "connected": true,
+    "orientable": true,
+    "vertex_links_single_cycles": true,
+    "faces": 4,
+    "edges": 10,
+    "vertices": 6,
+    "Euler_characteristic": 0
+  },
+  "all_vertex_angle_sums_doubled_degrees": 720,
+  "periodic_tiles_per_fundamental_domain": {
+    "A": 2,
+    "B": 2
+  },
+  "strict_scope": "Pointwise T exclusion and alias necessity require the accompanying local proof. This checker validates all finite support and carrier tables used there."
+}

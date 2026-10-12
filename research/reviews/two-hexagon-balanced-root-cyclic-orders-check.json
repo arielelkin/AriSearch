@@ -1,0 +1,36 @@
+{
+  "status": "PASSED",
+  "rooted_orders": 600,
+  "ring_states_checked": 3408,
+  "valid_deletion_rounds": 182,
+  "empty_order_count": 581,
+  "functional_order_count": 15,
+  "functional_ids": [
+    71,
+    119,
+    135,
+    167,
+    258,
+    267,
+    345,
+    348,
+    355,
+    361,
+    399,
+    436,
+    448,
+    482,
+    521
+  ],
+  "branching_ids": [
+    0,
+    209,
+    349,
+    549
+  ],
+  "forced_metric_closures_covered": 19,
+  "periodic_tori_independently_checked": 19,
+  "source_sha256": "054e058f00929bcab78c262236504e50cd490a5cebc8180deb820bddf0008a6a",
+  "metric_sha256": "87d0c11377a67d5beb5b6143bac174a1cfa08aa607e3d60012cf73c3e627e87f",
+  "scope": "600 stated rooted native orders only; exact local exclusions plus conditional functional periodicity or forced-metric torus escape"
+}

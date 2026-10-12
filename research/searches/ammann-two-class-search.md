@@ -1,8 +1,11 @@
 # Search record: collapsing Ammann's three convex tiles to two
 
 **Date:** 2026-10-11 **Completion status:** complete over the stated finite
-domains (no timeouts). **Outcome:** there is exactly one two-class point, and it
-is killed. The bottom line is **Falsified** for every candidate in the domain.
+domains (no timeouts). **Outcome:** the reconstructed Ammann family has no aperiodic two-class
+specialization; after discarding small-polygon strata its sole collapse is
+killed. The generalized search's retained points are also killed, but its
+independent exhaustiveness gate remains unresolved; see the
+[2026-10-12 review](../reviews/ammann-two-class-exhaustiveness-review.md).
 
 ## Question
 
@@ -57,7 +60,8 @@ in \(J\) over \(K\); we take their gcd and roots in QQbar, then check
 unimodularity exactly. For mirror congruence we use Groebner bases over
 \(K[s,t]\), closed under complex conjugation.
 
-**Result: Proved by exact computation.** The only point in the region is
+**Result: exact computation, independently reviewed.** Apart from strata
+containing triangle or quadrilateral prototiles, the only collapse point is
 \(s=t=(5+\sqrt5)/10\), where \(J\) is the circumcentre of \(BCD\) and
 \(P_1\cong P_2\) directly.
 
@@ -236,3 +240,16 @@ for k in 0 1 2 3 4 5 6 7; do $C research/searches/ammann-two-class-survivor-coll
 for k in 0 1 2 3 4 5 6 7; do $C research/searches/ammann-two-class-group-search.py $W/types.json $W/patch7.json $W/pw$k.json $W/gs$k.json; done
 $C research/searches/ammann-two-class-summarize.py $W research/certificates/ammann-two-class-generalized.json
 ```
+
+## Independent review checkpoint (2026-10-12)
+
+[The independent review](../reviews/ammann-two-class-exhaustiveness-review.md)
+checks all 130 distance systems for Part 2 and all 38 stored real-point rows
+for Part 3. Part 2 candidate exclusion is VALID. Full closed-boundary
+congruence uniqueness was not established on periodic-killed small-polygon
+strata. Part 3 independent exhaustiveness remains UNRESOLVED: negative graph
+cases and discarded unit ideals need reconstruction, sampled collinear-turn
+signs need exact coefficient-ratio decisions, and slit rejection requires the
+actual-boundary-graph convention. No stored surviving point is an aperiodic
+candidate. Earlier whole-domain statements are the producer's computational
+claim, subject to these independent review gates.

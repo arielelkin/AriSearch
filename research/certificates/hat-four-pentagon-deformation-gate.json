@@ -1,0 +1,620 @@
+{
+  "scope": "Fixed cut O-X, X-V,Y-V,M-V on Tile(1,b), V_y=outline_vertex7_y; all four final pentagons strictly convex; all30 pair correspondences among P6,P48,P192; polygon membership/source assembly needs separate verification.",
+  "field": "Q(r),r^2=3,r>0",
+  "tiles": {
+    "P6": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "(-1/2*r)*b",
+        "-1/2*b"
+      ],
+      [
+        "(-1/2*r)*b + 1/2",
+        "-1/2*b + (-1/2*r)"
+      ],
+      [
+        "(-1/2*r)*b + 5/2",
+        "-1/2*b + (-1/2*r)"
+      ],
+      [
+        "(-1/2*r)*b + 3",
+        "-1/2*b"
+      ]
+    ],
+    "P9": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "(-1/2*r)*b + 3",
+        "-1/2*b"
+      ],
+      [
+        "u",
+        "-1/2*b + (1/2*r)"
+      ],
+      [
+        "1",
+        "b"
+      ],
+      [
+        "0",
+        "b"
+      ]
+    ],
+    "P48": [
+      [
+        "(-1/2*r)*b + 3",
+        "-1/2*b"
+      ],
+      [
+        "3",
+        "-b"
+      ],
+      [
+        "(1/2*r)*b + 3",
+        "-1/2*b"
+      ],
+      [
+        "(1/2*r)*b + 5/2",
+        "-1/2*b + (1/2*r)"
+      ],
+      [
+        "u",
+        "-1/2*b + (1/2*r)"
+      ]
+    ],
+    "P192": [
+      [
+        "u",
+        "-1/2*b + (1/2*r)"
+      ],
+      [
+        "(1/2*r)*b + 3/2",
+        "-1/2*b + (1/2*r)"
+      ],
+      [
+        "(1/2*r)*b + 3/2",
+        "1/2*b + (1/2*r)"
+      ],
+      [
+        "3/2",
+        "b + (1/2*r)"
+      ],
+      [
+        "1",
+        "b"
+      ]
+    ]
+  },
+  "rows": [
+    {
+      "pair": [
+        "P6",
+        "P48"
+      ],
+      "direction": 1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P6",
+        "P48"
+      ],
+      "direction": 1,
+      "shift": 1,
+      "dimension": 0,
+      "groebner_basis": [
+        "b + (-r)",
+        "u - 2"
+      ],
+      "real_points": [
+        {
+          "b": "1.732050807568878?",
+          "u": "2",
+          "minpolys": [
+            "x^2 - 3",
+            "x - 2"
+          ],
+          "all_four_strictly_convex": true,
+          "original_hat_similarity_ratio": true
+        }
+      ]
+    },
+    {
+      "pair": [
+        "P6",
+        "P48"
+      ],
+      "direction": 1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P6",
+        "P48"
+      ],
+      "direction": 1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P6",
+        "P48"
+      ],
+      "direction": 1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P6",
+        "P48"
+      ],
+      "direction": -1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P6",
+        "P48"
+      ],
+      "direction": -1,
+      "shift": 1,
+      "dimension": 0,
+      "groebner_basis": [
+        "b + (-r)",
+        "u - 2"
+      ],
+      "real_points": [
+        {
+          "b": "1.732050807568878?",
+          "u": "2",
+          "minpolys": [
+            "x^2 - 3",
+            "x - 2"
+          ],
+          "all_four_strictly_convex": true,
+          "original_hat_similarity_ratio": true
+        }
+      ]
+    },
+    {
+      "pair": [
+        "P6",
+        "P48"
+      ],
+      "direction": -1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P6",
+        "P48"
+      ],
+      "direction": -1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P6",
+        "P48"
+      ],
+      "direction": -1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P6",
+        "P192"
+      ],
+      "direction": 1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P6",
+        "P192"
+      ],
+      "direction": 1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P6",
+        "P192"
+      ],
+      "direction": 1,
+      "shift": 2,
+      "dimension": 0,
+      "groebner_basis": [
+        "b + (-r)",
+        "u - 2"
+      ],
+      "real_points": [
+        {
+          "b": "1.732050807568878?",
+          "u": "2",
+          "minpolys": [
+            "x^2 - 3",
+            "x - 2"
+          ],
+          "all_four_strictly_convex": true,
+          "original_hat_similarity_ratio": true
+        }
+      ]
+    },
+    {
+      "pair": [
+        "P6",
+        "P192"
+      ],
+      "direction": 1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P6",
+        "P192"
+      ],
+      "direction": 1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P6",
+        "P192"
+      ],
+      "direction": -1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P6",
+        "P192"
+      ],
+      "direction": -1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P6",
+        "P192"
+      ],
+      "direction": -1,
+      "shift": 2,
+      "dimension": 0,
+      "groebner_basis": [
+        "b + (-r)",
+        "u - 2"
+      ],
+      "real_points": [
+        {
+          "b": "1.732050807568878?",
+          "u": "2",
+          "minpolys": [
+            "x^2 - 3",
+            "x - 2"
+          ],
+          "all_four_strictly_convex": true,
+          "original_hat_similarity_ratio": true
+        }
+      ]
+    },
+    {
+      "pair": [
+        "P6",
+        "P192"
+      ],
+      "direction": -1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P6",
+        "P192"
+      ],
+      "direction": -1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P48",
+        "P192"
+      ],
+      "direction": 1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P48",
+        "P192"
+      ],
+      "direction": 1,
+      "shift": 1,
+      "dimension": 0,
+      "groebner_basis": [
+        "b + (-r)",
+        "u - 2"
+      ],
+      "real_points": [
+        {
+          "b": "1.732050807568878?",
+          "u": "2",
+          "minpolys": [
+            "x^2 - 3",
+            "x - 2"
+          ],
+          "all_four_strictly_convex": true,
+          "original_hat_similarity_ratio": true
+        }
+      ]
+    },
+    {
+      "pair": [
+        "P48",
+        "P192"
+      ],
+      "direction": 1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P48",
+        "P192"
+      ],
+      "direction": 1,
+      "shift": 3,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P48",
+        "P192"
+      ],
+      "direction": 1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P48",
+        "P192"
+      ],
+      "direction": -1,
+      "shift": 0,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P48",
+        "P192"
+      ],
+      "direction": -1,
+      "shift": 1,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P48",
+        "P192"
+      ],
+      "direction": -1,
+      "shift": 2,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    },
+    {
+      "pair": [
+        "P48",
+        "P192"
+      ],
+      "direction": -1,
+      "shift": 3,
+      "dimension": 0,
+      "groebner_basis": [
+        "b + (-r)",
+        "u - 2"
+      ],
+      "real_points": [
+        {
+          "b": "1.732050807568878?",
+          "u": "2",
+          "minpolys": [
+            "x^2 - 3",
+            "x - 2"
+          ],
+          "all_four_strictly_convex": true,
+          "original_hat_similarity_ratio": true
+        }
+      ]
+    },
+    {
+      "pair": [
+        "P48",
+        "P192"
+      ],
+      "direction": -1,
+      "shift": 4,
+      "dimension": -1,
+      "groebner_basis": [
+        "1"
+      ],
+      "real_points": []
+    }
+  ],
+  "admissible_pair_collapse_points": [
+    {
+      "b": "1.732050807568878?",
+      "u": "2",
+      "minpolys": [
+        "x^2 - 3",
+        "x - 2"
+      ],
+      "all_four_strictly_convex": true,
+      "original_hat_similarity_ratio": true
+    },
+    {
+      "b": "1.732050807568878?",
+      "u": "2",
+      "minpolys": [
+        "x^2 - 3",
+        "x - 2"
+      ],
+      "all_four_strictly_convex": true,
+      "original_hat_similarity_ratio": true
+    },
+    {
+      "b": "1.732050807568878?",
+      "u": "2",
+      "minpolys": [
+        "x^2 - 3",
+        "x - 2"
+      ],
+      "all_four_strictly_convex": true,
+      "original_hat_similarity_ratio": true
+    },
+    {
+      "b": "1.732050807568878?",
+      "u": "2",
+      "minpolys": [
+        "x^2 - 3",
+        "x - 2"
+      ],
+      "all_four_strictly_convex": true,
+      "original_hat_similarity_ratio": true
+    },
+    {
+      "b": "1.732050807568878?",
+      "u": "2",
+      "minpolys": [
+        "x^2 - 3",
+        "x - 2"
+      ],
+      "all_four_strictly_convex": true,
+      "original_hat_similarity_ratio": true
+    },
+    {
+      "b": "1.732050807568878?",
+      "u": "2",
+      "minpolys": [
+        "x^2 - 3",
+        "x - 2"
+      ],
+      "all_four_strictly_convex": true,
+      "original_hat_similarity_ratio": true
+    }
+  ]
+}

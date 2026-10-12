@@ -1,0 +1,306 @@
+{
+  "scope": "Exact four-tile local module retained; constrained metric family globally untileable by hosted-T/native-corner budget.",
+  "angles_doubled_degrees": {
+    "A": [
+      130,
+      281,
+      295,
+      150,
+      224
+    ],
+    "B": [
+      80,
+      289,
+      272,
+      94,
+      345
+    ]
+  },
+  "designated_A_edge": 0,
+  "same_native_pairing_completion_lists": {
+    "reflection_at_A140.5": [],
+    "halfturn_at_A65_plus_A140.5": []
+  },
+  "pure_species_stars": {
+    "A": {
+      "360": [],
+      "720": [
+        [
+          130,
+          295,
+          295
+        ]
+      ]
+    },
+    "B": {
+      "360": [],
+      "720": [
+        [
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80,
+          80
+        ]
+      ]
+    }
+  },
+  "formal_2A_1B_corner_ledger": [
+    [
+      130,
+      150,
+      80
+    ],
+    [
+      295,
+      295,
+      130
+    ],
+    [
+      281,
+      289,
+      150
+    ],
+    [
+      224,
+      224,
+      272
+    ],
+    [
+      281,
+      94,
+      345
+    ]
+  ],
+  "field": "Q(zeta_720), zeta_720=exp(2*pi*i/720); all computation in exact QQbar/AA; decimals below are display only",
+  "definition": "C(j)=cos(j*pi/360), S(j)=sin(j*pi/360)",
+  "A_directions_doubled_degrees": [
+    0,
+    79,
+    144,
+    354,
+    490
+  ],
+  "B_directions_doubled_degrees": [
+    0,
+    71,
+    159,
+    425,
+    440
+  ],
+  "A_length_formulas": [
+    "a0=-(a1*C79+a2*C144+a3*C354+a4*C490)",
+    "a1=1/10",
+    "a2=1",
+    "a3=(a1*S79+a2*S144)/(-S490-S354)",
+    "a4=a3"
+  ],
+  "B_length_formulas": [
+    "b0=a0/2",
+    "b1=1/2",
+    "rx=-(b0+b1*C71+b4*C440); ry=-(b1*S71+b4*S440); D=C159*S425-S159*C425",
+    "b2=(rx*S425-ry*C425)/D",
+    "b3=(C159*ry-S159*rx)/D",
+    "b4=a2"
+  ],
+  "native_coordinate_formula": "p0=(0,0); p_(i+1)=p_i+length_i*(C(direction_i),S(direction_i))",
+  "module_coordinate_formulas": {
+    "q": "(a0-b0,0)",
+    "host_A": "reflect_x(A)",
+    "B40": "B+q",
+    "A75": "Rotate(292deg)(reflect_x(A-A_vertex3))+q",
+    "A65": "(-A_x,A_y)+q"
+  },
+  "A_lengths_display": [
+    "1.302505587029898?",
+    "1/10",
+    "1",
+    "1.188170735538047?",
+    "1.188170735538047?"
+  ],
+  "B_lengths_display": [
+    "0.6512527935149486?",
+    "1/2",
+    "0.6211441659257322?",
+    "0.4807502436394676?",
+    "1"
+  ],
+  "module_coordinates_display": {
+    "host_A": [
+      [
+        "0.5021426509042575?",
+        "-1.076848389947196?"
+      ],
+      [
+        "1.688685039743617?",
+        "-1.014664338322930?"
+      ],
+      [
+        "1.379668045368670?",
+        "-0.0636078220277764?"
+      ],
+      [
+        "1.302505587029898?",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "B40": [
+      [
+        "0.6512527935149486?",
+        "0"
+      ],
+      [
+        "1.302505587029898?",
+        "0"
+      ],
+      [
+        "1.709563346208057?",
+        "0.2903514778554699?"
+      ],
+      [
+        "1.822757879691914?",
+        "0.901094527306666?"
+      ],
+      [
+        "1.417297236633927?",
+        "0.6427876096865393?"
+      ]
+    ],
+    "A75": [
+      [
+        "0.1491101426106912?",
+        "1.076848389947196?"
+      ],
+      [
+        "0.6512527935149486?",
+        "0"
+      ],
+      [
+        "1.417297236633927?",
+        "0.6427876096865393?"
+      ],
+      [
+        "1.447367816584354?",
+        "0.7381593047613620?"
+      ],
+      [
+        "0.959440635721892?",
+        "1.945821455538519?"
+      ]
+    ],
+    "A65": [
+      [
+        "0.1491101426106912?",
+        "1.076848389947196?"
+      ],
+      [
+        "-1.037432246228668?",
+        "1.014664338322930?"
+      ],
+      [
+        "-0.7284152518537206?",
+        "0.0636078220277764?"
+      ],
+      [
+        "-0.6512527935149486?",
+        "0"
+      ],
+      [
+        "0.6512527935149486?",
+        "0"
+      ]
+    ]
+  },
+  "all_exact_positive_closure_convexity_and_disjointness_checks": true,
+  "endpoint_remainders_degrees": {
+    "host_A140.5_plus_B144.5": 75,
+    "B172.5_plus_A147.5": 40,
+    "two_A112": 136,
+    "host_A65_plus_flat": 115
+  },
+  "next_gate": "No further plane search: hosted-T budget excludes every tiling of this constrained family.",
+  "status": "REJECTED_BY_HOSTED_T_BUDGET",
+  "all_joint_native_stars": {
+    "360": [
+      [
+        130,
+        150,
+        80
+      ]
+    ],
+    "720": [
+      [
+        130,
+        295,
+        295
+      ],
+      [
+        281,
+        150,
+        289
+      ],
+      [
+        281,
+        94,
+        345
+      ],
+      [
+        295,
+        80,
+        345
+      ],
+      [
+        224,
+        224,
+        272
+      ],
+      [
+        130,
+        224,
+        272,
+        94
+      ],
+      [
+        130,
+        130,
+        272,
+        94,
+        94
+      ],
+      [
+        130,
+        130,
+        150,
+        150,
+        80,
+        80
+      ],
+      [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ]
+    ]
+  },
+  "A0_strictly_longer_than_every_other_edge": true,
+  "hosted_T_density_contradiction": [
+    "H>=a: every A0 hosts an interior T",
+    "a>=H+b: each T and each B144.5 consumes a distinct A75",
+    "b>=H: each T consumes B40",
+    "b=0 then a=0 contradicts positive tile density"
+  ]
+}

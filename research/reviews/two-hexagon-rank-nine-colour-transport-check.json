@@ -1,0 +1,149 @@
+{
+  "status": "PASSED",
+  "balanced_words": 20,
+  "colour_bracelets": 3,
+  "small_censuses": [
+    [
+      "C",
+      "C",
+      96,
+      6
+    ],
+    [
+      "C",
+      "I",
+      48,
+      0
+    ],
+    [
+      "C",
+      "ALT",
+      2,
+      0
+    ],
+    [
+      "ALT",
+      "C",
+      0,
+      0
+    ],
+    [
+      "ALT",
+      "I",
+      0,
+      0
+    ],
+    [
+      "ALT",
+      "ALT",
+      2,
+      2
+    ]
+  ],
+  "CC_survivors": [
+    15,
+    26,
+    37,
+    58,
+    69,
+    80
+  ],
+  "CC_successor_maps": [
+    [
+      5,
+      1,
+      3,
+      2,
+      4,
+      0
+    ],
+    [
+      0,
+      4,
+      3,
+      2,
+      1,
+      5
+    ],
+    [
+      5,
+      4,
+      2,
+      3,
+      1,
+      0
+    ],
+    [
+      5,
+      1,
+      3,
+      2,
+      4,
+      0
+    ],
+    [
+      0,
+      4,
+      3,
+      2,
+      1,
+      5
+    ],
+    [
+      5,
+      4,
+      2,
+      3,
+      1,
+      0
+    ]
+  ],
+  "binary_equality_table_types": 12,
+  "angle_tori": [
+    [
+      "C",
+      "C",
+      12,
+      36
+    ],
+    [
+      "I",
+      "C",
+      6,
+      18
+    ],
+    [
+      "I",
+      "I",
+      24,
+      72
+    ],
+    [
+      "I",
+      "ALT",
+      12,
+      36
+    ],
+    [
+      "ALT",
+      "ALT",
+      6,
+      18
+    ]
+  ],
+  "alternating_metric_tori": [
+    [
+      0,
+      6,
+      18
+    ],
+    [
+      1,
+      6,
+      18
+    ]
+  ],
+  "reflection_safe_local_metric_cases": 2592,
+  "source_sha256": "d45dc1eb9b39d4619ae2158dcc81b0e7bc3b881619456372e06e9d9c7ba2db26",
+  "scope": "Exact finite colour/native torus records and binary fibre tables; infinite fibre lifting and Euclidean development are separate dependencies"
+}

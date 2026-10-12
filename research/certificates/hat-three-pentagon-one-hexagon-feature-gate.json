@@ -1,0 +1,768 @@
+{
+  "scope": "Changed four-piece hat cut, three strictly convex pentagons and one strictly convex hexagon. Two shape classes require all three pentagons congruent. No arbitrary source cut or unrestricted tiling recognition theorem.",
+  "polygons": {
+    "P6": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "(-1/2*root_three)*b",
+        "-1/2*b"
+      ],
+      [
+        "(-1/2*root_three)*b + 1/2",
+        "-1/2*b + (-1/2*root_three)"
+      ],
+      [
+        "(-1/2*root_three)*b + 5/2",
+        "-1/2*b + (-1/2*root_three)"
+      ],
+      [
+        "(-1/2*root_three)*b + 3",
+        "-1/2*b"
+      ]
+    ],
+    "P9": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "(-1/2*root_three)*b + 3",
+        "-1/2*b"
+      ],
+      [
+        "u",
+        "v"
+      ],
+      [
+        "1",
+        "b"
+      ],
+      [
+        "0",
+        "b"
+      ]
+    ],
+    "P48": [
+      [
+        "(-1/2*root_three)*b + 3",
+        "-1/2*b"
+      ],
+      [
+        "3",
+        "-b"
+      ],
+      [
+        "(1/2*root_three)*b + 3",
+        "-1/2*b"
+      ],
+      [
+        "(1/2*root_three)*b + 5/2",
+        "-1/2*b + (1/2*root_three)"
+      ],
+      [
+        "(1/2*root_three)*b + 3/2",
+        "-1/2*b + (1/2*root_three)"
+      ],
+      [
+        "u",
+        "v"
+      ]
+    ],
+    "P192": [
+      [
+        "u",
+        "v"
+      ],
+      [
+        "(1/2*root_three)*b + 3/2",
+        "-1/2*b + (1/2*root_three)"
+      ],
+      [
+        "(1/2*root_three)*b + 3/2",
+        "1/2*b + (1/2*root_three)"
+      ],
+      [
+        "3/2",
+        "b + (1/2*root_three)"
+      ],
+      [
+        "1",
+        "b"
+      ]
+    ]
+  },
+  "strict_support_inequalities": {
+    "P6": [
+      "b",
+      "2*b",
+      "3/2*b",
+      "b",
+      "(root_three)",
+      "(3/2*root_three)",
+      "b + (root_three)",
+      "(root_three)",
+      "(root_three)",
+      "-1/2*b + (3/2*root_three)",
+      "(3/2*root_three)",
+      "(root_three)",
+      "3/2*b",
+      "1/2*b + (3/2*root_three)",
+      "-1/2*b + (3/2*root_three)"
+    ],
+    "P9": [
+      "1/2*b*u + (-1/2*root_three)*b*v + 3*v",
+      "(-1/2*root_three)*b^2 + 7/2*b",
+      "(-1/2*root_three)*b^2 + 3*b",
+      "1/2*b*u + (-1/2*root_three)*b*v + 3*v",
+      "(1/2*root_three)*b^2 + 3/2*b*u + (-1/2*root_three)*b*v - 7/2*b + 2*v",
+      "(1/2*root_three)*b^2 + 3/2*b*u + (-1/2*root_three)*b*v - 3*b + 3*v",
+      "b*u - v",
+      "(1/2*root_three)*b^2 + 3/2*b*u + (-1/2*root_three)*b*v - 7/2*b + 2*v",
+      "b - v",
+      "b",
+      "3/2*b",
+      "b - v",
+      "(-1/2*root_three)*b^2 + 3*b",
+      "b*u",
+      "b"
+    ],
+    "P48": [
+      "(1/2*root_three)*b^2",
+      "(1/2*root_three)*b^2 + 1/2*b",
+      "(1/2*root_three)*b^2",
+      "(1/2*root_three)*b^2 + 1/2*b*u + (1/2*root_three)*b*v - 3/2*b",
+      "(1/2*root_three)*b^2",
+      "b",
+      "3/2*b",
+      "(1/2*root_three)*b^2 - 1/2*b*u + (1/2*root_three)*b*v + 3/2*b",
+      "3/2*b",
+      "b",
+      "(1/2*root_three)",
+      "1/2*b + (-1/2*root_three)*u - 1/2*v + (3/2*root_three)",
+      "(1/2*root_three)",
+      "1/2*b + (1/2*root_three)",
+      "(1/2*root_three)",
+      "-1/2*b - v + (1/2*root_three)",
+      "(1/2*root_three)*b^2 + (root_three)*b*v - 3/2*b + (-1/2*root_three)*u - 3/2*v + (3/2*root_three)",
+      "(1/2*root_three)*b^2 - 1/2*b*u + (1/2*root_three)*b*v + (-1/2*root_three)*u - 3/2*v + (3/2*root_three)",
+      "(-1/2*root_three)*u - 3/2*v + (3/2*root_three)",
+      "-1/2*b - v + (1/2*root_three)",
+      "(1/2*root_three)*b^2 + 1/2*b*u + (1/2*root_three)*b*v - 3/2*b",
+      "(1/2*root_three)*b^2 + (root_three)*b*v",
+      "(1/2*root_three)*b^2 + (root_three)*b*v - 1*b + (-1/2*root_three)*u - 1/2*v + (3/2*root_three)",
+      "(1/2*root_three)*b^2 + (root_three)*b*v - 3/2*b + (-1/2*root_three)*u - 3/2*v + (3/2*root_three)"
+    ],
+    "P192": [
+      "(1/2*root_three)*b^2 - 1*b*u + 3/2*b",
+      "(1/2*root_three)*b^2 - 3/2*b*u + (-1/2*root_three)*b*v + 3*b",
+      "(1/2*root_three)*b^2 - 3/2*b*u + (-1/2*root_three)*b*v + 2*b + (1/2*root_three)*u - 1/2*v + (-1/2*root_three)",
+      "(1/2*root_three)*b^2 - b*u + 3/2*b",
+      "(1/2*root_three)*b^2",
+      "(1/2*root_three)*b^2 + 1/2*b",
+      "(1/2*root_three)*b^2 - 1/2*b*u + (-1/2*root_three)*b*v + 3/2*b",
+      "(1/2*root_three)*b^2",
+      "b",
+      "1/2*b + (1/2*root_three)*u - 1/2*v + (-1/2*root_three)",
+      "3/2*b",
+      "b",
+      "(1/2*root_three)*b^2 - 3/2*b*u + (-1/2*root_three)*b*v + 2*b + (1/2*root_three)*u - 1/2*v + (-1/2*root_three)",
+      "(1/2*root_three)*b^2 - 1/2*b*u + (-1/2*root_three)*b*v + b + (1/2*root_three)*u - 1/2*v + (-1/2*root_three)",
+      "1/2*b + (1/2*root_three)*u - 1/2*v + (-1/2*root_three)"
+    ]
+  },
+  "strict_partition_sample": [
+    "sqrt3",
+    "2",
+    "-sqrt3/10"
+  ],
+  "sample_polygons": {
+    "P6": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "-3/2",
+        "-1/2*root_three"
+      ],
+      [
+        "-1",
+        "-root_three"
+      ],
+      [
+        "1",
+        "-root_three"
+      ],
+      [
+        "3/2",
+        "-1/2*root_three"
+      ]
+    ],
+    "P9": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "3/2",
+        "-1/2*root_three"
+      ],
+      [
+        "2",
+        "-1/10*root_three"
+      ],
+      [
+        "1",
+        "root_three"
+      ],
+      [
+        "0",
+        "root_three"
+      ]
+    ],
+    "P48": [
+      [
+        "3/2",
+        "-1/2*root_three"
+      ],
+      [
+        "3",
+        "-root_three"
+      ],
+      [
+        "9/2",
+        "-1/2*root_three"
+      ],
+      [
+        "4",
+        "0"
+      ],
+      [
+        "3",
+        "0"
+      ],
+      [
+        "2",
+        "-1/10*root_three"
+      ]
+    ],
+    "P192": [
+      [
+        "2",
+        "-1/10*root_three"
+      ],
+      [
+        "3",
+        "0"
+      ],
+      [
+        "3",
+        "root_three"
+      ],
+      [
+        "3/2",
+        "3/2*root_three"
+      ],
+      [
+        "1",
+        "root_three"
+      ]
+    ]
+  },
+  "sample_partition_checked": true,
+  "necessary_b_values": [
+    "1",
+    "2",
+    "sqrt3"
+  ],
+  "circle_cases": [
+    {
+      "b": "1",
+      "squared_Vh4": 1,
+      "squared_Vh11": 4,
+      "real_points": [
+        {
+          "u": "1.258479370489421?",
+          "v": "-0.9832267684335528?",
+          "u_minpoly": "x^4 - 362/37*x^3 + 1296/37*x^2 - 1988/37*x + 1078/37",
+          "v_minpoly": "x^4 + 26/37*x^3 + 8/37*x - 2/37",
+          "all_strict_convex": false,
+          "all_pentagons_congruent": false,
+          "failed_supports": [
+            {
+              "polygon": "P9",
+              "edge_start": 0,
+              "other_vertex": 2,
+              "support": "-1.468941260911612?",
+              "minpoly": "x^4 - 130/37*x^3 + 198/37*x^2 + 215/37*x - 2783/148"
+            },
+            {
+              "polygon": "P9",
+              "edge_start": 1,
+              "other_vertex": 0,
+              "support": "-1.468941260911612?",
+              "minpoly": "x^4 - 130/37*x^3 + 198/37*x^2 + 215/37*x - 2783/148"
+            },
+            {
+              "polygon": "P9",
+              "edge_start": 1,
+              "other_vertex": 3,
+              "support": "-1.861209718204200?",
+              "minpoly": "x^4 - 12"
+            },
+            {
+              "polygon": "P9",
+              "edge_start": 1,
+              "other_vertex": 4,
+              "support": "-2.344436486637752?",
+              "minpoly": "x^4 - 48/37*x^3 + 9/74*x^2 + 189/37*x - 21087/592"
+            },
+            {
+              "polygon": "P9",
+              "edge_start": 2,
+              "other_vertex": 1,
+              "support": "-1.861209718204200?",
+              "minpoly": "x^4 - 12"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 0,
+              "other_vertex": 5,
+              "support": "-0.8562342701151872?",
+              "minpoly": "x^4 + 68/37*x^3 - 64/37*x - 32/37"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 5,
+              "other_vertex": 1,
+              "support": "-0.8562342701151872?",
+              "minpoly": "x^4 + 68/37*x^3 - 64/37*x - 32/37"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 5,
+              "other_vertex": 2,
+              "support": "-0.8369733145042339?",
+              "minpoly": "x^4 + 54/37*x^3 - 9/74*x^2 - 189/74*x - 27/16"
+            }
+          ]
+        },
+        {
+          "u": "2.837605393600555?",
+          "v": "0.2105657611870691?",
+          "u_minpoly": "x^4 - 362/37*x^3 + 1296/37*x^2 - 1988/37*x + 1078/37",
+          "v_minpoly": "x^4 + 26/37*x^3 + 8/37*x - 2/37",
+          "all_strict_convex": false,
+          "all_pentagons_congruent": false,
+          "failed_supports": [
+            {
+              "polygon": "P48",
+              "edge_start": 4,
+              "other_vertex": 0,
+              "support": "-0.4444747867062517?",
+              "minpoly": "x^4 + 186/37*x^3 + 15/2*x^2 - 243/74*x - 1503/592"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 4,
+              "other_vertex": 1,
+              "support": "-0.5456327818617381?",
+              "minpoly": "x^4 + 118/37*x^3 - 108/37*x^2 - 746/37*x - 359/37"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 4,
+              "other_vertex": 2,
+              "support": "-0.1752107872011088?",
+              "minpoly": "x^4 - 90/37*x^3 - 93/74*x^2 - 81/74*x - 99/592"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 5,
+              "other_vertex": 4,
+              "support": "-0.4444747867062517?",
+              "minpoly": "x^4 + 186/37*x^3 + 15/2*x^2 - 243/74*x - 1503/592"
+            },
+            {
+              "polygon": "P192",
+              "edge_start": 0,
+              "other_vertex": 2,
+              "support": "-0.4715799898161158?",
+              "minpoly": "x^4 + 140/37*x^3 + 60/37*x^2 - 202/37*x - 383/148"
+            },
+            {
+              "polygon": "P192",
+              "edge_start": 0,
+              "other_vertex": 3,
+              "support": "-0.572737984971602?",
+              "minpoly": "x^4 + 72/37*x^3 - 495/74*x^2 - 621/37*x - 4239/592"
+            },
+            {
+              "polygon": "P192",
+              "edge_start": 0,
+              "other_vertex": 4,
+              "support": "-0.08660791257575424?",
+              "minpoly": "x^4 + 258/37*x^3 - 36/37*x^2 - 2118/37*x - 183/37"
+            },
+            {
+              "polygon": "P192",
+              "edge_start": 1,
+              "other_vertex": 0,
+              "support": "-0.4715799898161158?",
+              "minpoly": "x^4 + 140/37*x^3 + 60/37*x^2 - 202/37*x - 383/148"
+            },
+            {
+              "polygon": "P192",
+              "edge_start": 4,
+              "other_vertex": 1,
+              "support": "-0.08660791257575424?",
+              "minpoly": "x^4 + 258/37*x^3 - 36/37*x^2 - 2118/37*x - 183/37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "b": "1",
+      "squared_Vh4": 4,
+      "squared_Vh11": 1,
+      "real_points": [
+        {
+          "u": "0.2963692026150070?",
+          "v": "0.2894342388129309?",
+          "u_minpoly": "x^4 - 230/37*x^3 + 27/2*x^2 - 835/74*x + 37/16",
+          "v_minpoly": "x^4 - 100/37*x^3 + 189/74*x^2 - 46/37*x + 121/592",
+          "all_strict_convex": false,
+          "all_pentagons_congruent": false,
+          "failed_supports": [
+            {
+              "polygon": "P9",
+              "edge_start": 1,
+              "other_vertex": 3,
+              "support": "-1.861209718204200?",
+              "minpoly": "x^4 - 12"
+            },
+            {
+              "polygon": "P9",
+              "edge_start": 1,
+              "other_vertex": 4,
+              "support": "-1.071775479391269?",
+              "minpoly": "x^4 - 174/37*x^3 + 288/37*x^2 - 378/37*x - 27"
+            },
+            {
+              "polygon": "P9",
+              "edge_start": 2,
+              "other_vertex": 1,
+              "support": "-1.861209718204200?",
+              "minpoly": "x^4 - 12"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 0,
+              "other_vertex": 5,
+              "support": "-0.2351325913710478?",
+              "minpoly": "x^4 + 80/37*x^3 - 72/37*x^2 - 208/37*x - 44/37"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 5,
+              "other_vertex": 1,
+              "support": "-0.2351325913710478?",
+              "minpoly": "x^4 + 80/37*x^3 - 72/37*x^2 - 208/37*x - 44/37"
+            },
+            {
+              "polygon": "P192",
+              "edge_start": 3,
+              "other_vertex": 0,
+              "support": "-0.2540792648269706?",
+              "minpoly": "x^4 + 36/37*x^3 + 6/37*x^2 - 12/37*x - 3/37"
+            },
+            {
+              "polygon": "P192",
+              "edge_start": 4,
+              "other_vertex": 3,
+              "support": "-0.2540792648269706?",
+              "minpoly": "x^4 + 36/37*x^3 + 6/37*x^2 - 12/37*x - 3/37"
+            }
+          ]
+        },
+        {
+          "u": "1.875495225726141?",
+          "v": "1.483226768433553?",
+          "u_minpoly": "x^4 - 230/37*x^3 + 27/2*x^2 - 835/74*x + 37/16",
+          "v_minpoly": "x^4 - 100/37*x^3 + 189/74*x^2 - 46/37*x + 121/592",
+          "all_strict_convex": false,
+          "all_pentagons_congruent": false,
+          "failed_supports": [
+            {
+              "polygon": "P9",
+              "edge_start": 2,
+              "other_vertex": 4,
+              "support": "-0.4832267684335528?",
+              "minpoly": "x^4 - 48/37*x^3 + 33/74*x^2 + 9/37*x - 3/16"
+            },
+            {
+              "polygon": "P9",
+              "edge_start": 3,
+              "other_vertex": 2,
+              "support": "-0.4832267684335528?",
+              "minpoly": "x^4 - 48/37*x^3 + 33/74*x^2 + 9/37*x - 3/16"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 3,
+              "other_vertex": 5,
+              "support": "-1.117201364649114?",
+              "minpoly": "x^4 + 174/37*x^3 + 543/74*x^2 + 255/74*x - 183/592"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 4,
+              "other_vertex": 1,
+              "support": "-0.03820059949435683?",
+              "minpoly": "x^4 + 178/37*x^3 - 441/74*x^2 - 3391/74*x - 1031/592"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 4,
+              "other_vertex": 2,
+              "support": "-1.250990451452281?",
+              "minpoly": "x^4 + 90/37*x^3 - 129/74*x^2 - 675/74*x - 3771/592"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 4,
+              "other_vertex": 3,
+              "support": "-1.117201364649114?",
+              "minpoly": "x^4 + 174/37*x^3 + 543/74*x^2 + 255/74*x - 183/592"
+            },
+            {
+              "polygon": "P192",
+              "edge_start": 0,
+              "other_vertex": 3,
+              "support": "-0.2317294958413276?",
+              "minpoly": "x^4 - 72/37*x^3 - 126/37*x^2 - 54/37*x - 27/148"
+            },
+            {
+              "polygon": "P192",
+              "edge_start": 0,
+              "other_vertex": 4,
+              "support": "-1.215141773687275?",
+              "minpoly": "x^4 + 186/37*x^3 + 315/74*x^2 - 771/74*x - 7167/592"
+            },
+            {
+              "polygon": "P192",
+              "edge_start": 4,
+              "other_vertex": 1,
+              "support": "-1.215141773687275?",
+              "minpoly": "x^4 + 186/37*x^3 + 315/74*x^2 - 771/74*x - 7167/592"
+            },
+            {
+              "polygon": "P192",
+              "edge_start": 4,
+              "other_vertex": 2,
+              "support": "-0.3396465479611345?",
+              "minpoly": "x^4 + 104/37*x^3 + 42/37*x^2 - 64/37*x - 23/37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "b": "2",
+      "squared_Vh4": 1,
+      "squared_Vh11": 4,
+      "real_points": []
+    },
+    {
+      "b": "2",
+      "squared_Vh4": 4,
+      "squared_Vh11": 1,
+      "real_points": []
+    },
+    {
+      "b": "root_three",
+      "squared_Vh4": 1,
+      "squared_Vh11": 4,
+      "real_points": [
+        {
+          "u": "2",
+          "v": "0",
+          "u_minpoly": "x - 2",
+          "v_minpoly": "x",
+          "all_strict_convex": false,
+          "all_pentagons_congruent": true,
+          "failed_supports": [
+            {
+              "polygon": "P48",
+              "edge_start": 3,
+              "other_vertex": 5,
+              "support": "0",
+              "minpoly": "x"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 4,
+              "other_vertex": 3,
+              "support": "0",
+              "minpoly": "x"
+            }
+          ]
+        },
+        {
+          "u": "5/7",
+          "v": "-0.2474358296526968?",
+          "u_minpoly": "x - 5/7",
+          "v_minpoly": "x^2 - 3/49",
+          "all_strict_convex": false,
+          "all_pentagons_congruent": false,
+          "failed_supports": [
+            {
+              "polygon": "P9",
+              "edge_start": 1,
+              "other_vertex": 3,
+              "support": "-1.732050807568878?",
+              "minpoly": "x^2 - 3"
+            },
+            {
+              "polygon": "P9",
+              "edge_start": 1,
+              "other_vertex": 4,
+              "support": "-1.113461233437136?",
+              "minpoly": "x^2 - 243/196"
+            },
+            {
+              "polygon": "P9",
+              "edge_start": 2,
+              "other_vertex": 1,
+              "support": "-1.732050807568878?",
+              "minpoly": "x^2 - 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "b": "root_three",
+      "squared_Vh4": 4,
+      "squared_Vh11": 1,
+      "real_points": [
+        {
+          "u": "25/14",
+          "v": "1.113461233437136?",
+          "u_minpoly": "x - 25/14",
+          "v_minpoly": "x^2 - 243/196",
+          "all_strict_convex": false,
+          "all_pentagons_congruent": false,
+          "failed_supports": [
+            {
+              "polygon": "P48",
+              "edge_start": 3,
+              "other_vertex": 5,
+              "support": "-1.113461233437136?",
+              "minpoly": "x^2 - 243/196"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 4,
+              "other_vertex": 2,
+              "support": "-0.6185895741317419?",
+              "minpoly": "x^2 - 75/196"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 4,
+              "other_vertex": 3,
+              "support": "-1.113461233437136?",
+              "minpoly": "x^2 - 243/196"
+            },
+            {
+              "polygon": "P192",
+              "edge_start": 0,
+              "other_vertex": 4,
+              "support": "-0.1237179148263484?",
+              "minpoly": "x^2 - 3/196"
+            },
+            {
+              "polygon": "P192",
+              "edge_start": 4,
+              "other_vertex": 1,
+              "support": "-0.1237179148263484?",
+              "minpoly": "x^2 - 3/196"
+            }
+          ]
+        },
+        {
+          "u": "1/2",
+          "v": "0.866025403784439?",
+          "u_minpoly": "x - 1/2",
+          "v_minpoly": "x^2 - 3/4",
+          "all_strict_convex": false,
+          "all_pentagons_congruent": false,
+          "failed_supports": [
+            {
+              "polygon": "P9",
+              "edge_start": 1,
+              "other_vertex": 3,
+              "support": "-1.732050807568878?",
+              "minpoly": "x^2 - 3"
+            },
+            {
+              "polygon": "P9",
+              "edge_start": 1,
+              "other_vertex": 4,
+              "support": "0",
+              "minpoly": "x"
+            },
+            {
+              "polygon": "P9",
+              "edge_start": 2,
+              "other_vertex": 0,
+              "support": "0",
+              "minpoly": "x"
+            },
+            {
+              "polygon": "P9",
+              "edge_start": 2,
+              "other_vertex": 1,
+              "support": "-1.732050807568878?",
+              "minpoly": "x^2 - 3"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 3,
+              "other_vertex": 5,
+              "support": "-0.866025403784439?",
+              "minpoly": "x^2 - 3/4"
+            },
+            {
+              "polygon": "P48",
+              "edge_start": 4,
+              "other_vertex": 3,
+              "support": "-0.866025403784439?",
+              "minpoly": "x^2 - 3/4"
+            },
+            {
+              "polygon": "P192",
+              "edge_start": 3,
+              "other_vertex": 0,
+              "support": "0",
+              "minpoly": "x"
+            },
+            {
+              "polygon": "P192",
+              "edge_start": 4,
+              "other_vertex": 3,
+              "support": "0",
+              "minpoly": "x"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "strict_two_class_survivors": []
+}

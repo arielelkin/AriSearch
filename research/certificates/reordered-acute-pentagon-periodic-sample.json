@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "scope": "Exact positive strictly convex coordinate sample and open normalized two-parameter region, a slice of the homogeneous three-parameter length cone; periodic plane realization supplied by the separately checked four-face flat torus.",
+  "field": "Q(zeta720), exp(2*pi*i/720), evaluated exactly in QQbar/AA; display decimals are not used for proof",
+  "parameters": "A2=1,A1=t>0,A3=d>0; sample t=1/10,d=1/5",
+  "trig_definition": "Cj=cos(j*pi/360), Sj=sin(j*pi/360)",
+  "A_direction_doubled_degrees": [
+    0,
+    79,
+    289,
+    354,
+    490
+  ],
+  "B_direction_doubled_degrees": [
+    0,
+    71,
+    159,
+    425,
+    440
+  ],
+  "formulas": [
+    "A4=-(t*S79+S289+d*S354)/S490",
+    "A0=-(t*C79+C289+d*C354+A4*C490)",
+    "B0=1,B1=A0,B3=d",
+    "rx=-(B0+B1*C71+B3*C425), ry=-(B1*S71+B3*S425)",
+    "D=C159*S440-S159*C440",
+    "B2=(rx*S440-ry*C440)/D",
+    "B4=(C159*ry-S159*rx)/D",
+    "p0=(0,0); p_(i+1)=p_i+side_i*(C(direction_i),S(direction_i))"
+  ],
+  "A_lengths_display": [
+    "1.242006948298419?",
+    "1/10",
+    "1",
+    "1/5",
+    "0.7224675528036995?"
+  ],
+  "B_lengths_display": [
+    "1",
+    "1.242006948298419?",
+    "1.122706438497259?",
+    "1/5",
+    "2.672241614092052?"
+  ],
+  "A_vertices_display": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "1.242006948298419?",
+      "0"
+    ],
+    [
+      "1.319169406637191?",
+      "0.0636078220277764?"
+    ],
+    [
+      "0.5050538882808712?",
+      "0.6443107777387162?"
+    ],
+    [
+      "0.3053279813299565?",
+      "0.654777968987305?"
+    ]
+  ],
+  "B_vertices_display": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "0"
+    ],
+    [
+      "2.011137130516117?",
+      "0.721237105890416?"
+    ],
+    [
+      "2.215734128309083?",
+      "1.825143721296495?"
+    ],
+    [
+      "2.047055839146506?",
+      "1.717683799627130?"
+    ]
+  ],
+  "exact_closure_convexity_aliases": true,
+  "carrier_certificate": "research/certificates/reordered-acute-pentagon-four-face-carrier.json",
+  "periodic_domain": "2A+2B",
+  "normalized_parameter_region": "All lengths positive and every strict supporting determinant positive. These hold at the sample and persist in an open neighbourhood of(t,d)."
+}

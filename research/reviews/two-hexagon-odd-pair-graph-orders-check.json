@@ -1,0 +1,36 @@
+{
+  "status": "PASSED",
+  "all_degree_two_graphs": 388,
+  "odd_component_graphs": 268,
+  "component_family_counts": {
+    "5-1": 72,
+    "2-2-1-1": 45,
+    "3-2-1": 60,
+    "4-1-1": 45,
+    "2-1-1-1-1": 15,
+    "3-1-1-1": 20,
+    "3-3": 10,
+    "1-1-1-1-1-1": 1
+  },
+  "rooted_orders": 11850,
+  "stats": {
+    "EMPTY": 11739,
+    "BRANCHING": 34,
+    "FUNCTIONAL": 77
+  },
+  "ring_states_checked": 29736,
+  "valid_deletion_rounds": 1843,
+  "source_sha256": "5be8546512c93564cfa0bf18900737a7dc7eb39634f66f0d5c1504b7c29801ba",
+  "scope": "All eight odd-component degree-two pair-graph families and their rooted B pair-value orders; metric escape coverage separate",
+  "metric_branching_orders_checked": 34,
+  "old_representatives_dihedrally_transferred": 4,
+  "required_forced_metric_closures": 49,
+  "metric_verdicts": {
+    "PERIODIC_ESCAPE": 49
+  },
+  "periodic_tori_checked": 49,
+  "metric_sha256": "285949749a34fe009a404ef028de6e7b441c63c1f936d4478da453cf7892835f",
+  "residue_sha256": "3a2a122ba00b8aeb3009e4e0b7c3cebd1f5b7f0e30c4cab9c0678877fbf84f16",
+  "old_census_sha256": "054e058f00929bcab78c262236504e50cd490a5cebc8180deb820bddf0008a6a",
+  "old_metric_sha256": "87d0c11377a67d5beb5b6143bac174a1cfa08aa607e3d60012cf73c3e627e87f"
+}

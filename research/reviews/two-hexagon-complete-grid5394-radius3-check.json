@@ -1,0 +1,26 @@
+{
+  "status": "PASSED",
+  "certificate_sha256": "d18bf7a3c5cb1d98ea181b056413976e057d7e49083b02ffb4de6b9b871bcbc2",
+  "source_tori_checked": 695,
+  "direct_supports": 38,
+  "symmetry_supports": 554,
+  "symmetries": 288,
+  "exact_refinements_checked": 0,
+  "query_status": "UNKNOWN",
+  "angle_grid": 5394,
+  "initial_refinements": 0,
+  "new_refinements": 0,
+  "analytic_empty_region_checked": {
+    "region_size": 195,
+    "distinct_symmetry_regions": 144,
+    "radius12_cells": 469,
+    "complete_stars": 864,
+    "boundary_corner_incidences": 222,
+    "contradiction": [
+      469,
+      444
+    ]
+  },
+  "finite_residual_checked": false,
+  "scope": "Retained torus supports and rational/equality implications only; no CP-SAT replay or plane-tilability claim"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "PASSED",
+  "six_tile_pairs_clipped": 15,
+  "adjacent_strip_tile_pairs_clipped": 36,
+  "atomic_boundary_edges": 18,
+  "fully_occupied_native_a_edges": 6,
+  "strip_shared_c_edges": 1,
+  "nonadjacent_strip_separation": "Exact projection width less than twice the period norm",
+  "full_c_B_a_bridge_attempts": [
+    {
+      "A_index": 2,
+      "blocked_by_A": [
+        {
+          "strip_shift": -1,
+          "A_index": 3,
+          "intersection_area_twice": "-226/9*root_three + 45"
+        }
+      ]
+    },
+    {
+      "A_index": 3,
+      "blocked_by_A": []
+    },
+    {
+      "A_index": 4,
+      "blocked_by_A": [
+        {
+          "strip_shift": 1,
+          "A_index": 5,
+          "intersection_area_twice": "-226/9*root_three + 45"
+        }
+      ]
+    },
+    {
+      "A_index": 5,
+      "blocked_by_A": []
+    }
+  ],
+  "surviving_B_bridge_pair_overlaps": [],
+  "source_sha256": "6728c86667e3a752dca2f30d394f8c5a92f12c0e1147d532d060e1c2a84c8651",
+  "scope": "Six-A cap arrest, one-dimensional strip, and specific full-c/B-a attachment obstruction only; no plane tiling or forcing"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASSED",
+  "direct_metric_tori": 7,
+  "index_per_torus": 3,
+  "canonical_native_stars": 42,
+  "directed_native_seams": 126,
+  "extra_side_equalities": 0,
+  "source_sha256": "39225cd3e661bd9baba07ce9f7f25346efc2bfb9a0e59510a0bb6471011cbe88",
+  "scope": "Seven direct positive witnesses only; complete metric-domain and negative transport coverage is checked separately"
+}

@@ -1,0 +1,364 @@
+{
+  "status": "NO_POSITIVE_TWOFACE_MODEL",
+  "mode": "module",
+  "backend": "field",
+  "case_records": [
+    {
+      "split_sides": [
+        1,
+        1
+      ],
+      "lattice": [
+        1,
+        0,
+        2
+      ],
+      "A_placement": [
+        0,
+        1
+      ],
+      "B_placement": [
+        0,
+        1
+      ],
+      "side_equations": [
+        "cA - dA + r*hA",
+        "dA - hB",
+        "cA + 2*dA + r*eA + (-r)*cB",
+        "dB - hA",
+        "(1/3*r)*cA + (2/3*r - 1)*dA + eA - eB",
+        "cA + (-1/3*r)*cB + (-2/3*r)*dB - eB",
+        "cB - dB + r*hB"
+      ],
+      "reason": "ALL_16_EXACT_SIGN_CONES_EMPTY_OR_ZERO_MARGIN",
+      "status": "UNSAT_EXACT_FIELD"
+    },
+    {
+      "split_sides": [
+        1,
+        1
+      ],
+      "lattice": [
+        1,
+        0,
+        2
+      ],
+      "A_placement": [
+        0,
+        1
+      ],
+      "B_placement": [
+        2,
+        -1
+      ],
+      "side_equations": [
+        "cB - hA",
+        "dA + (-1/3*r)*cB + (-2/3*r)*dB - eB",
+        "cA - dA + r*hA",
+        "(1/3*r)*cA + (2/3*r - 1)*dA + eA - eB",
+        "cA + (-1/3*r)*cB + (-2/3*r)*dB - eB",
+        "cB - dB + r*hB",
+        "cA + 2*dA + r*eA + (-r)*dB",
+        "cA - hB"
+      ],
+      "reason": "FORCED_ZERO_POSITIVE_FORM",
+      "form": "cA",
+      "status": "UNSAT_EXACT_FIELD"
+    },
+    {
+      "split_sides": [
+        1,
+        1
+      ],
+      "lattice": [
+        1,
+        0,
+        2
+      ],
+      "A_placement": [
+        2,
+        1
+      ],
+      "B_placement": [
+        2,
+        1
+      ],
+      "side_equations": [
+        "cA - dA + (-r)*eA + r*eB + r*hA",
+        "dA - hA",
+        "cA + 2*dA + r*eA + (-r)*cB",
+        "(1/3*r)*cA + (2/3*r - 1)*dA + eA - eB",
+        "cA + (-1/3*r)*cB + (-2/3*r)*dB - eB",
+        "dB - hB",
+        "eA + (1/3*r)*cB + (-1/3*r)*dB - eB + hB"
+      ],
+      "reason": "FORCED_ZERO_POSITIVE_FORM",
+      "form": "cA",
+      "status": "UNSAT_EXACT_FIELD"
+    },
+    {
+      "split_sides": [
+        1,
+        4
+      ],
+      "lattice": [
+        1,
+        0,
+        2
+      ],
+      "A_placement": [
+        0,
+        1
+      ],
+      "B_placement": [
+        5,
+        1
+      ],
+      "side_equations": [
+        "dA + (-1/3*r)*cB + (-2/3*r)*dB - eB",
+        "cB - dB + (-r)*eB + r*hB",
+        "cA - dA + r*hA",
+        "cA + 2*dA + r*eA + (-r)*cB",
+        "dB - hA",
+        "(1/3*r)*cA + (2/3*r - 1)*dA + eA - eB",
+        "cA - eB + hB",
+        "cA + (-1/3*r)*cB + (-2/3*r)*dB - eB"
+      ],
+      "reason": "FORCED_ZERO_POSITIVE_FORM",
+      "form": "cA",
+      "status": "UNSAT_EXACT_FIELD"
+    },
+    {
+      "split_sides": [
+        1,
+        4
+      ],
+      "lattice": [
+        1,
+        0,
+        2
+      ],
+      "A_placement": [
+        0,
+        1
+      ],
+      "B_placement": [
+        1,
+        -1
+      ],
+      "side_equations": [
+        "cB - hA",
+        "dA - eB + hB",
+        "cB - dB + (-r)*eB + r*hB",
+        "cA - dA + r*hA",
+        "(1/3*r)*cA + (2/3*r - 1)*dA + eA - eB",
+        "cA + (-1/3*r)*cB + (-2/3*r)*dB - eB",
+        "cA + 2*dA + r*eA + (-r)*dB"
+      ],
+      "reason": "ALL_16_EXACT_SIGN_CONES_EMPTY_OR_ZERO_MARGIN",
+      "status": "UNSAT_EXACT_FIELD"
+    },
+    {
+      "split_sides": [
+        1,
+        4
+      ],
+      "lattice": [
+        1,
+        0,
+        2
+      ],
+      "A_placement": [
+        2,
+        1
+      ],
+      "B_placement": [
+        5,
+        -1
+      ],
+      "side_equations": [
+        "cA - dA + (-r)*eA - cB + dB + r*eB + r*hA",
+        "cB - eB + hB",
+        "eA - hB",
+        "dA - hA",
+        "(1/3*r)*cA + (2/3*r - 1)*dA + eA - eB",
+        "cA + (-1/3*r)*cB + (-2/3*r)*dB - eB",
+        "cA + 2*dA + r*eA + (-r)*dB"
+      ],
+      "reason": "ALL_16_EXACT_SIGN_CONES_EMPTY_OR_ZERO_MARGIN",
+      "status": "UNSAT_EXACT_FIELD"
+    },
+    {
+      "split_sides": [
+        4,
+        1
+      ],
+      "lattice": [
+        1,
+        0,
+        2
+      ],
+      "A_placement": [
+        0,
+        1
+      ],
+      "B_placement": [
+        5,
+        1
+      ],
+      "side_equations": [
+        "cA - dA + (-r)*eA + r*cB",
+        "cA - eA + hA",
+        "cA + 2*dA + r*eA + cB - dB + (-r)*eB + r*hB",
+        "(1/3*r)*cA + (2/3*r - 1)*dA + eA - eB",
+        "cB + 2*dB + r*eB + (-r)*hA",
+        "cA + (-1/3*r)*cB + (-2/3*r)*dB - eB",
+        "dB - hB",
+        "dA - eB"
+      ],
+      "reason": "FORCED_ZERO_POSITIVE_FORM",
+      "form": "cA",
+      "status": "UNSAT_EXACT_FIELD"
+    },
+    {
+      "split_sides": [
+        4,
+        1
+      ],
+      "lattice": [
+        1,
+        0,
+        2
+      ],
+      "A_placement": [
+        0,
+        1
+      ],
+      "B_placement": [
+        1,
+        -1
+      ],
+      "side_equations": [
+        "eB - hA",
+        "dA + (-1/3*r)*cB + (-2/3*r)*dB - eB",
+        "cA - eA + hA",
+        "cA + 2*dA + r*eA + (-r)*cB",
+        "(1/3*r)*cA + (2/3*r - 1)*dA + eA - eB",
+        "cA + (-1/3*r)*cB + (-2/3*r)*dB - eB",
+        "dB - hB",
+        "cA - dA + (-r)*eA - cB + dB + r*eB + (-r)*hB"
+      ],
+      "reason": "FORCED_ZERO_POSITIVE_FORM",
+      "form": "cA",
+      "status": "UNSAT_EXACT_FIELD"
+    },
+    {
+      "split_sides": [
+        4,
+        1
+      ],
+      "lattice": [
+        1,
+        0,
+        2
+      ],
+      "A_placement": [
+        2,
+        1
+      ],
+      "B_placement": [
+        3,
+        1
+      ],
+      "side_equations": [
+        "dA - hB",
+        "eA - cB - hA",
+        "cA - dA + (-r)*eA + r*hA",
+        "(1/3*r)*cA + (2/3*r - 1)*dA + eA - eB",
+        "cA + (-1/3*r)*cB + (-2/3*r)*dB - eB",
+        "cB - dB + r*hB",
+        "cA + 2*dA + r*eA + (-r)*dB"
+      ],
+      "reason": "FORCED_ZERO_POSITIVE_FORM",
+      "form": "eA",
+      "status": "UNSAT_EXACT_FIELD"
+    },
+    {
+      "split_sides": [
+        4,
+        4
+      ],
+      "lattice": [
+        1,
+        0,
+        2
+      ],
+      "A_placement": [
+        0,
+        1
+      ],
+      "B_placement": [
+        0,
+        1
+      ],
+      "side_equations": [
+        "cB - eB + hB",
+        "dA + (-1/3*r)*cB + (-2/3*r)*dB - eB",
+        "cA - eA + hA",
+        "cB - dB + (-r)*eB + r*hA",
+        "cA - dA + (-r)*eA + r*hB",
+        "(1/3*r)*cA + (2/3*r - 1)*dA + eA - eB",
+        "cA + (-1/3*r)*cB + (-2/3*r)*dB - eB",
+        "cA + 2*dA + r*eA + (-r)*dB"
+      ],
+      "reason": "FORCED_ZERO_POSITIVE_FORM",
+      "form": "cA",
+      "status": "UNSAT_EXACT_FIELD"
+    },
+    {
+      "split_sides": [
+        4,
+        4
+      ],
+      "lattice": [
+        1,
+        0,
+        2
+      ],
+      "A_placement": [
+        2,
+        1
+      ],
+      "B_placement": [
+        4,
+        -1
+      ],
+      "side_equations": [
+        "dA - eB + hB",
+        "cB - dB + (-r)*eB + r*hB",
+        "cA + 2*dA + r*eA + (-r)*cB",
+        "cA - dA + (-r)*eA + r*hA",
+        "(1/3*r)*cA + (2/3*r - 1)*dA + eA - eB",
+        "cA + (-1/3*r)*cB + (-2/3*r)*dB - eB",
+        "eA - dB - hA"
+      ],
+      "reason": "FORCED_ZERO_POSITIVE_FORM",
+      "form": "eA",
+      "status": "UNSAT_EXACT_FIELD"
+    }
+  ],
+  "bounded_domain": "25splitchoices x3index2HNF x144rotated/reflectedlabelpairs;exactsideandcutconstraints",
+  "cases_visited": 10800,
+  "full_cases": 10800,
+  "enumeration_complete": true,
+  "complete": true,
+  "stats": {
+    "angle_cases": 288,
+    "length_queries": 11,
+    "unsat": 11,
+    "unknown": 0
+  },
+  "witness": null,
+  "seconds": 9.505,
+  "proof_scope": "Finite two-face weak-hex model only; negative not global. Positive requires independent flat-development/geometry witness review."
+}

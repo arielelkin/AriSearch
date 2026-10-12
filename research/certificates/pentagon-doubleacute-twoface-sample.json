@@ -1,0 +1,18 @@
+{
+  "status": "NO_POSITIVE_TWOFACE_MODEL",
+  "mode": "sample",
+  "bounded_domain": "25splitchoices x3index2HNF x144rotated/reflectedlabelpairs;exactsideandcutconstraints",
+  "cases_visited": 10800,
+  "full_cases": 10800,
+  "complete": true,
+  "stats": {
+    "angle_cases": 288,
+    "length_queries": 24,
+    "unsat": 24,
+    "unknown": 0
+  },
+  "witness": null,
+  "seconds": 0.648,
+  "proof_scope": "Finite two-face weak-hex model only; negative not global. Positive requires independent flat-development/geometry witness review.",
+  "enumeration_complete": true
+}

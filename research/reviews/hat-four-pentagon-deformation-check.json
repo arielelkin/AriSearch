@@ -1,0 +1,14 @@
+{
+  "status": "PASSED",
+  "source_sha256": "7816fac103f851957d7234b18fd434af1b4d3b4914b73a4fa581f82542ca5a1c",
+  "pair_distance_systems": 30,
+  "unit_ideals": 24,
+  "sole_point_correspondences": 6,
+  "sole_parameter_point": [
+    "sqrt(3)",
+    "2"
+  ],
+  "all_four_strict_convex_at_sole_point": true,
+  "sole_point_exact_partition_and_congruence": true,
+  "scope": "Explicitfourpentagonboundarywords only; degenerations reduce<=4intrinsiccorners or invalidtiles; no sourceforcing assumption"
+}

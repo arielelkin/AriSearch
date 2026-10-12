@@ -1,0 +1,20 @@
+{
+  "status": "PASSED",
+  "full_domain_rows": [
+    {
+      "B": "I",
+      "closures": 105,
+      "native_rings_excluded": 12288,
+      "rank_strata": {
+        "NO_NONZERO_VECTOR_ALL_ADMISSIBLE_ANGLES": 12240,
+        "GENERIC_KERNEL": 48
+      },
+      "generic_nullity_one_closures": 1
+    }
+  ],
+  "exceptional_points_checked": 0,
+  "sign_intervals_checked": 2,
+  "source_sha256": "eb07d90ffe31e14e18caf4ec86cb7dcffa8b54591072e1ba1ac9553dced529c6",
+  "local_ledger_sha256": "71b337fd19ead0113bf3ffe9e1aef0a6d2414aa93b9ee48806a7e35e457e962b",
+  "scope": "All native local rings in the explicitly checked rows impossible at every admissible angle; no conclusion for I/ALT"
+}

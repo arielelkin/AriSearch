@@ -2,9 +2,18 @@
 
 **Problem status: unresolved.** No exact aperiodic pair or complete unrestricted
 impossibility theorem meets [the acceptance criteria](research-problem.md).
-**Checkpoint: 2026-10-12. All research agents and routes are paused.** The last
-bounded audit/construction batch is complete; no research search was found
-running at this checkpoint. Verification below does not resume the research.
+**Checkpoint: 2026-10-12, after the completed independent audits.**
+The unique-B-star and complete complementary-angle hexagon families admit
+periodic escapes whenever tileable. The original acute/obtuse pentagon native
+words are untileable at every metric; the reordered words have an exact
+three-equality tileability criterion and a four-tile periodic carrier.
+These are restricted family results, not a global impossibility theorem.
+
+The next proposed mechanism is a single cross-palette side equality allowing
+an AAB-to-AAA interface in the generic ternary hexagon language. An exact
+convex A seed is retained, but no B pair, infinite covering or forcing proof
+exists. Begin with the local transition-edge successor lemma in the
+[regroup note](research/searches/regroup-smallest-unresolved-contact-mechanisms.md).
 
 Follow [main_prompt.md](main_prompt.md) and [research-protocol.md](research-protocol.md).
 Run shell tools through Conda `arisearch`. Rotations, reflections, partial
@@ -14,15 +23,186 @@ recognizes Healey 2011 as the three-convex-tile benchmark under its stated
 conventions. The repository's Ammann proof is a verification/strengthening,
 not a new three-tile discovery. No fresh literature search is claimed here.
 
-## Current portfolio and restart gates
+## Current audited results (2026-10-12)
+
+The audit round is complete. The reviewed family closures below do not resolve
+the unrestricted problem. Solver caps and UNKNOWN outcomes remain individual
+computational records, not mathematical negative results.
+
+### Reviewed general tools
+
+- [Full-state one-B ring reduction](research/lemmas/two-hexagon-one-b-ring-spatial-reduction.md):
+  exact species coset and overlap lifting; sound finite pruning; one functional
+  direction gives a genuine period. The two-basis full-period index bound is
+  an upper bound. Complete-wheel propagation explicitly checks diagonal and
+  inverse identities. The full-A-tuple quotient forgets only central B labels
+  and supplies periodic escapes via canonical lifts. Independent reviews VALID.
+- [Periodic binary equality fibre](research/lemmas/periodic-binary-equality-fibre-lifting.md):
+  signed-cycle translation gains give a finite periodic cover whenever a
+  periodic binary side-matching fibre has any solution. Pins and nonprimitive
+  rank-one stabilizers are included; twice the base period need not suffice.
+  Fresh review VALID.
+- [Hosted-contact corner capacity](research/lemmas/hosted-partial-contact-corner-capacity-obstruction.md):
+  forced hosted flat stars can exhaust native A/B corners. Finite-window
+  resource injections contradict area growth without FLC or density assumptions.
+  Fresh review VALID.
+- [Shortest side with non-flat endpoints](research/lemmas/shortest-side-nonflat-endpoint-obstruction.md):
+  a minimum side whose endpoints cannot lie on flat stars must whole-match an
+  equal-length side. Fresh review VALID.
+
+### Completed unique-B-star hexagon family
+
+[Whole geometric theorem](research/lemmas/two-hexagon-unique-b-star-impossibility.md)
+is independently VALID: when every exact triple is2A+1B and each B corner
+has one allowed A pair, tileability implies a periodic escape for arbitrary
+actual metrics, irrational angles, reflections and original partial contacts.
+Corner balance and exact closure give268 graphs/eight component types and
+11850 native orders. Complete census:11739 empty,77 functional,34 branching
+covered by49 forced-metric periodic witnesses. The600 two-triangle subset is
+fully covered. The12 hardest residues also have independently checked unique
+wheels and commuting finite actions. Additional triples/multiple pair options
+are outside this theorem. [Graph domain](research/lemmas/two-hexagon-unique-b-pair-graph-classification.md).
+[Bounded literature refresh](research/literature/two-hexagon-one-b-spatial-boundary.md)
+makes no priority claim.
+
+### Complementary two-angle hexagons: broad restricted family
+
+[Whole-family native-word synthesis](research/lemmas/two-hexagon-complementary-angle-native-word-reduction.md)
+uses A angles3p+3(240-p), B angles3(360-2p)+3(2p-120),90<p<150,p!=120.
+Its exact triple set has36 same-colour AAB stars, allowing multiple A pairs
+per B corner. Native words are C=000111,I=001011,ALT=010101.
+
+All nine native pairs are now independently discharged: four direct colour
+empties, C/C periodic binary lifting, I/C and I/I geometric/spatial emptiness,
+and all-metric I/ALT and ALT/ALT periodic escapes or emptiness. The full
+ALT/ALT audit passed after its parameter provenance correction; the whole-family
+synthesis has a fresh VALID review.
+
+The corrected [I/C and I/I proof](research/lemmas/two-hexagon-interleaved-symbolic-closure-obstruction.md)
+is VALID. Initial B=C direction coefficients were wrong; the old certificate
+is explicitly withdrawn. Corrected matrices, exceptional roots/sign partitions
+and96 residual native rings (all removed in one sound triangle round) were
+independently reconstructed. The withdrawn local-only C claim is not used.
+
+[All-metric I/ALT theorem](research/lemmas/two-hexagon-interleaved-alternating-all-metric-escape.md)
+is fully independently checked:123 empty metric words,12 index-six native
+tori,1 index-nine torus for equal odd A lengths. All even A lengths remain
+independent. The last case also has a reviewed actual whole-plane
+[triangular carrier](research/lemmas/two-hexagon-interleaved-alternating-equal-odd-carrier.md).
+The [private seams and complete AB alphabet](research/lemmas/two-hexagon-interleaved-alternating-private-seams.md)
+include merged lengths and all reflections.
+
+[All-metric ALT/ALT synthesis](research/lemmas/two-hexagon-alternating-all-metric-escape.md)
+has passed independent complete-chain replay of the exact finite reductions:203 A-side
+partitions/39628 necessary B words;137 A-only impossible partitions; all270
+three-length joint cases impossible;20970 remaining words collapse under
+colour-preserving D3 symmetries to685 joint geometry orbits;628 are uniformly
+excluded by actual-class kernel equalities. The separately reviewed
+[six-distinct-A-side local theorem](research/lemmas/two-hexagon-alternating-distinct-a-sides-obstruction.md)
+removes all900 all-distinct word cases. Remaining37 orbits/828 words have
+30 empty native cores and7 functional six-state cores. Raw states, intrinsic
+profile aliases, all native constraints and deletion records are retained.
+Seven direct index-three finite-action periodic witnesses are retained;
+all seven have passed independent verification. ALT-specific matrices use
+t=tan((120-p)/2), correcting the documented sign without changing matrices
+or outcomes over the symmetric angle domain. No native
+559872-state angle search or SAT negative premise was needed.
+
+This is a restricted angle-family closure, not the global two-convex-tile
+impossibility theorem. Other angle types and all general pentagon pairs remain.
+
+### Ternary-angle extension
+
+[Generic ternary star balance](research/lemmas/two-hexagon-ternary-angle-star-balance.md)
+and [opposite-angle A endpoint-palette obstruction](research/lemmas/two-hexagon-ternary-opposite-a-palette-obstruction.md)
+have a fresh VALID review. The former includes pure AAA/BBB stars and identifies
+how these escape the earlier one-B coset reduction. For A native word012012,
+when each A side-length class has a fixed endpoint-colour pair, propagation
+eliminates mixed AAA stars and the remaining B ring would require a two-colour
+B word, contradicting two corners of each of three colours. Thus tileability
+implies a periodic escape in this metric domain. Cross-palette equal lengths
+and other A native words remain open.
+
+### Parallel construction: exact features and immediate failures
+
+[Acute long-edge track](research/searches/acute-long-edge-construction-track.md)
+retains the positive double-acute family, actual reflected modules and six-tile
+periodic strip. Its cap operation arrests; of four natural full-c/B-a bridges,
+two overlap neighboring-period A tiles and two fit locally. No plane covering
+or unrestricted forcing survives. The old single-acute cap has a reviewed
+zero-intensity corner-budget obstruction.
+
+Hat compiler gates: the fixed eight-kite convex subsets and the horizontal
+four-pentagon deformation are independently killed by monohedral periodic
+escapes. The changed three-pentagon/one-hexagon cut has a valid convex partition
+cone but no two-class point (six circle systems/eight points; review VALID).
+Reflex native corners kill boundary-junction shifts before enumeration.
+Two-interior-junction 2p2h cuts also have real convex partition samples, but
+necessary side inventories eliminate their two-class metrics: the interior-T
+branch has four nonconvex points (fresh review VALID); the horizontal branch
+has an analytic angle/reflex contradiction (fresh independent review VALID).
+
+[Acute/obtuse native-word obstruction](research/lemmas/acute-obtuse-native-word-untileability.md)
+now excludes A=(65,140.5,147.5,75,112), B=(40,144.5,136,47,172.5)
+at ALL actual side metrics. The proof excludes one full star geometrically,
+then uses native side continuations and finite-window corner injections to
+contradict area growth. Arbitrary partial contacts, reflections and all
+possible vertex valences are included; no density assumption is needed.
+Both the hostile review and a separate fresh independent audit are VALID.
+The exact local caps remain valid patches, without infinite extensions.
+
+[Reordered pentagon tileability criterion](research/lemmas/reordered-acute-pentagon-four-face-periodic-carrier.md)
+closes A=(65,140.5,75,147.5,112), keeping B unchanged. Tileability is equivalent
+to A0=B1,A2=B0,A3=B3; every such actual metric admits a periodic four-tile
+plane tiling. Pointwise exclusion of the flat star forces whole contacts;
+native continuation then forces those aliases. An initial host table omitted
+eligible host endpoints ending inside outer rays. The repaired five-host
+argument and full actual-metric flat-torus development passed a fresh
+independent review. A separate exact strictly convex positive sample has also passed independent
+review: exact closure, native angles, positivity, all30 strict supports and
+the three aliases hold. The normalized two-parameter periodic metric region
+is nonempty and open (a slice of the homogeneous length cone). This is a completed family closure,
+not an active aperiodic construction.
+
+The reviewed general six-piece convex-pentagon dissection theorem remains
+stronger than the new angle-specific small-child cross-check. A new reviewed
+[positive-conjugate substitution obstruction](research/lemmas/two-pentagon-positive-conjugate-substitution-obstruction.md)
+excludes direct linear golden and silver inflation for ANY two convex
+pentagons: positive quadratic conjugate forces positive replacement determinant,
+which excludes one-child images and hence requires area inflation>=6.
+No substitution claim replaces existence and forcing obligations.
+
+### Replay coverage and next research obligation
+
+The completed independent checks used by the main family closures and the
+double-acute construction record are registered for nondestructive replay.
+Additional historical and duplicate controls remain separately retained.
+Targeted checks passed without overwriting retained certificates.
+The full historical suite was not rerun. The complete ALT chain, whole
+nine-case hexagon synthesis, and repaired pentagon carrier audits are finished
+with VALID verdicts. The registered checks have nondestructive outputs and passed their recorded
+replays.
+
+[Regroup note](research/searches/regroup-smallest-unresolved-contact-mechanisms.md)
+identifies a next narrow mechanism: one cross-palette A-side equality can
+permit an AAB-to-AAA interface in the generic ternary hexagon language.
+It supplies an exact convex A seed, but no B pair, infinite covering or
+forcing proof. The next proposed step is a local transition-edge successor
+lemma before enumeration. Construction still needs BOTH infinite existence
+and shape-only forcing, including all reflected and unintended contacts.
+
+## Retained earlier portfolio and restart gates
+
+These preserve earlier scoped results and unresolved obligations. The current
+priority and latest audited conclusions are stated above.
 
 | Mechanism / status | Strongest retained result | Remaining obligation / exact restart |
 | --- | --- | --- |
-| **Global two-hexagon route — paused, incomplete whole-class analysis** | The repaired SFT reduction has a [VALID fresh rereview](research/reviews/two-hexagon-global-repaired-reduction-rereview.md), conditional on reviewed structural dependencies. A single physical translation is preserved in a defect-free translated limit; the original tiling is not asserted defect-free. All **316 stored covering types of rank ≤3** have final UNSAT queries, **695 independently checked torus records**, and a second one-hot encoding giving 316 INFEASIBLE outcomes. The 100 partition types are a subset; the 216 extra rank-three types are already checked. | Rank **4..10** remains unenumerated. Continue from **all 27,373 stored flats**, including noncovering parents; minimal covering roots need not have a covering ancestor. First measure inherited escape coverage. Stored ranks/closures were independently checked, but exhaustive regeneration of the flat enumeration was not. Solver infeasibility proof logs are absent. Angle-box feasibility is not joint polygon/side realizability. [Census and replay](research/lemmas/two-hexagon-global-census.md), [audit](research/reviews/two-hexagon-reduction-and-census-audit.md). |
-| **Ammann three-to-two collapse — closed on the recorded domain** | Exact reconstruction has a unique computed admissible two-class point, J at the circumcentre of BCD; the centrally symmetric hexagon tiles alone, so that candidate is **Falsified**. The point has an [independent exact root check](research/reviews/verify_ammann_two_class_collapse_point_root.sage). The generalized ≤2-interior-point/9,604-rhomb-pair search found no further free-angle candidate. | Exhaustiveness of the collapse classification still lacks an independent hostile review. More points, edge endpoints and neighbour-dependent decorations are outside the domain. Generic three-shape forcing is now separately reviewed. [Search record](research/searches/ammann-two-class-search.md), [coordinates](research/lemmas/ammann-two-class-reconstruction.md). |
+| **Global two-hexagon route — active inherited-escape/analytic-obstruction analysis** | The repaired SFT reduction has a [VALID fresh rereview](research/reviews/two-hexagon-global-repaired-reduction-rereview.md), conditional on reviewed structural dependencies. A single physical translation is preserved in a defect-free translated limit; the original tiling is not asserted defect-free. All **316 stored covering types of rank ≤3** have final UNSAT queries, **695 independently checked torus records**, and a second one-hot encoding giving 316 INFEASIBLE outcomes. The 100 partition types are a subset; the 216 extra rank-three types are already checked. | Rank **4..10** remains unenumerated. Continue from **all 27,373 stored flats**, including noncovering parents; minimal covering roots need not have a covering ancestor. Inherited coverage now extracted as 38 direct/554 symmetry supports; first 20-query refinement batch is inconclusive. Analytic corner potential supplies a reviewed 195-triple radius-12 empty region and a minimal rank-five covering root. Continue closure refinement from retained implications and retain noncovering parents. Stored ranks/closures were independently checked, but exhaustive regeneration of the flat enumeration was not. Solver infeasibility proof logs are absent. Angle-box feasibility is not joint polygon/side realizability. [Census and replay](research/lemmas/two-hexagon-global-census.md), [audit](research/reviews/two-hexagon-reduction-and-census-audit.md). |
+| **Ammann three-to-two collapse — closed on the recorded domain** | Among the reconstructed-family strata with five-or-more-corner tiles, the unique computed admissible two-class point is J at the circumcentre of BCD; its centrally symmetric hexagon tiles alone, so that candidate is **Falsified**. Periodic-killed small-polygon strata are excluded from this uniqueness claim. The point has an [independent exact root check](research/reviews/verify_ammann_two_class_collapse_point_root.sage). The generalized ≤2-interior-point/9,604-rhomb-pair search found no further free-angle candidate. | Original reconstructed-family candidate exclusion now independently VALID via 130 full-distance systems. Literal uniqueness on periodic-killed small-polygon boundary strata is unclassified. Generalized exhaustiveness remains UNRESOLVED: negative graph/unit-ideal cases, sampled collinearity signs and slit convention. All 38 stored real-point rows independently checked. [New review](research/reviews/ammann-two-class-exhaustiveness-review.md). More points and changed decorations remain outside the domain. [Search record](research/searches/ammann-two-class-search.md), [coordinates](research/lemmas/ammann-two-class-reconstruction.md). |
 | **Ammann three-shape forcing — completed reviewed verification** | [Lemma](research/lemmas/ammann-forcing-aperiodicity.md) is adversarially reviewed on G* = D ∩ (G1) ∩ (G2'): arbitrary contacts become edge-to-edge; reflections reduce to one handedness; an exact atlas reconstructs Penrose rhombs. [Repair rereview](research/reviews/ammann-forcing-repair-rereview.md) validates all eight repairs. | Non-generic parameters remain outside the theorem. This is not the two-tile target. The [mechanism analysis](research/reviews/ammann-mechanism-two-shape-survival.md) contains an **unresolved** Lemma S density argument; it must not be used as a proved reduction or as complete census coverage. |
 | **Original P2 kite/dart recomposition — completed bounded exclusion, paused** | [Independent audit](research/reviews/kite-dart-exclusion-audit.md) and [VALID fresh rereview](research/reviews/kite-dart-exclusion-audit-rereview.md) close the 98-type/9,604-pair strictly-interior, source-edge-erased **varying-angle** domain. They checked 9,586 negative primal witnesses, 1,194 bounded faces, 660 metric options and 128 joint partitions. All four no-bounded-face templates are closed by empty-network/degree-one obstructions in the marked substitution-language hull. The unfinished direct flat branch is closed by an exact mirror transfer, not relabelled complete. | Isolated metric specializations, arbitrary bare kite/dart tilings, >2 points and neighbour dependence remain outside scope. Sage/Singular and Z3 trust remains; no formal UNSAT proof logs. [Campaign manifest](research/certificates/penrose-kite-dart-campaign.json) retains commands, hashes and domains. |
-| **Matched-endpoint P2 attachments — completed computational screening, unaudited exclusion** | 706 one-centre star recipes: 522 small-polygon escapes, 181 slits, one holed face and two weak-convexity failures. A one-chord enlargement checked 2,000 recipes: 1,262 small-polygon escapes, 604 slits, 34 multiple cycles, 100 degenerate faces; no survivor. Encoding controls independently check the two 136-face quotients and 495 endpoint instances. | Encoding controls are not a hostile review of the exclusion. Chord-screen completeness/source scope still needs an independent audit. No larger enumeration is authorized by this checkpoint. [Separate edge manifest](research/certificates/penrose-kite-dart-edge-campaign.json). |
+| **Matched-endpoint P2 attachments — completed reviewed bounded exclusion** | 706 one-centre star recipes: 522 small-polygon escapes, 181 slits, one holed face and two weak-convexity failures. A one-chord enlargement checked 2,000 recipes: 1,262 small-polygon escapes, 604 slits, 34 multiple cycles, 100 degenerate faces; no survivor. Encoding controls independently check the two 136-face quotients and 495 endpoint instances. | [Independent hostile audit](research/reviews/kite-dart-edge-attachment-audit.md) now VALID: all 2704 rejection witnesses, 12 coordinate representatives, both weak-convexity queries and patch4 occurrence in the marked substitution hull checked. Shared Sage/Z3 trust and absent formal UNSAT logs remain. Changed higher-valence attachments need exact geometry before any enumeration. [Separate edge manifest](research/certificates/penrose-kite-dart-edge-campaign.json). |
 | **Prescribed Ammann H-to-two-pentagon dissection — completed reviewed bounded exclusion** | [Construction record](research/searches/boundary-attachment-ammann-h-gate.md) and [fresh review](research/reviews/boundary-attachment-ammann-h-gate-review.md) cover every two-piece convex dissection into the prescribed P1(J), P2(J), allowing reflections/rotations. Mixed pieces fail universally by the absolute-area bound abs(A1)+abs(A2) ≥ 1+√5 > 2 = abs(AH). Ten same-shape signed-area ideals are zero-dimensional; twelve rows including the original mixed controls were independently reconstructed. No continuous varying-angle family survives. | Isolated necessary points are unclassified; neighbouring-shape clusters, ≥3 pieces and different final boundary words are outside scope. The next construction needs different prescribed words or a cluster, with an exact convex varying-angle family and periodic escapes before source forcing. [Periodic two-pentagon control](research/searches/boundary-attachment-periodic-control.md) already has a mixed lattice escape for every parameter. |
 | **Convex substitution — closed; internal bounded results** | [Search record](research/searches/convex-substitution-search.md) retains Euler/wedge obstructions and complete bounded alphabets. The golden b=c U/V pair is excluded for all inflation factors; the old phi³ 5U+8V question was exhausted by an exact five-node search. No candidate passed dissection. | Independent review remains outstanding. Partial hexagon and π/6 runs remain interrupted/UNKNOWN; do not convert them to UNSAT. No alphabet enlargement without a new angle system or specific parametric gate. |
 | **Other-source decoration — abandoned, no search conclusion** | Exact hat patch producer and unfinished encoding retained in [the record](research/searches/source-decoration-search.md). No candidate or UNSAT result established. | Old downloaded/scratch files are discarded reconnaissance and are not retained evidence. Any future patch/search result must be regenerated and retained explicitly. Subsequent P2 work is the separate campaign above. |
@@ -169,7 +349,7 @@ domain, but fusion still lacks a two-class convex partition and unrestricted
 forcing for the final shapes.
 [Current source proof](research/lemmas/ammann-forcing-aperiodicity.md).
 
-## Preservation and verification checkpoint (2026-10-12)
+## Preservation and verification checkpoint before resumption (2026-10-12)
 
 The [superseded 2026-10-11 snapshot](research/searches/discovery-log-2026-10-11-history.md)
 preserves the previous chronological checkpoints. Its running-job, novelty,
@@ -241,4 +421,166 @@ After those repairs, registered replays passed for the registry, all 695
 torus records, P2 recomposition controls and endpoint-star controls. The
 full 185-check suite was not rerun. The audit changed only the registry
 checker, mechanism note and this log; it changed no retained certificate,
-index entry or commit. All research remains paused.
+index entry or commit. All research remained paused at that earlier checkpoint.
+
+## Historical checkpoint: Active resumption checkpoint (2026-10-12)
+
+Locked environment verification passed on resumption. The low-rank torus
+library has 695 records but only 38 distinct direct (actual used triples,
+actual glued side pairs) supports. The bounded global radius-3 queries completed
+from `research/searches/two-hexagon-inherited-escape-query.py`, blocking all
+symmetry images and learning exact rational-closure implications. This tests
+inherited escape coverage without enumerating rank-four flats. Any residual
+is a finite patch, not polygon realizability or a plane tiling.
+
+Independent reviews of the Ammann collapse and P2 attachment exclusions and
+a corner-star balance criterion completed; their exact findings and review
+gates are integrated below. No closed-domain enlargement is inferred.
+
+During this run mise began attempting to auto-install unrelated Netlify CLI
+from external configuration, failing its provenance trust check. Commands
+continue with `MISE_AUTO_INSTALL=0 mise exec -- conda run
+--no-capture-output -n arisearch ...`; this skips unused tool installation,
+uses the existing locked research environment, and changes no trust policy
+or dependency configuration.
+
+## Historical checkpoint: Corner-balance and inherited-escape mechanism
+
+[Reviewed lemma](research/lemmas/two-hexagon-corner-balance-obstruction.md),
+[root hostile review](research/reviews/two-hexagon-corner-balance-obstruction-review.md),
+[exact minimal rank-five root](research/certificates/two-hexagon-corner-balance-obstruction-example.json).
+The integer potential d=(0,0,0,-2,-1,2,0,0,0,0,-1,0) has species sums
+(-1,-1). Its 195 nonnegative triples form a universal empty region for every
+side relation. A radius-12 ball would require 469<=444; this is an analytic
+finite empty certificate. Every obstructed subset and symmetry image is
+excluded. Adding negative-potential triples may restore feasibility, so
+obstructed parents still cannot be pruned from flat enumeration. All316
+stored low-rank covering types pass the balance filter.
+
+The [first radius3 query](research/certificates/two-hexagon-inherited-escape-radius3.json)
+reached its20-iteration cap; all20 proposed physical supports acquire an
+inherited torus after exact angle closure. The
+[independent checker/review](research/reviews/two-hexagon-inherited-escape-review.md)
+validates all695 source tori,38 direct/554 symmetry supports and20 rational
+refinements; it does not reproduce intermediate solver assignments. Recorded
+seed metadata was corrected to the actual CP-SAT default1 without changing
+outcomes. Continuation adds all symmetry images of the analytic empty region
+and starts from these implications; the second20-query batch also reached
+ITERATION_LIMIT, leaving40 exact refinements retained. Independent replay
+checks all40 implications and144 distinct symmetry empty regions. No higher-rank
+census completeness, polygon realization or plane tilability follows.
+
+## Historical checkpoint: Neighbour-dependent boundary-point mechanism
+
+[Reviewed dual-spoke theorem](research/lemmas/penrose-boundary-dual-spoke-obstruction.md),
+[fresh review](research/reviews/penrose-boundary-dual-spoke-hostile-review.md),
+[exact local star](research/reviews/penrose-boundary-dual-trivalent-star.json).
+Arbitrary interior points, shared edge-interior crossing points and full
+spokes produce dual faces. Convexity forces degree-two crossings straight;
+a single actual trivalent source vertex then forces a triangular final tile
+and a monohedral periodic escape. This covers a neighbour-dependent
+boundary-point mechanism outside the earlier strictly interior Ammann
+domain. It assumes an actual source with that star; universal Penrose source
+occurrence/repetitivity is not newly proved. Reopen only changed network
+incidence or another explicitly used assumption, not a larger point search.
+
+Six new registered verifiers passed through the nondestructive replay runner:
+corner-balance example,130 Ammann distance systems,38 retained generalized
+real-point rows,P2 attachment audit,40 inherited-query refinements,and the
+exact dual-spoke star. Review-output writers now accept disposable paths.
+The full registered suite was not rerun; no previous mathematical certificate
+was overwritten by these targeted replays.
+
+## Historical checkpoint: Complete angle-grid mechanism and current solver limits
+
+[Reviewed grid theorem](research/lemmas/two-hexagon-complete-angle-grid.md),
+[hostile review](research/reviews/two-hexagon-complete-angle-grid-review.md),
+[constructive bound certificate](research/certificates/two-hexagon-complete-angle-grid.json).
+Every rationally closed exact triple type has an exact representative on
+integer-degree denominator5394; denominator323633 gives a representative
+in(119,121). Integer kernel minors and a greedy forbidden-hyperplane
+avoidance construction prove this uniformly, without enumerating all types.
+The maximum deviation bound323632 is below60*5394=323640.
+
+This makes `Query(grid=5394)` complete for the abstract angle relaxation,
+eliminating iterative rational-closure refinements. It does not produce
+actual polygons with a given length relation. The
+[near-regular-grid trial](research/certificates/two-hexagon-complete-grid-radius3.json)
+and [smaller complete-grid trial](research/certificates/two-hexagon-complete-grid5394-radius3.json)
+both returned UNKNOWN at their explicit60-second single-worker query caps.
+No infeasibility proof, live candidate, or geometric witness was obtained.
+The [independent checker](research/reviews/two-hexagon-inherited-escape-check.py)
+validates library/analytic-region metadata and supports exact numerator
+checks if a later grid trial returns SAT.
+
+The next global query should use5394, the inherited554 supports, the
+144 distinct analytic empty symmetry regions, and any newly certified
+spatial obstructions. Another longer identical timeout is not a new
+mechanism. The balanced rank-five root being analyzed separately shows that
+corner balance alone does not restore a covering low-rank ancestor; its
+fixed native order requires actual spatial constraints.
+
+## Historical checkpoint: Balanced higher-rank root and spatial gate
+
+[Exact balanced rank-five root](research/lemmas/two-hexagon-balanced-minimal-covering-root.md),
+[certificate](research/certificates/two-hexagon-balanced-minimal-covering-root.json).
+T={(0,1,6),(1,2,7),(0,2,8),(3,4,9),(4,5,10),(3,5,11)} is closed,
+rank5 and covering. Weights1/3 give species weights2/3 and1/3. Every B corner
+occurs once, so every covering ancestor must equal T. This falsifies the
+proposal that positive corner balance guarantees a covering rank<=3 ancestor.
+
+The fixed native cyclic order has an internally checked solver-free local
+obstruction: each B placement has a unique A-neighbour ring; the admissible
+placements for mandatory successors in directions0 and1 are disjoint.
+The angle-only SFT is empty for every side relation in this native order.
+Radius2 and56 index<=8 torus controls are separately INFEASIBLE with no
+formal solver proof logs. The [fresh hostile review](research/reviews/two-hexagon-balanced-minimal-covering-root-review.md)
+and [independent solver-free checker](research/reviews/check_two_hexagon_balanced_rank_five_ring.py)
+validate the finite spatial certificate. Non-dihedral corner reorderings are outside scope;
+this root is no geometric or aperiodic candidate.
+
+The complete-grid bound/table constructive verifier also passed its registered
+nondestructive replay. Both complete-grid UNKNOWN records passed independent
+library and analytic-region metadata checks; they contain no solved angle
+vectors. All351 research Python sources and uncompressed JSON files parse;
+current-log/grid links and `git diff --check` pass. No stage, commit or push
+was performed.
+
+## Historical checkpoint: Restart state after the resumed run
+
+No research solver or checkpoint writer is running. The worktree contains the
+new lemmas, certificates, independent reviews/verifiers and narrowed earlier
+scope statements; no staging, commit or push occurred. No aperiodic pair or
+unrestricted impossibility theorem has passed the acceptance gates.
+
+Next steps proposed at this historical checkpoint (superseded by the current priority above):
+
+1. Continue the complete-grid global angle query at5394 using the retained
+   periodic supports and certified analytic/spatial empty regions. Improve
+   branching or constraint propagation before increasing identical timeouts.
+   Higher-rank flat enumeration still must retain noncovering parents.
+2. Use the balanced minimal covering root as a test of spatial constraints;
+   positive corner balance is insufficient. Any changed native-order candidate
+   needs exact local realizability and a cheap periodic escape test before
+   global forcing work.
+3. Finish generalized Ammann negative-case/unit-ideal reconstruction and
+   replace sampled collinear sign decisions by exact coefficient ratios.
+   The original reconstructed candidate exclusion is already reviewed valid;
+   broad generalized exhaustiveness remains open.
+4. A new construction through boundary attachments must change the reviewed
+   full-spoke/higher-valence obstruction assumptions with exact boundary
+   data. The completed706-star/2000-chord exclusion is not a reason to enlarge
+   those closed enumerations.
+
+The two60-second complete-grid trials were UNKNOWN; the two20-query relaxed
+batches reached their iteration caps. These are recorded computational limits,
+not mathematical negative results. The general pentagon cases and unrestricted
+higher-rank two-hexagon case remain unresolved. This checkpoint preserves the restart state. The previous response's claim
+that a response-budget limit required termination was unsupported: no token
+budget or execution-limit signal had been received. The bounded solver caps
+did not require stopping the research under protocol Section19.
+
+Final targeted registered replay of the independent balanced-root ring checker
+passed; all eight newly registered checks have passed. Final Python/JSON
+parsing, new-lemma/current-log links and whitespace checks pass. The full
+registered suite was not rerun.

@@ -1,0 +1,19 @@
+{
+  "status": "PASSED",
+  "positive_strict_convex_partition_sample": [
+    "sqrt3",
+    "2",
+    "-sqrt3/10"
+  ],
+  "necessary_positive_b_values": [
+    "1",
+    "2",
+    "sqrt3"
+  ],
+  "circle_systems": 6,
+  "empty_circle_systems": 2,
+  "exact_real_points": 8,
+  "strict_two_class_survivors": 0,
+  "source_sha256": "c4b7f6b3d7cba248114505d9ee37ae5b57d5793d4c4036a7da1aa7d25bf44917",
+  "scope": "Specified positive-b three-pentagon/one-hexagon cut only; analytic side-multiset superset excludes all strict two-class realizations"
+}

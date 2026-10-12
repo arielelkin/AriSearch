@@ -1,0 +1,26 @@
+{
+  "status": "PASSED",
+  "reflected_native_rings": 36,
+  "full_A_ring_signatures": 6,
+  "quotient_cycle_orders": 3,
+  "torus_index": 9,
+  "native_vertex_stars": 18,
+  "directed_native_seams": 54,
+  "reflected_directed_AA_seams": 18,
+  "exact_required_native_side_closure": [
+    0,
+    1,
+    2,
+    1,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "source_sha256": "768edd1dd62734fdb002de1a2ef1ef03a3c70a1f745e7573e85cf96e9d0b0ad9",
+  "scope": "Universal direct periodic escape for I/ALT equal odd A lengths/equilateral B, preserving all three even A lengths independently"
+}

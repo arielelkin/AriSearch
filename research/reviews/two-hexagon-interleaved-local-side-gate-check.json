@@ -1,0 +1,54 @@
+{
+  "status": "PASSED",
+  "local_native_ring_census": [
+    [
+      "C",
+      3072,
+      384,
+      2688,
+      67
+    ],
+    [
+      "I",
+      12288,
+      6264,
+      6024,
+      105
+    ],
+    [
+      "ALT",
+      49152,
+      0,
+      49152,
+      1628
+    ]
+  ],
+  "derived_side_directions": [
+    [
+      0,
+      0
+    ],
+    [
+      -1,
+      180
+    ],
+    [
+      0,
+      120
+    ],
+    [
+      -1,
+      300
+    ],
+    [
+      0,
+      240
+    ],
+    [
+      1,
+      180
+    ]
+  ],
+  "source_sha256": "71b337fd19ead0113bf3ffe9e1aef0a6d2414aa93b9ee48806a7e35e457e962b",
+  "scope": "Exact local period-two rejection only; all remaining rings unresolved globally"
+}

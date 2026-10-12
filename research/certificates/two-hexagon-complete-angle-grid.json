@@ -1,0 +1,260 @@
+{
+  "universal_grid": 5394,
+  "near_regular_grid": 323633,
+  "bound_table": [
+    {
+      "rank": 0,
+      "dimension": 10,
+      "excluded_bound": 364,
+      "determinant_bound": 6,
+      "coefficient_cap": 182,
+      "deviation_bound": 9834,
+      "sufficient_grid": 164
+    },
+    {
+      "rank": 1,
+      "dimension": 9,
+      "excluded_bound": 363,
+      "determinant_bound": 12,
+      "coefficient_cap": 182,
+      "deviation_bound": 17484,
+      "sufficient_grid": 292
+    },
+    {
+      "rank": 2,
+      "dimension": 8,
+      "excluded_bound": 362,
+      "determinant_bound": 25,
+      "coefficient_cap": 181,
+      "deviation_bound": 31700,
+      "sufficient_grid": 529
+    },
+    {
+      "rank": 3,
+      "dimension": 7,
+      "excluded_bound": 361,
+      "determinant_bound": 51,
+      "coefficient_cap": 181,
+      "deviation_bound": 55437,
+      "sufficient_grid": 924
+    },
+    {
+      "rank": 4,
+      "dimension": 6,
+      "excluded_bound": 360,
+      "determinant_bound": 104,
+      "coefficient_cap": 180,
+      "deviation_bound": 93704,
+      "sufficient_grid": 1562
+    },
+    {
+      "rank": 5,
+      "dimension": 5,
+      "excluded_bound": 359,
+      "determinant_bound": 212,
+      "coefficient_cap": 180,
+      "deviation_bound": 152852,
+      "sufficient_grid": 2548
+    },
+    {
+      "rank": 6,
+      "dimension": 4,
+      "excluded_bound": 358,
+      "determinant_bound": 434,
+      "coefficient_cap": 179,
+      "deviation_bound": 233492,
+      "sufficient_grid": 3892
+    },
+    {
+      "rank": 7,
+      "dimension": 3,
+      "excluded_bound": 357,
+      "determinant_bound": 885,
+      "coefficient_cap": 179,
+      "deviation_bound": 317715,
+      "sufficient_grid": 5296
+    },
+    {
+      "rank": 8,
+      "dimension": 2,
+      "excluded_bound": 356,
+      "determinant_bound": 1808,
+      "coefficient_cap": 178,
+      "deviation_bound": 323632,
+      "sufficient_grid": 5394
+    },
+    {
+      "rank": 9,
+      "dimension": 1,
+      "excluded_bound": 355,
+      "determinant_bound": 3691,
+      "coefficient_cap": 178,
+      "deviation_bound": 3691,
+      "sufficient_grid": 62
+    }
+  ],
+  "example_source": "research/certificates/two-hexagon-corner-balance-obstruction-example.json",
+  "example": {
+    "rank": 5,
+    "dimension": 5,
+    "K": 5394,
+    "deviation": [
+      13,
+      -27,
+      -2,
+      7,
+      15,
+      -6,
+      22,
+      -1,
+      1,
+      5,
+      -9,
+      -18
+    ],
+    "angle_numerators": [
+      647293,
+      647253,
+      647278,
+      647287,
+      647295,
+      647274,
+      647302,
+      647279,
+      647281,
+      647285,
+      647271,
+      647262
+    ],
+    "exact_triples": [
+      [
+        0,
+        9,
+        11
+      ],
+      [
+        1,
+        6,
+        9
+      ],
+      [
+        2,
+        8,
+        8
+      ],
+      [
+        3,
+        5,
+        7
+      ],
+      [
+        4,
+        5,
+        10
+      ],
+      [
+        5,
+        8,
+        9
+      ]
+    ],
+    "kernel_basis": [
+      [
+        0,
+        -1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        2,
+        -1,
+        -1,
+        1,
+        1,
+        0,
+        -1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        -1,
+        -1,
+        1,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        -1,
+        0
+      ],
+      [
+        1,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1
+      ]
+    ],
+    "coefficients": [
+      1,
+      -1,
+      -5,
+      9,
+      18
+    ],
+    "determinant": -1,
+    "pivot_columns": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "free_columns": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "actual_excluded_count": 358,
+    "actual_deviation_cap": 152004
+  }
+}

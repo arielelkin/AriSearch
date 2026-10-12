@@ -1,0 +1,6 @@
+{
+  "retained_real_point_rows_checked": 38,
+  "distinct_convex_two_class_points": 2,
+  "each_has_centrally_symmetric_hexagon": true,
+  "scope": "All stored stage4 real points; does not certify missing/unit ideals, omitted graph cases, or completeness of roots."
+}

@@ -1,0 +1,899 @@
+{
+  "scope": "Complete pair-graph and B-word domain before A-dihedral quotient; no spatial or metric census",
+  "total_regular_graphs": 388,
+  "mixed_only_graphs": 268,
+  "B_dihedral_words": 11850,
+  "analytic_loop_exclusions": 60,
+  "remaining_words": 11790,
+  "ledger": [
+    {
+      "component_partition": [
+        6
+      ],
+      "labeled_graphs": 60,
+      "mixed_only_exact": false,
+      "B_dihedral_words": 0,
+      "analytic_loop_exclusions": 0,
+      "representative": {
+        "pair_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "T": [
+          [
+            0,
+            1,
+            6
+          ],
+          [
+            0,
+            5,
+            7
+          ],
+          [
+            1,
+            2,
+            8
+          ],
+          [
+            2,
+            3,
+            9
+          ],
+          [
+            3,
+            4,
+            10
+          ],
+          [
+            4,
+            5,
+            11
+          ]
+        ],
+        "rank": 5,
+        "closure_extra_BBB": [
+          [
+            6,
+            9,
+            11
+          ],
+          [
+            7,
+            8,
+            10
+          ]
+        ],
+        "mixed_only_exact": false
+      }
+    },
+    {
+      "component_partition": [
+        5,
+        1
+      ],
+      "labeled_graphs": 72,
+      "mixed_only_exact": true,
+      "B_dihedral_words": 4320,
+      "analytic_loop_exclusions": 0,
+      "representative": {
+        "pair_edges": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "T": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            2,
+            7
+          ],
+          [
+            1,
+            5,
+            8
+          ],
+          [
+            2,
+            3,
+            9
+          ],
+          [
+            3,
+            4,
+            10
+          ],
+          [
+            4,
+            5,
+            11
+          ]
+        ],
+        "rank": 5,
+        "closure_extra_BBB": [],
+        "mixed_only_exact": true
+      }
+    },
+    {
+      "component_partition": [
+        4,
+        2
+      ],
+      "labeled_graphs": 45,
+      "mixed_only_exact": false,
+      "B_dihedral_words": 0,
+      "analytic_loop_exclusions": 0,
+      "representative": {
+        "pair_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "T": [
+          [
+            0,
+            1,
+            6
+          ],
+          [
+            0,
+            1,
+            7
+          ],
+          [
+            2,
+            3,
+            8
+          ],
+          [
+            2,
+            5,
+            9
+          ],
+          [
+            3,
+            4,
+            10
+          ],
+          [
+            4,
+            5,
+            11
+          ]
+        ],
+        "rank": 5,
+        "closure_extra_BBB": [
+          [
+            6,
+            8,
+            11
+          ],
+          [
+            6,
+            9,
+            10
+          ],
+          [
+            7,
+            8,
+            11
+          ],
+          [
+            7,
+            9,
+            10
+          ]
+        ],
+        "mixed_only_exact": false
+      }
+    },
+    {
+      "component_partition": [
+        4,
+        1,
+        1
+      ],
+      "labeled_graphs": 45,
+      "mixed_only_exact": true,
+      "B_dihedral_words": 2700,
+      "analytic_loop_exclusions": 0,
+      "representative": {
+        "pair_edges": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "T": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            1,
+            7
+          ],
+          [
+            2,
+            3,
+            8
+          ],
+          [
+            2,
+            5,
+            9
+          ],
+          [
+            3,
+            4,
+            10
+          ],
+          [
+            4,
+            5,
+            11
+          ]
+        ],
+        "rank": 5,
+        "closure_extra_BBB": [],
+        "mixed_only_exact": true
+      }
+    },
+    {
+      "component_partition": [
+        3,
+        3
+      ],
+      "labeled_graphs": 10,
+      "mixed_only_exact": true,
+      "B_dihedral_words": 600,
+      "analytic_loop_exclusions": 0,
+      "representative": {
+        "pair_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "T": [
+          [
+            0,
+            1,
+            6
+          ],
+          [
+            0,
+            2,
+            7
+          ],
+          [
+            1,
+            2,
+            8
+          ],
+          [
+            3,
+            4,
+            9
+          ],
+          [
+            3,
+            5,
+            10
+          ],
+          [
+            4,
+            5,
+            11
+          ]
+        ],
+        "rank": 5,
+        "closure_extra_BBB": [],
+        "mixed_only_exact": true
+      }
+    },
+    {
+      "component_partition": [
+        3,
+        2,
+        1
+      ],
+      "labeled_graphs": 60,
+      "mixed_only_exact": true,
+      "B_dihedral_words": 1800,
+      "analytic_loop_exclusions": 0,
+      "representative": {
+        "pair_edges": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "T": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            2,
+            7
+          ],
+          [
+            1,
+            2,
+            8
+          ],
+          [
+            3,
+            4,
+            9
+          ],
+          [
+            3,
+            5,
+            10
+          ],
+          [
+            4,
+            5,
+            11
+          ]
+        ],
+        "rank": 5,
+        "closure_extra_BBB": [],
+        "mixed_only_exact": true
+      }
+    },
+    {
+      "component_partition": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "labeled_graphs": 20,
+      "mixed_only_exact": true,
+      "B_dihedral_words": 1200,
+      "analytic_loop_exclusions": 0,
+      "representative": {
+        "pair_edges": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "T": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            1,
+            7
+          ],
+          [
+            2,
+            2,
+            8
+          ],
+          [
+            3,
+            4,
+            9
+          ],
+          [
+            3,
+            5,
+            10
+          ],
+          [
+            4,
+            5,
+            11
+          ]
+        ],
+        "rank": 5,
+        "closure_extra_BBB": [],
+        "mixed_only_exact": true
+      }
+    },
+    {
+      "component_partition": [
+        2,
+        2,
+        2
+      ],
+      "labeled_graphs": 15,
+      "mixed_only_exact": false,
+      "B_dihedral_words": 0,
+      "analytic_loop_exclusions": 0,
+      "representative": {
+        "pair_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "T": [
+          [
+            0,
+            1,
+            6
+          ],
+          [
+            0,
+            1,
+            7
+          ],
+          [
+            2,
+            3,
+            8
+          ],
+          [
+            2,
+            3,
+            9
+          ],
+          [
+            4,
+            5,
+            10
+          ],
+          [
+            4,
+            5,
+            11
+          ]
+        ],
+        "rank": 5,
+        "closure_extra_BBB": [
+          [
+            6,
+            8,
+            10
+          ],
+          [
+            6,
+            8,
+            11
+          ],
+          [
+            6,
+            9,
+            10
+          ],
+          [
+            6,
+            9,
+            11
+          ],
+          [
+            7,
+            8,
+            10
+          ],
+          [
+            7,
+            8,
+            11
+          ],
+          [
+            7,
+            9,
+            10
+          ],
+          [
+            7,
+            9,
+            11
+          ]
+        ],
+        "mixed_only_exact": false
+      }
+    },
+    {
+      "component_partition": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "labeled_graphs": 45,
+      "mixed_only_exact": true,
+      "B_dihedral_words": 720,
+      "analytic_loop_exclusions": 0,
+      "representative": {
+        "pair_edges": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "T": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            1,
+            7
+          ],
+          [
+            2,
+            3,
+            8
+          ],
+          [
+            2,
+            3,
+            9
+          ],
+          [
+            4,
+            5,
+            10
+          ],
+          [
+            4,
+            5,
+            11
+          ]
+        ],
+        "rank": 5,
+        "closure_extra_BBB": [],
+        "mixed_only_exact": true
+      }
+    },
+    {
+      "component_partition": [
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "labeled_graphs": 15,
+      "mixed_only_exact": true,
+      "B_dihedral_words": 450,
+      "analytic_loop_exclusions": 0,
+      "representative": {
+        "pair_edges": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "T": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            1,
+            7
+          ],
+          [
+            2,
+            2,
+            8
+          ],
+          [
+            3,
+            3,
+            9
+          ],
+          [
+            4,
+            5,
+            10
+          ],
+          [
+            4,
+            5,
+            11
+          ]
+        ],
+        "rank": 5,
+        "closure_extra_BBB": [],
+        "mixed_only_exact": true
+      }
+    },
+    {
+      "component_partition": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "labeled_graphs": 1,
+      "mixed_only_exact": true,
+      "B_dihedral_words": 60,
+      "analytic_loop_exclusions": 60,
+      "representative": {
+        "pair_edges": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "T": [
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            1,
+            1,
+            7
+          ],
+          [
+            2,
+            2,
+            8
+          ],
+          [
+            3,
+            3,
+            9
+          ],
+          [
+            4,
+            4,
+            10
+          ],
+          [
+            5,
+            5,
+            11
+          ]
+        ],
+        "rank": 5,
+        "closure_extra_BBB": [],
+        "mixed_only_exact": true
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
  "date": "2026-10-11",
- "status": "Completed computational screening within two bounded attachment domains; independent hostile review of the exclusion remains outstanding; route paused at 2026-10-12 checkpoint",
+ "status": "Adversarially reviewed bounded exclusion of 706 stars and 2000 one-chord recipes; VALID within marked substitution source and boundary-graph domains (2026-10-12)",
  "one_centre_stars": {
   "recipes": 706,
   "stats": {
@@ -39,8 +39,8 @@
  },
  "limits": [
   "Exact algorithms with computational UNSAT, no solver proof certificates",
-  "First endpoint-star encoding has independent controls; chord exclusions still need independent review",
-  "Finite source patches give witnesses; full source-language occurrence must be justified for a universal source-exclusion statement",
+  "Independent hostile audit checked all 2704 rejection witnesses and both weak-convexity queries; shared Sage/Z3 trust, no formal UNSAT logs",
+  "Witness source-language occurrence justified for the primitive marked substitution hull; arbitrary bare kite/dart sources remain outside scope",
   "No higher-valence attachment candidate reached the two-congruence-class or free-angle test",
   "Two centres, multiple chords, neighbor dependence and partial-source-edge retention outside these domains"
  ],
@@ -48,7 +48,8 @@
   "conda run --no-capture-output -n arisearch python research/searches/penrose-kite-dart-edge-stars.py --patch research/certificates/penrose-kite-dart-patch4.json --checkpoint research/certificates/penrose-kite-dart-edge-stars-patch4.jsonl --summary research/certificates/penrose-kite-dart-edge-stars-patch4-summary.json",
   "conda run --no-capture-output -n arisearch python research/searches/penrose-kite-dart-edge-star-convexity.py --checkpoint research/certificates/penrose-kite-dart-edge-stars-patch4.jsonl --output research/certificates/penrose-kite-dart-edge-stars-any-corners-convexity.json --min-corners 0",
   "conda run --no-capture-output -n arisearch python research/reviews/verify_penrose_kite_dart_edge_stars.py --checkpoint research/certificates/penrose-kite-dart-edge-stars-patch4.jsonl --output research/certificates/penrose-kite-dart-edge-stars-controls.json",
-  "conda run --no-capture-output -n arisearch python research/searches/penrose-kite-dart-edge-chords.py --patch research/certificates/penrose-kite-dart-patch4.json --checkpoint research/certificates/penrose-kite-dart-edge-chords-patch4.jsonl --summary research/certificates/penrose-kite-dart-edge-chords-patch4-summary.json --max-seconds 240"
+  "conda run --no-capture-output -n arisearch python research/searches/penrose-kite-dart-edge-chords.py --patch research/certificates/penrose-kite-dart-patch4.json --checkpoint research/certificates/penrose-kite-dart-edge-chords-patch4.jsonl --summary research/certificates/penrose-kite-dart-edge-chords-patch4-summary.json --max-seconds 240",
+  "MISE_AUTO_INSTALL=0 mise exec -- conda run --no-capture-output -n arisearch python research/reviews/kite-dart-edge-attachment-audit.py"
  ],
  "script_sha256": {
   "research/searches/penrose-kite-dart-edge-alignment.py": "9cfaee7a709581cf027dfb82f3e52b58246e36d0ce1bf12fceb462db8e38061f",
@@ -57,5 +58,6 @@
   "research/searches/penrose-kite-dart-edge-chords.py": "3acc83347dd31cc1ae5800147865e56f9af27ccab58e50c991343ec2ffbf22a6",
   "research/reviews/verify_penrose_kite_dart_edge_stars.py": "80474b255fae17f171ea7b03cded4ebbbaa1d1cb1130160f8322a41efed58b64"
  },
- "process_state": "All attachment jobs completed; exclusive locks on checkpoint files prevent duplication"
+ "process_state": "All attachment jobs completed; exclusive locks on checkpoint files prevent duplication",
+ "independent_review": "research/reviews/kite-dart-edge-attachment-audit.md"
 }

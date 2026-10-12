@@ -1,0 +1,29 @@
+{
+  "status": "PASSED",
+  "source_sha256": "535d7c83ec6039729cc83c94af34342215e607ca0ed73de89d3ccede56ec6075",
+  "primitive_intersection_pairs_checked": 28,
+  "nonempty_subsets_checked": 255,
+  "convex_subsets": 16,
+  "eligible_masks": [
+    6,
+    9,
+    12,
+    13,
+    14,
+    48,
+    192
+  ],
+  "eligible_partitions": [
+    [
+      6,
+      9,
+      48,
+      192
+    ]
+  ],
+  "periodic_regular_hexagon_compilers": {
+    "pair_pentagon_copies": 3,
+    "half_hexagon_pentagon_copies": 2
+  },
+  "scope": "Fixed retained eight-kite geometry; whole-kite clusters only; every convex cluster has an admitted monohedral periodic escape"
+}

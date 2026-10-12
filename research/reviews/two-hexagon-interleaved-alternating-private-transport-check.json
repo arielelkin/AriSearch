@@ -1,0 +1,226 @@
+{
+  "status": "PASSED",
+  "native_domain_counts": [
+    49152,
+    8748,
+    216
+  ],
+  "proper_odd_length_partitions": 5,
+  "metric_words": 136,
+  "reviewed_outcomes": {
+    "UNRESOLVED_EQUAL_ODD": 1,
+    "EMPTY": 123,
+    "FUNCTIONAL_A_RING_QUOTIENT": 12
+  },
+  "functional_quotient_words": [
+    {
+      "partition": [
+        0,
+        0,
+        1
+      ],
+      "B_word": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "full_states": 12,
+      "quotient_states": 6
+    },
+    {
+      "partition": [
+        0,
+        0,
+        1
+      ],
+      "B_word": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "full_states": 12,
+      "quotient_states": 6
+    },
+    {
+      "partition": [
+        0,
+        0,
+        1
+      ],
+      "B_word": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "full_states": 12,
+      "quotient_states": 6
+    },
+    {
+      "partition": [
+        0,
+        1,
+        0
+      ],
+      "B_word": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "full_states": 12,
+      "quotient_states": 6
+    },
+    {
+      "partition": [
+        0,
+        1,
+        0
+      ],
+      "B_word": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "full_states": 12,
+      "quotient_states": 6
+    },
+    {
+      "partition": [
+        0,
+        1,
+        0
+      ],
+      "B_word": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "full_states": 12,
+      "quotient_states": 6
+    },
+    {
+      "partition": [
+        0,
+        1,
+        1
+      ],
+      "B_word": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "full_states": 12,
+      "quotient_states": 6
+    },
+    {
+      "partition": [
+        0,
+        1,
+        1
+      ],
+      "B_word": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "full_states": 12,
+      "quotient_states": 6
+    },
+    {
+      "partition": [
+        0,
+        1,
+        1
+      ],
+      "B_word": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "full_states": 12,
+      "quotient_states": 6
+    },
+    {
+      "partition": [
+        0,
+        1,
+        2
+      ],
+      "B_word": [
+        0,
+        0,
+        2,
+        1,
+        1,
+        2
+      ],
+      "full_states": 12,
+      "quotient_states": 6
+    },
+    {
+      "partition": [
+        0,
+        1,
+        2
+      ],
+      "B_word": [
+        1,
+        2,
+        0,
+        0,
+        2,
+        1
+      ],
+      "full_states": 12,
+      "quotient_states": 6
+    },
+    {
+      "partition": [
+        0,
+        1,
+        2
+      ],
+      "B_word": [
+        2,
+        1,
+        1,
+        2,
+        0,
+        0
+      ],
+      "full_states": 12,
+      "quotient_states": 6
+    }
+  ],
+  "index_six_metric_tori": 12,
+  "torus_native_vertex_stars": 144,
+  "torus_directed_seams": 432,
+  "source_sha256": "1f75451ed4498ae00f5feb688cf197e0afd3033ac66c25869e7c343a0d6d899f",
+  "scope": "123 words empty,12 nonconstant words have periodic escapes via full A-ring quotient and direct metric tori preserving arbitrary even A lengths; equal odd lengths/B equilateral remains unresolved"
+}

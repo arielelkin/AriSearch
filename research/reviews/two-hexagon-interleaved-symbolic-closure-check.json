@@ -1,0 +1,154 @@
+{
+  "status": "PASSED",
+  "full_domain_rows": [
+    {
+      "B": "C",
+      "closures": 67,
+      "native_rings_excluded": 2976,
+      "unresolved_native_ring_count": 96,
+      "allowed_closures": [
+        [
+          0,
+          0,
+          1,
+          1,
+          2,
+          3,
+          0,
+          0,
+          0,
+          2,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          0,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          0,
+          1,
+          0,
+          2,
+          3,
+          0,
+          0,
+          0,
+          1,
+          3,
+          3,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          0,
+          0,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          2,
+          3,
+          3,
+          0,
+          0,
+          2,
+          3,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          0,
+          0,
+          1,
+          3,
+          3,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          2,
+          2,
+          0,
+          0,
+          3,
+          2,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          0,
+          0,
+          0,
+          3,
+          3,
+          0
+        ]
+      ],
+      "rank_strata": {
+        "NO_NONZERO_VECTOR_ALL_ADMISSIBLE_ANGLES": 2688,
+        "GENERIC_KERNEL": 336,
+        "FINITE_EXCEPTIONS": 48
+      },
+      "generic_nullity_one_closures": 13
+    },
+    {
+      "B": "I",
+      "closures": 105,
+      "native_rings_excluded": 12288,
+      "unresolved_native_ring_count": 0,
+      "allowed_closures": [],
+      "rank_strata": {
+        "NO_NONZERO_VECTOR_ALL_ADMISSIBLE_ANGLES": 12240,
+        "GENERIC_KERNEL": 48
+      },
+      "generic_nullity_one_closures": 1
+    }
+  ],
+  "exceptional_points_checked": 32,
+  "sign_intervals_checked": 66,
+  "source_sha256": "b4ab2310c41e20cc1dc09574ac8191ceb80a35655ad60e489091bb65b0e9c1fb",
+  "local_ledger_sha256": "71b337fd19ead0113bf3ffe9e1aef0a6d2414aa93b9ee48806a7e35e457e962b",
+  "scope": "All I/C and I/I pairs impossible via exact geometry and necessary spatial transport; I/ALT remains open",
+  "contiguous_global_transport": {
+    "native_ring_superset": 96,
+    "triangle_deletion_rounds": 1,
+    "survivors": 0,
+    "source_sha256": "e088582f2d2a17e7f200a073d612edcd7317a1b3d3ad95bb39f030bf7d8dd4f9"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASSED",
+  "certificate_sha256": "b94110d73dd1de5bda56805435976cad5cfd6188bc5435e6481fcbd2cb1d76c9",
+  "source_tori_checked": 695,
+  "direct_supports": 38,
+  "symmetry_supports": 554,
+  "symmetries": 288,
+  "exact_refinements_checked": 20,
+  "query_status": "ITERATION_LIMIT",
+  "finite_residual_checked": false,
+  "scope": "Retained torus supports and rational/equality implications only; no CP-SAT replay or plane-tilability claim"
+}

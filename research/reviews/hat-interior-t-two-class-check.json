@@ -1,0 +1,14 @@
+{
+  "status": "PASSED",
+  "necessary_midpoint_branch_count": 2,
+  "exact_real_points": 4,
+  "strict_two_class_survivors": 0,
+  "positive_strict_convex_partition_sample": [
+    "1",
+    "9/5",
+    "0"
+  ],
+  "genuine_flat_interior_contact": true,
+  "source_sha256": "b8a915ae62993f231ac1078c934d8d16a288eaa7b2e790a87a72eea117f56164",
+  "scope": "Specified straight-side interior-T topology only; side multisets force midpoint before exact branch gate"
+}

@@ -1,0 +1,154 @@
+{
+  "scope": "Controlled h=3A0/2 branch, exact B-host four-tile module; rejected by two hosted contacts per B after endpoint exclusion of full B3 joins. No plane existence claim.",
+  "status": "REJECTED_BY_TWO_B_HOSTS",
+  "angles_doubled_degrees": {
+    "A": [
+      130,
+      281,
+      295,
+      150,
+      224
+    ],
+    "B": [
+      80,
+      289,
+      272,
+      94,
+      345
+    ]
+  },
+  "exact_parameters": "A1=1/10,A2=1,A3=A4; B0=3A0/2,B1=1/2,B4=A2; remaining lengths use the original exact closure formulas",
+  "exact_coordinate_formulas": {
+    "q": "(B0-A0,0)",
+    "host_B": "reflect_x(B)",
+    "A65": "A+q",
+    "A75": "Rotate248deg(A-A_vertex3)+q",
+    "B40": "(-Bx,By)+q"
+  },
+  "A_lengths_display": [
+    "1.302505587029898?",
+    "1/10",
+    "1",
+    "1.188170735538047?",
+    "1.188170735538047?"
+  ],
+  "B_lengths_display": [
+    "1.953758380544846?",
+    "1/2",
+    "1.578048793920808?",
+    "2.231879700892831?",
+    "1"
+  ],
+  "module_coordinates_display": {
+    "host_B": [
+      [
+        "0.7660444431189781?",
+        "-0.6427876096865393?"
+      ],
+      [
+        "2.648392690935414?",
+        "-1.841975698853484?"
+      ],
+      [
+        "2.360816139723006?",
+        "-0.2903514778554699?"
+      ],
+      [
+        "1.953758380544846?",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "A65": [
+      [
+        "0.6512527935149486?",
+        "0"
+      ],
+      [
+        "1.953758380544846?",
+        "0"
+      ],
+      [
+        "2.030920838883618?",
+        "0.0636078220277764?"
+      ],
+      [
+        "2.339937833258565?",
+        "1.014664338322930?"
+      ],
+      [
+        "1.153395444419206?",
+        "1.076848389947196?"
+      ]
+    ],
+    "A75": [
+      [
+        "0.3430649513080058?",
+        "1.945821455538519?"
+      ],
+      [
+        "-0.1448622295544568?",
+        "0.7381593047613620?"
+      ],
+      [
+        "-0.11479164960402941?",
+        "0.6427876096865393?"
+      ],
+      [
+        "0.6512527935149486?",
+        "0"
+      ],
+      [
+        "1.153395444419207?",
+        "1.076848389947196?"
+      ]
+    ],
+    "B40": [
+      [
+        "-0.1147916496040294?",
+        "0.6427876096865393?"
+      ],
+      [
+        "-1.997139897420465?",
+        "1.841975698853484?"
+      ],
+      [
+        "-1.709563346208057?",
+        "0.2903514778554699?"
+      ],
+      [
+        "-1.302505587029898?",
+        "0"
+      ],
+      [
+        "0.6512527935149486?",
+        "0"
+      ]
+    ]
+  },
+  "exact_checks": {
+    "B0_longer_than_all_A_edges": true,
+    "B3_strictly_longest": true,
+    "B2_and_B4_longer_than_A1": true,
+    "strict_convex_closure_disjoint_module": true
+  },
+  "B3_full_join_exclusion": {
+    "reflection_completion": [],
+    "halfturn_completion": [
+      [
+        281
+      ]
+    ],
+    "geometric_obstruction": "Forced A140.5 has incident A1 ending at A147.5. That side faces B2 or B4, both longer; A147.5 would lie inside a B side and cannot be completed with a flat180 incidence."
+  },
+  "host_budget": [
+    "Every B0 hosts T: at B144.5 only A140.5/A75 neighbours occur; their incident sides are shorter than B0",
+    "Every B3 hosts T: it is strictly longest and both full B3 joins are excluded",
+    "H>=2b, b>=H since every flat T consumes the unique B40",
+    "b=0; every A112 full star consumes B136 and at most2A112, giving a<=2b=0",
+    "Finitewindow O(R) errors contradict area Omega(R^2)"
+  ]
+}

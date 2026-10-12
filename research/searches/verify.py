@@ -61,6 +61,37 @@ CERTIFICATES = (
     ("branching-hexagon-new-chirality-collapse.py", "branching-hexagon-new-chirality-collapse.json"),
 )
 VERIFIERS = (
+    ROOT / "research/reviews/check_acute_long_edge_four_face_periods.py",
+    ROOT / "research/reviews/check_pentagon_two_acute_monotile_gate.py",
+    ROOT / "research/reviews/check_reordered_acute_pentagon_independent.py",
+    ROOT / "research/reviews/check_two_hexagon_alternating_all_metric_chain.py",
+    ROOT / "research/reviews/check_acute_obtuse_native_word_capacity_independent.py",
+    ROOT / "research/reviews/check_hat_horizontal_two_junction_independent.py",
+    ROOT / "research/reviews/check_acute_obtuse_angle_capacity.py",
+    ROOT / "research/reviews/check_two_hexagon_interleaved_alternating_private_transport.py",
+    ROOT / "research/reviews/check_two_hexagon_interleaved_alternating_equal_odd_torus.py",
+    ROOT / "research/reviews/check_hat_interior_t_two_class_gate.py",
+    ROOT / "research/reviews/check_two_hexagon_interleaved_symbolic_closure.py",
+    ROOT / "research/reviews/check_hat_three_pentagon_one_hexagon_gate.py",
+    ROOT / "research/reviews/check_doubleacute_six_tile_strip.py",
+    ROOT / "research/reviews/check_two_hexagon_interleaved_local_side_gate.py",
+    ROOT / "research/reviews/check_two_hexagon_rank_nine_colour_transport.py",
+    ROOT / "research/reviews/check_hat_four_pentagon_deformation.py",
+    ROOT / "research/reviews/check_two_hexagon_balanced_root_cyclic_orders.py",
+    ROOT / "research/reviews/check_two_hexagon_odd_pair_graph_orders.py",
+    ROOT / "research/reviews/verify_two_hexagon_unique_b_pair_graph.py",
+    ROOT / "research/reviews/check_two_hexagon_unique_B_star_multiring.py",
+    ROOT / "research/reviews/verify_two_hexagon_residue_wheel_action.py",
+    ROOT / "research/reviews/check_hat_eight_kite_convex_clusters.py",
+    ROOT / "research/reviews/verify_acute_long_edge_construction_features.py",
+    ROOT / "research/reviews/check_two_hexagon_balanced_rank_five_ring.py",
+    ROOT / "research/reviews/verify_two_hexagon_complete_angle_grid.py",
+    ROOT / "research/reviews/verify_two_hexagon_corner_balance.py",
+    ROOT / "research/reviews/verify_ammann_two_class_distance_audit.py",
+    ROOT / "research/reviews/verify_ammann_generalized_recorded_points.py",
+    ROOT / "research/reviews/kite-dart-edge-attachment-audit.py",
+    ROOT / "research/reviews/two-hexagon-inherited-escape-check.py",
+    ROOT / "research/reviews/verify_penrose_boundary_dual_trivalent_star.py",
     ROOT / "research/reviews/verify_ammann_forcing_repair_rereview.py",
     ROOT / "research/reviews/verify_two_hexagon_low_rank_registry.py",
     ROOT / "research/searches/two-hexagon-global-check.py",
@@ -207,6 +238,35 @@ VERIFIERS = (
 
 # Producer-style controls write only to a disposable output selected by run().
 VERIFIER_ARGS = {
+    "check_acute_long_edge_four_face_periods.py": ["--check", "research/certificates/acute-long-edge-four-face-period-gate.json"],
+    "check_pentagon_two_acute_monotile_gate.py": ["--output", "{output}"],
+    "check_two_hexagon_alternating_all_metric_chain.py": ["--output", "{output}"],
+    "check_acute_obtuse_angle_capacity.py": ["--output", "{output}"],
+    'check_two_hexagon_interleaved_alternating_private_transport.py': ["--output", "{output}"],
+    'check_two_hexagon_interleaved_alternating_equal_odd_torus.py': ["--output", "{output}"],
+    'check_hat_interior_t_two_class_gate.py': ["--output", "{output}"],
+    "check_two_hexagon_interleaved_symbolic_closure.py": ["--transport", "research/certificates/two-hexagon-interleaved-contiguous-transport.json", "--output", "{output}"],
+    "check_hat_three_pentagon_one_hexagon_gate.py": ["--output", "{output}"],
+    "check_doubleacute_six_tile_strip.py": ["--output", "{output}"],
+    "check_two_hexagon_interleaved_local_side_gate.py": ["--output", "{output}"],
+    "check_two_hexagon_rank_nine_colour_transport.py": ["--output", "{output}"],
+    "check_hat_four_pentagon_deformation.py": ["--output", "{output}"],
+    'check_two_hexagon_balanced_root_cyclic_orders.py': ['--output', '{output}'],
+    'check_two_hexagon_odd_pair_graph_orders.py': ['--metrics', 'research/certificates/two-hexagon-odd-pair-graph-ring-metrics.json', '--residue', 'research/certificates/two-hexagon-odd-pair-residue-tori.json', '--output', '{output}'],
+    'verify_two_hexagon_unique_b_pair_graph.py': ['--check', 'research/certificates/two-hexagon-unique-b-pair-graph-domain.json'],
+    'check_two_hexagon_unique_B_star_multiring.py': ['--output', '{output}'],
+    'verify_two_hexagon_residue_wheel_action.py': ['--check', 'research/certificates/two-hexagon-residue-wheel-action.json'],
+    'check_hat_eight_kite_convex_clusters.py': ['--output', '{output}'],
+    'verify_acute_long_edge_construction_features.py': ['--check', 'research/certificates/acute-long-edge-construction-features.json'],
+    "check_two_hexagon_balanced_rank_five_ring.py": ["--output", "{output}"],
+    "verify_two_hexagon_complete_angle_grid.py": ["--check", "research/certificates/two-hexagon-complete-angle-grid.json"],
+    "verify_two_hexagon_corner_balance.py": ["--example"],
+    "verify_ammann_two_class_distance_audit.py": ["{output}"],
+    "verify_ammann_generalized_recorded_points.py": ["--output", "{output}"],
+    "kite-dart-edge-attachment-audit.py": ["--output-dir", "{output_dir}"],
+    "two-hexagon-inherited-escape-check.py": [
+        "--certificate", "research/certificates/two-hexagon-inherited-escape-radius3-balance.json",
+        "--output", "{output}"],
     "verify_two_hexagon_low_rank_registry.py": ["--check"],
     "two-hexagon-global-check.py": [
         "research/certificates/two-hexagon-global-covering-rank3-strata.json"],
@@ -230,7 +290,7 @@ VERIFIER_CERTIFICATES = {
 def run(script):
     with tempfile.TemporaryDirectory(prefix="arisearch-verify-") as scratch:
         output = str(Path(scratch) / "control.json")
-        args = [output if arg == "{output}" else arg
+        args = [output if arg == "{output}" else scratch if arg == "{output_dir}" else arg
                 for arg in VERIFIER_ARGS.get(script.name, [])]
         result = subprocess.run([sys.executable, str(script), *args], cwd=ROOT,
                                 capture_output=True, text=True, check=False)

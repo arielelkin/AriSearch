@@ -1,0 +1,147 @@
+{
+  "scope": "Bounded same-length four-face quotient gate only; no exclusion of larger tori or different subdivisions",
+  "rows": [
+    {
+      "atomic_long_side_split": false,
+      "face_count": 4,
+      "A_faces": 2,
+      "B_faces": 2,
+      "side_words": [
+        [
+          "a",
+          "b",
+          "C",
+          "D",
+          "e"
+        ],
+        [
+          "a",
+          "b",
+          "C",
+          "D",
+          "e"
+        ],
+        [
+          "C",
+          "E",
+          "t",
+          "t",
+          "E"
+        ],
+        [
+          "C",
+          "E",
+          "t",
+          "t",
+          "E"
+        ]
+      ],
+      "angle_words": [
+        [
+          60,
+          60,
+          150,
+          120,
+          150
+        ],
+        [
+          60,
+          60,
+          150,
+          120,
+          150
+        ],
+        [
+          60,
+          60,
+          150,
+          120,
+          150
+        ],
+        [
+          60,
+          60,
+          150,
+          120,
+          150
+        ]
+      ],
+      "trial_count": 216,
+      "connected_trial_count": 144,
+      "legal_flat_tori": 0
+    },
+    {
+      "atomic_long_side_split": true,
+      "face_count": 4,
+      "A_faces": 2,
+      "B_faces": 2,
+      "side_words": [
+        [
+          "D",
+          "E",
+          "b",
+          "C",
+          "D",
+          "e"
+        ],
+        [
+          "D",
+          "E",
+          "b",
+          "C",
+          "D",
+          "e"
+        ],
+        [
+          "C",
+          "E",
+          "t",
+          "t",
+          "E"
+        ],
+        [
+          "C",
+          "E",
+          "t",
+          "t",
+          "E"
+        ]
+      ],
+      "angle_words": [
+        [
+          60,
+          180,
+          60,
+          150,
+          120,
+          150
+        ],
+        [
+          60,
+          180,
+          60,
+          150,
+          120,
+          150
+        ],
+        [
+          60,
+          60,
+          150,
+          120,
+          150
+        ],
+        [
+          60,
+          60,
+          150,
+          120,
+          150
+        ]
+      ],
+      "trial_count": 3240,
+      "connected_trial_count": 3024,
+      "legal_flat_tori": 0
+    }
+  ]
+}

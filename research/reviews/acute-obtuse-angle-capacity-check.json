@@ -1,0 +1,74 @@
+{
+  "scope": "complete angle stars, whole-edge angular obstructions and corner-capacity incidence only; exact coordinate/maximum/minimum inequalities are separate obligations",
+  "certificate_sha256": "30fbeba94d4a1d038f535cc680816fa5496afdfa9a5cc003765804a6a30363e6",
+  "flat_stars_doubled_degrees": [
+    [
+      80,
+      130,
+      150
+    ]
+  ],
+  "full_stars_doubled_degrees": [
+    [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    [
+      80,
+      80,
+      130,
+      130,
+      150,
+      150
+    ],
+    [
+      80,
+      295,
+      345
+    ],
+    [
+      94,
+      94,
+      130,
+      130,
+      272
+    ],
+    [
+      94,
+      130,
+      224,
+      272
+    ],
+    [
+      94,
+      281,
+      345
+    ],
+    [
+      130,
+      295,
+      295
+    ],
+    [
+      150,
+      281,
+      289
+    ],
+    [
+      224,
+      224,
+      272
+    ]
+  ],
+  "monohedral_corner_coverage": "both fail",
+  "formal_ledger": "2A+1B valid but insufficient for forced-host capacity",
+  "hosted_capacity_hypotheses": "angular components VALID",
+  "shortest_A1_hypotheses": "angular components VALID"
+}

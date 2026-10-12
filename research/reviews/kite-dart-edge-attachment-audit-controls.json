@@ -1,0 +1,90 @@
+{
+  "scope": "Fixed census; conditional degree-two straightness; marked P2 source hull",
+  "audits": [
+    {
+      "kind": "stars",
+      "recipes": 706,
+      "witnesses_checked": 704,
+      "stats": {
+        "triangle-or-quadrilateral-escape": 522,
+        "slit": 181,
+        "multiple-boundary-cycles": 1,
+        "retained": 2
+      },
+      "local_types": {
+        "(0,)": {
+          "kite": 15,
+          "dart": 15
+        },
+        "(1,)": {
+          "kite": 15,
+          "dart": 15
+        },
+        "(0, 1)": {
+          "kite": 16,
+          "dart": 16
+        }
+      },
+      "retained_face_coordinate_controls": [
+        [
+          136,
+          6
+        ],
+        [
+          136,
+          6
+        ]
+      ],
+      "checkpoint_sha256": "bd61045c02c6e87b85fcb17058bf2f8d544f6037c7eeeae8ec8ccc25abfa4fd2"
+    },
+    {
+      "kind": "chords",
+      "recipes": 2000,
+      "witnesses_checked": 2000,
+      "stats": {
+        "triangle-or-quadrilateral-escape": 1262,
+        "slit": 604,
+        "multiple-boundary-cycles": 34,
+        "degenerate-face": 100
+      },
+      "local_types": {
+        "(0,)": {
+          "kite": 35,
+          "dart": 35
+        },
+        "(1,)": {
+          "kite": 35,
+          "dart": 35
+        },
+        "(0, 1)": {
+          "kite": 16,
+          "dart": 16
+        }
+      },
+      "retained_face_coordinate_controls": [],
+      "checkpoint_sha256": "6cef47257998fda5fb99646fec62e05912fe72abb597a4b138b748261e0d4764"
+    }
+  ],
+  "independent_weak_convexity": [
+    {
+      "masks": [
+        4,
+        2
+      ],
+      "status": "unsat",
+      "minimum_genuine_corners": 0,
+      "seconds": 0.538,
+      "five_corner_constraints_removed": 6
+    },
+    {
+      "masks": [
+        4,
+        8
+      ],
+      "status": "unsat",
+      "minimum_genuine_corners": 0,
+      "seconds": 2.342,
+      "five_corner_constraints_removed": 6
+    }
+  ]
+}
