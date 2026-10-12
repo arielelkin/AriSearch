@@ -1,0 +1,60 @@
+{
+ "domain": "One centre per P2 type; one matched endpoint per active long/short orbit; arbitrary corner-spoke subsets; centre degree >=3; all source edges erased",
+ "patch": "research/certificates/penrose-kite-dart-patch4.json",
+ "patch_sha256": "71e2bdb5eb1e09a2da1d92a6d1930804b43d230218a2b7d960c8611b7150de02",
+ "recipes_total": 706,
+ "recipes_processed": 706,
+ "complete": true,
+ "stats": {
+  "triangle-or-quadrilateral-escape": 522,
+  "slit": 181,
+  "multiple-boundary-cycles": 1,
+  "alive": 2
+ },
+ "by_orbit": {
+  "(0,)": {
+   "triangle-or-quadrilateral-escape": 169,
+   "slit": 53,
+   "multiple-boundary-cycles": 1,
+   "alive": 2
+  },
+  "(1,)": {
+   "triangle-or-quadrilateral-escape": 145,
+   "slit": 80
+  },
+  "(0, 1)": {
+   "triangle-or-quadrilateral-escape": 208,
+   "slit": 48
+  }
+ },
+ "alive": [
+  {
+   "dead": null,
+   "interior_faces": 136,
+   "generic_class_count": 6,
+   "class_count_unconstrained": true,
+   "active_orbits": [
+    0
+   ],
+   "kite_mask": 4,
+   "dart_mask": 2,
+   "patch_sha256": "71e2bdb5eb1e09a2da1d92a6d1930804b43d230218a2b7d960c8611b7150de02"
+  },
+  {
+   "dead": null,
+   "interior_faces": 136,
+   "generic_class_count": 6,
+   "class_count_unconstrained": true,
+   "active_orbits": [
+    0
+   ],
+   "kite_mask": 4,
+   "dart_mask": 8,
+   "patch_sha256": "71e2bdb5eb1e09a2da1d92a6d1930804b43d230218a2b7d960c8611b7150de02"
+  }
+ ],
+ "positive_dimension_requires_alignment": true,
+ "conditional_endpoint_deletion": true,
+ "constrained_class_collapse_not_searched": true,
+ "elapsed_seconds": 2.388
+}

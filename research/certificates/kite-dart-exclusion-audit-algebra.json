@@ -1,0 +1,144 @@
+{
+ "metric_options_independently_rebuilt": 660,
+ "statuses": {
+  "unit": 324,
+  "zero-dimensional": 12,
+  "positive-dimensional-necessary-survivor": 304,
+  "fixed-exterior-node": 18,
+  "forced-degeneracy": 2
+ },
+ "hexagon_no_deletion_incompatibility_triangles": [
+  {
+   "pair": [
+    1,
+    3
+   ],
+   "incompatible_triangle": [
+    0,
+    2,
+    3
+   ]
+  },
+  {
+   "pair": [
+    3,
+    1
+   ],
+   "incompatible_triangle": [
+    0,
+    1,
+    3
+   ]
+  }
+ ],
+ "joint_partitions_independently_replayed": 128,
+ "joint_retained_positive_dimensional_loci": 0,
+ "flat_cell_audit": {
+  "pair": [
+   3,
+   1
+  ],
+  "forced_zero_turn_vertices": [
+   [
+    0,
+    4
+   ],
+   [
+    3,
+    2
+   ],
+   [
+    4,
+    0
+   ]
+  ],
+  "further_zero_turn_patterns": "independently UNSAT",
+  "equal_side_pair_metric_gates": [
+   {
+    "classes": [
+     0,
+     3
+    ],
+    "options": 10,
+    "necessary_survivors": 0,
+    "dimensions": [
+     -1,
+     -1,
+     -1,
+     -1,
+     -1,
+     -1,
+     -1,
+     -1,
+     -1,
+     -1
+    ]
+   },
+   {
+    "classes": [
+     0,
+     4
+    ],
+    "options": 10,
+    "necessary_survivors": 1,
+    "dimensions": [
+     -1,
+     1,
+     -1,
+     -1,
+     -1,
+     -1,
+     -1,
+     -1,
+     -1,
+     -1
+    ]
+   },
+   {
+    "classes": [
+     1,
+     2
+    ],
+    "options": 12,
+    "necessary_survivors": 1,
+    "dimensions": [
+     -1,
+     -1,
+     1,
+     -1,
+     -1,
+     -1,
+     -1,
+     -1,
+     -1,
+     -1,
+     0,
+     -1
+    ]
+   },
+   {
+    "classes": [
+     3,
+     4
+    ],
+    "options": 10,
+    "necessary_survivors": 1,
+    "dimensions": [
+     -1,
+     -1,
+     -1,
+     1,
+     -1,
+     -1,
+     -1,
+     -1,
+     0,
+     -1
+    ]
+   }
+  ],
+  "mirror_transfer_independently_checked": true
+ },
+ "elapsed_seconds": 19.02,
+ "scope": "Independent input/coordinate reconstruction and gate implementation; Sage/Singular algebra engine shared, no formal proof-assistant certificate."
+}

@@ -1,0 +1,28 @@
+{
+ "date": "2026-10-11",
+ "status": "independent bounded exclusion audit complete; main problem unresolved",
+ "report": "research/reviews/kite-dart-exclusion-audit.md",
+ "scripts": {
+  "research/reviews/kite-dart-exclusion-audit.py": "02aa7698d21ce3891cdc45d7400566531760eddc522e9ec8bd30c0adfc53cf54",
+  "research/reviews/kite-dart-exclusion-audit-algebra.py": "b076a5ca5f6085af3e536c9f2cd0d157a5ff737f4e612c2a3375c5147bd9c979",
+  "research/reviews/kite-dart-exclusion-audit-source.py": "88016f71244867a125767f4ae35fd7a8ebd71183510a776ca440b74f0481641f"
+ },
+ "certificates": [
+  "research/certificates/kite-dart-exclusion-audit.json",
+  "research/certificates/kite-dart-exclusion-audit-algebra.json",
+  "research/certificates/kite-dart-exclusion-audit-source.json"
+ ],
+ "four_templates_closed": true,
+ "all_primal_dead_witnesses_checked": 9586,
+ "independent_types": 98,
+ "metric_options_checked": 660,
+ "joint_partitions_checked": 128,
+ "flat_mirror_case_closed": true,
+ "source_patch_legality": "five-kite sun strictly in acute half supertile after4deflations; patch3after3more",
+ "engine_trust_remaining": [
+  "Z3 QF_NRA UNSAT",
+  "Sage/Singular exact ideal arithmetic"
+ ],
+ "isolated_metric_loci_outside_family_scope": true,
+ "retained_bounded_faces_and_class_counts_checked": 1194
+}

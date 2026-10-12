@@ -1,0 +1,88 @@
+[
+ {
+  "kite": 1,
+  "dart": 3,
+  "complete": false,
+  "reason": "canceled",
+  "cells": [
+   {
+    "deleted_vertices": [
+     [
+      0
+     ],
+     [],
+     [],
+     [
+      0
+     ],
+     [
+      4
+     ]
+    ],
+    "side_counts": [
+     5,
+     6,
+     6,
+     5,
+     5
+    ],
+    "zero_turn_basis": [
+     "s0*s2 + (1/2*sqrt5 + 1/2)*t0*s2 + t0*t2 + (-1/2*sqrt5 + 1/2)*t0 - s2"
+    ],
+    "nodes": 0,
+    "loci": [],
+    "necessary_condition_model": {
+     "s0": "(/ 1.0 2.0)",
+     "t0": "(root-obj (+ (* 99 (^ x 2)) (* (- 36) x) (- 4)) 2)",
+     "s2": "(- (/ 1.0 2.0))",
+     "t2": "(/ 7.0 8.0)"
+    }
+   }
+  ],
+  "retained_loci": 0,
+  "elapsed_seconds": 10.139
+ },
+ {
+  "kite": 3,
+  "dart": 1,
+  "complete": true,
+  "reason": "exhausted-zero-turn-patterns",
+  "cells": [
+   {
+    "deleted_vertices": [
+     [
+      4
+     ],
+     [],
+     [],
+     [
+      2
+     ],
+     [
+      0
+     ]
+    ],
+    "side_counts": [
+     5,
+     6,
+     6,
+     5,
+     5
+    ],
+    "zero_turn_basis": [
+     "s0*s2 + (1/2*sqrt5 + 1/2)*s0*t2 + t0*t2 - s0 + (-1/2*sqrt5 + 1/2)*t0 + s2"
+    ],
+    "nodes": 0,
+    "loci": [],
+    "necessary_condition_model": {
+     "s0": "(- (/ 1.0 2.0))",
+     "t0": "(root-obj (+ (* 956 (^ x 2)) (* (- 766) x) (- 551)) 2)",
+     "s2": "(/ 1.0 2.0)",
+     "t2": "(/ 1.0 16.0)"
+    }
+   }
+  ],
+  "retained_loci": 0,
+  "elapsed_seconds": 3.647
+ }
+]

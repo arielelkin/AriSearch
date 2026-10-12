@@ -12,6 +12,15 @@ two-tile candidate.
 standard Penrose thick:thin ratio; the graph and van-Hove hypotheses for
 the count calculation are explicitly conditional.
 
+**Supersession note (2026-10-12):** this is the earlier distance-only
+parameterization and conditional count argument. The
+[exact reconstruction](ammann-two-class-reconstruction.md) now selects the
+native branches and lists the final shapes; the
+[reviewed generic forcing theorem](ammann-forcing-aperiodicity.md) gives exact
+sample parameters, a vertex atlas and reconstruction. Those later results
+do not retrospectively discharge this artifact's separate conditional
+frequency/split calculation or its pending rereview.
+
 ## Algebraic coordinate parameterization
 
 Normalize the unit thin Penrose rhombus in cyclic order as
@@ -124,5 +133,6 @@ substitution proof.  No fusion-frequency conclusion is valid without it.
 The source relations and diagram are in Sugimoto,
 *Convex Polygons for Aperiodic Tiling*, arXiv:1602.06372v2, Figure 4.  The
 coordinate calculation is symbolic and uses no floating-point decision.
-The missing data remain an exact \(J\), exact branch inequalities, final
-polygon cyclic vertex lists, and a legal vertex-star/substitution table.
+Those construction data were missing in this 2026-10-02 calculation; the
+later reconstruction and forcing records linked above now supply them on
+their stated domains. Use those records for construction restart.

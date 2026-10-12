@@ -1,0 +1,61 @@
+{
+ "date": "2026-10-11",
+ "status": "Completed computational screening within two bounded attachment domains; independent hostile review of the exclusion remains outstanding; route paused at 2026-10-12 checkpoint",
+ "one_centre_stars": {
+  "recipes": 706,
+  "stats": {
+   "triangle-or-quadrilateral-escape": 522,
+   "slit": 181,
+   "multiple-boundary-cycles": 1,
+   "two_remaining_recipes": 2
+  },
+  "remaining_recipes": [
+   [
+    4,
+    2
+   ],
+   [
+    4,
+    8
+   ]
+  ],
+  "weak_convexity": "Both UNSAT even without minimum-corner requirement, strictly interior centres and nonzero edges; alignment equations omitted so negative applies to larger domain",
+  "controls": "Independent exact midpoint embedding and rotation-system face tracing agrees:136 bounded faces per retained recipe, corners5:21,6:60,7:25,8:30; full coverage706,fancontrols92,matchededgeinstances495; patch3/4 same edge roles/equations"
+ },
+ "single_endpoint_to_corner_chord": {
+  "recipes": 2000,
+  "stats": {
+   "triangle-or-quadrilateral-escape": 1262,
+   "slit": 604,
+   "multiple-boundary-cycles": 34,
+   "degenerate-face": 100
+  },
+  "domain": "One strictly interior centre/type; >=3 spokes total to chosen corners and every endpoint of one active long/short orbit; at most one endpoint-to-nonadjacent-corner chord inside one fan face/type; all source edges erased",
+  "local_types": 35,
+  "recipes_per_orbit": 1000,
+  "both_orbits": "No noncrossing chord fits a fan with all four endpoints active, so adds no recipes",
+  "survivors": 0,
+  "conditional_degree_two_deletion": "At interior degree-two endpoints or source corners, convexity forces straightness; source-boundary corners exempt. Nonzero retained segments prevent slit/degenerate-cycle rescue."
+ },
+ "limits": [
+  "Exact algorithms with computational UNSAT, no solver proof certificates",
+  "First endpoint-star encoding has independent controls; chord exclusions still need independent review",
+  "Finite source patches give witnesses; full source-language occurrence must be justified for a universal source-exclusion statement",
+  "No higher-valence attachment candidate reached the two-congruence-class or free-angle test",
+  "Two centres, multiple chords, neighbor dependence and partial-source-edge retention outside these domains"
+ ],
+ "replay": [
+  "conda run --no-capture-output -n arisearch python research/searches/penrose-kite-dart-edge-stars.py --patch research/certificates/penrose-kite-dart-patch4.json --checkpoint research/certificates/penrose-kite-dart-edge-stars-patch4.jsonl --summary research/certificates/penrose-kite-dart-edge-stars-patch4-summary.json",
+  "conda run --no-capture-output -n arisearch python research/searches/penrose-kite-dart-edge-star-convexity.py --checkpoint research/certificates/penrose-kite-dart-edge-stars-patch4.jsonl --output research/certificates/penrose-kite-dart-edge-stars-any-corners-convexity.json --min-corners 0",
+  "conda run --no-capture-output -n arisearch python research/reviews/verify_penrose_kite_dart_edge_stars.py --checkpoint research/certificates/penrose-kite-dart-edge-stars-patch4.jsonl --output research/certificates/penrose-kite-dart-edge-stars-controls.json",
+  "conda run --no-capture-output -n arisearch python research/searches/penrose-kite-dart-edge-chords.py --patch research/certificates/penrose-kite-dart-patch4.json --checkpoint research/certificates/penrose-kite-dart-edge-chords-patch4.jsonl --summary research/certificates/penrose-kite-dart-edge-chords-patch4-summary.json --max-seconds 240"
+ ],
+ "script_sha256": {
+  "research/searches/penrose-kite-dart-edge-alignment.py": "9cfaee7a709581cf027dfb82f3e52b58246e36d0ce1bf12fceb462db8e38061f",
+  "research/searches/penrose-kite-dart-edge-stars.py": "1405ba980532de54794ffe175258f8a4cb094b017d7cd650b8dbadc1e51a1be2",
+  "research/searches/penrose-kite-dart-edge-star-convexity.py": "8f9cdce09bfe54e998b86ad745714a17625969dd803cfd3d7ea5b0f97c67fd1a",
+  "research/searches/penrose-kite-dart-edge-chords.py": "3acc83347dd31cc1ae5800147865e56f9af27ccab58e50c991343ec2ffbf22a6",
+  "research/reviews/verify_penrose_kite_dart_edge_stars.py": "80474b255fae17f171ea7b03cded4ebbbaa1d1cb1130160f8322a41efed58b64"
+ },
+ "process_state": "All attachment jobs completed; exclusive locks on checkpoint files prevent duplication"
+}

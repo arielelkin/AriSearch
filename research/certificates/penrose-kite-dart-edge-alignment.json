@@ -1,0 +1,528 @@
+[
+ {
+  "basis": [
+   "tK*tD^2*r_long + tD^3*r_long + (-1/2*sqrt5 - 1/2)*tK*tD*r_long^2 + (-1/2*sqrt5 - 1/2)*tD^2*r_long^2 - tD^3 + (1/2*sqrt5 + 1/2)*tD^2*r_long",
+   "sK*sD*tD + (1/2*sqrt5 + 1/2)*sK*tD^2 + tK*tD^2 + (-1/2*sqrt5 + 3/2)*tK*tD*r_long + sD*tD*r_long + (1/2*sqrt5 + 1/2)*tD^2*r_long - sD*tD + (-1/2*sqrt5 - 1/2)*tD^2",
+   "tK^2*r_long - tD^2*r_long + (1/2*sqrt5 + 1/2)*tK*r_long^2 + (1/2*sqrt5 + 1/2)*tD*r_long^2 + (2/5*sqrt5 + 1)*sK*sD + (7/10*sqrt5 + 3/2)*sK*tD + (2/5*sqrt5)*tK*tD + tD^2 + (1/10*sqrt5 + 1/2)*tK*r_long + (2/5*sqrt5 + 1)*sD*r_long + (1/5*sqrt5 + 1)*tD*r_long + (-2/5*sqrt5 - 1)*sD + (-7/10*sqrt5 - 3/2)*tD",
+   "sK^2 + (1/2*sqrt5 + 1/2)*sK*tK + tK^2 - sD*r_long + (-sqrt5 + 1)*tD*r_long - sK + (-sqrt5 + 1)*tK + sD + (sqrt5 - 1)*tD",
+   "tK*sD - sK*tD - tK*r_long - tD*r_long + tD",
+   "sD^2 + (1/2*sqrt5 + 1/2)*sD*tD + tD^2 - sD*r_long + (-sqrt5 + 1)*tD*r_long",
+   "sK*r_long + (sqrt5 - 1)*tK*r_long + sD*r_long + (sqrt5 - 1)*tD*r_long - sD + (-sqrt5 + 1)*tD"
+  ],
+  "complex_dimension": 2,
+  "status": "sat",
+  "solver_seconds": 0.0244,
+  "necessary_conditions_only": true,
+  "model": {
+   "sK": "(root-obj (+ (* 124 (^ x 2)) (* 108 x) (- 41)) 2)",
+   "tK": "(root-obj (+ (* 496 (^ x 2)) (* 216 x) (- 41)) 2)",
+   "sD": "(/ 1.0 2.0)",
+   "tD": "(/ 1.0 4.0)",
+   "r_long": "(root-obj (+ (* 64 (^ x 2)) (* 8 x) (- 31)) 2)"
+  },
+  "active_orbits": [
+   0
+  ],
+  "orbit_definitions": [
+   {
+    "name": "long",
+    "roles": [
+     [
+      "dart",
+      0,
+      0
+     ],
+     [
+      "dart",
+      3,
+      1
+     ],
+     [
+      "kite",
+      0,
+      1
+     ],
+     [
+      "kite",
+      3,
+      0
+     ]
+    ]
+   },
+   {
+    "name": "short",
+    "roles": [
+     [
+      "dart",
+      1,
+      0
+     ],
+     [
+      "dart",
+      2,
+      1
+     ],
+     [
+      "kite",
+      1,
+      1
+     ],
+     [
+      "kite",
+      2,
+      0
+     ]
+    ]
+   }
+  ],
+  "variables": [
+   "sK",
+   "tK",
+   "sD",
+   "tD",
+   "r_long"
+  ],
+  "equations": [
+   "sD^2 + (1/2*sqrt5 + 1/2)*sD*tD + tD^2 - sD*r_long + (-sqrt5 + 1)*tD*r_long",
+   "sK^2 + (1/2*sqrt5 + 1/2)*sK*tK + tK^2 + sK*r_long + (sqrt5 - 1)*tK*r_long - sK + (-sqrt5 + 1)*tK",
+   "tK*sD - sK*tD + (1/2*sqrt5 + 1/2)*sK*r_long + tK*r_long + (1/2*sqrt5 + 1/2)*sD*r_long + tD*r_long + (-1/2*sqrt5 - 1/2)*sD - tD",
+   "tK*sD - sK*tD - tK*r_long - tD*r_long + tD"
+  ],
+  "dots": [
+   "(1/4*sqrt5 - 1/4)*sD^2 + 1/2*sD*tD + (1/4*sqrt5 - 1/4)*tD^2 + (-1/4*sqrt5 - 3/4)*sD*r_long + (-1/2*sqrt5 - 1/2)*tD*r_long + r_long^2",
+   "(1/4*sqrt5 - 1/4)*sK^2 + 1/2*sK*tK + (1/4*sqrt5 - 1/4)*tK^2 + (1/4*sqrt5 + 3/4)*sK*r_long + (1/2*sqrt5 + 1/2)*tK*r_long + r_long^2 + (-1/4*sqrt5 - 3/4)*sK + (-1/2*sqrt5 - 1/2)*tK - 2*r_long + 1",
+   "-sK*sD + (-1/4*sqrt5 - 1/4)*tK*sD + (-1/4*sqrt5 - 1/4)*sK*tD - tK*tD + (1/4*sqrt5 - 1/4)*sK*r_long + (1/4*sqrt5 + 1/4)*tK*r_long + (-1/4*sqrt5 + 1/4)*sD*r_long + (-1/4*sqrt5 - 1/4)*tD*r_long + r_long^2 + (1/4*sqrt5 - 1/4)*sD + (1/4*sqrt5 + 1/4)*tD - r_long",
+   "-sK*sD + (-1/4*sqrt5 - 1/4)*tK*sD + (-1/4*sqrt5 - 1/4)*sK*tD - tK*tD + sK*r_long + (1/4*sqrt5 + 1/4)*tK*r_long - sD*r_long + (-1/4*sqrt5 - 1/4)*tD*r_long + r_long^2 + sD + (1/4*sqrt5 + 1/4)*tD - r_long"
+  ],
+  "source_edge_instances": 245,
+  "source_role_pairs": [
+   [
+    [
+     "dart",
+     0
+    ],
+    [
+     "dart",
+     3
+    ]
+   ],
+   [
+    [
+     "dart",
+     0
+    ],
+    [
+     "kite",
+     0
+    ]
+   ],
+   [
+    [
+     "dart",
+     1
+    ],
+    [
+     "kite",
+     1
+    ]
+   ],
+   [
+    [
+     "dart",
+     2
+    ],
+    [
+     "kite",
+     2
+    ]
+   ],
+   [
+    [
+     "dart",
+     3
+    ],
+    [
+     "kite",
+     3
+    ]
+   ],
+   [
+    [
+     "kite",
+     0
+    ],
+    [
+     "kite",
+     3
+    ]
+   ],
+   [
+    [
+     "kite",
+     1
+    ],
+    [
+     "kite",
+     2
+    ]
+   ]
+  ],
+  "patch": "research/certificates/penrose-kite-dart-patch4.json",
+  "patch_sha256": "71e2bdb5eb1e09a2da1d92a6d1930804b43d230218a2b7d960c8611b7150de02",
+  "elapsed_seconds": 0.24,
+  "source_centres_not_fixed_constants": true
+ },
+ {
+  "basis": [
+   "sD^2*r_short^2 + (-1/4*sqrt5 - 5/4)*sK*tD*r_short^2 + (-1/2*sqrt5)*tK*tD*r_short^2 + (3/4*sqrt5 + 7/4)*sD*tD*r_short^2 + (1/2*sqrt5 + 1)*tD^2*r_short^2 + (3/4*sqrt5 - 1/4)*sK*r_short^3 + 3/2*tK*r_short^3 + (-1/4*sqrt5 + 3/4)*sD*r_short^3 + 1/2*tD*r_short^3 + (1/4*sqrt5 + 5/4)*sK*tD*r_short + (1/2*sqrt5)*tK*tD*r_short + (-sqrt5 + 1/2)*sK*r_short^2 + (-1/4*sqrt5 - 7/4)*tK*r_short^2 + (-1/4*sqrt5 - 7/4)*sD*r_short^2 - 2*tD*r_short^2 + (-1/4*sqrt5 - 5/4)*r_short^3 + (1/4*sqrt5 - 1/4)*sK*r_short + (1/4*sqrt5 + 1/4)*tK*r_short + (-1/2*sqrt5)*tD*r_short + (3/4*sqrt5 + 7/4)*r_short^2 + (-1/4*sqrt5 - 1/4)*r_short",
+   "sK*tK*r_short - sK*tD*r_short + (2/5*sqrt5 - 2)*sK*r_short^2 + (-2/5*sqrt5 - 1)*tK*r_short^2 + (-2/5*sqrt5 + 2)*sD*r_short^2 + (2/5*sqrt5 + 1)*tD*r_short^2 - sK*tK + (1/10*sqrt5 + 1/2)*sK*r_short + (2/5*sqrt5 + 1)*tK*r_short + (1/10*sqrt5 + 1/2)*r_short^2 + sK + (-2/5*sqrt5 - 1)*r_short",
+   "tK^2*r_short - tK*tD*r_short + (2/5*sqrt5)*sK*r_short^2 + (1/10*sqrt5 + 3/2)*tK*r_short^2 + (-2/5*sqrt5)*sD*r_short^2 + (-1/10*sqrt5 - 3/2)*tD*r_short^2 - tK^2 + (-2/5*sqrt5)*sK*r_short + (2/5*sqrt5 - 4)*tK*r_short + tD*r_short + (3/5*sqrt5 - 2)*r_short^2 + 2*tK + (-2/5*sqrt5 + 3)*r_short - 1",
+   "sK^2 + (1/2*sqrt5 + 1/2)*sK*tK + tK^2 + (1/2*sqrt5 + 1/2)*sK*r_short + 2*tK*r_short + (-1/2*sqrt5 - 1/2)*sK - 2*tK - 2*r_short + 1",
+   "sK*sD + (1/2*sqrt5 + 1/2)*sK*tD + tK*tD + (1/2*sqrt5 - 1/2)*sK*r_short + tK*r_short + sD*r_short + tD*r_short + (-1/2*sqrt5 - 1/2)*sK + (-1/2*sqrt5 - 1/2)*tK - tD + (-1/2*sqrt5 - 1/2)*r_short + (1/2*sqrt5 + 1/2)",
+   "tK*sD - sK*tD + (sqrt5 - 2)*sK*r_short + (-sqrt5 + 2)*sD*r_short + (-1/2*sqrt5 + 3/2)*sK - sD"
+  ],
+  "complex_dimension": 2,
+  "status": "unknown",
+  "solver_seconds": 20.0607,
+  "necessary_conditions_only": true,
+  "reason_unknown": "timeout",
+  "active_orbits": [
+   1
+  ],
+  "orbit_definitions": [
+   {
+    "name": "long",
+    "roles": [
+     [
+      "dart",
+      0,
+      0
+     ],
+     [
+      "dart",
+      3,
+      1
+     ],
+     [
+      "kite",
+      0,
+      1
+     ],
+     [
+      "kite",
+      3,
+      0
+     ]
+    ]
+   },
+   {
+    "name": "short",
+    "roles": [
+     [
+      "dart",
+      1,
+      0
+     ],
+     [
+      "dart",
+      2,
+      1
+     ],
+     [
+      "kite",
+      1,
+      1
+     ],
+     [
+      "kite",
+      2,
+      0
+     ]
+    ]
+   }
+  ],
+  "variables": [
+   "sK",
+   "tK",
+   "sD",
+   "tD",
+   "r_short"
+  ],
+  "equations": [
+   "sK*sD + (1/2*sqrt5 + 1/2)*sK*tD + tK*tD + (1/2*sqrt5 - 1/2)*sK*r_short + tK*r_short + sD*r_short + tD*r_short + (-1/2*sqrt5 - 1/2)*sK + (-1/2*sqrt5 - 1/2)*tK - tD + (-1/2*sqrt5 - 1/2)*r_short + (1/2*sqrt5 + 1/2)",
+   "sK*sD + (1/2*sqrt5 + 1/2)*tK*sD + tK*tD + sK*r_short + tK*r_short + (1/2*sqrt5 - 1/2)*sD*r_short + tD*r_short - sK + (-1/2*sqrt5 - 1/2)*tK + (-1/2*sqrt5 - 1/2)*sD - tD + (-1/2*sqrt5 - 1/2)*r_short + (1/2*sqrt5 + 1/2)",
+   "sK^2 + (1/2*sqrt5 + 1/2)*sK*tK + tK^2 + (1/2*sqrt5 + 1/2)*sK*r_short + 2*tK*r_short + (-1/2*sqrt5 - 1/2)*sK - 2*tK - 2*r_short + 1"
+  ],
+  "dots": [
+   "(-1/4*sqrt5 - 1/4)*sK*sD + (-1/4*sqrt5 + 1/4)*tK*sD - sK*tD + (-1/4*sqrt5 - 1/4)*tK*tD + (1/4*sqrt5 - 3/4)*sK*r_short + (-1/4*sqrt5 + 3/4)*tK*r_short + 1/2*sD*r_short + (-1/4*sqrt5 + 3/4)*tD*r_short + (-1/2*sqrt5 + 3/2)*r_short^2 + (1/4*sqrt5 + 1/4)*sK + (1/4*sqrt5 - 1/4)*tK + (1/4*sqrt5 - 1/4)*sD + (1/4*sqrt5 + 1/4)*tD + (1/4*sqrt5 - 5/4)*r_short + (-1/4*sqrt5 + 1/4)",
+   "(-1/4*sqrt5 - 1/4)*sK*sD - tK*sD + (-1/4*sqrt5 + 1/4)*sK*tD + (-1/4*sqrt5 - 1/4)*tK*tD + 1/2*sK*r_short + (-1/4*sqrt5 + 3/4)*tK*r_short + (1/4*sqrt5 - 3/4)*sD*r_short + (-1/4*sqrt5 + 3/4)*tD*r_short + (-1/2*sqrt5 + 3/2)*r_short^2 + (-1/4*sqrt5 + 1/4)*sK + (1/4*sqrt5 - 1/4)*tK + sD + (1/4*sqrt5 + 1/4)*tD + (1/4*sqrt5 - 5/4)*r_short + (-1/4*sqrt5 + 1/4)",
+   "(-1/4*sqrt5 - 1/4)*sK^2 + (-1/4*sqrt5 - 3/4)*sK*tK + (-1/4*sqrt5 - 1/4)*tK^2 + (1/4*sqrt5 - 1/4)*sK*r_short + (-1/2*sqrt5 + 3/2)*tK*r_short + (-1/2*sqrt5 + 3/2)*r_short^2 + (1/4*sqrt5 + 3/4)*sK + (1/2*sqrt5 + 1/2)*tK + (1/2*sqrt5 - 3/2)*r_short + (-1/4*sqrt5 - 1/4)"
+  ],
+  "source_edge_instances": 250,
+  "source_role_pairs": [
+   [
+    [
+     "dart",
+     0
+    ],
+    [
+     "dart",
+     3
+    ]
+   ],
+   [
+    [
+     "dart",
+     0
+    ],
+    [
+     "kite",
+     0
+    ]
+   ],
+   [
+    [
+     "dart",
+     1
+    ],
+    [
+     "kite",
+     1
+    ]
+   ],
+   [
+    [
+     "dart",
+     2
+    ],
+    [
+     "kite",
+     2
+    ]
+   ],
+   [
+    [
+     "dart",
+     3
+    ],
+    [
+     "kite",
+     3
+    ]
+   ],
+   [
+    [
+     "kite",
+     0
+    ],
+    [
+     "kite",
+     3
+    ]
+   ],
+   [
+    [
+     "kite",
+     1
+    ],
+    [
+     "kite",
+     2
+    ]
+   ]
+  ],
+  "patch": "research/certificates/penrose-kite-dart-patch4.json",
+  "patch_sha256": "71e2bdb5eb1e09a2da1d92a6d1930804b43d230218a2b7d960c8611b7150de02",
+  "elapsed_seconds": 20.318,
+  "source_centres_not_fixed_constants": true
+ },
+ {
+  "basis": [
+   "tD*r_long*r_short + (3/4*sqrt5 + 5/4)*tD*r_long - 1/2*tD*r_short + (-7/4*sqrt5 + 1/4)*r_long*r_short + (-1/2*sqrt5 - 5/4)*sK + (-3/4*sqrt5 - 5/4)*tK + (13/8*sqrt5 + 29/8)*sD + (7/4*sqrt5 + 17/4)*tD + (-7/2*sqrt5 - 19/2)*r_long + (5/8*sqrt5 - 1/8)*r_short + (3/4*sqrt5 + 5/2)",
+   "tD*r_short^2 + (19/4*sqrt5 + 43/4)*tD*r_long + (-3/4*sqrt5 - 13/4)*tD*r_short + (-2*sqrt5 - 17/2)*r_long*r_short + (-1/2*sqrt5 + 1/2)*r_short^2 + (3/8*sqrt5 + 9/8)*sK + (-1/4*sqrt5 - 5/4)*tK + (9/4*sqrt5 + 5)*sD + (15/4*sqrt5 + 35/4)*tD + (-23/2*sqrt5 - 49/2)*r_long + (17/8*sqrt5 + 21/8)*r_short + (9/8*sqrt5 + 31/8)",
+   "r_long*r_short^2 - r_long*r_short + (1/8*sqrt5 - 5/8)*r_short^2 + (-7/8*sqrt5 - 2)*sK + (-9/8*sqrt5 - 19/8)*tK + (29/16*sqrt5 + 65/16)*sD + (9/4*sqrt5 + 5)*tD + (-33/8*sqrt5 - 71/8)*r_long + (-5/16*sqrt5 + 13/16)*r_short + (3/2*sqrt5 + 21/8)",
+   "r_short^3 + (1/2*sqrt5 + 3/2)*r_long*r_short + (-3/8*sqrt5 - 15/8)*r_short^2 + (-27/16*sqrt5 - 61/16)*sK + (-17/8*sqrt5 - 37/8)*tK + (7/4*sqrt5 + 31/8)*sD + (17/8*sqrt5 + 39/8)*tD + (-43/8*sqrt5 - 99/8)*r_long + (1/16*sqrt5 - 7/16)*r_short + (39/16*sqrt5 + 101/16)",
+   "sK^2 + (1/2*sqrt5 - 3/2)*r_long*r_short + (7/10*sqrt5 - 3/2)*r_short^2 + (2/5*sqrt5 + 3/2)*sK + (11/10*sqrt5 + 1/2)*tK + (-3/20*sqrt5 - 1/4)*sD + (-1/10*sqrt5 - 1/2)*tD + (4/5*sqrt5 + 3)*r_long + (-11/20*sqrt5 + 5/4)*r_short + (-13/20*sqrt5 - 9/4)",
+   "sK*tK + (-1/2*sqrt5 - 2)*tD*r_long + (-3/4*sqrt5 + 9/4)*tD*r_short + (-15/4*sqrt5 + 43/4)*r_long*r_short + (1/5*sqrt5 - 1/2)*r_short^2 + (-11/10*sqrt5 - 3/2)*sK + (7/20*sqrt5 - 13/4)*tK + (1/10*sqrt5 + 1/2)*sD + (-1/10*sqrt5 - 1)*tD + (23/10*sqrt5 - 3)*r_long + (11/5*sqrt5 - 6)*r_short + (-9/10*sqrt5 + 9/2)",
+   "tK^2 + (5/4*sqrt5 + 9/4)*tD*r_long + (-3/4*sqrt5 + 3/4)*tD*r_short + (-5*sqrt5 + 13/2)*r_long*r_short + (-11/20*sqrt5 + 5/4)*r_short^2 + (13/20*sqrt5 + 5/4)*sK + (-3/20*sqrt5 - 1/4)*tK + (7/20*sqrt5 + 3/4)*sD + (23/20*sqrt5 + 11/4)*tD + (-19/20*sqrt5 - 39/4)*r_long + (16/5*sqrt5 - 5)*r_short + (-7/5*sqrt5 + 7/2)",
+   "sK*sD + (-12/5*sqrt5 + 5)*r_long*r_short + (-11/10*sqrt5 + 5/2)*r_short^2 + (-1/10*sqrt5 - 1/2)*sK + (-2/5*sqrt5)*tK + (17/20*sqrt5 + 7/4)*sD + (9/10*sqrt5 + 5/2)*tD + (-1/5*sqrt5 - 6)*r_long + (13/4*sqrt5 - 29/4)*r_short + (-33/20*sqrt5 + 19/4)",
+   "tK*sD + (-3/4*sqrt5 - 1/4)*tD*r_long + (-sqrt5 + 5/2)*tD*r_short + (-103/20*sqrt5 + 53/4)*r_long*r_short + (-7/20*sqrt5 + 3/4)*r_short^2 + (-1/10*sqrt5 + 1/2)*sK + (3/5*sqrt5 - 1/2)*tK + (-9/10*sqrt5 - 5/2)*sD + (-7/20*sqrt5 - 17/4)*tD + (91/20*sqrt5 - 3/4)*r_long + (7/2*sqrt5 - 17/2)*r_short + (-12/5*sqrt5 + 4)",
+   "sD^2 + (129/10*sqrt5 - 57/2)*r_long*r_short + (38/5*sqrt5 - 17)*r_short^2 + (-9/20*sqrt5 + 9/4)*sK + (27/10*sqrt5 - 9/2)*tK + (-11/20*sqrt5 - 1/4)*sD + (3/10*sqrt5 - 5/2)*tD + (-27/5*sqrt5 + 16)*r_long + (-17*sqrt5 + 38)*r_short + (169/20*sqrt5 - 83/4)",
+   "sK*tD + (-3/4*sqrt5 - 1/4)*tD*r_long + (-sqrt5 + 5/2)*tD*r_short + (-103/20*sqrt5 + 53/4)*r_long*r_short + (-7/20*sqrt5 + 3/4)*r_short^2 + (-1/10*sqrt5 + 1/2)*sK + (3/5*sqrt5 - 1/2)*tK + (-9/10*sqrt5 - 5/2)*sD + (-7/20*sqrt5 - 17/4)*tD + (91/20*sqrt5 - 3/4)*r_long + (7/2*sqrt5 - 17/2)*r_short + (-12/5*sqrt5 + 4)",
+   "tK*tD + (1/2*sqrt5 + 2)*tD*r_long + (-3/4*sqrt5 + 5/4)*tD*r_short + (-13/20*sqrt5 + 1/4)*r_long*r_short + (9/10*sqrt5 - 2)*r_short^2 + (3/20*sqrt5 + 1/4)*sK + (-3/20*sqrt5 + 1/4)*tK + (7/20*sqrt5 + 3/4)*sD + (9/10*sqrt5 - 1)*tD + (-6/5*sqrt5 - 5/2)*r_long + (-3/2*sqrt5 + 4)*r_short + (11/10*sqrt5 - 2)",
+   "sD*tD + (9/4*sqrt5 - 19/4)*tD*r_long + (7/4*sqrt5 - 15/4)*tD*r_short + (99/10*sqrt5 - 23)*r_long*r_short + (47/20*sqrt5 - 21/4)*r_short^2 + (-1/5*sqrt5 - 1)*sK + (19/20*sqrt5 - 15/4)*tK + (-3/10*sqrt5 + 5/2)*sD + (-49/20*sqrt5 + 31/4)*tD + (-113/20*sqrt5 + 31/4)*r_long + (-8*sqrt5 + 18)*r_short + (47/10*sqrt5 - 17/2)",
+   "tD^2 + (5/4*sqrt5 - 13/4)*tD*r_long + (sqrt5 - 5/2)*tD*r_short + (-147/20*sqrt5 + 65/4)*r_long*r_short + (-123/20*sqrt5 + 55/4)*r_short^2 + (4/5*sqrt5 - 1)*sK + (-4/5*sqrt5 + 5/2)*tK + (-1/20*sqrt5 - 1/4)*sD + (-69/20*sqrt5 + 29/4)*tD + (77/20*sqrt5 - 33/4)*r_long + (51/4*sqrt5 - 113/4)*r_short + (-34/5*sqrt5 + 29/2)",
+   "sK*r_long + (-sqrt5 + 1)*tD*r_long + (sqrt5 - 1)*r_long*r_short + (1/4*sqrt5 - 1/4)*sK + (-1/2*sqrt5 + 3/2)*tK + (-1/2*sqrt5 - 1)*sD + (1/2*sqrt5 - 5/2)*tD + (1/2*sqrt5 + 5/2)*r_long + (-3/4*sqrt5 + 5/4)*r_short + (1/4*sqrt5 - 5/4)",
+   "tK*r_long + tD*r_long - tD",
+   "sD*r_long + (sqrt5 - 1)*tD*r_long + (-sqrt5 + 1)*r_long*r_short + (-1/4*sqrt5 + 1/4)*sK + (1/2*sqrt5 - 3/2)*tK + (1/2*sqrt5)*sD + (-1/2*sqrt5 + 5/2)*tD + (-1/2*sqrt5 - 5/2)*r_long + (3/4*sqrt5 - 5/4)*r_short + (-1/4*sqrt5 + 5/4)",
+   "r_long^2 + (-29/22*sqrt5 + 25/11)*r_long*r_short + (-31/44*sqrt5 + 69/44)*r_short^2 + (3/22*sqrt5 - 1/22)*sK + (-2/11*sqrt5 + 8/11)*tK + (47/44*sqrt5 - 133/44)*r_long + (17/11*sqrt5 - 35/11)*r_short + (-sqrt5 + 2)",
+   "sK*r_short + (sqrt5 - 1)*tD*r_short + (3*sqrt5 - 9)*r_long*r_short + (1/4*sqrt5 - 3/4)*sK + (-sqrt5)*tK + (-1/4*sqrt5 - 3/4)*sD + (1/2*sqrt5 + 5/2)*tD + (-3*sqrt5)*r_long + (-2*sqrt5 + 9/2)*r_short + (7/4*sqrt5 - 5/4)",
+   "tK*r_short - tD*r_short + (2*sqrt5 - 2)*r_long*r_short + (1/2*sqrt5 + 1/2)*tK + (-sqrt5 - 2)*tD + (sqrt5 + 5)*r_long + (-sqrt5 + 1)*r_short - 2",
+   "sD*r_short + (sqrt5 - 1)*tD*r_short + (3*sqrt5 - 9)*r_long*r_short + (-1/4*sqrt5 - 5/4)*sK + (-sqrt5)*tK + (3/4*sqrt5 + 5/4)*sD + (1/2*sqrt5 + 5/2)*tD + (-3*sqrt5)*r_long + (-2*sqrt5 + 9/2)*r_short + (7/4*sqrt5 - 5/4)"
+  ],
+  "complex_dimension": 0,
+  "status": "unknown",
+  "solver_seconds": 20.1158,
+  "necessary_conditions_only": true,
+  "reason_unknown": "timeout",
+  "active_orbits": [
+   0,
+   1
+  ],
+  "orbit_definitions": [
+   {
+    "name": "long",
+    "roles": [
+     [
+      "dart",
+      0,
+      0
+     ],
+     [
+      "dart",
+      3,
+      1
+     ],
+     [
+      "kite",
+      0,
+      1
+     ],
+     [
+      "kite",
+      3,
+      0
+     ]
+    ]
+   },
+   {
+    "name": "short",
+    "roles": [
+     [
+      "dart",
+      1,
+      0
+     ],
+     [
+      "dart",
+      2,
+      1
+     ],
+     [
+      "kite",
+      1,
+      1
+     ],
+     [
+      "kite",
+      2,
+      0
+     ]
+    ]
+   }
+  ],
+  "variables": [
+   "sK",
+   "tK",
+   "sD",
+   "tD",
+   "r_long",
+   "r_short"
+  ],
+  "equations": [
+   "sD^2 + (1/2*sqrt5 + 1/2)*sD*tD + tD^2 - sD*r_long + (-sqrt5 + 1)*tD*r_long",
+   "sK*sD + (1/2*sqrt5 + 1/2)*sK*tD + tK*tD + (1/2*sqrt5 - 1/2)*sK*r_short + tK*r_short + sD*r_short + tD*r_short + (-1/2*sqrt5 - 1/2)*sK + (-1/2*sqrt5 - 1/2)*tK - tD + (-1/2*sqrt5 - 1/2)*r_short + (1/2*sqrt5 + 1/2)",
+   "sK*sD + (1/2*sqrt5 + 1/2)*tK*sD + tK*tD + sK*r_short + tK*r_short + (1/2*sqrt5 - 1/2)*sD*r_short + tD*r_short - sK + (-1/2*sqrt5 - 1/2)*tK + (-1/2*sqrt5 - 1/2)*sD - tD + (-1/2*sqrt5 - 1/2)*r_short + (1/2*sqrt5 + 1/2)",
+   "sK^2 + (1/2*sqrt5 + 1/2)*sK*tK + tK^2 + (1/2*sqrt5 + 1/2)*sK*r_short + 2*tK*r_short + (-1/2*sqrt5 - 1/2)*sK - 2*tK - 2*r_short + 1",
+   "sK^2 + (1/2*sqrt5 + 1/2)*sK*tK + tK^2 + sK*r_long + (sqrt5 - 1)*tK*r_long - sK + (-sqrt5 + 1)*tK",
+   "tK*sD - sK*tD + (1/2*sqrt5 + 1/2)*sK*r_long + tK*r_long + (1/2*sqrt5 + 1/2)*sD*r_long + tD*r_long + (-1/2*sqrt5 - 1/2)*sD - tD",
+   "tK*sD - sK*tD - tK*r_long - tD*r_long + tD"
+  ],
+  "dots": [
+   "(-1/4*sqrt5 - 1/4)*sK*sD + (-1/4*sqrt5 + 1/4)*tK*sD - sK*tD + (-1/4*sqrt5 - 1/4)*tK*tD + (1/4*sqrt5 - 3/4)*sK*r_short + (-1/4*sqrt5 + 3/4)*tK*r_short + 1/2*sD*r_short + (-1/4*sqrt5 + 3/4)*tD*r_short + (-1/2*sqrt5 + 3/2)*r_short^2 + (1/4*sqrt5 + 1/4)*sK + (1/4*sqrt5 - 1/4)*tK + (1/4*sqrt5 - 1/4)*sD + (1/4*sqrt5 + 1/4)*tD + (1/4*sqrt5 - 5/4)*r_short + (-1/4*sqrt5 + 1/4)",
+   "(-1/4*sqrt5 - 1/4)*sK*sD - tK*sD + (-1/4*sqrt5 + 1/4)*sK*tD + (-1/4*sqrt5 - 1/4)*tK*tD + 1/2*sK*r_short + (-1/4*sqrt5 + 3/4)*tK*r_short + (1/4*sqrt5 - 3/4)*sD*r_short + (-1/4*sqrt5 + 3/4)*tD*r_short + (-1/2*sqrt5 + 3/2)*r_short^2 + (-1/4*sqrt5 + 1/4)*sK + (1/4*sqrt5 - 1/4)*tK + sD + (1/4*sqrt5 + 1/4)*tD + (1/4*sqrt5 - 5/4)*r_short + (-1/4*sqrt5 + 1/4)",
+   "(-1/4*sqrt5 - 1/4)*sK^2 + (-1/4*sqrt5 - 3/4)*sK*tK + (-1/4*sqrt5 - 1/4)*tK^2 + (1/4*sqrt5 - 1/4)*sK*r_short + (-1/2*sqrt5 + 3/2)*tK*r_short + (-1/2*sqrt5 + 3/2)*r_short^2 + (1/4*sqrt5 + 3/4)*sK + (1/2*sqrt5 + 1/2)*tK + (1/2*sqrt5 - 3/2)*r_short + (-1/4*sqrt5 - 1/4)",
+   "(1/4*sqrt5 - 1/4)*sD^2 + 1/2*sD*tD + (1/4*sqrt5 - 1/4)*tD^2 + (-1/4*sqrt5 - 3/4)*sD*r_long + (-1/2*sqrt5 - 1/2)*tD*r_long + r_long^2",
+   "(1/4*sqrt5 - 1/4)*sK^2 + 1/2*sK*tK + (1/4*sqrt5 - 1/4)*tK^2 + (1/4*sqrt5 + 3/4)*sK*r_long + (1/2*sqrt5 + 1/2)*tK*r_long + r_long^2 + (-1/4*sqrt5 - 3/4)*sK + (-1/2*sqrt5 - 1/2)*tK - 2*r_long + 1",
+   "-sK*sD + (-1/4*sqrt5 - 1/4)*tK*sD + (-1/4*sqrt5 - 1/4)*sK*tD - tK*tD + (1/4*sqrt5 - 1/4)*sK*r_long + (1/4*sqrt5 + 1/4)*tK*r_long + (-1/4*sqrt5 + 1/4)*sD*r_long + (-1/4*sqrt5 - 1/4)*tD*r_long + r_long^2 + (1/4*sqrt5 - 1/4)*sD + (1/4*sqrt5 + 1/4)*tD - r_long",
+   "-sK*sD + (-1/4*sqrt5 - 1/4)*tK*sD + (-1/4*sqrt5 - 1/4)*sK*tD - tK*tD + sK*r_long + (1/4*sqrt5 + 1/4)*tK*r_long - sD*r_long + (-1/4*sqrt5 - 1/4)*tD*r_long + r_long^2 + sD + (1/4*sqrt5 + 1/4)*tD - r_long"
+  ],
+  "source_edge_instances": 495,
+  "source_role_pairs": [
+   [
+    [
+     "dart",
+     0
+    ],
+    [
+     "dart",
+     3
+    ]
+   ],
+   [
+    [
+     "dart",
+     0
+    ],
+    [
+     "kite",
+     0
+    ]
+   ],
+   [
+    [
+     "dart",
+     1
+    ],
+    [
+     "kite",
+     1
+    ]
+   ],
+   [
+    [
+     "dart",
+     2
+    ],
+    [
+     "kite",
+     2
+    ]
+   ],
+   [
+    [
+     "dart",
+     3
+    ],
+    [
+     "kite",
+     3
+    ]
+   ],
+   [
+    [
+     "kite",
+     0
+    ],
+    [
+     "kite",
+     3
+    ]
+   ],
+   [
+    [
+     "kite",
+     1
+    ],
+    [
+     "kite",
+     2
+    ]
+   ]
+  ],
+  "patch": "research/certificates/penrose-kite-dart-patch4.json",
+  "patch_sha256": "71e2bdb5eb1e09a2da1d92a6d1930804b43d230218a2b7d960c8611b7150de02",
+  "elapsed_seconds": 20.586,
+  "source_centres_not_fixed_constants": true
+ }
+]

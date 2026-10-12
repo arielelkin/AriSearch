@@ -1,0 +1,232 @@
+{
+  "status": "verified periodic control; killed for every parameter",
+  "role": "control only, not a promising aperiodic construction",
+  "parameter": "0 < t < 1/4",
+  "source_hexagon": [
+    [
+      "0",
+      "0"
+    ],
+    [
+      "2",
+      "0"
+    ],
+    [
+      "3",
+      "1"
+    ],
+    [
+      "2",
+      "2"
+    ],
+    [
+      "0",
+      "2"
+    ],
+    [
+      "-1",
+      "1"
+    ]
+  ],
+  "cut": "x = 1/2 + t*(y-1)",
+  "A": [
+    "p",
+    "q",
+    "(0,2)",
+    "(-1,1)",
+    "(0,0)"
+  ],
+  "B": [
+    "p",
+    "(2,0)",
+    "(3,1)",
+    "(2,2)",
+    "q"
+  ],
+  "p": "(1/2-t,0)",
+  "q": "(1/2+t,2)",
+  "areas": {
+    "H": "6",
+    "A": "2",
+    "B": "4"
+  },
+  "distinct_shape_classes_reason": "unequal exact areas",
+  "convexity": {
+    "A": [
+      {
+        "power": [
+          "1",
+          "2"
+        ],
+        "bernstein_interval_0_to_quarter": [
+          "1",
+          "5/4",
+          "3/2"
+        ]
+      },
+      {
+        "power": [
+          "1/2",
+          "1"
+        ],
+        "bernstein_interval_0_to_quarter": [
+          "1/2",
+          "5/8",
+          "3/4"
+        ]
+      },
+      {
+        "power": [
+          "2"
+        ],
+        "bernstein_interval_0_to_quarter": [
+          "2",
+          "2",
+          "2"
+        ]
+      },
+      {
+        "power": [
+          "1/2",
+          "-1"
+        ],
+        "bernstein_interval_0_to_quarter": [
+          "1/2",
+          "3/8",
+          "1/4"
+        ]
+      },
+      {
+        "power": [
+          "1",
+          "-2"
+        ],
+        "bernstein_interval_0_to_quarter": [
+          "1",
+          "3/4",
+          "1/2"
+        ]
+      }
+    ],
+    "B": [
+      {
+        "power": [
+          "3/2",
+          "1"
+        ],
+        "bernstein_interval_0_to_quarter": [
+          "3/2",
+          "13/8",
+          "7/4"
+        ]
+      },
+      {
+        "power": [
+          "2"
+        ],
+        "bernstein_interval_0_to_quarter": [
+          "2",
+          "2",
+          "2"
+        ]
+      },
+      {
+        "power": [
+          "3/2",
+          "-1"
+        ],
+        "bernstein_interval_0_to_quarter": [
+          "3/2",
+          "11/8",
+          "5/4"
+        ]
+      },
+      {
+        "power": [
+          "3",
+          "-2"
+        ],
+        "bernstein_interval_0_to_quarter": [
+          "3",
+          "11/4",
+          "5/2"
+        ]
+      },
+      {
+        "power": [
+          "3",
+          "2"
+        ],
+        "bernstein_interval_0_to_quarter": [
+          "3",
+          "13/4",
+          "7/2"
+        ]
+      }
+    ]
+  },
+  "angle_variation": "cut angles pi/2 +/- arctan(t); derivative magnitude 1/(1+t^2)",
+  "lattice_generators": [
+    [
+      3,
+      1
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "lattice_covolume": "6",
+  "lattice_overlap_checks": [
+    {
+      "indices": [
+        -1,
+        0
+      ],
+      "translation": [
+        "-3",
+        "-1"
+      ],
+      "exact_intersection_area": "0"
+    },
+    {
+      "indices": [
+        -1,
+        1
+      ],
+      "translation": [
+        "-3",
+        "1"
+      ],
+      "exact_intersection_area": "0"
+    },
+    {
+      "indices": [
+        1,
+        -1
+      ],
+      "translation": [
+        "3",
+        "-1"
+      ],
+      "exact_intersection_area": "0"
+    },
+    {
+      "indices": [
+        1,
+        0
+      ],
+      "translation": [
+        "3",
+        "1"
+      ],
+      "exact_intersection_area": "0"
+    }
+  ],
+  "coverage_argument": "locally finite closed translates; disjoint interiors; area equals covolume",
+  "periodic_witness": "translate the same two-pentagon split of H by the lattice",
+  "contact_model": "partial-edge contacts allowed, including at unmatched cut endpoints",
+  "reconstruction_investment": "none; candidate killed by explicit mixed periodic witness",
+  "verifier_sha256": "c02e51bab5257086d4212f7ec6ae648c845c714ec48b37cdca1732c17ca41673",
+  "replay": "conda run --no-capture-output -n arisearch python research/searches/boundary-attachment-periodic-control.py --output research/certificates/boundary-attachment-periodic-control.json"
+}

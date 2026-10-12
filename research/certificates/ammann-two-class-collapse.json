@@ -1,0 +1,1401 @@
+{
+ "field": "Q(w), w=exp(i*pi/5), minpoly x^4 - x^3 + x^2 - x + 1",
+ "parametrization": "J = s + t*w",
+ "tiles": {
+  "H6": [
+   "0",
+   "(zeta10^3 - zeta10^2 + zeta10 - 1)*z - zeta10^3 + zeta10^2 - zeta10 + 2",
+   "1",
+   "z",
+   "zeta10",
+   "-zeta10*z + zeta10^2 + zeta10"
+  ],
+  "P1": [
+   "0",
+   "(zeta10^3 - zeta10^2 + zeta10 - 1)*z - zeta10^3 + zeta10^2 - zeta10 + 2",
+   "1",
+   "-zeta10^2*z + zeta10^3 + zeta10^2 + 1",
+   "-zeta10*z + zeta10^2 + zeta10"
+  ],
+  "P2": [
+   "-zeta10*z + zeta10^2 + zeta10",
+   "-zeta10^2*z + zeta10^3 + zeta10^2 + 1",
+   "zeta10^2 + 1",
+   "-z + zeta10^2 + zeta10 + 1",
+   "zeta10^2"
+  ]
+ },
+ "cases": [
+  {
+   "case": "(a) P1~P2",
+   "direct": [
+    {
+     "shift": 0,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 1,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 2,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "case": "(a) P1~P2 direct shift 2",
+       "s": {
+        "minpoly": "x^2 - x + 1/5",
+        "approx": "0.7236067977499789696409174"
+       },
+       "t": {
+        "minpoly": "x^2 - x + 1/5",
+        "approx": "0.7236067977499789696409174"
+       },
+       "admissible_closed": true,
+       "strict_open_region": true,
+       "tile_angle_types": {
+        "H6": [
+         "strict",
+         "strict",
+         "strict",
+         "strict",
+         "strict",
+         "strict"
+        ],
+        "P1": [
+         "strict",
+         "strict",
+         "strict",
+         "strict",
+         "strict"
+        ],
+        "P2": [
+         "strict",
+         "strict",
+         "strict",
+         "strict",
+         "strict"
+        ]
+       },
+       "pieces": {
+        "thinQ": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict",
+          "strict"
+         ]
+        },
+        "thinTb": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict"
+         ]
+        },
+        "thinTr": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict"
+         ]
+        },
+        "thickQ1": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict",
+          "strict"
+         ]
+        },
+        "thickQ2": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict",
+          "strict"
+         ]
+        },
+        "thickTb": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict"
+         ]
+        },
+        "thickTr": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict"
+         ]
+        }
+       },
+       "kill_tests": {
+        "H6_centrally_symmetric_e_i_eq_minus_e_i+3": true,
+        "H6_squared_side_lengths": [
+         "-1/2*sqrt(1/5) + 1/2",
+         "-1/2*sqrt(1/5) + 1/2",
+         "-1/2*sqrt(1/5) + 1/2",
+         "-1/2*sqrt(1/5) + 1/2",
+         "-1/2*sqrt(1/5) + 1/2",
+         "-1/2*sqrt(1/5) + 1/2"
+        ],
+        "P1_squared_side_lengths": [
+         "-1/2*sqrt(1/5) + 1/2",
+         "-1/2*sqrt(1/5) + 1/2",
+         "-1/2*sqrt(1/5) + 1/2",
+         "-9/2*sqrt(1/5) + 5/2",
+         "-1/2*sqrt(1/5) + 1/2"
+        ],
+        "P1_directly_congruent_P2": true,
+        "verdict": "KILLED: a centrally symmetric convex hexagon tiles the plane by translations (lattice tiling), so the pair {H6, P1} admits a periodic tiling"
+       }
+      }
+     ]
+    },
+    {
+     "shift": 3,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    },
+    {
+     "shift": 4,
+     "gcd_roots": 0,
+     "solutions": []
+    }
+   ],
+   "mirror": [
+    {
+     "shift": 0,
+     "real_points": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "-0.618033988749895",
+       "rejected": "not unimodular"
+      }
+     ]
+    },
+    {
+     "shift": 1,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 2,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 3,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 4,
+     "status": "EMPTY",
+     "groebner": []
+    }
+   ]
+  },
+  {
+   "case": "(b) H6 minus vertex 0 ~ P1",
+   "direct": [
+    {
+     "shift": 0,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 1,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "0.000000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    },
+    {
+     "shift": 2,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 3,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 4,
+     "gcd_roots": 0,
+     "solutions": []
+    }
+   ],
+   "mirror": [
+    {
+     "shift": 0,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 1,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 2,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 3,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 4,
+     "status": "EMPTY",
+     "groebner": []
+    }
+   ]
+  },
+  {
+   "case": "(b) H6 minus vertex 0 ~ P2",
+   "direct": [
+    {
+     "shift": 0,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 1,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 2,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 3,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 4,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "0.000000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    }
+   ],
+   "mirror": [
+    {
+     "shift": 0,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 1,
+     "real_points": 1,
+     "solutions": [
+      {
+       "s~": "0.000000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "not unimodular"
+      }
+     ]
+    },
+    {
+     "shift": 2,
+     "real_points": 1,
+     "solutions": [
+      {
+       "s~": "0.000000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "not unimodular"
+      }
+     ]
+    },
+    {
+     "shift": 3,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 4,
+     "status": "EMPTY",
+     "groebner": []
+    }
+   ]
+  },
+  {
+   "case": "(b) H6 minus vertex 1 ~ P1",
+   "direct": [
+    {
+     "shift": 0,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 1,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 2,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 3,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 4,
+     "gcd_roots": 0,
+     "solutions": []
+    }
+   ],
+   "mirror": [
+    {
+     "shift": 0,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 1,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 2,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 3,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 4,
+     "status": "EMPTY",
+     "groebner": []
+    }
+   ]
+  },
+  {
+   "case": "(b) H6 minus vertex 1 ~ P2",
+   "direct": [
+    {
+     "shift": 0,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 1,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 2,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 3,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 4,
+     "gcd_roots": 0,
+     "solutions": []
+    }
+   ],
+   "mirror": [
+    {
+     "shift": 0,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 1,
+     "real_points": 1,
+     "solutions": [
+      {
+       "s~": "0.000000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "not unimodular"
+      }
+     ]
+    },
+    {
+     "shift": 2,
+     "real_points": 1,
+     "solutions": [
+      {
+       "s~": "0.000000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "not unimodular"
+      }
+     ]
+    },
+    {
+     "shift": 3,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 4,
+     "status": "EMPTY",
+     "groebner": []
+    }
+   ]
+  },
+  {
+   "case": "(b) H6 minus vertex 2 ~ P1",
+   "direct": [
+    {
+     "shift": 0,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    },
+    {
+     "shift": 1,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 2,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    },
+    {
+     "shift": 3,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 4,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    }
+   ],
+   "mirror": [
+    {
+     "shift": 0,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 1,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 2,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 3,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 4,
+     "status": "EMPTY",
+     "groebner": []
+    }
+   ]
+  },
+  {
+   "case": "(b) H6 minus vertex 2 ~ P2",
+   "direct": [
+    {
+     "shift": 0,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 1,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 2,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 3,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    },
+    {
+     "shift": 4,
+     "gcd_roots": 0,
+     "solutions": []
+    }
+   ],
+   "mirror": [
+    {
+     "shift": 0,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 1,
+     "real_points": 1,
+     "solutions": [
+      {
+       "s~": "0.000000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "not unimodular"
+      }
+     ]
+    },
+    {
+     "shift": 2,
+     "real_points": 1,
+     "solutions": [
+      {
+       "s~": "0.000000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "not unimodular"
+      }
+     ]
+    },
+    {
+     "shift": 3,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 4,
+     "status": "EMPTY",
+     "groebner": []
+    }
+   ]
+  },
+  {
+   "case": "(b) H6 minus vertex 3 ~ P1",
+   "direct": [
+    {
+     "shift": 0,
+     "gcd_roots": 2,
+     "solutions": [
+      {
+       "case": "(b) H6 minus vertex 3 ~ P1 direct shift 0",
+       "s": {
+        "minpoly": "x - 1",
+        "approx": "1.000000000000000000000000"
+       },
+       "t": {
+        "minpoly": "x^2 - 3*x + 1",
+        "approx": "0.3819660112501051517954132"
+       },
+       "admissible_closed": true,
+       "strict_open_region": false,
+       "tile_angle_types": {
+        "H6": [
+         "strict",
+         "straight",
+         "strict",
+         "strict",
+         "strict",
+         "strict"
+        ],
+        "P1": [
+         "strict",
+         "straight",
+         "strict",
+         "strict",
+         "strict"
+        ],
+        "P2": [
+         "strict",
+         "strict",
+         "strict",
+         "strict",
+         "strict"
+        ]
+       },
+       "pieces": {
+        "thinQ": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict",
+          "strict"
+         ]
+        },
+        "thinTb": {
+         "area2_sign": 0,
+         "angles": [
+          "spike",
+          "spike",
+          "straight"
+         ]
+        },
+        "thinTr": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict"
+         ]
+        },
+        "thickQ1": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict",
+          "strict"
+         ]
+        },
+        "thickQ2": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict",
+          "strict"
+         ]
+        },
+        "thickTb": {
+         "area2_sign": 0,
+         "angles": [
+          "spike",
+          "spike",
+          "straight"
+         ]
+        },
+        "thickTr": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict"
+         ]
+        }
+       },
+       "H6_vertex_3_straight": false
+      },
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    },
+    {
+     "shift": 1,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 2,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    },
+    {
+     "shift": 3,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 4,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    }
+   ],
+   "mirror": [
+    {
+     "shift": 0,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 1,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 2,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 3,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 4,
+     "status": "EMPTY",
+     "groebner": []
+    }
+   ]
+  },
+  {
+   "case": "(b) H6 minus vertex 3 ~ P2",
+   "direct": [
+    {
+     "shift": 0,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 1,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 2,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 3,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    },
+    {
+     "shift": 4,
+     "gcd_roots": 0,
+     "solutions": []
+    }
+   ],
+   "mirror": [
+    {
+     "shift": 0,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 1,
+     "real_points": 1,
+     "solutions": [
+      {
+       "s~": "0.000000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "not unimodular"
+      }
+     ]
+    },
+    {
+     "shift": 2,
+     "real_points": 1,
+     "solutions": [
+      {
+       "s~": "0.000000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "not unimodular"
+      }
+     ]
+    },
+    {
+     "shift": 3,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 4,
+     "status": "EMPTY",
+     "groebner": []
+    }
+   ]
+  },
+  {
+   "case": "(b) H6 minus vertex 4 ~ P1",
+   "direct": [
+    {
+     "shift": 0,
+     "gcd_roots": 2,
+     "solutions": [
+      {
+       "case": "(b) H6 minus vertex 4 ~ P1 direct shift 0",
+       "s": {
+        "minpoly": "x^2 - 3*x + 1",
+        "approx": "0.3819660112501051517954132"
+       },
+       "t": {
+        "minpoly": "x - 1",
+        "approx": "1.000000000000000000000000"
+       },
+       "admissible_closed": true,
+       "strict_open_region": false,
+       "tile_angle_types": {
+        "H6": [
+         "strict",
+         "strict",
+         "strict",
+         "strict",
+         "strict",
+         "straight"
+        ],
+        "P1": [
+         "strict",
+         "strict",
+         "strict",
+         "strict",
+         "strict"
+        ],
+        "P2": [
+         "strict",
+         "strict",
+         "strict",
+         "straight",
+         "strict"
+        ]
+       },
+       "pieces": {
+        "thinQ": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict",
+          "strict"
+         ]
+        },
+        "thinTb": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict"
+         ]
+        },
+        "thinTr": {
+         "area2_sign": 0,
+         "angles": [
+          "spike",
+          "spike",
+          "straight"
+         ]
+        },
+        "thickQ1": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict",
+          "strict"
+         ]
+        },
+        "thickQ2": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict",
+          "strict"
+         ]
+        },
+        "thickTb": {
+         "area2_sign": 1,
+         "angles": [
+          "strict",
+          "strict",
+          "strict"
+         ]
+        },
+        "thickTr": {
+         "area2_sign": 0,
+         "angles": [
+          "spike",
+          "spike",
+          "straight"
+         ]
+        }
+       },
+       "H6_vertex_4_straight": false
+      },
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    },
+    {
+     "shift": 1,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 2,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    },
+    {
+     "shift": 3,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 4,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    }
+   ],
+   "mirror": [
+    {
+     "shift": 0,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 1,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 2,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 3,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 4,
+     "status": "EMPTY",
+     "groebner": []
+    }
+   ]
+  },
+  {
+   "case": "(b) H6 minus vertex 4 ~ P2",
+   "direct": [
+    {
+     "shift": 0,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 1,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 2,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 3,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    },
+    {
+     "shift": 4,
+     "gcd_roots": 0,
+     "solutions": []
+    }
+   ],
+   "mirror": [
+    {
+     "shift": 0,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 1,
+     "real_points": 1,
+     "solutions": [
+      {
+       "s~": "0.000000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "not unimodular"
+      }
+     ]
+    },
+    {
+     "shift": 2,
+     "real_points": 1,
+     "solutions": [
+      {
+       "s~": "0.000000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "not unimodular"
+      }
+     ]
+    },
+    {
+     "shift": 3,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 4,
+     "status": "EMPTY",
+     "groebner": []
+    }
+   ]
+  },
+  {
+   "case": "(b) H6 minus vertex 5 ~ P1",
+   "direct": [
+    {
+     "shift": 0,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    },
+    {
+     "shift": 1,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 2,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    },
+    {
+     "shift": 3,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 4,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    }
+   ],
+   "mirror": [
+    {
+     "shift": 0,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 1,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 2,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 3,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 4,
+     "status": "EMPTY",
+     "groebner": []
+    }
+   ]
+  },
+  {
+   "case": "(b) H6 minus vertex 5 ~ P2",
+   "direct": [
+    {
+     "shift": 0,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 1,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 2,
+     "gcd_roots": 0,
+     "solutions": []
+    },
+    {
+     "shift": 3,
+     "gcd_roots": 1,
+     "solutions": [
+      {
+       "s~": "1.00000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "rotation factor not unimodular or edges mismatch"
+      }
+     ]
+    },
+    {
+     "shift": 4,
+     "gcd_roots": 0,
+     "solutions": []
+    }
+   ],
+   "mirror": [
+    {
+     "shift": 0,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 1,
+     "real_points": 1,
+     "solutions": [
+      {
+       "s~": "0.000000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "not unimodular"
+      }
+     ]
+    },
+    {
+     "shift": 2,
+     "real_points": 1,
+     "solutions": [
+      {
+       "s~": "0.000000000000000",
+       "t~": "1.00000000000000",
+       "rejected": "not unimodular"
+      }
+     ]
+    },
+    {
+     "shift": 3,
+     "status": "EMPTY",
+     "groebner": []
+    },
+    {
+     "shift": 4,
+     "status": "EMPTY",
+     "groebner": []
+    }
+   ]
+  }
+ ],
+ "all_algebraic_solutions": 3,
+ "solutions_in_closed_admissible_region": [
+  {
+   "case": "(a) P1~P2 direct shift 2",
+   "s": {
+    "minpoly": "x^2 - x + 1/5",
+    "approx": "0.7236067977499789696409174"
+   },
+   "t": {
+    "minpoly": "x^2 - x + 1/5",
+    "approx": "0.7236067977499789696409174"
+   },
+   "admissible_closed": true,
+   "strict_open_region": true,
+   "tile_angle_types": {
+    "H6": [
+     "strict",
+     "strict",
+     "strict",
+     "strict",
+     "strict",
+     "strict"
+    ],
+    "P1": [
+     "strict",
+     "strict",
+     "strict",
+     "strict",
+     "strict"
+    ],
+    "P2": [
+     "strict",
+     "strict",
+     "strict",
+     "strict",
+     "strict"
+    ]
+   },
+   "pieces": {
+    "thinQ": {
+     "area2_sign": 1,
+     "angles": [
+      "strict",
+      "strict",
+      "strict",
+      "strict"
+     ]
+    },
+    "thinTb": {
+     "area2_sign": 1,
+     "angles": [
+      "strict",
+      "strict",
+      "strict"
+     ]
+    },
+    "thinTr": {
+     "area2_sign": 1,
+     "angles": [
+      "strict",
+      "strict",
+      "strict"
+     ]
+    },
+    "thickQ1": {
+     "area2_sign": 1,
+     "angles": [
+      "strict",
+      "strict",
+      "strict",
+      "strict"
+     ]
+    },
+    "thickQ2": {
+     "area2_sign": 1,
+     "angles": [
+      "strict",
+      "strict",
+      "strict",
+      "strict"
+     ]
+    },
+    "thickTb": {
+     "area2_sign": 1,
+     "angles": [
+      "strict",
+      "strict",
+      "strict"
+     ]
+    },
+    "thickTr": {
+     "area2_sign": 1,
+     "angles": [
+      "strict",
+      "strict",
+      "strict"
+     ]
+    }
+   },
+   "kill_tests": {
+    "H6_centrally_symmetric_e_i_eq_minus_e_i+3": true,
+    "H6_squared_side_lengths": [
+     "-1/2*sqrt(1/5) + 1/2",
+     "-1/2*sqrt(1/5) + 1/2",
+     "-1/2*sqrt(1/5) + 1/2",
+     "-1/2*sqrt(1/5) + 1/2",
+     "-1/2*sqrt(1/5) + 1/2",
+     "-1/2*sqrt(1/5) + 1/2"
+    ],
+    "P1_squared_side_lengths": [
+     "-1/2*sqrt(1/5) + 1/2",
+     "-1/2*sqrt(1/5) + 1/2",
+     "-1/2*sqrt(1/5) + 1/2",
+     "-9/2*sqrt(1/5) + 5/2",
+     "-1/2*sqrt(1/5) + 1/2"
+    ],
+    "P1_directly_congruent_P2": true,
+    "verdict": "KILLED: a centrally symmetric convex hexagon tiles the plane by translations (lattice tiling), so the pair {H6, P1} admits a periodic tiling"
+   }
+  }
+ ]
+}

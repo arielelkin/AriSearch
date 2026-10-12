@@ -1,7 +1,13 @@
 # Source audit: Ammann's three unmarked convex polygons
 
 **Date:** 2026-10-02
-**Status:** **Unresolved for the target convention.**
+**Status:** historical source audit; its missing-source conclusion is
+**superseded on the explicit generic G* domain** by the
+[reviewed exact forcing theorem](../lemmas/ammann-forcing-aperiodicity.md).
+The [corrected literature record](../literature/2026-10-11-convex-aperiodic-boundary.md)
+recognizes Healey 2011. Non-generic parameters and two-shape fusion remain
+separate obligations. Findings below describe the sources available on
+2026-10-02, not the current restart state.
 
 ## Claim audited
 
@@ -79,7 +85,7 @@ matrix for the three recomposed shapes.
 6. The A2/A3 frequency ratios in that 1992 paper likewise belong to those
    other families.  They cannot be transferred to the convex recomposition.
 
-## Verdict and restart obligation
+## Historical verdict and restart obligation
 
 The benchmark cannot presently serve as the proved source set in the
 convex-cluster fusion lemma.  Before using it, give exact coordinates and

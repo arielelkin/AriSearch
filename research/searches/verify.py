@@ -10,6 +10,7 @@ import json
 from pathlib import Path
 import subprocess
 import sys
+import tempfile
 
 ROOT = Path(__file__).resolve().parents[2]
 SEARCHES = ROOT / "research/searches"
@@ -60,6 +61,11 @@ CERTIFICATES = (
     ("branching-hexagon-new-chirality-collapse.py", "branching-hexagon-new-chirality-collapse.json"),
 )
 VERIFIERS = (
+    ROOT / "research/reviews/verify_ammann_forcing_repair_rereview.py",
+    ROOT / "research/reviews/verify_two_hexagon_low_rank_registry.py",
+    ROOT / "research/searches/two-hexagon-global-check.py",
+    ROOT / "research/reviews/verify_penrose_kite_dart_recomposition.py",
+    ROOT / "research/reviews/verify_penrose_kite_dart_edge_stars.py",
     ROOT / "research/reviews/verify_partial_contact_cairo_first_corona_independent.py",
     ROOT / "research/reviews/verify_partial_contact_cairo_first_corona_geometry_extra.py",
     ROOT / "research/reviews/verify_two_homogeneous_center_pure_independent.py",
@@ -199,7 +205,19 @@ VERIFIERS = (
     ROOT / "research/reviews/verify_branching_hexagon_no_homogeneous_swap_independent.py",
 )
 
+# Producer-style controls write only to a disposable output selected by run().
+VERIFIER_ARGS = {
+    "verify_two_hexagon_low_rank_registry.py": ["--check"],
+    "two-hexagon-global-check.py": [
+        "research/certificates/two-hexagon-global-covering-rank3-strata.json"],
+    "verify_penrose_kite_dart_recomposition.py": ["--output", "{output}"],
+    "verify_penrose_kite_dart_edge_stars.py": [
+        "--checkpoint", "research/certificates/penrose-kite-dart-edge-stars-patch4.jsonl",
+        "--output", "{output}"],
+}
 VERIFIER_CERTIFICATES = {
+    "verify_penrose_kite_dart_recomposition.py": "penrose-kite-dart-encoding-controls.json",
+    "verify_penrose_kite_dart_edge_stars.py": "penrose-kite-dart-edge-stars-controls.json",
     "verify_distinct_pentagon_higher.py": "distinct_pentagon_higher_verification.json",
     "verify_two_angle_5_7_periodic.py": "two_angle_5_7_periodic_verification.json",
     "verify_pentagrid_area_family_edge_obstruction.py": "pentagrid-area-family-edge-review.json",
@@ -210,8 +228,12 @@ VERIFIER_CERTIFICATES = {
 
 
 def run(script):
-    result = subprocess.run([sys.executable, str(script)], cwd=ROOT,
-                            capture_output=True, text=True, check=False)
+    with tempfile.TemporaryDirectory(prefix="arisearch-verify-") as scratch:
+        output = str(Path(scratch) / "control.json")
+        args = [output if arg == "{output}" else arg
+                for arg in VERIFIER_ARGS.get(script.name, [])]
+        result = subprocess.run([sys.executable, str(script), *args], cwd=ROOT,
+                                capture_output=True, text=True, check=False)
     if result.returncode:
         detail = result.stderr.strip() or result.stdout.strip()
         raise RuntimeError(f"{script.name} exited {result.returncode}: {detail}")

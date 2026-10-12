@@ -1,0 +1,420 @@
+{
+ "raw_star_count": 14,
+ "viable_stars": [
+  [
+   [
+    "thick",
+    "E"
+   ],
+   [
+    "thick",
+    "E"
+   ],
+   [
+    "thick",
+    "E"
+   ],
+   [
+    "thick",
+    "E"
+   ],
+   [
+    "thick",
+    "E"
+   ]
+  ],
+  [
+   [
+    "thick",
+    "E"
+   ],
+   [
+    "thick",
+    "E"
+   ],
+   [
+    "thick",
+    "E"
+   ],
+   [
+    "thick",
+    "E"
+   ],
+   [
+    "thin",
+    "A"
+   ],
+   [
+    "thin",
+    "C"
+   ]
+  ],
+  [
+   [
+    "thick",
+    "E"
+   ],
+   [
+    "thick",
+    "E"
+   ],
+   [
+    "thin",
+    "A"
+   ],
+   [
+    "thin",
+    "C"
+   ],
+   [
+    "thick",
+    "E"
+   ],
+   [
+    "thin",
+    "A"
+   ],
+   [
+    "thin",
+    "C"
+   ]
+  ],
+  [
+   [
+    "thick",
+    "E"
+   ],
+   [
+    "thin",
+    "A"
+   ],
+   [
+    "thick",
+    "F"
+   ],
+   [
+    "thick",
+    "H"
+   ],
+   [
+    "thin",
+    "C"
+   ]
+  ],
+  [
+   [
+    "thick",
+    "F"
+   ],
+   [
+    "thin",
+    "B"
+   ],
+   [
+    "thick",
+    "H"
+   ]
+  ],
+  [
+   [
+    "thick",
+    "G"
+   ],
+   [
+    "thick",
+    "G"
+   ],
+   [
+    "thick",
+    "G"
+   ],
+   [
+    "thick",
+    "G"
+   ],
+   [
+    "thick",
+    "G"
+   ]
+  ],
+  [
+   [
+    "thick",
+    "G"
+   ],
+   [
+    "thick",
+    "G"
+   ],
+   [
+    "thick",
+    "G"
+   ],
+   [
+    "thin",
+    "D"
+   ]
+  ],
+  [
+   [
+    "thick",
+    "G"
+   ],
+   [
+    "thin",
+    "D"
+   ],
+   [
+    "thin",
+    "D"
+   ]
+  ]
+ ],
+ "per_star": [
+  {
+   "star": [
+    [
+     "thick",
+     "E"
+    ],
+    [
+     "thick",
+     "E"
+    ],
+    [
+     "thick",
+     "E"
+    ],
+    [
+     "thick",
+     "E"
+    ],
+    [
+     "thick",
+     "E"
+    ]
+   ],
+   "neighbour_vertices": 10,
+   "patches": 1,
+   "valid_parent_count_histogram": {
+    "1": 10
+   },
+   "twin_checks": 10
+  },
+  {
+   "star": [
+    [
+     "thick",
+     "E"
+    ],
+    [
+     "thick",
+     "E"
+    ],
+    [
+     "thick",
+     "E"
+    ],
+    [
+     "thick",
+     "E"
+    ],
+    [
+     "thin",
+     "A"
+    ],
+    [
+     "thin",
+     "C"
+    ]
+   ],
+   "neighbour_vertices": 12,
+   "patches": 1,
+   "valid_parent_count_histogram": {
+    "1": 10
+   },
+   "twin_checks": 10
+  },
+  {
+   "star": [
+    [
+     "thick",
+     "E"
+    ],
+    [
+     "thick",
+     "E"
+    ],
+    [
+     "thin",
+     "A"
+    ],
+    [
+     "thin",
+     "C"
+    ],
+    [
+     "thick",
+     "E"
+    ],
+    [
+     "thin",
+     "A"
+    ],
+    [
+     "thin",
+     "C"
+    ]
+   ],
+   "neighbour_vertices": 14,
+   "patches": 2,
+   "valid_parent_count_histogram": {
+    "1": 20
+   },
+   "twin_checks": 20
+  },
+  {
+   "star": [
+    [
+     "thick",
+     "E"
+    ],
+    [
+     "thin",
+     "A"
+    ],
+    [
+     "thick",
+     "F"
+    ],
+    [
+     "thick",
+     "H"
+    ],
+    [
+     "thin",
+     "C"
+    ]
+   ],
+   "neighbour_vertices": 10,
+   "patches": 50,
+   "valid_parent_count_histogram": {
+    "1": 300
+   },
+   "twin_checks": 500
+  },
+  {
+   "star": [
+    [
+     "thick",
+     "F"
+    ],
+    [
+     "thin",
+     "B"
+    ],
+    [
+     "thick",
+     "H"
+    ]
+   ],
+   "neighbour_vertices": 6,
+   "patches": 7,
+   "valid_parent_count_histogram": {
+    "1": 28
+   },
+   "twin_checks": 44
+  },
+  {
+   "star": [
+    [
+     "thick",
+     "G"
+    ],
+    [
+     "thick",
+     "G"
+    ],
+    [
+     "thick",
+     "G"
+    ],
+    [
+     "thick",
+     "G"
+    ],
+    [
+     "thick",
+     "G"
+    ]
+   ],
+   "neighbour_vertices": 10,
+   "patches": 11,
+   "valid_parent_count_histogram": {
+    "1": 110
+   },
+   "twin_checks": 190
+  },
+  {
+   "star": [
+    [
+     "thick",
+     "G"
+    ],
+    [
+     "thick",
+     "G"
+    ],
+    [
+     "thick",
+     "G"
+    ],
+    [
+     "thin",
+     "D"
+    ]
+   ],
+   "neighbour_vertices": 8,
+   "patches": 4,
+   "valid_parent_count_histogram": {
+    "1": 32
+   },
+   "twin_checks": 48
+  },
+  {
+   "star": [
+    [
+     "thick",
+     "G"
+    ],
+    [
+     "thin",
+     "D"
+    ],
+    [
+     "thin",
+     "D"
+    ]
+   ],
+   "neighbour_vertices": 6,
+   "patches": 9,
+   "valid_parent_count_histogram": {
+    "1": 54
+   },
+   "twin_checks": 72
+  }
+ ],
+ "closure_check_R5": {
+  "cases": 20,
+  "excluded_by_disjointness": 4,
+  "full_edge_same_mark": 16
+ },
+ "deflation_legality_check_R6": {
+  "single_halves": 4,
+  "contacts": 20,
+  "child_edge_matches": 30
+ },
+ "deflation_sanity_children_checked": 2250,
+ "total_patches": 85,
+ "failures": []
+}

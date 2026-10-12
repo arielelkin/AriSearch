@@ -1,0 +1,35 @@
+{
+ "domain": "98 labelled plane-graph decorations per P2 kite/dart; <=2 interior points; source edges erased",
+ "patch": "research/certificates/penrose-kite-dart-patch3.json",
+ "patch_sha256": "85a8bba1236eb12865c1ca01ddf659a7e30c828634a56fdefa5a21b72e603f69",
+ "domain_hash": "7f4f9d2278d42a3cda54d91d0bd36b943de8d12174611cafc00fe8751800c7b5",
+ "types": "research/certificates/penrose-kite-dart-recomposition-patch3.types.json",
+ "source_tile_counts": {
+  "kite": 60,
+  "dart": 35
+ },
+ "pairs_total": 9604,
+ "pairs_processed": 9604,
+ "complete": true,
+ "finite_patch_only": true,
+ "exact_decisions": true,
+ "stats": {
+  "alive": 18,
+  "multiple-boundary-cycles": 277,
+  "fixed-reflex-corner": 17,
+  "slit": 832,
+  "triangle-or-quadrilateral-escape": 8096,
+  "pinched-face": 364
+ },
+ "alive_count": 18,
+ "generic_class_histogram": {
+  "0": 4,
+  "4": 4,
+  "5": 6,
+  "6": 2,
+  "7": 2
+ },
+ "generic_two_class_pairs": [],
+ "constrained_congruence_loci": "NOT SEARCHED; extra generic classes do not exclude them",
+ "elapsed_seconds_this_run": 111.994
+}

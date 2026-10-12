@@ -1,0 +1,34 @@
+{
+ "domain": "One centre per source; matched long/short endpoints with centre spokes; arbitrary corner spokes with centre degree >=3; at most one endpoint-to-nonadjacent-corner chord per source; abstract noncrossing fans; all source edges erased",
+ "patch": "research/certificates/penrose-kite-dart-patch4.json",
+ "patch_sha256": "71e2bdb5eb1e09a2da1d92a6d1930804b43d230218a2b7d960c8611b7150de02",
+ "recipes_total": 2000,
+ "recipes_processed": 2000,
+ "complete": true,
+ "local_types": {
+  "(0,)": {
+   "kite": 35,
+   "dart": 35
+  },
+  "(1,)": {
+   "kite": 35,
+   "dart": 35
+  },
+  "(0, 1)": {
+   "kite": 16,
+   "dart": 16
+  }
+ },
+ "stats": {
+  "triangle-or-quadrilateral-escape": 1262,
+  "slit": 604,
+  "multiple-boundary-cycles": 34,
+  "degenerate-face": 100
+ },
+ "alive": [],
+ "conditional_degree_two_deletion": true,
+ "endpoints_are_real_scalar_variables": true,
+ "generic_class_count_is_unconstrained_upper_bound_for_specializations": true,
+ "flat_alignment_and_constrained_class_collapse_not_searched": true,
+ "elapsed_seconds": 26.998
+}

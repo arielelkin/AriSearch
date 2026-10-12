@@ -34,9 +34,10 @@
       "protocol": "http"
     }
   },
-  "initializeCommand": "install -d -m 0700 \"${localEnv:HOME}/.vscode-server\" \"${localEnv:HOME}/.vscode-server/data/User/workspaceStorage\" \"${localEnv:HOME}/.vscode-server-workspaces/${localWorkspaceFolderBasename}\" \"${localEnv:HOME}/.agent-state/${localWorkspaceFolderBasename}/codex\" \"${localEnv:HOME}/.agent-state/${localWorkspaceFolderBasename}/claude\" && if [ ! -e \"${localEnv:HOME}/.agent-state/${localWorkspaceFolderBasename}/claude.json\" ]; then (umask 077; printf '%s\\n' '{}' > \"${localEnv:HOME}/.agent-state/${localWorkspaceFolderBasename}/claude.json\"); fi",
+  "initializeCommand": "install -d -m 0700 \"${localEnv:HOME}/.vscode-server-data/${localWorkspaceFolderBasename}\" \"${localEnv:HOME}/.vscode-server-data/${localWorkspaceFolderBasename}/User/workspaceStorage\" \"${localEnv:HOME}/.vscode-server\" \"${localEnv:HOME}/.vscode-server/data/User/workspaceStorage\" \"${localEnv:HOME}/.vscode-server-workspaces/${localWorkspaceFolderBasename}\" \"${localEnv:HOME}/.agent-state/${localWorkspaceFolderBasename}/codex\" \"${localEnv:HOME}/.agent-state/${localWorkspaceFolderBasename}/claude\" && if [ ! -e \"${localEnv:HOME}/.agent-state/${localWorkspaceFolderBasename}/claude.json\" ]; then (umask 077; printf '%s\\n' '{}' > \"${localEnv:HOME}/.agent-state/${localWorkspaceFolderBasename}/claude.json\"); fi",
   "mounts": [
     "source=${localEnv:HOME}/.vscode-server,target=/home/vscode/.vscode-server,type=bind",
+    "source=${localEnv:HOME}/.vscode-server-data/${localWorkspaceFolderBasename},target=/home/vscode/.vscode-server/data,type=bind",
     "source=${localEnv:HOME}/.vscode-server-workspaces/${localWorkspaceFolderBasename},target=/home/vscode/.vscode-server/data/User/workspaceStorage,type=bind",
     "source=${localEnv:HOME}/.agent-state/${localWorkspaceFolderBasename}/codex,target=/home/vscode/.codex,type=bind",
     "source=${localEnv:HOME}/.agent-state/${localWorkspaceFolderBasename}/claude,target=/home/vscode/.claude,type=bind",

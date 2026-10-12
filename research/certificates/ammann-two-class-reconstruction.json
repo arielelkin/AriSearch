@@ -1,0 +1,835 @@
+{
+ "n4_all_options": {
+  "deflations": 4,
+  "thin": 60,
+  "thick": 100,
+  "options": [
+   {
+    "s": "1/2",
+    "t": "4/5",
+    "thin_anchor": "B",
+    "thick_anchor": "B",
+    "interior_faces": 230,
+    "all_strictly_convex": true,
+    "classes": 3,
+    "class_sizes_vertices": [
+     5,
+     5,
+     6
+    ],
+    "class_counts_direct_mirror": [
+     [
+      5,
+      90,
+      0
+     ],
+     [
+      6,
+      55,
+      0
+     ],
+     [
+      5,
+      85,
+      0
+     ]
+    ],
+    "matches_reference": {
+     "P1": [
+      "direct",
+      90,
+      0
+     ],
+     "H6": [
+      "direct",
+      55,
+      0
+     ],
+     "P2": [
+      "direct",
+      85,
+      0
+     ]
+    }
+   },
+   {
+    "s": "1/2",
+    "t": "4/5",
+    "thin_anchor": "B",
+    "thick_anchor": "C",
+    "interior_faces": 230,
+    "all_strictly_convex": true,
+    "classes": 6,
+    "class_sizes_vertices": [
+     5,
+     5,
+     5,
+     5,
+     6,
+     6
+    ],
+    "class_counts_direct_mirror": [
+     [
+      5,
+      55,
+      0
+     ],
+     [
+      6,
+      25,
+      0
+     ],
+     [
+      6,
+      30,
+      0
+     ],
+     [
+      5,
+      50,
+      0
+     ],
+     [
+      5,
+      35,
+      0
+     ],
+     [
+      5,
+      35,
+      0
+     ]
+    ],
+    "matches_reference": {
+     "P1": [
+      "direct",
+      50,
+      0
+     ],
+     "P2": [
+      "direct",
+      35,
+      0
+     ]
+    }
+   },
+   {
+    "s": "1/2",
+    "t": "4/5",
+    "thin_anchor": "C",
+    "thick_anchor": "B",
+    "interior_faces": 230,
+    "all_strictly_convex": false,
+    "classes": 5,
+    "class_sizes_vertices": [
+     4,
+     5,
+     5,
+     7,
+     8
+    ],
+    "class_counts_direct_mirror": [
+     [
+      4,
+      90,
+      0
+     ],
+     [
+      7,
+      25,
+      0
+     ],
+     [
+      5,
+      35,
+      0
+     ],
+     [
+      8,
+      30,
+      0
+     ],
+     [
+      5,
+      50,
+      0
+     ]
+    ],
+    "matches_reference": {
+     "P1": [
+      "direct",
+      35,
+      0
+     ],
+     "P2": [
+      "direct",
+      50,
+      0
+     ]
+    }
+   },
+   {
+    "s": "1/2",
+    "t": "4/5",
+    "thin_anchor": "C",
+    "thick_anchor": "C",
+    "interior_faces": 230,
+    "all_strictly_convex": false,
+    "classes": 6,
+    "class_sizes_vertices": [
+     4,
+     4,
+     5,
+     5,
+     7,
+     8
+    ],
+    "class_counts_direct_mirror": [
+     [
+      4,
+      35,
+      0
+     ],
+     [
+      4,
+      55,
+      0
+     ],
+     [
+      7,
+      25,
+      0
+     ],
+     [
+      5,
+      35,
+      0
+     ],
+     [
+      8,
+      30,
+      0
+     ],
+     [
+      5,
+      50,
+      0
+     ]
+    ],
+    "matches_reference": {
+     "P2": [
+      "direct",
+      35,
+      0
+     ],
+     "P1": [
+      "direct",
+      50,
+      0
+     ]
+    }
+   },
+   {
+    "s": "9/20",
+    "t": "3/4",
+    "thin_anchor": "B",
+    "thick_anchor": "B",
+    "interior_faces": 230,
+    "all_strictly_convex": true,
+    "classes": 3,
+    "class_sizes_vertices": [
+     5,
+     5,
+     6
+    ],
+    "class_counts_direct_mirror": [
+     [
+      5,
+      90,
+      0
+     ],
+     [
+      6,
+      55,
+      0
+     ],
+     [
+      5,
+      85,
+      0
+     ]
+    ],
+    "matches_reference": {
+     "P1": [
+      "direct",
+      90,
+      0
+     ],
+     "H6": [
+      "direct",
+      55,
+      0
+     ],
+     "P2": [
+      "direct",
+      85,
+      0
+     ]
+    }
+   },
+   {
+    "s": "9/20",
+    "t": "3/4",
+    "thin_anchor": "B",
+    "thick_anchor": "C",
+    "interior_faces": 230,
+    "all_strictly_convex": true,
+    "classes": 6,
+    "class_sizes_vertices": [
+     5,
+     5,
+     5,
+     5,
+     6,
+     6
+    ],
+    "class_counts_direct_mirror": [
+     [
+      5,
+      55,
+      0
+     ],
+     [
+      6,
+      25,
+      0
+     ],
+     [
+      6,
+      30,
+      0
+     ],
+     [
+      5,
+      50,
+      0
+     ],
+     [
+      5,
+      35,
+      0
+     ],
+     [
+      5,
+      35,
+      0
+     ]
+    ],
+    "matches_reference": {
+     "P1": [
+      "direct",
+      50,
+      0
+     ],
+     "P2": [
+      "direct",
+      35,
+      0
+     ]
+    }
+   },
+   {
+    "s": "9/20",
+    "t": "3/4",
+    "thin_anchor": "C",
+    "thick_anchor": "B",
+    "interior_faces": 230,
+    "all_strictly_convex": false,
+    "classes": 5,
+    "class_sizes_vertices": [
+     4,
+     5,
+     5,
+     7,
+     8
+    ],
+    "class_counts_direct_mirror": [
+     [
+      4,
+      90,
+      0
+     ],
+     [
+      7,
+      25,
+      0
+     ],
+     [
+      5,
+      35,
+      0
+     ],
+     [
+      8,
+      30,
+      0
+     ],
+     [
+      5,
+      50,
+      0
+     ]
+    ],
+    "matches_reference": {
+     "P1": [
+      "direct",
+      35,
+      0
+     ],
+     "P2": [
+      "direct",
+      50,
+      0
+     ]
+    }
+   },
+   {
+    "s": "9/20",
+    "t": "3/4",
+    "thin_anchor": "C",
+    "thick_anchor": "C",
+    "interior_faces": 230,
+    "all_strictly_convex": true,
+    "classes": 6,
+    "class_sizes_vertices": [
+     4,
+     4,
+     5,
+     5,
+     7,
+     8
+    ],
+    "class_counts_direct_mirror": [
+     [
+      4,
+      35,
+      0
+     ],
+     [
+      4,
+      55,
+      0
+     ],
+     [
+      7,
+      25,
+      0
+     ],
+     [
+      5,
+      35,
+      0
+     ],
+     [
+      8,
+      30,
+      0
+     ],
+     [
+      5,
+      50,
+      0
+     ]
+    ],
+    "matches_reference": {
+     "P2": [
+      "direct",
+      35,
+      0
+     ],
+     "P1": [
+      "direct",
+      50,
+      0
+     ]
+    }
+   },
+   {
+    "s": "11/20",
+    "t": "17/20",
+    "thin_anchor": "B",
+    "thick_anchor": "B",
+    "interior_faces": 230,
+    "all_strictly_convex": true,
+    "classes": 3,
+    "class_sizes_vertices": [
+     5,
+     5,
+     6
+    ],
+    "class_counts_direct_mirror": [
+     [
+      5,
+      90,
+      0
+     ],
+     [
+      6,
+      55,
+      0
+     ],
+     [
+      5,
+      85,
+      0
+     ]
+    ],
+    "matches_reference": {
+     "P1": [
+      "direct",
+      90,
+      0
+     ],
+     "H6": [
+      "direct",
+      55,
+      0
+     ],
+     "P2": [
+      "direct",
+      85,
+      0
+     ]
+    }
+   },
+   {
+    "s": "11/20",
+    "t": "17/20",
+    "thin_anchor": "B",
+    "thick_anchor": "C",
+    "interior_faces": 230,
+    "all_strictly_convex": true,
+    "classes": 6,
+    "class_sizes_vertices": [
+     5,
+     5,
+     5,
+     5,
+     6,
+     6
+    ],
+    "class_counts_direct_mirror": [
+     [
+      5,
+      55,
+      0
+     ],
+     [
+      6,
+      25,
+      0
+     ],
+     [
+      6,
+      30,
+      0
+     ],
+     [
+      5,
+      50,
+      0
+     ],
+     [
+      5,
+      35,
+      0
+     ],
+     [
+      5,
+      35,
+      0
+     ]
+    ],
+    "matches_reference": {
+     "P1": [
+      "direct",
+      50,
+      0
+     ],
+     "P2": [
+      "direct",
+      35,
+      0
+     ]
+    }
+   },
+   {
+    "s": "11/20",
+    "t": "17/20",
+    "thin_anchor": "C",
+    "thick_anchor": "B",
+    "interior_faces": 230,
+    "all_strictly_convex": false,
+    "classes": 5,
+    "class_sizes_vertices": [
+     4,
+     5,
+     5,
+     7,
+     8
+    ],
+    "class_counts_direct_mirror": [
+     [
+      4,
+      90,
+      0
+     ],
+     [
+      7,
+      25,
+      0
+     ],
+     [
+      5,
+      35,
+      0
+     ],
+     [
+      8,
+      30,
+      0
+     ],
+     [
+      5,
+      50,
+      0
+     ]
+    ],
+    "matches_reference": {
+     "P1": [
+      "direct",
+      35,
+      0
+     ],
+     "P2": [
+      "direct",
+      50,
+      0
+     ]
+    }
+   },
+   {
+    "s": "11/20",
+    "t": "17/20",
+    "thin_anchor": "C",
+    "thick_anchor": "C",
+    "interior_faces": 230,
+    "all_strictly_convex": false,
+    "classes": 6,
+    "class_sizes_vertices": [
+     4,
+     4,
+     5,
+     5,
+     7,
+     8
+    ],
+    "class_counts_direct_mirror": [
+     [
+      4,
+      35,
+      0
+     ],
+     [
+      4,
+      55,
+      0
+     ],
+     [
+      7,
+      25,
+      0
+     ],
+     [
+      5,
+      35,
+      0
+     ],
+     [
+      8,
+      30,
+      0
+     ],
+     [
+      5,
+      50,
+      0
+     ]
+    ],
+    "matches_reference": {
+     "P2": [
+      "direct",
+      35,
+      0
+     ],
+     "P1": [
+      "direct",
+      50,
+      0
+     ]
+    }
+   }
+  ]
+ },
+ "n6_selected": {
+  "deflations": 6,
+  "thin": 440,
+  "thick": 700,
+  "options": [
+   {
+    "s": "1/2",
+    "t": "4/5",
+    "thin_anchor": "B",
+    "thick_anchor": "B",
+    "interior_faces": 1770,
+    "all_strictly_convex": true,
+    "classes": 3,
+    "class_sizes_vertices": [
+     5,
+     5,
+     6
+    ],
+    "class_counts_direct_mirror": [
+     [
+      5,
+      680,
+      0
+     ],
+     [
+      6,
+      415,
+      0
+     ],
+     [
+      5,
+      675,
+      0
+     ]
+    ],
+    "matches_reference": {
+     "P1": [
+      "direct",
+      680,
+      0
+     ],
+     "H6": [
+      "direct",
+      415,
+      0
+     ],
+     "P2": [
+      "direct",
+      675,
+      0
+     ]
+    }
+   },
+   {
+    "s": "9/20",
+    "t": "3/4",
+    "thin_anchor": "B",
+    "thick_anchor": "B",
+    "interior_faces": 1770,
+    "all_strictly_convex": true,
+    "classes": 3,
+    "class_sizes_vertices": [
+     5,
+     5,
+     6
+    ],
+    "class_counts_direct_mirror": [
+     [
+      5,
+      680,
+      0
+     ],
+     [
+      6,
+      415,
+      0
+     ],
+     [
+      5,
+      675,
+      0
+     ]
+    ],
+    "matches_reference": {
+     "P1": [
+      "direct",
+      680,
+      0
+     ],
+     "H6": [
+      "direct",
+      415,
+      0
+     ],
+     "P2": [
+      "direct",
+      675,
+      0
+     ]
+    }
+   },
+   {
+    "s": "11/20",
+    "t": "17/20",
+    "thin_anchor": "B",
+    "thick_anchor": "B",
+    "interior_faces": 1770,
+    "all_strictly_convex": true,
+    "classes": 3,
+    "class_sizes_vertices": [
+     5,
+     5,
+     6
+    ],
+    "class_counts_direct_mirror": [
+     [
+      5,
+      680,
+      0
+     ],
+     [
+      6,
+      415,
+      0
+     ],
+     [
+      5,
+      675,
+      0
+     ]
+    ],
+    "matches_reference": {
+     "P1": [
+      "direct",
+      680,
+      0
+     ],
+     "H6": [
+      "direct",
+      415,
+      0
+     ],
+     "P2": [
+      "direct",
+      675,
+      0
+     ]
+    }
+   }
+  ]
+ }
+}

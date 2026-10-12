@@ -1,0 +1,436 @@
+[
+ {
+  "kite": 1,
+  "dart": 3,
+  "weak_turns": false,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.04,
+  "active_parameters": [
+   0,
+   2
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 1,
+  "dart": 3,
+  "weak_turns": true,
+  "timeout_ms": 10000,
+  "status": "sat",
+  "elapsed_seconds": 0.003,
+  "active_parameters": [
+   0,
+   2
+  ],
+  "necessary_conditions_only": true,
+  "model": {
+   "s0": "0",
+   "t0": "0",
+   "s2": "0",
+   "t2": "0"
+  }
+ },
+ {
+  "kite": 3,
+  "dart": 1,
+  "weak_turns": false,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.005,
+  "active_parameters": [
+   0,
+   2
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 3,
+  "dart": 1,
+  "weak_turns": true,
+  "timeout_ms": 10000,
+  "status": "sat",
+  "elapsed_seconds": 0.003,
+  "active_parameters": [
+   0,
+   2
+  ],
+  "necessary_conditions_only": true,
+  "model": {
+   "s0": "0",
+   "t0": "0",
+   "s2": "0",
+   "t2": "0"
+  }
+ },
+ {
+  "kite": 15,
+  "dart": 27,
+  "weak_turns": false,
+  "timeout_ms": 10000,
+  "status": "sat",
+  "elapsed_seconds": 0.168,
+  "active_parameters": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "necessary_conditions_only": true,
+  "model": {
+   "s0": "-7/8",
+   "t0": "3/2",
+   "s1": "-1/2",
+   "t1": "1",
+   "s2": "0",
+   "t2": "1/2",
+   "s3": "1/16",
+   "t3": "1/2"
+  }
+ },
+ {
+  "kite": 15,
+  "dart": 27,
+  "weak_turns": true,
+  "timeout_ms": 10000,
+  "status": "sat",
+  "elapsed_seconds": 0.014,
+  "active_parameters": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "necessary_conditions_only": true,
+  "model": {
+   "s0": "1/2",
+   "t0": "0",
+   "s1": "1/2",
+   "t1": "0",
+   "s2": "0",
+   "t2": "0",
+   "s3": "0",
+   "t3": "1/2"
+  }
+ },
+ {
+  "kite": 27,
+  "dart": 15,
+  "weak_turns": false,
+  "timeout_ms": 10000,
+  "status": "sat",
+  "elapsed_seconds": 0.505,
+  "active_parameters": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "necessary_conditions_only": true,
+  "model": {
+   "s0": "-1/2",
+   "t0": "1",
+   "s1": "0",
+   "t1": "3/4",
+   "s2": "-1/8",
+   "t2": "41/64",
+   "s3": "0",
+   "t3": "1/2"
+  }
+ },
+ {
+  "kite": 27,
+  "dart": 15,
+  "weak_turns": true,
+  "timeout_ms": 10000,
+  "status": "sat",
+  "elapsed_seconds": 0.003,
+  "active_parameters": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "necessary_conditions_only": true,
+  "model": {
+   "s0": "0",
+   "t0": "0",
+   "s1": "0",
+   "t1": "1/2",
+   "s2": "0",
+   "t2": "1/2",
+   "s3": "0",
+   "t3": "0"
+  }
+ },
+ {
+  "kite": 1,
+  "dart": 54,
+  "weak_turns": false,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.002,
+  "active_parameters": [
+   0
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 1,
+  "dart": 54,
+  "weak_turns": true,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.002,
+  "active_parameters": [
+   0
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 3,
+  "dart": 54,
+  "weak_turns": false,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.002,
+  "active_parameters": [
+   0
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 3,
+  "dart": 54,
+  "weak_turns": true,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.003,
+  "active_parameters": [
+   0
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 15,
+  "dart": 0,
+  "weak_turns": false,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.003,
+  "active_parameters": [
+   0,
+   1
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 15,
+  "dart": 0,
+  "weak_turns": true,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.008,
+  "active_parameters": [
+   0,
+   1
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 15,
+  "dart": 54,
+  "weak_turns": false,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.003,
+  "active_parameters": [
+   0,
+   1
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 15,
+  "dart": 54,
+  "weak_turns": true,
+  "timeout_ms": 10000,
+  "status": "sat",
+  "elapsed_seconds": 0.004,
+  "active_parameters": [
+   0,
+   1
+  ],
+  "necessary_conditions_only": true,
+  "model": {
+   "s0": "0",
+   "t0": "1",
+   "s1": "0",
+   "t1": "0"
+  }
+ },
+ {
+  "kite": 15,
+  "dart": 76,
+  "weak_turns": false,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.383,
+  "active_parameters": [
+   0,
+   1
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 15,
+  "dart": 76,
+  "weak_turns": true,
+  "timeout_ms": 10000,
+  "status": "unknown",
+  "elapsed_seconds": 10.195,
+  "active_parameters": [
+   0,
+   1
+  ],
+  "necessary_conditions_only": true,
+  "reason_unknown": "timeout"
+ },
+ {
+  "kite": 27,
+  "dart": 0,
+  "weak_turns": false,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.003,
+  "active_parameters": [
+   0,
+   1
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 27,
+  "dart": 0,
+  "weak_turns": true,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.011,
+  "active_parameters": [
+   0,
+   1
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 27,
+  "dart": 54,
+  "weak_turns": false,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.003,
+  "active_parameters": [
+   0,
+   1
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 27,
+  "dart": 54,
+  "weak_turns": true,
+  "timeout_ms": 10000,
+  "status": "sat",
+  "elapsed_seconds": 0.003,
+  "active_parameters": [
+   0,
+   1
+  ],
+  "necessary_conditions_only": true,
+  "model": {
+   "s0": "0",
+   "t0": "0",
+   "s1": "0",
+   "t1": "1"
+  }
+ },
+ {
+  "kite": 27,
+  "dart": 76,
+  "weak_turns": false,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.016,
+  "active_parameters": [
+   0,
+   1
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 27,
+  "dart": 76,
+  "weak_turns": true,
+  "timeout_ms": 10000,
+  "status": "unknown",
+  "elapsed_seconds": 10.059,
+  "active_parameters": [
+   0,
+   1
+  ],
+  "necessary_conditions_only": true,
+  "reason_unknown": "timeout"
+ },
+ {
+  "kite": 76,
+  "dart": 15,
+  "weak_turns": false,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.19,
+  "active_parameters": [
+   2,
+   3
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 76,
+  "dart": 15,
+  "weak_turns": true,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.54,
+  "active_parameters": [
+   2,
+   3
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 76,
+  "dart": 27,
+  "weak_turns": false,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.09,
+  "active_parameters": [
+   2,
+   3
+  ],
+  "necessary_conditions_only": true
+ },
+ {
+  "kite": 76,
+  "dart": 27,
+  "weak_turns": true,
+  "timeout_ms": 10000,
+  "status": "unsat",
+  "elapsed_seconds": 0.098,
+  "active_parameters": [
+   2,
+   3
+  ],
+  "necessary_conditions_only": true
+ }
+]

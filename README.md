@@ -6,9 +6,12 @@ Open the repository in its dev container, then give [`main_prompt.md`](main_prom
 
 The devcontainer persists Codex and Claude state on the host under
 `~/.agent-state/<checkout-folder>/`, including Claude's `.claude.json`.
-VS Code server files are shared through `~/.vscode-server`, with workspace
-state isolated in `~/.vscode-server-workspaces/<checkout-folder>/`. These
-mounts survive container deletion and rebuilds.
+VS Code binaries and extensions are shared through `~/.vscode-server`. Each
+checkout mounts `~/.vscode-server-data/<checkout-folder>/` over the server
+`data` directory to isolate connection ports, tokens, settings, and logs.
+Workspace state remains in `~/.vscode-server-workspaces/<checkout-folder>/`.
+These mounts survive container deletion and rebuilds. Recreate existing
+containers once to apply mount changes; restarting alone does not apply them.
 
 The [current discovery log](discovery-log.md) is the restart entry point. The
 problem remains unresolved; both recorded exact pentagon–hexagon pairs are
@@ -16,7 +19,8 @@ falsified. The discovery log indexes the subject-specific proofs, exact
 searches, certificates, literature findings, and reviews under `research/`,
 including verification scope and remaining research obligations.
 
-Replay all retained certificates without overwriting them:
+Run the registered certificate replays and independent checks without
+overwriting retained certificates (the registry does not cover every search):
 
 ```text
 conda run --no-capture-output -n arisearch python3 research/searches/verify.py

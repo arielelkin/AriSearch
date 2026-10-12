@@ -2,6 +2,14 @@
 
 **Status:** completed prescribed 120-second exact solver experiment; Z3 returned **unknown (timeout)**. No second run or count expansion was made. This tests a fixed macrodissection, not aperiodicity, plane tilability, or a sequence of larger patch bounds.
 
+**Current question status (2026-10-12):** the stored Z3 experiment remains
+UNKNOWN, but the specified 5U+8V parent was later exhausted by an exact
+five-node dissection search. See the
+[golden U/V all-lambda obstruction](../lemmas/convex-substitution-golden-uv-all-lambda.md)
+and [substitution record](convex-substitution-search.md). This is a later
+method/result, not a revision of the original solver verdict. The route is
+closed; the old remaining-question paragraph below is historical.
+
 ## Exact mathematical question
 
 Use the b=c=1 pair in [the area-compatible family](pentagrid-golden-metric-area-compatible.md): U lengths (phi^3,phi^3,1,1,1), V lengths (1,3phi+1,1,2phi,2phi), with respective angles after their sides (1,3,4,4,3), (2,2,4,3,4) in units pi/5. Let z=exp(pi*i/5), phi=z+z^(-1), rho=phi^3. Does the convex parent rho*U admit a finite partition into five U and eight V copies, including reflections and partial contacts?
@@ -47,4 +55,5 @@ If the critical seed times out, change construction mechanism rather than increa
 
 ## Completed result
 
-The sole check returned unknown with reason timeout after 120.205638 seconds. Formula construction took 2.334517 seconds. Z3 version 4.16.0; retained formula 781096 bytes, SHA256 92a78e9028b41707d5ab306f28faf76d1449703e6be0929f13d576fcec964727. No SAT model, UNSAT certificate, dissection, or tilability consequence was obtained. This experiment is completed and is not a reason to increase the patch count. The changed direct Robinson-triangle partition mechanism is now investigated separately.
+The sole check returned unknown with reason timeout after 120.205638 seconds. Formula construction took 2.334517 seconds. Z3 version 4.16.0; retained formula 781096 bytes, SHA256 92a78e9028b41707d5ab306f28faf76d1449703e6be0929f13d576fcec964727. No SAT model, UNSAT certificate, dissection, or tilability consequence was obtained. This experiment is completed and is not a reason to increase the patch count. The direct Robinson-triangle partition work was subsequently recorded
+separately; no job is currently running under this experiment.

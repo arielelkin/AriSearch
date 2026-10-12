@@ -1,0 +1,10 @@
+{
+ "domain_hash": "5f4686513c0e1185f673a2fd9c3ee29c1a96e257c429d62e65d1b32d881404c3",
+ "partitions_total": 128,
+ "partitions_completed": 128,
+ "complete": true,
+ "vertex_deletions": false,
+ "arbitrary_rotations_and_reflections": true,
+ "retained_loci": 0,
+ "elapsed_seconds_this_run": 13.772
+}

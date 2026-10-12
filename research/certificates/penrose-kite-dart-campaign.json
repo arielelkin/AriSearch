@@ -1,0 +1,108 @@
+{
+ "date": "2026-10-11",
+ "status": "bounded varying-angle campaign exclusion independently audited; main problem unresolved",
+ "prior_handoff": "campaign logged; no existing P2 code/checkpoint or active P2 job found",
+ "domain": "98 plane graphs per labelled kite/dart, <=2 distinct strictly interior nodes, all source edges erased, no source-edge endpoints or neighbour dependence",
+ "pair_count": 9604,
+ "screen_complete": true,
+ "screen_patch_tiles": 95,
+ "larger_survivor_patch_tiles": 265,
+ "bounded_face_survivors": 14,
+ "no_bounded_face_pairs": [
+  [
+   0,
+   0
+  ],
+  [
+   0,
+   54
+  ],
+  [
+   0,
+   1
+  ],
+  [
+   0,
+   3
+  ]
+ ],
+ "generic_two_class_pairs": 0,
+ "strict_convexity_turn_survivors": [
+  [
+   15,
+   27
+  ],
+  [
+   27,
+   15
+  ]
+ ],
+ "arbitrary_rotation_metric_options": 660,
+ "joint_pentagon_partitions": 128,
+ "joint_retained_positive_dimensional_loci": 0,
+ "flat_hexagon_target": [
+  3,
+  1
+ ],
+ "flat_target_complete": true,
+ "flat_target_retained_loci": 0,
+ "flat_hexagon_source": [
+  1,
+  3
+ ],
+ "flat_source_direct_enumeration": "incomplete: solver cancellation after timeout; negative result transferred by exact mirror map",
+ "proof_status": "Independent bounded-domain hostile audit complete, with exact enumeration, face witnesses, ideal pruning and source-hull legality independently checked; shared Z3/Singular engine trust remains and no formal UNSAT proof logs are provided.",
+ "periodic_tests": "triangle/quadrilateral escape applied; no two-shape free-parameter candidate reached remaining monohedral/mixed-torus tests",
+ "remaining": [
+  "source-edge endpoint and neighbour-dependent decorations; more than two interior nodes (the separate bounded matched-endpoint extension has also been screened, without an independent hostile audit)",
+  "isolated two-class specializations outside the requested varying-angle route",
+  "for any eventual candidate: exact open convex region, varying normalized angles, periodic escapes and shape-only forcing"
+ ],
+ "next_construction_domain": "Two prescribed final boundary words with a varying normalized angle: the small Ammann H-to-two-prescribed-pentagons gate is recorded separately; unrestricted graph enlargement is not started.",
+ "software": {
+  "python": "3.12.13",
+  "sage": "10.9",
+  "z3": "4.16.0"
+ },
+ "script_sha256": {
+  "research/reviews/verify_penrose_kite_dart_recomposition.py": "740739ce387f3b8888dbe01b611fdd2faa398804e6c3dbe1a6759089f2d1acea",
+  "research/searches/penrose-kite-dart-convexity.py": "84b3de9d2b4a6dd4b1337b7fa05ebfc7ec530fbc2385a19e6851f91b3fa7dc8d",
+  "research/searches/penrose-kite-dart-flat-collapse.py": "47017b307e1db65af0b56d883e85137c09b79f82349d572a574a90c687a90fa9",
+  "research/searches/penrose-kite-dart-joint-collapse.py": "6d8520677851f0acbf838f69ae6582c1fc2dc2a62a2be2d47dc36e3d1f2350cf",
+  "research/searches/penrose-kite-dart-linear-collapse.py": "7be8b7761f35c2e03442cf9999207567a6357b46ff6fa9e9a737d526cc5b3c0a",
+  "research/searches/penrose-kite-dart-metric-collapse.py": "474b1026e0cf47fcb9e5bf3d67e7e01b2c5fe6e3a83a0bd96419bafcaf684363",
+  "research/searches/penrose-kite-dart-patch.py": "8f9ce75844186cf30afa2e5fc952020874d07a8d46e32c62b2d7ae00717d891a",
+  "research/searches/penrose-kite-dart-recomposition.py": "febfbdd22dbefe977e2fa9ae08acc86d886509418831bf6c8dbd3dfb20cec3ca"
+ },
+ "commands": [
+  "conda run --no-capture-output -n arisearch python research/searches/penrose-kite-dart-patch.py --deflations 3 --output research/certificates/penrose-kite-dart-patch3.json",
+  "conda run --no-capture-output -n arisearch python research/searches/penrose-kite-dart-patch.py --deflations 4 --output research/certificates/penrose-kite-dart-patch4.json",
+  "conda run --no-capture-output -n arisearch python research/searches/penrose-kite-dart-recomposition.py --patch research/certificates/penrose-kite-dart-patch3.json --checkpoint research/certificates/penrose-kite-dart-recomposition-patch3.jsonl --summary research/certificates/penrose-kite-dart-recomposition-patch3-summary.json --max-seconds 240",
+  "conda run --no-capture-output -n arisearch python research/searches/penrose-kite-dart-metric-collapse.py --checkpoint research/certificates/penrose-kite-dart-recomposition-patch3.jsonl --output research/certificates/penrose-kite-dart-metric-collapse.jsonl --summary research/certificates/penrose-kite-dart-metric-collapse-summary.json --max-seconds 180",
+  "conda run --no-capture-output -n arisearch python research/searches/penrose-kite-dart-joint-collapse.py --source research/certificates/penrose-kite-dart-recomposition-patch3.jsonl --metric research/certificates/penrose-kite-dart-metric-collapse.jsonl --output research/certificates/penrose-kite-dart-joint-collapse.jsonl --summary research/certificates/penrose-kite-dart-joint-collapse-summary.json --max-seconds 180",
+  "conda run --no-capture-output -n arisearch python research/searches/penrose-kite-dart-convexity.py --checkpoint research/certificates/penrose-kite-dart-recomposition-patch3.jsonl --output research/certificates/penrose-kite-dart-convexity-five-corners.json --timeout-ms 10000 --interior --min-corners 5",
+  "conda run --no-capture-output -n arisearch python research/searches/penrose-kite-dart-flat-collapse.py --checkpoint research/certificates/penrose-kite-dart-recomposition-patch3.jsonl --convexity research/certificates/penrose-kite-dart-convexity-five-corners.json --output research/certificates/penrose-kite-dart-flat-collapse.json --timeout-ms 10000 --max-seconds-per-pair 120",
+  "conda run --no-capture-output -n arisearch python research/reviews/verify_penrose_kite_dart_recomposition.py --output research/certificates/penrose-kite-dart-encoding-controls.json"
+ ],
+ "resumption": "append-only checkpoints skip completed pairs/options/partitions; locks guard recomposition, metric, joint and flat jobs; completed flat mirror target need not be rerun",
+ "source_reference": "Lang--Hayes 2013, equation (1), Figure 3, https://langorigami.com/wp-content/uploads/2015/09/paper-pentasia.pdf",
+ "source_builder_repair": "replaced number-field abs (numerical) with exact algebraic-sign normalization; patch3 replay byte-identical; exact patch4 built",
+ "no_bounded_face_pairs_status": "All four closed: empty boundary graph for (0,0); native closed-star degree-one boundary witnesses for (0,54),(0,1),(0,3). Historical retained-patch classifications are preserved above.",
+ "independent_audit": {
+  "report": "research/reviews/kite-dart-exclusion-audit.md",
+  "manifest": "research/certificates/kite-dart-exclusion-audit-manifest.json",
+  "retained_faces_checked": 1194,
+  "source_scope": "primitive marked P2 substitution-language hull; legal sun and retained patch strictly inside a supertile",
+  "engine_trust": [
+   "Z3 QF_NRA UNSAT",
+   "Sage/Singular exact ideal arithmetic"
+  ],
+  "fresh_rereview": "research/reviews/kite-dart-exclusion-audit-rereview.md"
+ },
+ "followup_edge_campaign": "research/certificates/penrose-kite-dart-edge-campaign.json",
+ "next_construction_gate": {
+  "record": "research/searches/boundary-attachment-ammann-h-gate.md",
+  "review": "research/reviews/boundary-attachment-ammann-h-gate-review.md",
+  "status": "prescribed Ammann H-to-two-pentagon varying-angle family independently excluded; isolated necessary specializations unclassified"
+ }
+}

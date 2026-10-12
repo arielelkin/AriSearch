@@ -1,0 +1,11 @@
+{
+ "status": "encoding controls passed",
+ "source_frames_checked": 360,
+ "flat_mirror_transfer_checked": true,
+ "checkpoint_pairs": 9604,
+ "full_symbolic_norm_identities_checked": 1960,
+ "exact_sign_controls": 200,
+ "seed": 431,
+ "scope": "encoding controls only; not independent verification of exhaustive enumeration or ideal pruning",
+ "checkpoint_sha256": "e7e5e6f48a87cdd2b95dcc1565c2ea316ac0bbcc4be7580a7a15ae87f510cbee"
+}

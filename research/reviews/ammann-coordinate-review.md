@@ -12,6 +12,14 @@ established by the retained record and remains pending under
 aggregate frequency algebra valid only under the stated edge-to-edge,
 native-edge, boundary, and van-Hove hypotheses.
 
+**Historical scope update (2026-10-12):** exact branches, final prototiles and
+a generic forcing atlas now appear in the
+[later reconstruction](../lemmas/ammann-two-class-reconstruction.md) and
+[reviewed forcing proof](../lemmas/ammann-forcing-aperiodicity.md). The findings
+below describe the earlier distance-only artifact; they do not assert that
+these data are still missing. Its separate conditional count review gate
+remains as stated above.
+
 ## Corrections imposed
 
 * The distance constraints generally yield two circle-intersection branches,

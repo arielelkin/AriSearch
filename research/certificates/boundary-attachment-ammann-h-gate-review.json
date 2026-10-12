@@ -1,0 +1,178 @@
+{
+ "side_words_independently_verified": true,
+ "areas_independently_derived": [
+  "2",
+  "-s^2 + (-1/2*sqrt5 - 1/2)*s*t - t^2 + (-1/2*sqrt5 + 3/2)*t + (sqrt5 + 1)",
+  "s^2 + (1/2*sqrt5 + 1/2)*s*t + t^2 + (1/2*sqrt5 - 3/2)*t"
+ ],
+ "mixed_area_difference": "(-sqrt5 + 1)",
+ "twelve_ideal_bases_recomputed": [
+  {
+   "family": "P1+P2",
+   "side": "b",
+   "dimension": -1,
+   "pure_powers": {}
+  },
+  {
+   "family": "P1+P2",
+   "side": "r",
+   "dimension": -1,
+   "pure_powers": {}
+  },
+  {
+   "family": "2P1",
+   "side": "a",
+   "dimension": 0,
+   "pure_powers": {
+    "t": 3,
+    "s": 2,
+    "b": 2,
+    "r": 2,
+    "c": 2,
+    "a": 1
+   }
+  },
+  {
+   "family": "2P1",
+   "side": "b",
+   "dimension": 0,
+   "pure_powers": {
+    "t": 3,
+    "s": 2,
+    "b": 2,
+    "r": 2,
+    "c": 2,
+    "a": 1
+   }
+  },
+  {
+   "family": "2P1",
+   "side": "c",
+   "dimension": 0,
+   "pure_powers": {
+    "t": 2,
+    "b": 2,
+    "r": 2,
+    "c": 2,
+    "s": 1,
+    "a": 1
+   }
+  },
+  {
+   "family": "2P2",
+   "side": "a",
+   "dimension": 0,
+   "pure_powers": {
+    "t": 3,
+    "s": 2,
+    "b": 2,
+    "r": 2,
+    "c": 2,
+    "a": 1
+   }
+  },
+  {
+   "family": "2P2",
+   "side": "b",
+   "dimension": 0,
+   "pure_powers": {
+    "t": 3,
+    "s": 2,
+    "a": 2,
+    "r": 2,
+    "c": 2,
+    "b": 1
+   }
+  },
+  {
+   "family": "2P1 negative orientation",
+   "side": "a",
+   "dimension": 0,
+   "pure_powers": {
+    "t": 3,
+    "s": 2,
+    "b": 2,
+    "r": 2,
+    "c": 2,
+    "a": 1
+   }
+  },
+  {
+   "family": "2P1 negative orientation",
+   "side": "b",
+   "dimension": 0,
+   "pure_powers": {
+    "t": 3,
+    "s": 2,
+    "b": 2,
+    "r": 2,
+    "c": 2,
+    "a": 1
+   }
+  },
+  {
+   "family": "2P1 negative orientation",
+   "side": "c",
+   "dimension": 0,
+   "pure_powers": {
+    "t": 2,
+    "b": 2,
+    "r": 2,
+    "c": 2,
+    "s": 1,
+    "a": 1
+   }
+  },
+  {
+   "family": "2P2 negative orientation",
+   "side": "a",
+   "dimension": 0,
+   "pure_powers": {
+    "t": 3,
+    "s": 2,
+    "b": 2,
+    "r": 2,
+    "c": 2,
+    "a": 1
+   }
+  },
+  {
+   "family": "2P2 negative orientation",
+   "side": "b",
+   "dimension": 0,
+   "pure_powers": {
+    "t": 3,
+    "s": 2,
+    "a": 2,
+    "r": 2,
+    "c": 2,
+    "b": 1
+   }
+  }
+ ],
+ "orientation_necessity_checks": [
+  {
+   "pentagon": 1,
+   "H_positive_turns_and_nonpositive_pentagon_area": "unsat"
+  },
+  {
+   "pentagon": 2,
+   "H_positive_turns_and_nonpositive_pentagon_area": "unsat"
+  }
+ ],
+ "seconds": 0.351,
+ "mixed_unsigned_obstruction": "|A1|+|A2| >= |A1+A2| = 1+sqrt5 > 2 = |AH|",
+ "uncut_shape_angle_variation_exact_samples": [
+  {
+   "s": "1/2",
+   "t": "4/5",
+   "P1_vertex_1_cosine_squared": "-1077541/22772728*sqrt5 + 13614523/22772728"
+  },
+  {
+   "s": "1/2",
+   "t": "3/4",
+   "P1_vertex_1_cosine_squared": "-61/2728*sqrt5 + 1575/2728"
+  }
+ ],
+ "producer_hash_matches": true
+}

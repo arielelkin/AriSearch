@@ -1,0 +1,666 @@
+{
+ "source_checkpoint": "research/certificates/penrose-kite-dart-recomposition-patch3.jsonl",
+ "source_sha256": "e7e5e6f48a87cdd2b95dcc1565c2ea316ac0bbcc4be7580a7a15ae87f510cbee",
+ "metric_options_total": 660,
+ "metric_options_completed": 660,
+ "complete": true,
+ "vertex_deletions": false,
+ "arbitrary_rotations_and_reflections": true,
+ "source_pairs": [
+  {
+   "kite": 1,
+   "dart": 3,
+   "incompatibility_edges": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ]
+   ],
+   "odd_cycle": [
+    0,
+    2,
+    3
+   ],
+   "positive_dimensional_two_class_family_excluded_without_vertex_deletions": true,
+   "pair_option_summaries": [
+    {
+     "i": 0,
+     "j": 1,
+     "complete": true,
+     "status_counts": {
+      "unit": 8,
+      "zero-dimensional": 2,
+      "positive-dimensional-necessary-survivor": 2
+     }
+    },
+    {
+     "i": 0,
+     "j": 2,
+     "complete": true,
+     "status_counts": {
+      "zero-dimensional": 1,
+      "unit": 11
+     }
+    },
+    {
+     "i": 0,
+     "j": 3,
+     "complete": true,
+     "status_counts": {
+      "unit": 12
+     }
+    },
+    {
+     "i": 0,
+     "j": 4,
+     "complete": true,
+     "status_counts": {
+      "unit": 12
+     }
+    },
+    {
+     "i": 1,
+     "j": 2,
+     "complete": true,
+     "status_counts": {
+      "unit": 8,
+      "positive-dimensional-necessary-survivor": 2,
+      "zero-dimensional": 2
+     }
+    },
+    {
+     "i": 1,
+     "j": 3,
+     "complete": true,
+     "status_counts": {
+      "unit": 12
+     }
+    },
+    {
+     "i": 1,
+     "j": 4,
+     "complete": true,
+     "status_counts": {
+      "unit": 12
+     }
+    },
+    {
+     "i": 2,
+     "j": 3,
+     "complete": true,
+     "status_counts": {
+      "unit": 12
+     }
+    },
+    {
+     "i": 2,
+     "j": 4,
+     "complete": true,
+     "status_counts": {
+      "unit": 12
+     }
+    },
+    {
+     "i": 3,
+     "j": 4,
+     "complete": true,
+     "status_counts": {
+      "unit": 10,
+      "positive-dimensional-necessary-survivor": 1,
+      "zero-dimensional": 1
+     }
+    }
+   ]
+  },
+  {
+   "kite": 3,
+   "dart": 1,
+   "incompatibility_edges": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ]
+   ],
+   "odd_cycle": [
+    0,
+    1,
+    3
+   ],
+   "positive_dimensional_two_class_family_excluded_without_vertex_deletions": true,
+   "pair_option_summaries": [
+    {
+     "i": 0,
+     "j": 1,
+     "complete": true,
+     "status_counts": {
+      "unit": 11,
+      "zero-dimensional": 1
+     }
+    },
+    {
+     "i": 0,
+     "j": 2,
+     "complete": true,
+     "status_counts": {
+      "unit": 8,
+      "zero-dimensional": 2,
+      "positive-dimensional-necessary-survivor": 2
+     }
+    },
+    {
+     "i": 0,
+     "j": 3,
+     "complete": true,
+     "status_counts": {
+      "unit": 12
+     }
+    },
+    {
+     "i": 0,
+     "j": 4,
+     "complete": true,
+     "status_counts": {
+      "unit": 12
+     }
+    },
+    {
+     "i": 1,
+     "j": 2,
+     "complete": true,
+     "status_counts": {
+      "unit": 8,
+      "positive-dimensional-necessary-survivor": 2,
+      "zero-dimensional": 2
+     }
+    },
+    {
+     "i": 1,
+     "j": 3,
+     "complete": true,
+     "status_counts": {
+      "unit": 12
+     }
+    },
+    {
+     "i": 1,
+     "j": 4,
+     "complete": true,
+     "status_counts": {
+      "unit": 12
+     }
+    },
+    {
+     "i": 2,
+     "j": 3,
+     "complete": true,
+     "status_counts": {
+      "unit": 12
+     }
+    },
+    {
+     "i": 2,
+     "j": 4,
+     "complete": true,
+     "status_counts": {
+      "unit": 12
+     }
+    },
+    {
+     "i": 3,
+     "j": 4,
+     "complete": true,
+     "status_counts": {
+      "unit": 10,
+      "positive-dimensional-necessary-survivor": 1,
+      "zero-dimensional": 1
+     }
+    }
+   ]
+  },
+  {
+   "kite": 15,
+   "dart": 27,
+   "incompatibility_edges": [],
+   "odd_cycle": null,
+   "positive_dimensional_two_class_family_excluded_without_vertex_deletions": false,
+   "pair_option_summaries": [
+    {
+     "i": 0,
+     "j": 1,
+     "complete": true,
+     "status_counts": {
+      "fixed-exterior-node": 3,
+      "unit": 6,
+      "positive-dimensional-necessary-survivor": 1
+     }
+    },
+    {
+     "i": 0,
+     "j": 2,
+     "complete": true,
+     "status_counts": {
+      "unit": 9,
+      "positive-dimensional-necessary-survivor": 1
+     }
+    },
+    {
+     "i": 0,
+     "j": 3,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 8,
+      "unit": 2
+     }
+    },
+    {
+     "i": 0,
+     "j": 4,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 10
+     }
+    },
+    {
+     "i": 0,
+     "j": 5,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 8,
+      "unit": 2
+     }
+    },
+    {
+     "i": 0,
+     "j": 6,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 10
+     }
+    },
+    {
+     "i": 1,
+     "j": 2,
+     "complete": true,
+     "status_counts": {
+      "unit": 2,
+      "positive-dimensional-necessary-survivor": 8
+     }
+    },
+    {
+     "i": 1,
+     "j": 3,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 10
+     }
+    },
+    {
+     "i": 1,
+     "j": 4,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 8,
+      "unit": 2
+     }
+    },
+    {
+     "i": 1,
+     "j": 5,
+     "complete": true,
+     "status_counts": {
+      "fixed-exterior-node": 1,
+      "positive-dimensional-necessary-survivor": 6,
+      "unit": 3
+     }
+    },
+    {
+     "i": 1,
+     "j": 6,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 8,
+      "unit": 2
+     }
+    },
+    {
+     "i": 2,
+     "j": 3,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 10
+     }
+    },
+    {
+     "i": 2,
+     "j": 4,
+     "complete": true,
+     "status_counts": {
+      "unit": 2,
+      "positive-dimensional-necessary-survivor": 8
+     }
+    },
+    {
+     "i": 2,
+     "j": 5,
+     "complete": true,
+     "status_counts": {
+      "unit": 7,
+      "fixed-exterior-node": 2,
+      "positive-dimensional-necessary-survivor": 1
+     }
+    },
+    {
+     "i": 2,
+     "j": 6,
+     "complete": true,
+     "status_counts": {
+      "unit": 2,
+      "positive-dimensional-necessary-survivor": 7,
+      "forced-degeneracy": 1
+     }
+    },
+    {
+     "i": 3,
+     "j": 4,
+     "complete": true,
+     "status_counts": {
+      "fixed-exterior-node": 1,
+      "positive-dimensional-necessary-survivor": 6,
+      "unit": 3
+     }
+    },
+    {
+     "i": 3,
+     "j": 5,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 8,
+      "unit": 2
+     }
+    },
+    {
+     "i": 3,
+     "j": 6,
+     "complete": true,
+     "status_counts": {
+      "fixed-exterior-node": 2,
+      "unit": 7,
+      "positive-dimensional-necessary-survivor": 1
+     }
+    },
+    {
+     "i": 4,
+     "j": 5,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 10
+     }
+    },
+    {
+     "i": 4,
+     "j": 6,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 8,
+      "unit": 2
+     }
+    },
+    {
+     "i": 5,
+     "j": 6,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 10
+     }
+    }
+   ]
+  },
+  {
+   "kite": 27,
+   "dart": 15,
+   "incompatibility_edges": [],
+   "odd_cycle": null,
+   "positive_dimensional_two_class_family_excluded_without_vertex_deletions": false,
+   "pair_option_summaries": [
+    {
+     "i": 0,
+     "j": 1,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 8,
+      "unit": 2
+     }
+    },
+    {
+     "i": 0,
+     "j": 2,
+     "complete": true,
+     "status_counts": {
+      "unit": 9,
+      "positive-dimensional-necessary-survivor": 1
+     }
+    },
+    {
+     "i": 0,
+     "j": 3,
+     "complete": true,
+     "status_counts": {
+      "fixed-exterior-node": 3,
+      "unit": 6,
+      "positive-dimensional-necessary-survivor": 1
+     }
+    },
+    {
+     "i": 0,
+     "j": 4,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 8,
+      "unit": 2
+     }
+    },
+    {
+     "i": 0,
+     "j": 5,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 10
+     }
+    },
+    {
+     "i": 0,
+     "j": 6,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 10
+     }
+    },
+    {
+     "i": 1,
+     "j": 2,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 10
+     }
+    },
+    {
+     "i": 1,
+     "j": 3,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 10
+     }
+    },
+    {
+     "i": 1,
+     "j": 4,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 8,
+      "unit": 2
+     }
+    },
+    {
+     "i": 1,
+     "j": 5,
+     "complete": true,
+     "status_counts": {
+      "fixed-exterior-node": 1,
+      "unit": 3,
+      "positive-dimensional-necessary-survivor": 6
+     }
+    },
+    {
+     "i": 1,
+     "j": 6,
+     "complete": true,
+     "status_counts": {
+      "fixed-exterior-node": 2,
+      "unit": 7,
+      "positive-dimensional-necessary-survivor": 1
+     }
+    },
+    {
+     "i": 2,
+     "j": 3,
+     "complete": true,
+     "status_counts": {
+      "unit": 2,
+      "positive-dimensional-necessary-survivor": 8
+     }
+    },
+    {
+     "i": 2,
+     "j": 4,
+     "complete": true,
+     "status_counts": {
+      "unit": 7,
+      "fixed-exterior-node": 2,
+      "positive-dimensional-necessary-survivor": 1
+     }
+    },
+    {
+     "i": 2,
+     "j": 5,
+     "complete": true,
+     "status_counts": {
+      "unit": 2,
+      "positive-dimensional-necessary-survivor": 8
+     }
+    },
+    {
+     "i": 2,
+     "j": 6,
+     "complete": true,
+     "status_counts": {
+      "unit": 2,
+      "positive-dimensional-necessary-survivor": 7,
+      "forced-degeneracy": 1
+     }
+    },
+    {
+     "i": 3,
+     "j": 4,
+     "complete": true,
+     "status_counts": {
+      "fixed-exterior-node": 1,
+      "unit": 3,
+      "positive-dimensional-necessary-survivor": 6
+     }
+    },
+    {
+     "i": 3,
+     "j": 5,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 8,
+      "unit": 2
+     }
+    },
+    {
+     "i": 3,
+     "j": 6,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 8,
+      "unit": 2
+     }
+    },
+    {
+     "i": 4,
+     "j": 5,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 10
+     }
+    },
+    {
+     "i": 4,
+     "j": 6,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 10
+     }
+    },
+    {
+     "i": 5,
+     "j": 6,
+     "complete": true,
+     "status_counts": {
+      "positive-dimensional-necessary-survivor": 8,
+      "unit": 2
+     }
+    }
+   ]
+  }
+ ],
+ "elapsed_seconds_this_run": 6.679
+}
