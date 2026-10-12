@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .sage/
+/.local/
 
 # Advisory locks are recreated by checkpoint jobs.
 research/certificates/*.lock

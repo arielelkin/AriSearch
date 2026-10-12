@@ -1,8 +1,0 @@
-# Codex runs without a nested sandbox only in GitHub Codespaces, where the dev
-# container is the isolation boundary. setup-codespaces.sh installs this as the
-# Codespaces user's config; native and local-container sessions do not load it.
-sandbox_mode = "danger-full-access"
-approval_policy = "on-request"
-
-[projects."/workspaces/AriSearch"]
-trust_level = "trusted"

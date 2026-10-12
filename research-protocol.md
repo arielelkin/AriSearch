@@ -357,30 +357,38 @@ Do not use “proved” for a numerical pattern, renderer output, solver search 
 
 ## 10. Computational environment
 
-The reproducible Linux environment is defined by `.devcontainer/`.
+The reproducible Linux x86-64 environment is defined by `environment/`.
+Mise installs the pinned Conda CLI and runs setup and verification tasks;
+host `uv` and `gh` remain
+auxiliary tools. Conda owns all research dependencies. Run `mise run setup`
+to install the locked environment under `.local/conda/`, and use mise shell
+integration or `mise exec --` to expose its Conda executable.
 Follow `AGENTS.md` to run tools in the `arisearch` Conda environment; the
 default shell may use the base environment. This applies to delegated agents
 as well as the root agent.
 `environment.yml` is the human-edited dependency specification, and
 `conda-lock.yml` is the generated, fully resolved `linux-64` lockfile consumed
-by the Docker build. Do not edit the lockfile manually. After changing
+by native setup. Do not edit the lockfile manually. After changing
 `environment.yml`, regenerate it with the pinned lock tool:
 
 ```text
-uvx --from conda-lock==4.0.2 conda-lock lock \
-  --micromamba \
-  --file .devcontainer/environment.yml \
-  --platform linux-64 \
-  --lockfile .devcontainer/conda-lock.yml \
-  --without-cuda
+mise run lock
 ```
 
-Commit the specification and regenerated lockfile together, rebuild the
-container, and run:
+Commit the specification and regenerated lockfile together. With jobs stopped
+and checkpoints preserved, rebuild the environment using `mise run setup`
+as described in README, and run:
 
 ```text
-conda run --no-capture-output -n arisearch python3 .devcontainer/verify_tools.py
+mise run verify-environment
+mise run replay
 ```
+
+Environment verification checks exact locked Conda builds, Python distributions,
+command provenance and solver smoke tests. The independent replay task runs
+the entire registered suite on a disposable copy of retained evidence.
+Replay is all-or-nothing. Neither task authorizes new research enumeration
+or resumption of paused routes. Keep assertions enabled.
 
 Use Python or Sage scripts under `research/` for computation. The core tools
 are:

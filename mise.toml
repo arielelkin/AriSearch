@@ -1,0 +1,46 @@
+# Use host gh and uv; do not install project copies of auxiliary CLIs.
+# All scientific packages and executables belong to Conda.
+
+[tools]
+"conda:conda" = "26.7.2"
+
+[env]
+CONDA_ENVS_PATH = "{{config_root}}/.local/conda/envs"
+CONDA_PKGS_DIRS = "{{config_root}}/.local/conda/pkgs"
+CONDA_AGGRESSIVE_UPDATE_PACKAGES = ""
+PYTHONDONTWRITEBYTECODE = "1"
+PYTHONUNBUFFERED = "1"
+
+[tasks.setup]
+description = "Install the locked native Linux research environment"
+run = """
+set -eu
+if test -d "$CONDA_ENVS_PATH/arisearch"; then
+  echo "Research environment exists, skipping installation; verifying it below."
+  echo "If verification fails after an interrupted install, stop jobs, preserve checkpoints, remove $CONDA_ENVS_PATH/arisearch, and rerun mise run setup."
+else
+  uv tool run --from conda-lock==4.0.2 conda-lock install --conda "$(command -v conda)" --no-mamba --name arisearch environment/conda-lock.yml
+fi
+conda run --no-capture-output -n arisearch python scripts/verify_environment.py
+"""
+
+[tasks.verify-environment]
+description = "Check locked dependencies, command provenance, and solver smoke tests"
+run = "conda run --no-capture-output -n arisearch python scripts/verify_environment.py"
+
+[tasks.replay]
+description = "Replay the entire research registry on copied evidence"
+run = "conda run --no-capture-output -n arisearch python scripts/replay_research.py"
+
+[tasks.lock]
+description = "Explicitly regenerate the research lock after editing environment.yml"
+run = """
+set -eu
+uv tool run --from conda-lock==4.0.2 conda-lock lock --conda "$(command -v conda)" --no-mamba --file environment/environment.yml --platform linux-64 --lockfile environment/conda-lock.yml --without-cuda
+# Conda's cache mishandles URL-encoded epochs (for example cddlib 1!0.94n).
+sed -i '/^[[:space:]]*url:/ s/%21/!/g' environment/conda-lock.yml
+"""
+
+[tasks.clean]
+description = "Remove Conda package caches while preserving installed environments"
+run = "conda clean --all --yes"

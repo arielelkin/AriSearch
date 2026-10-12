@@ -1,0 +1,3 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.local/conda/envs/arisearch/bin/python"
+}

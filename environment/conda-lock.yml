@@ -13,7 +13,7 @@
 version: 1
 metadata:
   content_hash:
-    linux-64: 5bdaa06316ceccc2b245b35227b9231f40aa1a9f0a63778b751bfbab591f3f8c
+    linux-64: 70683ec8faed59d2d5cff03f15d260be7fe96d4e8d2cad911b29c24a10fd096c
   channels:
   - url: conda-forge
     used_env_vars: []
@@ -388,7 +388,7 @@ package:
   manager: conda
   platform: linux-64
   dependencies:
-    bleach: ==6.4.0
+    bleach: 6.4.0
     tinycss2: ''
   url: https://conda.anaconda.org/conda-forge/noarch/bleach-with-css-6.4.0-hac0b51c_0.conda
   hash:
@@ -568,7 +568,7 @@ package:
     __glibc: '>=2.17,<3.0.a0'
     gmp: '>=6.3.0,<7.0a0'
     libgcc: '>=14'
-  url: https://conda.anaconda.org/conda-forge/linux-64/cddlib-1%210.94n-h91791ec_0.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/cddlib-1!0.94n-h91791ec_0.conda
   hash:
     md5: d53558b1d7e917ce0a820ef4bbafa26a
     sha256: c051870cc5ba036b0d2fc0d51cd593638d88366cac7b77389a757b24fac0e19e
@@ -1533,7 +1533,7 @@ package:
     __glibc: '>=2.17,<3.0.a0'
     libffi: ''
     libgcc: '>=14'
-    libglib: ==2.88.3
+    libglib: 2.88.3
   url: https://conda.anaconda.org/conda-forge/linux-64/glib-tools-2.88.3-h4916ab3_1.conda
   hash:
     md5: 246c12ff18139b126586eb2d0e906c7e
@@ -1732,7 +1732,7 @@ package:
   platform: linux-64
   dependencies:
     binutils_linux-64: ''
-    gcc_linux-64: ==16.1.0
+    gcc_linux-64: 16.1.0
     gxx_impl_linux-64: 16.1.0.*
     sysroot_linux-64: ''
   url: https://conda.anaconda.org/conda-forge/linux-64/gxx_linux-64-16.1.0-h5525346_0.conda
@@ -2708,7 +2708,7 @@ package:
   platform: linux-64
   dependencies:
     __glibc: '>=2.17,<3.0.a0'
-    libclang-cpp22.1: ==22.1.8
+    libclang-cpp22.1: 22.1.8
     libgcc: '>=14'
     libllvm22: '>=22.1.8,<22.2.0a0'
     libstdcxx: '>=14'
@@ -4205,8 +4205,8 @@ package:
   manager: conda
   platform: linux-64
   dependencies:
-    nbconvert-core: ==7.17.1
-    nbconvert-pandoc: ==7.17.1
+    nbconvert-core: 7.17.1
+    nbconvert-pandoc: 7.17.1
   url: https://conda.anaconda.org/conda-forge/noarch/nbconvert-7.17.1-hb502eef_0.conda
   hash:
     md5: 02669c36935d23e5258c5dd1a5e601ab
@@ -4245,7 +4245,7 @@ package:
   manager: conda
   platform: linux-64
   dependencies:
-    nbconvert-core: ==7.17.1
+    nbconvert-core: 7.17.1
     pandoc: ''
   url: https://conda.anaconda.org/conda-forge/noarch/nbconvert-pandoc-7.17.1-h08b4883_0.conda
   hash:
@@ -5658,7 +5658,7 @@ package:
     pytz: '>=2026.1'
     rpy2: '>=3.6.7,<4'
     rubiks: '>=20070912'
-    sagelib: ==10.9
+    sagelib: '10.9'
     sagemath-db-combinatorial-designs: '>=20140630'
     sagemath-db-elliptic-curves: '>=0.8.1'
     sagemath-db-graphs: '>=20210214'
@@ -6115,21 +6115,21 @@ package:
   manager: conda
   platform: linux-64
   dependencies:
-    libamd: ==3.3.3
-    libbtf: ==2.3.2
-    libcamd: ==3.3.3
-    libccolamd: ==3.3.4
-    libcholmod: ==5.3.1
-    libcolamd: ==3.3.4
-    libcxsparse: ==4.4.1
-    libklu: ==2.3.5
-    libldl: ==3.3.2
-    libparu: ==1.0.0
-    librbio: ==4.3.4
-    libspex: ==3.2.3
-    libspqr: ==4.3.4
-    libsuitesparseconfig: ==7.10.1
-    libumfpack: ==6.3.5
+    libamd: 3.3.3
+    libbtf: 2.3.2
+    libcamd: 3.3.3
+    libccolamd: 3.3.4
+    libcholmod: 5.3.1
+    libcolamd: 3.3.4
+    libcxsparse: 4.4.1
+    libklu: 2.3.5
+    libldl: 3.3.2
+    libparu: 1.0.0
+    librbio: 4.3.4
+    libspex: 3.2.3
+    libspqr: 4.3.4
+    libsuitesparseconfig: 7.10.1
+    libumfpack: 6.3.5
   url: https://conda.anaconda.org/conda-forge/linux-64/suitesparse-7.10.1-h5b2951e_7100101.conda
   hash:
     md5: e927e0f248a498050443dab8bb1203a9
@@ -6333,7 +6333,7 @@ package:
   manager: conda
   platform: linux-64
   dependencies:
-    typing_extensions: ==4.16.0
+    typing_extensions: 4.16.0
   url: https://conda.anaconda.org/conda-forge/noarch/typing-extensions-4.16.0-h69aa097_0.conda
   hash:
     md5: c680b5747e8c4c8f23dca0bb7042a8fc
@@ -6919,7 +6919,7 @@ package:
     _openmp_mutex: '>=4.5'
     libgcc: '>=14'
     libstdcxx: '>=14'
-    libz3: ==4.16.0,>=4.16.0,<5.0a0
+    libz3: 4.16.0,>=4.16.0,<5.0a0
     python: '>=3.10'
   url: https://conda.anaconda.org/conda-forge/linux-64/z3-solver-4.16.0.0-h1f805a6_0.conda
   hash:
