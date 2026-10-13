@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[2]
 SEARCHES = ROOT / "research/searches"
 CERTIFICATE_DIR = ROOT / "research/certificates"
 CERTIFICATES = (
+    ("construction-cycle-a-edge-diamonds.py", "construction-cycle-a-edge-diamonds.json"),
     ("walton_vertex_rank.py", "walton_vertex_rank_certificate.json"),
     ("walton_relative_relabeling_rank.py", "walton_relative_relabeling_rank_certificate.json"),
     ("walton_state_assignment_rank.py", "walton_state_assignment_rank_certificate.json"),
@@ -61,6 +62,9 @@ CERTIFICATES = (
     ("branching-hexagon-new-chirality-collapse.py", "branching-hexagon-new-chirality-collapse.json"),
 )
 VERIFIERS = (
+    ROOT / "research/searches/construction-cycle-b.py",
+    ROOT / "research/reviews/check_construction_cycle_a_independent.py",
+    ROOT / "research/reviews/check_construction_cycle_b_independent.py",
     ROOT / "research/reviews/verify_five_one_010122_cross22_independent.py",
     ROOT / "research/reviews/verify_five_one_unused_aa22_support.py",
     ROOT / "research/searches/terra-five-one-010122-cross-22-gate.py",
@@ -288,6 +292,7 @@ VERIFIERS = (
 
 # Producer-style controls write only to a disposable output selected by run().
 VERIFIER_ARGS = {
+    "construction-cycle-b.py": ["--check", "research/certificates/construction-cycle-b.json"],
     "terra-five-one-010122-cross-22-gate.py": ["--check", "research/certificates/terra-five-one-010122-cross-22-gate.json"],
     "check_two_hexagon_alternating_residual_periodic_actions.py": ["--output", "{output}"],
     "verify_reordered_acute_pentagon_four_face_carrier.py": ["--output", "{output}"],

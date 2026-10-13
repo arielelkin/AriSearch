@@ -2,7 +2,7 @@
 
 **Problem status: unresolved.** No exact aperiodic pair or complete unrestricted
 impossibility theorem meets [the acceptance criteria](research-problem.md).
-**Checkpoint: 2026-10-13, reviewed B5+1 family closure; full replay pending.**
+**Checkpoint: 2026-10-13, completed construction cycle; four new checks passed.**
 The unique-B-star and complete complementary two-angle hexagon families
 admit periodic escapes whenever tileable. The complementary three-angle
 result covers distinct, non-120 angles on its stated resonance domain. The original acute/obtuse pentagon native
@@ -10,12 +10,49 @@ words are untileable at every metric; the reordered words have an exact
 three-equality tileability criterion and a four-tile periodic carrier.
 These are restricted family results, not a global impossibility theorem.
 
-**2026-10-13 active frontier:** no original acceptance criterion has been
-completed. Individual branch results are checkpoints. Source-only or local
+**2026-10-13 active frontier:** the unrestricted objective remains unresolved;
+no construction meets all acceptance criteria. Individual branch results are checkpoints. Source-only or local
 objects below are not aperiodic pairs. Historical incremental notes are
 [archived](research/searches/discovery-log-2026-10-13-working-history.md).
 
-### Trustworthy native-family coverage
+## Current construction cycle (2026-10-13): completed
+
+The [fixed single-cycle contract and decisions](research/searches/construction-cycle-2026-10-13.md)
+were executed by two independent construction tracks and a separate hostile
+reviewer. Original unrestricted definitions are unchanged; **B5+1 remains
+closed and paused**. No closed enumeration, global solver query, bound or
+adjacent parameter sweep was resumed. The requested one-cycle scope is the
+stopping boundary; no execution-limit termination is claimed.
+
+| Mechanism / status | Strongest reviewed result | Failure and restart obligation |
+| --- | --- | --- |
+| [A: incidence-changing centroid edge diamonds](research/searches/construction-cycle-a-edge-diamonds.md) — proposal falsified, stopped | Exact infinite finite-prototile polygonal covering at J=1/2+(4/5)w: source-crossing faces and restored degree-three incidence at H-J'. An audited crossed diamond is strictly convex. This genuinely escapes the old incidence-preserving hypothesis. | Every complete face has at most four corners; any convex two-class output admits periodic omission. The ONE outward-kink repair makes the audited face a convex pentagon but gives its neighbor a reflex corner, with exact containment and area conservation. Next: a genuinely branching network with complete faces of at least five corners, an exact compatible infinite covering, then class/congruence checks and an intrinsic decoder. Centroid or epsilon tuning cannot repair these obstructions. |
+| [B: bevelled-chair pentagon parents](research/searches/construction-cycle-b.md) — proposal falsified, stopped | Exact distinct strict convex P/Q, areas 3/2 and 11/8, partition one nonconvex chair. BOTH atoms independently tile the plane periodically by certified central-hexagon lattice carriers. | Fixed four-child scale-2 extension protrudes at (3/4,1/16); mixed-parent recognition fails by either species omission. Zero repairs spent: simple seam/bevel edits preserving the right-angle carrier do not address forcing. Next: different exact atomic geometry without these carriers AND pointwise repeatable parent/child compatibility before hierarchy recognition. |
+
+[A hostile review](research/reviews/construction-cycle-a-hostile-review.md) independently
+checked original and repaired claims; [B hostile review](research/reviews/construction-cycle-b-hostile-review.md)
+checked exact geometry, covering and both omission escapes. [Root integration](research/reviews/construction-cycle-root-integration-2026-10-13.md)
+records the scope audit. Reflections and partial contacts remain unrestricted;
+none can exclude a periodic tiling already admitted by half-turns/translations.
+Both omission witnesses have nonzero periods, defeating even single-direction
+period exclusion. A has no final intrinsic decoder; B's universal mixed-parent
+recognition is explicitly false. No new two-convex-shape aperiodic covering,
+unrestricted impossibility theorem, or novelty claim follows.
+
+Exact coefficients/certificates and independent checker outputs are retained
+in the linked artifacts. Four new nondestructive registered checks passed:
+A producer/certificate reconstruction, B read-only certificate reconstruction,
+and two independent geometric verifiers. [Replay output](research/reviews/construction-cycle-targeted-replay-2026-10-13.txt).
+Registry now has 44 producer/certificate pairs and 226 verifiers (270 total).
+Locked environment verification passed; no dependency changed. Full legacy
+replay was not repeated in this cycle; its earlier 266-check full PASS is
+retained separately below. No staging, commit or push occurred during the construction cycle itself.
+The subsequent user-requested [Astra diff review](research/reviews/construction-cycle-astra-diff-review-2026-10-13.md)
+found no substantive defect and independently reran all four new checks,
+including retained-output equality. The user authorized committing and pushing
+this reviewed checkpoint on the existing convex-pair branch.
+
+## Trustworthy native-family coverage
 
 Generic complementary ternary angles split the eleven A bracelets into
 [five parameterized native families](research/lemmas/two-hexagon-ternary-five-native-family-ledger.md)

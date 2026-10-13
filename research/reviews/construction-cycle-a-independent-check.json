@@ -1,0 +1,54 @@
+{
+  "status": "VALID exact local crossed convex diamond and INVALID convex-only kink repair",
+  "diamond_turn_signs": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "repaired_diamond_turn_signs": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "neighbor_at_M": -1,
+  "M_inside_neighbor_fan": true,
+  "exact_area_conserved": true,
+  "fixed_omission_carrier_glue_side": 0,
+  "carrier_corner_count": 6,
+  "diamond_field_vertices": [
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "6/25",
+      "-3/50",
+      "0",
+      "-27/50"
+    ],
+    [
+      "7/10",
+      "-1/2",
+      "1/2",
+      "-1/2"
+    ],
+    [
+      "11/30",
+      "3/10",
+      "7/60",
+      "-1/12"
+    ]
+  ],
+  "kink_field_vertex": [
+    "32053/60000",
+    "-751/7500",
+    "9241/30000",
+    "-8741/30000"
+  ],
+  "scope": "one required source seam and one repair; global topological covering proved analytically, no global convexity or two-class census"
+}

@@ -1,0 +1,98 @@
+{
+  "status": "VALID fixed-pair monohedral periodic escape; INVALID four-chair scale2 assembly",
+  "P": {
+    "atom_area": "3/2",
+    "carrier_area": "3",
+    "carrier": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "1/6",
+        "1/3"
+      ],
+      [
+        "1/2",
+        "0"
+      ],
+      [
+        "3",
+        "0"
+      ],
+      [
+        "23/6",
+        "2/3"
+      ],
+      [
+        "7/2",
+        "1"
+      ]
+    ],
+    "periods": [
+      [
+        "-1/2",
+        "-1"
+      ],
+      [
+        "17/6",
+        "-1/3"
+      ]
+    ],
+    "coordinate_ranges": [
+      "23/18",
+      "7/6"
+    ],
+    "bounded_overlap_checks": 24
+  },
+  "Q": {
+    "atom_area": "11/8",
+    "carrier_area": "11/4",
+    "carrier": [
+      [
+        "0",
+        "1/2"
+      ],
+      [
+        "1/6",
+        "1/3"
+      ],
+      [
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "7/2"
+      ],
+      [
+        "5/6",
+        "11/3"
+      ],
+      [
+        "0",
+        "3"
+      ]
+    ],
+    "periods": [
+      [
+        "1",
+        "1/2"
+      ],
+      [
+        "5/6",
+        "19/6"
+      ]
+    ],
+    "coordinate_ranges": [
+      "58/33",
+      "12/11"
+    ],
+    "bounded_overlap_checks": 24
+  },
+  "parent_area": "23/8",
+  "scale2_protrusion_w": [
+    "3/4",
+    "1/16"
+  ]
+}

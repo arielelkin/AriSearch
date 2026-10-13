@@ -1,0 +1,9 @@
+PASS certificate replay: construction-cycle-a-edge-diamonds.py
+PASS verifier: construction-cycle-b.py
+PASS verifier: check_construction_cycle_a_independent.py
+PASS verifier: check_construction_cycle_b_independent.py
+All 1 certificate replays and 3 verifiers passed; no certificates written.
+
+Final registered rerun after strengthening the independent B checker:
+PASS verifier: check_construction_cycle_b_independent.py
+All 0 certificate replays and 1 verifiers passed; no certificates written.
