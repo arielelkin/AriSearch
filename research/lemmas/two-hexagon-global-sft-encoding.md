@@ -403,3 +403,65 @@ census.
 
 Not proved: that every realisable type satisfies \(P(\tau)\). This is
 exactly the remaining (6,6) obligation.
+
+## 6. Reusable ternary native-contact pruning (2026-10-13)
+
+The [single-cross-palette family obstruction](two-hexagon-single-cross-palette-obstruction.md)
+adds a spatial gate beyond homogeneous endpoint palettes. For a generic
+ternary A012012 with exactly the length partition(0,0,1,2,3,4), the three-colour
+corner-arm graph has no closed three-ray AAA cycle, even with reflections.
+This deletes all AAA local states without assuming a global colour phase.
+Same-colour AAB fans then force equal B arms, their class intersection forces
+B=L equilateral, and every B word fails a native AB endpoint test. Thus no
+mixed SFT point exists; any realizable tileable type in this stratum has a
+pure-B periodic escape by the reviewed monohedral dependency. This is a
+conditional analytic reduction, not a newly computed global census record.
+
+Reusable order of operations: enumerate reflected corner-arm cycles before
+propagating palettes; derive allowed B arm pairs at native AAB fans; intersect
+cyclic B side requirements; only then test polygon closure and successors.
+An endpoint-palette coincidence is necessary for a mixed/pure transition but
+does not ensure an actual third corner can close its two exposed rays. These
+checks preserve parameter families because they use actual length equality
+classes, not sampled distances. Extra equalities or extra stars change the
+premises and must be checked anew.
+
+## 7. Arbitrary-metric opposite-angle coverage and sparse-star removal
+
+The independently reviewed [A012012 all-metric theorem](terra-ternary-opposite-a-all-metric-escape.md)
+supersedes the five-class restriction in Section6 for the generic complementary
+ternary angle family. For actual closed polygons, every legal one-of-each-colour
+AAA metric cycle forces centrality: the positive sine closure kernel has
+strict triangle inequalities, so none of its signed three-term sums vanishes.
+Absent AAA, a six-neighbour native B colour contradiction excludes mixed
+SFT points. This covers every side-equivalence relation and every B native
+word in that angle family. It is a geometric coverage theorem, not an
+angle-only empty region: central A has a periodic point, while other A metrics
+may be unrealized or untileable. It must not be entered as an unconditional
+empty patch certificate for arbitrary angle-only relaxed polygons.
+
+The [resonance-removal extension](two-hexagon-opposite-a-resonance-removal.md)
+(independently reviewed VALID) uses a different reusable mechanism.
+A corner potential with zero sum on every whole tile and nonnegative sum on
+all legal trivalent stars makes its positive stars O(R) in each translated
+window. A new compactness limit contains only zero-score stars. Thus a
+periodic-extension theorem for that restricted used-star language yields an
+escape for the original actual polygons even when their exact angle triple
+set contains additional unused resonances. This deletes used stars in a limit;
+it does not change the actual polygon's angle equations or prove that its
+full SFT is empty. On the six sole-ABB resonance lines, this reduces to the
+reviewed exact-star A012012 theorem.
+
+No claim is made that these native/order conditions cover arbitrary
+higher-rank types. Do not discard noncovering ancestors of a higher-rank
+closure or interpret the complete angle grid as joint polygon realization.
+The [fresh independently reviewed all-native synthesis](two-hexagon-complementary-ternary-distinct-all-native-escape.md) now covers all eleven A bracelets, all121 fixed-colour native pairs, every actual metric specialization, and all six soleABB resonance lines. Remaining within complementary ternary angles: the equal-angle/120 lines, including all120. Other angle families and the general
+pentagon-containing cases remain outside this reduction.
+
+## 8. Reviewed angular family cuts in the complete global domain
+
+The [full distinct/non120 all-native theorem](two-hexagon-complementary-ternary-distinct-all-native-escape.md) supplies an actual-polygon escape cut independent of side metrics. This is distinct from an abstract SFT empty record. The [fully reified encoder and hostile review](../reviews/two-hexagon-ternary-angular-filter-fresh-hostile-review.md) exclude its angle vectors in either species role using fifteen native pairings each, with exact multiplicity, interval and distinctness guards.
+
+Complete angle-type representation is essential. For a covered vector, its full native triple set contains34 five-core equations; together with polygon sums they have rank10 on12 angles and force paired A values and doubled complements. Its exact type excludes repeated nativeAAA triples that would become legal if an A value were120 or two A values coincided. These exclusions force every representative of THAT EXACT type into the same distinct/non120 family; positive complementary B angles force A>90. Extra soleABB equations reduce dimension but do not change this reasoning. Thus a complete-grid representative cannot silently cover an uncovered realization of the same exact type. The argument does not apply to a partial type or to a necessary noncovering ancestor.
+
+The [retained bounded query](../searches/two-hexagon-ternary-filtered-global-query.md) with this new cut at radius3/grid5394/60seconds returned UNKNOWN. It provides no new coverage of other types, polygon realization, infinite tilability or aperiodicity. The cut itself remains reusable; further global search requires a concrete new pruning mechanism or domain decomposition.

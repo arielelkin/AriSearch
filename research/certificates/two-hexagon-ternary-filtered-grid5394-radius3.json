@@ -1,0 +1,44 @@
+{
+ "scope": "Bounded relaxed global patch query with rational-closure refinement; SAT is not plane tilability",
+ "library": "research/certificates/two-hexagon-global-covering-rank3-strata.json",
+ "library_sha256": "a72625536e2f8412b2857b71b30715e2624e911e04729316de2c6563829eb697",
+ "angular_escape_filter": {
+  "native_matchings_per_species": 15,
+  "species_choices": 2,
+  "angular_escape_clauses": 30,
+  "scope": "All actual metrics complementary ternary paired angles, distinct/non120; no abstract SFT empty claim"
+ },
+ "angular_filter_sha256": "ae7cfb41da19841f6138907f565764c4d8cd14e479ea5e13ca6d33eb0cb1c185",
+ "source_records": 695,
+ "distinct_direct_supports": 38,
+ "distinct_symmetry_supports": 554,
+ "radius": 3,
+ "angle_grid": 5394,
+ "iterations_limit": 1,
+ "seconds_per_query": 60.0,
+ "workers": 1,
+ "random_seed": 1,
+ "ortools_version": "9.15.6755",
+ "refinements": [],
+ "analytic_empty_region": {
+  "potential": [
+   "0",
+   "0",
+   "0",
+   "-2",
+   "-1",
+   "2",
+   "0",
+   "0",
+   "0",
+   "0",
+   "-1",
+   "0"
+  ],
+  "size": 195,
+  "source": "research/certificates/two-hexagon-corner-balance-obstruction-example.json",
+  "sha256": "4b63f366a2603009f883664f86b4bbad690eaf464c3ce0f79c2bae5e2063bc0f"
+ },
+ "status": "UNKNOWN",
+ "queries": 1
+}

@@ -1,0 +1,520 @@
+{
+  "scope": "Finite2faces*12*12 native A pairs, length-free colour gate;12 one-row poses.\nQuestion: can a saturated parallel B row have its required y-facing AAB\nendpoint? Outcomes: no y-face plus no width1 strip excludes mixed field;\na surviving x-face would require metric graph and positive closure next.\n",
+  "native_A_word": [
+    0,
+    1,
+    1,
+    2,
+    0,
+    2
+  ],
+  "native_poses": [
+    {
+      "rotation": 0,
+      "sign": 1,
+      "corners": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        2
+      ],
+      "sides": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "rotation": 0,
+      "sign": -1,
+      "corners": [
+        0,
+        2,
+        0,
+        2,
+        1,
+        1
+      ],
+      "sides": [
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "rotation": 1,
+      "sign": 1,
+      "corners": [
+        1,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "sides": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0
+      ]
+    },
+    {
+      "rotation": 1,
+      "sign": -1,
+      "corners": [
+        1,
+        0,
+        2,
+        0,
+        2,
+        1
+      ],
+      "sides": [
+        0,
+        5,
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "rotation": 2,
+      "sign": 1,
+      "corners": [
+        1,
+        2,
+        0,
+        2,
+        0,
+        1
+      ],
+      "sides": [
+        2,
+        3,
+        4,
+        5,
+        0,
+        1
+      ]
+    },
+    {
+      "rotation": 2,
+      "sign": -1,
+      "corners": [
+        1,
+        1,
+        0,
+        2,
+        0,
+        2
+      ],
+      "sides": [
+        1,
+        0,
+        5,
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "rotation": 3,
+      "sign": 1,
+      "corners": [
+        2,
+        0,
+        2,
+        0,
+        1,
+        1
+      ],
+      "sides": [
+        3,
+        4,
+        5,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "rotation": 3,
+      "sign": -1,
+      "corners": [
+        2,
+        1,
+        1,
+        0,
+        2,
+        0
+      ],
+      "sides": [
+        2,
+        1,
+        0,
+        5,
+        4,
+        3
+      ]
+    },
+    {
+      "rotation": 4,
+      "sign": 1,
+      "corners": [
+        0,
+        2,
+        0,
+        1,
+        1,
+        2
+      ],
+      "sides": [
+        4,
+        5,
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "rotation": 4,
+      "sign": -1,
+      "corners": [
+        0,
+        2,
+        1,
+        1,
+        0,
+        2
+      ],
+      "sides": [
+        3,
+        2,
+        1,
+        0,
+        5,
+        4
+      ]
+    },
+    {
+      "rotation": 5,
+      "sign": 1,
+      "corners": [
+        2,
+        0,
+        1,
+        1,
+        2,
+        0
+      ],
+      "sides": [
+        5,
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "rotation": 5,
+      "sign": -1,
+      "corners": [
+        2,
+        0,
+        2,
+        1,
+        1,
+        0
+      ],
+      "sides": [
+        4,
+        3,
+        2,
+        1,
+        0,
+        5
+      ]
+    }
+  ],
+  "boundary_faces": [
+    {
+      "face": "top",
+      "eligible_native_pose_ids": [
+        1,
+        4,
+        8,
+        9
+      ],
+      "edges": [
+        {
+          "source": 0,
+          "target": 0,
+          "outer_AAB_colours": [
+            0,
+            0
+          ],
+          "inner_AAA_colours": [
+            2,
+            1
+          ],
+          "AA_metric_native_indices": [
+            3,
+            0
+          ]
+        },
+        {
+          "source": 1,
+          "target": 0,
+          "outer_AAB_colours": [
+            0,
+            0
+          ],
+          "inner_AAA_colours": [
+            2,
+            1
+          ],
+          "AA_metric_native_indices": [
+            4,
+            0
+          ]
+        },
+        {
+          "source": 2,
+          "target": 2,
+          "outer_AAB_colours": [
+            0,
+            0
+          ],
+          "inner_AAA_colours": [
+            1,
+            2
+          ],
+          "AA_metric_native_indices": [
+            0,
+            3
+          ]
+        },
+        {
+          "source": 2,
+          "target": 3,
+          "outer_AAB_colours": [
+            0,
+            0
+          ],
+          "inner_AAA_colours": [
+            1,
+            2
+          ],
+          "AA_metric_native_indices": [
+            0,
+            4
+          ]
+        }
+      ],
+      "biinfinite_row_states": [
+        0,
+        2
+      ],
+      "necessary_biinfinite_metric_equality": [
+        0,
+        3
+      ]
+    },
+    {
+      "face": "bottom",
+      "eligible_native_pose_ids": [
+        2,
+        3,
+        7,
+        10
+      ],
+      "edges": [
+        {
+          "source": 0,
+          "target": 0,
+          "outer_AAB_colours": [
+            0,
+            0
+          ],
+          "inner_AAA_colours": [
+            2,
+            1
+          ],
+          "AA_metric_native_indices": [
+            3,
+            0
+          ]
+        },
+        {
+          "source": 1,
+          "target": 0,
+          "outer_AAB_colours": [
+            0,
+            0
+          ],
+          "inner_AAA_colours": [
+            2,
+            1
+          ],
+          "AA_metric_native_indices": [
+            4,
+            0
+          ]
+        },
+        {
+          "source": 2,
+          "target": 2,
+          "outer_AAB_colours": [
+            0,
+            0
+          ],
+          "inner_AAA_colours": [
+            1,
+            2
+          ],
+          "AA_metric_native_indices": [
+            0,
+            3
+          ]
+        },
+        {
+          "source": 2,
+          "target": 3,
+          "outer_AAB_colours": [
+            0,
+            0
+          ],
+          "inner_AAA_colours": [
+            1,
+            2
+          ],
+          "AA_metric_native_indices": [
+            0,
+            4
+          ]
+        }
+      ],
+      "biinfinite_row_states": [
+        0,
+        2
+      ],
+      "necessary_biinfinite_metric_equality": [
+        0,
+        3
+      ]
+    }
+  ],
+  "width1_rows": [
+    {
+      "pose": 0,
+      "row_AA_native_sides": [
+        2,
+        5
+      ],
+      "both_private_AA_present": false
+    },
+    {
+      "pose": 1,
+      "row_AA_native_sides": [
+        0,
+        3
+      ],
+      "both_private_AA_present": false
+    },
+    {
+      "pose": 2,
+      "row_AA_native_sides": [
+        0,
+        3
+      ],
+      "both_private_AA_present": false
+    },
+    {
+      "pose": 3,
+      "row_AA_native_sides": [
+        1,
+        4
+      ],
+      "both_private_AA_present": false
+    },
+    {
+      "pose": 4,
+      "row_AA_native_sides": [
+        1,
+        4
+      ],
+      "both_private_AA_present": false
+    },
+    {
+      "pose": 5,
+      "row_AA_native_sides": [
+        2,
+        5
+      ],
+      "both_private_AA_present": false
+    },
+    {
+      "pose": 6,
+      "row_AA_native_sides": [
+        2,
+        5
+      ],
+      "both_private_AA_present": false
+    },
+    {
+      "pose": 7,
+      "row_AA_native_sides": [
+        0,
+        3
+      ],
+      "both_private_AA_present": false
+    },
+    {
+      "pose": 8,
+      "row_AA_native_sides": [
+        0,
+        3
+      ],
+      "both_private_AA_present": false
+    },
+    {
+      "pose": 9,
+      "row_AA_native_sides": [
+        1,
+        4
+      ],
+      "both_private_AA_present": false
+    },
+    {
+      "pose": 10,
+      "row_AA_native_sides": [
+        1,
+        4
+      ],
+      "both_private_AA_present": false
+    },
+    {
+      "pose": 11,
+      "row_AA_native_sides": [
+        2,
+        5
+      ],
+      "both_private_AA_present": false
+    }
+  ],
+  "mixed_B_row_possible": false
+}

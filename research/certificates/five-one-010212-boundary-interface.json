@@ -1,0 +1,757 @@
+{
+  "native_A_word": "010212",
+  "native_poses": [
+    {
+      "rotation": 0,
+      "sign": 1,
+      "corners": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "rotation": 0,
+      "sign": -1,
+      "corners": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "rotation": 1,
+      "sign": 1,
+      "corners": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "rotation": 1,
+      "sign": -1,
+      "corners": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "rotation": 2,
+      "sign": 1,
+      "corners": [
+        0,
+        2,
+        1,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "rotation": 2,
+      "sign": -1,
+      "corners": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "rotation": 3,
+      "sign": 1,
+      "corners": [
+        2,
+        1,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "rotation": 3,
+      "sign": -1,
+      "corners": [
+        2,
+        0,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "rotation": 4,
+      "sign": 1,
+      "corners": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "rotation": 4,
+      "sign": -1,
+      "corners": [
+        1,
+        2,
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "rotation": 5,
+      "sign": 1,
+      "corners": [
+        2,
+        0,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "rotation": 5,
+      "sign": -1,
+      "corners": [
+        2,
+        1,
+        2,
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "orientations": [
+    {
+      "name": "B_above",
+      "z_slot": 1,
+      "eligible_pose_indices": [
+        1,
+        4,
+        8,
+        9
+      ],
+      "rows": [
+        {
+          "left_pose": 1,
+          "right_pose": 1,
+          "shared_native_sides": [
+            0,
+            3
+          ],
+          "outer_A_colours": [
+            0,
+            1
+          ],
+          "inner_A_colours": [
+            1,
+            2
+          ],
+          "outer_AAB_legal": false,
+          "inner_AAA_possible": true
+        },
+        {
+          "left_pose": 1,
+          "right_pose": 4,
+          "shared_native_sides": [
+            0,
+            4
+          ],
+          "outer_A_colours": [
+            0,
+            1
+          ],
+          "inner_A_colours": [
+            1,
+            2
+          ],
+          "outer_AAB_legal": false,
+          "inner_AAA_possible": true
+        },
+        {
+          "left_pose": 1,
+          "right_pose": 8,
+          "shared_native_sides": [
+            0,
+            0
+          ],
+          "outer_A_colours": [
+            0,
+            0
+          ],
+          "inner_A_colours": [
+            1,
+            1
+          ],
+          "outer_AAB_legal": true,
+          "inner_AAA_possible": false
+        },
+        {
+          "left_pose": 1,
+          "right_pose": 9,
+          "shared_native_sides": [
+            0,
+            1
+          ],
+          "outer_A_colours": [
+            0,
+            0
+          ],
+          "inner_A_colours": [
+            1,
+            1
+          ],
+          "outer_AAB_legal": true,
+          "inner_AAA_possible": false
+        },
+        {
+          "left_pose": 4,
+          "right_pose": 1,
+          "shared_native_sides": [
+            1,
+            3
+          ],
+          "outer_A_colours": [
+            0,
+            1
+          ],
+          "inner_A_colours": [
+            1,
+            2
+          ],
+          "outer_AAB_legal": false,
+          "inner_AAA_possible": true
+        },
+        {
+          "left_pose": 4,
+          "right_pose": 4,
+          "shared_native_sides": [
+            1,
+            4
+          ],
+          "outer_A_colours": [
+            0,
+            1
+          ],
+          "inner_A_colours": [
+            1,
+            2
+          ],
+          "outer_AAB_legal": false,
+          "inner_AAA_possible": true
+        },
+        {
+          "left_pose": 4,
+          "right_pose": 8,
+          "shared_native_sides": [
+            1,
+            0
+          ],
+          "outer_A_colours": [
+            0,
+            0
+          ],
+          "inner_A_colours": [
+            1,
+            1
+          ],
+          "outer_AAB_legal": true,
+          "inner_AAA_possible": false
+        },
+        {
+          "left_pose": 4,
+          "right_pose": 9,
+          "shared_native_sides": [
+            1,
+            1
+          ],
+          "outer_A_colours": [
+            0,
+            0
+          ],
+          "inner_A_colours": [
+            1,
+            1
+          ],
+          "outer_AAB_legal": true,
+          "inner_AAA_possible": false
+        },
+        {
+          "left_pose": 8,
+          "right_pose": 1,
+          "shared_native_sides": [
+            3,
+            3
+          ],
+          "outer_A_colours": [
+            1,
+            1
+          ],
+          "inner_A_colours": [
+            2,
+            2
+          ],
+          "outer_AAB_legal": true,
+          "inner_AAA_possible": false
+        },
+        {
+          "left_pose": 8,
+          "right_pose": 4,
+          "shared_native_sides": [
+            3,
+            4
+          ],
+          "outer_A_colours": [
+            1,
+            1
+          ],
+          "inner_A_colours": [
+            2,
+            2
+          ],
+          "outer_AAB_legal": true,
+          "inner_AAA_possible": false
+        },
+        {
+          "left_pose": 8,
+          "right_pose": 8,
+          "shared_native_sides": [
+            3,
+            0
+          ],
+          "outer_A_colours": [
+            1,
+            0
+          ],
+          "inner_A_colours": [
+            2,
+            1
+          ],
+          "outer_AAB_legal": false,
+          "inner_AAA_possible": true
+        },
+        {
+          "left_pose": 8,
+          "right_pose": 9,
+          "shared_native_sides": [
+            3,
+            1
+          ],
+          "outer_A_colours": [
+            1,
+            0
+          ],
+          "inner_A_colours": [
+            2,
+            1
+          ],
+          "outer_AAB_legal": false,
+          "inner_AAA_possible": true
+        },
+        {
+          "left_pose": 9,
+          "right_pose": 1,
+          "shared_native_sides": [
+            4,
+            3
+          ],
+          "outer_A_colours": [
+            1,
+            1
+          ],
+          "inner_A_colours": [
+            2,
+            2
+          ],
+          "outer_AAB_legal": true,
+          "inner_AAA_possible": false
+        },
+        {
+          "left_pose": 9,
+          "right_pose": 4,
+          "shared_native_sides": [
+            4,
+            4
+          ],
+          "outer_A_colours": [
+            1,
+            1
+          ],
+          "inner_A_colours": [
+            2,
+            2
+          ],
+          "outer_AAB_legal": true,
+          "inner_AAA_possible": false
+        },
+        {
+          "left_pose": 9,
+          "right_pose": 8,
+          "shared_native_sides": [
+            4,
+            0
+          ],
+          "outer_A_colours": [
+            1,
+            0
+          ],
+          "inner_A_colours": [
+            2,
+            1
+          ],
+          "outer_AAB_legal": false,
+          "inner_AAA_possible": true
+        },
+        {
+          "left_pose": 9,
+          "right_pose": 9,
+          "shared_native_sides": [
+            4,
+            1
+          ],
+          "outer_A_colours": [
+            1,
+            0
+          ],
+          "inner_A_colours": [
+            2,
+            1
+          ],
+          "outer_AAB_legal": false,
+          "inner_AAA_possible": true
+        }
+      ],
+      "compatible_pair_count": 0
+    },
+    {
+      "name": "B_below",
+      "z_slot": 4,
+      "eligible_pose_indices": [
+        2,
+        3,
+        7,
+        10
+      ],
+      "rows": [
+        {
+          "left_pose": 2,
+          "right_pose": 2,
+          "shared_native_sides": [
+            0,
+            3
+          ],
+          "outer_A_colours": [
+            0,
+            1
+          ],
+          "inner_A_colours": [
+            1,
+            2
+          ],
+          "outer_AAB_legal": false,
+          "inner_AAA_possible": true
+        },
+        {
+          "left_pose": 2,
+          "right_pose": 3,
+          "shared_native_sides": [
+            0,
+            4
+          ],
+          "outer_A_colours": [
+            0,
+            1
+          ],
+          "inner_A_colours": [
+            1,
+            2
+          ],
+          "outer_AAB_legal": false,
+          "inner_AAA_possible": true
+        },
+        {
+          "left_pose": 2,
+          "right_pose": 7,
+          "shared_native_sides": [
+            0,
+            0
+          ],
+          "outer_A_colours": [
+            0,
+            0
+          ],
+          "inner_A_colours": [
+            1,
+            1
+          ],
+          "outer_AAB_legal": true,
+          "inner_AAA_possible": false
+        },
+        {
+          "left_pose": 2,
+          "right_pose": 10,
+          "shared_native_sides": [
+            0,
+            1
+          ],
+          "outer_A_colours": [
+            0,
+            0
+          ],
+          "inner_A_colours": [
+            1,
+            1
+          ],
+          "outer_AAB_legal": true,
+          "inner_AAA_possible": false
+        },
+        {
+          "left_pose": 3,
+          "right_pose": 2,
+          "shared_native_sides": [
+            1,
+            3
+          ],
+          "outer_A_colours": [
+            0,
+            1
+          ],
+          "inner_A_colours": [
+            1,
+            2
+          ],
+          "outer_AAB_legal": false,
+          "inner_AAA_possible": true
+        },
+        {
+          "left_pose": 3,
+          "right_pose": 3,
+          "shared_native_sides": [
+            1,
+            4
+          ],
+          "outer_A_colours": [
+            0,
+            1
+          ],
+          "inner_A_colours": [
+            1,
+            2
+          ],
+          "outer_AAB_legal": false,
+          "inner_AAA_possible": true
+        },
+        {
+          "left_pose": 3,
+          "right_pose": 7,
+          "shared_native_sides": [
+            1,
+            0
+          ],
+          "outer_A_colours": [
+            0,
+            0
+          ],
+          "inner_A_colours": [
+            1,
+            1
+          ],
+          "outer_AAB_legal": true,
+          "inner_AAA_possible": false
+        },
+        {
+          "left_pose": 3,
+          "right_pose": 10,
+          "shared_native_sides": [
+            1,
+            1
+          ],
+          "outer_A_colours": [
+            0,
+            0
+          ],
+          "inner_A_colours": [
+            1,
+            1
+          ],
+          "outer_AAB_legal": true,
+          "inner_AAA_possible": false
+        },
+        {
+          "left_pose": 7,
+          "right_pose": 2,
+          "shared_native_sides": [
+            3,
+            3
+          ],
+          "outer_A_colours": [
+            1,
+            1
+          ],
+          "inner_A_colours": [
+            2,
+            2
+          ],
+          "outer_AAB_legal": true,
+          "inner_AAA_possible": false
+        },
+        {
+          "left_pose": 7,
+          "right_pose": 3,
+          "shared_native_sides": [
+            3,
+            4
+          ],
+          "outer_A_colours": [
+            1,
+            1
+          ],
+          "inner_A_colours": [
+            2,
+            2
+          ],
+          "outer_AAB_legal": true,
+          "inner_AAA_possible": false
+        },
+        {
+          "left_pose": 7,
+          "right_pose": 7,
+          "shared_native_sides": [
+            3,
+            0
+          ],
+          "outer_A_colours": [
+            1,
+            0
+          ],
+          "inner_A_colours": [
+            2,
+            1
+          ],
+          "outer_AAB_legal": false,
+          "inner_AAA_possible": true
+        },
+        {
+          "left_pose": 7,
+          "right_pose": 10,
+          "shared_native_sides": [
+            3,
+            1
+          ],
+          "outer_A_colours": [
+            1,
+            0
+          ],
+          "inner_A_colours": [
+            2,
+            1
+          ],
+          "outer_AAB_legal": false,
+          "inner_AAA_possible": true
+        },
+        {
+          "left_pose": 10,
+          "right_pose": 2,
+          "shared_native_sides": [
+            4,
+            3
+          ],
+          "outer_A_colours": [
+            1,
+            1
+          ],
+          "inner_A_colours": [
+            2,
+            2
+          ],
+          "outer_AAB_legal": true,
+          "inner_AAA_possible": false
+        },
+        {
+          "left_pose": 10,
+          "right_pose": 3,
+          "shared_native_sides": [
+            4,
+            4
+          ],
+          "outer_A_colours": [
+            1,
+            1
+          ],
+          "inner_A_colours": [
+            2,
+            2
+          ],
+          "outer_AAB_legal": true,
+          "inner_AAA_possible": false
+        },
+        {
+          "left_pose": 10,
+          "right_pose": 7,
+          "shared_native_sides": [
+            4,
+            0
+          ],
+          "outer_A_colours": [
+            1,
+            0
+          ],
+          "inner_A_colours": [
+            2,
+            1
+          ],
+          "outer_AAB_legal": false,
+          "inner_AAA_possible": true
+        },
+        {
+          "left_pose": 10,
+          "right_pose": 10,
+          "shared_native_sides": [
+            4,
+            1
+          ],
+          "outer_A_colours": [
+            1,
+            0
+          ],
+          "inner_A_colours": [
+            2,
+            1
+          ],
+          "outer_AAB_legal": false,
+          "inner_AAA_possible": true
+        }
+      ],
+      "compatible_pair_count": 0
+    }
+  ],
+  "total_boundary_pairs": 32,
+  "outer_AAB_legal_count": 16,
+  "compatible_interface_pair_count": 0,
+  "scope": "necessaryangleconditions for ArownextBrowwithAonotherside;allactualmetrics/reflections;notinfiniteexistence"
+}

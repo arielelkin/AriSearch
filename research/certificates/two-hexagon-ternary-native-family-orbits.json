@@ -1,0 +1,154 @@
+{
+  "domain": "11 bracelets of multiset001122; six simultaneous A/B colour permutations",
+  "orbits": [
+    {
+      "representative": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      "bracelets": [
+        [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "representative": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        2
+      ],
+      "bracelets": [
+        [
+          0,
+          0,
+          1,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          2,
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "representative": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        1
+      ],
+      "bracelets": [
+        [
+          0,
+          0,
+          1,
+          2,
+          2,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "representative": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        2
+      ],
+      "bracelets": [
+        [
+          0,
+          1,
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "representative": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "bracelets": [
+        [
+          0,
+          1,
+          2,
+          0,
+          1,
+          2
+        ]
+      ]
+    }
+  ],
+  "scope": "Native-angle family reparameterization only; side metrics transported with geometry, no realization inferred"
+}

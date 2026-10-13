@@ -2,18 +2,178 @@
 
 **Problem status: unresolved.** No exact aperiodic pair or complete unrestricted
 impossibility theorem meets [the acceptance criteria](research-problem.md).
-**Checkpoint: 2026-10-12, after the completed independent audits.**
-The unique-B-star and complete complementary-angle hexagon families admit
-periodic escapes whenever tileable. The original acute/obtuse pentagon native
+**Checkpoint: 2026-10-13, reviewed B5+1 family closure; full replay pending.**
+The unique-B-star and complete complementary two-angle hexagon families
+admit periodic escapes whenever tileable. The complementary three-angle
+result covers distinct, non-120 angles on its stated resonance domain. The original acute/obtuse pentagon native
 words are untileable at every metric; the reordered words have an exact
 three-equality tileability criterion and a four-tile periodic carrier.
 These are restricted family results, not a global impossibility theorem.
 
-The next proposed mechanism is a single cross-palette side equality allowing
-an AAB-to-AAA interface in the generic ternary hexagon language. An exact
-convex A seed is retained, but no B pair, infinite covering or forcing proof
-exists. Begin with the local transition-edge successor lemma in the
-[regroup note](research/searches/regroup-smallest-unresolved-contact-mechanisms.md).
+**2026-10-13 active frontier:** no original acceptance criterion has been
+completed. Individual branch results are checkpoints. Source-only or local
+objects below are not aperiodic pairs. Historical incremental notes are
+[archived](research/searches/discovery-log-2026-10-13-working-history.md).
+
+### Trustworthy native-family coverage
+
+Generic complementary ternary angles split the eleven A bracelets into
+[five parameterized native families](research/lemmas/two-hexagon-ternary-five-native-family-ledger.md)
+under simultaneous colour relabelling. All actual side metrics, reflections,
+original partial contacts and omission are included where stated.
+
+| Native A representative | Current status / mechanism | Residual scope |
+| --- | --- | --- |
+|012012|[Reviewed VALID allmetrics](research/lemmas/terra-ternary-opposite-a-all-metric-escape.md):64 AAA cycles force centrality; absentAAA the B-ring colour contradiction removes mixed fields|Equal-angle/120 loci remain; six soleABB lines removed by reviewed potential|
+|001122|[Reviewed VALID allmetrics](research/lemmas/terra-001122-all-metric-periodic-escape.md):203 partitions/360 rings; surviving outerAAB forces globalBcoset; six-state native actions and metriclift giveperiod|Same sixABB lines transfer; equal-angle/120 loci remain|
+|001221 orbit (three bracelets)|[Reviewed VALID allmetrics](research/lemmas/terra-001221-all-metric-periodic-escape.md):missing endpointpairs forceBsameword;768 connectedAA equalitygraphs forceAequilateral/H1 omission|Native-independent ABB transfer applies; singular120/equal-angle cases remain|
+|001212 orbit (three bracelets)|[Reviewed VALID allmetrics](research/lemmas/terra-001212-all-metric-periodic-escape.md):23 functional fibres; remaining AAA geometry forces equal A angles|Equal-angle/120 loci remain|
+|010212 orbit (three bracelets)|[Reviewed VALID allmetrics](research/lemmas/terra-010212-all-metric-periodic-escape.md):all outer-completable fibres have H1/H2 omission escape|Equal-angle/120 loci remain|
+
+[Single-cross-palette fresh review](research/reviews/two-hexagon-single-cross-palette-fresh-hostile-review.md)
+is VALID; its earlier root audit remains separate. Its fixture-angle closure
+scope was narrowed and an independent all-generic-angle proof added. It is
+superseded for coverage by the broader012012 theorem, not repeatedly re-audited.
+
+The requested012012 equality refinement covers all52 partitions:34 formally
+allowAAA but closure leaves only L=P=Q,M=V and its all-equal merge; all other32
+exact AAA strata are geometrically empty. The18 noAAA strata are covered
+wheneveractualpolygons exist. The five minimal patterns are P=L,Q=L,V=M,
+(M=P,Q=V),(M=Q,P=V); furthercoarsenings were explicitly checked.
+[Certificate](research/certificates/terra-ternary-aaa-equalities.json).
+
+### Reusable transfers and exact counterexamples
+
+- [Reviewed singleABB resonance removal](research/lemmas/two-hexagon-opposite-a-resonance-removal.md):56 triples give12 resonance lines; six have one extraABB star. Zero-tile cornerpotential makesextra stars O(R); a zero-core limit transfers native coverage. Type-constant potentials preservingall5corestars cannot removeextra stars onthe other6lines. No complete-angle-grid/jointmetric implication.
+- [Reviewed ETE zero-star lemma](research/lemmas/nonnegative-corner-potential-zero-star-limit.md). The unrestricted additive zero-SCORE extension and its separate extraction have [fresh independent VALID review](research/reviews/terra-unrestricted-corner-potential-review.md). Coalescing stars preserve scores, not contactcombinatorics/trivalence.
+- [Reviewed001122 AAA counterexample](research/counterexamples/terra-generic-aaa-does-not-force-monohedral.md) refutes AAA=>monohedral outside012012. Its exact fixedmetricpair family is [closed by periodic omission](research/lemmas/terra-001122-fixed-fixture-periodic-escape.md), now superseded for coverage by general001122.
+- [Reviewed rational-unit actualA001122/B001221 geometry and48-ring obstruction](research/counterexamples/two-hexagon-closed-generic-pair-native-seam-gate.md): bothpolygonsareclosed/convex/nonmonohedral but pairisUNTILEABLE. Eachring has onea/c andoneb/c mismatch. This falsifies central-only Bclosure extrapolation, while illustrating actualpolygons≠plane tilability. Ten reciprocalresultants include6zeros; no further root search needed after nativecoverage. High-degree originalslice was interrupted for arithmeticcost; low-degree slice completed6roots exactly.
+
+### Construction track: coverage, blockers, reopening conditions
+
+- [Deformed source dual pentagon](research/lemmas/penrose-dual-single-fusion-deformation-gate.md), tau=1/100: exactconvex/nonmonohedral local polygon, reviewedVALID. Centered predecessor hasType1periodic escape. Localpatch≠infinite two-shape covering.
+- [Reviewed14-angle inventory](research/reviews/penrose-dual-fusion-angle-palette-fresh-hostile-review.md):35 fully surrounded sourcepoints/26anglevalues/six signatures/1296unions excludes totalnativecorners≤13 forfixedpoint-preservingdegree3/4 compiler. Matching deletions can fuse chains, notjustpairs. Boundaryerrors and retained-point hypotheses repaired and reviewed.
+- **Independently reviewed VALID:** [exteriorbudget837>720](research/lemmas/penrose-fixed-point-two-shape-exterior-budget-obstruction.md) strengthens that compiler exclusion to ANYtwo genuineconvexpolygons regardless sidecount. Same1296 unions,26 exactalgebraic integerdegree lowerbounds; repeatedcorners onlyconsume more4pi budget. The reviewed open-interval extension retains bound811>720; the wholeparameterfamily is NOT classified. Allowing straight degree2 collapses initially passes localbudget605, but sharededge arcconsistency forces11 classes with budget750>720, reviewed VALID in [the strengthened gate](research/lemmas/penrose-dual-straight-collapse-shared-edge-obstruction.md). Its open-interval bound739>720 is reviewed; degree0 deletion/newpoints/cuts remain outside.
+- [Reviewed anchored Ammann count/fixedcontent obstruction](research/lemmas/ammann-anchored-count-split-fixed-cluster-obstruction.md):H↔thin,P1↔P2↔thick exactbijections andsourcehierarchy givephi:phi:1. Singletonpent+onefixedcontentmacro impossible forANYpartner size. Anytwo fixedcontentclasses musteach haveequalP1/P2counts. A new [uniform-resection obstruction](research/lemmas/ammann-supported-pair-uniform-resection-obstruction.md), fresh independently reviewed VALID, forces EVERY dissection balanced and contentunique for ANY tileable two-macro pair at ANYG*. Variablecontent rescues and singletoncompilers close throughoutG*; cuts and balancedtwocluster geometry remainopen; no unproved fixedfrequencyassumption fromold Euler note used. [Basic repairedfusion theorem review](research/reviews/convex-cluster-fusion-basic-fresh-rereview.md)VALID; its ancillary statements retainseparate gates.
+
+The [freshly reviewed synthesis](research/lemmas/two-hexagon-complementary-ternary-distinct-all-native-escape.md) covers all121 native pairs, arbitrary actual metrics, and six soleABB resonance lines; equal-angle/120 loci remain. A fully reified angular exclusion passed [fresh hostile review](research/reviews/two-hexagon-ternary-angular-filter-fresh-hostile-review.md),8100 native arrangements,12 CP controls,24 resonance/grid controls and6 API boundaries. The [one global query](research/searches/two-hexagon-ternary-filtered-global-query.md), SAME radius3/grid5394/60second cap, returned UNKNOWN. No witness/invariant/globalcoverage follows; no cap increase. Reopen global CP only with concrete new pruning/domain decomposition.
+
+**Fresh independently reviewed VALID balanced-macro invariant:** no180 native-angle relation atG* forbids flat boundary vertices and T-junctions in a convex whole-source support. Balanced content(h,k,k) then makes its genuine side count even, [reviewed proof](research/lemmas/terra-ammann-balanced-convex-macro-parity.md). This excludes pentagon macros at ALL cluster sizes; no minimal-cluster enumeration was needed. Combined convex whole-source construction would reduce to (6,6), so a distinct pentagon route must change cuts/sourcepoints/sourcegenericity.
+
+**Changed multiplicity track:** B has five r corners and one s corner on the
+specified ABB line. Its degree-two saturated-chain extraction has independent
+VALID review. The original [A012012 row lift](research/lemmas/terra-five-one-opposite-a-row-periodic-lift.md)
+and palette exclusions are now part of the complete eleven-word coverage below; their
+old assignment of eight further words is superseded.
+
+**Changed cut construction:** an exact H-midpoint chord yields two genuine convex pentagons, both outside15 monohedral families, but retained-source-boundary covering fails. The [fresh reviewed area-module theorem](research/lemmas/ammann-source-by-source-two-area-module-obstruction.md) excludes EVERY source-by-source two-target compiler at rank3 sources; at J0 primitive area kernel(-71,120,-80) forces EACH H targetcount divisible40, excluding ALL H chordcuts and all<40-piece cuts, independent of endpoint tuning. No40/80-piece enumeration is justified. Cross-boundary reassembly, other module-compatible parameters and changed sources remain outside; a concrete geometry proposal is required before reopening.
+
+### Complete B5+1 native-family coverage
+
+**All eleven native A words now have independently reviewed all-metric
+coverage.** The [whole-family synthesis](research/lemmas/five-one-complete-native-all-metric-periodic-escape.md)
+has a [fresh independent VALID review](research/reviews/five-one-complete-native-all-metric-synthesis-review.md). The [full strict-convex angle-line review](research/reviews/five-one-full-strict-convex-angle-line-extension-review.md)
+extends the first nine mechanisms to 108 < x < 126, x != 120; the two new
+used/unused seam proofs apply directly on that full interval. The parameters are
+A angles x, y = 720 - 5x, z = 4x - 360 (twice each), and B angles
+r = 360 - 2x (five times), s = 10x - 1080 (once).
+For each actual strictly convex metric, tileability implies a periodic escape
+in the unrestricted problem, including reflections, partial contacts and
+omission. The original tiling need not itself be periodic or trivalent.
+
+| Native A words | Reviewed coverage mechanism |
+| --- | --- |
+| 001221, 011022 | [Endpoint-palette exclusions](research/lemmas/terra-five-one-b-saturated-chain-reduction.md) |
+| 002112, 012012, 012102 | [Three-word all-metric interface escape](research/lemmas/five-one-three-native-word-all-metric-interface-escape.md) |
+| 001212, 011202 | [001212 boundary resource exclusion](research/lemmas/terra-five-one-001212-universal-boundary-exclusion.md), [011202 boundary resource exclusion](research/lemmas/terra-five-one-011202-universal-boundary-exclusion.md) |
+| 010212, 012021 | [010212 empty interface](research/lemmas/five-one-010212-all-metric-interface-escape.md), [012021 empty interface](research/lemmas/five-one-012021-all-metric-interface-escape.md) |
+| 001122, 010122 | Actual used-AA22 seam gives a monohedral escape; [unused-AA22 support gives a binary periodic lift](research/lemmas/five-one-all-mask-no-cross-periodic-escape.md) |
+
+**The formerly residual all-mask words 001122 and 010122 are closed.** The
+[001122 used-AA22 seam theorem](research/lemmas/terra-five-one-001122-full-cross-22-escape.md)
+has [independent VALID review](research/reviews/terra-five-one-001122-full-cross22-luna-hostile-review.md).
+An actually used whole AA seam involving native side 4 (22), whose endpoints
+are forced rainbow AAA stars in the extracted four-star field, gives a
+monohedral periodic escape by A. The exact finite check covers 96 necessary
+seam configurations and all 203 side partitions: 40 of 41 admissible
+coarsenings have an H2 escape; the remaining one has no positive closure.
+Length equality alone does not establish that such a seam is used.
+
+The [all-mask support theorem](research/lemmas/five-one-all-mask-no-cross-periodic-escape.md)
+now assumes absence of AA22 in the actual extracted tiling and permits every
+metric alias. The [fresh independent review](research/reviews/five-one-unused-aa22-support-fresh-hostile-review.md)
+validates its sparse limit, species recurrence, B-fibre collapse and geometric
+lift, together with the [001122 all-metric synthesis](research/lemmas/five-one-001122-all-metric-periodic-escape.md).
+For [010122](research/lemmas/terra-five-one-010122-full-cross-22-escape.md),
+all 96 used-seam cases and all 71 compatible side partitions force H1/H2;
+its [independent review](research/reviews/five-one-010122-cross22-fresh-hostile-review.md)
+is VALID. The used/unused alternatives exhaust one actual saturated field;
+length equality is never treated as evidence that a seam occurs.
+
+The whole-family review checks the complete fixed-colour eleven-word split,
+component scope and original quantifiers. This closes the stated B5+1 angle
+line at all actual metrics, not arbitrary hexagon pairs. Equal-angle x = 120,
+degenerate endpoints, other angle multiplicities and general pentagon pairs
+are outside this synthesis. There is no surviving aperiodic pair here.
+
+The older A002112 nonmonohedral AAA fixture, 42-partition closure ledger and
+positive local B/BB cells remain valid retained artifacts, but are superseded
+for coverage by the universal interface theorem. Do not resume A002112 AAA
+metric-cone enumeration, or the now-completed four middle-word assignments.
+The earlier five-of-eleven and nine-of-eleven frontiers are superseded by this table;
+its working provenance remains in the
+[historical log](research/searches/discovery-log-2026-10-13-working-history.md).
+
+**Changed cross-boundary construction:** knowninfinite H/D precursor(Hsingle,D=P1+P2cpartners) is nonconvex. [Freshreviewed local incidence obstruction](research/lemmas/ammann-hd-incidence-preserving-convexification-obstruction.md) excludes ANYincidence-preserving convexification: anHH r-seam farendpoint forcesoneHwithK-typeJ'andL-typeJ'', bothdegree2afterpairing, soonefinalclasshas≤4cornersandperiodicomissionescape. Initialclaim'allHJ''L'wasfalseandrepairedusingalternateJstar; nofrequency/primitivityassumptionneeded. Reopeningrequiresnewbranchingincidence/newthirdface/explicitfacecuts, notmorecapgeometry.
+
+Current justified actions are the [construction portfolio strategy](research/searches/construction-portfolio-strategy.md),
+which requires an exact infinite covering before extensive local shape search,
+and targeted structural work outside the completed B5+1 line. The strategy
+has an [independent review](research/reviews/construction-portfolio-strategy-independent-review.md)
+with its decoder and finite-scheme stopping clarifications integrated. It is
+a strategy, not execution of new construction searches. Pause the completed
+B5+1 family rather than automatically sweeping adjacent parameters.
+
+The unchanged bounded global query remains inactive after UNKNOWN; reopening
+it requires new pruning or a concrete domain decomposition. No automatic
+timeout or bound increase is justified. Other angle families and general
+pentagon pairs remain unresolved.
+
+### Current consolidation and verification checkpoint
+
+The [consolidation audit](research/reviews/frontier-consolidation-2026-10-13.md)
+records the corrected frontier, superseded assignments and nondestructive
+registry decisions. Fourteen checks were added: exact boundary/resource,
+used-AA22 and unused-support obligations, retained local controls, a four-face
+pentagon carrier and seven positive metric tori. All fourteen passed targeted
+registered replays. The registry now contains 43 producer/certificate pairs
+and 223 verifiers, 266 checks total. Producer outputs are directed to temporary
+storage or explicit read-only `--check` modes. Legacy fixed-path writers and
+non-failing diagnostic scripts remain excluded for the documented reasons.
+
+The complete disposable replay **PASSED all 266 checks** with assertions
+enabled and confirmed that original research files were unchanged. The
+[full replay output](research/reviews/frontier-full-replay-2026-10-13.txt) is retained.
+Locked environment verification also passed, including exact package builds
+and command provenance. The [root integration review](research/reviews/frontier-root-integration-review-2026-10-13.md)
+records the independent reviews, scope checks and documentation repair.
+
+This state is preserved in a local Git checkpoint containing the retained
+research artifacts, reviewed eleven-word closure, replay registry and
+construction strategy. No remote push is part of this preservation work.
+Older statements below that the full suite was not rerun and that no
+staging/commit occurred describe those earlier checkpoints. The full replay
+checks retained finite evidence; it does not prove the unrestricted objective.
+
+### Earlier preservation / literature / verification (historical)
+
+[Targeted primary refresh](research/literature/2026-10-13-opposite-angle-coverage-boundary.md)
+records Zhu–Wang–Yan,Healey andRao. Sparse-star removal is related toRao2017
+Lemma2/Proposition3; no novelty of that mechanism claimed. No priority claim.
+Exact certificates and no-author-import checkers are retained. The additional six collapse/capacity/row/area/angular controls passed nondestructively. [Targeted compiler literature refresh](research/literature/2026-10-13-uniform-resection-and-convex-compilers.md) records a convex eight-piece sigma-morphic forcing template, which permits periodic tilings; no two-shape construction or priority claim. New checks are
+registered inresearch/searches/verify.py and replayed nondestructively; all six new native-family/exterior-budget checks passed nondestructively. Thefull registered suite hasNOTbeen rerun. Sourceparse,
+JSON/currentlink andgitdiff checks passed at priorcheckpoint; repeatafternew
+proofintegration. No staging, commit orpush. Intermittent subagentservice capacity failures didnot stoproottools or mathematical work. Mise auto-install later failed for unrelatedPuppeteer provenance; retained MISE_AUTO_INSTALL=0 skips unrelated installation withoutalteringtrustpolicy orresearchenv, and workcontinued.
 
 Follow [main_prompt.md](main_prompt.md) and [research-protocol.md](research-protocol.md).
 Run shell tools through Conda `arisearch`. Rotations, reflections, partial

@@ -1,0 +1,38 @@
+{
+  "domain": "one exactH6 midpoint chord; targetP/Q areas inQ(phi); sourceP1/P2 arbitrary finite nonnegativeinteger target dissections within retainedsourceboundaries",
+  "target_area_basis_1_phi": [
+    [
+      "559/800",
+      "-9/80"
+    ],
+    [
+      "241/800",
+      "9/80"
+    ]
+  ],
+  "source_area_basis_1_phi": [
+    [
+      "71/200",
+      "2/5"
+    ],
+    [
+      "-71/200",
+      "3/5"
+    ]
+  ],
+  "coefficient_matrix_determinant": "9/80",
+  "unique_rational_P_Q_counts": [
+    [
+      "-1289/1800",
+      "5111/1800"
+    ],
+    [
+      "-1177/600",
+      "2023/600"
+    ]
+  ],
+  "nonnegative_integer_area_feasible": false,
+  "two_genuine_convex_pentagons": true,
+  "cut_endpoint_ray_degree": 3,
+  "scope": "excludes retainedsourceboundary source-by-source compiler, notcrossboundary reassembly or arbitraryplane tilings ofP/Q"
+}

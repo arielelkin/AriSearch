@@ -1,7 +1,8 @@
 # Convex-cluster fusion lemma
 
-**Status:** Conditional lemma proved internally; repaired after hostile
-review; independent re-review of the repaired version is pending. The
+**Status:** The opening conditional fusion theorem has a
+[fresh independent VALID rereview](../reviews/convex-cluster-fusion-basic-fresh-rereview.md).
+Ancillary trivalent/cluster statements retain their separate review gates. The
 exact-patch, unrestricted-isometry, tile-level-partition, and distinct-class
 hypotheses required by that review are now stated here. See [research/reviews/convex-cluster-fusion-review.md](../reviews/convex-cluster-fusion-review.md).
 

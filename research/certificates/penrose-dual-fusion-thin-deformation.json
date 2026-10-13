@@ -1,0 +1,2220 @@
+{
+  "family": "thin p=center+t*w^marked_frame; thick p=center",
+  "sample_t": "1/100",
+  "source_edge_deleted": [
+    9,
+    10
+  ],
+  "fused_rhomb_ids": [
+    3,
+    5,
+    58,
+    6,
+    7
+  ],
+  "polygon": [
+    [
+      "1",
+      "1/2",
+      "1",
+      "-1/2"
+    ],
+    [
+      "1",
+      "0",
+      "49/100",
+      "-1/2"
+    ],
+    [
+      "3/2",
+      "-1/2",
+      "1",
+      "-3/2"
+    ],
+    [
+      "3/2",
+      "0",
+      "3/2",
+      "-3/2"
+    ],
+    [
+      "3/2",
+      "1/2",
+      "3/2",
+      "-101/100"
+    ]
+  ],
+  "all_source_points_strictly_inside": true,
+  "all_internal_center_lines_cross_source_edges_strictly": true,
+  "triangle_and_quadrilateral_module_strictly_convex": true,
+  "strict_convexity": true,
+  "original_type1_angle_equation_broken": true,
+  "untouched_quad_source_vertex": 21,
+  "untouched_quad_rhombs": [
+    10,
+    12,
+    17,
+    11
+  ],
+  "untouched_quad_coordinates": [
+    [
+      "1/2",
+      "1",
+      "1/2",
+      "1/2"
+    ],
+    [
+      "0",
+      "3/2",
+      "0",
+      "3/2"
+    ],
+    [
+      "-1/2",
+      "1",
+      "0",
+      "3/2"
+    ],
+    [
+      "1/100",
+      "49/100",
+      "51/100",
+      "49/100"
+    ]
+  ],
+  "monohedral_classification_dependency": "Rao arXiv1708.00274v1 Table2 types1..15; necessary list external",
+  "finite_domain": "15 types x 10 dihedral relabelings = 150 exact algebraic tests",
+  "family_tests": [
+    {
+      "type": 1,
+      "epsilon": 1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "epsilon": 1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "epsilon": 1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "epsilon": 1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "epsilon": 1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "epsilon": -1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "epsilon": -1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "epsilon": -1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "epsilon": -1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "epsilon": -1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "epsilon": 1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "epsilon": 1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "epsilon": 1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "epsilon": 1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "epsilon": 1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "epsilon": -1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "epsilon": -1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "epsilon": -1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "epsilon": -1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "epsilon": -1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "epsilon": 1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "epsilon": 1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "epsilon": 1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "epsilon": 1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "epsilon": 1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "epsilon": -1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "epsilon": -1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "epsilon": -1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "epsilon": -1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 3,
+      "epsilon": -1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "epsilon": 1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "epsilon": 1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "epsilon": 1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "epsilon": 1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "epsilon": 1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "epsilon": -1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "epsilon": -1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "epsilon": -1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "epsilon": -1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 4,
+      "epsilon": -1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 5,
+      "epsilon": 1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 5,
+      "epsilon": 1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 5,
+      "epsilon": 1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 5,
+      "epsilon": 1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 5,
+      "epsilon": 1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 5,
+      "epsilon": -1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 5,
+      "epsilon": -1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 5,
+      "epsilon": -1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 5,
+      "epsilon": -1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 5,
+      "epsilon": -1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 6,
+      "epsilon": 1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 6,
+      "epsilon": 1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 6,
+      "epsilon": 1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 6,
+      "epsilon": 1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 6,
+      "epsilon": 1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 6,
+      "epsilon": -1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 6,
+      "epsilon": -1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 6,
+      "epsilon": -1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 6,
+      "epsilon": -1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 6,
+      "epsilon": -1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 7,
+      "epsilon": 1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 7,
+      "epsilon": 1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 7,
+      "epsilon": 1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 7,
+      "epsilon": 1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 7,
+      "epsilon": 1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 7,
+      "epsilon": -1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 7,
+      "epsilon": -1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 7,
+      "epsilon": -1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 7,
+      "epsilon": -1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 7,
+      "epsilon": -1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 8,
+      "epsilon": 1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 8,
+      "epsilon": 1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 8,
+      "epsilon": 1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 8,
+      "epsilon": 1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 8,
+      "epsilon": 1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 8,
+      "epsilon": -1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 8,
+      "epsilon": -1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 8,
+      "epsilon": -1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 8,
+      "epsilon": -1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 8,
+      "epsilon": -1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 9,
+      "epsilon": 1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 9,
+      "epsilon": 1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 9,
+      "epsilon": 1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 9,
+      "epsilon": 1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 9,
+      "epsilon": 1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 9,
+      "epsilon": -1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 9,
+      "epsilon": -1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 9,
+      "epsilon": -1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 9,
+      "epsilon": -1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 9,
+      "epsilon": -1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        }
+      ]
+    },
+    {
+      "type": 10,
+      "epsilon": 1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 10,
+      "epsilon": 1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 10,
+      "epsilon": 1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 10,
+      "epsilon": 1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 10,
+      "epsilon": 1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 10,
+      "epsilon": -1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 10,
+      "epsilon": -1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 10,
+      "epsilon": -1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 10,
+      "epsilon": -1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 10,
+      "epsilon": -1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 11,
+      "epsilon": 1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 11,
+      "epsilon": 1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 11,
+      "epsilon": 1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 11,
+      "epsilon": 1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 11,
+      "epsilon": 1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 11,
+      "epsilon": -1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 11,
+      "epsilon": -1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 11,
+      "epsilon": -1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 11,
+      "epsilon": -1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 11,
+      "epsilon": -1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 12,
+      "epsilon": 1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 12,
+      "epsilon": 1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 12,
+      "epsilon": 1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 12,
+      "epsilon": 1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 12,
+      "epsilon": 1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 12,
+      "epsilon": -1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 12,
+      "epsilon": -1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 12,
+      "epsilon": -1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 12,
+      "epsilon": -1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 12,
+      "epsilon": -1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 13,
+      "epsilon": 1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 13,
+      "epsilon": 1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 13,
+      "epsilon": 1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 13,
+      "epsilon": 1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 13,
+      "epsilon": 1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 13,
+      "epsilon": -1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 13,
+      "epsilon": -1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 13,
+      "epsilon": -1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 13,
+      "epsilon": -1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 13,
+      "epsilon": -1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 14,
+      "epsilon": 1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 14,
+      "epsilon": 1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 14,
+      "epsilon": 1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 14,
+      "epsilon": 1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 14,
+      "epsilon": 1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 14,
+      "epsilon": -1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 14,
+      "epsilon": -1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 14,
+      "epsilon": -1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 14,
+      "epsilon": -1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 14,
+      "epsilon": -1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        }
+      ]
+    },
+    {
+      "type": 15,
+      "epsilon": 1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        },
+        {
+          "angle_equation": 3
+        }
+      ]
+    },
+    {
+      "type": 15,
+      "epsilon": 1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        },
+        {
+          "angle_equation": 3
+        }
+      ]
+    },
+    {
+      "type": 15,
+      "epsilon": 1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        },
+        {
+          "angle_equation": 3
+        }
+      ]
+    },
+    {
+      "type": 15,
+      "epsilon": 1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        },
+        {
+          "angle_equation": 3
+        }
+      ]
+    },
+    {
+      "type": 15,
+      "epsilon": 1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        },
+        {
+          "angle_equation": 3
+        }
+      ]
+    },
+    {
+      "type": 15,
+      "epsilon": -1,
+      "offset": 0,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        },
+        {
+          "angle_equation": 3
+        }
+      ]
+    },
+    {
+      "type": 15,
+      "epsilon": -1,
+      "offset": 1,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        },
+        {
+          "angle_equation": 3
+        }
+      ]
+    },
+    {
+      "type": 15,
+      "epsilon": -1,
+      "offset": 2,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        },
+        {
+          "angle_equation": 3
+        }
+      ]
+    },
+    {
+      "type": 15,
+      "epsilon": -1,
+      "offset": 3,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        },
+        {
+          "angle_equation": 3
+        }
+      ]
+    },
+    {
+      "type": 15,
+      "epsilon": -1,
+      "offset": 4,
+      "failures": [
+        {
+          "angle_equation": 0
+        },
+        {
+          "angle_equation": 1
+        },
+        {
+          "angle_equation": 2
+        },
+        {
+          "angle_equation": 3
+        }
+      ]
+    }
+  ],
+  "compatible_family_tests": []
+}

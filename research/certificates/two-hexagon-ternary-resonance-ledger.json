@@ -1,0 +1,507 @@
+{
+  "domain": "56 multisets of 3 among six angle types; 90<A_i<180; sum A_i=360",
+  "identities": [
+    [
+      0,
+      0,
+      3
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      1,
+      4
+    ],
+    [
+      2,
+      2,
+      5
+    ],
+    [
+      3,
+      4,
+      5
+    ]
+  ],
+  "lines": [
+    {
+      "line": [
+        0,
+        1
+      ],
+      "family": "angle120",
+      "indices": [
+        1
+      ],
+      "extra_triples": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          4,
+          4
+        ],
+        [
+          4,
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "line": [
+        1,
+        -4
+      ],
+      "family": "one_ABB",
+      "indices": [
+        0,
+        1
+      ],
+      "extra_triples": [
+        [
+          0,
+          4,
+          4
+        ]
+      ],
+      "potential": [
+        1,
+        -1,
+        0,
+        -2,
+        2,
+        0
+      ],
+      "extra_score": 5,
+      "parameter": "112.5 < A_j < 126; A_j != 120"
+    },
+    {
+      "line": [
+        1,
+        -1
+      ],
+      "family": "equal_angles",
+      "indices": [
+        0,
+        1
+      ],
+      "extra_triples": [
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          4
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          3,
+          3,
+          5
+        ],
+        [
+          4,
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "line": [
+        1,
+        0
+      ],
+      "family": "angle120",
+      "indices": [
+        0
+      ],
+      "extra_triples": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "line": [
+        1,
+        1
+      ],
+      "family": "angle120",
+      "indices": [
+        2
+      ],
+      "extra_triples": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          5,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ]
+      ]
+    },
+    {
+      "line": [
+        1,
+        2
+      ],
+      "family": "equal_angles",
+      "indices": [
+        1,
+        2
+      ],
+      "extra_triples": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          5
+        ],
+        [
+          1,
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          2,
+          2,
+          4
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          3,
+          5,
+          5
+        ]
+      ]
+    },
+    {
+      "line": [
+        1,
+        5
+      ],
+      "family": "one_ABB",
+      "indices": [
+        2,
+        1
+      ],
+      "extra_triples": [
+        [
+          2,
+          4,
+          4
+        ]
+      ],
+      "potential": [
+        0,
+        -1,
+        1,
+        0,
+        2,
+        -2
+      ],
+      "extra_score": 5,
+      "parameter": "112.5 < A_j < 126; A_j != 120"
+    },
+    {
+      "line": [
+        2,
+        1
+      ],
+      "family": "equal_angles",
+      "indices": [
+        0,
+        2
+      ],
+      "extra_triples": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          4
+        ],
+        [
+          4,
+          5,
+          5
+        ]
+      ]
+    },
+    {
+      "line": [
+        4,
+        -1
+      ],
+      "family": "one_ABB",
+      "indices": [
+        1,
+        0
+      ],
+      "extra_triples": [
+        [
+          1,
+          3,
+          3
+        ]
+      ],
+      "potential": [
+        -1,
+        1,
+        0,
+        2,
+        -2,
+        0
+      ],
+      "extra_score": 5,
+      "parameter": "112.5 < A_j < 126; A_j != 120"
+    },
+    {
+      "line": [
+        4,
+        5
+      ],
+      "family": "one_ABB",
+      "indices": [
+        1,
+        2
+      ],
+      "extra_triples": [
+        [
+          1,
+          5,
+          5
+        ]
+      ],
+      "potential": [
+        0,
+        1,
+        -1,
+        0,
+        -2,
+        2
+      ],
+      "extra_score": 5,
+      "parameter": "112.5 < A_j < 126; A_j != 120"
+    },
+    {
+      "line": [
+        5,
+        1
+      ],
+      "family": "one_ABB",
+      "indices": [
+        2,
+        0
+      ],
+      "extra_triples": [
+        [
+          2,
+          3,
+          3
+        ]
+      ],
+      "potential": [
+        -1,
+        0,
+        1,
+        2,
+        0,
+        -2
+      ],
+      "extra_score": 5,
+      "parameter": "112.5 < A_j < 126; A_j != 120"
+    },
+    {
+      "line": [
+        5,
+        4
+      ],
+      "family": "one_ABB",
+      "indices": [
+        0,
+        2
+      ],
+      "extra_triples": [
+        [
+          0,
+          5,
+          5
+        ]
+      ],
+      "potential": [
+        1,
+        0,
+        -1,
+        -2,
+        0,
+        2
+      ],
+      "extra_score": 5,
+      "parameter": "112.5 < A_j < 126; A_j != 120"
+    }
+  ],
+  "counts": {
+    "triples": 56,
+    "identity_triples": 5,
+    "lines": 12,
+    "ABB_only_lines": 6
+  },
+  "scope": "Exact angle/contact-balance classification only; no polygon realizability inferred"
+}

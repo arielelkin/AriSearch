@@ -1,0 +1,3553 @@
+{
+  "scope": "Finite42 actual AAA partitions times64 native stars; exact equality gate.\nQuestion: can every native A corner be AAA, or can any consecutive three be?\nNo3-run would rule out two adjacentA rows in parallelB-row geometry;\notherwise retain bounded-strip obligation, without spatial/SFT inference.\n",
+  "rows": [
+    {
+      "partition": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "k": 2,
+      "AAA_allowed_native_corners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "consecutive3_starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            1,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            1,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            1,
+            2,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            1,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "k": 2,
+      "AAA_allowed_native_corners": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "consecutive3_starts": [
+        5
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            3
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            1
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "k": 2,
+      "AAA_allowed_native_corners": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            3
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        3,
+        5
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            3
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        2,
+        3
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "k": 2,
+      "AAA_allowed_native_corners": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "consecutive3_starts": [
+        0
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            1
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            3
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "k": 2,
+      "AAA_allowed_native_corners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "consecutive3_starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            1
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            3
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        1,
+        2,
+        4
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            3
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "k": 2,
+      "AAA_allowed_native_corners": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "consecutive3_starts": [
+        2
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            1
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            1,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        1
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        2,
+        3
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            1
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        2,
+        4
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            1,
+            2,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "consecutive3_starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        2
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "consecutive3_starts": [
+        2
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            1,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        2
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        2,
+        3
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        2
+      ],
+      "k": 4,
+      "AAA_allowed_native_corners": [
+        0,
+        2,
+        3
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            0,
+            1,
+            2,
+            3,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "k": 2,
+      "AAA_allowed_native_corners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "consecutive3_starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            1,
+            2,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            1,
+            2,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            1,
+            2,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            2,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            3,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            0
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "k": 2,
+      "AAA_allowed_native_corners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "consecutive3_starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            1,
+            2,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            1,
+            2,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            3
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            3,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            0
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "k": 2,
+      "AAA_allowed_native_corners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "consecutive3_starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            3
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            1,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            1,
+            2,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            1
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            1,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        2
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "consecutive3_starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            3
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        0
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "consecutive3_starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            1,
+            2,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            1,
+            2,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            3,
+            0
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        2
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        2,
+        4
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            1,
+            2,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        2
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "consecutive3_starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            1,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            1,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        0,
+        2,
+        2,
+        0
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        3,
+        5
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            3
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            0
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        0,
+        2,
+        2,
+        1
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "consecutive3_starts": [
+        5
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            3
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            1
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        0,
+        2,
+        2,
+        2
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        3,
+        5
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            3
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        0,
+        2,
+        2,
+        3
+      ],
+      "k": 4,
+      "AAA_allowed_native_corners": [
+        0,
+        3,
+        5
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            0,
+            2,
+            2,
+            3
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "k": 2,
+      "AAA_allowed_native_corners": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            3
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            3,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            0
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "k": 2,
+      "AAA_allowed_native_corners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "consecutive3_starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            1
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            1,
+            2,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            3
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        2
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        1,
+        2,
+        4
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            3
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "k": 2,
+      "AAA_allowed_native_corners": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "consecutive3_starts": [
+        3
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            2,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            3,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            0
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        1,
+        1,
+        2,
+        0
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        1,
+        4,
+        5
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            3,
+            0
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        2
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        1,
+        3,
+        5
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            1,
+            2,
+            0,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        1,
+        2,
+        2,
+        0
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        1,
+        3,
+        5
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            1,
+            2,
+            2,
+            0
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        0
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        1,
+        4,
+        5
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            3,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            0
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        2
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "consecutive3_starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            0,
+            2
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        2,
+        1,
+        1,
+        0
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        1,
+        4,
+        5
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            3,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            0
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        0
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "consecutive3_starts": [
+        3
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            1,
+            3,
+            5
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            2,
+            0
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            3,
+            0
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        2,
+        1,
+        3,
+        0
+      ],
+      "k": 4,
+      "AAA_allowed_native_corners": [
+        1,
+        4,
+        5
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            1,
+            4,
+            5
+          ],
+          "arm_signs": [
+            1,
+            1,
+            1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            1,
+            3,
+            0
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        0
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        1,
+        2,
+        4
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            3
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        1
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "consecutive3_starts": [
+        0
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            4,
+            2
+          ],
+          "arm_signs": [
+            1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            1
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            3
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        2
+      ],
+      "k": 3,
+      "AAA_allowed_native_corners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "consecutive3_starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "legal_native_stars": [
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            0,
+            3,
+            5
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            2
+          ],
+          "forces_H1": false
+        },
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            3
+          ],
+          "forces_H1": false
+        }
+      ]
+    },
+    {
+      "partition": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        3
+      ],
+      "k": 4,
+      "AAA_allowed_native_corners": [
+        1,
+        2,
+        4
+      ],
+      "consecutive3_starts": [],
+      "legal_native_stars": [
+        {
+          "corners": [
+            1,
+            4,
+            2
+          ],
+          "arm_signs": [
+            -1,
+            -1,
+            -1
+          ],
+          "required_side_partition": [
+            0,
+            1,
+            2,
+            2,
+            0,
+            3
+          ],
+          "forces_H1": false
+        }
+      ]
+    }
+  ]
+}

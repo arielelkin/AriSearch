@@ -1,0 +1,19 @@
+# Fresh hostile review: A010212 and A012021 all-metric interfaces
+
+Date: 2026-10-13. Reviewer: terra. Verdict: **VALID** for both Sol lemmas at the stated B5+1 angle family and arbitrary actual metrics. The original problem remains unresolved.
+
+Reviewed artifacts: `research/lemmas/five-one-010212-all-metric-interface-escape.md` and `research/lemmas/five-one-012021-all-metric-interface-escape.md`, their producers and retained certificates. Already reviewed capacity extraction, middle-mask palette, actual honeycomb development and monohedral classification were used as settled dependencies, not re-audited without cause.
+
+The new native boundary calculations are correct. In the row convention used by Sol, horizontal AA seam is left global side5/right side2, with upper-boundary outward vertex(left0,right2) and inward vertex(left5,right3). With B below these pairs swap. Placing native z at the appropriate global corner1 or4 gives four of twelve direct/reflected A poses. For010212 the two complete corner profiles X=(0,2,1,2,0,1),Y=(1,2,0,1,0,2) obey identical outer-to-inner map0→1,1→2 on both incident seam sides. For012021 profiles X=(1,2,0,2,1,0),Y=(0,2,1,0,1,2) obey0→2,1→0. Consequently equal outward AAB colours always give equal inward AAA colours. No complete rainbow AAA star can then occur. The exact opposite-face placements likewise obey these maps; this is not an appeal to a polygon's intrinsic reflection symmetry.
+
+I independently reconstructed native corner/edge indices, scanned all12*12 pose pairs for each of both faces and both words, then compared every eligible certificate record. Domain per word288 direct comparisons,32 eligible boundarypairs,16 outer-AAB pairs, zero joint outer-AAB/inner-AAA pairs. All twelve width-one placements were separately checked. Replay:
+
+    MISE_AUTO_INSTALL=0 mise exec -- conda run --no-capture-output -n arisearch python research/reviews/verify_terra_five_one_empty_boundaries.py
+
+PASS for both words. The independent checker imports no producer code and derives each native edge from its two adjacent native vertices. Thus the shared seam's metric native indices, though unnecessary to an angle-only exclusion, are independently checked too.
+
+The global implication is sound under the reviewed middle-mask row lemma. A strip of at least two A rows, an arbitrarily wide gap, or an infinite A half-plane supplies an invalid boundary row on either face of a B row. Thus every B row forces a B row exactly two rows away in both directions, giving alternating A/B rows and no AAA anywhere. But010212 has adjacent privateAA sides0,1 at native corner1, and012021 has adjacent privateAA sides5,0 at native corner0. Their endpoint palettes avoid z, whereas middle-mask AB palette is02/12. Both adjacent sides must be AA, forcing AAA at their common corner; equivalently a width-one row's two opposite AA positions cannot contain both adjacent native sides. This contradiction kills every mixed saturated field uniformly over actual length aliases.
+
+Pure B is unavailable in the reviewed four-star language. Every original tileable pair therefore has a pure-A extracted field, which develops using the same actual A, and the settled unrestricted monohedral hexagon theorem supplies a periodic A-only tiling admitted by the original pair. This proves periodic escape, not that every original pair tiling is periodic. It covers reflections and original partial contacts through the imported actual reduction.
+
+No equality partition, positive closure sample, extension conjecture or bounded torus inference enters the new proof. All metric coarsenings remain covered because matching lengths can only remove pairs from an already empty angle-compatible graph. The conclusions are limited to these native words on this changed-multiplicity line; no global hexagon or original acceptance claim follows.

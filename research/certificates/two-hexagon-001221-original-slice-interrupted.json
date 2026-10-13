@@ -1,0 +1,8 @@
+{
+  "domain": "U=zeta360^67; B001221 full closure polynomial in V",
+  "status": "INTERRUPTED",
+  "reported_root_count": 6,
+  "geometric_filter_completed": false,
+  "reason": "High cyclotomic-degree expression arithmetic; switched to rational-unit slice to reduce exact arithmetic cost",
+  "scope": "No positive or negative geometric conclusion"
+}

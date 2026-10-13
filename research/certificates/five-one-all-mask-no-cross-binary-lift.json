@@ -1,0 +1,1816 @@
+{
+  "domain": "2Awords*2speciesbases*8cells;12indexedposes each;allgeometryconditionalactualfield",
+  "records": [
+    {
+      "A_word": "001122",
+      "initial_row_phase": 0,
+      "row_phases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "cells": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "species": "A",
+          "stars": [
+            "AAB",
+            "AAB",
+            "ABB",
+            "ABB",
+            "AAB",
+            "AAB"
+          ],
+          "AA_native": [
+            0,
+            2
+          ],
+          "AB22_global": 2,
+          "AB01_global": 5,
+          "allowed_poses": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "species": "B",
+          "stars": [
+            "ABB",
+            "ABB",
+            "AAB",
+            "AAB",
+            "ABB",
+            "ABB"
+          ],
+          "AB22_global": 5,
+          "AB01_global": 2,
+          "allowed_poses": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "metric_branches": {
+            "(2, 5)": [
+              [
+                2,
+                -1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "(3, 0)": [
+              [
+                3,
+                -1
+              ],
+              [
+                4,
+                1
+              ]
+            ]
+          },
+          "symmetric_combined_profiles": {
+            "((4, 4, 3, 4, 4, 4), (1, 0, 0, 1, 2, 2))": [
+              [
+                2,
+                -1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "((4, 4, 4, 3, 4, 4), (2, 1, 0, 0, 1, 2))": [
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "species": "A",
+          "stars": [
+            "ABB",
+            "AAB",
+            "AAB",
+            "AAB",
+            "AAB",
+            "ABB"
+          ],
+          "AA_native": [
+            0,
+            2
+          ],
+          "AB22_global": 5,
+          "AB01_global": 2,
+          "allowed_poses": [
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              1
+            ]
+          ]
+        },
+        {
+          "cell": [
+            1,
+            1
+          ],
+          "species": "B",
+          "stars": [
+            "AAB",
+            "ABB",
+            "ABB",
+            "ABB",
+            "ABB",
+            "AAB"
+          ],
+          "AB22_global": 2,
+          "AB01_global": 5,
+          "allowed_poses": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              5,
+              -1
+            ]
+          ],
+          "metric_branches": {
+            "(2, 5)": [
+              [
+                0,
+                1
+              ],
+              [
+                5,
+                -1
+              ]
+            ],
+            "(3, 0)": [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          "symmetric_combined_profiles": {
+            "((3, 4, 4, 4, 4, 4), (0, 1, 2, 2, 1, 0))": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            "((4, 4, 4, 4, 4, 3), (1, 2, 2, 1, 0, 0))": [
+              [
+                1,
+                1
+              ],
+              [
+                5,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "species": "B",
+          "stars": [
+            "ABB",
+            "ABB",
+            "AAB",
+            "AAB",
+            "ABB",
+            "ABB"
+          ],
+          "AB22_global": 5,
+          "AB01_global": 2,
+          "allowed_poses": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "metric_branches": {
+            "(2, 5)": [
+              [
+                2,
+                -1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "(3, 0)": [
+              [
+                3,
+                -1
+              ],
+              [
+                4,
+                1
+              ]
+            ]
+          },
+          "symmetric_combined_profiles": {
+            "((4, 4, 3, 4, 4, 4), (1, 0, 0, 1, 2, 2))": [
+              [
+                2,
+                -1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "((4, 4, 4, 3, 4, 4), (2, 1, 0, 0, 1, 2))": [
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "cell": [
+            1,
+            2
+          ],
+          "species": "A",
+          "stars": [
+            "AAB",
+            "AAB",
+            "ABB",
+            "ABB",
+            "AAB",
+            "AAB"
+          ],
+          "AA_native": [
+            0,
+            2
+          ],
+          "AB22_global": 2,
+          "AB01_global": 5,
+          "allowed_poses": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "cell": [
+            0,
+            3
+          ],
+          "species": "B",
+          "stars": [
+            "AAB",
+            "ABB",
+            "ABB",
+            "ABB",
+            "ABB",
+            "AAB"
+          ],
+          "AB22_global": 2,
+          "AB01_global": 5,
+          "allowed_poses": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              5,
+              -1
+            ]
+          ],
+          "metric_branches": {
+            "(2, 5)": [
+              [
+                0,
+                1
+              ],
+              [
+                5,
+                -1
+              ]
+            ],
+            "(3, 0)": [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          "symmetric_combined_profiles": {
+            "((3, 4, 4, 4, 4, 4), (0, 1, 2, 2, 1, 0))": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            "((4, 4, 4, 4, 4, 3), (1, 2, 2, 1, 0, 0))": [
+              [
+                1,
+                1
+              ],
+              [
+                5,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "cell": [
+            1,
+            3
+          ],
+          "species": "A",
+          "stars": [
+            "ABB",
+            "AAB",
+            "AAB",
+            "AAB",
+            "AAB",
+            "ABB"
+          ],
+          "AA_native": [
+            0,
+            2
+          ],
+          "AB22_global": 5,
+          "AB01_global": 2,
+          "allowed_poses": [
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "A_word": "001122",
+      "initial_row_phase": 1,
+      "row_phases": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "cells": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "species": "A",
+          "stars": [
+            "ABB",
+            "AAB",
+            "AAB",
+            "AAB",
+            "AAB",
+            "ABB"
+          ],
+          "AA_native": [
+            0,
+            2
+          ],
+          "AB22_global": 5,
+          "AB01_global": 2,
+          "allowed_poses": [
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              1
+            ]
+          ]
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "species": "B",
+          "stars": [
+            "AAB",
+            "ABB",
+            "ABB",
+            "ABB",
+            "ABB",
+            "AAB"
+          ],
+          "AB22_global": 2,
+          "AB01_global": 5,
+          "allowed_poses": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              5,
+              -1
+            ]
+          ],
+          "metric_branches": {
+            "(2, 5)": [
+              [
+                0,
+                1
+              ],
+              [
+                5,
+                -1
+              ]
+            ],
+            "(3, 0)": [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          "symmetric_combined_profiles": {
+            "((3, 4, 4, 4, 4, 4), (0, 1, 2, 2, 1, 0))": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            "((4, 4, 4, 4, 4, 3), (1, 2, 2, 1, 0, 0))": [
+              [
+                1,
+                1
+              ],
+              [
+                5,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "species": "B",
+          "stars": [
+            "ABB",
+            "ABB",
+            "AAB",
+            "AAB",
+            "ABB",
+            "ABB"
+          ],
+          "AB22_global": 5,
+          "AB01_global": 2,
+          "allowed_poses": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "metric_branches": {
+            "(2, 5)": [
+              [
+                2,
+                -1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "(3, 0)": [
+              [
+                3,
+                -1
+              ],
+              [
+                4,
+                1
+              ]
+            ]
+          },
+          "symmetric_combined_profiles": {
+            "((4, 4, 3, 4, 4, 4), (1, 0, 0, 1, 2, 2))": [
+              [
+                2,
+                -1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "((4, 4, 4, 3, 4, 4), (2, 1, 0, 0, 1, 2))": [
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "cell": [
+            1,
+            1
+          ],
+          "species": "A",
+          "stars": [
+            "AAB",
+            "AAB",
+            "ABB",
+            "ABB",
+            "AAB",
+            "AAB"
+          ],
+          "AA_native": [
+            0,
+            2
+          ],
+          "AB22_global": 2,
+          "AB01_global": 5,
+          "allowed_poses": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "species": "B",
+          "stars": [
+            "AAB",
+            "ABB",
+            "ABB",
+            "ABB",
+            "ABB",
+            "AAB"
+          ],
+          "AB22_global": 2,
+          "AB01_global": 5,
+          "allowed_poses": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              5,
+              -1
+            ]
+          ],
+          "metric_branches": {
+            "(2, 5)": [
+              [
+                0,
+                1
+              ],
+              [
+                5,
+                -1
+              ]
+            ],
+            "(3, 0)": [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          "symmetric_combined_profiles": {
+            "((3, 4, 4, 4, 4, 4), (0, 1, 2, 2, 1, 0))": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            "((4, 4, 4, 4, 4, 3), (1, 2, 2, 1, 0, 0))": [
+              [
+                1,
+                1
+              ],
+              [
+                5,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "cell": [
+            1,
+            2
+          ],
+          "species": "A",
+          "stars": [
+            "ABB",
+            "AAB",
+            "AAB",
+            "AAB",
+            "AAB",
+            "ABB"
+          ],
+          "AA_native": [
+            0,
+            2
+          ],
+          "AB22_global": 5,
+          "AB01_global": 2,
+          "allowed_poses": [
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              1
+            ]
+          ]
+        },
+        {
+          "cell": [
+            0,
+            3
+          ],
+          "species": "A",
+          "stars": [
+            "AAB",
+            "AAB",
+            "ABB",
+            "ABB",
+            "AAB",
+            "AAB"
+          ],
+          "AA_native": [
+            0,
+            2
+          ],
+          "AB22_global": 2,
+          "AB01_global": 5,
+          "allowed_poses": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "cell": [
+            1,
+            3
+          ],
+          "species": "B",
+          "stars": [
+            "ABB",
+            "ABB",
+            "AAB",
+            "AAB",
+            "ABB",
+            "ABB"
+          ],
+          "AB22_global": 5,
+          "AB01_global": 2,
+          "allowed_poses": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "metric_branches": {
+            "(2, 5)": [
+              [
+                2,
+                -1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "(3, 0)": [
+              [
+                3,
+                -1
+              ],
+              [
+                4,
+                1
+              ]
+            ]
+          },
+          "symmetric_combined_profiles": {
+            "((4, 4, 3, 4, 4, 4), (1, 0, 0, 1, 2, 2))": [
+              [
+                2,
+                -1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "((4, 4, 4, 3, 4, 4), (2, 1, 0, 0, 1, 2))": [
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                -1
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "A_word": "010122",
+      "initial_row_phase": 0,
+      "row_phases": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "cells": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "species": "A",
+          "stars": [
+            "AAB",
+            "AAB",
+            "ABB",
+            "ABB",
+            "AAB",
+            "AAB"
+          ],
+          "AA_native": [
+            0,
+            2
+          ],
+          "AB22_global": 2,
+          "AB01_global": 5,
+          "allowed_poses": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "species": "B",
+          "stars": [
+            "ABB",
+            "ABB",
+            "AAB",
+            "AAB",
+            "ABB",
+            "ABB"
+          ],
+          "AB22_global": 5,
+          "AB01_global": 2,
+          "allowed_poses": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "metric_branches": {
+            "(2, 5)": [
+              [
+                2,
+                -1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "(3, 0)": [
+              [
+                3,
+                -1
+              ],
+              [
+                4,
+                1
+              ]
+            ]
+          },
+          "symmetric_combined_profiles": {
+            "((4, 4, 3, 4, 4, 4), (1, 0, 0, 1, 2, 2))": [
+              [
+                2,
+                -1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "((4, 4, 4, 3, 4, 4), (2, 1, 0, 0, 1, 2))": [
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "species": "A",
+          "stars": [
+            "ABB",
+            "AAB",
+            "AAB",
+            "AAB",
+            "AAB",
+            "ABB"
+          ],
+          "AA_native": [
+            0,
+            2
+          ],
+          "AB22_global": 5,
+          "AB01_global": 2,
+          "allowed_poses": [
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              1
+            ]
+          ]
+        },
+        {
+          "cell": [
+            1,
+            1
+          ],
+          "species": "B",
+          "stars": [
+            "AAB",
+            "ABB",
+            "ABB",
+            "ABB",
+            "ABB",
+            "AAB"
+          ],
+          "AB22_global": 2,
+          "AB01_global": 5,
+          "allowed_poses": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              5,
+              -1
+            ]
+          ],
+          "metric_branches": {
+            "(2, 5)": [
+              [
+                0,
+                1
+              ],
+              [
+                5,
+                -1
+              ]
+            ],
+            "(3, 0)": [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          "symmetric_combined_profiles": {
+            "((3, 4, 4, 4, 4, 4), (0, 1, 2, 2, 1, 0))": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            "((4, 4, 4, 4, 4, 3), (1, 2, 2, 1, 0, 0))": [
+              [
+                1,
+                1
+              ],
+              [
+                5,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "species": "B",
+          "stars": [
+            "ABB",
+            "ABB",
+            "AAB",
+            "AAB",
+            "ABB",
+            "ABB"
+          ],
+          "AB22_global": 5,
+          "AB01_global": 2,
+          "allowed_poses": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "metric_branches": {
+            "(2, 5)": [
+              [
+                2,
+                -1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "(3, 0)": [
+              [
+                3,
+                -1
+              ],
+              [
+                4,
+                1
+              ]
+            ]
+          },
+          "symmetric_combined_profiles": {
+            "((4, 4, 3, 4, 4, 4), (1, 0, 0, 1, 2, 2))": [
+              [
+                2,
+                -1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "((4, 4, 4, 3, 4, 4), (2, 1, 0, 0, 1, 2))": [
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "cell": [
+            1,
+            2
+          ],
+          "species": "A",
+          "stars": [
+            "AAB",
+            "AAB",
+            "ABB",
+            "ABB",
+            "AAB",
+            "AAB"
+          ],
+          "AA_native": [
+            0,
+            2
+          ],
+          "AB22_global": 2,
+          "AB01_global": 5,
+          "allowed_poses": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "cell": [
+            0,
+            3
+          ],
+          "species": "B",
+          "stars": [
+            "AAB",
+            "ABB",
+            "ABB",
+            "ABB",
+            "ABB",
+            "AAB"
+          ],
+          "AB22_global": 2,
+          "AB01_global": 5,
+          "allowed_poses": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              5,
+              -1
+            ]
+          ],
+          "metric_branches": {
+            "(2, 5)": [
+              [
+                0,
+                1
+              ],
+              [
+                5,
+                -1
+              ]
+            ],
+            "(3, 0)": [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          "symmetric_combined_profiles": {
+            "((3, 4, 4, 4, 4, 4), (0, 1, 2, 2, 1, 0))": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            "((4, 4, 4, 4, 4, 3), (1, 2, 2, 1, 0, 0))": [
+              [
+                1,
+                1
+              ],
+              [
+                5,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "cell": [
+            1,
+            3
+          ],
+          "species": "A",
+          "stars": [
+            "ABB",
+            "AAB",
+            "AAB",
+            "AAB",
+            "AAB",
+            "ABB"
+          ],
+          "AA_native": [
+            0,
+            2
+          ],
+          "AB22_global": 5,
+          "AB01_global": 2,
+          "allowed_poses": [
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "A_word": "010122",
+      "initial_row_phase": 1,
+      "row_phases": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "cells": [
+        {
+          "cell": [
+            0,
+            0
+          ],
+          "species": "A",
+          "stars": [
+            "ABB",
+            "AAB",
+            "AAB",
+            "AAB",
+            "AAB",
+            "ABB"
+          ],
+          "AA_native": [
+            0,
+            2
+          ],
+          "AB22_global": 5,
+          "AB01_global": 2,
+          "allowed_poses": [
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              1
+            ]
+          ]
+        },
+        {
+          "cell": [
+            1,
+            0
+          ],
+          "species": "B",
+          "stars": [
+            "AAB",
+            "ABB",
+            "ABB",
+            "ABB",
+            "ABB",
+            "AAB"
+          ],
+          "AB22_global": 2,
+          "AB01_global": 5,
+          "allowed_poses": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              5,
+              -1
+            ]
+          ],
+          "metric_branches": {
+            "(2, 5)": [
+              [
+                0,
+                1
+              ],
+              [
+                5,
+                -1
+              ]
+            ],
+            "(3, 0)": [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          "symmetric_combined_profiles": {
+            "((3, 4, 4, 4, 4, 4), (0, 1, 2, 2, 1, 0))": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            "((4, 4, 4, 4, 4, 3), (1, 2, 2, 1, 0, 0))": [
+              [
+                1,
+                1
+              ],
+              [
+                5,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "cell": [
+            0,
+            1
+          ],
+          "species": "B",
+          "stars": [
+            "ABB",
+            "ABB",
+            "AAB",
+            "AAB",
+            "ABB",
+            "ABB"
+          ],
+          "AB22_global": 5,
+          "AB01_global": 2,
+          "allowed_poses": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "metric_branches": {
+            "(2, 5)": [
+              [
+                2,
+                -1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "(3, 0)": [
+              [
+                3,
+                -1
+              ],
+              [
+                4,
+                1
+              ]
+            ]
+          },
+          "symmetric_combined_profiles": {
+            "((4, 4, 3, 4, 4, 4), (1, 0, 0, 1, 2, 2))": [
+              [
+                2,
+                -1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "((4, 4, 4, 3, 4, 4), (2, 1, 0, 0, 1, 2))": [
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "cell": [
+            1,
+            1
+          ],
+          "species": "A",
+          "stars": [
+            "AAB",
+            "AAB",
+            "ABB",
+            "ABB",
+            "AAB",
+            "AAB"
+          ],
+          "AA_native": [
+            0,
+            2
+          ],
+          "AB22_global": 2,
+          "AB01_global": 5,
+          "allowed_poses": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "cell": [
+            0,
+            2
+          ],
+          "species": "B",
+          "stars": [
+            "AAB",
+            "ABB",
+            "ABB",
+            "ABB",
+            "ABB",
+            "AAB"
+          ],
+          "AB22_global": 2,
+          "AB01_global": 5,
+          "allowed_poses": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              -1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              5,
+              -1
+            ]
+          ],
+          "metric_branches": {
+            "(2, 5)": [
+              [
+                0,
+                1
+              ],
+              [
+                5,
+                -1
+              ]
+            ],
+            "(3, 0)": [
+              [
+                0,
+                -1
+              ],
+              [
+                1,
+                1
+              ]
+            ]
+          },
+          "symmetric_combined_profiles": {
+            "((3, 4, 4, 4, 4, 4), (0, 1, 2, 2, 1, 0))": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                -1
+              ]
+            ],
+            "((4, 4, 4, 4, 4, 3), (1, 2, 2, 1, 0, 0))": [
+              [
+                1,
+                1
+              ],
+              [
+                5,
+                -1
+              ]
+            ]
+          }
+        },
+        {
+          "cell": [
+            1,
+            2
+          ],
+          "species": "A",
+          "stars": [
+            "ABB",
+            "AAB",
+            "AAB",
+            "AAB",
+            "AAB",
+            "ABB"
+          ],
+          "AA_native": [
+            0,
+            2
+          ],
+          "AB22_global": 5,
+          "AB01_global": 2,
+          "allowed_poses": [
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              1
+            ]
+          ]
+        },
+        {
+          "cell": [
+            0,
+            3
+          ],
+          "species": "A",
+          "stars": [
+            "AAB",
+            "AAB",
+            "ABB",
+            "ABB",
+            "AAB",
+            "AAB"
+          ],
+          "AA_native": [
+            0,
+            2
+          ],
+          "AB22_global": 2,
+          "AB01_global": 5,
+          "allowed_poses": [
+            [
+              1,
+              -1
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "cell": [
+            1,
+            3
+          ],
+          "species": "B",
+          "stars": [
+            "ABB",
+            "ABB",
+            "AAB",
+            "AAB",
+            "ABB",
+            "ABB"
+          ],
+          "AB22_global": 5,
+          "AB01_global": 2,
+          "allowed_poses": [
+            [
+              2,
+              -1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              -1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "metric_branches": {
+            "(2, 5)": [
+              [
+                2,
+                -1
+              ],
+              [
+                3,
+                1
+              ]
+            ],
+            "(3, 0)": [
+              [
+                3,
+                -1
+              ],
+              [
+                4,
+                1
+              ]
+            ]
+          },
+          "symmetric_combined_profiles": {
+            "((4, 4, 3, 4, 4, 4), (1, 0, 0, 1, 2, 2))": [
+              [
+                2,
+                -1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "((4, 4, 4, 3, 4, 4), (2, 1, 0, 0, 1, 2))": [
+              [
+                3,
+                1
+              ],
+              [
+                3,
+                -1
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "B_closure_reversal_identity": "f(E)-E^5 f(E^-1)=(p-q)(E-E^4)",
+  "angle_constraints": "everyAAB is equality of twoAcolourmaps and Bcorner map r->0,s->1;ABBautomatic",
+  "scope": "actualunusedAA22support;derivednoAAA/allcurvedlimit;allmetricaliasesallowed"
+}

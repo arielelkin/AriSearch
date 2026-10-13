@@ -1,0 +1,231 @@
+{
+  "finite_domain": "All irreducible numerator factors of ten nonzero B closure rows; exact reciprocal elimination in V",
+  "rows": [
+    {
+      "word": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      "factors": [
+        {
+          "factor": "V + 1",
+          "multiplicity": 1,
+          "positive_acute_turn_exclusion": true
+        },
+        {
+          "factor": "U + 1",
+          "multiplicity": 1,
+          "positive_acute_turn_exclusion": true
+        },
+        {
+          "factor": "U*V - 1",
+          "multiplicity": 1,
+          "positive_acute_turn_exclusion": true
+        },
+        {
+          "factor": "U**5*V**5 + U**4*V**5 + U**4*V**4 - U**4*V**2 - U**3*V**5 - U**3*V - U**2*V + U**2 + U*V**3 - V**3 - V**2 + V",
+          "multiplicity": 1,
+          "reciprocal_numerator": "U**5*V**4 - U**5*V**3 - U**5*V**2 + U**4*V**2 + U**3*V**5 - U**3*V**4 - U**2*V**4 - U**2 - U*V**3 + U*V + U + 1",
+          "resultant_V": "-U**6*(U - 1)**4*(U + 1)**14*(U**2 - U + 1)*(U**3 - 3*U + 1)*(U**3 - 3*U**2 + 1)*(U**6 - U**5 + U**4 - U**3 + U**2 - U + 1)**2"
+        }
+      ]
+    },
+    {
+      "word": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        2
+      ],
+      "factors": [
+        {
+          "factor": "U + 1",
+          "multiplicity": 1,
+          "positive_acute_turn_exclusion": true
+        },
+        {
+          "factor": "U**6*V**5 + U**6*V**4 + U**5*V**5 + U**5*V**4 + U**5*V**3 - U**5*V**2 - 2*U**5*V - U**4*V**5 - 2*U**4*V**4 - U**4*V**3 - U**4*V**2 + U**4 + 2*U**3*V**4 + U**3*V**3 - U**3*V**2 - U**3*V + U**2*V**2 + U**2*V + U**2 - U*V**3 - 3*U*V**2 - U*V + V**2 + 2*V",
+          "multiplicity": 1,
+          "reciprocal_numerator": "2*U**6*V**4 + U**6*V**3 - U**5*V**4 - 3*U**5*V**3 - U**5*V**2 + U**4*V**5 + U**4*V**4 + U**4*V**3 - U**3*V**4 - U**3*V**3 + U**3*V**2 + 2*U**3*V + U**2*V**5 - U**2*V**3 - U**2*V**2 - 2*U**2*V - U**2 - 2*U*V**4 - U*V**3 + U*V**2 + U*V + U + V + 1",
+          "resultant_V": "-U**6*(U - 1)**4*(U + 1)**6*(U**2 + 1)**4*(U**2 - U + 1)*(U**6 - U**5 + U**4 - U**3 + U**2 - U + 1)*(U**22 + 21*U**21 + 52*U**20 - 18*U**19 - 288*U**18 - 297*U**17 + 247*U**16 + 248*U**15 - 330*U**14 - 223*U**13 + 74*U**12 + 66*U**11 + 74*U**10 - 223*U**9 - 330*U**8 + 248*U**7 + 247*U**6 - 297*U**5 - 288*U**4 - 18*U**3 + 52*U**2 + 21*U + 1)"
+        }
+      ]
+    },
+    {
+      "word": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        1
+      ],
+      "factors": [
+        {
+          "factor": "2*U**8*V**5 + U**8*V**4 + U**7*V**5 - 2*U**7*V**4 - U**7*V**3 + U**6*V**6 - U**6*V**5 - 2*U**6*V**4 + U**5*V**6 - 2*U**5*V**5 + 2*U**5*V**3 + U**5*V**2 - U**4*V**5 + U**4*V - U**3*V**4 - 2*U**3*V**3 + 2*U**3*V - U**3 + 2*U**2*V**2 + U**2*V - U**2 + U*V**3 + 2*U*V**2 - U*V - V**2 - 2*V",
+          "multiplicity": 1,
+          "reciprocal_numerator": "-2*U**8*V**5 - U**8*V**4 - U**7*V**5 + 2*U**7*V**4 + U**7*V**3 - U**6*V**6 + U**6*V**5 + 2*U**6*V**4 - U**5*V**6 + 2*U**5*V**5 - 2*U**5*V**3 - U**5*V**2 + U**4*V**5 - U**4*V + U**3*V**4 + 2*U**3*V**3 - 2*U**3*V + U**3 - 2*U**2*V**2 - U**2*V + U**2 - U*V**3 - 2*U*V**2 + U*V + V**2 + 2*V",
+          "resultant_V": "0"
+        }
+      ]
+    },
+    {
+      "word": [
+        0,
+        0,
+        2,
+        1,
+        1,
+        2
+      ],
+      "factors": [
+        {
+          "factor": "U**6*V**5 + U**6*V**4 + U**5*V**5 + 2*U**5*V**4 + U**5*V**3 - U**5*V**2 - 2*U**5*V - U**4*V**5 - 2*U**4*V**2 - 2*U**4*V + U**4 - U**3*V**6 + 2*U**3*V**4 - 2*U**3*V**2 + U**3 - U**2*V**6 + 2*U**2*V**5 + 2*U**2*V**4 + U**2*V + 2*U*V**5 + U*V**4 - U*V**3 - 2*U*V**2 - U*V - V**2 - V",
+          "multiplicity": 1,
+          "reciprocal_numerator": "-U**6*V**5 - U**6*V**4 - U**5*V**5 - 2*U**5*V**4 - U**5*V**3 + U**5*V**2 + 2*U**5*V + U**4*V**5 + 2*U**4*V**2 + 2*U**4*V - U**4 + U**3*V**6 - 2*U**3*V**4 + 2*U**3*V**2 - U**3 + U**2*V**6 - 2*U**2*V**5 - 2*U**2*V**4 - U**2*V - 2*U*V**5 - U*V**4 + U*V**3 + 2*U*V**2 + U*V + V**2 + V",
+          "resultant_V": "0"
+        }
+      ]
+    },
+    {
+      "word": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        2
+      ],
+      "factors": [
+        {
+          "factor": "U*V - 1",
+          "multiplicity": 1,
+          "positive_acute_turn_exclusion": true
+        },
+        {
+          "factor": "U**6*V**6 + U**6*V**5 + 2*U**5*V**6 + 3*U**5*V**5 - 2*U**5*V**3 - U**5*V**2 + U**4*V**5 + U**4*V**4 - U**4*V**3 - 2*U**4*V**2 - U**4*V + U**3*V**4 + U**3*V**3 - U**3*V**2 - U**3*V + U**3 + U**2*V**4 + U**2*V**3 - U**2*V**2 - U**2*V + U**2 + U*V + V**2 + 2*V",
+          "multiplicity": 1,
+          "reciprocal_numerator": "2*U**6*V**5 + U**6*V**4 + U**5*V**5 + U**4*V**6 - U**4*V**5 - U**4*V**4 + U**4*V**3 + U**4*V**2 + U**3*V**6 - U**3*V**5 - U**3*V**4 + U**3*V**3 + U**3*V**2 - U**2*V**5 - 2*U**2*V**4 - U**2*V**3 + U**2*V**2 + U**2*V - U*V**4 - 2*U*V**3 + 3*U*V + 2*U + V + 1",
+          "resultant_V": "-U**12*(U - 1)**2*(U + 1)**8*(U**2 - U + 1)*(U**6 - U**5 + U**4 - U**3 + U**2 - U + 1)*(5*U**8 + 10*U**7 + 12*U**6 + 6*U**5 + 6*U**4 + 6*U**3 + 12*U**2 + 10*U + 5)*(U**22 + 11*U**21 + 45*U**20 + 3*U**19 - 732*U**18 - 3004*U**17 - 4750*U**16 - 82*U**15 + 9603*U**14 + 9394*U**13 - 6359*U**12 - 17008*U**11 - 6359*U**10 + 9394*U**9 + 9603*U**8 - 82*U**7 - 4750*U**6 - 3004*U**5 - 732*U**4 + 3*U**3 + 45*U**2 + 11*U + 1)"
+        }
+      ]
+    },
+    {
+      "word": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        2
+      ],
+      "factors": [
+        {
+          "factor": "V + 1",
+          "multiplicity": 1,
+          "positive_acute_turn_exclusion": true
+        },
+        {
+          "factor": "U**6*V**5 + 2*U**5*V**5 - 2*U**5*V**2 - U**4*V**4 + U**4*V**3 - 2*U**4*V**2 + U**4*V + U**3*V**4 - U**3*V**3 - U**3*V**2 + U**3*V + U**2*V**4 - 2*U**2*V**3 + U**2*V**2 - U**2*V - 2*U*V**3 + 2*U + 1",
+          "multiplicity": 1,
+          "reciprocal_numerator": "U**6*V**5 + 2*U**5*V**5 - 2*U**5*V**2 - U**4*V**4 + U**4*V**3 - 2*U**4*V**2 + U**4*V + U**3*V**4 - U**3*V**3 - U**3*V**2 + U**3*V + U**2*V**4 - 2*U**2*V**3 + U**2*V**2 - U**2*V - 2*U*V**3 + 2*U + 1",
+          "resultant_V": "0"
+        }
+      ]
+    },
+    {
+      "word": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        2
+      ],
+      "factors": [
+        {
+          "factor": "U**6*V**8 + U**6*V**7 + 2*U**5*V**8 + 2*U**5*V**7 - U**5*V**5 + U**5*V**4 + U**5*V**3 - U**4*V**7 - 2*U**4*V**6 - 2*U**4*V**5 - 2*U**4*V**3 - U**4*V**2 - U**3*V**6 + U**3*V**2 + U**2*V**6 + 2*U**2*V**5 + 2*U**2*V**3 + 2*U**2*V**2 + U**2*V - U*V**5 - U*V**4 + U*V**3 - 2*U*V - 2*U - V - 1",
+          "multiplicity": 1,
+          "reciprocal_numerator": "-U**6*V**8 - U**6*V**7 - 2*U**5*V**8 - 2*U**5*V**7 + U**5*V**5 - U**5*V**4 - U**5*V**3 + U**4*V**7 + 2*U**4*V**6 + 2*U**4*V**5 + 2*U**4*V**3 + U**4*V**2 + U**3*V**6 - U**3*V**2 - U**2*V**6 - 2*U**2*V**5 - 2*U**2*V**3 - 2*U**2*V**2 - U**2*V + U*V**5 + U*V**4 - U*V**3 + 2*U*V + 2*U + V + 1",
+          "resultant_V": "0"
+        }
+      ]
+    },
+    {
+      "word": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        2
+      ],
+      "factors": [
+        {
+          "factor": "V + 1",
+          "multiplicity": 1,
+          "positive_acute_turn_exclusion": true
+        },
+        {
+          "factor": "U**5*V**6 + U**5*V**4 + 2*U**4*V**6 + U**4*V**4 - U**4*V**3 + U**4*V**2 - 2*U**4*V - U**3*V**5 - U**3*V**4 - U**3*V**3 + U**3*V**2 - 3*U**3*V + U**3 - U**2*V**4 + U**2*V**3 - U**2*V**2 + U**2 + U*V**4 + U*V**3 - 2*U*V**2 + 2*U*V - V**3 - V**2 + V",
+          "multiplicity": 1,
+          "reciprocal_numerator": "U**5*V**5 - U**5*V**4 - U**5*V**3 + 2*U**4*V**5 - 2*U**4*V**4 + U**4*V**3 + U**4*V**2 + U**3*V**6 - U**3*V**4 + U**3*V**3 - U**3*V**2 + U**2*V**6 - 3*U**2*V**5 + U**2*V**4 - U**2*V**3 - U**2*V**2 - U**2*V - 2*U*V**5 + U*V**4 - U*V**3 + U*V**2 + 2*U + V**2 + 1",
+          "resultant_V": "-U**6*(U - 1)**2*(U + 1)**8*(U**2 - U + 1)*(U**6 - U**5 + U**4 - U**3 + U**2 - U + 1)*(5*U**8 + 10*U**7 + 8*U**6 - 10*U**5 - 18*U**4 - 10*U**3 + 8*U**2 + 10*U + 5)*(U**22 + 23*U**21 + 203*U**20 + 907*U**19 + 2128*U**18 + 2188*U**17 - 474*U**16 - 2682*U**15 - 489*U**14 + 1894*U**13 - 761*U**12 - 3456*U**11 - 761*U**10 + 1894*U**9 - 489*U**8 - 2682*U**7 - 474*U**6 + 2188*U**5 + 2128*U**4 + 907*U**3 + 203*U**2 + 23*U + 1)"
+        }
+      ]
+    },
+    {
+      "word": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        1
+      ],
+      "factors": [
+        {
+          "factor": "U + 1",
+          "multiplicity": 1,
+          "positive_acute_turn_exclusion": true
+        },
+        {
+          "factor": "2*U**5*V**5 + U**5*V**4 - 2*U**4*V**4 - U**4*V**3 + U**3*V**6 + U**3*V**4 + U**3*V**3 - U**3*V**2 - 2*U**3*V - 2*U**2*V**5 - U**2*V**4 + U**2*V**3 + U**2*V**2 + U**2 - U*V**3 - 2*U*V**2 + V**2 + 2*V",
+          "multiplicity": 1,
+          "reciprocal_numerator": "2*U**5*V**5 + U**5*V**4 - 2*U**4*V**4 - U**4*V**3 + U**3*V**6 + U**3*V**4 + U**3*V**3 - U**3*V**2 - 2*U**3*V - 2*U**2*V**5 - U**2*V**4 + U**2*V**3 + U**2*V**2 + U**2 - U*V**3 - 2*U*V**2 + V**2 + 2*V",
+          "resultant_V": "0"
+        }
+      ]
+    },
+    {
+      "word": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        2
+      ],
+      "factors": [
+        {
+          "factor": "U*V - 1",
+          "multiplicity": 1,
+          "positive_acute_turn_exclusion": true
+        },
+        {
+          "factor": "2*U**5*V**3 + U**5*V**2 - U**4*V**5 - U**4*V**4 + U**4*V**3 - 2*U**3*V**5 - 2*U**3*V**4 - U**3*V**3 + U**3*V**2 - U**2*V**3 + U**2*V**2 + 2*U**2*V + 2*U**2 - U*V**2 + U*V + U - V**3 - 2*V**2",
+          "multiplicity": 1,
+          "reciprocal_numerator": "-2*U**5*V**3 - U**5*V**2 + U**4*V**5 + U**4*V**4 - U**4*V**3 + 2*U**3*V**5 + 2*U**3*V**4 + U**3*V**3 - U**3*V**2 + U**2*V**3 - U**2*V**2 - 2*U**2*V - 2*U**2 + U*V**2 - U*V - U + V**3 + 2*V**2",
+          "resultant_V": "0"
+        }
+      ]
+    }
+  ],
+  "scope": "Necessary zero conditions only; no angle-domain root exclusion asserted"
+}

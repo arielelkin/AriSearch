@@ -1,0 +1,243 @@
+{
+  "domain": "11 B bracelets; A001122 adjacent paired lengths given by exact closure kernel",
+  "variables": "U=exp(iu), V=exp(iv), W=-1/(UV); 0<u,v,w<90; u+v+w=180",
+  "weight_numerators": [
+    "-(V + 1)*(U*V - 1)*(U**3*V**2 + 1)/(U**2*V**2)",
+    "(U + 1)*(U**2 + V)*(U*V - 1)/(U**2*V)",
+    "(U + 1)*(V + 1)*(U*V**3 - 1)/(U*V**2)"
+  ],
+  "rows": [
+    {
+      "word": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      "side_classes": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      "numerator": "-(U + 1)*(V + 1)*(U*V - 1)*(U**5*V**5 + U**4*V**5 + U**4*V**4 - U**4*V**2 - U**3*V**5 - U**3*V - U**2*V + U**2 + U*V**3 - V**3 - V**2 + V)",
+      "denominator": "U**4*V**5",
+      "identically_zero": false
+    },
+    {
+      "word": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        2
+      ],
+      "side_classes": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        2
+      ],
+      "numerator": "-(U + 1)*(U**6*V**5 + U**6*V**4 + U**5*V**5 + U**5*V**4 + U**5*V**3 - U**5*V**2 - 2*U**5*V - U**4*V**5 - 2*U**4*V**4 - U**4*V**3 - U**4*V**2 + U**4 + 2*U**3*V**4 + U**3*V**3 - U**3*V**2 - U**3*V + U**2*V**2 + U**2*V + U**2 - U*V**3 - 3*U*V**2 - U*V + V**2 + 2*V)",
+      "denominator": "U**4*V**3",
+      "identically_zero": false
+    },
+    {
+      "word": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        1
+      ],
+      "side_classes": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      "numerator": "2*U**8*V**5 + U**8*V**4 + U**7*V**5 - 2*U**7*V**4 - U**7*V**3 + U**6*V**6 - U**6*V**5 - 2*U**6*V**4 + U**5*V**6 - 2*U**5*V**5 + 2*U**5*V**3 + U**5*V**2 - U**4*V**5 + U**4*V - U**3*V**4 - 2*U**3*V**3 + 2*U**3*V - U**3 + 2*U**2*V**2 + U**2*V - U**2 + U*V**3 + 2*U*V**2 - U*V - V**2 - 2*V",
+      "denominator": "U**4*V**3",
+      "identically_zero": false
+    },
+    {
+      "word": [
+        0,
+        0,
+        2,
+        1,
+        1,
+        2
+      ],
+      "side_classes": [
+        0,
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      "numerator": "-U**6*V**5 - U**6*V**4 - U**5*V**5 - 2*U**5*V**4 - U**5*V**3 + U**5*V**2 + 2*U**5*V + U**4*V**5 + 2*U**4*V**2 + 2*U**4*V - U**4 + U**3*V**6 - 2*U**3*V**4 + 2*U**3*V**2 - U**3 + U**2*V**6 - 2*U**2*V**5 - 2*U**2*V**4 - U**2*V - 2*U*V**5 - U*V**4 + U*V**3 + 2*U*V**2 + U*V + V**2 + V",
+      "denominator": "U**3*V**3",
+      "identically_zero": false
+    },
+    {
+      "word": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        2
+      ],
+      "side_classes": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        2
+      ],
+      "numerator": "-(U*V - 1)*(U**6*V**6 + U**6*V**5 + 2*U**5*V**6 + 3*U**5*V**5 - 2*U**5*V**3 - U**5*V**2 + U**4*V**5 + U**4*V**4 - U**4*V**3 - 2*U**4*V**2 - U**4*V + U**3*V**4 + U**3*V**3 - U**3*V**2 - U**3*V + U**3 + U**2*V**4 + U**2*V**3 - U**2*V**2 - U**2*V + U**2 + U*V + V**2 + 2*V)",
+      "denominator": "U**4*V**5",
+      "identically_zero": false
+    },
+    {
+      "word": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        2
+      ],
+      "side_classes": [
+        0,
+        0,
+        2,
+        1,
+        1,
+        2
+      ],
+      "numerator": "-(V + 1)*(U**6*V**5 + 2*U**5*V**5 - 2*U**5*V**2 - U**4*V**4 + U**4*V**3 - 2*U**4*V**2 + U**4*V + U**3*V**4 - U**3*V**3 - U**3*V**2 + U**3*V + U**2*V**4 - 2*U**2*V**3 + U**2*V**2 - U**2*V - 2*U*V**3 + 2*U + 1)",
+      "denominator": "U**3*V**4",
+      "identically_zero": false
+    },
+    {
+      "word": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        2
+      ],
+      "side_classes": [
+        0,
+        1,
+        0,
+        2,
+        2,
+        2
+      ],
+      "numerator": "-U**6*V**8 - U**6*V**7 - 2*U**5*V**8 - 2*U**5*V**7 + U**5*V**5 - U**5*V**4 - U**5*V**3 + U**4*V**7 + 2*U**4*V**6 + 2*U**4*V**5 + 2*U**4*V**3 + U**4*V**2 + U**3*V**6 - U**3*V**2 - U**2*V**6 - 2*U**2*V**5 - 2*U**2*V**3 - 2*U**2*V**2 - U**2*V + U*V**5 + U*V**4 - U*V**3 + 2*U*V + 2*U + V + 1",
+      "denominator": "U**3*V**6",
+      "identically_zero": false
+    },
+    {
+      "word": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        2
+      ],
+      "side_classes": [
+        0,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "numerator": "-(V + 1)*(U**5*V**6 + U**5*V**4 + 2*U**4*V**6 + U**4*V**4 - U**4*V**3 + U**4*V**2 - 2*U**4*V - U**3*V**5 - U**3*V**4 - U**3*V**3 + U**3*V**2 - 3*U**3*V + U**3 - U**2*V**4 + U**2*V**3 - U**2*V**2 + U**2 + U*V**4 + U*V**3 - 2*U*V**2 + 2*U*V - V**3 - V**2 + V)",
+      "denominator": "U**2*V**5",
+      "identically_zero": false
+    },
+    {
+      "word": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "side_classes": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "numerator": "0",
+      "denominator": "1",
+      "identically_zero": true
+    },
+    {
+      "word": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        1
+      ],
+      "side_classes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0
+      ],
+      "numerator": "(U + 1)*(2*U**5*V**5 + U**5*V**4 - 2*U**4*V**4 - U**4*V**3 + U**3*V**6 + U**3*V**4 + U**3*V**3 - U**3*V**2 - 2*U**3*V - 2*U**2*V**5 - U**2*V**4 + U**2*V**3 + U**2*V**2 + U**2 - U*V**3 - 2*U*V**2 + V**2 + 2*V)",
+      "denominator": "U**2*V**3",
+      "identically_zero": false
+    },
+    {
+      "word": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        2
+      ],
+      "side_classes": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        2
+      ],
+      "numerator": "(U*V - 1)*(2*U**5*V**3 + U**5*V**2 - U**4*V**5 - U**4*V**4 + U**4*V**3 - 2*U**3*V**5 - 2*U**3*V**4 - U**3*V**3 + U**3*V**2 - U**2*V**3 + U**2*V**2 + 2*U**2*V + 2*U**2 - U*V**2 + U*V + U - V**3 - 2*V**2)",
+      "denominator": "U**2*V**4",
+      "identically_zero": false
+    }
+  ],
+  "status": "Exact algebraic factorization; remaining unit-domain zero-set analysis required"
+}

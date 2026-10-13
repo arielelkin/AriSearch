@@ -1,0 +1,378 @@
+{
+  "scope": "Finite12*12 native poses; lengths and partitions never assumed.\nBoth A copies have top ABedges1,2 meeting a z corner. SharedAA edges0/3;\nouter endpointAAB requires equal A colours, innerAAA requires distinct.\n",
+  "native_poses": [
+    {
+      "rotation": 0,
+      "sign": 1,
+      "corners": [
+        0,
+        0,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "rotation": 0,
+      "sign": -1,
+      "corners": [
+        0,
+        2,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "rotation": 1,
+      "sign": 1,
+      "corners": [
+        0,
+        2,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "rotation": 1,
+      "sign": -1,
+      "corners": [
+        0,
+        0,
+        2,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "rotation": 2,
+      "sign": 1,
+      "corners": [
+        2,
+        1,
+        1,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "rotation": 2,
+      "sign": -1,
+      "corners": [
+        2,
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "rotation": 3,
+      "sign": 1,
+      "corners": [
+        1,
+        1,
+        2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "rotation": 3,
+      "sign": -1,
+      "corners": [
+        1,
+        2,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "rotation": 4,
+      "sign": 1,
+      "corners": [
+        1,
+        2,
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "rotation": 4,
+      "sign": -1,
+      "corners": [
+        1,
+        1,
+        2,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "rotation": 5,
+      "sign": 1,
+      "corners": [
+        2,
+        0,
+        0,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "rotation": 5,
+      "sign": -1,
+      "corners": [
+        2,
+        1,
+        1,
+        2,
+        0,
+        0
+      ]
+    }
+  ],
+  "eligible_boundary_pair_count": 16,
+  "outer_AAB_pair_count": 8,
+  "compatible_interface_pair_count": 0,
+  "rows": [
+    {
+      "A_left_pose": 0,
+      "A_right_pose": 0,
+      "outer_AAB_A_colours": [
+        0,
+        1
+      ],
+      "inner_AAA_A_colours": [
+        0,
+        1
+      ],
+      "outer_AAB_legal": false,
+      "inner_AAA_possible": true
+    },
+    {
+      "A_left_pose": 0,
+      "A_right_pose": 3,
+      "outer_AAB_A_colours": [
+        0,
+        1
+      ],
+      "inner_AAA_A_colours": [
+        0,
+        1
+      ],
+      "outer_AAB_legal": false,
+      "inner_AAA_possible": true
+    },
+    {
+      "A_left_pose": 0,
+      "A_right_pose": 6,
+      "outer_AAB_A_colours": [
+        0,
+        0
+      ],
+      "inner_AAA_A_colours": [
+        0,
+        0
+      ],
+      "outer_AAB_legal": true,
+      "inner_AAA_possible": false
+    },
+    {
+      "A_left_pose": 0,
+      "A_right_pose": 9,
+      "outer_AAB_A_colours": [
+        0,
+        0
+      ],
+      "inner_AAA_A_colours": [
+        0,
+        0
+      ],
+      "outer_AAB_legal": true,
+      "inner_AAA_possible": false
+    },
+    {
+      "A_left_pose": 3,
+      "A_right_pose": 0,
+      "outer_AAB_A_colours": [
+        0,
+        1
+      ],
+      "inner_AAA_A_colours": [
+        0,
+        1
+      ],
+      "outer_AAB_legal": false,
+      "inner_AAA_possible": true
+    },
+    {
+      "A_left_pose": 3,
+      "A_right_pose": 3,
+      "outer_AAB_A_colours": [
+        0,
+        1
+      ],
+      "inner_AAA_A_colours": [
+        0,
+        1
+      ],
+      "outer_AAB_legal": false,
+      "inner_AAA_possible": true
+    },
+    {
+      "A_left_pose": 3,
+      "A_right_pose": 6,
+      "outer_AAB_A_colours": [
+        0,
+        0
+      ],
+      "inner_AAA_A_colours": [
+        0,
+        0
+      ],
+      "outer_AAB_legal": true,
+      "inner_AAA_possible": false
+    },
+    {
+      "A_left_pose": 3,
+      "A_right_pose": 9,
+      "outer_AAB_A_colours": [
+        0,
+        0
+      ],
+      "inner_AAA_A_colours": [
+        0,
+        0
+      ],
+      "outer_AAB_legal": true,
+      "inner_AAA_possible": false
+    },
+    {
+      "A_left_pose": 6,
+      "A_right_pose": 0,
+      "outer_AAB_A_colours": [
+        1,
+        1
+      ],
+      "inner_AAA_A_colours": [
+        1,
+        1
+      ],
+      "outer_AAB_legal": true,
+      "inner_AAA_possible": false
+    },
+    {
+      "A_left_pose": 6,
+      "A_right_pose": 3,
+      "outer_AAB_A_colours": [
+        1,
+        1
+      ],
+      "inner_AAA_A_colours": [
+        1,
+        1
+      ],
+      "outer_AAB_legal": true,
+      "inner_AAA_possible": false
+    },
+    {
+      "A_left_pose": 6,
+      "A_right_pose": 6,
+      "outer_AAB_A_colours": [
+        1,
+        0
+      ],
+      "inner_AAA_A_colours": [
+        1,
+        0
+      ],
+      "outer_AAB_legal": false,
+      "inner_AAA_possible": true
+    },
+    {
+      "A_left_pose": 6,
+      "A_right_pose": 9,
+      "outer_AAB_A_colours": [
+        1,
+        0
+      ],
+      "inner_AAA_A_colours": [
+        1,
+        0
+      ],
+      "outer_AAB_legal": false,
+      "inner_AAA_possible": true
+    },
+    {
+      "A_left_pose": 9,
+      "A_right_pose": 0,
+      "outer_AAB_A_colours": [
+        1,
+        1
+      ],
+      "inner_AAA_A_colours": [
+        1,
+        1
+      ],
+      "outer_AAB_legal": true,
+      "inner_AAA_possible": false
+    },
+    {
+      "A_left_pose": 9,
+      "A_right_pose": 3,
+      "outer_AAB_A_colours": [
+        1,
+        1
+      ],
+      "inner_AAA_A_colours": [
+        1,
+        1
+      ],
+      "outer_AAB_legal": true,
+      "inner_AAA_possible": false
+    },
+    {
+      "A_left_pose": 9,
+      "A_right_pose": 6,
+      "outer_AAB_A_colours": [
+        1,
+        0
+      ],
+      "inner_AAA_A_colours": [
+        1,
+        0
+      ],
+      "outer_AAB_legal": false,
+      "inner_AAA_possible": true
+    },
+    {
+      "A_left_pose": 9,
+      "A_right_pose": 9,
+      "outer_AAB_A_colours": [
+        1,
+        0
+      ],
+      "inner_AAA_A_colours": [
+        1,
+        0
+      ],
+      "outer_AAB_legal": false,
+      "inner_AAA_possible": true
+    }
+  ]
+}

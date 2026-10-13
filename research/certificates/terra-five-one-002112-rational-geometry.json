@@ -1,0 +1,1583 @@
+{
+  "scope": "Oneexactrational A002112 on B5+1line; legalnonmonohedralAAA;16 centralABfan Bclosure choices beforechainendpoint tests",
+  "U": "(8+15i)/17",
+  "A_class_lengths": [
+    "1",
+    "383444911/476356015",
+    "1419857/1561823"
+  ],
+  "A_vertices": [
+    "0",
+    "1",
+    "15/17*i + 25/17",
+    "2346240/1561823*i + 455912911/476356015",
+    "2346240/1561823*i + 237600/1561823",
+    "1252815/1561823*i - 668168/1561823"
+  ],
+  "AAA_native_cases": [
+    {
+      "corners": [
+        0,
+        3,
+        2
+      ],
+      "arm_signs": [
+        1,
+        1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        0
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        0,
+        3,
+        2
+      ],
+      "arm_signs": [
+        1,
+        1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        1
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        0,
+        3,
+        2
+      ],
+      "arm_signs": [
+        1,
+        -1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        1
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        0,
+        3,
+        2
+      ],
+      "arm_signs": [
+        1,
+        -1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        3,
+        1
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        0,
+        3,
+        2
+      ],
+      "arm_signs": [
+        -1,
+        1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        0
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        0,
+        3,
+        2
+      ],
+      "arm_signs": [
+        -1,
+        1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        1
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        0,
+        3,
+        2
+      ],
+      "arm_signs": [
+        -1,
+        -1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        0,
+        3,
+        2
+      ],
+      "arm_signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        0,
+        3,
+        5
+      ],
+      "arm_signs": [
+        1,
+        1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        0,
+        2,
+        2,
+        3
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        0,
+        3,
+        5
+      ],
+      "arm_signs": [
+        1,
+        1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        0,
+        2,
+        2,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        0,
+        3,
+        5
+      ],
+      "arm_signs": [
+        1,
+        -1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        0,
+        3,
+        5
+      ],
+      "arm_signs": [
+        1,
+        -1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        2
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        0,
+        3,
+        5
+      ],
+      "arm_signs": [
+        -1,
+        1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        0,
+        2,
+        2,
+        0
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        0,
+        3,
+        5
+      ],
+      "arm_signs": [
+        -1,
+        1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        0,
+        3,
+        5
+      ],
+      "arm_signs": [
+        -1,
+        -1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        0,
+        3,
+        5
+      ],
+      "arm_signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        0,
+        4,
+        2
+      ],
+      "arm_signs": [
+        1,
+        1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        0,
+        4,
+        2
+      ],
+      "arm_signs": [
+        1,
+        1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        1
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        0,
+        4,
+        2
+      ],
+      "arm_signs": [
+        1,
+        -1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        0,
+        4,
+        2
+      ],
+      "arm_signs": [
+        1,
+        -1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        1
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        0,
+        4,
+        2
+      ],
+      "arm_signs": [
+        -1,
+        1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        0,
+        4,
+        2
+      ],
+      "arm_signs": [
+        -1,
+        1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        0,
+        4,
+        2
+      ],
+      "arm_signs": [
+        -1,
+        -1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        0,
+        4,
+        2
+      ],
+      "arm_signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        0,
+        4,
+        5
+      ],
+      "arm_signs": [
+        1,
+        1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        3,
+        4
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        0,
+        4,
+        5
+      ],
+      "arm_signs": [
+        1,
+        1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        3,
+        3
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        0,
+        4,
+        5
+      ],
+      "arm_signs": [
+        1,
+        -1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        3
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        0,
+        4,
+        5
+      ],
+      "arm_signs": [
+        1,
+        -1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        0,
+        4,
+        5
+      ],
+      "arm_signs": [
+        -1,
+        1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        3,
+        0
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        0,
+        4,
+        5
+      ],
+      "arm_signs": [
+        -1,
+        1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        0,
+        4,
+        5
+      ],
+      "arm_signs": [
+        -1,
+        -1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        0,
+        4,
+        5
+      ],
+      "arm_signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        3,
+        2
+      ],
+      "arm_signs": [
+        1,
+        1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        3,
+        2
+      ],
+      "arm_signs": [
+        1,
+        1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        3,
+        2
+      ],
+      "arm_signs": [
+        1,
+        -1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        3,
+        2
+      ],
+      "arm_signs": [
+        1,
+        -1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        0,
+        1,
+        0,
+        2,
+        3
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        3,
+        2
+      ],
+      "arm_signs": [
+        -1,
+        1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        3,
+        2
+      ],
+      "arm_signs": [
+        -1,
+        1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        0,
+        0,
+        2,
+        3
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        3,
+        2
+      ],
+      "arm_signs": [
+        -1,
+        -1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        3
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        3,
+        2
+      ],
+      "arm_signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        3,
+        4
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        3,
+        5
+      ],
+      "arm_signs": [
+        1,
+        1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        1,
+        2,
+        2,
+        0
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        1,
+        3,
+        5
+      ],
+      "arm_signs": [
+        1,
+        1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        1,
+        3,
+        5
+      ],
+      "arm_signs": [
+        1,
+        -1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        0
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        1,
+        3,
+        5
+      ],
+      "arm_signs": [
+        1,
+        -1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        1,
+        3,
+        5
+      ],
+      "arm_signs": [
+        -1,
+        1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        0,
+        2,
+        2,
+        1
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        1,
+        3,
+        5
+      ],
+      "arm_signs": [
+        -1,
+        1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        1,
+        3,
+        5
+      ],
+      "arm_signs": [
+        -1,
+        -1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        1
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        3,
+        5
+      ],
+      "arm_signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        4,
+        2
+      ],
+      "arm_signs": [
+        1,
+        1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        1,
+        4,
+        2
+      ],
+      "arm_signs": [
+        1,
+        1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        4,
+        2
+      ],
+      "arm_signs": [
+        1,
+        -1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        1,
+        4,
+        2
+      ],
+      "arm_signs": [
+        1,
+        -1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        1,
+        4,
+        2
+      ],
+      "arm_signs": [
+        -1,
+        1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        2
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        4,
+        2
+      ],
+      "arm_signs": [
+        -1,
+        1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        3
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        4,
+        2
+      ],
+      "arm_signs": [
+        -1,
+        -1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        1,
+        4,
+        2
+      ],
+      "arm_signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        3
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        1,
+        4,
+        5
+      ],
+      "arm_signs": [
+        1,
+        1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        1,
+        3,
+        0
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        1,
+        4,
+        5
+      ],
+      "arm_signs": [
+        1,
+        1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        0
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        1,
+        4,
+        5
+      ],
+      "arm_signs": [
+        1,
+        -1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        1,
+        1,
+        0
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        1,
+        4,
+        5
+      ],
+      "arm_signs": [
+        1,
+        -1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      "forces_H1": false
+    },
+    {
+      "corners": [
+        1,
+        4,
+        5
+      ],
+      "arm_signs": [
+        -1,
+        1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        3,
+        1
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        4,
+        5
+      ],
+      "arm_signs": [
+        -1,
+        1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        1
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        4,
+        5
+      ],
+      "arm_signs": [
+        -1,
+        -1,
+        1
+      ],
+      "required_side_partition": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        1
+      ],
+      "forces_H1": true
+    },
+    {
+      "corners": [
+        1,
+        4,
+        5
+      ],
+      "arm_signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "required_side_partition": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        2
+      ],
+      "forces_H1": false
+    }
+  ],
+  "AAA_corners": [
+    0,
+    4,
+    2
+  ],
+  "AAA_arm_signs": [
+    -1,
+    -1,
+    -1
+  ],
+  "B_closure_rows": [
+    {
+      "AB_class_choices": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "BB_lengths": [
+        "-4068542/1561823",
+        "-4068542/1561823"
+      ],
+      "status": "nonpositive BB closure length"
+    },
+    {
+      "AB_class_choices": [
+        1,
+        0,
+        0,
+        2
+      ],
+      "BB_lengths": [
+        "-632629510472/291053525165",
+        "-652065706658/291053525165"
+      ],
+      "status": "nonpositive BB closure length"
+    },
+    {
+      "AB_class_choices": [
+        1,
+        0,
+        2,
+        1
+      ],
+      "BB_lengths": [
+        "-2126571820/954273853",
+        "-2085543646/954273853"
+      ],
+      "status": "nonpositive BB closure length"
+    },
+    {
+      "AB_class_choices": [
+        1,
+        0,
+        2,
+        2
+      ],
+      "BB_lengths": [
+        "-856040542/476356015",
+        "-867370498/476356015"
+      ],
+      "status": "nonpositive BB closure length"
+    },
+    {
+      "AB_class_choices": [
+        1,
+        2,
+        0,
+        1
+      ],
+      "BB_lengths": [
+        "-2085543646/954273853",
+        "-2126571820/954273853"
+      ],
+      "status": "nonpositive BB closure length"
+    },
+    {
+      "AB_class_choices": [
+        1,
+        2,
+        0,
+        2
+      ],
+      "BB_lengths": [
+        "-510527178092/291053525165",
+        "-542476967348/291053525165"
+      ],
+      "status": "nonpositive BB closure length"
+    },
+    {
+      "AB_class_choices": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "BB_lengths": [
+        "-2825264/1561823",
+        "-2825264/1561823"
+      ],
+      "status": "nonpositive BB closure length"
+    },
+    {
+      "AB_class_choices": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "BB_lengths": [
+        "-400938438782/291053525165",
+        "-420374634968/291053525165"
+      ],
+      "status": "nonpositive BB closure length"
+    },
+    {
+      "AB_class_choices": [
+        2,
+        0,
+        0,
+        1
+      ],
+      "BB_lengths": [
+        "-652065706658/291053525165",
+        "-632629510472/291053525165"
+      ],
+      "status": "nonpositive BB closure length"
+    },
+    {
+      "AB_class_choices": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "BB_lengths": [
+        "-2825264/1561823",
+        "-2825264/1561823"
+      ],
+      "status": "nonpositive BB closure length"
+    },
+    {
+      "AB_class_choices": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "BB_lengths": [
+        "-542476967348/291053525165",
+        "-510527178092/291053525165"
+      ],
+      "status": "nonpositive BB closure length"
+    },
+    {
+      "AB_class_choices": [
+        2,
+        0,
+        2,
+        2
+      ],
+      "BB_lengths": [
+        "-1366928962/954273853",
+        "-1325900788/954273853"
+      ],
+      "status": "nonpositive BB closure length"
+    },
+    {
+      "AB_class_choices": [
+        2,
+        2,
+        0,
+        1
+      ],
+      "BB_lengths": [
+        "-867370498/476356015",
+        "-856040542/476356015"
+      ],
+      "status": "nonpositive BB closure length"
+    },
+    {
+      "AB_class_choices": [
+        2,
+        2,
+        0,
+        2
+      ],
+      "BB_lengths": [
+        "-1325900788/954273853",
+        "-1366928962/954273853"
+      ],
+      "status": "nonpositive BB closure length"
+    },
+    {
+      "AB_class_choices": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "BB_lengths": [
+        "-420374634968/291053525165",
+        "-400938438782/291053525165"
+      ],
+      "status": "nonpositive BB closure length"
+    },
+    {
+      "AB_class_choices": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "BB_lengths": [
+        "-1581986/1561823",
+        "-1581986/1561823"
+      ],
+      "status": "nonpositive BB closure length"
+    }
+  ]
+}

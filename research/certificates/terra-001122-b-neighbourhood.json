@@ -1,0 +1,761 @@
+{
+  "scope": "Fixed exact positive A001122 with sidewordaabbcc; all11 B bracelets; unique necessary metric words from samecolour AAB fans and AB endpoint compatibility",
+  "fans": [
+    {
+      "colour": 0,
+      "ordered_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "details": [
+        {
+          "A_corners": [
+            0,
+            0
+          ],
+          "AA_matching_class": 2,
+          "B_ordered_arms": [
+            0,
+            0
+          ]
+        },
+        {
+          "A_corners": [
+            0,
+            0
+          ],
+          "AA_matching_class": 0,
+          "B_ordered_arms": [
+            2,
+            2
+          ]
+        },
+        {
+          "A_corners": [
+            0,
+            1
+          ],
+          "AA_matching_class": 0,
+          "B_ordered_arms": [
+            2,
+            0
+          ]
+        },
+        {
+          "A_corners": [
+            0,
+            1
+          ],
+          "AA_matching_class": 0,
+          "B_ordered_arms": [
+            2,
+            0
+          ]
+        },
+        {
+          "A_corners": [
+            1,
+            0
+          ],
+          "AA_matching_class": 0,
+          "B_ordered_arms": [
+            0,
+            2
+          ]
+        },
+        {
+          "A_corners": [
+            1,
+            0
+          ],
+          "AA_matching_class": 0,
+          "B_ordered_arms": [
+            0,
+            2
+          ]
+        },
+        {
+          "A_corners": [
+            1,
+            1
+          ],
+          "AA_matching_class": 0,
+          "B_ordered_arms": [
+            0,
+            0
+          ]
+        },
+        {
+          "A_corners": [
+            1,
+            1
+          ],
+          "AA_matching_class": 0,
+          "B_ordered_arms": [
+            0,
+            0
+          ]
+        },
+        {
+          "A_corners": [
+            1,
+            1
+          ],
+          "AA_matching_class": 0,
+          "B_ordered_arms": [
+            0,
+            0
+          ]
+        },
+        {
+          "A_corners": [
+            1,
+            1
+          ],
+          "AA_matching_class": 0,
+          "B_ordered_arms": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "colour": 1,
+      "ordered_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "details": [
+        {
+          "A_corners": [
+            2,
+            2
+          ],
+          "AA_matching_class": 0,
+          "B_ordered_arms": [
+            1,
+            1
+          ]
+        },
+        {
+          "A_corners": [
+            2,
+            2
+          ],
+          "AA_matching_class": 1,
+          "B_ordered_arms": [
+            0,
+            0
+          ]
+        },
+        {
+          "A_corners": [
+            2,
+            3
+          ],
+          "AA_matching_class": 1,
+          "B_ordered_arms": [
+            0,
+            1
+          ]
+        },
+        {
+          "A_corners": [
+            2,
+            3
+          ],
+          "AA_matching_class": 1,
+          "B_ordered_arms": [
+            0,
+            1
+          ]
+        },
+        {
+          "A_corners": [
+            3,
+            2
+          ],
+          "AA_matching_class": 1,
+          "B_ordered_arms": [
+            1,
+            0
+          ]
+        },
+        {
+          "A_corners": [
+            3,
+            2
+          ],
+          "AA_matching_class": 1,
+          "B_ordered_arms": [
+            1,
+            0
+          ]
+        },
+        {
+          "A_corners": [
+            3,
+            3
+          ],
+          "AA_matching_class": 1,
+          "B_ordered_arms": [
+            1,
+            1
+          ]
+        },
+        {
+          "A_corners": [
+            3,
+            3
+          ],
+          "AA_matching_class": 1,
+          "B_ordered_arms": [
+            1,
+            1
+          ]
+        },
+        {
+          "A_corners": [
+            3,
+            3
+          ],
+          "AA_matching_class": 1,
+          "B_ordered_arms": [
+            1,
+            1
+          ]
+        },
+        {
+          "A_corners": [
+            3,
+            3
+          ],
+          "AA_matching_class": 1,
+          "B_ordered_arms": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "colour": 2,
+      "ordered_pairs": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "details": [
+        {
+          "A_corners": [
+            4,
+            4
+          ],
+          "AA_matching_class": 1,
+          "B_ordered_arms": [
+            2,
+            2
+          ]
+        },
+        {
+          "A_corners": [
+            4,
+            4
+          ],
+          "AA_matching_class": 2,
+          "B_ordered_arms": [
+            1,
+            1
+          ]
+        },
+        {
+          "A_corners": [
+            4,
+            5
+          ],
+          "AA_matching_class": 2,
+          "B_ordered_arms": [
+            1,
+            2
+          ]
+        },
+        {
+          "A_corners": [
+            4,
+            5
+          ],
+          "AA_matching_class": 2,
+          "B_ordered_arms": [
+            1,
+            2
+          ]
+        },
+        {
+          "A_corners": [
+            5,
+            4
+          ],
+          "AA_matching_class": 2,
+          "B_ordered_arms": [
+            2,
+            1
+          ]
+        },
+        {
+          "A_corners": [
+            5,
+            4
+          ],
+          "AA_matching_class": 2,
+          "B_ordered_arms": [
+            2,
+            1
+          ]
+        },
+        {
+          "A_corners": [
+            5,
+            5
+          ],
+          "AA_matching_class": 2,
+          "B_ordered_arms": [
+            2,
+            2
+          ]
+        },
+        {
+          "A_corners": [
+            5,
+            5
+          ],
+          "AA_matching_class": 2,
+          "B_ordered_arms": [
+            2,
+            2
+          ]
+        },
+        {
+          "A_corners": [
+            5,
+            5
+          ],
+          "AA_matching_class": 2,
+          "B_ordered_arms": [
+            2,
+            2
+          ]
+        },
+        {
+          "A_corners": [
+            5,
+            5
+          ],
+          "AA_matching_class": 2,
+          "B_ordered_arms": [
+            2,
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "palette": [
+    {
+      "endpoint_pair": [
+        0,
+        0
+      ],
+      "side_class": 0
+    },
+    {
+      "endpoint_pair": [
+        0,
+        1
+      ],
+      "side_class": 0
+    },
+    {
+      "endpoint_pair": [
+        0,
+        2
+      ],
+      "side_class": 2
+    },
+    {
+      "endpoint_pair": [
+        1,
+        1
+      ],
+      "side_class": 1
+    },
+    {
+      "endpoint_pair": [
+        1,
+        2
+      ],
+      "side_class": 1
+    },
+    {
+      "endpoint_pair": [
+        2,
+        2
+      ],
+      "side_class": 2
+    }
+  ],
+  "B_rows": [
+    {
+      "B_word": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      "forced_side_classes": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2
+      ],
+      "directions": [
+        0,
+        46,
+        108,
+        170,
+        242,
+        314
+      ],
+      "closes": false,
+      "exact_residue_polynomial": "-21*zeta360^95 + 12*zeta360^94 + 17*zeta360^93 - 20*zeta360^92 - 10*zeta360^91 + 23*zeta360^90 + 2*zeta360^89 - 24*zeta360^88 + 8*zeta360^87 + 21*zeta360^86 - 16*zeta360^85 - 14*zeta360^84 + 18*zeta360^82 - 6*zeta360^81 - 17*zeta360^80 + 12*zeta360^79 + 12*zeta360^78 - 16*zeta360^77 - 6*zeta360^76 + 19*zeta360^75 - zeta360^74 - 19*zeta360^73 + 9*zeta360^72 + 15*zeta360^71 - 16*zeta360^70 - 8*zeta360^69 + 19*zeta360^68 + 2*zeta360^67 - 19*zeta360^66 + 6*zeta360^65 + 16*zeta360^64 - 12*zeta360^63 - 11*zeta360^62 + 16*zeta360^61 + 6*zeta360^60 + 3*zeta360^59 - 12*zeta360^58 + zeta360^57 + 12*zeta360^56 - 6*zeta360^55 - 9*zeta360^54 + 10*zeta360^53 + 5*zeta360^52 - 12*zeta360^51 - zeta360^50 + 12*zeta360^49 - 4*zeta360^48 + 12*zeta360^47 - 4*zeta360^46 - 10*zeta360^45 + 9*zeta360^44 + 6*zeta360^43 - 12*zeta360^42 - 2*zeta360^41 + 12*zeta360^40 - 3*zeta360^39 - 11*zeta360^38 + 7*zeta360^37 + 7*zeta360^36 + 12*zeta360^35 - 16*zeta360^34 - 6*zeta360^33 + 20*zeta360^32 - zeta360^31 - 19*zeta360^30 + 8*zeta360^29 + 16*zeta360^28 - 15*zeta360^27 - 10*zeta360^26 + 19*zeta360^25 + 2*zeta360^24 - 19*zeta360^23 + 6*zeta360^22 + 16*zeta360^21 - 12*zeta360^20 - 12*zeta360^19 + 16*zeta360^18 + 6*zeta360^17 - 18*zeta360^16 + 18*zeta360^14 - 8*zeta360^13 - 16*zeta360^12 - 8*zeta360^11 + 24*zeta360^10 - 2*zeta360^9 - 24*zeta360^8 + 10*zeta360^7 + 19*zeta360^6 - 17*zeta360^5 - 12*zeta360^4 + 22*zeta360^3 + 5*zeta360^2 - 23*zeta360 + 6"
+    },
+    {
+      "B_word": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        2
+      ],
+      "forced_side_classes": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        2
+      ],
+      "directions": [
+        0,
+        46,
+        108,
+        180,
+        242,
+        314
+      ],
+      "closes": false,
+      "exact_residue_polynomial": "-9*zeta360^95 + 5*zeta360^94 + 8*zeta360^93 - 5*zeta360^92 - 10*zeta360^91 + 6*zeta360^90 + 14*zeta360^89 - 17*zeta360^88 - 8*zeta360^87 + 24*zeta360^86 - 7*zeta360^85 - 24*zeta360^84 + 10*zeta360^83 + 17*zeta360^82 - 18*zeta360^81 - zeta360^80 + 10*zeta360^79 - 6*zeta360^78 + 4*zeta360^77 - 4*zeta360^76 - 4*zeta360^75 + 17*zeta360^74 - 9*zeta360^73 - 16*zeta360^72 + 26*zeta360^71 - 2*zeta360^70 - 29*zeta360^69 + 24*zeta360^68 + 13*zeta360^67 - 32*zeta360^66 + 11*zeta360^65 + 22*zeta360^64 - 24*zeta360^63 - 2*zeta360^62 + 19*zeta360^61 - 10*zeta360^60 + 6*zeta360^59 + zeta360^58 - 13*zeta360^57 + 10*zeta360^56 + 7*zeta360^55 - 18*zeta360^54 + 5*zeta360^53 + 17*zeta360^52 - 17*zeta360^51 - 4*zeta360^50 + 20*zeta360^49 - 9*zeta360^48 + 10*zeta360^46 - 9*zeta360^45 - 4*zeta360^44 + 16*zeta360^43 - 7*zeta360^42 - 15*zeta360^41 + 19*zeta360^40 - 19*zeta360^38 + 12*zeta360^37 + 9*zeta360^36 - 7*zeta360^35 - zeta360^34 + 2*zeta360^33 - 4*zeta360^32 + 11*zeta360^31 - 3*zeta360^30 - 17*zeta360^29 + 21*zeta360^28 + 4*zeta360^27 - 29*zeta360^26 + 18*zeta360^25 + 19*zeta360^24 - 32*zeta360^23 + 5*zeta360^22 + 27*zeta360^21 - 23*zeta360^20 - 8*zeta360^19 + 23*zeta360^18 - 9*zeta360^17 - 9*zeta360^16 + 10*zeta360^15 - 4*zeta360^14 + zeta360^12 - 20*zeta360^11 + 18*zeta360^10 + 12*zeta360^9 - 28*zeta360^8 + 4*zeta360^7 + 23*zeta360^6 - 17*zeta360^5 - 13*zeta360^4 + 23*zeta360^3 - 17*zeta360 + 7"
+    },
+    {
+      "B_word": [
+        0,
+        0,
+        1,
+        2,
+        2,
+        1
+      ],
+      "forced_side_classes": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      "directions": [
+        0,
+        46,
+        108,
+        180,
+        252,
+        314
+      ],
+      "closes": false,
+      "exact_residue_polynomial": "-12*zeta360^95 + 12*zeta360^94 + 3*zeta360^93 - 11*zeta360^92 + zeta360^91 + 6*zeta360^90 - 2*zeta360^89 - 5*zeta360^88 + zeta360^87 + 7*zeta360^86 - 9*zeta360^84 - 4*zeta360^83 + 20*zeta360^82 - 10*zeta360^81 - 12*zeta360^80 + 17*zeta360^79 - zeta360^78 - 14*zeta360^77 + 9*zeta360^76 + 3*zeta360^75 - 7*zeta360^74 + 3*zeta360^73 - zeta360^72 + 2*zeta360^71 + 4*zeta360^70 - 9*zeta360^69 + 2*zeta360^68 + 13*zeta360^67 - 13*zeta360^66 - 4*zeta360^65 + 19*zeta360^64 - 10*zeta360^63 - 13*zeta360^62 + 18*zeta360^61 - zeta360^60 - 5*zeta360^59 + 2*zeta360^57 - zeta360^56 + 3*zeta360^55 - 2*zeta360^54 - 2*zeta360^53 + 8*zeta360^52 - 4*zeta360^51 - 7*zeta360^50 + 8*zeta360^49 - 3*zeta360^46 + 2*zeta360^45 - zeta360^44 + 2*zeta360^43 + zeta360^42 - 5*zeta360^41 + 4*zeta360^40 + 5*zeta360^39 - 10*zeta360^38 + zeta360^37 + 10*zeta360^36 + 2*zeta360^35 - 16*zeta360^34 + 9*zeta360^33 + 6*zeta360^32 - 10*zeta360^31 + 3*zeta360^30 + 2*zeta360^29 - 2*zeta360^28 + 4*zeta360^27 - 6*zeta360^26 - zeta360^25 + 11*zeta360^24 - 9*zeta360^23 - 7*zeta360^22 + 18*zeta360^21 - 6*zeta360^20 - 16*zeta360^19 + 16*zeta360^18 + 3*zeta360^17 - 19*zeta360^16 + 10*zeta360^15 + 10*zeta360^14 - 13*zeta360^13 + 2*zeta360^12 - 5*zeta360^11 + 6*zeta360^10 + 4*zeta360^9 - 10*zeta360^8 - zeta360^7 + 13*zeta360^6 - 8*zeta360^5 - 11*zeta360^4 + 15*zeta360^3 + 3*zeta360^2 - 15*zeta360 + 9"
+    },
+    {
+      "B_word": [
+        0,
+        0,
+        2,
+        1,
+        1,
+        2
+      ],
+      "forced_side_classes": [
+        0,
+        2,
+        1,
+        1,
+        1,
+        2
+      ],
+      "directions": [
+        0,
+        46,
+        118,
+        180,
+        242,
+        314
+      ],
+      "closes": false,
+      "exact_residue_polynomial": "9*zeta360^95 - 12*zeta360^94 + zeta360^93 + 7*zeta360^92 - 5*zeta360^91 + 2*zeta360^89 - 3*zeta360^88 + 3*zeta360^87 - 3*zeta360^86 - 6*zeta360^85 + 9*zeta360^84 + 6*zeta360^83 - 23*zeta360^82 + 13*zeta360^81 + 10*zeta360^80 - 21*zeta360^79 + 8*zeta360^78 + 13*zeta360^77 - 17*zeta360^76 + 5*zeta360^75 + 10*zeta360^74 - 13*zeta360^73 + 6*zeta360^72 + 5*zeta360^71 - 14*zeta360^70 + 10*zeta360^69 + 5*zeta360^68 - 19*zeta360^67 + 13*zeta360^66 + 10*zeta360^65 - 22*zeta360^64 + 11*zeta360^63 + 15*zeta360^62 - 22*zeta360^61 + 4*zeta360^60 + 10*zeta360^59 - 6*zeta360^58 - 2*zeta360^57 + 8*zeta360^56 - 8*zeta360^55 - zeta360^54 + 8*zeta360^53 - 9*zeta360^52 + zeta360^51 + 11*zeta360^50 - 10*zeta360^49 - 2*zeta360^48 + 6*zeta360^47 + 2*zeta360^46 - 7*zeta360^45 + 7*zeta360^44 - 8*zeta360^42 + 8*zeta360^41 - 11*zeta360^39 + 11*zeta360^38 + zeta360^37 - 13*zeta360^36 + 2*zeta360^35 + 18*zeta360^34 - 15*zeta360^33 + 14*zeta360^31 - 12*zeta360^30 + zeta360^29 + 10*zeta360^28 - 13*zeta360^27 + 6*zeta360^26 + 9*zeta360^25 - 17*zeta360^24 + 6*zeta360^23 + 14*zeta360^22 - 22*zeta360^21 + 4*zeta360^20 + 19*zeta360^19 - 20*zeta360^18 - 2*zeta360^17 + 21*zeta360^16 - 16*zeta360^15 - 7*zeta360^14 + 18*zeta360^13 - 10*zeta360^12 + 2*zeta360^11 + 2*zeta360^10 - 8*zeta360^9 + 5*zeta360^8 + 6*zeta360^7 - 13*zeta360^6 + 3*zeta360^5 + 12*zeta360^4 - 13*zeta360^3 - 3*zeta360^2 + 15*zeta360 - 7"
+    },
+    {
+      "B_word": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        2
+      ],
+      "forced_side_classes": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        2
+      ],
+      "directions": [
+        0,
+        62,
+        108,
+        170,
+        242,
+        314
+      ],
+      "closes": false,
+      "exact_residue_polynomial": "-13*zeta360^95 + 27*zeta360^94 + 3*zeta360^93 - 34*zeta360^92 + 14*zeta360^91 + 29*zeta360^90 - 29*zeta360^89 - 14*zeta360^88 + 36*zeta360^87 - 5*zeta360^86 - 30*zeta360^85 + 19*zeta360^84 + 5*zeta360^83 + 6*zeta360^82 - 5*zeta360^81 - 15*zeta360^80 + 18*zeta360^79 + 10*zeta360^78 - 32*zeta360^77 + 10*zeta360^76 + 31*zeta360^75 - 32*zeta360^74 - 12*zeta360^73 + 41*zeta360^72 - 14*zeta360^71 - 29*zeta360^70 + 30*zeta360^69 + 7*zeta360^68 - 25*zeta360^67 + 7*zeta360^66 + 12*zeta360^65 - 6*zeta360^64 - 5*zeta360^63 - zeta360^62 + 11*zeta360^61 + 4*zeta360^60 - 10*zeta360^59 - 18*zeta360^58 + 22*zeta360^57 + 4*zeta360^56 - 24*zeta360^55 + 11*zeta360^54 + 14*zeta360^53 - 17*zeta360^52 - 2*zeta360^51 + 12*zeta360^50 - 3*zeta360^49 - 5*zeta360^48 + 14*zeta360^47 - 24*zeta360^46 + zeta360^45 + 23*zeta360^44 - 16*zeta360^43 - 12*zeta360^42 + 20*zeta360^41 - 2*zeta360^40 - 14*zeta360^39 + 8*zeta360^38 + 5*zeta360^37 - 6*zeta360^36 + 11*zeta360^35 - 27*zeta360^34 + 4*zeta360^33 + 33*zeta360^32 - 27*zeta360^31 - 18*zeta360^30 + 40*zeta360^29 - 8*zeta360^28 - 34*zeta360^27 + 28*zeta360^26 + 13*zeta360^25 - 31*zeta360^24 + 6*zeta360^23 + 18*zeta360^22 - 11*zeta360^21 - 6*zeta360^20 + 3*zeta360^19 + 7*zeta360^18 + 3*zeta360^17 - 18*zeta360^16 + 5*zeta360^15 + 24*zeta360^14 - 25*zeta360^13 - 14*zeta360^12 + 25*zeta360^11 + 18*zeta360^10 - 32*zeta360^9 - 2*zeta360^8 + 27*zeta360^7 - 8*zeta360^6 - 19*zeta360^5 + 11*zeta360^4 + 16*zeta360^3 - 12*zeta360^2 - 15*zeta360 + 20"
+    },
+    {
+      "B_word": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        2
+      ],
+      "forced_side_classes": [
+        0,
+        0,
+        2,
+        1,
+        1,
+        2
+      ],
+      "directions": [
+        0,
+        62,
+        108,
+        180,
+        242,
+        314
+      ],
+      "closes": false,
+      "exact_residue_polynomial": "3*zeta360^95 + 23*zeta360^94 - 10*zeta360^93 - 20*zeta360^92 + 18*zeta360^91 + 12*zeta360^90 - 22*zeta360^89 - 4*zeta360^88 + 23*zeta360^87 - 5*zeta360^86 - 25*zeta360^85 + 12*zeta360^84 + 19*zeta360^83 + 3*zeta360^82 - 20*zeta360^81 + 4*zeta360^80 + 18*zeta360^79 - 12*zeta360^78 - 12*zeta360^77 + 16*zeta360^76 + 7*zeta360^75 - 17*zeta360^74 + 17*zeta360^72 - 7*zeta360^71 - 16*zeta360^70 + 12*zeta360^69 + 12*zeta360^68 - 18*zeta360^67 - 4*zeta360^66 + 20*zeta360^65 - 3*zeta360^64 - 19*zeta360^63 + 12*zeta360^62 + 16*zeta360^61 - 16*zeta360^60 - 9*zeta360^59 - 4*zeta360^58 + 10*zeta360^57 - 12*zeta360^55 + 4*zeta360^54 + 10*zeta360^53 - 8*zeta360^52 - 7*zeta360^51 + 11*zeta360^50 + 5*zeta360^49 - 12*zeta360^48 - 11*zeta360^46 + 4*zeta360^45 + 11*zeta360^44 - 8*zeta360^43 - 7*zeta360^42 + 9*zeta360^41 + 4*zeta360^40 - 13*zeta360^39 + zeta360^38 + 12*zeta360^37 - 5*zeta360^36 - 12*zeta360^35 - 13*zeta360^34 + 16*zeta360^33 + 8*zeta360^32 - 17*zeta360^31 + 18*zeta360^29 - 6*zeta360^28 - 16*zeta360^27 + 12*zeta360^26 + 12*zeta360^25 - 16*zeta360^24 - 6*zeta360^23 + 20*zeta360^22 - 3*zeta360^21 - 19*zeta360^20 + 10*zeta360^19 + 15*zeta360^18 - 16*zeta360^17 - 8*zeta360^16 + 19*zeta360^15 - 20*zeta360^13 + 6*zeta360^12 + 19*zeta360^11 + 11*zeta360^10 - 22*zeta360^9 - 4*zeta360^8 + 24*zeta360^7 - 8*zeta360^6 - 22*zeta360^5 + 15*zeta360^4 + 17*zeta360^3 - 21*zeta360^2 - 9*zeta360 + 24"
+    },
+    {
+      "B_word": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        2
+      ],
+      "forced_side_classes": [
+        0,
+        1,
+        0,
+        2,
+        2,
+        2
+      ],
+      "directions": [
+        0,
+        62,
+        124,
+        170,
+        242,
+        314
+      ],
+      "closes": false,
+      "exact_residue_polynomial": "-33*zeta360^95 + 6*zeta360^94 + 27*zeta360^93 - 13*zeta360^92 - 19*zeta360^91 + 15*zeta360^90 + 18*zeta360^89 - 20*zeta360^88 - 16*zeta360^87 + 29*zeta360^86 + 5*zeta360^85 - 36*zeta360^84 - 23*zeta360^83 + 41*zeta360^82 - 3*zeta360^81 - 34*zeta360^80 + 20*zeta360^79 + 15*zeta360^78 - 19*zeta360^77 - 3*zeta360^76 + 11*zeta360^75 + 4*zeta360^74 - 7*zeta360^73 - 12*zeta360^72 + 16*zeta360^71 + 11*zeta360^70 - 31*zeta360^69 + 5*zeta360^68 + 35*zeta360^67 - 29*zeta360^66 - 21*zeta360^65 + 45*zeta360^64 - 6*zeta360^63 - 37*zeta360^62 + 28*zeta360^61 + 17*zeta360^60 + 2*zeta360^59 - 4*zeta360^58 - 6*zeta360^57 + 5*zeta360^56 + 10*zeta360^55 - 14*zeta360^54 - 7*zeta360^53 + 22*zeta360^52 - 6*zeta360^51 - 22*zeta360^50 + 22*zeta360^49 + 9*zeta360^48 + 7*zeta360^47 + zeta360^46 - 6*zeta360^45 - 5*zeta360^44 + 12*zeta360^43 + 2*zeta360^42 - 20*zeta360^41 + 10*zeta360^40 + 17*zeta360^39 - 23*zeta360^38 - 4*zeta360^37 + 26*zeta360^36 + 21*zeta360^35 - 24*zeta360^34 - 4*zeta360^33 + 16*zeta360^32 + zeta360^31 - 8*zeta360^30 - 7*zeta360^29 + 12*zeta360^28 + 11*zeta360^27 - 26*zeta360^26 + zeta360^25 + 34*zeta360^24 - 23*zeta360^23 - 25*zeta360^22 + 41*zeta360^21 - 41*zeta360^19 + 25*zeta360^18 + 23*zeta360^17 - 34*zeta360^16 - zeta360^15 + 26*zeta360^14 - 11*zeta360^13 - 12*zeta360^12 - 26*zeta360^11 + 14*zeta360^10 + 26*zeta360^9 - 29*zeta360^8 - 15*zeta360^7 + 39*zeta360^6 - 3*zeta360^5 - 40*zeta360^4 + 23*zeta360^3 + 26*zeta360^2 - 35*zeta360 - 6"
+    },
+    {
+      "B_word": [
+        0,
+        1,
+        1,
+        2,
+        0,
+        2
+      ],
+      "forced_side_classes": [
+        0,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "directions": [
+        0,
+        62,
+        124,
+        196,
+        242,
+        314
+      ],
+      "closes": false,
+      "exact_residue_polynomial": "-19*zeta360^95 + 22*zeta360^94 + 11*zeta360^93 - 26*zeta360^92 - 3*zeta360^91 + 27*zeta360^90 - 8*zeta360^89 - 24*zeta360^88 + 17*zeta360^87 + 18*zeta360^86 - 24*zeta360^85 - 9*zeta360^84 + 9*zeta360^83 + 20*zeta360^82 - 14*zeta360^81 - 14*zeta360^80 + 18*zeta360^79 + 6*zeta360^78 - 21*zeta360^77 + zeta360^76 + 20*zeta360^75 - 8*zeta360^74 - 18*zeta360^73 + 15*zeta360^72 + 12*zeta360^71 - 21*zeta360^70 - 3*zeta360^69 + 23*zeta360^68 - 4*zeta360^67 - 21*zeta360^66 + 13*zeta360^65 + 15*zeta360^64 - 19*zeta360^63 - 7*zeta360^62 + 21*zeta360^61 - zeta360^60 - zeta360^59 - 14*zeta360^58 + 6*zeta360^57 + 11*zeta360^56 - 9*zeta360^55 - 8*zeta360^54 + 14*zeta360^53 + 2*zeta360^52 - 14*zeta360^51 + 3*zeta360^50 + 13*zeta360^49 - 9*zeta360^48 + 10*zeta360^47 - 10*zeta360^46 - 8*zeta360^45 + 12*zeta360^44 + 4*zeta360^43 - 14*zeta360^42 + 3*zeta360^41 + 13*zeta360^40 - 6*zeta360^39 - 10*zeta360^38 + 12*zeta360^37 + 5*zeta360^36 + 6*zeta360^35 - 22*zeta360^34 + zeta360^33 + 21*zeta360^32 - 8*zeta360^31 - 18*zeta360^30 + 15*zeta360^29 + 12*zeta360^28 - 21*zeta360^27 - 5*zeta360^26 + 23*zeta360^25 - 4*zeta360^24 - 21*zeta360^23 + 13*zeta360^22 + 15*zeta360^21 - 19*zeta360^20 - 8*zeta360^19 + 22*zeta360^18 - zeta360^17 - 20*zeta360^16 + 8*zeta360^15 + 17*zeta360^14 - 15*zeta360^13 - 12*zeta360^12 + 28*zeta360^10 - 10*zeta360^9 - 23*zeta360^8 + 18*zeta360^7 + 16*zeta360^6 - 26*zeta360^5 - 6*zeta360^4 + 27*zeta360^3 - 4*zeta360^2 - 25*zeta360 + 15"
+    },
+    {
+      "B_word": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "forced_side_classes": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "directions": [
+        0,
+        62,
+        134,
+        180,
+        242,
+        314
+      ],
+      "closes": true,
+      "exact_residue_polynomial": "0",
+      "strictly_convex": true,
+      "centrally_symmetric": true
+    },
+    {
+      "B_word": [
+        0,
+        1,
+        2,
+        0,
+        2,
+        1
+      ],
+      "forced_side_classes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0
+      ],
+      "directions": [
+        0,
+        62,
+        134,
+        180,
+        252,
+        314
+      ],
+      "closes": false,
+      "exact_residue_polynomial": "-28*zeta360^95 + 30*zeta360^94 + 6*zeta360^93 - 29*zeta360^92 + 10*zeta360^91 + 18*zeta360^90 - 18*zeta360^89 - 4*zeta360^88 + 12*zeta360^87 + zeta360^86 - zeta360^85 - 6*zeta360^84 - 20*zeta360^83 + 41*zeta360^82 - 11*zeta360^81 - 35*zeta360^80 + 39*zeta360^79 + 6*zeta360^78 - 44*zeta360^77 + 26*zeta360^76 + 17*zeta360^75 - 35*zeta360^74 + 11*zeta360^73 + 16*zeta360^72 - 18*zeta360^71 + 8*zeta360^70 + 3*zeta360^69 - 13*zeta360^68 + 20*zeta360^67 - 8*zeta360^66 - 20*zeta360^65 + 33*zeta360^64 - 5*zeta360^63 - 36*zeta360^62 + 34*zeta360^61 + 10*zeta360^60 - 18*zeta360^59 - 5*zeta360^58 + 19*zeta360^57 - 10*zeta360^56 - 2*zeta360^55 + 9*zeta360^54 - 8*zeta360^53 + 5*zeta360^52 + 4*zeta360^51 - 15*zeta360^50 + 8*zeta360^49 + 9*zeta360^48 + 3*zeta360^47 - 21*zeta360^46 + 12*zeta360^45 + 4*zeta360^44 - 10*zeta360^43 + 7*zeta360^42 - 5*zeta360^40 + 13*zeta360^39 - 10*zeta360^38 - 7*zeta360^37 + 21*zeta360^36 + 16*zeta360^35 - 46*zeta360^34 + 19*zeta360^33 + 26*zeta360^32 - 37*zeta360^31 + 4*zeta360^30 + 25*zeta360^29 - 21*zeta360^28 + zeta360^27 + 11*zeta360^26 - 14*zeta360^25 + 11*zeta360^24 + zeta360^23 - 21*zeta360^22 + 25*zeta360^21 + 4*zeta360^20 - 37*zeta360^19 + 26*zeta360^18 + 19*zeta360^17 - 46*zeta360^16 + 16*zeta360^15 + 35*zeta360^14 - 38*zeta360^13 - zeta360^12 + 7*zeta360^11 + 5*zeta360^10 - 2*zeta360^9 - 5*zeta360^8 - 3*zeta360^7 + 17*zeta360^6 - 8*zeta360^5 - 20*zeta360^4 + 22*zeta360^3 + 9*zeta360^2 - 31*zeta360 + 14"
+    },
+    {
+      "B_word": [
+        0,
+        1,
+        2,
+        1,
+        0,
+        2
+      ],
+      "forced_side_classes": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        2
+      ],
+      "directions": [
+        0,
+        62,
+        134,
+        196,
+        242,
+        314
+      ],
+      "closes": false,
+      "exact_residue_polynomial": "-56*zeta360^95 + 39*zeta360^94 + 33*zeta360^93 - 51*zeta360^92 - 7*zeta360^91 + 45*zeta360^90 - 9*zeta360^89 - 35*zeta360^88 + 16*zeta360^87 + 29*zeta360^86 - 19*zeta360^85 - 29*zeta360^84 - 26*zeta360^83 + 64*zeta360^82 - 13*zeta360^81 - 59*zeta360^80 + 50*zeta360^79 + 25*zeta360^78 - 60*zeta360^77 + 13*zeta360^76 + 41*zeta360^75 - 30*zeta360^74 - 14*zeta360^73 + 22*zeta360^72 + 3*zeta360^71 - 8*zeta360^70 - 12*zeta360^69 + 9*zeta360^68 + 27*zeta360^67 - 32*zeta360^66 - 18*zeta360^65 + 55*zeta360^64 - 15*zeta360^63 - 54*zeta360^62 + 52*zeta360^61 + 23*zeta360^60 - 11*zeta360^59 - 20*zeta360^58 + 16*zeta360^57 + 6*zeta360^56 - 8*zeta360^55 - 5*zeta360^54 + 2*zeta360^53 + 14*zeta360^52 - 9*zeta360^51 - 19*zeta360^50 + 26*zeta360^49 + 8*zeta360^48 + 19*zeta360^47 - 24*zeta360^46 - 2*zeta360^45 + 14*zeta360^44 - zeta360^43 - 6*zeta360^42 - 7*zeta360^41 + 10*zeta360^40 + 11*zeta360^39 - 24*zeta360^38 - zeta360^37 + 33*zeta360^36 + 35*zeta360^35 - 63*zeta360^34 + 6*zeta360^33 + 51*zeta360^32 - 32*zeta360^31 - 21*zeta360^30 + 30*zeta360^29 + 2*zeta360^28 - 15*zeta360^27 - 5*zeta360^26 + 8*zeta360^25 + 19*zeta360^24 - 23*zeta360^23 - 19*zeta360^22 + 47*zeta360^21 - 6*zeta360^20 - 55*zeta360^19 + 44*zeta360^18 + 32*zeta360^17 - 68*zeta360^16 + 10*zeta360^15 + 57*zeta360^14 - 44*zeta360^13 - 24*zeta360^12 - 8*zeta360^11 + 33*zeta360^10 + 3*zeta360^9 - 37*zeta360^8 + 4*zeta360^7 + 44*zeta360^6 - 23*zeta360^5 - 41*zeta360^4 + 48*zeta360^3 + 21*zeta360^2 - 61*zeta360 + 12"
+    }
+  ],
+  "conclusion": "Any mixed defectfree field with this A forces central B012012, hence a monohedral periodic escape; no mixed extension asserted"
+}

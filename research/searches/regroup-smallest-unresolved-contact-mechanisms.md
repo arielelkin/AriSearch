@@ -49,6 +49,33 @@ classes; exact B closure is the subsequent geometry gate. No B metric,
 plane covering or aperiodic forcing has yet been supplied. Additional
 noncentral A native words and non-generic angle lines remain separate domains.
 
+## 2026-10-13 resolution of the single-interface target
+
+The proposed single A0=A1 interface is now closed by a
+[family obstruction](../lemmas/two-hexagon-single-cross-palette-obstruction.md),
+with a [root audit and separate exact reconstruction](../reviews/two-hexagon-single-cross-palette-review.md).
+Both endpoint bijections fail the third-corner metric test. In fact the
+five-class corner-arm graph has no AAA star. AAB fans then force B equilateral
+of length L, while a necessary B02 edge cannot match either A L side.
+No connected mixed defect-free field survives for ANY actual metric in this
+five-distinct-class A012012 stratum, at any generic ternary angle triple.
+Any tileable pair therefore has a pure-B defect-free limit and a monohedral
+periodic escape. This does not assert purity of original partial-contact fields.
+
+Early exact closure tests all11 bracelets across the spatially forced constant
+B class family. Only012012 closes. The separate relaxed(4,6,1) fixture query
+checks171875 side assignments and retains125 opposite-equal012012 closures;
+its nonconstant exclusions are sample-only. A pure equilateral012012 B
+translation carrier is checked exactly, including rank-two periods and
+area/covolume. No mixed interface successor survives, so no larger periodic
+carrier search is justified.
+
+The original target above is retained as checkpoint provenance, not an active
+extension obligation. A new interface route must change a mathematical
+premise: an additional A length equality allowing an actual three-ray AAA
+corner cycle, a different A native word, or extra angle stars. A cross-palette
+coincidence alone is insufficient. No such expanded search was started.
+
 ## Changed pentagon construction compared with hexagon impossibility
 
 The original native orders(65,140.5,147.5,75,112) and
@@ -80,8 +107,8 @@ and a theorem excluding every translationally periodic admitted covering
 are required; a four-tile module, positive corner ledger or proposed hierarchy
 supplies neither obligation.
 
-The hexagon interface route is narrower and better suited to a next exact
-local lemma; it aims at restricted impossibility or a periodic escape. The
+The single-interface hexagon route has now reached a restricted family
+obstruction; a new route must change its corner-arm obstruction premise. The
 changed pentagon route remains the more direct aperiodic-construction route,
 but presently has no surviving infinite covering/recognition mechanism.
 Neither route comes close to the unrestricted impossibility theorem: general

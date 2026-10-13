@@ -1,0 +1,49 @@
+{
+  "finite_domain": "U=(3+4i)/5 fixed; all roots V of full B001221 closure numerator; exact QQbar embedding",
+  "root_count": 6,
+  "retained_unit_acute_roots": [
+    {
+      "V_minpoly": "x^12 - 113/25*x^11 + 14833/2000*x^10 + 11961/2500*x^9 - 366807/62500*x^8 + 395647/312500*x^7 + 66847/125000*x^6 + 395647/312500*x^5 - 366807/62500*x^4 + 11961/2500*x^3 + 14833/2000*x^2 - 113/25*x + 1",
+      "V_real_approx": "0.29916557270509621481",
+      "V_imag_approx": "0.95420121573388900743",
+      "A_strictly_convex": true,
+      "B_strictly_convex": true,
+      "exact_generic_star_language": true,
+      "actual_triples": [
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          4
+        ],
+        [
+          2,
+          2,
+          5
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "A_monohedral_classes": [],
+      "B_monohedral_classes": [],
+      "lengths_approx": [
+        "1.00000000000000",
+        "1.19983029478142",
+        "0.796401132728776"
+      ]
+    }
+  ],
+  "scope": "Exact geometric feasibility and monohedral escape tests only; infinite mixed covering and nonperiodicity not proved"
+}
