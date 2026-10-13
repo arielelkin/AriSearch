@@ -1,0 +1,34 @@
+Command: mise exec -- conda run --no-capture-output -n arisearch python research/searches/verify.py --only resumed_intrinsic_voronoi_pair.py --only resumed-source-fan-check.py --only resumed-higher-partner-fixture-check.py --only resumed_higher_voronoi_verify.py --only resumed-adjacent-octagon-check.py --only resumed_higher_adjacent_octagon_verify.py
+PASS verifier: resumed_intrinsic_voronoi_pair.py
+PASS verifier: resumed-source-fan-check.py
+PASS verifier: resumed-higher-partner-fixture-check.py
+PASS verifier: resumed_higher_voronoi_verify.py
+PASS verifier: resumed-adjacent-octagon-check.py
+PASS verifier: resumed_higher_adjacent_octagon_verify.py
+All 0 certificate replays and 6 verifiers passed; no certificates written.
+Exit: 0
+
+Command: mise exec -- conda run --no-capture-output -n arisearch python research/searches/verify.py --only resumed_intrinsic_two_size_wheel.py --only resumed-two-size-wheel-independent.py
+PASS verifier: resumed_intrinsic_two_size_wheel.py
+PASS verifier: resumed-two-size-wheel-independent.py
+All 0 certificate replays and 2 verifiers passed; no certificates written.
+Exit: 0
+
+Command: mise exec -- conda run --no-capture-output -n arisearch python research/searches/verify.py --only resumed_intrinsic_wheel_d3.py --only resumed-two-size-wheel-complete-counts-independent.py
+PASS verifier: resumed_intrinsic_wheel_d3.py
+PASS verifier: resumed-two-size-wheel-complete-counts-independent.py
+All 0 certificate replays and 2 verifiers passed; no certificates written.
+Exit: 0
+
+Command: mise exec -- conda run --no-capture-output -n arisearch python research/searches/verify.py --only resumed_intrinsic_repeated_u.py --only resumed-repeated-u-wheel-independent.py
+PASS verifier: resumed_intrinsic_repeated_u.py
+PASS verifier: resumed-repeated-u-wheel-independent.py
+All 0 certificate replays and 2 verifiers passed; no certificates written.
+Exit: 0
+
+Full replay during requested Astra diff review:
+Command: mise exec -- conda run --no-capture-output -n arisearch mise run replay
+All 44 certificate replays and 238 verifiers passed; no certificates written.
+Research replay passed. Original research files are unchanged.
+Exit: 0
+Documentation repairs were applied after the immutability check completed.

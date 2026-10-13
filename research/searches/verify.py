@@ -62,6 +62,18 @@ CERTIFICATES = (
     ("branching-hexagon-new-chirality-collapse.py", "branching-hexagon-new-chirality-collapse.json"),
 )
 VERIFIERS = (
+    ROOT / "research/searches/resumed_intrinsic_repeated_u.py",
+    ROOT / "research/reviews/resumed-repeated-u-wheel-independent.py",
+    ROOT / "research/searches/resumed_intrinsic_wheel_d3.py",
+    ROOT / "research/reviews/resumed-two-size-wheel-complete-counts-independent.py",
+    ROOT / "research/searches/resumed_intrinsic_two_size_wheel.py",
+    ROOT / "research/reviews/resumed-two-size-wheel-independent.py",
+    ROOT / "research/searches/resumed_intrinsic_voronoi_pair.py",
+    ROOT / "research/searches/resumed-source-fan-check.py",
+    ROOT / "research/reviews/resumed-higher-partner-fixture-check.py",
+    ROOT / "research/reviews/resumed_higher_voronoi_verify.py",
+    ROOT / "research/searches/resumed-adjacent-octagon-check.py",
+    ROOT / "research/reviews/resumed_higher_adjacent_octagon_verify.py",
     ROOT / "research/searches/construction-cycle-b.py",
     ROOT / "research/reviews/check_construction_cycle_a_independent.py",
     ROOT / "research/reviews/check_construction_cycle_b_independent.py",
@@ -292,6 +304,10 @@ VERIFIERS = (
 
 # Producer-style controls write only to a disposable output selected by run().
 VERIFIER_ARGS = {
+    "resumed_intrinsic_repeated_u.py": ["--check", "research/certificates/resumed_intrinsic_repeated_u.json"],
+    "resumed_intrinsic_wheel_d3.py": ["--check", "research/certificates/resumed_intrinsic_wheel_d3.json"],
+    "resumed_intrinsic_two_size_wheel.py": ["--check", "research/certificates/resumed_intrinsic_two_size_wheel.json"],
+    "resumed_intrinsic_voronoi_pair.py": ["--check", "research/certificates/resumed_intrinsic_voronoi_pair.json"],
     "construction-cycle-b.py": ["--check", "research/certificates/construction-cycle-b.json"],
     "terra-five-one-010122-cross-22-gate.py": ["--check", "research/certificates/terra-five-one-010122-cross-22-gate.json"],
     "check_two_hexagon_alternating_residual_periodic_actions.py": ["--output", "{output}"],

@@ -1,0 +1,9449 @@
+{
+  "minimal_polynomial": "t^4-2*t^2-4",
+  "area_multiplier": "1+sqrt(5)",
+  "status": "NO DISTINCT-ANGLE SIX-PIECE WHEEL AT ANY REAL POSITIVE SIDE LENGTHS",
+  "case_count": 480,
+  "zero_determinant_count": 0,
+  "records": [
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        72,
+        -112,
+        4,
+        20
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        84,
+        -52,
+        28,
+        -14
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        80,
+        -72,
+        44,
+        -16
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        120,
+        -62,
+        87,
+        -50
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        84,
+        -52,
+        28,
+        -14
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        116,
+        -58,
+        75,
+        -44
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        120,
+        -62,
+        87,
+        -50
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        196,
+        -106,
+        159,
+        -90
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -40,
+        -72,
+        20,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        12,
+        -38,
+        12,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        0,
+        -36,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        25,
+        -13
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -4,
+        -30,
+        20,
+        -1
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        32,
+        -29,
+        29,
+        -12
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        33,
+        -17
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        72,
+        -37,
+        57,
+        -31
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -40,
+        -72,
+        20,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -4,
+        -30,
+        20,
+        -1
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        0,
+        -36,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        33,
+        -17
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        12,
+        -38,
+        12,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        32,
+        -29,
+        29,
+        -12
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        25,
+        -13
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        72,
+        -37,
+        57,
+        -31
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -88,
+        0,
+        28,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -28,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -32,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        4,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -28,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        0,
+        0,
+        11,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        4,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        1
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        24,
+        0,
+        15,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        70,
+        -104,
+        29,
+        4
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        117,
+        -74,
+        68,
+        -35
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        117,
+        -74,
+        68,
+        -35
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        172,
+        -86,
+        128,
+        -74
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -50,
+        -68,
+        21,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        5,
+        -36,
+        10,
+        5
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -3,
+        -30,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        32,
+        -19,
+        22,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        106,
+        -52,
+        43,
+        -26
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        155,
+        -76,
+        108,
+        -63
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        155,
+        -76,
+        108,
+        -63
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        244,
+        -130,
+        196,
+        -110
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        10,
+        -34,
+        11,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        31,
+        -23,
+        20,
+        -8
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        31,
+        -29,
+        28,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        64,
+        -33,
+        50,
+        -25
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -50,
+        -68,
+        21,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -3,
+        -30,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        5,
+        -36,
+        10,
+        5
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        32,
+        -19,
+        22,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -90,
+        0,
+        29,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -27,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -27,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        8,
+        0,
+        8,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        10,
+        -34,
+        11,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        31,
+        -29,
+        28,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        31,
+        -23,
+        20,
+        -8
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        64,
+        -33,
+        50,
+        -25
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -22,
+        0,
+        11,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -1,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -1,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        24,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        70,
+        -104,
+        29,
+        4
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        106,
+        -52,
+        43,
+        -26
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -50,
+        -68,
+        21,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        10,
+        -34,
+        11,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        117,
+        -74,
+        68,
+        -35
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        155,
+        -76,
+        108,
+        -63
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -3,
+        -30,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        31,
+        -29,
+        28,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        117,
+        -74,
+        68,
+        -35
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        155,
+        -76,
+        108,
+        -63
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        5,
+        -36,
+        10,
+        5
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        31,
+        -23,
+        20,
+        -8
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        172,
+        -86,
+        128,
+        -74
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        244,
+        -130,
+        196,
+        -110
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        32,
+        -19,
+        22,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        64,
+        -33,
+        50,
+        -25
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -50,
+        -68,
+        21,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        10,
+        -34,
+        11,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -90,
+        0,
+        29,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -22,
+        0,
+        11,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        5,
+        -36,
+        10,
+        5
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        31,
+        -23,
+        20,
+        -8
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -27,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -1,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -3,
+        -30,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        31,
+        -29,
+        28,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -27,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -1,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        32,
+        -19,
+        22,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        64,
+        -33,
+        50,
+        -25
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        8,
+        0,
+        8,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        24,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        72,
+        -112,
+        4,
+        20
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -40,
+        -72,
+        20,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        84,
+        -52,
+        28,
+        -14
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -4,
+        -30,
+        20,
+        -1
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        80,
+        -72,
+        44,
+        -16
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        0,
+        -36,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        120,
+        -62,
+        87,
+        -50
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        33,
+        -17
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        84,
+        -52,
+        28,
+        -14
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        12,
+        -38,
+        12,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        116,
+        -58,
+        75,
+        -44
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        32,
+        -29,
+        29,
+        -12
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        120,
+        -62,
+        87,
+        -50
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        25,
+        -13
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        196,
+        -106,
+        159,
+        -90
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        72,
+        -37,
+        57,
+        -31
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -40,
+        -72,
+        20,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -88,
+        0,
+        28,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        12,
+        -38,
+        12,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -28,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        0,
+        -36,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -32,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        25,
+        -13
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        4,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -4,
+        -30,
+        20,
+        -1
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -28,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        32,
+        -29,
+        29,
+        -12
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        0,
+        0,
+        11,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        33,
+        -17
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        4,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        72,
+        -37,
+        57,
+        -31
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        0,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        24,
+        0,
+        15,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        72,
+        -112,
+        4,
+        20
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        80,
+        -72,
+        44,
+        -16
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        84,
+        -52,
+        28,
+        -14
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        120,
+        -62,
+        87,
+        -50
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -40,
+        -72,
+        20,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        0,
+        -36,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -4,
+        -30,
+        20,
+        -1
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        33,
+        -17
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -40,
+        -72,
+        20,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        0,
+        -36,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        12,
+        -38,
+        12,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        25,
+        -13
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -88,
+        0,
+        28,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -32,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -28,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        4,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        84,
+        -52,
+        28,
+        -14
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        120,
+        -62,
+        87,
+        -50
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        116,
+        -58,
+        75,
+        -44
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        196,
+        -106,
+        159,
+        -90
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        12,
+        -38,
+        12,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        25,
+        -13
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        32,
+        -29,
+        29,
+        -12
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        72,
+        -37,
+        57,
+        -31
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -4,
+        -30,
+        20,
+        -1
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        33,
+        -17
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        32,
+        -29,
+        29,
+        -12
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        72,
+        -37,
+        57,
+        -31
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -28,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        4,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        0,
+        0,
+        11,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        24,
+        0,
+        15,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        70,
+        -104,
+        29,
+        4
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        117,
+        -74,
+        68,
+        -35
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -50,
+        -68,
+        21,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -3,
+        -30,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        106,
+        -52,
+        43,
+        -26
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        155,
+        -76,
+        108,
+        -63
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        10,
+        -34,
+        11,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        31,
+        -29,
+        28,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -50,
+        -68,
+        21,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        5,
+        -36,
+        10,
+        5
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -90,
+        0,
+        29,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -27,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        10,
+        -34,
+        11,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        31,
+        -23,
+        20,
+        -8
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -22,
+        0,
+        11,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -1,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        117,
+        -74,
+        68,
+        -35
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        172,
+        -86,
+        128,
+        -74
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        5,
+        -36,
+        10,
+        5
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        32,
+        -19,
+        22,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        155,
+        -76,
+        108,
+        -63
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        244,
+        -130,
+        196,
+        -110
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        31,
+        -23,
+        20,
+        -8
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        64,
+        -33,
+        50,
+        -25
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -3,
+        -30,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        32,
+        -19,
+        22,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -27,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        8,
+        0,
+        8,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        31,
+        -29,
+        28,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        64,
+        -33,
+        50,
+        -25
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -1,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        24,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        70,
+        -104,
+        29,
+        4
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -50,
+        -68,
+        21,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        117,
+        -74,
+        68,
+        -35
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -3,
+        -30,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        117,
+        -74,
+        68,
+        -35
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        5,
+        -36,
+        10,
+        5
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        172,
+        -86,
+        128,
+        -74
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        32,
+        -19,
+        22,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -50,
+        -68,
+        21,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -90,
+        0,
+        29,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        5,
+        -36,
+        10,
+        5
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -27,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -3,
+        -30,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -27,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        32,
+        -19,
+        22,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        8,
+        0,
+        8,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        106,
+        -52,
+        43,
+        -26
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        10,
+        -34,
+        11,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        155,
+        -76,
+        108,
+        -63
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        31,
+        -29,
+        28,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        155,
+        -76,
+        108,
+        -63
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        31,
+        -23,
+        20,
+        -8
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        244,
+        -130,
+        196,
+        -110
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        64,
+        -33,
+        50,
+        -25
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        10,
+        -34,
+        11,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -22,
+        0,
+        11,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        31,
+        -23,
+        20,
+        -8
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -1,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        31,
+        -29,
+        28,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -1,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        64,
+        -33,
+        50,
+        -25
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        1,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        24,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        72,
+        -112,
+        4,
+        20
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        84,
+        -52,
+        28,
+        -14
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -40,
+        -72,
+        20,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -4,
+        -30,
+        20,
+        -1
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -40,
+        -72,
+        20,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        12,
+        -38,
+        12,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -88,
+        0,
+        28,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -28,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        84,
+        -52,
+        28,
+        -14
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        116,
+        -58,
+        75,
+        -44
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        12,
+        -38,
+        12,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        32,
+        -29,
+        29,
+        -12
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -4,
+        -30,
+        20,
+        -1
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        32,
+        -29,
+        29,
+        -12
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -28,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        0,
+        0,
+        11,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        80,
+        -72,
+        44,
+        -16
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        120,
+        -62,
+        87,
+        -50
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        0,
+        -36,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        33,
+        -17
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        0,
+        -36,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        25,
+        -13
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -32,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        4,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        120,
+        -62,
+        87,
+        -50
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        196,
+        -106,
+        159,
+        -90
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        25,
+        -13
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        72,
+        -37,
+        57,
+        -31
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        33,
+        -17
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        72,
+        -37,
+        57,
+        -31
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        4,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        24,
+        0,
+        15,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        70,
+        -104,
+        29,
+        4
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -50,
+        -68,
+        21,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        106,
+        -52,
+        43,
+        -26
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        10,
+        -34,
+        11,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -50,
+        -68,
+        21,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -90,
+        0,
+        29,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        10,
+        -34,
+        11,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -22,
+        0,
+        11,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        117,
+        -74,
+        68,
+        -35
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        5,
+        -36,
+        10,
+        5
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        155,
+        -76,
+        108,
+        -63
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        31,
+        -23,
+        20,
+        -8
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -3,
+        -30,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -27,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        31,
+        -29,
+        28,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -1,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        117,
+        -74,
+        68,
+        -35
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -3,
+        -30,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        155,
+        -76,
+        108,
+        -63
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        31,
+        -29,
+        28,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        5,
+        -36,
+        10,
+        5
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -27,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        31,
+        -23,
+        20,
+        -8
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -1,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        172,
+        -86,
+        128,
+        -74
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        32,
+        -19,
+        22,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        244,
+        -130,
+        196,
+        -110
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        64,
+        -33,
+        50,
+        -25
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        32,
+        -19,
+        22,
+        -11
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        8,
+        0,
+        8,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        64,
+        -33,
+        50,
+        -25
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        2,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        24,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        72,
+        -112,
+        4,
+        20
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -40,
+        -72,
+        20,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -40,
+        -72,
+        20,
+        18
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -88,
+        0,
+        28,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        84,
+        -52,
+        28,
+        -14
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        12,
+        -38,
+        12,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -4,
+        -30,
+        20,
+        -1
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -28,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        80,
+        -72,
+        44,
+        -16
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        0,
+        -36,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        0,
+        -36,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -32,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        120,
+        -62,
+        87,
+        -50
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        25,
+        -13
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        33,
+        -17
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        4,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        84,
+        -52,
+        28,
+        -14
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -4,
+        -30,
+        20,
+        -1
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        12,
+        -38,
+        12,
+        3
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -28,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        116,
+        -58,
+        75,
+        -44
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        32,
+        -29,
+        29,
+        -12
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        32,
+        -29,
+        29,
+        -12
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        0,
+        0,
+        11,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        120,
+        -62,
+        87,
+        -50
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        33,
+        -17
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        36,
+        -23,
+        25,
+        -13
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        4,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        196,
+        -106,
+        159,
+        -90
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        72,
+        -37,
+        57,
+        -31
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        72,
+        -37,
+        57,
+        -31
+      ]
+    },
+    {
+      "central_large": false,
+      "large_corners": [
+        3,
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        24,
+        0,
+        15,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -88,
+        -112,
+        32,
+        32
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        0,
+        -56,
+        10,
+        12
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -24,
+        -48,
+        20,
+        8
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        26,
+        -20,
+        15,
+        -6
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -24,
+        -48,
+        20,
+        8
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        20,
+        -32,
+        20,
+        -4
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        22,
+        -20,
+        23,
+        -10
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        51,
+        -24,
+        38,
+        -21
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        0,
+        -56,
+        10,
+        12
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        26,
+        -28,
+        13,
+        -2
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        20,
+        -32,
+        20,
+        -4
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        47,
+        -24,
+        34,
+        -17
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        26,
+        -20,
+        15,
+        -6
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        47,
+        -24,
+        34,
+        -17
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        51,
+        -24,
+        38,
+        -21
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        88,
+        -42,
+        71,
+        -36
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -152,
+        0,
+        48,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -48,
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -56,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        2,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -56,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -12,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -2,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        19,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -48,
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -14,
+        0,
+        13,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -12,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        15,
+        0,
+        16,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        2,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        15,
+        0,
+        16,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        19,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        0
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        40,
+        -2,
+        31,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -88,
+        -112,
+        32,
+        32
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -24,
+        -48,
+        20,
+        8
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -24,
+        -48,
+        20,
+        8
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        22,
+        -20,
+        23,
+        -10
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        0,
+        -56,
+        10,
+        12
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        20,
+        -32,
+        20,
+        -4
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        26,
+        -20,
+        15,
+        -6
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        51,
+        -24,
+        38,
+        -21
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -152,
+        0,
+        48,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -56,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -56,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -2,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -48,
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -12,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        2,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        19,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        0,
+        -56,
+        10,
+        12
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        26,
+        -20,
+        15,
+        -6
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        20,
+        -32,
+        20,
+        -4
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        51,
+        -24,
+        38,
+        -21
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        26,
+        -28,
+        13,
+        -2
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        47,
+        -24,
+        34,
+        -17
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        47,
+        -24,
+        34,
+        -17
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        88,
+        -42,
+        71,
+        -36
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -48,
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        2,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -12,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        19,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -14,
+        0,
+        13,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        15,
+        0,
+        16,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        15,
+        0,
+        16,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        1
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        40,
+        -2,
+        31,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -88,
+        -112,
+        32,
+        32
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -24,
+        -48,
+        20,
+        8
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        0,
+        -56,
+        10,
+        12
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        26,
+        -20,
+        15,
+        -6
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -152,
+        0,
+        48,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -56,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -48,
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        2,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        0,
+        -56,
+        10,
+        12
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        20,
+        -32,
+        20,
+        -4
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        26,
+        -28,
+        13,
+        -2
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        47,
+        -24,
+        34,
+        -17
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -48,
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -12,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -14,
+        0,
+        13,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        15,
+        0,
+        16,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -24,
+        -48,
+        20,
+        8
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        22,
+        -20,
+        23,
+        -10
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        20,
+        -32,
+        20,
+        -4
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        51,
+        -24,
+        38,
+        -21
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -56,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -2,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -12,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        19,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        26,
+        -20,
+        15,
+        -6
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        51,
+        -24,
+        38,
+        -21
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        47,
+        -24,
+        34,
+        -17
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        88,
+        -42,
+        71,
+        -36
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        2,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        19,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        15,
+        0,
+        16,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        2
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        40,
+        -2,
+        31,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -88,
+        -112,
+        32,
+        32
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        0,
+        -56,
+        10,
+        12
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -152,
+        0,
+        48,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -48,
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        0,
+        -56,
+        10,
+        12
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        26,
+        -28,
+        13,
+        -2
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -48,
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -14,
+        0,
+        13,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -24,
+        -48,
+        20,
+        8
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        20,
+        -32,
+        20,
+        -4
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -56,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -12,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        26,
+        -20,
+        15,
+        -6
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        47,
+        -24,
+        34,
+        -17
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        2,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        15,
+        0,
+        16,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -24,
+        -48,
+        20,
+        8
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        26,
+        -20,
+        15,
+        -6
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -56,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        2,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        20,
+        -32,
+        20,
+        -4
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        47,
+        -24,
+        34,
+        -17
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -12,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        15,
+        0,
+        16,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        22,
+        -20,
+        23,
+        -10
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        51,
+        -24,
+        38,
+        -21
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        -2,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        19,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        51,
+        -24,
+        38,
+        -21
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        88,
+        -42,
+        71,
+        -36
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        19,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        3
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        40,
+        -2,
+        31,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -88,
+        -112,
+        32,
+        32
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -152,
+        0,
+        48,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        0,
+        -56,
+        10,
+        12
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -48,
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -24,
+        -48,
+        20,
+        8
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -56,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        26,
+        -20,
+        15,
+        -6
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        2,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        -24,
+        -48,
+        20,
+        8
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -56,
+        0,
+        20,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        20,
+        -32,
+        20,
+        -4
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -12,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        22,
+        -20,
+        23,
+        -10
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -2,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        51,
+        -24,
+        38,
+        -21
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        19,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        0,
+        -56,
+        10,
+        12
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -48,
+        0,
+        18,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        26,
+        -28,
+        13,
+        -2
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        -14,
+        0,
+        13,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        20,
+        -32,
+        20,
+        -4
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        -12,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        47,
+        -24,
+        34,
+        -17
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        15,
+        0,
+        16,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        26,
+        -20,
+        15,
+        -6
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        2,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        47,
+        -24,
+        34,
+        -17
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        15,
+        0,
+        16,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "determinant_coefficients": [
+        51,
+        -24,
+        38,
+        -21
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "determinant_coefficients": [
+        19,
+        0,
+        12,
+        0
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "determinant_coefficients": [
+        88,
+        -42,
+        71,
+        -36
+      ]
+    },
+    {
+      "central_large": true,
+      "large_corners": [
+        4
+      ],
+      "reflections": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "determinant_coefficients": [
+        40,
+        -2,
+        31,
+        0
+      ]
+    }
+  ]
+}

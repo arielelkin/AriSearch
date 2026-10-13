@@ -707,25 +707,6 @@ Do not stop merely because:
 
 Continue launching fresh rounds, preserving incompatible approaches, and redirecting away from blocked mechanisms.
 
-Monitor token usage when available and reserve capacity for checkpointing,
-artifact preservation, and the final response. Without telemetry, checkpoint
-after each substantial result and continue until the target is resolved or
-an explicit limit signal requires stopping. Do not invent token counts or
-infer exhaustion from elapsed time, difficulty, or lack of progress.
-Context compaction alone is not token-budget exhaustion; resume from the
-checkpoint when execution can continue.
-
-Do not claim to have spent time that was not actually available.
-
-If an actual token, execution, tool, or context limit requires termination
-before a solution is found, perform these steps before exhausting capacity:
-
-* do not disguise partial progress as success;
-* checkpoint `discovery-log.md`;
-* preserve stable artifacts and exact restart states;
-* mark unresolved claims honestly;
-* follow the no-result response format required by `research-problem.md`.
-
 ## 20. Successful deliverable structure
 
 The exact successful deliverables are defined by `research-problem.md`.

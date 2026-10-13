@@ -2,7 +2,7 @@
 
 **Problem status: unresolved.** No exact aperiodic pair or complete unrestricted
 impossibility theorem meets [the acceptance criteria](research-problem.md).
-**Checkpoint: 2026-10-13, completed construction cycle; four new checks passed.**
+**Checkpoint: 2026-10-13, autonomous portfolio advanced; unrestricted target unresolved.**
 The unique-B-star and complete complementary two-angle hexagon families
 admit periodic escapes whenever tileable. The complementary three-angle
 result covers distinct, non-120 angles on its stated resonance domain. The original acute/obtuse pentagon native
@@ -14,6 +14,38 @@ These are restricted family results, not a global impossibility theorem.
 no construction meets all acceptance criteria. Individual branch results are checkpoints. Source-only or local
 objects below are not aperiodic pairs. Historical incremental notes are
 [archived](research/searches/discovery-log-2026-10-13-working-history.md).
+
+## Resumed autonomous portfolio (2026-10-13)
+
+Status: unresolved checkpoint; unrestricted target unchanged. The new main_prompt invocation resumes research beyond the earlier single-cycle scope. Existing closed enumerations and B5+1 remain paused. No result or novelty claim is made.
+
+Independent initial tasks: (i) convex atoms with a directly repeatable hierarchy, attacking parent geometry rather than the completed bevelled chair; (ii) structural obstruction or construction involving a pentagon and a higher-sided partner, allowing partial contacts; (iii) exact primary-source recovery of small convex aperiodic sets and a concrete two-class resection mechanism. Root integrates and assigns fresh hostile reviews. All tool commands use the locked arisearch environment; file ownership is nonoverlapping.
+
+Locked environment verification passed (SageMath10.9, Z3 4.16.0, OR-Tools9.15.6755); no dependency changed. Current mechanisms:
+
+| Mechanism | Strongest result / artifact | Exact remaining obligation |
+| --- | --- | --- |
+| Ordinary similarity substitution | [Reviewed VALID pentagon/higher-partner bound](research/lemmas/pentagon-higher-partner-positive-conjugate-bound.md): a pentagon needs>=6 convex children of>=5 sides; quadratic positive-conjugate two-species area inflation mu>=(5+sqrt13)/2 | Larger inflation, nonconvex parents, and arbitrary nonsubstitution tilings remain; algebraic equality has no geometry |
+| Adjacent-low octagon metric resources | [Private αα-side family](research/searches/resumed-higher-partner.md), independent [VALID review](research/reviews/resumed-higher-partner-hostile-review.md): equi108 pentagon + adjacent108/six144 octagon is untileable if αα length private | [Stronger necessary AA=BB equality](research/lemmas/adjacent-low-octagon-alpha-alpha-length-obstruction.md) independently reviewed VALID; [exact equality-locus periodic covering](research/counterexamples/resumed-adjacent-octagon-periodic-equality-pair.md) independently reviewed VALID, two-class2Q+4P six-face motif |
+| Golden triangle fan/source dissection | [Exact fan and inheritance](research/searches/resumed-source-compiler.md), independent [VALID review](research/reviews/resumed-source-compiler-hostile-review.md): only CCC strict pentagon, periodic half-turn carrier; literal unmarked rhomb dissection inherits period | Reassembly must cross source boundaries and intrinsically decode aperiodic source; increasing fan word domain does not help |
+| Changed Voronoi incidence | [Exact Voronoi (5,8) pair](research/counterexamples/resumed-voronoi-periodic-nonmonohedral-pair.md) independently reviewed VALID; S=Z²+{0,±(1/10,49/100)}, both individually untileable, periodic14corner/fourreflex2P+Q parent | Complete75-neighbor domain,285 necessary corner multisets and independent verifier passed; isolated site move makes thirdclass. Samepair permanently killed byperiodic witness; newmetrics required |
+| Small convex source recovery | [Current primary boundary](research/literature/resumed-small-convex-source-recovery.md) | Exact Danzer six/nine definitions still missing; no source-forcing transfer made |
+
+No closed global search was resumed; no final report exists. The equality-locus covering and Voronoi controls are complete periodic escapes. [Small irrational two-size count reduction](research/lemmas/two-size-pentagon-small-inflation-and-boundary-module.md) passed [independent review](research/reviews/resumed-two-size-negative-conjugate-review.md):105 integer cases,94 irrational,67 d-positive. Its U-specific boundary-field exclusion is superseded for candidate coverage by the pre-existing [unrestricted two-U theorem](research/lemmas/pentagrid-two-asymmetric-u-obstruction.md), which was found during repository equivalence audit. Conditional classification claims remain explicitly conditional; that existing two-U exclusion itself uses no monohedral classification.
+
+The [stable distinct-angle six-child wheel theorem](research/lemmas/two-size-pentagon-six-child-wheel-obstruction.md) excludes all six b+d=6 count patterns: four analytic row-sum exclusions plus480/640 exact determinant certificates. [Independent combined review](research/reviews/resumed-two-size-wheel-complete-counts-review.md) and [root extraction audit](research/reviews/resumed-wheel-extraction-review.md) are VALID. This is a fixed-topology theorem, not a classification of six-piece dissections. The subsequently completed [repeated-U necessary boundary audit](research/searches/resumed-two-size-repeated-u-wheel.md) covered7680 matrices and passed [independent review](research/reviews/resumed-repeated-u-wheel-review.md); it is likewise superseded for U candidate coverage. Its positive-kernel/closure branches were unnecessary and unexecuted, not certified geometric searches.
+
+An ancillary [finite similar-U zero-core extension](research/lemmas/finite-similar-u-maximum-side-ratio-obstruction.md) passed [fresh independent VALID review](research/reviews/resumed-similar-u-zero-core-review.md): rho=B²/(Bc+Ab)<=1 necessary and maximum acute-to-acute seams impossible. It targets finite collections of three or more similar U sizes, so is not a remaining two-U candidate. Straight-host cases remain open; no further enumeration or source claim follows.
+
+Twelve new registered checks passed (two Voronoi, two adjacent equality, fan, support fixture, two480-wheel, two640-wheel and two repeated-U checks). Registry now has44 certificate pairs and238 verifiers (282 total). [Retained outputs](research/reviews/resumed-targeted-replay.txt). Full legacy replay was not repeated; no dependency changed. Current primary boundary is [recorded](research/literature/resumed-substitution-and-unrestricted-boundary.md); no novelty asserted. No stage, commit or push occurred.
+
+### Exact restart priorities and remaining acceptance gaps
+
+1. The final target still needs an explicit exact pair with an infinite covering AND universal nonperiodicity under reflections, partial contacts, alternative assemblies and species omission, or a proof covering EVERY unrestricted pair. No new pair or universal theorem meets those gates.
+2. Construct a different native-angle/metric pair and exact parent contact scheme outside the completed wheel and existing two-U exclusions. Counts alone are not geometry. Larger-child, nonconvex-parent and different topology schemes remain unclassified; do not reopen a killed domain merely by increasing a bound.
+3. A source compiler must give a cross-boundary branching reassembly whose final full faces are convex with at least five corners, exactly two congruence classes, and an intrinsic decoder of an actually aperiodic source. Literal rhomb dissection and the audited triangle fan are permanently killed; Danzer six/nine exact definitions remain unrecovered.
+4. Keep the general pentagon/higher-partner and repeated-length/noncomplementary hexagon cases open. The new side-length necessity and periodic examples do not classify the adjacent-octagon equality locus or arbitrary pairs.
+
 
 ## Current construction cycle (2026-10-13): completed
 
@@ -781,3 +813,36 @@ Final targeted registered replay of the independent balanced-root ring checker
 passed; all eight newly registered checks have passed. Final Python/JSON
 parsing, new-lemma/current-log links and whitespace checks pass. The full
 registered suite was not rerun.
+
+## Resumed-run checkpoint (2026-10-13)
+
+All delegated tasks and exact enumerations completed; no research solver or
+checkpoint writer remains running. The twelve new registered checks passed;
+new artifact links, Python/JSON syntax and whitespace checks passed. Locked
+environment verification passed; the entire legacy replay was not repeated.
+No unverified positive candidate is left active. No final report, novelty
+claim, unrestricted impossibility theorem, stage, commit or push was made.
+The mechanism table and numbered restart obligations above are current.
+
+## Astra diff review and full replay
+
+The user requested an Astra review, repairs, commit and push, explicitly
+including their research-protocol.md edit. The Astra reviewer found no
+substantive mathematical, certificate, registry or scope defect. Its findings
+were a broken fixture replay command and stale fixture/review/restart metadata.
+The command now uses the retained Python checker; metadata now reflects the
+side2u fixture, completed independent reviews and superseded7680-case U audit.
+The research-protocol.md edit is preserved unchanged.
+
+Full command `mise exec -- conda run --no-capture-output -n arisearch mise run replay`
+completed exit0: all44 certificate replays and238 verifiers passed (282 total).
+The replay confirmed original research files unchanged; documentation repairs
+were applied afterward. This supersedes the earlier checkpoints' statement
+that the full legacy replay had not been repeated. Mathematical target status
+remains unresolved; no new solver search or paused enumeration was resumed.
+
+Astra independently rereviewed the documentation repairs and approved the
+final diff with no unresolved findings. Its [review record](research/reviews/resumed-astra-diff-review.md)
+retains the findings, resolutions, independent replay results and scope limits.
+The corrected fixture command completed exit0; local artifact links, syntax
+and whitespace checks passed after the repairs.
