@@ -1,0 +1,638 @@
+{
+  "XY_count_matrix_on_thin_thick": [
+    [
+      "1",
+      "1"
+    ],
+    [
+      "1",
+      "1"
+    ]
+  ],
+  "contact_enumeration_performed": false,
+  "coordinates": "(x,y) means x+i*sin(pi/5)*y",
+  "field": "phi^2-phi-1=0, phi=(1+sqrt(5))/2",
+  "finite_domain": "4 choices of center on each side; 16 rows; superset of legal contacts",
+  "geometry_rows": [
+    {
+      "left": [
+        "thin",
+        -1
+      ],
+      "native_sides": 4,
+      "normalized_area": "1/2",
+      "right": [
+        "thin",
+        -1
+      ],
+      "turns": [
+        "-1/4*phi + 1/2",
+        "1/2",
+        "1/4*phi + 1/2",
+        "1/2"
+      ],
+      "vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1/4*phi + 1/2",
+          "-1/2"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "-1/4*phi + 1/2",
+          "1/2"
+        ]
+      ]
+    },
+    {
+      "left": [
+        "thin",
+        1
+      ],
+      "native_sides": 4,
+      "normalized_area": "1/2",
+      "right": [
+        "thin",
+        -1
+      ],
+      "turns": [
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1/4*phi + 1/2",
+          "-1/2"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1/4*phi + 1/2",
+          "1/2"
+        ]
+      ]
+    },
+    {
+      "left": [
+        "thick",
+        -1
+      ],
+      "native_sides": 4,
+      "normalized_area": "1/4*phi + 1/4",
+      "right": [
+        "thin",
+        -1
+      ],
+      "turns": [
+        "1/4",
+        "1/2",
+        "1/2*phi + 1/4",
+        "1/2*phi"
+      ],
+      "vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1/4*phi + 1/2",
+          "-1/2"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "-1/4*phi + 3/4",
+          "1/2*phi"
+        ]
+      ]
+    },
+    {
+      "left": [
+        "thick",
+        1
+      ],
+      "native_sides": 4,
+      "normalized_area": "1/4*phi + 1/4",
+      "right": [
+        "thin",
+        -1
+      ],
+      "turns": [
+        "1/4*phi",
+        "1/2",
+        "1/4*phi + 1/2",
+        "1/2*phi"
+      ],
+      "vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1/4*phi + 1/2",
+          "-1/2"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1/4*phi + 1/4",
+          "1/2*phi"
+        ]
+      ]
+    },
+    {
+      "left": [
+        "thin",
+        -1
+      ],
+      "native_sides": 4,
+      "normalized_area": "1/2",
+      "right": [
+        "thin",
+        1
+      ],
+      "turns": [
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/4*phi + 1/2",
+          "-1/2"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "-1/4*phi + 1/2",
+          "1/2"
+        ]
+      ]
+    },
+    {
+      "left": [
+        "thin",
+        1
+      ],
+      "native_sides": 4,
+      "normalized_area": "1/2",
+      "right": [
+        "thin",
+        1
+      ],
+      "turns": [
+        "1/4*phi + 1/2",
+        "1/2",
+        "-1/4*phi + 1/2",
+        "1/2"
+      ],
+      "vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/4*phi + 1/2",
+          "-1/2"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1/4*phi + 1/2",
+          "1/2"
+        ]
+      ]
+    },
+    {
+      "left": [
+        "thick",
+        -1
+      ],
+      "native_sides": 4,
+      "normalized_area": "1/4*phi + 1/4",
+      "right": [
+        "thin",
+        1
+      ],
+      "turns": [
+        "1/4*phi + 1/2",
+        "1/2",
+        "1/4*phi",
+        "1/2*phi"
+      ],
+      "vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/4*phi + 1/2",
+          "-1/2"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "-1/4*phi + 3/4",
+          "1/2*phi"
+        ]
+      ]
+    },
+    {
+      "left": [
+        "thick",
+        1
+      ],
+      "native_sides": 4,
+      "normalized_area": "1/4*phi + 1/4",
+      "right": [
+        "thin",
+        1
+      ],
+      "turns": [
+        "1/2*phi + 1/4",
+        "1/2",
+        "1/4",
+        "1/2*phi"
+      ],
+      "vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/4*phi + 1/2",
+          "-1/2"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1/4*phi + 1/4",
+          "1/2*phi"
+        ]
+      ]
+    },
+    {
+      "left": [
+        "thin",
+        -1
+      ],
+      "native_sides": 4,
+      "normalized_area": "1/4*phi + 1/4",
+      "right": [
+        "thick",
+        -1
+      ],
+      "turns": [
+        "1/4",
+        "1/2*phi",
+        "1/2*phi + 1/4",
+        "1/2"
+      ],
+      "vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1/4*phi + 3/4",
+          "-1/2*phi"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "-1/4*phi + 1/2",
+          "1/2"
+        ]
+      ]
+    },
+    {
+      "left": [
+        "thin",
+        1
+      ],
+      "native_sides": 4,
+      "normalized_area": "1/4*phi + 1/4",
+      "right": [
+        "thick",
+        -1
+      ],
+      "turns": [
+        "1/4*phi + 1/2",
+        "1/2*phi",
+        "1/4*phi",
+        "1/2"
+      ],
+      "vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1/4*phi + 3/4",
+          "-1/2*phi"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1/4*phi + 1/2",
+          "1/2"
+        ]
+      ]
+    },
+    {
+      "left": [
+        "thick",
+        -1
+      ],
+      "native_sides": 4,
+      "normalized_area": "1/2*phi",
+      "right": [
+        "thick",
+        -1
+      ],
+      "turns": [
+        "1/2*phi - 1/4",
+        "1/2*phi",
+        "1/2*phi + 1/4",
+        "1/2*phi"
+      ],
+      "vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1/4*phi + 3/4",
+          "-1/2*phi"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "-1/4*phi + 3/4",
+          "1/2*phi"
+        ]
+      ]
+    },
+    {
+      "left": [
+        "thick",
+        1
+      ],
+      "native_sides": 4,
+      "normalized_area": "1/2*phi",
+      "right": [
+        "thick",
+        -1
+      ],
+      "turns": [
+        "1/2*phi",
+        "1/2*phi",
+        "1/2*phi",
+        "1/2*phi"
+      ],
+      "vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1/4*phi + 3/4",
+          "-1/2*phi"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1/4*phi + 1/4",
+          "1/2*phi"
+        ]
+      ]
+    },
+    {
+      "left": [
+        "thin",
+        -1
+      ],
+      "native_sides": 4,
+      "normalized_area": "1/4*phi + 1/4",
+      "right": [
+        "thick",
+        1
+      ],
+      "turns": [
+        "1/4*phi",
+        "1/2*phi",
+        "1/4*phi + 1/2",
+        "1/2"
+      ],
+      "vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/4*phi + 1/4",
+          "-1/2*phi"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "-1/4*phi + 1/2",
+          "1/2"
+        ]
+      ]
+    },
+    {
+      "left": [
+        "thin",
+        1
+      ],
+      "native_sides": 4,
+      "normalized_area": "1/4*phi + 1/4",
+      "right": [
+        "thick",
+        1
+      ],
+      "turns": [
+        "1/2*phi + 1/4",
+        "1/2*phi",
+        "1/4",
+        "1/2"
+      ],
+      "vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/4*phi + 1/4",
+          "-1/2*phi"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1/4*phi + 1/2",
+          "1/2"
+        ]
+      ]
+    },
+    {
+      "left": [
+        "thick",
+        -1
+      ],
+      "native_sides": 4,
+      "normalized_area": "1/2*phi",
+      "right": [
+        "thick",
+        1
+      ],
+      "turns": [
+        "1/2*phi",
+        "1/2*phi",
+        "1/2*phi",
+        "1/2*phi"
+      ],
+      "vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/4*phi + 1/4",
+          "-1/2*phi"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "-1/4*phi + 3/4",
+          "1/2*phi"
+        ]
+      ]
+    },
+    {
+      "left": [
+        "thick",
+        1
+      ],
+      "native_sides": 4,
+      "normalized_area": "1/2*phi",
+      "right": [
+        "thick",
+        1
+      ],
+      "turns": [
+        "1/2*phi + 1/4",
+        "1/2*phi",
+        "1/2*phi - 1/4",
+        "1/2*phi"
+      ],
+      "vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1/4*phi + 1/4",
+          "-1/2*phi"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1/4*phi + 1/4",
+          "1/2*phi"
+        ]
+      ]
+    }
+  ],
+  "global_cover_dependency": "ammann-forcing-aperiodicity.md Lemmas 5 and 7",
+  "intrinsic_decoder": "not established",
+  "obstruction": "all outputs strict convex quadrilaterals; every retained class has periodic monohedral omission",
+  "references": {
+    "A_X": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "1/4*phi + 1/2",
+        "-1/2"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "1/4*phi + 1/2",
+        "1/2"
+      ]
+    ],
+    "B_Y": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "-1/4*phi + 3/4",
+        "-1/2*phi"
+      ],
+      [
+        "1",
+        "0"
+      ],
+      [
+        "-1/4*phi + 3/4",
+        "1/2*phi"
+      ]
+    ]
+  },
+  "rule": "canonical rhomb centers; fan triangles glued across every edge",
+  "schema": 1,
+  "two_shape_collapse": "not tested; irrelevant after omission obstruction"
+}

@@ -16,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[2]
 SEARCHES = ROOT / "research/searches"
 CERTIFICATE_DIR = ROOT / "research/certificates"
 CERTIFICATES = (
+    ("mixed-partial-parent-2026-10-14.py", "mixed-partial-parent-2026-10-14.json"),
     ("construction-adversary-2026-10-14.py", "construction-adversary-2026-10-14.json"),
     ("nonconvex-parent-construction-2026-10-14-pentagon-repair.py", "nonconvex-parent-construction-2026-10-14-pentagon-repair.json"),
     ("nonconvex-parent-construction-2026-10-14.py", "nonconvex-parent-construction-2026-10-14.json"),
@@ -75,6 +76,13 @@ CERTIFICATES = (
     ("branching-hexagon-new-chirality-collapse.py", "branching-hexagon-new-chirality-collapse.json"),
 )
 VERIFIERS = (
+    ROOT / "research/reviews/ammann-fractional-resection-2026-10-14-independent.py",
+    ROOT / "research/reviews/ammann-fractional-resection-2026-10-14-mixed-parent-review.py",
+    ROOT / "research/reviews/mixed-partial-parent-2026-10-14-p5q14-review.py",
+    ROOT / "research/searches/p5q14-orientation-transition-2026-10-14.py",
+    ROOT / "research/reviews/p5q14-orientation-transition-2026-10-14-verifier.py",
+    ROOT / "research/searches/mixed-partial-parent-2026-10-14-verify.py",
+    ROOT / "research/searches/ammann-fractional-resection-2026-10-14.py",
     ROOT / "research/reviews/verify_p5q14_mandatory_palette_witnesses.py",
     ROOT / "research/reviews/construction-adversary-2026-10-14-p5q14-palette.py",
     ROOT / "research/reviews/verify_construction_adversary_one_q_orbit.py",
@@ -361,6 +369,8 @@ VERIFIERS = (
 
 # Producer-style controls write only to a disposable output selected by run().
 VERIFIER_ARGS = {
+    "p5q14-orientation-transition-2026-10-14.py": ["--check", "research/certificates/p5q14-orientation-transition-2026-10-14.json"],
+    "ammann-fractional-resection-2026-10-14.py": ["--check", "research/certificates/ammann-fractional-resection-2026-10-14.json"],
     "construction-adversary-2026-10-14-p5q14-palette.py": ["--check", "research/certificates/construction-adversary-2026-10-14-p5q14-palette.json"],
     "construction-adversary-2026-10-14-p5q14-independent.py": ["--check", "research/certificates/construction-adversary-2026-10-14-p5q14-independent.json"],
     "resumed_intrinsic_repeated_u.py": ["--check", "research/certificates/resumed_intrinsic_repeated_u.json"],

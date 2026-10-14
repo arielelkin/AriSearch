@@ -1,0 +1,1618 @@
+{
+  "canonical_native_cycles": 64,
+  "canonical_patch_counts": {
+    "mandatory_T": 32,
+    "mandatory_overlap": 28,
+    "survivor": 4
+  },
+  "cases": [
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 13,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 0,
+      "state": 0
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 3,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 1,
+      "state": 0
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 2,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 3,
+      "state": 0
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 6,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 4,
+      "state": 0
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 6,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 7,
+      "state": 0
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 10,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 8,
+      "state": 0
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 9,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 10,
+      "state": 0
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 13,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 11,
+      "state": 0
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 13,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 0,
+      "state": 0
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 3,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 1,
+      "state": 0
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 2,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 3,
+      "state": 0
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 6,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 4,
+      "state": 0
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 6,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 7,
+      "state": 0
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 10,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 8,
+      "state": 0
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 9,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 10,
+      "state": 0
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 13,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 11,
+      "state": 0
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 13,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 0,
+      "state": 1
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 3,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 1,
+      "state": 1
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 2,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 3,
+      "state": 1
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 6,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 4,
+      "state": 1
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 6,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 7,
+      "state": 1
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 10,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 8,
+      "state": 1
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 9,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 10,
+      "state": 1
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 13,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 11,
+      "state": 1
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 13,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 0,
+      "state": 1
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 3,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 1,
+      "state": 1
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 2,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 3,
+      "state": 1
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 6,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 4,
+      "state": 1
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 6,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 7,
+      "state": 1
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 10,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 8,
+      "state": 1
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 9,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 10,
+      "state": 1
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 13,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 11,
+      "state": 1
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 13,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 0,
+      "state": 2
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 3,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 1,
+      "state": 2
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 2,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 3,
+      "state": 2
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 6,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 4,
+      "state": 2
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 6,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 7,
+      "state": 2
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 10,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 8,
+      "state": 2
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 9,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 10,
+      "state": 2
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 13,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 11,
+      "state": 2
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 13,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 0,
+      "state": 2
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 3,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 1,
+      "state": 2
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 2,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 3,
+      "state": 2
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 6,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 4,
+      "state": 2
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 6,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 7,
+      "state": 2
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 10,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 8,
+      "state": 2
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 9,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 10,
+      "state": 2
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 13,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 11,
+      "state": 2
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 13,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 0,
+      "state": 3
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 3,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 1,
+      "state": 3
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 2,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 3,
+      "state": 3
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 6,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 4,
+      "state": 3
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 6,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 7,
+      "state": 3
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 10,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 8,
+      "state": 3
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 9,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 10,
+      "state": 3
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 13,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": -1,
+      "side": 11,
+      "state": 3
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 13,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 0,
+      "state": 3
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 3,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 1,
+      "state": 3
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 2,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 3,
+      "state": 3
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 6,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 4,
+      "state": 3
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 6,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 7,
+      "state": 3
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 10,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 8,
+      "state": 3
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 9,
+          "host": "slot6_guest",
+          "parameter": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "-2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 10,
+      "state": 3
+    },
+    {
+      "T_witnesses": [
+        {
+          "Q_corner": 13,
+          "host": "slot5_mandatory_mate",
+          "parameter": [
+            "-2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "-2",
+            "0",
+            "-1",
+            "0"
+          ]
+        }
+      ],
+      "hand": 1,
+      "side": 11,
+      "state": 3
+    }
+  ],
+  "generated_placements": "native P1/P3, both hands and endpoint maps; opposite side selected geometrically",
+  "schema": "mixed-partial-parent-2026-10-14-fresh-p5q14-review-v1",
+  "scope": "Fresh displayed-Q ring and64 forced-Q cases; all28 normalization checked by separately replayed author verifier, earlier35-word classification remains a reviewed dependency.",
+  "summary": {
+    "outside_Q_cases": 64,
+    "strict_T_cases": 64,
+    "survivors": 0
+  }
+}

@@ -1,0 +1,11 @@
+PASS certificate replay: mixed-partial-parent-2026-10-14.py
+PASS verifier: p5q14-orientation-transition-2026-10-14.py
+PASS verifier: p5q14-orientation-transition-2026-10-14-verifier.py
+PASS verifier: mixed-partial-parent-2026-10-14-verify.py
+PASS verifier: ammann-fractional-resection-2026-10-14.py
+All 1 certificate replays and 4 verifiers passed; no certificates written.
+PASS verifier: ammann-fractional-resection-2026-10-14-mixed-parent-review.py
+PASS verifier: mixed-partial-parent-2026-10-14-p5q14-review.py
+All 0 certificate replays and 2 verifiers passed; no certificates written.
+PASS verifier: ammann-fractional-resection-2026-10-14-independent.py
+All 0 certificate replays and 1 verifiers passed; no certificates written.

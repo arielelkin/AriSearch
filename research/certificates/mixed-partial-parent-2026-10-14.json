@@ -1,0 +1,766 @@
+{
+  "atoms": {
+    "P": {
+      "angles": [
+        90,
+        120,
+        120,
+        90,
+        120
+      ],
+      "area": [
+        "0",
+        "55/3",
+        "0",
+        "-5/3"
+      ],
+      "vertices": [
+        [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "3",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "4",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "11/2",
+            "0",
+            "-1/2"
+          ]
+        ],
+        [
+          [
+            "7/2",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "33/4",
+            "0",
+            "-3/4"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "11/6",
+            "0",
+            "-1/6"
+          ]
+        ]
+      ]
+    },
+    "Q": {
+      "angles": [
+        90,
+        135,
+        135,
+        90,
+        135,
+        135
+      ],
+      "area": [
+        "-13/6",
+        "133/4",
+        "1/4",
+        "-35/12"
+      ],
+      "vertices": [
+        [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "3",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "31/12",
+            "0",
+            "1/12",
+            "0"
+          ],
+          [
+            "-5/12",
+            "0",
+            "1/12",
+            "0"
+          ]
+        ],
+        [
+          [
+            "31/12",
+            "0",
+            "1/12",
+            "0"
+          ],
+          [
+            "-5/12",
+            "77/6",
+            "1/12",
+            "-7/6"
+          ]
+        ],
+        [
+          [
+            "0",
+            "-9/2",
+            "0",
+            "1/2"
+          ],
+          [
+            "-5/12",
+            "77/6",
+            "1/12",
+            "-7/6"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-5/12",
+            "52/3",
+            "1/12",
+            "-5/3"
+          ]
+        ]
+      ]
+    }
+  },
+  "completion": "EXACT_OBSTRUCTION_TO_THIS_MIXED_PARTIAL_PARENT_SCHEME",
+  "contact_interval_domain": [
+    {
+      "Q_left": "strictly below P90",
+      "Q_right": "inside P side, native90",
+      "kind": "STAGGERED_HOST_SWITCH"
+    },
+    {
+      "Q_left": "equal P90, native135",
+      "Q_right": "inside P side, native90",
+      "kind": "ALIGNED_Q_CONTAINMENT"
+    }
+  ],
+  "field": {
+    "basis": [
+      "1",
+      "g",
+      "g^2",
+      "g^3"
+    ],
+    "embedding": "sqrt(2)+sqrt(3)",
+    "polynomial": "g^4-10*g^2+1"
+  },
+  "palette": {
+    "flat_sector": 180,
+    "forbidden_remainders": [
+      45,
+      60,
+      105,
+      150
+    ],
+    "least_native_angle": 90
+  },
+  "parent": {
+    "Q_halfturn_vertices": [
+      [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "-2",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "-19/12",
+          "0",
+          "-1/12",
+          "0"
+        ],
+        [
+          "5/12",
+          "0",
+          "-1/12",
+          "0"
+        ]
+      ],
+      [
+        [
+          "-19/12",
+          "0",
+          "-1/12",
+          "0"
+        ],
+        [
+          "5/12",
+          "-77/6",
+          "-1/12",
+          "7/6"
+        ]
+      ],
+      [
+        [
+          "1",
+          "9/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "5/12",
+          "-77/6",
+          "-1/12",
+          "7/6"
+        ]
+      ],
+      [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "5/12",
+          "-52/3",
+          "-1/12",
+          "5/3"
+        ]
+      ]
+    ],
+    "area": [
+      "-13/6",
+      "619/12",
+      "1/4",
+      "-55/12"
+    ],
+    "boundary": [
+      [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "3",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "4",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "11/2",
+          "0",
+          "-1/2"
+        ]
+      ],
+      [
+        [
+          "7/2",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "33/4",
+          "0",
+          "-3/4"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "11/6",
+          "0",
+          "-1/6"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "-2",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "-19/12",
+          "0",
+          "-1/12",
+          "0"
+        ],
+        [
+          "5/12",
+          "0",
+          "-1/12",
+          "0"
+        ]
+      ],
+      [
+        [
+          "-19/12",
+          "0",
+          "-1/12",
+          "0"
+        ],
+        [
+          "5/12",
+          "-77/6",
+          "-1/12",
+          "7/6"
+        ]
+      ],
+      [
+        [
+          "1",
+          "9/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "5/12",
+          "-77/6",
+          "-1/12",
+          "7/6"
+        ]
+      ],
+      [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "5/12",
+          "-52/3",
+          "-1/12",
+          "5/3"
+        ]
+      ]
+    ],
+    "corners": 11,
+    "native_seam_endpoints": [
+      "P0 in Qside0",
+      "Q0 in Pside0"
+    ],
+    "offset": [
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    "reflex_corners": 2,
+    "status": "EXACT_DISJOINT_MIXED_PARTIAL_PARENT"
+  },
+  "repair": {
+    "Q_base": "b>3",
+    "offset": "t=b-3, 0<t<3",
+    "other_lengths": "u,7/r,b+(u-2)/s,2,7/r+(u-2)/s",
+    "result": "SAME_MIXED_120_135_WEDGE_OBSTRUCTION_FOR_ALL_POSITIVE_METRICS"
+  },
+  "scope": "No positive-length P/Q contact for these native angle words at any strictly convex positive metric. Fixed P omission is excluded by reviewed Cairo theorem. Q-only existence is not classified.",
+  "wedge_domain": {
+    "host_far_angles": [
+      120,
+      135
+    ],
+    "length_orders_per_ray": [
+      "shorter",
+      "equal",
+      "longer"
+    ],
+    "right_corner_guests": [
+      {
+        "corner": 0,
+        "equal_endpoint_remainders": [
+          120,
+          105
+        ],
+        "far_angles": [
+          120,
+          120
+        ],
+        "far_corners": [
+          4,
+          1
+        ],
+        "hand": 0,
+        "squared_arm_lengths": [
+          [
+            "1/3",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "9",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "status": "FORBIDDEN_105_ENDPOINT",
+        "type": "P"
+      },
+      {
+        "corner": 0,
+        "equal_endpoint_remainders": [
+          120,
+          105
+        ],
+        "far_angles": [
+          120,
+          120
+        ],
+        "far_corners": [
+          1,
+          4
+        ],
+        "hand": 1,
+        "squared_arm_lengths": [
+          [
+            "9",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "1/3",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "status": "FORBIDDEN_105_ENDPOINT",
+        "type": "P"
+      },
+      {
+        "corner": 3,
+        "equal_endpoint_remainders": [
+          120,
+          105
+        ],
+        "far_angles": [
+          120,
+          120
+        ],
+        "far_corners": [
+          2,
+          4
+        ],
+        "hand": 0,
+        "squared_arm_lengths": [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "49/3",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "status": "FORBIDDEN_105_ENDPOINT",
+        "type": "P"
+      },
+      {
+        "corner": 3,
+        "equal_endpoint_remainders": [
+          120,
+          105
+        ],
+        "far_angles": [
+          120,
+          120
+        ],
+        "far_corners": [
+          4,
+          2
+        ],
+        "hand": 1,
+        "squared_arm_lengths": [
+          [
+            "49/3",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "status": "FORBIDDEN_105_ENDPOINT",
+        "type": "P"
+      },
+      {
+        "corner": 0,
+        "equal_endpoint_remainders": [
+          105,
+          90
+        ],
+        "far_angles": [
+          135,
+          135
+        ],
+        "far_corners": [
+          5,
+          1
+        ],
+        "hand": 0,
+        "squared_arm_lengths": [
+          [
+            "181/6",
+            "-85/6",
+            "-7/3",
+            "3/2"
+          ],
+          [
+            "9",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "status": "FORBIDDEN_105_ENDPOINT",
+        "type": "Q"
+      },
+      {
+        "corner": 0,
+        "equal_endpoint_remainders": [
+          105,
+          90
+        ],
+        "far_angles": [
+          135,
+          135
+        ],
+        "far_corners": [
+          1,
+          5
+        ],
+        "hand": 1,
+        "squared_arm_lengths": [
+          [
+            "9",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "181/6",
+            "-85/6",
+            "-7/3",
+            "3/2"
+          ]
+        ],
+        "status": "FORBIDDEN_105_ENDPOINT",
+        "type": "Q"
+      },
+      {
+        "corner": 3,
+        "equal_endpoint_remainders": [
+          105,
+          90
+        ],
+        "far_angles": [
+          135,
+          135
+        ],
+        "far_corners": [
+          2,
+          4
+        ],
+        "hand": 0,
+        "squared_arm_lengths": [
+          [
+            "49/3",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "26/3",
+            "70/3",
+            "1/2",
+            "-8/3"
+          ]
+        ],
+        "status": "FORBIDDEN_105_ENDPOINT",
+        "type": "Q"
+      },
+      {
+        "corner": 3,
+        "equal_endpoint_remainders": [
+          105,
+          90
+        ],
+        "far_angles": [
+          135,
+          135
+        ],
+        "far_corners": [
+          4,
+          2
+        ],
+        "hand": 1,
+        "squared_arm_lengths": [
+          [
+            "26/3",
+            "70/3",
+            "1/2",
+            "-8/3"
+          ],
+          [
+            "49/3",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "status": "FORBIDDEN_105_ENDPOINT",
+        "type": "Q"
+      }
+    ],
+    "survivors": 0
+  }
+}

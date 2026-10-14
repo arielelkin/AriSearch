@@ -1,14 +1,13 @@
 # Exact P(5π/7,4π/7⁴) / equiangular Q14 native-ring experiment
 
+**Later closure (2026-10-14):** the [forced-neighbor proof](../proofs/p5q14-orientation-transition-2026-10-14-untileability.md) excludes every surviving state and proves this fixed P cannot tile with any equiangular Q14. The local results below are retained as proof prerequisites; their former plane-extension restart is superseded.
+
 Date: 2026-10-14. **Independently reviewed VALID for the stated exact finite
 domain, local palette audit and restricted periodic-model exclusion**
 ([original-domain/one-Q review](../reviews/contact-pentagon-5pi7-q14-independent-hostile-review.md),
 [fresh palette review](../reviews/contact-pentagon-5pi7-q14-exact-palette-review.md)).
 There remain28 native-palette-compatible21-face states, four per seven
-indexed split-v-run words. Their global extension is unproved. Every
-one-Q translation-orbit periodic model tested is excluded; this does not
-exclude periodic tilings with differently oriented Q copies or establish
-aperiodicity. The authorized bounded cycle is complete.
+indexed split-v-run words. Their global extension was unproved at this checkpoint; the later forced-neighbor proof linked above now excludes it. The one-Q translation-orbit test alone did not settle differently oriented copies. The original bounded cycle is complete and retained as a prerequisite.
 
 ## Exact object and audited necessary reductions
 
@@ -168,11 +167,7 @@ random seed or time-limited negative conclusion is used.
 mise exec -- conda run --no-capture-output -n arisearch python research/searches/contact-pentagon-5pi7-q14-exact.py /tmp/contact-pentagon-5pi7-q14-exact-replay.json
 ```
 
-The finite native-ring experiment is complete. Its survivors establish
-only the recorded geometric compatibility. Full-plane extension, universal classification
-and mixed periodic escape remain separate obligations; the original
-two-convex-tile problem is unresolved. The completed one-Q/8P attack and
-mandatory-patch palette audit give the refined28-state restart above.
+The finite native-ring experiment is complete. Its survivors establish only the recorded local geometric compatibility. The later forced-neighbor proof closes their plane extension and supersedes this former28-state restart. The unrestricted two-convex-tile problem remains unresolved.
 No quotient or patch domain was enlarged after those gates.
 
 ## Restriction on a polygonal-parent inflation strategy
