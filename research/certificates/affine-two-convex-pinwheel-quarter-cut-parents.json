@@ -1,0 +1,92 @@
+{
+  "scope": "fixed quarter-corner resection, 200 squared-pinwheel source cells; full-native-connected old4cell P/H compilers only; exact contained convex packing",
+  "P": [
+    [
+      "0",
+      "-1"
+    ],
+    [
+      "11/10",
+      "-6/5"
+    ],
+    [
+      "2",
+      "0"
+    ],
+    [
+      "4/5",
+      "8/5"
+    ],
+    [
+      "0",
+      "1"
+    ]
+  ],
+  "Q": [
+    [
+      "-2/5",
+      "-16/5"
+    ],
+    [
+      "11/10",
+      "-6/5"
+    ],
+    [
+      "0",
+      "-1"
+    ],
+    [
+      "-24/25",
+      "-32/25"
+    ],
+    [
+      "-54/25",
+      "-72/25"
+    ],
+    [
+      "-34/25",
+      "-87/25"
+    ]
+  ],
+  "M2": [
+    [
+      "3",
+      "4"
+    ],
+    [
+      "-4",
+      "3"
+    ]
+  ],
+  "source_cells": 200,
+  "four_cell_cluster_count": 212,
+  "old_face_occurrences": 2,
+  "parents": [
+    {
+      "parent": "P",
+      "candidate_counts": {
+        "P": 4,
+        "Q": 0
+      },
+      "required_counts": [
+        8,
+        15
+      ],
+      "overlap_constraints": 2,
+      "status": "INFEASIBLE"
+    },
+    {
+      "parent": "Q",
+      "candidate_counts": {
+        "P": 0,
+        "Q": 0
+      },
+      "required_counts": [
+        17,
+        10
+      ],
+      "overlap_constraints": 0,
+      "status": "INFEASIBLE"
+    }
+  ]
+}

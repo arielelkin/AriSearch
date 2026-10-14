@@ -1,0 +1,9 @@
+# Fresh hostile review: aliased binary-middle vector obstruction
+
+Date: 2026-10-13. Verdict: VALID.
+
+Reviewed `contact-structure-one-private-aliased-binary-middle-closure-obstruction.md`. The theorem is a shape-vector statement: w=x, x!=y, Q word(H,u,five binary x/y slots,v), with endpoint reversal also allowed. It imposes no ring, ETE, host-plane or extra-middle-R restriction. The coefficient of the five baseline x vertical vectors sums exactly zero. Their binary perturbation coefficient A belongs to Q(sqrt2), while P horizontal closure gives (u-v)/sqrt2=c(y-x). Q vertical closure therefore forces c=-A (or c=A after endpoint reversal).
+
+The field obstruction is exact. For c=cos(pi/8), c^2=(2+sqrt2)/4 has quadratic-field norm (4-2)/16=1/8. If c belonged to Q(sqrt2), multiplicativity would make this norm the square of the rational norm of c. The rational number1/8 is not a rational square (its prime-two valuation is odd). Therefore c is outside the quadratic field. No real-embedding ambiguity, sign assumption, numerical approximation or sampled word is used. All32 binary words are covered; the multiplicity3x/2y application is a ten-word subset.
+
+The application gate is correctly conditional on native multiplicities: private H forces a whole QQ contact; its unique slot cannot have the mirror mate because equal outgoing lengths would force equal P acute legs. Since x!=y and P closure imply u!=v, only the half-turn remains, supplying opposite u/v flanks. When those are the only u/v occurrences and all remaining slots are binary x/y, the vector theorem applies independently of any extra R_middle neighbors. The artifact explicitly does not infer this native multiset for an arbitrary one-private prototype. Thus it repairs the former w=x restricted-middle loophole for its stated multiplicity family without a compactness argument.

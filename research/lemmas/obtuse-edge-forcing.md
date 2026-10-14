@@ -64,7 +64,10 @@ subsequence satisfies the exact ratio
 \]
 
 This rules out an all-obtuse construction in which the higher polygon is
-only a zero-density defect.  It does not force bounded gaps between higher
-polygons and does not establish periodicity.
+only a zero-density defect. The uniform lower quadratic count also forces
+bounded gaps between higher polygons: choose a fixed R large enough that
+the lower bound is positive, uniformly for every window centre. The same
+argument applies to pentagons. This syndeticity does not establish periodicity.
+The correction is checked in the [higher-partner contact review](../reviews/contact-structure-high-partner-ppp-density-review.md).
 
 These are necessary reductions, not an explicit construction.

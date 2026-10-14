@@ -1,0 +1,237 @@
+{
+  "status": "PASS",
+  "field": "8c^4-8c\u00b2+1,9/10<c<1;r=4c\u00b2-2;t=r/(4c)",
+  "symbolic_parameters": [
+    "X",
+    "Y",
+    "V"
+  ],
+  "domain": "X,Y,V,u,w>0; u=V+r*c*(Y-X); w=(u+V)/r-t*(X+Y)",
+  "Q_word": [
+    "Y",
+    "X",
+    "X",
+    "Y",
+    "Y",
+    "X",
+    "X",
+    "Y"
+  ],
+  "edge_count": 28,
+  "native_edge_pairs": [
+    {
+      "first": [
+        0,
+        0
+      ],
+      "second": [
+        4,
+        2
+      ],
+      "second_translation": [
+        0,
+        -1
+      ]
+    },
+    {
+      "first": [
+        0,
+        1
+      ],
+      "second": [
+        1,
+        2
+      ],
+      "second_translation": [
+        0,
+        0
+      ]
+    },
+    {
+      "first": [
+        0,
+        2
+      ],
+      "second": [
+        3,
+        1
+      ],
+      "second_translation": [
+        0,
+        0
+      ]
+    },
+    {
+      "first": [
+        0,
+        3
+      ],
+      "second": [
+        4,
+        7
+      ],
+      "second_translation": [
+        0,
+        0
+      ]
+    },
+    {
+      "first": [
+        0,
+        4
+      ],
+      "second": [
+        2,
+        4
+      ],
+      "second_translation": [
+        -1,
+        0
+      ]
+    },
+    {
+      "first": [
+        1,
+        0
+      ],
+      "second": [
+        4,
+        4
+      ],
+      "second_translation": [
+        1,
+        -1
+      ]
+    },
+    {
+      "first": [
+        1,
+        1
+      ],
+      "second": [
+        2,
+        2
+      ],
+      "second_translation": [
+        0,
+        0
+      ]
+    },
+    {
+      "first": [
+        1,
+        3
+      ],
+      "second": [
+        4,
+        1
+      ],
+      "second_translation": [
+        0,
+        -1
+      ]
+    },
+    {
+      "first": [
+        1,
+        4
+      ],
+      "second": [
+        3,
+        4
+      ],
+      "second_translation": [
+        0,
+        -1
+      ]
+    },
+    {
+      "first": [
+        2,
+        0
+      ],
+      "second": [
+        4,
+        6
+      ],
+      "second_translation": [
+        1,
+        0
+      ]
+    },
+    {
+      "first": [
+        2,
+        1
+      ],
+      "second": [
+        3,
+        2
+      ],
+      "second_translation": [
+        0,
+        0
+      ]
+    },
+    {
+      "first": [
+        2,
+        3
+      ],
+      "second": [
+        4,
+        3
+      ],
+      "second_translation": [
+        1,
+        -1
+      ]
+    },
+    {
+      "first": [
+        3,
+        0
+      ],
+      "second": [
+        4,
+        0
+      ],
+      "second_translation": [
+        0,
+        0
+      ]
+    },
+    {
+      "first": [
+        3,
+        3
+      ],
+      "second": [
+        4,
+        5
+      ],
+      "second_translation": [
+        1,
+        0
+      ]
+    }
+  ],
+  "covolume": "(-2*c^2)*X^2 + (4*c^2)*X*Y + (2*c^2)*Y^2 + (16*c^3 - 8*c)*Y*V + 2*V^2",
+  "one_P_area": "(-c^2 + 1/4)*X^2 + 1/4*Y^2 + (4*c^3 - 2*c)*Y*V + 1/2*V^2",
+  "Q_area": "(2*c^2 - 1)*X^2 + (4*c^2)*X*Y + (2*c^2 - 1)*Y^2",
+  "signed_area_equals_covolume": true,
+  "coefficient_verification": {
+    "coefficient_ring": "Q(c)[X,Y,V]",
+    "quartic_degree": 4,
+    "paired_edges": 14,
+    "coordinate_endpoint_identities": 56,
+    "all_endpoint_residual_polynomials_zero": true,
+    "oriented_area_residual_polynomial_zero": true,
+    "Q_vector_identities": 16,
+    "all_Q_vector_residual_polynomials_zero": true
+  },
+  "software": {
+    "python": "3.12.13",
+    "sage": "10.9"
+  }
+}

@@ -1,0 +1,13 @@
+# Fresh hostile review: symmetric distance-three carrier
+
+Date:2026-10-13. Verdict: **VALID** over the entire stated open metric domain.
+
+Reviewed research/lemmas/contact-symmetric-two-private-distance-three-periodic-carrier.md and its standalone symbolic producer. Independently reconstructed the six polygons over the rational function field Q(sqrt2)(a,w), with no import of retained edge pairs. The checker research/reviews/contact-symmetric-two-private-symbolic-carrier-check.py regenerates all reversed-edge matches by solving lattice coordinates. Every one of36 native edges has exactly one partner at an integral lattice shift; involution and all72 endpoint identities pass. The determinant and area/covolume identities pass independently.
+
+For a>0 and (2-sqrt2)a<w<sqrt2*a, H=(1+sqrt2)w-sqrt2*a is positive, both pentagon bevel lengths are positive, and the remaining native lengths are positive. Pentagon edge directions are fixed with turns below180; the cross-height argument establishes strict convexity and the obtuse sign needed by the producers squared-angle identities. All six representatives are CCW: the two matrices have determinant1, and negation in two dimensions also preserves orientation. The determinant2(1+sqrt2)(a+sqrt2*w/2)^2 is strictly positive, so no rank or degeneracy exception occurs anywhere in the domain.
+
+The multiplicity argument is sufficient without a separate overlap enumeration: local finiteness follows from a discrete rank-two lattice and bounded representatives. Reversed native-edge identities cancel the distributional boundary derivative. Hence integer multiplicity is constant almost everywhere on the connected plane; its fundamental-cell mean is1 by area/covolume. Positive-area overlap or an open hole is impossible. A locally finite union of closed polygons is closed, so residual uncovered boundary points are also impossible. Side coincidences do not invalidate cancellation or the mean argument.
+
+The source-metric extraction also survives review: with u=v=a, the clean-R word is (H0,a,a,H3,a,w,w,a); its vector closure fixes both private lengths to the same H. Pentagon positivity is w<sqrt2*a, and H positivity is precisely the stated lower bound. The theorem constructs some periodic tiling of these original shapes; it does not assert that every admitted tiling is periodic, and it does not enlarge the source to arbitrary non-symmetric metrics.
+
+Counterexample attempts covered parameter-endpoint degeneracy (excluded by the strict domain), reflected orientation cancellation, parameter-dependent edge identifications, and area-only inference. No defect remains. Independent symbolic checker replay: PASS.

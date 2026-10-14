@@ -1,0 +1,329 @@
+{
+  "domain": "one exact asymmetric P and equal-private distance3 equiangular Q, all full-side first neighbors, all isometries",
+  "field": "8c^4-8c\u00b2+1,9/10<c<1",
+  "Q_lengths": [
+    "-4*c + 5",
+    "4*c^3 - 2*c + 5/2",
+    "4*c^3 - 2*c + 5/2",
+    "-4*c + 5",
+    "5/2",
+    "-12*c^3 + 10*c^2 + 10*c - 5",
+    "-12*c^3 + 10*c^2 + 10*c - 5",
+    "5/2"
+  ],
+  "option_counts": [
+    2,
+    1,
+    1,
+    2,
+    1,
+    2,
+    2,
+    1
+  ],
+  "rings_tested": 16,
+  "valid_rings": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  ],
+  "failure_witnesses": [
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_clash": [
+        1,
+        0,
+        "forbidden_partial_contact"
+      ]
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "first_clash": [
+        1,
+        0,
+        "forbidden_partial_contact"
+      ]
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "first_clash": [
+        1,
+        0,
+        "forbidden_partial_contact"
+      ]
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "first_clash": [
+        1,
+        0,
+        "forbidden_partial_contact"
+      ]
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_clash": [
+        1,
+        0,
+        "forbidden_partial_contact"
+      ]
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "first_clash": [
+        1,
+        0,
+        "forbidden_partial_contact"
+      ]
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "first_clash": [
+        1,
+        0,
+        "forbidden_partial_contact"
+      ]
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "first_clash": [
+        1,
+        0,
+        "forbidden_partial_contact"
+      ]
+    },
+    {
+      "choices": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_clash": [
+        6,
+        5,
+        "forbidden_partial_contact"
+      ]
+    },
+    {
+      "choices": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "first_clash": [
+        5,
+        4,
+        "forbidden_partial_contact"
+      ]
+    },
+    {
+      "choices": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "first_clash": [
+        5,
+        4,
+        "forbidden_partial_contact"
+      ]
+    },
+    {
+      "choices": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "first_clash": [
+        3,
+        2,
+        "forbidden_partial_contact"
+      ]
+    },
+    {
+      "choices": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "first_clash": [
+        3,
+        2,
+        "forbidden_partial_contact"
+      ]
+    },
+    {
+      "choices": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "first_clash": [
+        3,
+        2,
+        "forbidden_partial_contact"
+      ]
+    },
+    {
+      "choices": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "first_clash": [
+        3,
+        2,
+        "forbidden_partial_contact"
+      ]
+    }
+  ],
+  "QQ_maps": [
+    {
+      "linear": [
+        "-2*c^2 + 1",
+        "2*c^2 - 1",
+        "2*c^2 - 1",
+        "2*c^2 - 1"
+      ],
+      "offset": [
+        "-8*c^3 + 5*c^2 + 3*c - 5/2",
+        "4*c^3 - 15*c^2 - 3*c + 5"
+      ]
+    },
+    {
+      "linear": [
+        "-1",
+        "0",
+        "0",
+        "-1"
+      ],
+      "offset": [
+        "8*c^3 - 10*c + 10",
+        "20*c^2 + 2*c - 5"
+      ]
+    }
+  ],
+  "glide_squared_period": [
+    "-8*c^3 + 6*c - 5",
+    "-20*c^2 - 2*c + 5"
+  ],
+  "glide_times_other_neighbor_fixes_Q": true,
+  "software": {
+    "python": "3.12.13",
+    "sage": "10.9"
+  }
+}

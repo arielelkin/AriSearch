@@ -1,0 +1,714 @@
+{
+  "domain": "one exact x=2u hosted-dimer kernel ray, all32fullQside-neighbor rings; all mandatory P cap guests for base-ring flat events",
+  "field": "c root8c^4-8c^2+1,9/10<c<1,r=4c^2-2,t=r/(4c)",
+  "software": {
+    "sage": "10.9",
+    "python": "3.12.13"
+  },
+  "word": [
+    "H",
+    "u",
+    "x",
+    "y",
+    "y",
+    "x",
+    "w",
+    "v"
+  ],
+  "lengths": {
+    "x": "1",
+    "y": "208/17*c^3 - 84/17*c^2 - 178/17*c + 83/17",
+    "u": "1/2",
+    "v": "-96/17*c^3 + 44/17*c^2 + 90/17*c - 57/34",
+    "w": "-232/17*c^3 + 78/17*c^2 + 192/17*c - 54/17",
+    "H": "-24/17*c^3 + 28/17*c^2 + 14/17*c - 5/17"
+  },
+  "closure_rank": 5,
+  "only_permitted_host_equation": "x=2u",
+  "option_counts": [
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1
+  ],
+  "rings_tested": 32,
+  "raw_valid_rings": [
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  ],
+  "mandatory_cap_valid_rings": [
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  ],
+  "records": [
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 2,
+        "corner": 4,
+        "host_side": 0
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 2,
+        "corner": 4,
+        "host_side": 0
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 2,
+        "corner": 4,
+        "host_side": 0
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 2,
+        "corner": 4,
+        "host_side": 0
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 2,
+        "corner": 4,
+        "host_side": 0
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 2,
+        "corner": 4,
+        "host_side": 0
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 2,
+        "corner": 4,
+        "host_side": 0
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 2,
+        "corner": 4,
+        "host_side": 0
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 2,
+        "corner": 4,
+        "host_side": 0
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 2,
+        "corner": 4,
+        "host_side": 0
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 2,
+        "corner": 4,
+        "host_side": 0
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 2,
+        "corner": 4,
+        "host_side": 0
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 2,
+        "corner": 4,
+        "host_side": 0
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 2,
+        "corner": 4,
+        "host_side": 0
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 2,
+        "corner": 4,
+        "host_side": 0
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 2,
+        "corner": 4,
+        "host_side": 0
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 4,
+        "corner": 4,
+        "host_side": 2
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 4,
+        "corner": 4,
+        "host_side": 2
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 4,
+        "corner": 4,
+        "host_side": 2
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 4,
+        "corner": 4,
+        "host_side": 2
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 4,
+        "corner": 4,
+        "host_side": 2
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 4,
+        "corner": 4,
+        "host_side": 2
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 4,
+        "corner": 4,
+        "host_side": 2
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 3,
+        "host": 4,
+        "corner": 4,
+        "host_side": 2
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 6,
+        "host": 7,
+        "corner": 2,
+        "host_side": 3
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "ring_T_events": [
+        [
+          3,
+          2,
+          2,
+          0
+        ],
+        [
+          6,
+          7,
+          2,
+          0
+        ]
+      ],
+      "mandatory_cap_added_tiles": 2,
+      "status": "NECESSARY_PATCH_SURVIVES"
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 5,
+        "host": 6,
+        "corner": 0,
+        "host_side": 1
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 5,
+        "host": 6,
+        "corner": 0,
+        "host_side": 1
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 5,
+        "host": 4,
+        "corner": 0,
+        "host_side": 2
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 5,
+        "host": 4,
+        "corner": 0,
+        "host_side": 2
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 5,
+        "host": 4,
+        "corner": 0,
+        "host_side": 2
+      }
+    },
+    {
+      "choices": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "RING_REJECTED",
+      "failure": {
+        "kind": "forbidden_partial",
+        "guest": 5,
+        "host": 4,
+        "corner": 0,
+        "host_side": 2
+      }
+    }
+  ],
+  "scope": "necessary finite patches only; no plane existence or aperiodicity inferred from survival"
+}

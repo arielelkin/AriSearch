@@ -1,0 +1,27 @@
+# Aliased whole bridge: explicit ETE clean-limit repair
+
+Date:2026-10-13. Status: superseded for family coverage by the independently reviewed [all-host repeated-middle obstruction](contact-structure-one-private-repeated-middle-all-host-obstruction.md). This earlier clean-limit argument is retained as working provenance; it has no separate fresh review.
+
+Let P have right-palette lengths(x,u,v,y,w) with w=x and four pairwise distinct lengths x,y,u,v. Assume no P side length equals2u or2v. Let the equiangular135 Q have native length multiset{H,u,v,x,x,x,y,y}, with H absent from the P length set. Then these original shapes cannot tile the plane. This repairs the extra-R_middle issue in the pointwise whole-bridge working mechanism. It is restricted to this exact multiset, four-distinct/no-doubling domain, not arbitrary side aliases or one-private partners.
+
+All contacts with Q are whole by native reduction. H must be QQ; the third sector at both endpoints is P90, forcing Hs two neighboring Qslots to be u,v, each occurring only once. Only H has both neighbors in{u,v}, so it is every Qs unique QQslot. Thus all seven public Qsides are PQ. Because no native Pside length doubles an acute leg, the reviewed host theorem excludes every flat cap. All admitted contacts are edge-to-edge. R has PQsidesu,v,w and PPsidesx,y; S has PQsidesx,y and PPsidesu,v,w. The shared valuew=x makes some x-valued Qslots locally ambiguous between R_middle and Sbevel, which is precisely why the earlier pointwise claim was insufficient.
+
+Root Qwith H,u,...,v. Its vneighbor is R and exposes PPy at its non-H corner. A whole R-S interface cannot match this ybevel to any S PPsideu,v,w=x, by distinctness. No flat cap exists. Thus the preceding Qslot must be R_middle on lengthw=x; R_v cannot occur there because Qhas only one vslot. Therefore EVERY Qhas at least one R_middle neighbor, at slot6. It can initially have additional R_middle neighbors on other xslots; these are explicitly allowed.
+
+Count tiles by centers in arbitrary large disks. Whole ucontacts give p_R=q+O(R), uniformly in disk center, because each Qhas precisely one ucontact and each Rtile precisely one native ucontact, while Stiles have no Qcontact of lengthu. Boundary incidence errors are uniformly O(R) by fixed positive areas and bounded diameters. If r(Q) is its number of R_middle neighbors, whole native wcontacts give
+
+    sum_(Qcenter in disk) r(Q)=p_R+O(R)=q+O(R).
+
+Since r(Q)>=1 pointwise,
+
+    sum_(Qcenter in disk)(r(Q)-1)=O(R).
+
+In particular extra-middle-R Qs have a uniform O(R) count, regardless of their local placement. For every prescribed radius k there are disks of radiusk with no such Qcenters: otherwise radiusk disks centered at O(R) defects would cover area of orderR^2 in arbitrarily large windows, impossible. Every point is within a uniform distance of some Qcenter, because every Ptile has a whole PQside and both species have bounded diameter. Hence choose growing defect-free disks and anchor a Qcenter within that bounded distance; after normalization their radii still tend to infinity.
+
+The limiting gate preserves ETE here by a DERIVED finite placement alphabet, not a generic FLC assumption. Fix an anchored canonically oriented Q and a bounded observation radius s. Any tile whose interior meets the radius-s disk is joined to the anchor by a whole-side adjacency path inside a disk of radius s+2D, where D is the maximum tile diameter: perturb a segment between interior points to avoid the finitely many native vertices and cross edges transversely. Every crossed tile lies in that expanded disk. There are at most C(s+3D)^2 such tiles, by disjoint interiors and a fixed positive minimum tile area. A simple adjacency path thus has a uniformly bounded number of steps. Each whole-side step has only finitely many exact relative congruences, obtained by choosing matching native edges and their endpoint identifications. Their products up to that step bound form a finite set. Consequently only finitely many anchored tile placements, and hence finitely many patches, are possible in each bounded disk.
+
+Pass to a diagonal subsequence of the anchored growing clean disks on which every bounded patch stabilizes exactly. These stabilized patches produce a genuine whole-plane ETE tiling of the same original P,Q: they are literally patches of the source tilings, so all native corners, side identifications, coverage and disjoint interiors persist. There is no continuously sliding or coalescing-vertex limit. Each Qs full bounded ring eventually stabilizes inside a clean source disk, so it has exactly one R_middle neighbor.
+
+The repaired contact-structure-one-private-whole-bridge-closure-obstruction.md now applies with its explicitly stated exactly-one-R_middle condition. The four remaining Pneighbors are S and their native bevel tags are xxyy or yyxx. Thus Qhas one of the two rooted words(H,u,x,x,y,y,x,v) or(H,u,y,y,x,x,x,v). Their vertical closure respectively gives u-v=y-x or u-v=-(1+sqrt2)(y-x); Pclosure gives u-v=sqrt2*cos(pi/8)(y-x). Both force x=y and u=v, contradicting the four-distinct assumption. Therefore the original admitted tiling cannot exist. Reflection supplies the w=y dual.
+
+The finite placement argument is specific to the proved ETE source. It is not invoked for arbitrary partial-contact tilings and does not silently discard the optional host cases considered in the separate five-distinct native bridge theorem.

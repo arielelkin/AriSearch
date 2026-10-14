@@ -20,9 +20,15 @@ isometric copies of lambda P having this particular wheel scheme:
 * Every parent side is exactly the union of the full native boundary sides
   of its two endpoint corner children, with no other boundary child.
 
-All child reflections and arbitrary real lengths are allowed. Inner seams
-are not restricted by the theorem. No assertion is made that every
-six-pentagon partition has this scheme.
+All child reflections and arbitrary real lengths are allowed. Inner seams are not restricted by the original boundary proof. The new
+universal topology consequence below establishes that every six-pentagon
+partition automatically has this scheme.
+
+## New unrestricted-topology consequence
+
+The [universal six-child topology theorem](six-child-topology-universal-wheel.md), independently reviewed in [its hostile audit](../reviews/six-child-topology-hostile-review.md), proves that every dissection of a convex pentagon into exactly six convex children with at least five sides automatically has all three wheel properties above. Consequently, under the distinct-angle, two-size and count/area hypotheses in the statement, there is no such six-child dissection of **any topology**, including partial contacts. This implication uses no additional computational domain: the same1120 determinant certificates and analytic row exclusions apply after the universal geometric topology reduction.
+
+The topology theorem itself has no native-angle distinctness or congruence hypothesis. The boundary determinant theorem still requires five pairwise distinct angles of P, both specified sizes1andlambda, and mu²=dmu+b. A general repeated-angle pentagon or different count relation is not covered by this synthesis. The direct synthesis passed [fresh combined review](../reviews/six-child-topology-two-size-synthesis-review.md) as VALID.
 
 ## Necessary boundary matrix
 
@@ -96,9 +102,10 @@ independently verified finite certificates. No novelty claim is made.
 
 ## Non-consequences and restart
 
-Repeated native angles, subdivided parent corners, extra boundary children,
-other dissection topologies, more than six children and nonconvex parents
-are outside this theorem. There is no infinite covering, intrinsic decoder
+Repeated native angles, more than six children and nonconvex parents
+are outside this theorem. Under the exact six-child convex hypotheses,
+subdivided parent corners, extra boundary children and alternative
+topologies are excluded by the reviewed universal topology theorem. There is no infinite covering, intrinsic decoder
 or aperiodicity claim. A new construction must give an exact changed contact
 scheme. The repeated-angle U word has16 native-corner assignments, but its
 [completed 7680-case boundary audit](../searches/resumed-two-size-repeated-u-wheel.md)
