@@ -2,7 +2,7 @@
 
 **Problem status: unresolved.** No exact aperiodic pair or complete unrestricted
 impossibility theorem meets [the acceptance criteria](research-problem.md).
-**Checkpoint: 2026-10-14, reviewed checkpoint 6b9f087 pushed; two new independently reviewed incidence templates stopped at exact corner obstructions.**
+**Checkpoint: 2026-10-14, user-authorized Y partial-contact and intrinsic-forcing gates completed; all BB sides have reviewed full-native mates, while the isolated Ammann c signature fails its proposed local matching rule.**
 The unique-B-star and complete complementary two-angle hexagon families
 admit periodic escapes whenever tileable. The complementary three-angle
 result covers distinct, non-120 angles on its stated resonance domain. The original acute/obtuse pentagon native
@@ -15,10 +15,53 @@ no construction meets all acceptance criteria. Individual branch results are che
 objects below are not aperiodic pairs. Historical incremental notes are
 [archived](research/searches/discovery-log-2026-10-13-working-history.md).
 
-**Latest gate result:** the fixed directed-offset Ammann topology is now
+**Previous Ammann family gate:** the fixed directed-offset Ammann topology is now
 classified: all admissible two-shape realizations are the midpoint/common-
 height family with periodic omission. [Exact closure and review](research/lemmas/ammann-directed-offset-three-plus-one-obstruction-2026-10-14.md)
 are preserved; the two-convex-polygon target remains unresolved.
+
+## Y partial contacts and intrinsic forcing: bounded gates (2026-10-14)
+
+The user authorized two Sol tracks and a separate Sol adversary. No excluded
+candidate, closed Ammann topology, or larger census was reopened. These
+tracks remain distinct; neither has an exact infinite mixed covering.
+
+1. **Y shortest-side gate.** The [exact theorem](research/lemmas/pentagon-y-one-breakpoint-bb-obstruction-2026-10-14.md)
+   now proves that every native P BB side has a full equal-length native mate,
+   either P BB or Q CG, even in tilings with reflections and unrestricted
+   partial contacts. The experiment classified every contact along that
+   length-sqrt(2) side: two interior transitions contradict minimum native
+   side length; one fails endpoint guards; a longer containing side fails
+   the forced far-end corner. A four-tile diagnostic patch has disjoint
+   interiors but cannot complete its forced host A vertex. The
+   [fresh independent review](research/reviews/pentagon-y-bb-partial-hostile-review-2026-10-14.md)
+   is VALID. Stopping condition: complete BB contact classification, with
+   no patch expansion. Other sides may still split, so the older whole-edge
+   propagation theorem cannot yet exclude unrestricted tilings. Further
+   work needs an actual propagation rule on those remaining contacts.
+2. **Intrinsic Ammann feature gate.** The [explicit c-edge scheme](research/searches/ammann-c-seam-intrinsic-feature-2026-10-14.md)
+   recognizes one boundary edge in each unmarked source pentagon, including
+   all ten dihedral labelings. A half-turned P1 shares that full edge with
+   P1, with disjoint interiors and endpoint angle sum 216 degrees. This
+   disproves the isolated local heterotypic-contact predicate; it does not
+   produce a plane tiling or refute the source's full three-shape corona
+   proof. The [independent hostile review](research/reviews/ammann-c-seam-feature-hostile-review-2026-10-14.md)
+   is VALID for that negative scope. Stopping condition: this local bypass.
+   A restart must supply a complete-corona rule for the actual two outputs,
+   intrinsic source decoding, and both omission exclusions; a unique edge
+   or a visibly chosen source chord is insufficient.
+
+All four new author/reviewer checks pass in the
+[targeted replay](research/reviews/y-bb-and-intrinsic-feature-targeted-replay-2026-10-14.txt).
+Registry: 62 certificate pairs and 307 verifiers (369 checks).
+No fresh full-suite replay was run. The unrestricted problem remains unresolved.
+The user's subsequent [independent diff audit](research/reviews/y-bb-intrinsic-diff-readiness-2026-10-14.md)
+found no mathematical blocker after repairs: local finiteness is now explicit,
+asymmetric side cycles are allowed to distinguish endpoints and diagonal
+roles, and superseded recommendations are labeled historical. The c-seam
+counterpatch survives those corrections. Commit-readiness replay passed
+all four new checks plus the Y source certificate, independent Y source
+check, and Ammann forcing re-review (seven checks total).
 
 ## Resumed construction mechanisms: interfaces, fractional trees, strips (2026-10-14)
 
@@ -107,8 +150,8 @@ general two-hexagon question is still open.
 periodic-omission, or class-count contradictions. Their important claims
 have independent hostile reviews and twelve new read-only checks passed.
 The unresolved global obligations are an actual admissible infinite
-aperiodic-pair covering and universally valid geometric recognition. The
-next justified experiment is the directed-offset gate above, with fixed
+aperiodic-pair covering and universally valid geometric recognition. At that checkpoint, the
+next justified experiment was the directed-offset gate above, with fixed
 local topology and an adversary; closed families and larger whole-edge Y
 quotients must not be resumed. The subsequent user-authorized directed-offset gate and its exact closure are recorded below; it is no longer a launchable unresolved route.
 
@@ -243,7 +286,8 @@ reconstructed verifiers, without a retained Bezout/formal proof certificate.
 The historical NLSAT input is a provenance record rather than an immutable
 byte-for-byte old model snapshot; no mathematical exclusion depends on it.
 
-Ranked next work: first one bounded incompatible two-parent incidence-design
+**Historical recommendations (the two incidence gates and the Y BB gate
+have since been completed):** first one bounded incompatible two-parent incidence-design
 cycle with H=2P+Q, K=P+2Q and area(P)/area(Q)=3phi+1, requiring complete
 boundary words for both base and both substitution dissections before any
 coordinate census. Second, conditionally, a genuinely split-edge fractional

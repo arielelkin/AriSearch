@@ -1,0 +1,19 @@
+Command: mise exec -- conda run --no-capture-output -n arisearch python research/searches/verify.py --only pentagon-y-bb-contact-check-2026-10-14.py --only ammann-c-seam-intrinsic-feature-2026-10-14.py --only pentagon-y-bb-partial-independent-2026-10-14.py --only ammann-c-seam-feature-independent-2026-10-14.py
+
+PASS verifier: pentagon-y-bb-contact-check-2026-10-14.py
+PASS verifier: ammann-c-seam-intrinsic-feature-2026-10-14.py
+PASS verifier: pentagon-y-bb-partial-independent-2026-10-14.py
+PASS verifier: ammann-c-seam-feature-independent-2026-10-14.py
+All 0 certificate replays and 4 verifiers passed; no certificates written.
+
+Commit-readiness replay (2026-10-14):
+Command: mise exec -- conda run --no-capture-output -n arisearch python research/searches/verify.py --only pentagon-y-bb-contact-check-2026-10-14.py --only ammann-c-seam-intrinsic-feature-2026-10-14.py --only pentagon-y-bb-partial-independent-2026-10-14.py --only ammann-c-seam-feature-independent-2026-10-14.py --only pentagon-y-interface-2026-10-14.py --only pentagon-y-interface-2026-10-14-independent.py --only verify_ammann_forcing_repair_rereview.py
+
+PASS certificate replay: pentagon-y-interface-2026-10-14.py
+PASS verifier: pentagon-y-bb-contact-check-2026-10-14.py
+PASS verifier: ammann-c-seam-intrinsic-feature-2026-10-14.py
+PASS verifier: pentagon-y-bb-partial-independent-2026-10-14.py
+PASS verifier: ammann-c-seam-feature-independent-2026-10-14.py
+PASS verifier: pentagon-y-interface-2026-10-14-independent.py
+PASS verifier: verify_ammann_forcing_repair_rereview.py
+All 1 certificate replays and 6 verifiers passed; no certificates written.

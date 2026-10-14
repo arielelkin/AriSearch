@@ -80,6 +80,10 @@ CERTIFICATES = (
     ("branching-hexagon-new-chirality-collapse.py", "branching-hexagon-new-chirality-collapse.json"),
 )
 VERIFIERS = (
+    ROOT / "research/searches/pentagon-y-bb-contact-check-2026-10-14.py",
+    ROOT / "research/searches/ammann-c-seam-intrinsic-feature-2026-10-14.py",
+    ROOT / "research/reviews/pentagon-y-bb-partial-independent-2026-10-14.py",
+    ROOT / "research/reviews/ammann-c-seam-feature-independent-2026-10-14.py",
     ROOT / "research/reviews/verify_new_interface_stopping_gates_2026_10_14.py",
     ROOT / "research/searches/ammann-directed-offset-residual-invariants-2026-10-14.py",
     ROOT / "research/reviews/ammann-directed-offset-residual-independent-2026-10-14.py",
