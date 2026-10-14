@@ -1,0 +1,66 @@
+{
+  "completion": "ATOMIC_PREFILTER_COMPLETE",
+  "counts": {
+    "angle_signatures": 1430,
+    "atomic_gate_survivors": 0,
+    "atomic_pairs": 0,
+    "positive_distinct_closed_B": 0
+  },
+  "domain": {
+    "B_angle_grid_degrees": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140,
+      150,
+      160,
+      170
+    ],
+    "B_arc_grid_degrees": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      130,
+      140,
+      150,
+      160,
+      170
+    ],
+    "delta_degrees": [
+      10,
+      20
+    ],
+    "inflated_children": 8,
+    "inflation": 2,
+    "parent_atomic_counts": [
+      1,
+      1
+    ],
+    "q": 1
+  },
+  "field": {
+    "coefficient_order": "1,z,...,z^11",
+    "cyclotomic_order": 36,
+    "embedding": "z=exp(i*pi/18)",
+    "minimal_polynomial": "x^12-x^6+1"
+  },
+  "records": []
+}

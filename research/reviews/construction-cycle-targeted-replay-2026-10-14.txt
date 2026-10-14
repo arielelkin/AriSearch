@@ -1,0 +1,14 @@
+Targeted replay, 2026-10-14. Assertions enabled.
+The P5/Q14 author certificate was already replayed successfully through the registry separately.
+
+PASS certificate replay: construction-adversary-2026-10-14.py
+PASS certificate replay: nonconvex-parent-construction-2026-10-14-pentagon-repair.py
+PASS certificate replay: nonconvex-parent-construction-2026-10-14.py
+PASS verifier: verify_p5q14_mandatory_palette_witnesses.py
+PASS verifier: construction-adversary-2026-10-14-p5q14-palette.py
+PASS verifier: verify_construction_adversary_one_q_orbit.py
+PASS verifier: verify_nonconvex_parent_construction_2026_10_14_independent.py
+PASS verifier: construction-adversary-2026-10-14-p5q14-independent.py
+All 3 certificate replays and 5 verifiers passed; no certificates written.
+
+All 6 retained new certificates unchanged by this replay.

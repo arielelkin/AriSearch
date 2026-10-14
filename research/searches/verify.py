@@ -16,6 +16,10 @@ ROOT = Path(__file__).resolve().parents[2]
 SEARCHES = ROOT / "research/searches"
 CERTIFICATE_DIR = ROOT / "research/certificates"
 CERTIFICATES = (
+    ("construction-adversary-2026-10-14.py", "construction-adversary-2026-10-14.json"),
+    ("nonconvex-parent-construction-2026-10-14-pentagon-repair.py", "nonconvex-parent-construction-2026-10-14-pentagon-repair.json"),
+    ("nonconvex-parent-construction-2026-10-14.py", "nonconvex-parent-construction-2026-10-14.json"),
+    ("contact-pentagon-5pi7-q14-exact.py", "contact-pentagon-5pi7-q14-exact.json"),
     ("contact-pentagon-120-105-dodecagon-symbolic-carrier.py", "contact-pentagon-120-105-dodecagon-symbolic-carrier.json"),
     ("affine-two-convex-pinwheel-quarter-cut-parents.py", "affine-two-convex-pinwheel-quarter-cut-parents.json"),
     ("affine-two-convex-quarter-cut-q-periodic-carrier.py", "affine-two-convex-quarter-cut-q-periodic-carrier.json"),
@@ -71,6 +75,11 @@ CERTIFICATES = (
     ("branching-hexagon-new-chirality-collapse.py", "branching-hexagon-new-chirality-collapse.json"),
 )
 VERIFIERS = (
+    ROOT / "research/reviews/verify_p5q14_mandatory_palette_witnesses.py",
+    ROOT / "research/reviews/construction-adversary-2026-10-14-p5q14-palette.py",
+    ROOT / "research/reviews/verify_construction_adversary_one_q_orbit.py",
+    ROOT / "research/reviews/verify_nonconvex_parent_construction_2026_10_14_independent.py",
+    ROOT / "research/reviews/construction-adversary-2026-10-14-p5q14-independent.py",
     ROOT / "research/searches/contact-structure-ammann-corner-triad-gate.py",
     ROOT / "research/searches/contact-structure-ammann-double-corner-gate.py",
     ROOT / "research/searches/contact-structure-ammann-double-corner-six-six-escape.py",
@@ -352,6 +361,8 @@ VERIFIERS = (
 
 # Producer-style controls write only to a disposable output selected by run().
 VERIFIER_ARGS = {
+    "construction-adversary-2026-10-14-p5q14-palette.py": ["--check", "research/certificates/construction-adversary-2026-10-14-p5q14-palette.json"],
+    "construction-adversary-2026-10-14-p5q14-independent.py": ["--check", "research/certificates/construction-adversary-2026-10-14-p5q14-independent.json"],
     "resumed_intrinsic_repeated_u.py": ["--check", "research/certificates/resumed_intrinsic_repeated_u.json"],
     "resumed_intrinsic_wheel_d3.py": ["--check", "research/certificates/resumed_intrinsic_wheel_d3.json"],
     "resumed_intrinsic_two_size_wheel.py": ["--check", "research/certificates/resumed_intrinsic_two_size_wheel.json"],

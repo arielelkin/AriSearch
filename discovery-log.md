@@ -2,7 +2,7 @@
 
 **Problem status: unresolved.** No exact aperiodic pair or complete unrestricted
 impossibility theorem meets [the acceptance criteria](research-problem.md).
-**Checkpoint: 2026-10-14, reviewed and verified research checkpoint; unrestricted target unresolved.**
+**Checkpoint: 2026-10-14, bounded construction/adversary cycle complete and verified. Initial checkpoint `99833f7` is pushed.**
 The unique-B-star and complete complementary two-angle hexagon families
 admit periodic escapes whenever tileable. The complementary three-angle
 result covers distinct, non-120 angles on its stated resonance domain. The original acute/obtuse pentagon native
@@ -10,25 +10,36 @@ words are untileable at every metric; the reordered words have an exact
 three-equality tileability criterion and a four-tile periodic carrier.
 These are restricted family results, not a global impossibility theorem.
 
-**2026-10-13 active frontier:** the unrestricted objective remains unresolved;
+**Research frontier, updated 2026-10-14:** the unrestricted objective remains unresolved;
 no construction meets all acceptance criteria. Individual branch results are checkpoints. Source-only or local
 objects below are not aperiodic pairs. Historical incremental notes are
 [archived](research/searches/discovery-log-2026-10-13-working-history.md).
 
 ## Current restart and verification state
 
-The previous research run stopped at the user's request. This checkpoint audits
-and preserves that work and completes bounded independent reviews. No aperiodic
-pair or unrestricted impossibility theorem has been established. Keep both
+The reviewed checkpoint `99833f7` has been committed and pushed. The user has
+authorized the exact P5/Q14 experiment and computational construction with
+nonconvex parent patches, with counterexample checks inside the construction
+loop. Three Sol agents completed those distinct obligations and cross-reviewed the
+results. The exact finite domains are closed; further research must use the
+restart conditions below, rather than increasing their bounds. No aperiodic pair or
+unrestricted impossibility theorem has been established. Keep both
 pentagon-containing pairs and two-hexagon pairs in scope; requiring a pentagon
 is a construction preference, not a proved global necessity.
 
-Locked environment verification passed on 2026-10-14. The final registry has
-53 certificate pairs and 277 verifiers (330 checks). The entire disposable
+Locked environment verification passed on 2026-10-14. The pushed checkpoint registry has
+53 certificate pairs and 277 verifiers (330 checks). Its entire disposable
 replay **PASSED**, with no certificates written and original research files
 unchanged during verification; [complete output](research/reviews/checkpoint-full-replay-2026-10-14.txt).
-The [checkpoint audit](research/reviews/checkpoint-diff-audit-2026-10-14.md) records
-repairs, review scope and the remaining mathematical obligations. All commands use `mise exec -- conda run
+The [initial checkpoint audit](research/reviews/checkpoint-diff-audit-2026-10-14.md) records
+its repairs, review scope and mathematical obligations. The completed construction
+cycle adds four certificate pairs and five independent verifiers: all nine new
+registered checks **PASSED**, and all six new retained certificates were unchanged.
+The current registry contains **57 certificate pairs and 282 verifiers (339 checks)**.
+This is the earlier full 330-check replay plus targeted verification of the nine
+additions, not a fresh full 339-check replay. The [cycle checkpoint audit](research/reviews/construction-cycle-checkpoint-2026-10-14.md)
+and [targeted replay output](research/reviews/construction-cycle-targeted-replay-2026-10-14.txt)
+record the new evidence and its scope. All commands use `mise exec -- conda run
 --no-capture-output -n arisearch <command>`. `mise run replay` verifies the full
 registry on a disposable copy; targeted replay is `python
 research/searches/verify.py --only SCRIPT` inside that environment.
@@ -39,9 +50,9 @@ They preserve provenance and finite domains; current status below takes preceden
 
 The next research obligations are:
 
-1. **Ammann cross-source replacements:** the [J-star 5/7 resection](research/searches/contact-structure-ammann-j-star-resection.md) is an [independently reviewed local witness](research/reviews/ammann-cross-source-resections-independent-review.md). Both outputs are now proved unable to tile alone; the pentagon audit exhausts 251 exact native-angle multisets and excludes flat-host stars. A global cover of the reviewed generic source by equal whole triads conflicts with its frequencies (1,φ,φ). A viable next step needs compatible fractional transfers or a different global rule, followed by an intrinsic decoder and exclusion of mixed periodic tilings. The earlier 6/6 split is killed by a direct Q-only periodic carrier. All four fixed Ammann records are now independently reviewed; none establishes a mixed full-plane 5/7 tiling.
-2. **Mixed-PPP P5/Q14 palette:** P=(5π/7,4π/7^4), Q14=(6π/7)^14. Whole contacts, p=8q and mandatory α-α P dimers are necessary constraints. A β guest at every PPP star must have both adjacent native lengths among the two bevel values; target these equality planes. [Exact provisional candidate and full restart equations](research/searches/contact-pentagon-5pi7-q14-candidate.md): x=u=w=1, y=2sin(π/14)+4sin²(π/14), v=1+2sin(π/14)(1−y); Qword(v,v,u,v,v,u,u)^2. No metric producer has run. First audit equality/tag reductions, then check this one exact dimer/guest cycle; plane existence and global forcing are still open.
-3. **Direct hierarchy construction:** the [eight-child support-reflection topology](research/searches/affine-two-convex-eight-child-support-reflection-gate.md) is now [independently reviewed excluded](research/reviews/affine-two-convex-eight-child-support-reflection-hostile-review.md) on P=(120,120+ε,60,120−ε,120), 0<ε<30. Its exact checker covers both reflex cases, all relevant length aliases and parent-corner indexing. A new proposal must change actual topology or angle data and supply compatible parent geometry; no surviving second-parent rule exists.
+1. **Mixed-orientation P5/Q14 extension:** the [exact experiment](research/searches/contact-pentagon-5pi7-q14-exact.md) completed all 3003 binary side masks. Of 35 closed words, 14 have rings, and 364 of 896 rings survive mandatory-dimer overlap checks. The [native-contact audit](research/reviews/construction-adversary-2026-10-14-p5q14-palette.py) excludes 336 of those by exact forbidden T contacts. The remaining **28 states are four each for seven cyclic words**, all congruent to Qword(v,v,u,v,v,u,u)^2; the other word class is excluded. Every survivor forces a differently oriented Q, so a one-Q translation-orbit periodic cell is impossible. The [four states for the displayed Q](research/figures/contact-pentagon-5pi7-q14-dimer-patches.svg) are the restart set. Next derive exact allowed Q-orientation transitions and their geometric compatibility; do not merely enlarge the periodic quotient. Plane existence and exclusion of larger periodic motifs remain open. The absence of flat corner stars also prevents a finite polygonal-parent similarity hierarchy for these fixed atoms.
+2. **Construction with nonconvex parents:** the [reviewed perimeter bound](research/lemmas/nonconvex-parent-hexagon-perimeter-bound.md) rules out iterable expansive similarity hierarchies built only from hexagons or higher-sided convex atoms, even with nonconvex simple polygonal parents. This strategy therefore needs a pentagon and a viable flat-boundary mechanism. The [bounded source-free construction cycle](research/searches/nonconvex-parent-construction-2026-10-14.md) completed a 1430-signature zero-metric grid and a separate exact pentagon/hexagon repair. All eight mixed whole-edge parents of that repair fail endpoint angles. Its 216-branch partial-contact test retains 20 finite P-only completions, including six host-switch controls; P alone is independently known untileable. A useful next construction must supply a genuinely mixed partial-contact parent with compatible interfaces. Reusing the eight killed parents or expanding their child count cannot help.
+3. **Ammann cross-source replacements:** the [J-star 5/7 resection](research/searches/contact-structure-ammann-j-star-resection.md) remains an [independently reviewed local witness](research/reviews/ammann-cross-source-resections-independent-review.md). Both outputs cannot tile alone. A global cover of the reviewed generic source by equal whole triads conflicts with frequencies (1,φ,φ). Fractional transfers or a different global rule, intrinsic decoding and exclusion of mixed periodic tilings remain separate obligations; this route was not expanded in the bounded cycle.
 
 Do not relaunch the straight-edge pinwheel resection: [its entire admissible cut family has a reviewed direct periodic omission escape](research/lemmas/affine-two-convex-straight-edge-resection-periodic-escape.md), independently of the failed200-cell compiler. The full canonical Q7 family and complete P120/105-Q12 palette also have freshly reviewed periodic carriers, not unresolved candidates. Other closed families are indexed below.
 
@@ -74,7 +85,8 @@ The unrestricted target remains unresolved. Completed B5+1, two-U, old wheel, fa
 | Two-support nonequiangular Q — reviewed VALID full positive family carrier | [All-positive symbolic family carrier](research/lemmas/contact-non-equiangular-two-support-symbolic-periodic-carrier.md), [independent symbolic reconstruction](research/reviews/contact-non-equiangular-two-support-carrier-independent.py). ANY positive right P(x,u,v,y,w), partner Qword(H,u,w,v)^2 and two changed supports admit1Q/2P periodic cells for arbitraryH>0; all36 endpoints and area identities passed symbolically. | [Complete third audit](research/reviews/contact-non-equiangular-two-support-full-family-hostile-review.md) VALID. Other Qwords remain outside. |
 | P5/Q7 branching signature — reviewed VALID full canonical family periodic escape | [Full positive family](research/lemmas/contact-pentagon-heptagon-branched-periodic-carrier.md): every right-palette P has Q7word(A,a,u,w,v,a,B), A=v+w/√2,B=u+w/√2, and an exact2P/2Q periodic cell with true QQQ vertices. [Independent closed-coordinate reconstruction](research/reviews/contact-pentagon-heptagon-branched-independent.py) regenerates all24unrestricted integral partners symbolically. | [Fresh full audit](research/reviews/contact-pentagon-heptagon-branched-hostile-review.md) VALID. Other heptagon metrics remain outside; branching by itself does not force hierarchy. |
 | P120/105 + equiangular Q12 — reviewed VALID full palette periodic escape | [Complete metric classification](research/lemmas/contact-pentagon-120-105-dodecagon-periodic-escape.md): unrestricted contacts force x=y,u=v and regular Q; every positive remaining metric has an exact6P/1Q triangular periodic cell. [Independent alternate-field native reconstruction](research/reviews/contact-pentagon-120-105-dodecagon-independent.py) verifies42whole-edge partners and all-w>0 support signs. | [Fresh complete audit](research/reviews/contact-pentagon-120-105-dodecagon-hostile-review.md) VALID. The entire stated angle palette is closed; mixed PPP and different Q angles remain outside. |
-| Mixed-PPP P5/Q14 third-angle palette — provisional paused algebraic lead | [Candidate and necessary native reductions](research/searches/contact-pentagon-5pi7-q14-candidate.md). Pangles(5π/7,4π/7^4), Q14angles6π/7; proposed positive x=u=w=1 metric and a centrally symmetric binary Qword are defined exactly. | No metric computation, tileability or hierarchy is established. Analytic equality/tag reductions await fresh review. Resume with one exact candidate check, not a metric grid or larger patch bound. |
+| Mixed-PPP P5/Q14 third-angle palette — reviewed finite restart set | [Exact experiment](research/searches/contact-pentagon-5pi7-q14-exact.md), [adversary checks](research/searches/construction-adversary-2026-10-14.md): 3003 masks -> 35 closed words -> 896 native rings -> 364 nonoverlapping dimer patches -> 28 contact-compatible states, four each in seven cyclic labels of one Q shape. Every survivor requires multiple physical Q orientations. | Neither plane extension nor exclusion of larger mixed-orientation periodic cells is proved. A fixed finite polygonal-parent similarity hierarchy is excluded by the no-flat boundary gate; other mechanisms remain outside. |
+| Nonconvex polygonal-parent construction — reviewed bounded cycle complete | [Perimeter bound](research/lemmas/nonconvex-parent-hexagon-perimeter-bound.md): any simple p-gon dissected into fixed convex atoms with at least six sides has perimeter <= (2p-6)L, excluding iterable expansive similarity hierarchies. [Exact construction cycle](research/searches/nonconvex-parent-construction-2026-10-14.md): zero metrics in the 1430-signature hexagon grid; all eight full-edge parents in the pentagon repair fail endpoint angles; 20 finite partial-contact completions remain, six with host switches. | New parents must change the actual contact mechanism. Pure hexagon similarity hierarchies and the eight failed full-edge parents are closed. Finite P-only patches are controls, not plane tilings or a mixed hierarchy. |
 | Ammann cross-source J-star — reviewed local 5/7 witness; omission excluded | [Exact strict-convex resection](research/searches/contact-structure-ammann-j-star-resection.md) spans H/P1/P2 at a changed native star and yields two exact output classes. | A whole equal-triad cover of the reviewed generic source contradicts its frequencies. Both single-species tilings are excluded by the [independent audit](research/reviews/ammann-cross-source-resections-independent-review.md); fractional transfer, mixed plane tilability and every-tiling decoding remain unproved. |
 | Ammann K/L replacements — reviewed fixed schemes closed | [Single triad4/8 gate](research/searches/contact-structure-ammann-corner-triad-gate.md), [four double-corner alternatives](research/searches/contact-structure-ammann-double-corner-gate.md); the6/6 branch has a separate exact Q-only periodic escape. | The [independent review](research/reviews/ammann-cross-source-resections-independent-review.md) confirms these fixed boundary gates and the 6/6 periodic omission. Any convex 6/7 realization is excluded by the reviewed hexagon/higher-side theorem, although tileability is unclassified. All four fixed double-corner schemes are closed for the target; larger or fractional replacements remain outside. |
 
@@ -119,7 +131,7 @@ links all older proofs, certificates, reviews and finite search domains.
 | Uniform density when a subfamily cannot tile | Fresh independent review VALID. Every fixed-radius disk meets the complementary types; area/count lower bounds follow. Hypothetical aperiodic two-hexagon pairs require both types at positive lower density in every admitted tiling. | [Density theorem](research/lemmas/two-type-uniform-density.md), [review](research/reviews/two-type-uniform-density-review.md) |
 | No angle multiset summing to pi forces edge-to-edge contacts | Proved internally; repaired after hostile review; independent re-review pending. Permits higher valence. | [Proof](research/lemmas/angle-nonresonance-edge-forcing.md), [review](research/reviews/angle-nonresonance-review.md) |
 | All angles strictly between pi/2 and pi force edge-to-edge trivalence | Proved and reviewed; excludes all-obtuse (5,5) and aperiodic (5,6) pairs. | [Proof](research/lemmas/obtuse-edge-forcing.md), [review](research/reviews/obtuse-edge-forcing-review.md) |
-| Convex fusion transfers strong aperiodicity under explicit source/partition hypotheses | Conditional lemma proved internally; repaired after hostile review; independent re-review pending. No usable source partition certified. | [Proof](research/lemmas/convex-cluster-fusion.md), [review](research/reviews/convex-cluster-fusion-review.md) |
+| Convex fusion transfers strong aperiodicity under explicit source/partition hypotheses | Conditional theorem has a fresh VALID review for its stated unmarked-source and exact-partition hypotheses. No usable source partition is certified. | [Proof](research/lemmas/convex-cluster-fusion.md), [fresh review](research/reviews/convex-cluster-fusion-basic-fresh-rereview.md) |
 | Finite convex multitile clusters cannot occur in everywhere-trivalent edge-to-edge convex tilings | Proved internally; extended during hostile review; independent re-review pending. Fusion must use a source with combinatorial defects. | [Proof](research/lemmas/convex-cluster-fusion.md), [review](research/reviews/trivalent-fusion-review.md) |
 | Real corner/edge frequency balance | Proved necessary conditions; repaired after hostile review; independent re-review pending. Not a global realization theorem. | [Proof](research/lemmas/frequency-balance.md), [review](research/reviews/frequency-balance-review.md) |
 
@@ -190,7 +202,7 @@ without a new geometric constraint or proved finite-model property.
 ## Dependency gates and closed-route restart rules
 
 Retain the status in the structural table above. Repaired angle-nonresonance,
-convex fusion/trivalent fusion and real frequency balance are not silently
+trivalent fusion and real frequency balance are not silently
 promoted by successful finite replays. Intrinsic deterministic-state arguments
 require their explicitly stated neighbor uniqueness; their repaired review
 obligation is not replaced by broader periodic examples.

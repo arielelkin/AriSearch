@@ -1,8 +1,6 @@
-# Provisional P(5pi/7,4pi/7^4) / equiangular Q14 candidate
+# P(5pi/7,4pi/7^4) / equiangular Q14 candidate reductions
 
-Date:2026-10-13. Status: provisional algebraic lead, paused at user wrap-up; unreplayed and not independently reviewed. No tileability,
-aperiodicity or all-metric impossibility claim. No metric producer has run.
-These analytic necessary reductions await fresh independent review.
+Date:2026-10-13; bounded exact cycle completed2026-10-14. **Independently reviewed VALID for its stated finite/local/model scopes** ([review](../reviews/contact-pentagon-5pi7-q14-independent-hostile-review.md), [fresh palette review](../reviews/contact-pentagon-5pi7-q14-exact-palette-review.md)). The [refined exact restart](contact-pentagon-5pi7-q14-exact.md) is28 native-palette-compatible Q-plus20-P states, four per seven split-v-run periods. All one-Q translation-orbit models fail the mandatory neighbor matching gate; differently oriented Q interactions and global extension remain unclassified. No aperiodicity or full-plane tilability is asserted. The authorized cycle is complete; no further quotient or patch expansion was run.
 
 ## Exact changed signature and unrestricted ledger
 
@@ -45,9 +43,9 @@ has oneP and oneQ neighbor, adjacent Qcontact sides are impossible;
 possible native Qslot sets on P are empty,{u},{w},{v},{u,v}.
 A bevel chosen for thealpha-alpha dimer has PPQbeta at its far endpoint.
 
-## Concrete next exact object: u=w=x=1 with unequal bevels
+## Checked exact object: u=w=x=1 with unequal bevels
 
-This object has been derived algebraically but NOT yet replayed or reviewed.
+This object has now been constructed and checked exactly by [the metric producer](contact-pentagon-5pi7-q14-exact.py) and the independent review linked above.
 Use native Pedge directions
 
     -5pi/14, pi/14, pi/2, 13pi/14, 19pi/14.
@@ -73,28 +71,21 @@ sixu andeightv slots. These are necessary native counts, not an existence
 claim. A vside's y-adjacent endpoint must meet another vside with its
 same ytag, so vruns must have even length.
 
-One proposed EXACT closed positive Q14 word to check first is
+The displayed exact closed positive Q14 word is
 
     (v,v,u,v,v,u,u, v,v,u,v,v,u,u).
 
 Opposite seven-separated lengths agree, so its vectors in successive
 pi/7 directions cancel; it is genuinely convex. The two vruns in the
 seven-bit period have even length. Thus this is a concrete algebraic P/Q
-object satisfying the derived incidence/closure filters, without claiming
-its local patches or plane extension exist. Other words in the exact
-sixu/eightv opposite-pair domain may need testing only if this fails.
+object satisfying the derived incidence/closure filters. The completed
+experiment checked all 3003 six-u/eight-v masks, derived the 35 closed
+words, and retained four local states for this displayed word.
+Full-plane extension remains unproved.
 
 ## Next step and stop status
 
-First independently audit the equality-plane/tag reductions above. Then
-build one exact real-number-field producer for this P and the displayed
-Qword: verifyclosure, strictsupport, the forced bevely alpha-alpha dimer,
-and actual first native PPQguest cycle. Seek either a complete periodic
-edge-cancellation witness, a decisive full-domain local obstruction, or an
-intrinsic expanding dimer resection with a proved decoder. Do not assume
-these rational-angle incidence constraints enforce a source hierarchy.
-No arbitrary metric grid or extra patch-depth sweep is authorized by this
-checkpoint. User wrap-up halted new research before any metric execution.
+The authorized exact metric/native-ring, mandatory-palette and one-Q counterexample cycle is complete. Its [finite record](contact-pentagon-5pi7-q14-exact.md) gives the35-word classification and refined28-state restart. A surviving local state supplies no plane extension or source hierarchy. All-obtuse atoms also prohibit an iterable similarity hierarchy of finite whole-atom polygonal parents, by the straight-boundary-side perimeter bound in that record. Future research needs actual differently oriented Q compatibility/extension or a changed construction mechanism; no arbitrary metric grid, larger quotient sweep or extra patch-depth expansion was run here.
 
 Completed immediately preceding work: the full P120/105-Q12 classification
 has a fresh VALID review at

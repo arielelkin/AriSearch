@@ -1,0 +1,499 @@
+{
+  "schema": "construction-adversary-v1",
+  "controls": {
+    "winding_controls": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "square_alias_attachments": 8,
+    "overlap_and_tangent_controls": "PASS",
+    "square_omission": {
+      "status": "PERIODIC_ESCAPE",
+      "representatives": 2,
+      "atomic_edges": 8,
+      "pairs": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            -1
+          ]
+        ]
+      ]
+    },
+    "damaged_periodic_witness": {
+      "status": "INVALID_WITNESS",
+      "reason": "unpaired or multiply paired full edge",
+      "edge": [
+        0,
+        1
+      ],
+      "matches": 0
+    },
+    "reviewed_right_palette_carrier": {
+      "status": "PERIODIC_ESCAPE",
+      "representatives": 3,
+      "atomic_edges": 18,
+      "pairs": [
+        [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            -1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        [
+          [
+            0,
+            6
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            -1
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ]
+        ]
+      ]
+    },
+    "regular_pentagon_regular_octagon_untileable": {
+      "status": "UNTILEABLE_ANGLE_PALETTE",
+      "full_stars": [],
+      "flat_stars": []
+    }
+  },
+  "live_pentagon_hexagon": {
+    "candidate": "mixed pentagon/hexagon nonconvex-parent repair",
+    "strict_convexity": "PASS",
+    "P_omission": {
+      "status": "NO_WITNESS_IN_DOMAIN",
+      "domain": "two-copy native-halfturn seam-gain lattices",
+      "attempts": 30,
+      "sides": 5
+    },
+    "Q_omission": {
+      "status": "NO_WITNESS_IN_DOMAIN",
+      "domain": "two-copy native-halfturn seam-gain lattices",
+      "attempts": 60,
+      "sides": 6
+    },
+    "native_mixed_attachments": [
+      {
+        "Q_side": 0,
+        "P_side": 0,
+        "determinant": -1,
+        "reverse_endpoints": false,
+        "forbidden_endpoint_indices": [
+          1
+        ]
+      },
+      {
+        "Q_side": 0,
+        "P_side": 0,
+        "determinant": 1,
+        "reverse_endpoints": true,
+        "forbidden_endpoint_indices": [
+          0
+        ]
+      },
+      {
+        "Q_side": 1,
+        "P_side": 4,
+        "determinant": -1,
+        "reverse_endpoints": false,
+        "forbidden_endpoint_indices": [
+          1
+        ]
+      },
+      {
+        "Q_side": 1,
+        "P_side": 4,
+        "determinant": 1,
+        "reverse_endpoints": true,
+        "forbidden_endpoint_indices": [
+          2
+        ]
+      },
+      {
+        "Q_side": 2,
+        "P_side": 3,
+        "determinant": -1,
+        "reverse_endpoints": false,
+        "forbidden_endpoint_indices": [
+          3
+        ]
+      },
+      {
+        "Q_side": 2,
+        "P_side": 3,
+        "determinant": 1,
+        "reverse_endpoints": true,
+        "forbidden_endpoint_indices": [
+          2
+        ]
+      },
+      {
+        "Q_side": 4,
+        "P_side": 1,
+        "determinant": -1,
+        "reverse_endpoints": false,
+        "forbidden_endpoint_indices": [
+          4,
+          5
+        ]
+      },
+      {
+        "Q_side": 4,
+        "P_side": 1,
+        "determinant": 1,
+        "reverse_endpoints": true,
+        "forbidden_endpoint_indices": [
+          4,
+          5
+        ]
+      }
+    ],
+    "admissible_attachment_count": 0,
+    "scope": "endpoint failures exclude only those full native seams; absent periodic witness is inconclusive"
+  }
+}
