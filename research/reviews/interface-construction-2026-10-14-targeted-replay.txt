@@ -1,0 +1,13 @@
+PASS certificate replay: ammann-mark-altitude-gate-2026-10-14.py
+PASS certificate replay: pentagon-y-interface-2026-10-14.py
+PASS certificate replay: two-hexagon-sawtooth-strip-cycle.py
+PASS verifier: pentagon-y-6p4q-flat-torus-cpsat-2026-10-14.py
+PASS verifier: pentagon-y-no-full-edge-independent-2026-10-14.py
+PASS verifier: ammann-mark-altitude-independent-2026-10-14.py
+PASS verifier: pentagon-y-full-edge-balance-hostile-2026-10-14.py
+PASS verifier: ammann-bipartite-tree-pentagons-2026-10-14.py
+PASS verifier: verify_ammann_bipartite_tree_pentagons_independent.py
+PASS verifier: pentagon-y-interface-2026-10-14-independent.py
+PASS verifier: two-hexagon-strip-cycle-independent-2026-10-14.py
+PASS verifier: pentagon-y-equal-count-torus-obstruction-2026-10-14.py
+All 3 certificate replays and 9 verifiers passed; no certificates written.

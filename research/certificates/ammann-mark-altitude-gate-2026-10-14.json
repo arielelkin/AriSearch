@@ -1,0 +1,287 @@
+{
+  "status": "GENUINE_GLOBAL_FRACTIONAL_PENTAGON_RULE; NONZERO_XY_HEIGHT_DIFFERENCE_REQUIRES_AT_LEAST_THREE_CLASSES",
+  "coordinate_scale": "x+i*sin(pi/5)*y",
+  "height_X_normalized": "1/10",
+  "height_Y_normalized": "1/20",
+  "rows": [
+    {
+      "type": "thin",
+      "triangle_edge_choice": 0,
+      "native_cyclic_marks": [
+        "X",
+        "X",
+        "Y",
+        "Y"
+      ],
+      "triangle_marks": [
+        "X",
+        "Y"
+      ],
+      "receiving_marks": [
+        "X",
+        "Y"
+      ],
+      "output_areas": [
+        "sqrt(5)/160 + 83/160",
+        "77/160 - sqrt(5)/160"
+      ],
+      "pentagons": [
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "9*sqrt(5)/80 + 19/16",
+            "19/40 - sqrt(5)/40"
+          ],
+          [
+            "sqrt(5)/4 + 5/4",
+            "1"
+          ],
+          [
+            "sqrt(5)/4 + 3/4",
+            "19/20"
+          ],
+          [
+            "1/2",
+            "1/10"
+          ]
+        ],
+        [
+          [
+            "1/4 + sqrt(5)/4",
+            "1"
+          ],
+          [
+            "3/32 + 21*sqrt(5)/160",
+            "sqrt(5)/80 + 41/80"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1/2",
+            "1/10"
+          ],
+          [
+            "sqrt(5)/4 + 3/4",
+            "19/20"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "thin",
+      "triangle_edge_choice": 1,
+      "native_cyclic_marks": [
+        "X",
+        "X",
+        "Y",
+        "Y"
+      ],
+      "triangle_marks": [
+        "X",
+        "Y"
+      ],
+      "receiving_marks": [
+        "Y",
+        "X"
+      ],
+      "output_areas": [
+        "77/160 - sqrt(5)/160",
+        "sqrt(5)/160 + 83/160"
+      ],
+      "pentagons": [
+        [
+          [
+            "sqrt(5)/4 + 5/4",
+            "1"
+          ],
+          [
+            "sqrt(5)/4 + 3/4",
+            "21/20"
+          ],
+          [
+            "1/4 + sqrt(5)/4",
+            "1"
+          ],
+          [
+            "5/32 + 19*sqrt(5)/160",
+            "39/80 - sqrt(5)/80"
+          ],
+          [
+            "11*sqrt(5)/80 + 17/16",
+            "sqrt(5)/40 + 21/40"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1/2",
+            "-1/10"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "11*sqrt(5)/80 + 17/16",
+            "sqrt(5)/40 + 21/40"
+          ],
+          [
+            "5/32 + 19*sqrt(5)/160",
+            "39/80 - sqrt(5)/80"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "thick",
+      "triangle_edge_choice": 0,
+      "native_cyclic_marks": [
+        "X",
+        "Y",
+        "Y",
+        "X"
+      ],
+      "triangle_marks": [
+        "X",
+        "Y"
+      ],
+      "receiving_marks": [
+        "Y",
+        "X"
+      ],
+      "output_areas": [
+        "37/160 + 41*sqrt(5)/160",
+        "43/160 + 39*sqrt(5)/160"
+      ],
+      "pentagons": [
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "11*sqrt(5)/80 + 7/8",
+            "21/80 + 19*sqrt(5)/80"
+          ],
+          [
+            "sqrt(5)/4 + 3/4",
+            "1/2 + sqrt(5)/2"
+          ],
+          [
+            "1/4 + sqrt(5)/4",
+            "9/20 + sqrt(5)/2"
+          ],
+          [
+            "1/2",
+            "1/10"
+          ]
+        ],
+        [
+          [
+            "-1/4 + sqrt(5)/4",
+            "1/2 + sqrt(5)/2"
+          ],
+          [
+            "-1/8 + sqrt(5)/10",
+            "9/40 + 11*sqrt(5)/40"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1/2",
+            "1/10"
+          ],
+          [
+            "1/4 + sqrt(5)/4",
+            "9/20 + sqrt(5)/2"
+          ]
+        ]
+      ]
+    },
+    {
+      "type": "thick",
+      "triangle_edge_choice": 1,
+      "native_cyclic_marks": [
+        "X",
+        "Y",
+        "Y",
+        "X"
+      ],
+      "triangle_marks": [
+        "Y",
+        "X"
+      ],
+      "receiving_marks": [
+        "Y",
+        "X"
+      ],
+      "output_areas": [
+        "37/160 + 41*sqrt(5)/160",
+        "43/160 + 39*sqrt(5)/160"
+      ],
+      "pentagons": [
+        [
+          [
+            "sqrt(5)/4 + 3/4",
+            "1/2 + sqrt(5)/2"
+          ],
+          [
+            "1/4 + sqrt(5)/4",
+            "11/20 + sqrt(5)/2"
+          ],
+          [
+            "-1/4 + sqrt(5)/4",
+            "1/2 + sqrt(5)/2"
+          ],
+          [
+            "-1/8 + 3*sqrt(5)/20",
+            "11/40 + 9*sqrt(5)/40"
+          ],
+          [
+            "9*sqrt(5)/80 + 7/8",
+            "19/80 + 21*sqrt(5)/80"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1/2",
+            "-1/10"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "9*sqrt(5)/80 + 7/8",
+            "19/80 + 21*sqrt(5)/80"
+          ],
+          [
+            "-1/8 + 3*sqrt(5)/20",
+            "11/40 + 9*sqrt(5)/40"
+          ]
+        ]
+      ]
+    }
+  ],
+  "fixture_distinct_area_count": 4,
+  "all_parameter_gate": "If delta !=0, each rhomb yields two distinct areas; two total area values would make both pairs equal and force identical means, contrary to thin/thick sine difference.",
+  "offset_coefficients_normalized": [
+    "sqrt(5)/8 + 3/8",
+    "-3/8 + sqrt(5)/8"
+  ],
+  "equal_height_branch": "previous globally compatible two-class rule with periodic omission"
+}

@@ -1,0 +1,3 @@
+PASS certificate replay: ammann-directed-offset-gate-2026-10-14.py
+PASS verifier: ammann-directed-offset-independent-2026-10-14.py
+All 1 certificate replays and 1 verifiers passed; no certificates written.

@@ -1,0 +1,810 @@
+{
+  "status": "LOCAL_TWO_SHAPE_PARTITION; BOTH_OMISSIONS_EXCLUDED; INTACT_PARENT_ASSEMBLY_EXCLUDED; INFINITE_COVER_UNPROVED",
+  "angle_basis": "(pi/4, theta), theta=atan(2); theta/pi irrational",
+  "P": [
+    [
+      0,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "Q": [
+    [
+      2,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      -1,
+      4
+    ],
+    [
+      -2,
+      3
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "H": [
+    [
+      -2,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      -1,
+      4
+    ],
+    [
+      -3,
+      2
+    ]
+  ],
+  "areas": {
+    "P": "13/2",
+    "Q": "5",
+    "H": "18"
+  },
+  "native_stars": [
+    {
+      "star": [
+        "r",
+        "g",
+        "g"
+      ],
+      "oriented_length_matches": 6,
+      "endpoint_survivors": 6,
+      "examples": [
+        {
+          "cyclic_word": [
+            "g",
+            "g",
+            "r"
+          ],
+          "flips": [
+            1,
+            0,
+            0
+          ],
+          "endpoints": [
+            {
+              "length_squared": 2,
+              "far_types": [
+                "c",
+                "c"
+              ],
+              "completions": [
+                [
+                  "r",
+                  "d"
+                ],
+                [
+                  "b",
+                  "b"
+                ]
+              ]
+            },
+            {
+              "length_squared": 4,
+              "far_types": [
+                "g",
+                "a"
+              ],
+              "completions": [
+                [
+                  "b"
+                ]
+              ]
+            },
+            {
+              "length_squared": 4,
+              "far_types": [
+                "a",
+                "g"
+              ],
+              "completions": [
+                [
+                  "b"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "cyclic_word": [
+            "g",
+            "g",
+            "r"
+          ],
+          "flips": [
+            1,
+            0,
+            1
+          ],
+          "endpoints": [
+            {
+              "length_squared": 2,
+              "far_types": [
+                "c",
+                "c"
+              ],
+              "completions": [
+                [
+                  "r",
+                  "d"
+                ],
+                [
+                  "b",
+                  "b"
+                ]
+              ]
+            },
+            {
+              "length_squared": 4,
+              "far_types": [
+                "g",
+                "a"
+              ],
+              "completions": [
+                [
+                  "b"
+                ]
+              ]
+            },
+            {
+              "length_squared": 4,
+              "far_types": [
+                "a",
+                "g"
+              ],
+              "completions": [
+                [
+                  "b"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "star": [
+        "a",
+        "a",
+        "d"
+      ],
+      "oriented_length_matches": 6,
+      "endpoint_survivors": 6,
+      "examples": [
+        {
+          "cyclic_word": [
+            "a",
+            "a",
+            "d"
+          ],
+          "flips": [
+            1,
+            0,
+            0
+          ],
+          "endpoints": [
+            {
+              "length_squared": 4,
+              "far_types": [
+                "r",
+                "r"
+              ],
+              "completions": [
+                [
+                  "r",
+                  "r"
+                ],
+                [
+                  "b",
+                  "c"
+                ],
+                [
+                  "flat"
+                ]
+              ]
+            },
+            {
+              "length_squared": 5,
+              "far_types": [
+                "b",
+                "c"
+              ],
+              "completions": [
+                [
+                  "r",
+                  "r"
+                ],
+                [
+                  "b",
+                  "c"
+                ],
+                [
+                  "flat"
+                ]
+              ]
+            },
+            {
+              "length_squared": 5,
+              "far_types": [
+                "c",
+                "b"
+              ],
+              "completions": [
+                [
+                  "r",
+                  "r"
+                ],
+                [
+                  "b",
+                  "c"
+                ],
+                [
+                  "flat"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "cyclic_word": [
+            "a",
+            "a",
+            "d"
+          ],
+          "flips": [
+            1,
+            0,
+            1
+          ],
+          "endpoints": [
+            {
+              "length_squared": 4,
+              "far_types": [
+                "r",
+                "r"
+              ],
+              "completions": [
+                [
+                  "r",
+                  "r"
+                ],
+                [
+                  "b",
+                  "c"
+                ],
+                [
+                  "flat"
+                ]
+              ]
+            },
+            {
+              "length_squared": 5,
+              "far_types": [
+                "b",
+                "c"
+              ],
+              "completions": [
+                [
+                  "r",
+                  "r"
+                ],
+                [
+                  "b",
+                  "c"
+                ],
+                [
+                  "flat"
+                ]
+              ]
+            },
+            {
+              "length_squared": 5,
+              "far_types": [
+                "c",
+                "b"
+              ],
+              "completions": [
+                [
+                  "r",
+                  "r"
+                ],
+                [
+                  "b",
+                  "c"
+                ],
+                [
+                  "flat"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "star": [
+        "a",
+        "b",
+        "g"
+      ],
+      "oriented_length_matches": 6,
+      "endpoint_survivors": 6,
+      "examples": [
+        {
+          "cyclic_word": [
+            "a",
+            "b",
+            "g"
+          ],
+          "flips": [
+            0,
+            0,
+            0
+          ],
+          "endpoints": [
+            {
+              "length_squared": 5,
+              "far_types": [
+                "b",
+                "a"
+              ],
+              "completions": [
+                [
+                  "g"
+                ]
+              ]
+            },
+            {
+              "length_squared": 2,
+              "far_types": [
+                "b",
+                "c"
+              ],
+              "completions": [
+                [
+                  "r",
+                  "r"
+                ],
+                [
+                  "b",
+                  "c"
+                ],
+                [
+                  "flat"
+                ]
+              ]
+            },
+            {
+              "length_squared": 4,
+              "far_types": [
+                "g",
+                "r"
+              ],
+              "completions": [
+                [
+                  "g"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "cyclic_word": [
+            "a",
+            "g",
+            "b"
+          ],
+          "flips": [
+            1,
+            1,
+            1
+          ],
+          "endpoints": [
+            {
+              "length_squared": 4,
+              "far_types": [
+                "r",
+                "g"
+              ],
+              "completions": [
+                [
+                  "g"
+                ]
+              ]
+            },
+            {
+              "length_squared": 2,
+              "far_types": [
+                "c",
+                "b"
+              ],
+              "completions": [
+                [
+                  "r",
+                  "r"
+                ],
+                [
+                  "b",
+                  "c"
+                ],
+                [
+                  "flat"
+                ]
+              ]
+            },
+            {
+              "length_squared": 5,
+              "far_types": [
+                "a",
+                "b"
+              ],
+              "completions": [
+                [
+                  "g"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "star": [
+        "r",
+        "r",
+        "r",
+        "r"
+      ],
+      "oriented_length_matches": 16,
+      "endpoint_survivors": 16,
+      "examples": [
+        {
+          "cyclic_word": [
+            "r",
+            "r",
+            "r",
+            "r"
+          ],
+          "flips": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "endpoints": [
+            {
+              "length_squared": 4,
+              "far_types": [
+                "a",
+                "a"
+              ],
+              "completions": [
+                [
+                  "d"
+                ]
+              ]
+            },
+            {
+              "length_squared": 4,
+              "far_types": [
+                "a",
+                "a"
+              ],
+              "completions": [
+                [
+                  "d"
+                ]
+              ]
+            },
+            {
+              "length_squared": 4,
+              "far_types": [
+                "a",
+                "a"
+              ],
+              "completions": [
+                [
+                  "d"
+                ]
+              ]
+            },
+            {
+              "length_squared": 4,
+              "far_types": [
+                "a",
+                "a"
+              ],
+              "completions": [
+                [
+                  "d"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "cyclic_word": [
+            "r",
+            "r",
+            "r",
+            "r"
+          ],
+          "flips": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "endpoints": [
+            {
+              "length_squared": 4,
+              "far_types": [
+                "a",
+                "a"
+              ],
+              "completions": [
+                [
+                  "d"
+                ]
+              ]
+            },
+            {
+              "length_squared": 4,
+              "far_types": [
+                "a",
+                "a"
+              ],
+              "completions": [
+                [
+                  "d"
+                ]
+              ]
+            },
+            {
+              "length_squared": 4,
+              "far_types": [
+                "a",
+                "a"
+              ],
+              "completions": [
+                [
+                  "d"
+                ]
+              ]
+            },
+            {
+              "length_squared": 4,
+              "far_types": [
+                "a",
+                "a"
+              ],
+              "completions": [
+                [
+                  "d"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "star": [
+        "r",
+        "r",
+        "b",
+        "c"
+      ],
+      "oriented_length_matches": 0,
+      "endpoint_survivors": 0,
+      "examples": []
+    },
+    {
+      "star": [
+        "r",
+        "c",
+        "c",
+        "d"
+      ],
+      "oriented_length_matches": 0,
+      "endpoint_survivors": 0,
+      "examples": []
+    },
+    {
+      "star": [
+        "b",
+        "b",
+        "c",
+        "c"
+      ],
+      "oriented_length_matches": 12,
+      "endpoint_survivors": 8,
+      "examples": [
+        {
+          "cyclic_word": [
+            "b",
+            "b",
+            "c",
+            "c"
+          ],
+          "flips": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "endpoints": [
+            {
+              "length_squared": 2,
+              "far_types": [
+                "b",
+                "b"
+              ],
+              "completions": [
+                [
+                  "c",
+                  "c"
+                ]
+              ]
+            },
+            {
+              "length_squared": 5,
+              "far_types": [
+                "a",
+                "d"
+              ],
+              "completions": [
+                [
+                  "a"
+                ]
+              ]
+            },
+            {
+              "length_squared": 2,
+              "far_types": [
+                "g",
+                "g"
+              ],
+              "completions": [
+                [
+                  "r"
+                ]
+              ]
+            },
+            {
+              "length_squared": 5,
+              "far_types": [
+                "d",
+                "a"
+              ],
+              "completions": [
+                [
+                  "a"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "cyclic_word": [
+            "b",
+            "c",
+            "b",
+            "c"
+          ],
+          "flips": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "endpoints": [
+            {
+              "length_squared": 2,
+              "far_types": [
+                "b",
+                "g"
+              ],
+              "completions": [
+                [
+                  "a"
+                ]
+              ]
+            },
+            {
+              "length_squared": 5,
+              "far_types": [
+                "d",
+                "a"
+              ],
+              "completions": [
+                [
+                  "a"
+                ]
+              ]
+            },
+            {
+              "length_squared": 2,
+              "far_types": [
+                "b",
+                "g"
+              ],
+              "completions": [
+                [
+                  "a"
+                ]
+              ]
+            },
+            {
+              "length_squared": 5,
+              "far_types": [
+                "d",
+                "a"
+              ],
+              "completions": [
+                [
+                  "a"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "flat_stars": [
+    [
+      "r",
+      "r"
+    ],
+    [
+      "b",
+      "c"
+    ]
+  ],
+  "parent_native_stars": [
+    [
+      "a",
+      "b",
+      "g"
+    ]
+  ],
+  "parent_whole_edge_matches": 0,
+  "scope": "Stars exhaustive by exact irrational angle coefficients; endpoint checks necessary only, no infinite extension or universal decoder."
+}

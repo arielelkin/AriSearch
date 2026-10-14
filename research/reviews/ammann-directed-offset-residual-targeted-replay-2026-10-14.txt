@@ -1,0 +1,4 @@
+PASS verifier: ammann-directed-offset-residual-invariants-2026-10-14.py
+PASS verifier: ammann-directed-offset-residual-independent-2026-10-14.py
+PASS verifier: ammann-directed-offset-unit-chord-check-2026-10-14.py
+All 0 certificate replays and 3 verifiers passed; no certificates written.

@@ -1,0 +1,288 @@
+{
+  "common_triangle_physical_altitude": "sin(pi/5)/10",
+  "coordinate_scale": "x+i*sin(pi/5)*y",
+  "finite_gate": "two exact shape checks; no contact enumeration",
+  "global_source_cover": "bipartite coloring of reviewed infinite marked-rhomb source",
+  "obstruction": "each pentagon class tiles a periodic homogeneous rhomb carrier alone",
+  "rows": [
+    {
+      "native_sides": 5,
+      "normalized_area": "1/2",
+      "pentagon": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "9/40*phi + 43/40",
+          "-1/20*phi + 1/2"
+        ],
+        [
+          "1/2*phi + 1",
+          "1"
+        ],
+        [
+          "1/2*phi + 1/2",
+          "9/10"
+        ],
+        [
+          "1/2",
+          "1/10"
+        ]
+      ],
+      "periods_for_checkerboard_carrier": [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "phi",
+          "2"
+        ]
+      ],
+      "rhomb": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1/2*phi + 1",
+          "1"
+        ],
+        [
+          "1/2*phi",
+          "1"
+        ]
+      ],
+      "sectors": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1/2",
+            "1/10"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1/2*phi + 1",
+            "1"
+          ],
+          [
+            "1/2*phi + 1/2",
+            "9/10"
+          ],
+          [
+            "1/2",
+            "1/10"
+          ]
+        ],
+        [
+          [
+            "1/2*phi + 1",
+            "1"
+          ],
+          [
+            "1/2*phi",
+            "1"
+          ],
+          [
+            "1/2*phi + 1/2",
+            "9/10"
+          ]
+        ],
+        [
+          [
+            "1/2*phi",
+            "1"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1/2",
+            "1/10"
+          ],
+          [
+            "1/2*phi + 1/2",
+            "9/10"
+          ]
+        ]
+      ],
+      "tree_nodes": [
+        [
+          "1/2",
+          "1/10"
+        ],
+        [
+          "1/2*phi + 1/2",
+          "9/10"
+        ]
+      ],
+      "turns": [
+        "-1/400*phi + 103/400",
+        "1/10",
+        "-1/400*phi + 103/400",
+        "-1/20*phi + 2/5",
+        "1/20*phi + 2/5"
+      ],
+      "type": "thin"
+    },
+    {
+      "native_sides": 5,
+      "normalized_area": "1/2*phi",
+      "pentagon": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "3/10*phi + 29/40",
+          "9/20*phi + 1/20"
+        ],
+        [
+          "1/2*phi + 1/2",
+          "phi"
+        ],
+        [
+          "1/2*phi",
+          "phi - 1/10"
+        ],
+        [
+          "1/2",
+          "1/10"
+        ]
+      ],
+      "periods_for_checkerboard_carrier": [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "phi - 1",
+          "2*phi"
+        ]
+      ],
+      "rhomb": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1/2*phi + 1/2",
+          "phi"
+        ],
+        [
+          "1/2*phi - 1/2",
+          "phi"
+        ]
+      ],
+      "sectors": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1/2",
+            "1/10"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1/2*phi + 1/2",
+            "phi"
+          ],
+          [
+            "1/2*phi",
+            "phi - 1/10"
+          ],
+          [
+            "1/2",
+            "1/10"
+          ]
+        ],
+        [
+          [
+            "1/2*phi + 1/2",
+            "phi"
+          ],
+          [
+            "1/2*phi - 1/2",
+            "phi"
+          ],
+          [
+            "1/2*phi",
+            "phi - 1/10"
+          ]
+        ],
+        [
+          [
+            "1/2*phi - 1/2",
+            "phi"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1/2",
+            "1/10"
+          ],
+          [
+            "1/2*phi",
+            "phi - 1/10"
+          ]
+        ]
+      ],
+      "tree_nodes": [
+        [
+          "1/2",
+          "1/10"
+        ],
+        [
+          "1/2*phi",
+          "phi - 1/10"
+        ]
+      ],
+      "turns": [
+        "51/200*phi - 1/400",
+        "1/10",
+        "51/200*phi - 1/400",
+        "9/20*phi - 1/20",
+        "11/20*phi - 3/20"
+      ],
+      "type": "thick"
+    }
+  ],
+  "schema": 1,
+  "two_congruence_classes": true,
+  "universal_recognition": false
+}

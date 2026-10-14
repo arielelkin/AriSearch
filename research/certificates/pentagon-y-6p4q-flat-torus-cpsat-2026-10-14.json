@@ -1,0 +1,47 @@
+{
+  "schema": "Y_NATIVE_EDGE_TORUS_V1",
+  "domain": {
+    "P_faces": 6,
+    "Q_faces": 4,
+    "native_sides": 50,
+    "stars": [
+      "rgg",
+      "rgg",
+      "aad",
+      "aad",
+      "aad",
+      "aad",
+      "bbcc",
+      "bbcc",
+      "bbcc",
+      "bbcc",
+      "abg",
+      "abg",
+      "abg",
+      "abg",
+      "rrrr"
+    ],
+    "canonical_chirality": "P reflection y=x; Q reflection x=0; reflected placements equivalent by native reversal"
+  },
+  "caps": {
+    "wall_seconds": 120,
+    "max_rejected_assignments": 100,
+    "workers": 1,
+    "seed": 20261014
+  },
+  "status": "INFEASIBLE",
+  "stop_reason": "proved_infeasible_fixed_domain",
+  "elapsed_seconds": 0.06275813200045377,
+  "rejected_assignments": 0,
+  "solver_version": "9.15.6755",
+  "history": [
+    {
+      "status": "INFEASIBLE",
+      "wall_time": 0.051064536,
+      "conflicts": 0,
+      "branches": 0
+    }
+  ],
+  "witness": null,
+  "scope": "fixed full-native-edge 6P4Q torus only; UNKNOWN is not exclusion"
+}

@@ -16,6 +16,10 @@ ROOT = Path(__file__).resolve().parents[2]
 SEARCHES = ROOT / "research/searches"
 CERTIFICATE_DIR = ROOT / "research/certificates"
 CERTIFICATES = (
+    ("ammann-directed-offset-gate-2026-10-14.py", "ammann-directed-offset-gate-algebra-2026-10-14.json"),
+    ("ammann-mark-altitude-gate-2026-10-14.py", "ammann-mark-altitude-gate-2026-10-14.json"),
+    ("pentagon-y-interface-2026-10-14.py", "pentagon-y-interface-2026-10-14.json"),
+    ("two-hexagon-sawtooth-strip-cycle.py", "two-hexagon-sawtooth-strip-cycle.json"),
     ("mixed-partial-parent-2026-10-14.py", "mixed-partial-parent-2026-10-14.json"),
     ("construction-adversary-2026-10-14.py", "construction-adversary-2026-10-14.json"),
     ("nonconvex-parent-construction-2026-10-14-pentagon-repair.py", "nonconvex-parent-construction-2026-10-14-pentagon-repair.json"),
@@ -76,6 +80,19 @@ CERTIFICATES = (
     ("branching-hexagon-new-chirality-collapse.py", "branching-hexagon-new-chirality-collapse.json"),
 )
 VERIFIERS = (
+    ROOT / "research/searches/ammann-directed-offset-residual-invariants-2026-10-14.py",
+    ROOT / "research/reviews/ammann-directed-offset-residual-independent-2026-10-14.py",
+    ROOT / "research/searches/ammann-directed-offset-unit-chord-check-2026-10-14.py",
+    ROOT / "research/reviews/ammann-directed-offset-independent-2026-10-14.py",
+    ROOT / "research/searches/pentagon-y-6p4q-flat-torus-cpsat-2026-10-14.py",
+    ROOT / "research/reviews/pentagon-y-no-full-edge-independent-2026-10-14.py",
+    ROOT / "research/reviews/ammann-mark-altitude-independent-2026-10-14.py",
+    ROOT / "research/reviews/pentagon-y-full-edge-balance-hostile-2026-10-14.py",
+    ROOT / "research/searches/ammann-bipartite-tree-pentagons-2026-10-14.py",
+    ROOT / "research/reviews/verify_ammann_bipartite_tree_pentagons_independent.py",
+    ROOT / "research/reviews/pentagon-y-interface-2026-10-14-independent.py",
+    ROOT / "research/reviews/two-hexagon-strip-cycle-independent-2026-10-14.py",
+    ROOT / "research/reviews/pentagon-y-equal-count-torus-obstruction-2026-10-14.py",
     ROOT / "research/reviews/ammann-fractional-resection-2026-10-14-independent.py",
     ROOT / "research/reviews/ammann-fractional-resection-2026-10-14-mixed-parent-review.py",
     ROOT / "research/reviews/mixed-partial-parent-2026-10-14-p5q14-review.py",
@@ -369,6 +386,11 @@ VERIFIERS = (
 
 # Producer-style controls write only to a disposable output selected by run().
 VERIFIER_ARGS = {
+    "ammann-directed-offset-residual-independent-2026-10-14.py": ["--ideals"],
+    "ammann-directed-offset-gate-2026-10-14.py": ["--check"],
+    "ammann-directed-offset-independent-2026-10-14.py": ["--fixture"],
+    "pentagon-y-6p4q-flat-torus-cpsat-2026-10-14.py": ["--check", "research/certificates/pentagon-y-6p4q-flat-torus-cpsat-2026-10-14.json"],
+    "ammann-bipartite-tree-pentagons-2026-10-14.py": ["--check", "research/certificates/ammann-bipartite-tree-pentagons-2026-10-14.json"],
     "p5q14-orientation-transition-2026-10-14.py": ["--check", "research/certificates/p5q14-orientation-transition-2026-10-14.json"],
     "ammann-fractional-resection-2026-10-14.py": ["--check", "research/certificates/ammann-fractional-resection-2026-10-14.json"],
     "construction-adversary-2026-10-14-p5q14-palette.py": ["--check", "research/certificates/construction-adversary-2026-10-14-p5q14-palette.json"],

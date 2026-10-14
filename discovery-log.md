@@ -2,7 +2,7 @@
 
 **Problem status: unresolved.** No exact aperiodic pair or complete unrestricted
 impossibility theorem meets [the acceptance criteria](research-problem.md).
-**Checkpoint: 2026-10-14, three-track construction cycle complete and verified; publication audit and replay details are indexed below.**
+**Checkpoint: 2026-10-14, directed-offset residuals closed by independently reviewed exact invariants; all three new checks passed.**
 The unique-B-star and complete complementary two-angle hexagon families
 admit periodic escapes whenever tileable. The complementary three-angle
 result covers distinct, non-120 angles on its stated resonance domain. The original acute/obtuse pentagon native
@@ -14,6 +14,262 @@ These are restricted family results, not a global impossibility theorem.
 no construction meets all acceptance criteria. Individual branch results are checkpoints. Source-only or local
 objects below are not aperiodic pairs. Historical incremental notes are
 [archived](research/searches/discovery-log-2026-10-13-working-history.md).
+
+**Latest gate result:** the fixed directed-offset Ammann topology is now
+classified: all admissible two-shape realizations are the midpoint/common-
+height family with periodic omission. [Exact closure and review](research/lemmas/ammann-directed-offset-three-plus-one-obstruction-2026-10-14.md)
+are preserved; the two-convex-polygon target remains unresolved.
+
+## Resumed construction mechanisms: interfaces, fractional trees, strips (2026-10-14)
+
+The user explicitly prioritized new mechanisms over larger searches in closed
+families and authorized terra/sol orchestration. Three construction agents
+worked independently, then cross-reviewed each other; a separate torus
+balance derivation received fresh hostile review and correction. No fixed
+P5/Q14, excluded mixed-contact words, quadrilateral fan, or stalled census
+was resumed. The unrestricted objective remains unresolved.
+
+| Mechanism | Explicit scheme and surviving milestone | Bounded gate, verdict, and changed assumption |
+| --- | --- | --- |
+| Interface-first Y pentagons | [Exact rational P5/Q5 pair](research/searches/pentagon-y-interface-2026-10-14.md): three children partition a reflection-symmetric six-sided parent. Both monohedral omissions are excluded under unrestricted contacts. [Hostile review](research/reviews/pentagon-y-interface-2026-10-14-hostile-review.md) VALID. | Complete seven native/two flat angle-star domain; whole-side and far-endpoint checks retain multiple possible stars. Intact parent cannot tile because its only legal star has unmatched lengths 4 and 2. Atomic mixed plane existence remains UNPROVED. Restart requires cross-parent seams or another repeatable parent boundary, not more intact parents. |
+| Y atomic alternative assembly, full-edge torus | [Reviewed count theorem](research/lemmas/pentagon-y-full-edge-torus-balance-2026-10-14.md): every finite full-native-edge flat torus has p=6w,q=4w. [Fresh hostile review](research/reviews/pentagon-y-full-edge-balance-hostile-2026-10-14.md) VALID after correcting seven angle stars versus five length-compatible stars. | Initial 2P+2Q proposal stopped analytically before pairing enumeration. The later user-authorized 6P+4Q model returned INFEASIBLE and led to the stronger whole-edge propagation theorem below. The count theorem remains valid but its whole-edge restart is superseded. |
+| Fractional Ammann bipartite two-node tree | [Exact two-pentagon infinite partition](research/searches/ammann-bipartite-tree-pentagons-2026-10-14.md): opposite triangles and quads join across source edges, with all five genuine corners and both far endpoints verified. [Independent hostile review](research/reviews/ammann-bipartite-tree-pentagons-2026-10-14-hostile-review.md) VALID. | Two exact geometry rows, no contact census. Homogeneous checkerboard rhomb carriers give each pentagon a periodic omission cover, closing the scheme. Global two-shape partition succeeds; universal translation-equivariant source decoding fails. Change the common mark-independent triangle, not its height or patch size. |
+| Smaller two-hexagon strip track | [Exact mixed infinite strip covering and conditional theorem](research/lemmas/two-hexagon-repeatable-strip-cycle-2026-10-14.md); [independent hostile review](research/reviews/two-hexagon-strip-cycle-independent-2026-10-14.md) VALID. | Exact rational fixture and boundary periods. Each species also has a periodic omission. Independently reusable strips with finite complete periodic boundary states admit a periodic cycle even with branching and irrational phase drift. Change independent finite-state strip reuse; no universal row recognition or global hexagon classification follows. |
+
+The Y pair is retained only for unrestricted partial-contact possibilities,
+not as a plane-tiling candidate with existence established. Its surviving stars abg and rgg prevent an angle-only
+unique-Y argument; they are not certified infinite alternatives. Preserve this
+interface route independently of the fractional source route and the strip
+route.
+
+A second fractional cycle changed the assumption to X/Y-mark-dependent
+triangle altitudes, with the same globally compatible tree roles. The
+[exact four-case construction and analytic area gate](research/searches/ammann-mark-altitude-gate-2026-10-14.md)
+gives genuine pentagons and a compatible infinite partition. Unequal heights
+force at least three area values/classes; equal heights return the periodic
+omission. This height-only interface is closed. [Independent hostile review](research/reviews/ammann-mark-altitude-independent-2026-10-14.md)
+is VALID, with a fresh symbolic-height and eight-pentagon checker. A next scheme must
+change lateral offsets or tree/quad boundaries and solve receiving-class
+identities first.
+
+The user's subsequent steering explicitly authorized a bounded 6P+4Q
+periodic-counterexample experiment. The [fixed CP-SAT model](research/searches/pentagon-y-6p4q-flat-torus-cpsat-2026-10-14.md)
+encoded fifty complete native sides, reversed equal-length pairings, exact
+corner-slot counts, and reflections modulo intrinsic shape symmetries.
+Circular quotient links and face connectivity would have been checked before
+accepting a witness; no geometry witness was found. Predeclared stopping was
+first valid torus, INFEASIBLE, or cumulative 120-second/100-rejected-pairing cap.
+OR-Tools returned **INFEASIBLE in 0.051064536 seconds**, with no branches or
+rejections. Its retained JSON is a historical status record, not a formal
+solver UNSAT proof certificate. Read-only replay checks its metadata and the
+independent mathematical obstruction, without rerunning the solver.
+
+The solver then exposed a new [native-occurrence propagation theorem](research/lemmas/pentagon-y-whole-edge-native-propagation-2026-10-14.md):
+**these P and Q admit no whole-native-edge plane tiling at all**, with
+reflections and no finite-quotient assumption. Following Q's GG side forces
+both A and then both B corners of one actual P into abg stars, so P's BB
+side needs a nonexistent length-squared-2 GG mate. The [fresh hostile review](research/reviews/pentagon-y-no-full-edge-hostile-2026-10-14.md)
+is VALID and its independent Sage checker reconstructs native angles, ray
+lengths and far endpoints. This supersedes every larger whole-edge quotient
+search for these atoms. **Unrestricted partial-contact mixed existence and
+universal recognition remain unresolved.** A restart must change contact
+subdivision or the actual native endpoint correlations, not the face count.
+
+At the end of the earlier interface-construction cycle, the registry had
+**61 certificate pairs and 298 verifiers (359 checks)**. All **twelve new checks (three certificate replays and nine
+verifiers) PASSED** in [combined targeted replay](research/reviews/interface-construction-2026-10-14-targeted-replay.txt).
+No fresh full 359-check replay was run. Environment dependencies were
+unchanged. The [independent integration audit](research/reviews/interface-construction-2026-10-14-integration-review.md) found no mathematical defects; its stale-history and transient negative-replay findings were repaired before the combined replay. The twelve checks include the two fractional cycles, their fresh
+independent geometry/area checks, Y geometry and finite balance, the full-edge
+propagation theorem, the fixed CP record, and the smaller hexagon strip track.
+
+The user subsequently requested an explicit Astra assessment of further
+parallel construction value. The [independent Astra assessment](research/searches/astra-construction-portfolio-assessment-2026-10-14.md)
+is complete. It recommends **one new bounded directed-offset Ammann gate
+with a separate adversary**, not two or three full construction searches.
+Four parameters (a_X,a_Y,h_X,h_Y) measured from actual source-arrow tails
+move both donor triangles and receiving quads. First construct all eight
+local outputs, solve exact area/congruence/support identities over the 127
+two-class partitions, then immediately attack omission and intrinsic chord/
+arrow decoding. UNKNOWN, inadmissibility, more than two classes, a periodic
+carrier, or absent intrinsic decoder stops that declared cycle. This is a
+strategic proposal, not a surviving exact pair or reviewed theorem. No such
+new solver or extra fleet was launched during the assessment.
+
+Preserve the incompatible two-parent design proposal H=2P+Q, K=P+2Q with
+phi H=2H+K, phi K=H+K: area consistency forces area(P)/area(Q)=3phi+1.
+Astra does not recommend coordinate enumeration until a complete planar
+incidence template and repeatable boundary rule exist. Generic extra strip
+or two-hexagon searches have no new mechanism yet and remain paused; the
+general two-hexagon question is still open.
+
+**Historical restart boundary (superseded by the later gate closure below):** completed cycles stopped at exact parent/contact,
+periodic-omission, or class-count contradictions. Their important claims
+have independent hostile reviews and twelve new read-only checks passed.
+The unresolved global obligations are an actual admissible infinite
+aperiodic-pair covering and universally valid geometric recognition. The
+next justified experiment is the directed-offset gate above, with fixed
+local topology and an adversary; closed families and larger whole-edge Y
+quotients must not be resumed. The subsequent user-authorized directed-offset gate and its exact closure are recorded below; it is no longer a launchable unresolved route.
+
+## Three-plus-one elimination cycle: directed-offset topology closed
+
+The user authorized the next algebraic/geometric step. Two independently
+briefed Sol construction agents and one fresh hostile reviewer completed it.
+**All four three-plus-one assignments are excluded exactly.** Combined with
+the earlier two-plus-two theorem, every admissible two-class realization in
+this four-parameter directed-offset/two-node topology is the midpoint/common-
+height component, which admits periodic monohedral omission. The scheme is
+closed for the aperiodic-pair objective; it is not a proof excluding all
+fractional Ammann constructions or arbitrary convex pairs.
+
+[Full three-plus-one proof](research/lemmas/ammann-directed-offset-three-plus-one-obstruction-2026-10-14.md),
+[exact invariant replay](research/searches/ammann-directed-offset-residual-invariants-2026-10-14.py),
+and [fresh independent hostile review](research/reviews/ammann-directed-offset-residual-hostile-review-2026-10-14.md)
+are retained. The independent reviewer reconstructs coordinates without
+importing author code. All reflections/cyclic correspondences are covered
+by symmetric necessary invariants; no new NLSAT query or timeout increase ran.
+
+For each of the four singleton choices, the other three outputs must share
+area, sum of squared boundary-edge lengths, and sum of fourth powers of
+boundary-edge lengths. Those six polynomial equations form an exact ideal
+over Q(sqrt(5)) after normalizing h_X=t*x,h_Y=t*y. Two branches give the unit
+ideal. Singleton T0 gives a_X=1/2, x=(sqrt(5)-1)(y-1/2), and a quadratic
+negative throughout 1/2<y<1, the interval forced by donor interior. Singleton
+K1 gives a quadratic with negative discriminant. Exact independent Gröbner
+computations verify all four results in about eight seconds each. This is a
+computer-assisted algebraic proof on the complete fixed continuous parameter
+domain, not sampling or absence of a bounded periodic witness.
+
+The geometry agent independently supplied a [unit-chord filter](research/lemmas/ammann-directed-offset-unit-chord-filter-2026-10-14.md)
+and [linear-system replay](research/searches/ammann-directed-offset-unit-chord-check-2026-10-14.py).
+It excludes the eight chord-preserving cross-source maps; its remaining
+thirty-two unit-diagonal alias maps are outside that partial lemma but are
+covered by the full symmetric-invariant proof. The fresh hostile reviewer
+also checked this filter. No alias enumeration was needed.
+
+Review repairs: strict convex counterclockwise output/source-partition
+hypotheses are explicit, so signed shoelace equality is a necessary physical-
+area invariant even under reflected congruences. The final claim is that
+all two-class realizations are confined to a periodic component, not that
+two-class realizations are nonexistent. Read-only checkers assert the exact
+ideal conclusions, real-domain contradictions, and all eight linear-map
+ranks/solutions; merely printing symbolic output is not treated as a pass.
+
+Finite bounds were four singleton ideals and eight actual linear maps,
+within the predeclared forty-map domain and per-operation/cumulative exact
+computation caps. The stopping condition is the complete reviewed obstruction.
+The registry now has **62 certificate pairs and 302 verifiers (364 checks)**.
+All three new checks **PASSED** [targeted replay](research/reviews/ammann-directed-offset-residual-targeted-replay-2026-10-14.txt),
+with no retained certificates written. No fresh full 364-check replay was run.
+
+**Restart condition:** abandon this fixed topology or one of its actual
+interface assumptions before computational restart: the opposite two-donor-
+triangle/two-receiver-quad rhomb partition, or the shared mark-directed unit-
+base triangle rule. Different offsets, heights, class correspondences,
+longer solver time, or larger source patches cannot evade this theorem.
+An explicit changed fractional partition must again establish genuine
+pentagonal-or-higher outputs, global two-shape compatibility, and then
+universal intrinsic decoding. The Y partial-contact and unrestricted
+hexagon possibilities remain separately preserved; no closed family is
+reopened by this result. The global problem remains unresolved.
+
+## Independent Astra commit-readiness audit
+
+The user requested a fresh Astra review of the entire tracked/untracked diff
+and recommendations. The [complete audit](research/reviews/astra-commit-readiness-2026-10-14.md)
+reviewed all fifty pre-audit changed/new files, including all earlier
+uncommitted cycles. **Verdict: READY to commit as scoped partial research.**
+There are no outstanding mathematical or code blockers. Low-severity stale
+current status headers and old checkpoint labels were repaired and reread;
+historical UNKNOWN records and earlier review outcomes remain preserved
+with later-status pointers. The audit itself adds one further new artifact.
+
+Astra freshly replayed the directed-offset algebra certificate, independently
+reconstructed residual ideals, and independent whole-edge Y obstruction:
+all three targeted checks passed. It verified registry totals 62+302=364,
+unique verifier paths, all seven new JSON files, relative Markdown links,
+and clean git whitespace. No fresh full 364-check replay was run. The proof
+trust boundary includes exact SymPy algebra shared by the independently
+reconstructed verifiers, without a retained Bezout/formal proof certificate.
+The historical NLSAT input is a provenance record rather than an immutable
+byte-for-byte old model snapshot; no mathematical exclusion depends on it.
+
+Ranked next work: first one bounded incompatible two-parent incidence-design
+cycle with H=2P+Q, K=P+2Q and area(P)/area(Q)=3phi+1, requiring complete
+boundary words for both base and both substitution dissections before any
+coordinate census. Second, conditionally, a genuinely split-edge fractional
+interface with one marked subdivision point and two exchanged pieces,
+requiring a new finite incidence template before solving. An optional single-
+breakpoint Y seam analysis remains separate and cannot establish infinite
+existence by itself. Closed directed-offset, whole-edge Y, old fan and finite-
+state strip families must not be reopened by larger searches. No Git staging,
+commit or push was performed for this review request.
+
+## Historical directed-offset bounded Sol cycle (superseded by exact closure)
+
+**Later status:** the exact three-plus-one proof above supersedes this cycle's
+UNKNOWN and unresolved restart. Its historical query/status records remain
+unchanged. No solver rerun was needed.
+
+The user authorized execution of Astra's construction gate with an independent
+Sol adversary. Both agents completed the fixed four-parameter topology.
+[Construction and exact residual](research/searches/ammann-directed-offset-gate-2026-10-14.md),
+[generator](research/searches/ammann-directed-offset-gate-2026-10-14.py), and
+[fresh hostile review](research/reviews/ammann-directed-offset-hostile-review-2026-10-14.md)
+are retained. **Full gate UNRESOLVED; no exact two-class survivor and no
+aperiodic pair were found.** No source-patch or parameter-grid expansion ran.
+
+Both agents independently derive arrow-preserving diagonal reflections that
+identify opposite role choices within each rhomb type. Eight indexed outputs
+therefore reduce to four representatives regardless of source/color-role
+occurrence. All seven two-class partitions were retained initially, including
+cross-species three-plus-one assignments. A tentative inference that unequal
+pair means forced within-type classes was rejected before computation.
+
+The [reviewed two-plus-two obstruction](research/lemmas/ammann-directed-offset-two-plus-two-obstruction-2026-10-14.md)
+closes all three two-plus-two assignments for the target. Crosswise pairs
+contradict unequal rhomb area totals. Within-type congruence requires equal
+squared-edge sums, forcing a_X=1/2; area identities and strict donor interior
+then force a_Y=1/2 and h_X=h_Y. This is exactly the reviewed midpoint/common-
+triangle component with periodic monohedral omission. **Four three-plus-one
+partitions remain.** Their cross-species congruence is still unresolved.
+
+Bounded solver history: maximum 180-second cumulative solver wall, no more
+than 127 original eight-output partitions. The command used cap160 with
+30-second per-query timeout. Its first three-plus-one branch returned
+UNKNOWN/timeout at 30.123 cumulative seconds. The initial driver briefly
+entered its next branch, then was interrupted at 49.702 seconds with no
+result. First-UNKNOWN automatic stopping is now enforced. The [historical
+status record](research/certificates/ammann-directed-offset-gate-historical-run-2026-10-14.json)
+is not a feasibility or exclusion certificate. No further solver query ran.
+
+The current exact residual explicitly includes all nonincident strict support
+inequalities for every source sector and all eight pentagons, strict donor
+containment, twenty-four sector-pair separating-axis disjunctions, and ten
+cyclic/reversed correspondences each comparing all ten squared distances.
+Its real algebraic constants have defining equations and isolating intervals.
+It is an **unqueried corrected system**, separate from the historical
+turn-based query. No equivalence of those formulations is assumed.
+The [algebra certificate](research/certificates/ammann-directed-offset-gate-algebra-2026-10-14.json)
+checks symbolic area identities, exact coordinate hash and domain counts;
+it is not a feasibility certificate. The adversary's independently rebuilt
+checker verifies symbolic formulas and an asymmetric exact fixture with
+sixteen strict source sectors and eight genuine pentagons. Global partition
+follows for admissible parameters by exact sector coverage and agreement of
+shared source arrows; two congruence classes remain the unsolved gate.
+
+**Stopping/restart condition:** the first UNKNOWN reached the declared stop.
+Do not increase timeout, discretize more finely, or generate larger source
+patches as an automatic restart. A new algebraic elimination or geometric
+invariant for the four three-plus-one assignments is required. An eventual
+exact two-class survivor must immediately face the fixed two-by-two
+homogeneous/wrong-arrow omission attacks and a universally valid intrinsic
+chord/arrow decoder; those later gates were not executed without a survivor.
+
+At that earlier gate checkpoint, the registry had **62 certificate pairs and 299 verifiers (361 checks)**.
+Two directed-offset additions are registered read-only: exact algebra replay
+and the independent symbolic/fixture check. Both additions **PASSED** [targeted replay](research/reviews/ammann-directed-offset-targeted-replay-2026-10-14.txt), with no retained certificates written. No fresh full 361-check replay is claimed.
 
 ## Three-track construction cycle (2026-10-14)
 
@@ -27,7 +283,7 @@ unrestricted problem. Independent cross-reviews and replay scope are indexed
 in the [cycle audit](research/reviews/three-track-construction-2026-10-14-audit.md).
 No automatic patch growth, quotient growth, or additional repairs were run.
 
-## Current restart and verification state
+## Historical earlier restart and verification checkpoints
 
 The reviewed checkpoint `99833f7` has been committed and pushed. The user has
 authorized the exact P5/Q14 experiment and computational construction with
@@ -61,8 +317,8 @@ Earlier progress tables, replay counts and completed-cycle narratives are in
 They preserve provenance and finite domains; current status below takes precedence.
 
 The subsequent three-track cycle adds one certificate pair and seven verifier
-entries: **58 certificate pairs and 289 verifiers (347 checks)** in the current
-registry. The eight additions passed targeted replay; no fresh full 347-check
+entries: **58 certificate pairs and 289 verifiers (347 checks)** in the registry
+at that earlier checkpoint. The eight additions passed targeted replay; no fresh full 347-check
 replay was run. See the [new replay transcript](research/reviews/three-track-construction-2026-10-14-targeted-replay.txt)
 and cycle audit for independent-review scope and dependency checks.
 

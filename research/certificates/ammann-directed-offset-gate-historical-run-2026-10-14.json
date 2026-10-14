@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-14",
+  "command": "mise exec -- conda run --no-capture-output -n arisearch python research/searches/ammann-directed-offset-gate-2026-10-14.py --z3 --cap 160",
+  "system_version": "historical turn-and-node constraints, before explicit full-support and sector-separation conditions were added",
+  "predeclared_cumulative_solver_cap_seconds": 180,
+  "requested_command_cap_seconds": 160,
+  "branches": [
+    {
+      "left": [0],
+      "right": [1, 2, 3],
+      "status": "unknown",
+      "reason": "timeout",
+      "cumulative_wall_seconds": 30.123
+    },
+    {
+      "left": [0, 1],
+      "right": [2, 3],
+      "status": "interrupted",
+      "reason": "manual stop after first UNKNOWN; no solver result for this branch",
+      "cumulative_wall_seconds": 49.702
+    }
+  ],
+  "all_other_branches": "not queried",
+  "classification": "incomplete; no satisfiability or unsatisfiability conclusion for the residual"
+}
