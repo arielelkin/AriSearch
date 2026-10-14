@@ -2,7 +2,7 @@
 
 **Problem status: unresolved.** No exact aperiodic pair or complete unrestricted
 impossibility theorem meets [the acceptance criteria](research-problem.md).
-**Checkpoint: 2026-10-14, directed-offset residuals closed by independently reviewed exact invariants; all three new checks passed.**
+**Checkpoint: 2026-10-14, reviewed checkpoint 6b9f087 pushed; two new independently reviewed incidence templates stopped at exact corner obstructions.**
 The unique-B-star and complete complementary two-angle hexagon families
 admit periodic escapes whenever tileable. The complementary three-angle
 result covers distinct, non-120 angles on its stated resonance domain. The original acute/obtuse pentagon native
@@ -159,7 +159,7 @@ ranks/solutions; merely printing symbolic output is not treated as a pass.
 Finite bounds were four singleton ideals and eight actual linear maps,
 within the predeclared forty-map domain and per-operation/cumulative exact
 computation caps. The stopping condition is the complete reviewed obstruction.
-The registry now has **62 certificate pairs and 302 verifiers (364 checks)**.
+At the end of that earlier elimination cycle, the registry had **62 certificate pairs and 302 verifiers (364 checks)**.
 All three new checks **PASSED** [targeted replay](research/reviews/ammann-directed-offset-residual-targeted-replay-2026-10-14.txt),
 with no retained certificates written. No fresh full 364-check replay was run.
 
@@ -173,6 +173,54 @@ pentagonal-or-higher outputs, global two-shape compatibility, and then
 universal intrinsic decoding. The Y partial-contact and unrestricted
 hexagon possibilities remain separately preserved; no closed family is
 reopened by this result. The global problem remains unresolved.
+
+## Published checkpoint and two new bounded design cycles
+
+The user authorized commit, push, and the recommended next work. The reviewed
+checkpoint was committed as **6b9f087** (51 files) and pushed to
+origin/convex-pair. That publication includes the independently reviewed
+interface, fractional-tree, strip, and exact directed-offset closure results;
+its new registered checks and scope were audited by Astra. No new solver
+search was needed for publication.
+
+Two independent Sol designers and a fresh Sol adversary then completed one
+explicit design cycle each. The mechanisms were kept separate. **Both first
+templates fail exact local gates; neither general mechanism is classified.**
+
+- [Two-parent four-rule incidence template](research/searches/two-parent-wheel-seam-incidence-2026-10-14.md):
+  H=2P+Q and K=P+2Q use three-pentagon wheels; phi H uses a three-parent
+  wheel and phi K one whole-edge H/K join. All oriented seam pairings and
+  far endpoints were specified and independently retraced. The inflated
+  boundaries retain at least eighteen/fourteen genuine corners instead of
+  nine. Allowing all base endpoint flats does not rescue this whole-genuine-
+  edge topology: p_H,p_K>=6, while H similarity requires p_H+p_K<=9 and K
+  similarity p_H<=4. [Fresh hostile review](research/reviews/two-parent-wheel-seam-independent-hostile-review-2026-10-14.md)
+  confirms the scoped obstruction. A restart must change the macro seam
+  topology (for example, several genuine-edge seam segments) or the base
+  incidence, with complete new boundary words; coordinates or greater
+  substitution depth cannot repair this template.
+- [Split-edge two-recipient template](research/searches/ammann-split-edge-two-recipient-gate-2026-10-14.md):
+  one marked subdivision per source edge divides both donor triangle and
+  receiving quad into two parts, paired once across each half-edge. It is
+  combinatorially complete conditional on valid source sectors, but at M
+  the two output turns are C and -C for arbitrary donor apex offset. One
+  output is nonconvex if C!=0; if C=0, M is straight in both and the outputs
+  have at most four genuine corners. [Fresh hostile review](research/reviews/split-edge-two-piece-hostile-review-2026-10-14.md)
+  confirms all source/arrow/role cases through the general local identity.
+  Moving the apex or splitter alone cannot repair it. A restart must change
+  breakpoint incidence (such as at least three final output sectors) or
+  the actual piece pairing and boundary count. No such repair is certified.
+
+Both cycles stopped before coordinate, congruence, or periodic-quotient
+enumeration; no nonexistent two-class survivor was sent to a decoder gate.
+The [independent read-only checker](research/reviews/verify_new_interface_stopping_gates_2026_10_14.py)
+verifies all four oriented boundary rules, their far endpoints, the sixteen
+flat-inclusive corner-budget cases, and the general split-edge determinant
+identities. It imports no producer and runs no search or solver. The registered read-only check **PASSED** [targeted replay](research/reviews/new-interface-design-targeted-replay-2026-10-14.txt), with no certificate writes. The registry now contains
+**62 certificate pairs and 303 verifiers (365 checks)**; no fresh full
+365-check replay is claimed. The unrestricted two-convex-polygon target,
+Y partial-contact possibilities, and general two-hexagon question remain
+unresolved.
 
 ## Independent Astra commit-readiness audit
 

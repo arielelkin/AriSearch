@@ -1,0 +1,2 @@
+PASS verifier: verify_new_interface_stopping_gates_2026_10_14.py
+All 0 certificate replays and 1 verifiers passed; no certificates written.
