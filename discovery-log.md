@@ -2,7 +2,7 @@
 
 **Problem status: unresolved.** No exact aperiodic pair or complete unrestricted
 impossibility theorem meets [the acceptance criteria](research-problem.md).
-**Checkpoint: 2026-10-14, user-authorized Y partial-contact and intrinsic-forcing gates completed; all BB sides have reviewed full-native mates, while the isolated Ammann c signature fails its proposed local matching rule.**
+**Checkpoint:2026-10-15 12:31 UTC. Main objective unresolved. Reviewed: arbitrary-partner six-distinct hexagon periodic escape; ALL hexagon pairs in which EACH member has at least five distinct numerical side lengths admit a doubly periodic escape; unrestricted Y-family untileability; full arbitrary-context-cut receiving-hexagon obstruction with mark-local donors/splits. Arbitrary physical splits are also excluded on the mark-local-donor topology; construction must change mechanism.**
 The unique-B-star and complete complementary two-angle hexagon families
 admit periodic escapes whenever tileable. The complementary three-angle
 result covers distinct, non-120 angles on its stated resonance domain. The original acute/obtuse pentagon native
@@ -10,7 +10,7 @@ words are untileable at every metric; the reordered words have an exact
 three-equality tileability criterion and a four-tile periodic carrier.
 These are restricted family results, not a global impossibility theorem.
 
-**Research frontier, updated 2026-10-14:** the unrestricted objective remains unresolved;
+**Research frontier, updated 2026-10-15:** the unrestricted objective remains unresolved;
 no construction meets all acceptance criteria. Individual branch results are checkpoints. Source-only or local
 objects below are not aperiodic pairs. Historical incremental notes are
 [archived](research/searches/discovery-log-2026-10-13-working-history.md).
@@ -19,6 +19,666 @@ objects below are not aperiodic pairs. Historical incremental notes are
 classified: all admissible two-shape realizations are the midpoint/common-
 height family with periodic omission. [Exact closure and review](research/lemmas/ammann-directed-offset-three-plus-one-obstruction-2026-10-14.md)
 are preserved; the two-convex-polygon target remains unresolved.
+
+## Construction: arbitrary cut contexts are now closed (2026-10-15)
+
+**Proved and independently hostile-reviewed VALID:** in the unit Ammann
+thin/thick three-sector receiving-quad construction, mark-local donor
+triangles and mark-local edge splits cannot produce one congruent receiving
+hexagon, even when every proper two-corner truncation cut varies arbitrarily
+by context. [Self-contained theorem](research/lemmas/context-dependent-receiving-hexagon-obstruction-2026-10-15.md),
+[first audit](research/reviews/context-dependent-receiving-hexagon-hostile-2026-10-15.md),
+[second independent audit of the contributed exceptional branch](research/reviews/context-dependent-receiving-hexagon-second-hostile-2026-10-15.md).
+Unique36/72 angle vertices identify opposite retained diagonals, forcing
+mX=mY=1/2. Generic wedge congruence reconstructs identical donors, whose thin
+quad requires m>sqrt(5)/4; the exceptional beta18 branch violates the thick
+Y-head convexity bound. No solver or bounded search is a proof dependency.
+This supersedes proposals to vary only truncation cuts, including external
+cut pairs. It is NOT a theorem about arbitrary pentagon/hexagon pairs.
+
+**Stronger closure, now independently reviewed VALID:** allowing EACH physical
+edge split to depend arbitrarily on context also fails, while donor triangles
+remain mark-local. [Short standalone proof](research/lemmas/context-dependent-split-receiving-hexagon-obstruction-2026-10-15.md),
+[fresh independent Astra audit](research/reviews/context-dependent-split-receiving-hexagon-astra-hostile-2026-10-15.md).
+A thick Y receiver has retained72 at BOTH endpoints, forcing its split and
+the common72opposite diagonal to1/2. The thick X tail then has its own forced
+midpoint. Its same-X-tail native turn is strictly negative for the entire
+0<beta<36 domain, by a positive polynomial identity. The symbolic checker
+reconstructs all16endpoint forms, the independent diagonal equations and
+the universal rational identity. No adjacency census, metric sampling or
+beta18exception is needed. Thin split D36 remains free algebraically but
+cannot repair the failing thick quad. The common physical split is inherited
+by the adjoining donor and receiver, so neighbor-context splits are covered.
+
+**Construction frontier:** stop all cut/split-only searches on this topology.
+A genuine escape must change donor triangles by context, retained opposite
+vertex incidence, source geometry or the single receiving-H requirement.
+The fresh11:00weighted-Voronoi gate has now been executed and excluded
+on its entire stated small weight box, as recorded below. Fresh11:30Astra
+completed the hat-cycle construction gates below; no candidate pair survived.
+
+**Falsified auxiliary guess:** the universal thick cross-tail M-angle bound
+(90,108) is false for strict precursors. The [exact counterexample](research/counterexamples/offnormal-cross-tail-m-angle-2026-10-15.md)
+is retained and is not used in the new proof. Strict precursor fixtures are
+controls, not two-shape constructions.
+
+## Day-end handoff complete (user request, 2026-10-15)
+
+The user requested the day-end wrap at 11:56 UTC. All subagents have finished
+and stopped writing. Construction and exclusion tracks are closed for this
+session: proved results, completed experiments, and unresolved boundaries
+are distinguished below. The final [Astra direction note](research/searches/astra-direction-2026-10-15-1200.md)
+records concrete restart obligations. No new research search is running.
+The research changes and this log are staged for the next commit; no actual
+commit or push was created during this handoff.
+
+**Verification: all 423 registered checks passed across the day-end runs.**
+The extra frozen 420-check full replay received SIGTERM (exit 143) after
+330 passing checks, with no reported mathematical failure. Its remaining
+90 checks were then replayed successfully, exit 0. The final theorem's two
+certificate producers and independent verifier also passed separately.
+The exact union of passing script names equals the current registry:
+80 certificate pairs and 343 verifiers. No uninterrupted full 420- or
+423-check replay is claimed.
+
+- [Interrupted replay: 330 passes](research/reviews/day-end-420-full-registry-replay-2026-10-15.txt).
+- [Successful continuation: 90 passes](research/reviews/day-end-remaining-replay-2026-10-15.txt).
+- [Final theorem: three passes](research/reviews/day-end-final-three-replay-2026-10-15.txt).
+
+The earlier [full 400-check replay](research/reviews/shared-five-length-full-registry-replay-2026-10-15.txt)
+also passed. Changed Python/JSON files parse, local Markdown links resolve,
+and changes are confined to the discovery log and research artifacts.
+The main problem remains unresolved. No construction meets the acceptance
+criteria, and no unrestricted impossibility theorem is claimed.
+
+## Post-review corrections and authorized publication checkpoint
+
+After the day-end staging, a fresh Astra pre-commit reviewer approved the
+work as a research checkpoint, with two documentation corrections. Those
+corrections are now applied: the common-five theorem links the completed
+unequal-adjacent case, and the six/five separation-two proof records its
+completed VALID review and bounded novelty record. The older six/five
+frontier paragraph also points to the stronger current conclusions.
+
+The [unified hexagon statement and proof map](research/lemmas/hexagon-six-distinct-unrestricted-periodic-escape-2026-10-15.md#unified-statement-and-proof-map)
+now states both principal results, their exhaustive branches and review
+links. It separates one guaranteed nonzero period from a rank-two lattice;
+no assertion of exactly rank one or a second period in every branch is
+introduced. The combined necessary condition is d(A)<=5, d(B)<=5, and
+min(d(A),d(B))<=4. Pentagon-containing pairs remain unresolved.
+
+The reviewer independently reran the final 11,160-word verifier and checked
+exact 423-name coverage in the day-end logs. It found no blocking error in
+the principal arguments audited, while recommending external scrutiny and
+a broader novelty search before a focused hexagon paper. Publication
+worthiness remains provisional, and the project is not claimed close to a
+solution. The user subsequently authorized these documentation corrections,
+commit, and push. This follow-up changes exposition only; the proof code,
+certificates, and previously recorded verification outcomes are unchanged.
+
+## Final hexagon exclusion: each member has at least five numerical lengths
+
+**Independently hostile-reviewed VALID:** unrestricted plane tileability of
+any pair of genuine convex hexagons, EACH with at least five distinct
+numerical side lengths, implies an admitted DOUBLY periodic tiling by the
+same unmarked shapes. Reflections, partial contacts and species omission
+remain permitted. [Complete corollary and final theorem](research/lemmas/hexagon-five-unequal-adjacent-periodicity-2026-10-15.md),
+[fresh review](research/reviews/hexagon-five-unequal-adjacent-hostile-2026-10-15.md),
+[no-author-import verifier](research/reviews/hexagon-five-unequal-adjacent-independent-2026-10-15.py).
+
+The final unequal-palette adjacent branch exhausts11,160raw words. Twelve
+residual words give three ordered classes and exactly five actual-support
+cases: three have positive four-face tori, two have connected certain-edge
+corona propagation. Independent reconstruction checks the full22,680gluing
+domain, both retained witnesses and all12augmented rational identities.
+No solver infeasibility or bounded negative torus search proves this result.
+
+Together with the arbitrary-partner six-distinct theorem, any hypothetical
+aperiodic hexagon pair has no six-distinct member and at least one member
+with at most four numerical side lengths. Pentagon-containing pairs and
+this remaining hexagon region are unresolved. Novelty is limited to the
+[bounded primary-source search record](research/literature/hexagon-six-five-boundary-2026-10-15.md);
+no universal priority claim is made.
+
+## Construction track1130: completed experiments, no surviving candidate
+
+The [fresh direction note](research/searches/astra-direction-2026-10-15-1130.md)
+records completed fixed-frame and interior-cycle hat experiments. Two exact
+strict convex source partitions exist: seven pieces(3P+4Q)and eight pieces
+(5P+3Q). They are precursors ONLY, with no common-P/Q congruence. Exact
+support determinants, pairwise separation, oriented boundary-chain
+cancellation and area checks passed; retained outputs are linked in the note.
+All EIGHT specifically named necessary-angle domains returned Z3UNSAT within
+60000ms caps. Their cyclic/reflected correspondences, source vertex budgets,
+T180budgets and interior360budgets are explicit. These are UNREVIEWED finite
+solver evidence, not certified construction-impossibility theorems. Their
+metric and decoder gates were NOT launched. The linear deformation diagnostic
+is also exact but unreviewed and limited to its fixed frames/correspondences.
+
+The original six-native-spoke5P+2Qring has an author elementary angle/arm
+obstruction for b!=1; b1 inherits a periodic source escape. That argument is
+retained in the note and not promoted to a fresh-reviewed stable theorem.
+All task processes finished. No viable new two-shape point exists. Restart
+only with a changed source corner-budget/cross-source incidence and an
+EXACT angle-feasible two-class complex; do not replay named failed variants.
+
+## ALL common-five-length hexagon pairs now excluded
+
+**Proved, independently hostile-reviewed VALID, exactly certified:** two
+genuine convex hexagons having the SAME five numerical side lengths admit
+a doubly periodic escape whenever tileable, for EVERY location of each
+doubled pair. [Complete adjacent-repeat proof and combined corollary](research/lemmas/hexagon-common-five-adjacent-periodicity-2026-10-15.md),
+[fresh whole-proof review](research/reviews/hexagon-common-five-adjacent-hostile-2026-10-15.md).
+The nonadjacent cases were reviewed earlier; new adjacent cases permit
+repeated ray lengths and repeated native corner indices. Original tilings
+still allow arbitrary rotations, reflections, partial contacts and omissions.
+
+New complete360-word native arm-state gate: simultaneous side slots and
+opposite-end corner multisets are retained. The12hard words form4classes
+with41possible ACTUAL star sets. Twenty-five have positive four-face torus
+witnesses certified by100exact rational row identities. Eight force all
+angles120; four exact length-closure equations then force allfive lengths
+equal, contradicting the numerical hypotheses. Two small pure-loop supports
+contradict an even-six-cycle neighbor parity. Two all-AAB/ABB supports have
+AB-parity frame propagation. Three other supports admit finite native
+coronas with connected CERTAIN transition graphs (two require bypassing
+one uncertain AA/BB edge type via the forced third tile). The last support
+has an opposite-repeat pure Bstar and explicit monohedral two-face torus.
+
+Fresh independent checks reconstruct all360initial/fixed microstate atlases,
+all41supports,12explicit word maps, seven actual positive gluings, all100+96
+weighted angle rows, four closure identities, every corona and both uncertain
+edge bypasses. Finite state counts alone are NOT used as periodicity proof.
+All finite-to-global steps are stated in the complete proof and survived
+whole-claim hostile review. This is a substantial family theorem, not the
+original unrestricted result; novelty is only relative to the bounded
+[documented primary-source search](research/literature/hexagon-six-five-boundary-2026-10-15.md).
+
+**Remaining hexagon frontier:** at least one member has at most four
+distinct numerical lengths, and neither member has six. The
+one-six-distinct theorem already covers any partner. No global two-hexagon
+or unrestricted two-polygon impossibility is claimed.
+
+## New power-cell construction: exact small-box family excluded
+
+**Independently hostile-reviewed VALID:** take vertex-mean sites of the three
+reviewed Ammann polygons at J=1/2+(4/5)w, with type weights(0,a,b). Throughout
+|a|,|b|<=rho²/2, where rho is the minimum prototype site-to-side distance,
+three actual power cells have7,6,5genuine corners. Hence at least THREE
+congruence classes remain. [Stable complete proof](research/lemmas/weighted-ammann-power-small-box-obstruction-2026-10-15.md),
+[independent review](research/reviews/weighted-ammann-power-hostile-2026-10-15.md).
+The finite geometry checker reconstructs650source faces and checks affine
+vertices at all4closed-box corners, all competitor inequalities, positive
+edge projections, persistent cocircularity, exact cell-radius containment
+and a certified source-boundary margin. No generic trivalence assumption.
+
+The first review found a missing finite-to-global bridge: knowing that the
+GLOBAL cell lies in a bounded disk did not bound the finite candidate.
+Repaired by checking every affine candidate vertex has norm<=C at all4box
+corners, then using convexity. The independent checker confirmed the repair.
+A137decorated-rhomb witness patch embeds exactly in the ninth subdivision of
+ONE red Robinson half. Every legal source contains this patch: compose ten
+levels using the reviewed unique-composition theorem, then take the red
+child present in EITHER parent type. Thus no centered-sun nesting or external
+minimality theorem is assumed. Root separately checked this hierarchy use.
+
+This seed is CLOSED on the stated fixed source metric/sites/weight box.
+Do not add context weights or blindly enlarge the box as a continuation.
+The unrestricted two-shape target remains open; no candidate pair is supplied.
+Fresh11:30Astra is developing a genuinely changed positive object/gate.
+
+## Complete five-length nonadjacent-repeat exclusion, unequal palettes included
+
+**Proved, independently hostile-reviewed VALID, and exactly certified:**
+if EACH of two genuine convex hexagons has exactly five distinct numerical
+side lengths, and BOTH doubled side pairs are nonadjacent, tileability
+implies a doubly periodic escape, regardless of how many lengths the shapes
+share. [Unequal-palette proof and combined corollary](research/lemmas/hexagon-five-noncommon-nonadjacent-periodicity-2026-10-15.md),
+[fresh whole-proof review](research/reviews/hexagon-five-noncommon-hostile-2026-10-15.md).
+This strictly extends the common-five theorem below. Original contacts,
+reflections and single-species omissions remain unrestricted.
+
+New finite domain14880raw unequal-palette words;20hard words reduce by
+explicit global color/native dihedral maps to6classes and22representative
+actual supports. Three classes are intrinsically deterministic; one uses
+the reviewed private-repeat theorem with its six DISTINCT numerical union
+values intact. Two genuinely new classes have10supports, all covered by
+five explicit positive four-face torus gluings and40exact augmented-row
+identities. The no-import independent verifier exhausted30240positive
+quotient candidates, rebuilt every source word/support/map, checked all
+positive links/rows, and reran the private-repeat verifier. No formal-color
+collision extension of the old private-repeat theorem is claimed.
+
+**Next structural frontier:** at least one member has at most four numerical
+lengths; neither may have six. The later adjacent theorem closes the last
+unequal-five case.
+The common-five adjacent gate once marked unreviewed is now fully closed
+by the stronger theorem above. No whole two-hexagon impossibility follows.
+
+## Complete common-five nonadjacent-repeat exclusion (2026-10-15)
+
+**Adversarially reviewed VALID, with exact independently reconstructed
+certificates:** if two genuine convex hexagons share exactly five numerical
+side lengths and BOTH doubled side pairs are nonadjacent, tileability implies
+a doubly periodic escape. Doubled values may agree or differ. This combines
+both separation2, mixed2/3, and the new
+[both-opposite3/3 theorem](research/lemmas/hexagon-both-opposite-repeat-periodicity-2026-10-15.md).
+The stronger formal-source statement also permits physical coincidences
+between different auxiliary colors. [Fresh whole-proof audit](research/reviews/hexagon-both-opposite-repeat-hostile-2026-10-15.md).
+
+Both-opposite gate:120raw partner words; actual pure stars immediately give
+an explicit monohedral two-face torus. Without pure stars:80no endpoint
+cover,24six-color actual-contact escapes,16words in4explicit orbits. Their
+226actual supports yield221positive torus escapes through884exact rational
+identities; five remaining supports force indexed-frame periodicity. Four
+of those require an explicit alternating-side parity on the double-occurring
+species. The AB-only adjacency graph is connected by bypassing AAedges at
+the third Btile, so finite-state frame propagation is global. The independent
+no-import verifier checks all3*68040positive quotient domains and every
+actual endpoint assignment. No larger quotient or bounded negative search.
+
+**Remaining scope:** common-five pairs with an adjacent doubled pair,
+noncommon five-value sets, lower multiplicities, pentagon-containing pairs
+and all other original targets. This is not full two-hexagon impossibility.
+Fresh bounded primary-literature searches are appended to the
+[novelty boundary](research/literature/hexagon-six-five-boundary-2026-10-15.md);
+no equivalent classification was located in that documented scope, without
+claiming universal priority.
+
+## Common five lengths: mixed repeat separations now excluded (2026-10-15)
+
+**Adversarially reviewed VALID and exactly certified:** for two genuine
+hexagons with the same five numerical side lengths, if the repeated slots
+have separation2in one and3in the other, every tileable pair has a doubly
+periodic escape. [Complete proof](research/lemmas/hexagon-mixed-separation-repeat-periodicity-2026-10-15.md),
+[fresh independent review](research/reviews/hexagon-mixed-separation-repeat-hostile-2026-10-15.md).
+All120raw partner words:96lack native endpoint cover;16split one species
+into6actual seam-component colors;8form ONE explicit indexed/color orbit.
+The representative has30actual-support possibilities:28imply a retained
+four-face torus through112exact weighted row identities; one exact support
+partitions all12native corners and forces indexed frames; one adds a
+B-only opposite-repeat star and gives an explicit monohedral two-face torus.
+The no-import independent verifier reconstructed all48600four-face gluings,
+all4096source subsets and every row/endpoint map. No larger quotient search
+or bounded negative search is used. This extends the reviewed both-sep2
+class; adjacent repeats and other side-length sets remain; the later both-opposite
+result above supersedes that original frontier.
+
+## Major structural theorem: one distinct-sided hexagon is excluded (2026-10-15)
+
+**Proved and independently hostile-reviewed VALID:** if ONE member of a
+pair of genuine convex hexagons has six pairwise distinct native side
+lengths, every tileable pair admits an allowed tiling with a nonzero
+translation, for ARBITRARY metrics and side multiplicities of the other
+hexagon. Reflections and partial contacts remain allowed in the hypothesis.
+[Complete synthesis](research/lemmas/hexagon-six-distinct-unrestricted-periodic-escape-2026-10-15.md).
+[Final synthesis and double-pair audit](research/reviews/hexagon-six-four-double-pair-hostile-2026-10-15.md).
+This is a substantial new family theorem relative to the documented
+literature boundary. It is NOT the original unrestricted two-polygon result.
+
+The exhaustive branches are:
+
+- partner has at least five distinct lengths: the three-case6/5theorem below;
+- at most three shared numerical lengths: the new
+  [three-sharing theorem](research/lemmas/hexagon-six-distinct-three-shared-periodicity-2026-10-15.md),
+  developed by the09:00Astra adviser. AAB corona constraints leave only two
+  B words. A connected graph of forced private-AA contacts propagates
+  whole-tiling symmetries. [Fresh VALID review](research/reviews/hexagon-private-a-three-shared-hostile-2026-10-15.md);
+- exactly four partner lengths, all shared, multiplicities(2,2,1,1):
+  [full double-pair theorem](research/lemmas/hexagon-six-four-double-pair-periodicity-2026-10-15.md).
+  Its narrow deterministic stdlib certificate exhausts2160linear/192cyclic
+  words and93closed supports:71direct torus rings plus22rings certified
+  by88exact rational row identities. Fresh independently reconstructed
+  port-cycle enumeration and actual torus gluings PASSED;
+- exactly four partner lengths, all shared, multiplicities(3,1,1,1):
+  [periodic private-AA chains and strip fillings](research/lemmas/periodic-private-aa-chain-escape-2026-10-15.md).
+  Forced half-turn chains cannot cross, so all have one common period.
+  Unavoidability bounds the intervening bands; bounded full-side paths
+  derive finite exact placements, giving finite-state periodic B fillings
+  with a synchronized common period. [Fresh VALID review](research/reviews/private-aa-chain-hostile-2026-10-15.md).
+
+The synthesis needs only existence of ONE nonzero translation, not two
+independent periods; it does not silently invoke a general partial-contact
+rank-one-to-rank-two upgrade. The chain proof is mathematical and uses no
+bounded negative search. The double-pair proof has no solver trust: its
+standalone producer and narrow JSON retain every actual support and witness.
+Historical B-four exploratory solver examples remain separate from that
+proof certificate.
+
+**New frontier:** any hypothetical aperiodic two-hexagon pair must have an
+internally repeated side length in BOTH members. All surviving pentagon
+pairs remain outside this theorem. No whole two-hexagon or unrestricted
+impossibility claim follows. Do not restart searches with a distinct-sided
+hexagon by changing its partner metrics or increasing quotient size.
+
+**Current verification:** all 80 certificate pairs and 343 verifiers
+(423 checks) passed across the three day-end runs documented above. The
+interrupted 330-pass run plus its successful 90-check continuation cover
+the frozen 420-check checkpoint; the final three additions also passed.
+No uninterrupted full 420- or 423-check replay is claimed. The earlier
+[full 400-check replay](research/reviews/shared-five-length-full-registry-replay-2026-10-15.txt)
+passed. One earlier producer emitted summary stdout rather than retained
+JSON; that interface was repaired and its exact registered replay passed.
+No mathematical certificate discrepancy remained.
+
+**Final scheduled adviser12:00UTC:** fresh Astra completed the last
+unequal-palette adjacent-repeat hostile review: VALID, including the
+each-at-least-five doubly periodic corollary. Its no-import independent
+verifier PASSED. The optional skew-metric identity also passed review.
+Final [next-session advice](research/searches/astra-direction-2026-10-15-1200.md) is retained; all advisers have finished and stopped writing. No new experiments.
+Earlier advisers at09:00,09:30,10:00,10:30,11:00and11:30completed their work.
+No further refresh is due after the user-requested day-end wrap unless resumed.
+
+**Earlier reviewed adviser mathematics:** the [fixed-angle contact-deformation lemma](research/lemmas/hexagon-fixed-angle-contact-deformation-2026-10-15.md)
+has passed [fresh VALID review](research/reviews/hexagon-fixed-angle-contact-deformation-hostile-2026-10-15.md).
+It transfers one perturbed A6/B5 full-side
+torus back to the original polygons; failure is an exact closure-matrix
+row-space condition. The separate [formal-color A6/B>=5 extension](research/lemmas/hexagon-six-five-formal-color-periodic-escape-2026-10-15.md)
+has passed [fresh VALID review](research/reviews/hexagon-six-five-formal-color-hostile-2026-10-15.md),
+including indexed propagation even for physically symmetric polygons.
+Thus an aperiodic A5/B5 pair must join each shape's repeated native slots
+by seam types ACTUALLY occurring in every indexed defect-free tiling.
+The [arbitrary-partner formal-color extension](research/lemmas/hexagon-six-colors-arbitrary-partner-2026-10-15.md)
+has passed [fresh VALID review](research/reviews/hexagon-six-colors-arbitrary-partner-hostile-2026-10-15.md).
+Thus for ANY hypothetical aperiodic two-hexagon pair, every indexed
+defect-free tiling must connect two distinct native slots of EACH shape
+by actually occurring seam types. This strengthens numerical repetition
+to an actual-contact necessity even with an arbitrary partner.
+
+**Construction gate closed:** the mark-local normal-foot equal-radius
+thick-cap split component has passed a fresh independent audit:
+[sharp obstruction](research/searches/thick-cap-split-congruence-gate-2026-10-15.md),
+[VALID review](research/reviews/thick-cap-split-congruence-hostile-2026-10-15.md).
+Thin whole caps make every receiving hexagon cyclic. Their alternating
+angle identity forces all four source receiving endpoint angles greater
+than pi/2, while mark-local base-angle cancellation makes their sum2pi.
+This excludes all admissible chord parameters and reflections in the stated
+component, before child congruence is used. Later work closed unequal cuts,
+off-normal mark-local cuts, arbitrary context cuts AND arbitrary physical
+splits while donor triangles remain mark-local; use the stronger current
+[arbitrary-split theorem](research/lemmas/context-dependent-split-receiving-hexagon-obstruction-2026-10-15.md).
+
+## General fixed-angle deformation obstruction (2026-10-15)
+
+**Freshly reviewed VALID after repair:**
+[general theorem](research/lemmas/hexagon-contact-deformation-general-2026-10-15.md),
+[independent review](research/reviews/hexagon-contact-deformation-general-hostile-2026-10-15.md).
+For any indexed defect-free tiling define E by actual native seams and
+M:R^E->R^4 by the two fixed-direction polygon closures. If EACH repeated
+A-slot difference is outside row(M), one generic kernel vector separates
+ALL repeats; the changed A has six distinct lengths. One full-side
+periodic changed witness transfers back even when only rank-one periodic:
+restore the same infinite plane complex, develop its complete flat metric,
+and conjugate the indexed translation to a fixed-point-free orientation-
+preserving isometry. No finite quotient or bounded period is needed.
+
+The strip proof is strengthened by finite-window whole-native-edge matching
+conditions witnessed by the original filling. A nonprivate A edge belongs
+entirely to one open separator band, so independent fills preserve them.
+The monohedral dependency was repaired explicitly: source-mono cases escape
+in ORIGINAL geometry; mixed changed B<=3 uses the direct corona proof;
+changed B>=4 mono uses only H1/H2, whose tiny full-side tori have a new
+independent checker. No H3 full-side assumption is used. Failure of
+simultaneous separation means AT LEAST ONE repeated-pair functional lies
+in row(M), not that all repeated pairs are rigid. This remains only a
+necessary obstruction to aperiodicity; no candidate or global resolution.
+
+**Strategic supersession:** the now-reviewed arbitrary-partner formal-color
+source theorem dominates this exclusion criterion WITHIN HEXAGONS. Any E-
+merged A native pair has identically zero difference functional, so a
+simultaneous separating kernel direction requires six different E-colors
+on A; the color theorem already gives periodic escape without any rank
+condition. Do not continue closure-kernel computations on this domain as
+if they bypassed connected repeated slots. The complete-flat-plane/rank-one
+transfer proof remains a stable reusable geometric lemma, and the exact
+rank condition remains mathematically valid, but this route is superseded
+as a stronger hexagon exclusion mechanism.
+
+## Construction sequence: normal-foot and off-normal components closed
+
+**Normal-foot plus mark-local cuts: freshly reviewed VALID obstruction.**
+[Short elementary proof](research/searches/unequal-arrow-cut-angle-obstruction-2026-10-15.md),
+[fresh audit](research/reviews/unequal-arrow-cut-angle-hostile-2026-10-15.md).
+The common H must contain a,b,72,144 with a+b72. If a!=b these four
+angles total288, and two further angles<180 cannot make720. Thus a=b36.
+The common H then has unique36/72 and four angles>108. Thin and thick
+X-tail contexts share an ordered cut-angle pair(s,t), with180<s+t<270.
+The three possible intervening-arc lengths0/4,1/3,2/2 in the cyclic H word
+all contradict its720angle total. This rules out ALL admissible unequal
+arrow-indexed mark-local fractions, not merely equal radii; thick chord
+choices and P congruence are irrelevant. The478exact weighted-row
+contradictions are supplementary independently checked evidence. Do not
+reopen by changing those fractions or chords.
+
+**Genuine changed hypothesis: M no longer the donor apex's normal foot.**
+The full16context necessary H-angle gate has an exact rational SAT witness:
+H=(36,156,144,156,72,156), Xt=Yt6,Xh=Yh42, donor apex halves120/12.
+But its actual unique donor-triangle/split geometry FAILS. Exact cyclotomic
+reconstruction gives8nonconvex assembled receiving quads; the other8strict
+quads fail required angles, including an actual M-angle108instead of156.
+[Precise one-fixture failure](research/searches/offnormal-one-fixture-geometry-2026-10-15.md).
+[Fresh independent reconstruction and VALID review](research/reviews/offnormal-one-fixture-hostile-2026-10-15.md)
+have passed for this fixture only. This kills ONLY this relaxed-angle witness, not the whole off-
+normal component. No two-prototype geometric candidate exists.
+
+**Stronger component CLOSED, freshly reviewed VALID:**
+[off-normal mark-local truncation obstruction](research/lemmas/offnormal-mark-local-truncation-obstruction-2026-10-15.md),
+[full geometric audit](research/reviews/offnormal-mark-local-truncation-hostile-2026-10-15.md),
+[second audit](research/reviews/offnormal-mark-local-hostile-2026-10-15.md).
+Strict precursor convexity ALONE has an exact positive fixture with both
+tail half-angles>108, so the attempted convexity-only obstruction is FALSE;
+that witness is preserved in the new master-determinant artifact. The
+successful combined argument uses actual COMMON-H METRIC CONGRUENCE:
+capacity gives common tail beta and Xheadbeta36; a cyclic common cut-pair
+has sum>=288, while same-mark head geometry gives Xheadhalf>18 and Yheadhalf>54.
+Hence beta<9. Unique36vertex and its opposite retainedM fixmX=mY; a
+base reflection preserves the thin-tail tangent wedge only atbeta18,
+so the congruence is identity. Two external cut-edge lines reconstruct the
+same donor apex for both marks. This forces Yheadhalf<36, contradicting>54.
+The proof permits independent off-normal splits and arbitrary unequal
+mark-local external cuts. NO remaining mark-local parameter search is
+justified. Later arbitrary-cut/arbitrary-split proofs also close the proposed
+cut-context escape. A new construction must change donor geometry by context,
+source geometry/incidences, the acute-projection domain, or the single
+receiving-H requirement. All angle/precursorSAT fixtures
+remain counterexamples to weaker reductions, not candidates.
+
+## All common-five-length separation-two pairs excluded (reviewed)
+
+**Freshly reviewed VALID:** if two genuine convex hexagons have the SAME
+set of five distinct numerical lengths and each repeats its doubled value
+at separation two, EVERY tileable pair has a rank-two periodic escape,
+REGARDLESS of whether the doubled values agree. The same-valued branch is
+[the seven-orbit classification](research/lemmas/hexagon-shared-repeat-separation-two-periodicity-2026-10-15.md).
+The new different-valued branch is
+[the actual-seam recoloring theorem](research/lemmas/hexagon-different-repeat-separation-two-periodicity-2026-10-15.md),
+with [fresh complete independent review](research/reviews/hexagon-different-repeat-separation-two-hostile-2026-10-15.md).
+Both have indexed formal-source variants allowing different colors to
+have the same physical length; no final matching rule is imposed.
+
+The different-valued exact gate is96raw/48reflection-normalized Bwords:
+40empty greatest endpoint-fixedpoint atlases,8covering full fixedpoints,
+36closed actual-corner covers. In EACH full fixedpoint atlas, one species'
+repeated native slots remain disconnected in the graph of all possible
+native seams. Actual seam graphs are subgraphs; their component partitions
+REFINE that fixedpoint partition. Thus one species gains six actual-seam
+colors, and the reviewed six-color/ANYpartner source theorem gives periodic
+escape. No new torus or numerical metric search was needed. All48words,
+all8graphs including every color and loop, and all36covers have been
+independently reconstructed. The combined class remains a restricted
+hexagon slice; five-length sets that differ, other repeat positions,
+heavier repetitions and pentagon-containing pairs are not resolved.
+
+## Same doubled-value separation-two classification (reviewed)
+
+Declared bounded extension of the proved torus method: both hexagons use
+exactly the same five numerical lengths, the same doubled value r, and
+both repeated slots have cyclic separation two. FixA=(r,x,r,y,z,t).
+Independent canonicalization corrected the preliminary root orbit count:
+24normalized B permutations/independent B reflection gives12words; also
+quotienting A reflection with y/t relabeling gives SEVENorbits, not six.
+Two pendant orbits have a missing triangle; the old12-star family is dead;
+three new representatives are dead by0stars,8->0stars,12->1->0stars;
+the only possibly tileable orbit is the reviewed periodic changed word.
+[Complete finite synthesis](research/lemmas/hexagon-shared-repeat-separation-two-periodicity-2026-10-15.md)
+and [fresh canonical/pruning review](research/reviews/hexagon-shared-repeat-separation-two-hostile-2026-10-15.md)
+are now VALID, including the formal-color source variant. No new
+torus size or metric enumeration is involved.
+
+## Complete changed-word shared-repeat family theorem (2026-10-15)
+
+**Freshly hostile-reviewed VALID, including a noninjective formal-color
+source variant:** the family A=(r,x,r,y,z,t),B=(r,z,r,y,x,t) with five
+pairwise distinct numerical lengths has a doubly periodic escape whenever
+tileable, even from unrestricted reflected/partial-contact tilings.
+[Self-contained theorem](research/lemmas/hexagon-shared-repeat-changed-family-periodicity-2026-10-15.md),
+[full independent audit](research/reviews/hexagon-changed-word-connected-support-hostile-2026-10-15.md).
+The source version permits distinct colors with equal physical lengths;
+indexed source frames handle all physical symmetries.
+
+Exact complete proof domain:16actual native stars, all65536supportsubsets,
+171corner-covering endpoint-closed supports. The fixed positive-witness
+atlas has68040four-face side pairings,12actual trivalent tori,6distinct
+angle supports. Of ALL171source supports,169have chosen explicit torus
+witnesses with676retained Fraction-weighted identities. Exactly2remaining
+ACTUAL supports partition all12corners into4stars, forcing complete native
+neighbor isometries and hence rank-two periodicity. The comparison uses
+all171supports, not merely the8minimal supports. No quotient-size growth,
+finite-model conjecture or bounded-negative inference is used.
+
+This closes the changed word completely as an aperiodicity candidate.
+It does not classify arbitrary repeated-side hexagons. Optional skew-angle
+closure identity from the10:00adviser is NOT a dependency. The earlier
+144connected-r/12minimal/11angle-flat/7maximal records remain optional
+source-side detail in the same certificate, superseded by the171case proof.
+
+## Shared-repeat gate: completed and superseded by full common-five theorem
+
+The original word A=(r,x,r,y,z,t),B=(r,y,r,z,x,t) is untileable by its native
+far-end obstruction; [proof](research/lemmas/hexagon-shared-repeat-single-family-2026-10-15.md)
+and [independent review](research/reviews/hexagon-shared-repeat-single-family-hostile-2026-10-15.md).
+The changed word B=(r,z,r,y,x,t) is closed by the reviewed171-support theorem,
+positive four-face witnesses and two deterministic partitions. All common-
+five word positions are now closed by the stronger theorem at the top.
+No seam-tree refinement, angle-flat polishing or larger quotient search is
+pending. Optional skew-angle closure identity is not a proof dependency;
+its [independent review](research/reviews/hexagon-changed-word-skew-flat-metric-hostile-2026-10-15.md) is VALID for the standalone identity, with named flat provenance separate and unused.
+
+## Six-distinct/five-distinct hexagon periodic escape (2026-10-15)
+
+**New substantial reviewed structural theorem:** if one genuine convex hexagon
+has six distinct native side lengths and the other has at least five, then
+any admitted plane tiling implies an admitted doubly periodic tiling, including
+reflections and arbitrary partial contacts in the hypothesis.
+[Combined theorem and exact dependency proof](research/lemmas/hexagon-six-five-general-periodic-escape-2026-10-15.md).
+This is a partial exclusion, not an unrestricted impossibility theorem.
+
+The new exactly-five branch exhausts all positions of its repeated length:
+
+- [Separation two](research/lemmas/hexagon-six-five-separation-two-periodicity-2026-10-15.md):
+  3780 normalized numerical words, eight surviving orbits, sixteen
+  endpoint-closed actual-corner supports; fourteen contain a four-face torus
+  ring and two give unique intrinsic relative-neighbor isometries.
+- [Opposite repeats](research/lemmas/hexagon-six-five-opposite-repeat-periodicity-2026-10-15.md):
+  1890 normalized words, eight mixed orbits, twelve closed supports; ten
+  contain rings, two are deterministic. Pure-B stars separately give an
+  explicit two-B-face flat torus by complementary angle sums.
+- [Adjacent repeats](research/lemmas/hexagon-six-five-adjacent-periodicity-2026-10-15.md):
+  3780 words, twelve orbits, eleven supports, all with four-face rings.
+  Repeated ray lengths and repeated native corner indices are retained;
+  all three far-end checks must use one simultaneous native-arm microstate.
+
+All three full proofs have fresh VALID hostile reviews under
+`research/reviews/hexagon-six-five-*2026-10-15.md`. Independent stdlib
+verifiers import no producer, reconstruct the complete numerical domains,
+check actual native corner slots, and independently find whole-side torus
+pairings. The adjacent verifier exhausts even all original atlas subsets,
+independently confirming pruning loses no possible actual support. The
+combined six registered checks PASSED with no retained certificate writes.
+[Documented novelty boundary](research/literature/hexagon-six-five-boundary-2026-10-15.md)
+found no equivalent theorem within the stated sources/queries. No universal
+priority claim is made.
+
+**Superseding status:** the later one-six-distinct/arbitrary-partner theorem
+above closes every partner multiplicity. The current five-length results
+also close EVERY pair in which each member has at least five distinct
+numerical lengths; the final unequal-adjacent extension passed fresh review. Do not reopen
+old6/5families by changing metrics or increasing quotient size.
+
+**Historical adviser launch record:** the08:30invocation never initialized;
+the fresh09:00retry ran successfully. All subsequent half-hour advisers
+completed through11:30; fresh12:00is the final wrap-up reviewer. No result
+is attributed to the stalled08:30invocation.
+
+## Unrestricted Y-pair closure and parameter family (2026-10-15)
+
+**New reviewed partial theorem:** the retained exact Y pentagons admit **no
+plane tiling at all**, allowing all isometries and arbitrary partial contacts.
+[Fixed proof](research/lemmas/pentagon-y-unrestricted-2026-10-15.md).
+G endpoints cannot lie against flat sectors, and length R<2S forces GG full.
+A short GC arm along a P RA ray forces a forbidden flat+A farther along that
+same ray. Consequently GG matches RA; both RA and AB sides of one actual P
+become full; its reviewed full BB mate would need two G endpoints, impossible.
+This closes the former unrestricted partial-contact gap without a larger
+finite quotient or patch search.
+
+The [self-contained abstract obstruction and parameter theorem](research/lemmas/y-pentagon-parameter-family-2026-10-15.md)
+extend this to **every rational t** in
+`(5+3sqrt(2))/7 < t < 1+sqrt(2)`, with
+`R=(4t-2)/3`, `k=(t+1)/3`,
+`P=((0,0),(R,0),(R+1,t),(t,R+1),(0,R))` and
+`Q=((t,1),(t-k,1+k),(-t+k,1+k),(-t,1),(0,0))`.
+The abstract lemma assumes explicit angle and side cycles,
+`0<S<R<L<2S`, `2R!=3S`, `2L!=3S`, and irrational angle coefficient.
+Its shortest-side guard proof is reproduced for those hypotheses.
+This is a restricted infinite family exclusion, **not** a solution of the
+unrestricted two-polygon objective.
+
+[Fresh hostile review](research/reviews/y-unrestricted-and-family-hostile-2026-10-15.md)
+is VALID separately for the fixed theorem, abstract obstruction and full
+rational interval. The independent checker reconstructs coordinates, strict
+convexity, corner cotangents, complete stars and exact interval signs without
+producer imports. Both author checkers and the independent checker passed.
+[Novelty boundary](research/literature/y-pentagon-family-boundary-2026-10-15.md)
+locates no equivalent theorem in the stated sources/queries; priority beyond
+that boundary is not claimed. Three read-only Y checks were added to the registry.
+A full frozen-checkpoint replay PASSED all62certificate pairs and310
+verifiers (372checks), with copied-evidence hash preservation. See
+[full log](research/reviews/y-family-full-registry-replay-2026-10-15.txt).
+The six subsequently added hexagon checks separately PASSED, so all
+current65certificate pairs and313verifiers (378checks) have been checked;
+no single fresh all378replay is claimed.
+
+**Closed route/restart restriction:** no more search for tilings of the fixed
+Y pair or any pair in this theorem's exact domain. A new construction must
+change native metrics/corner correlations or another explicit hypothesis;
+no increase in patch or quotient size can repair the contradiction. The
+following 2026-10-14 Y discussion is historical and its unrestricted gap is
+superseded by this theorem. Current independent construction directions are
+changed Q metrics, a new 72/108/126-degree pentagon/144-degree decagon palette,
+and fractional partitions with three output sectors at each split.
+
+## Historical autonomous restart (2026-10-15 08:30 UTC)
+
+The user requested execution of `main_prompt.md`, continued research toward a
+substantial novel result, and a **fresh Astra direction adviser every 30 minutes**.
+First adviser launched at 08:30 UTC; next due 09:00 UTC while research continues.
+No success criterion is relaxed. Locked environment verification PASSED.
+
+Mechanisms active at that earlier checkpoint (current status above):
+
+- **Y unrestricted contact propagation:** use the reviewed full-BB-mate theorem
+  to classify previously unclassified other native sides and determine actual
+  unrestricted existence or untileability. No larger whole-edge quotient.
+- **New construction:** alter the fractional source topology or hierarchical
+  carrier incidence rather than vary closed offsets/metrics.
+- **Global structural constraints:** root examines geometric/angle obstructions
+  that apply beyond fixed candidate families; adviser independently selects
+  the next research direction. Fresh literature boundary in progress.
+
+New claims require independent hostile review and exact replay before promotion.
+Existing paused/closed routes below retain their restart restrictions. No new
+candidate or unrestricted theorem is claimed at this restart.
 
 ## Y partial contacts and intrinsic forcing: bounded gates (2026-10-14)
 
@@ -428,6 +1088,12 @@ The unrestricted target remains unresolved. Completed B5+1, two-U, old wheel, fa
 
 | Mechanism / current status | Strongest retained result | Remaining obligation / restart condition |
 | --- | --- | --- |
+| Six-distinct hexagon with arbitrary hexagon partner — reviewed VALID periodic escape | [Full theorem](research/lemmas/hexagon-six-distinct-unrestricted-periodic-escape-2026-10-15.md), plus [actual-seam six-color extension](research/lemmas/hexagon-six-colors-arbitrary-partner-2026-10-15.md). | No partner metric/multiplicity remains in this scope; one nonzero period suffices. Fewer distinct lengths require the separate results below. |
+| Each hexagon has at least five numerical lengths — reviewed doubly periodic escape | [Complete corollary and final unequal adjacent theorem](research/lemmas/hexagon-five-unequal-adjacent-periodicity-2026-10-15.md), [independent hostile review](research/reviews/hexagon-five-unequal-adjacent-hostile-2026-10-15.md). | All common/unequal palettes and repeat positions covered; six-length cases use the reviewed six/five theorem. Never extrapolate to a member with at most four numerical lengths. |
+| Rational Y-pentagon family — reviewed VALID untileability | [Unrestricted prototype theorem](research/lemmas/pentagon-y-unrestricted-2026-10-15.md), [infinite parameter family](research/lemmas/y-pentagon-parameter-family-2026-10-15.md), partial contacts included. | Different metrics outside the stated family or a changed contact mechanism; these exact metrics are closed. |
+| Three-sector receiving hexagons — reviewed VALID component obstruction | [Arbitrary cuts and physical splits excluded](research/lemmas/context-dependent-split-receiving-hexagon-obstruction-2026-10-15.md) while donor triangles remain mark-local. | Must change donor geometry, source/retained-vertex incidence, projection domain or the one-H requirement. No cut/split-only scan. |
+| Ammann mean-site power cells — reviewed VALID compact-family exclusion | [Exact closed weight-box obstruction](research/lemmas/weighted-ammann-power-small-box-obstruction-2026-10-15.md): mandatory7/6/5cells in every legal source. | Different sites/source metric or separately justified parameter domain; no two-class point in this box. |
+| Hat interior-cycle and fixed-frame experiments — completed, limited unreviewed evidence | [11:30direction record](research/searches/astra-direction-2026-10-15-1130.md): two exact convex precursor partitions; eight necessary-angle gates Z3UNSAT. | No candidate, metric or decoder gate. Negative solver evidence is not a reviewed construction-impossibility theorem; a new proposal must change source corner-budget/cross-source incidence. |
 | Affine stationary transport — reviewed VALID restricted exclusion | [Equivariant affine theorem](research/lemmas/affine-two-convex-iterable-obstruction.md), [finite transported-species extension](research/lemmas/affine-two-convex-finite-shape-transport.md); non-scalar-power inflation forces parallelograms or no polygon dissection. [Exact rectangle control](research/searches/affine-two-convex-fibonacci-rectangle-control.md). | Finite scalar-power matrices and alternative orientation-dependent hierarchies remain outside; finite transported shapes do not automatically provide their dissections. |
 | All-obtuse pentagon/high partner — reviewed VALID | [PPP-density theorem](research/lemmas/contact-structure-high-partner-ppp-density.md): for n>=9 pentagon-only vertices are syndetic; no native PPP angle triple implies untileability at every metric. [Review](research/reviews/contact-structure-high-partner-ppp-density-review.md). | Pentagons with repeated-angle PPP stars, nonobtuse shapes and all other families remain. Uniform positive quadratic counts DO imply bounded gaps; earlier obtuse prose repaired. |
 | One-right pentagon/equiangular octagon — reviewed reduction with residual domains | [Native reduction](research/lemmas/contact-right-angle-unrestricted-native-reduction.md), [fresh review](research/reviews/contact-right-angle-hosted-side-necessity-hostile-review.md): no Q-hosted T, all Q contacts whole, only21 native Q masks, flat hosts only three middle P sides of length2u/2v. [Private-side capacity](research/lemmas/contact-structure-right-palette-private-octagon-capacity.md) and [review](research/reviews/contact-structure-right-private-capacity-review.md). | Exactly two private Q slots are closed by the all-metric synthesis below. Zero/one-private repeated-length and zero-private host cases remain subject to the narrower classifications below; no general existence or forcing theorem follows. |

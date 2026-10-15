@@ -1,0 +1,1024 @@
+{
+  "A": [
+    0,
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "A_label_stabilizers": [
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      1,
+      4,
+      3,
+      2
+    ]
+  ],
+  "B_reflection_canonical_domain": [
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      1,
+      2,
+      4,
+      3
+    ],
+    [
+      1,
+      3,
+      2,
+      4
+    ],
+    [
+      2,
+      1,
+      3,
+      4
+    ],
+    [
+      2,
+      1,
+      4,
+      3
+    ],
+    [
+      2,
+      3,
+      1,
+      4
+    ],
+    [
+      3,
+      1,
+      2,
+      4
+    ],
+    [
+      3,
+      1,
+      4,
+      2
+    ],
+    [
+      3,
+      2,
+      1,
+      4
+    ],
+    [
+      4,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      1,
+      3,
+      2
+    ],
+    [
+      4,
+      2,
+      1,
+      3
+    ]
+  ],
+  "canonical_orbits": [
+    {
+      "normalized_permutations": [
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "representative_B": [
+        0,
+        1,
+        0,
+        2,
+        3,
+        4
+      ],
+      "status": "pendant x: A corners0,1 occur in no native star"
+    },
+    {
+      "normalized_permutations": [
+        [
+          1,
+          2,
+          4,
+          3
+        ],
+        [
+          1,
+          3,
+          2,
+          4
+        ]
+      ],
+      "representative_B": [
+        0,
+        1,
+        0,
+        2,
+        4,
+        3
+      ],
+      "status": "pendant x: A corners0,1 occur in no native star"
+    },
+    {
+      "normalized_permutations": [
+        [
+          2,
+          1,
+          3,
+          4
+        ],
+        [
+          4,
+          1,
+          3,
+          2
+        ]
+      ],
+      "representative_B": [
+        0,
+        2,
+        0,
+        1,
+        3,
+        4
+      ],
+      "status": "new complete endpoint-pruning untileability"
+    },
+    {
+      "normalized_permutations": [
+        [
+          2,
+          1,
+          4,
+          3
+        ],
+        [
+          4,
+          1,
+          2,
+          3
+        ]
+      ],
+      "representative_B": [
+        0,
+        2,
+        0,
+        1,
+        4,
+        3
+      ],
+      "status": "new complete endpoint-pruning untileability"
+    },
+    {
+      "normalized_permutations": [
+        [
+          2,
+          3,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          1,
+          3
+        ]
+      ],
+      "representative_B": [
+        0,
+        2,
+        0,
+        3,
+        1,
+        4
+      ],
+      "status": "previously certified endpoint untileability"
+    },
+    {
+      "normalized_permutations": [
+        [
+          3,
+          1,
+          2,
+          4
+        ],
+        [
+          3,
+          1,
+          4,
+          2
+        ]
+      ],
+      "representative_B": [
+        0,
+        3,
+        0,
+        1,
+        2,
+        4
+      ],
+      "status": "new complete endpoint-pruning untileability"
+    },
+    {
+      "normalized_permutations": [
+        [
+          3,
+          2,
+          1,
+          4
+        ]
+      ],
+      "representative_B": [
+        0,
+        3,
+        0,
+        2,
+        1,
+        4
+      ],
+      "status": "previously reviewed periodic escape"
+    }
+  ],
+  "full_B_permutation_domain": [
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      1,
+      2,
+      4,
+      3
+    ],
+    [
+      1,
+      3,
+      2,
+      4
+    ],
+    [
+      1,
+      3,
+      4,
+      2
+    ],
+    [
+      1,
+      4,
+      2,
+      3
+    ],
+    [
+      1,
+      4,
+      3,
+      2
+    ],
+    [
+      2,
+      1,
+      3,
+      4
+    ],
+    [
+      2,
+      1,
+      4,
+      3
+    ],
+    [
+      2,
+      3,
+      1,
+      4
+    ],
+    [
+      2,
+      3,
+      4,
+      1
+    ],
+    [
+      2,
+      4,
+      1,
+      3
+    ],
+    [
+      2,
+      4,
+      3,
+      1
+    ],
+    [
+      3,
+      1,
+      2,
+      4
+    ],
+    [
+      3,
+      1,
+      4,
+      2
+    ],
+    [
+      3,
+      2,
+      1,
+      4
+    ],
+    [
+      3,
+      2,
+      4,
+      1
+    ],
+    [
+      3,
+      4,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      2,
+      1
+    ],
+    [
+      4,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      1,
+      3,
+      2
+    ],
+    [
+      4,
+      2,
+      1,
+      3
+    ],
+    [
+      4,
+      2,
+      3,
+      1
+    ],
+    [
+      4,
+      3,
+      1,
+      2
+    ],
+    [
+      4,
+      3,
+      2,
+      1
+    ]
+  ],
+  "labels": "r=0,x=1,y=2,z=3,t=4, all five physically distinct",
+  "new_word_obstructions": [
+    {
+      "B": [
+        0,
+        2,
+        0,
+        1,
+        3,
+        4
+      ],
+      "complete_star_atlas": [],
+      "endpoint_closed_cornercover_masks": [],
+      "enumerated_support_masks": 1,
+      "pruning_rounds": [],
+      "pruning_sizes": [
+        0
+      ]
+    },
+    {
+      "B": [
+        0,
+        2,
+        0,
+        1,
+        4,
+        3
+      ],
+      "complete_star_atlas": [
+        [
+          0,
+          5,
+          9
+        ],
+        [
+          1,
+          5,
+          9
+        ],
+        [
+          2,
+          3,
+          11
+        ],
+        [
+          3,
+          6,
+          11
+        ],
+        [
+          3,
+          7,
+          11
+        ],
+        [
+          4,
+          5,
+          11
+        ],
+        [
+          5,
+          8,
+          9
+        ],
+        [
+          5,
+          10,
+          11
+        ]
+      ],
+      "endpoint_closed_cornercover_masks": [],
+      "enumerated_support_masks": 256,
+      "pruning_rounds": [
+        {
+          "input_stars": [
+            [
+              0,
+              5,
+              9
+            ],
+            [
+              1,
+              5,
+              9
+            ],
+            [
+              2,
+              3,
+              11
+            ],
+            [
+              3,
+              6,
+              11
+            ],
+            [
+              3,
+              7,
+              11
+            ],
+            [
+              4,
+              5,
+              11
+            ],
+            [
+              5,
+              8,
+              9
+            ],
+            [
+              5,
+              10,
+              11
+            ]
+          ],
+          "removed": [
+            {
+              "far_corners": [
+                1,
+                8
+              ],
+              "ray": 1,
+              "seam_corners": [
+                0,
+                9
+              ],
+              "star": [
+                0,
+                5,
+                9
+              ]
+            },
+            {
+              "far_corners": [
+                2,
+                0
+              ],
+              "ray": 0,
+              "seam_corners": [
+                1,
+                5
+              ],
+              "star": [
+                1,
+                5,
+                9
+              ]
+            },
+            {
+              "far_corners": [
+                1,
+                6
+              ],
+              "ray": 0,
+              "seam_corners": [
+                2,
+                11
+              ],
+              "star": [
+                2,
+                3,
+                11
+              ]
+            },
+            {
+              "far_corners": [
+                2,
+                7
+              ],
+              "ray": 2,
+              "seam_corners": [
+                3,
+                6
+              ],
+              "star": [
+                3,
+                6,
+                11
+              ]
+            },
+            {
+              "far_corners": [
+                2,
+                6
+              ],
+              "ray": 2,
+              "seam_corners": [
+                3,
+                7
+              ],
+              "star": [
+                3,
+                7,
+                11
+              ]
+            },
+            {
+              "far_corners": [
+                3,
+                10
+              ],
+              "ray": 3,
+              "seam_corners": [
+                4,
+                11
+              ],
+              "star": [
+                4,
+                5,
+                11
+              ]
+            },
+            {
+              "far_corners": [
+                0,
+                7
+              ],
+              "ray": 0,
+              "seam_corners": [
+                5,
+                8
+              ],
+              "star": [
+                5,
+                8,
+                9
+              ]
+            },
+            {
+              "far_corners": [
+                4,
+                9
+              ],
+              "ray": 4,
+              "seam_corners": [
+                5,
+                10
+              ],
+              "star": [
+                5,
+                10,
+                11
+              ]
+            }
+          ],
+          "survivors": []
+        }
+      ],
+      "pruning_sizes": [
+        8,
+        0
+      ]
+    },
+    {
+      "B": [
+        0,
+        3,
+        0,
+        1,
+        2,
+        4
+      ],
+      "complete_star_atlas": [
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          1,
+          2,
+          9
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          2,
+          5,
+          10
+        ],
+        [
+          2,
+          8,
+          9
+        ],
+        [
+          2,
+          10,
+          11
+        ],
+        [
+          3,
+          4,
+          10
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          5,
+          7
+        ],
+        [
+          4,
+          6,
+          11
+        ],
+        [
+          4,
+          7,
+          11
+        ]
+      ],
+      "endpoint_closed_cornercover_masks": [],
+      "enumerated_support_masks": 4096,
+      "pruning_rounds": [
+        {
+          "input_stars": [
+            [
+              0,
+              2,
+              9
+            ],
+            [
+              1,
+              2,
+              9
+            ],
+            [
+              2,
+              3,
+              6
+            ],
+            [
+              2,
+              3,
+              7
+            ],
+            [
+              2,
+              5,
+              10
+            ],
+            [
+              2,
+              8,
+              9
+            ],
+            [
+              2,
+              10,
+              11
+            ],
+            [
+              3,
+              4,
+              10
+            ],
+            [
+              4,
+              5,
+              6
+            ],
+            [
+              4,
+              5,
+              7
+            ],
+            [
+              4,
+              6,
+              11
+            ],
+            [
+              4,
+              7,
+              11
+            ]
+          ],
+          "removed": [
+            {
+              "far_corners": [
+                5,
+                1
+              ],
+              "ray": 0,
+              "seam_corners": [
+                0,
+                2
+              ],
+              "star": [
+                0,
+                2,
+                9
+              ]
+            },
+            {
+              "far_corners": [
+                0,
+                8
+              ],
+              "ray": 1,
+              "seam_corners": [
+                1,
+                9
+              ],
+              "star": [
+                1,
+                2,
+                9
+              ]
+            },
+            {
+              "far_corners": [
+                1,
+                11
+              ],
+              "ray": 0,
+              "seam_corners": [
+                2,
+                6
+              ],
+              "star": [
+                2,
+                3,
+                6
+              ]
+            },
+            {
+              "far_corners": [
+                1,
+                8
+              ],
+              "ray": 0,
+              "seam_corners": [
+                2,
+                7
+              ],
+              "star": [
+                2,
+                3,
+                7
+              ]
+            },
+            {
+              "far_corners": [
+                1,
+                0
+              ],
+              "ray": 0,
+              "seam_corners": [
+                2,
+                5
+              ],
+              "star": [
+                2,
+                5,
+                10
+              ]
+            },
+            {
+              "far_corners": [
+                1,
+                7
+              ],
+              "ray": 0,
+              "seam_corners": [
+                2,
+                8
+              ],
+              "star": [
+                2,
+                8,
+                9
+              ]
+            },
+            {
+              "far_corners": [
+                3,
+                9
+              ],
+              "ray": 2,
+              "seam_corners": [
+                2,
+                10
+              ],
+              "star": [
+                2,
+                10,
+                11
+              ]
+            },
+            {
+              "far_corners": [
+                5,
+                11
+              ],
+              "ray": 4,
+              "seam_corners": [
+                4,
+                10
+              ],
+              "star": [
+                3,
+                4,
+                10
+              ]
+            },
+            {
+              "far_corners": [
+                0,
+                11
+              ],
+              "ray": 0,
+              "seam_corners": [
+                5,
+                6
+              ],
+              "star": [
+                4,
+                5,
+                6
+              ]
+            },
+            {
+              "far_corners": [
+                0,
+                8
+              ],
+              "ray": 0,
+              "seam_corners": [
+                5,
+                7
+              ],
+              "star": [
+                4,
+                5,
+                7
+              ]
+            },
+            {
+              "far_corners": [
+                8,
+                6
+              ],
+              "ray": 0,
+              "seam_corners": [
+                7,
+                11
+              ],
+              "star": [
+                4,
+                7,
+                11
+              ]
+            }
+          ],
+          "survivors": [
+            [
+              4,
+              6,
+              11
+            ]
+          ]
+        },
+        {
+          "input_stars": [
+            [
+              4,
+              6,
+              11
+            ]
+          ],
+          "removed": [
+            {
+              "far_corners": [
+                3,
+                7
+              ],
+              "ray": 3,
+              "seam_corners": [
+                4,
+                6
+              ],
+              "star": [
+                4,
+                6,
+                11
+              ]
+            }
+          ],
+          "survivors": []
+        }
+      ],
+      "pruning_sizes": [
+        12,
+        1,
+        0
+      ]
+    }
+  ],
+  "schema": "SHARED_REPEAT_SEPARATION_TWO_REMAINING_V1",
+  "scope": "Three new exact untileability proofs plus exhaustive cyclic-word reduction. Prior two nonpendant branches are separate dependencies."
+}

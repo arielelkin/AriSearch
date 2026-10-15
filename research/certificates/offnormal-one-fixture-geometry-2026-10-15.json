@@ -1,0 +1,304 @@
+{
+  "counterexample_delta_M_interval": [
+    "-3254/1000000",
+    "-3253/1000000"
+  ],
+  "status": "FAIL_THIS_ONE_ANGLE_WITNESS",
+  "domain": "one exact base6/head42/theta120+12 fixture, 16 actual precursor quads",
+  "source_partitions": [
+    {
+      "species": "thin",
+      "parity": 0,
+      "strict_cells_disjoint_cover": true
+    },
+    {
+      "species": "thin",
+      "parity": 1,
+      "strict_cells_disjoint_cover": true
+    },
+    {
+      "species": "thick",
+      "parity": 0,
+      "strict_cells_disjoint_cover": true
+    },
+    {
+      "species": "thick",
+      "parity": 1,
+      "strict_cells_disjoint_cover": true
+    }
+  ],
+  "records": [
+    {
+      "species": "thin",
+      "parity": 0,
+      "receiver": 1,
+      "endpoint": 1,
+      "strict_convex": false,
+      "consecutive_turn_signs": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "minor_M_ray_angle_matches_156": false,
+      "minor_M_ray_angle_exact_six_degree_grid": null,
+      "required_internal_angle": 48,
+      "actual_internal_matches_required": null
+    },
+    {
+      "species": "thin",
+      "parity": 0,
+      "receiver": 1,
+      "endpoint": 2,
+      "strict_convex": true,
+      "consecutive_turn_signs": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "minor_M_ray_angle_matches_156": false,
+      "minor_M_ray_angle_exact_six_degree_grid": null,
+      "required_internal_angle": 48,
+      "actual_internal_matches_required": false
+    },
+    {
+      "species": "thin",
+      "parity": 0,
+      "receiver": 3,
+      "endpoint": 3,
+      "strict_convex": false,
+      "consecutive_turn_signs": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "minor_M_ray_angle_matches_156": false,
+      "minor_M_ray_angle_exact_six_degree_grid": null,
+      "required_internal_angle": 48,
+      "actual_internal_matches_required": null
+    },
+    {
+      "species": "thin",
+      "parity": 0,
+      "receiver": 3,
+      "endpoint": 0,
+      "strict_convex": true,
+      "consecutive_turn_signs": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "minor_M_ray_angle_matches_156": false,
+      "minor_M_ray_angle_exact_six_degree_grid": null,
+      "required_internal_angle": 48,
+      "actual_internal_matches_required": false
+    },
+    {
+      "species": "thin",
+      "parity": 1,
+      "receiver": 0,
+      "endpoint": 0,
+      "strict_convex": true,
+      "consecutive_turn_signs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "minor_M_ray_angle_matches_156": false,
+      "minor_M_ray_angle_exact_six_degree_grid": null,
+      "required_internal_angle": 48,
+      "actual_internal_matches_required": false
+    },
+    {
+      "species": "thin",
+      "parity": 1,
+      "receiver": 0,
+      "endpoint": 1,
+      "strict_convex": false,
+      "consecutive_turn_signs": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "minor_M_ray_angle_matches_156": false,
+      "minor_M_ray_angle_exact_six_degree_grid": null,
+      "required_internal_angle": 48,
+      "actual_internal_matches_required": null
+    },
+    {
+      "species": "thin",
+      "parity": 1,
+      "receiver": 2,
+      "endpoint": 2,
+      "strict_convex": true,
+      "consecutive_turn_signs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "minor_M_ray_angle_matches_156": false,
+      "minor_M_ray_angle_exact_six_degree_grid": null,
+      "required_internal_angle": 48,
+      "actual_internal_matches_required": false
+    },
+    {
+      "species": "thin",
+      "parity": 1,
+      "receiver": 2,
+      "endpoint": 3,
+      "strict_convex": false,
+      "consecutive_turn_signs": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "minor_M_ray_angle_matches_156": false,
+      "minor_M_ray_angle_exact_six_degree_grid": null,
+      "required_internal_angle": 48,
+      "actual_internal_matches_required": null
+    },
+    {
+      "species": "thick",
+      "parity": 0,
+      "receiver": 1,
+      "endpoint": 1,
+      "strict_convex": true,
+      "consecutive_turn_signs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "minor_M_ray_angle_matches_156": false,
+      "minor_M_ray_angle_exact_six_degree_grid": null,
+      "required_internal_angle": 12,
+      "actual_internal_matches_required": false
+    },
+    {
+      "species": "thick",
+      "parity": 0,
+      "receiver": 1,
+      "endpoint": 2,
+      "strict_convex": false,
+      "consecutive_turn_signs": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "minor_M_ray_angle_matches_156": false,
+      "minor_M_ray_angle_exact_six_degree_grid": null,
+      "required_internal_angle": 120,
+      "actual_internal_matches_required": null
+    },
+    {
+      "species": "thick",
+      "parity": 0,
+      "receiver": 3,
+      "endpoint": 3,
+      "strict_convex": false,
+      "consecutive_turn_signs": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "minor_M_ray_angle_matches_156": false,
+      "minor_M_ray_angle_exact_six_degree_grid": null,
+      "required_internal_angle": 48,
+      "actual_internal_matches_required": null
+    },
+    {
+      "species": "thick",
+      "parity": 0,
+      "receiver": 3,
+      "endpoint": 0,
+      "strict_convex": true,
+      "consecutive_turn_signs": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "minor_M_ray_angle_matches_156": false,
+      "minor_M_ray_angle_exact_six_degree_grid": 108,
+      "required_internal_angle": 12,
+      "actual_internal_matches_required": false
+    },
+    {
+      "species": "thick",
+      "parity": 1,
+      "receiver": 0,
+      "endpoint": 0,
+      "strict_convex": true,
+      "consecutive_turn_signs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "minor_M_ray_angle_matches_156": false,
+      "minor_M_ray_angle_exact_six_degree_grid": 108,
+      "required_internal_angle": 12,
+      "actual_internal_matches_required": false
+    },
+    {
+      "species": "thick",
+      "parity": 1,
+      "receiver": 0,
+      "endpoint": 1,
+      "strict_convex": false,
+      "consecutive_turn_signs": [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      "minor_M_ray_angle_matches_156": false,
+      "minor_M_ray_angle_exact_six_degree_grid": null,
+      "required_internal_angle": 48,
+      "actual_internal_matches_required": null
+    },
+    {
+      "species": "thick",
+      "parity": 1,
+      "receiver": 2,
+      "endpoint": 2,
+      "strict_convex": false,
+      "consecutive_turn_signs": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "minor_M_ray_angle_matches_156": false,
+      "minor_M_ray_angle_exact_six_degree_grid": null,
+      "required_internal_angle": 120,
+      "actual_internal_matches_required": null
+    },
+    {
+      "species": "thick",
+      "parity": 1,
+      "receiver": 2,
+      "endpoint": 3,
+      "strict_convex": true,
+      "consecutive_turn_signs": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "minor_M_ray_angle_matches_156": false,
+      "minor_M_ray_angle_exact_six_degree_grid": null,
+      "required_internal_angle": 12,
+      "actual_internal_matches_required": false
+    }
+  ]
+}

@@ -1,5 +1,9 @@
 # Every Y-pair BB side has a full native mate
 
+**Later status (2026-10-15):** [unrestricted untileability](pentagon-y-unrestricted-2026-10-15.md)
+now closes the former partial-contact gap for the fixed pair. This record
+retains its original scoped proof; historical existence questions below are superseded.
+
 Date: 2026-10-14. Status: independently reviewed VALID for the scoped full-BB-mate theorem.
 [Fresh hostile review](../reviews/pentagon-y-bb-partial-hostile-review-2026-10-14.md).
 

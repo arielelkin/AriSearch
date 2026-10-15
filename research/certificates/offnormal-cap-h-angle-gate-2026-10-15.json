@@ -1,0 +1,165 @@
+{
+  "status": "sat",
+  "domain": "OFF-NORMAL-M: 16 receiving H words, all12 D6 aliases, whole donor-apex split identity; necessary angle gate only",
+  "timeout_ms": 60000,
+  "H": [
+    "36",
+    "156",
+    "144",
+    "156",
+    "72",
+    "156"
+  ],
+  "base": {
+    "('X', 'tail')": "6",
+    "('X', 'head')": "42",
+    "('Y', 'tail')": "6",
+    "('Y', 'head')": "42"
+  },
+  "external": {
+    "('X', 'tail', 0)": "156",
+    "('X', 'tail', 1)": "144",
+    "('X', 'head', 0)": "156",
+    "('X', 'head', 1)": "36",
+    "('Y', 'tail', 0)": "156",
+    "('Y', 'tail', 1)": "144",
+    "('Y', 'head', 0)": "156",
+    "('Y', 'head', 1)": "36"
+  },
+  "theta": {
+    "('X', 'tail')": "120",
+    "('X', 'head')": "12",
+    "('Y', 'tail')": "120",
+    "('Y', 'head')": "12"
+  },
+  "aliases": [
+    {
+      "species": "thin",
+      "parity": 0,
+      "receiver": 1,
+      "endpoint": 1,
+      "alpha": "144",
+      "alias": 4
+    },
+    {
+      "species": "thin",
+      "parity": 0,
+      "receiver": 1,
+      "endpoint": 2,
+      "alpha": "36",
+      "alias": 1
+    },
+    {
+      "species": "thin",
+      "parity": 0,
+      "receiver": 3,
+      "endpoint": 3,
+      "alpha": "144",
+      "alias": 4
+    },
+    {
+      "species": "thin",
+      "parity": 0,
+      "receiver": 3,
+      "endpoint": 0,
+      "alpha": "36",
+      "alias": 1
+    },
+    {
+      "species": "thin",
+      "parity": 1,
+      "receiver": 0,
+      "endpoint": 0,
+      "alpha": "36",
+      "alias": 1
+    },
+    {
+      "species": "thin",
+      "parity": 1,
+      "receiver": 0,
+      "endpoint": 1,
+      "alpha": "144",
+      "alias": 4
+    },
+    {
+      "species": "thin",
+      "parity": 1,
+      "receiver": 2,
+      "endpoint": 2,
+      "alpha": "36",
+      "alias": 1
+    },
+    {
+      "species": "thin",
+      "parity": 1,
+      "receiver": 2,
+      "endpoint": 3,
+      "alpha": "144",
+      "alias": 4
+    },
+    {
+      "species": "thick",
+      "parity": 0,
+      "receiver": 1,
+      "endpoint": 1,
+      "alpha": "72",
+      "alias": 8
+    },
+    {
+      "species": "thick",
+      "parity": 0,
+      "receiver": 1,
+      "endpoint": 2,
+      "alpha": "72",
+      "alias": 9
+    },
+    {
+      "species": "thick",
+      "parity": 0,
+      "receiver": 3,
+      "endpoint": 3,
+      "alpha": "144",
+      "alias": 4
+    },
+    {
+      "species": "thick",
+      "parity": 0,
+      "receiver": 3,
+      "endpoint": 0,
+      "alpha": "72",
+      "alias": 8
+    },
+    {
+      "species": "thick",
+      "parity": 1,
+      "receiver": 0,
+      "endpoint": 0,
+      "alpha": "72",
+      "alias": 8
+    },
+    {
+      "species": "thick",
+      "parity": 1,
+      "receiver": 0,
+      "endpoint": 1,
+      "alpha": "144",
+      "alias": 4
+    },
+    {
+      "species": "thick",
+      "parity": 1,
+      "receiver": 2,
+      "endpoint": 2,
+      "alpha": "72",
+      "alias": 9
+    },
+    {
+      "species": "thick",
+      "parity": 1,
+      "receiver": 2,
+      "endpoint": 3,
+      "alpha": "72",
+      "alias": 8
+    }
+  ]
+}

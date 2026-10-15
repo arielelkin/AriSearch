@@ -1,0 +1,123 @@
+{
+  "A": [
+    0,
+    1,
+    0,
+    2,
+    3,
+    4
+  ],
+  "B": [
+    0,
+    2,
+    0,
+    3,
+    1,
+    4
+  ],
+  "all_corner_stars_fail": [
+    {
+      "far_corner_pair": [
+        0,
+        2
+      ],
+      "ray_label": 0,
+      "star": [
+        1,
+        5,
+        10
+      ]
+    },
+    {
+      "far_corner_pair": [
+        2,
+        7
+      ],
+      "ray_label": 0,
+      "star": [
+        1,
+        8,
+        9
+      ]
+    },
+    {
+      "far_corner_pair": [
+        2,
+        6
+      ],
+      "ray_label": 0,
+      "star": [
+        1,
+        10,
+        11
+      ]
+    }
+  ],
+  "complete_star_atlas": [
+    [
+      0,
+      5,
+      10
+    ],
+    [
+      0,
+      8,
+      9
+    ],
+    [
+      0,
+      10,
+      11
+    ],
+    [
+      1,
+      5,
+      10
+    ],
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      1,
+      10,
+      11
+    ],
+    [
+      2,
+      3,
+      8
+    ],
+    [
+      3,
+      6,
+      8
+    ],
+    [
+      3,
+      7,
+      8
+    ],
+    [
+      4,
+      5,
+      8
+    ],
+    [
+      4,
+      8,
+      11
+    ],
+    [
+      4,
+      9,
+      10
+    ]
+  ],
+  "corner_convention": "after side i, A0..5 B6..11",
+  "labels": "five pairwise distinct positive lengths",
+  "obstructed_corner": 1,
+  "schema": "SHARED_REPEAT_HEXAGON_NATIVE_ENDPOINT_OBSTRUCTION_V1",
+  "scope": "no full-side trivalent tiling; unrestricted exclusion uses reviewed defect-free limit"
+}

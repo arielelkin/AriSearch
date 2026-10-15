@@ -1,0 +1,5 @@
+{
+  "status": "unsat",
+  "domain": "16 receiving H words, all12 D6 aliases; necessary angle gate only",
+  "timeout_ms": 60000
+}

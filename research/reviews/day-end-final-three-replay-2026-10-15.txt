@@ -1,0 +1,10 @@
+Final registered delta replay, 2026-10-15
+
+Command:
+ mise exec -- conda run --no-capture-output -n arisearch python -u research/searches/verify.py --only hexagon-five-unequal-adjacent-recon-2026-10-15.py --only hexagon-five-unequal-adjacent-supports-2026-10-15.py --only hexagon-five-unequal-adjacent-independent-2026-10-15.py
+
+Observed stdout; process exit status 0:
+PASS certificate replay: hexagon-five-unequal-adjacent-recon-2026-10-15.py
+PASS certificate replay: hexagon-five-unequal-adjacent-supports-2026-10-15.py
+PASS verifier: hexagon-five-unequal-adjacent-independent-2026-10-15.py
+All 2 certificate replays and 1 verifiers passed; no certificates written.

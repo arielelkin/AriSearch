@@ -1,0 +1,378 @@
+Full registry replay on a frozen snapshot of the 62-certificate/310-verifier Y-family checkpoint.
+Other ongoing research files written after this snapshot are not included.
+PASS certificate replay: ammann-directed-offset-gate-2026-10-14.py
+PASS certificate replay: ammann-mark-altitude-gate-2026-10-14.py
+PASS certificate replay: pentagon-y-interface-2026-10-14.py
+PASS certificate replay: two-hexagon-sawtooth-strip-cycle.py
+PASS certificate replay: mixed-partial-parent-2026-10-14.py
+PASS certificate replay: construction-adversary-2026-10-14.py
+PASS certificate replay: nonconvex-parent-construction-2026-10-14-pentagon-repair.py
+PASS certificate replay: nonconvex-parent-construction-2026-10-14.py
+PASS certificate replay: contact-pentagon-5pi7-q14-exact.py
+PASS certificate replay: contact-pentagon-120-105-dodecagon-symbolic-carrier.py
+PASS certificate replay: affine-two-convex-pinwheel-quarter-cut-parents.py
+PASS certificate replay: affine-two-convex-quarter-cut-q-periodic-carrier.py
+PASS certificate replay: contact-structure-one-private-x2u-periodic-carrier.py
+PASS certificate replay: contact-structure-one-private-dimer-words.py
+PASS certificate replay: contact-right-angle-no-qq-symbolic-carrier.py
+PASS certificate replay: contact-right-angle-distance-three-local-ring.py
+PASS certificate replay: contact-right-angle-equal-private-distance-three-ring.py
+PASS certificate replay: pinwheel-three-triangle-convex-clusters.py
+PASS certificate replay: construction-cycle-a-edge-diamonds.py
+PASS certificate replay: walton_vertex_rank.py
+PASS certificate replay: walton_relative_relabeling_rank.py
+PASS certificate replay: walton_state_assignment_rank.py
+PASS certificate replay: nonresonant_5_6_scaffold.py
+PASS certificate replay: joint_5_6_local_verify.py
+PASS certificate replay: new-angle-equilateral-rational-verify.py
+PASS certificate replay: two_obtuse_angle_pentagon.py
+PASS certificate replay: hexagon-holonomy-classify.py
+PASS certificate replay: hexagon-five-length-classify.py
+PASS certificate replay: distinct_pentagon_higher_length_graph.py
+PASS certificate replay: two_angle_5_7_periodic_witness.py
+PASS certificate replay: new-angle-two-equilateral-hexagons-verify.py
+PASS certificate replay: new-angle-three-pentagon-counterexample-verify.py
+PASS certificate replay: new-angle-three-pentagon-irrational-angle-verify.py
+PASS certificate replay: new-angle-three-pentagon-mixed-word-verify.py
+PASS certificate replay: pentagrid_pentagon_angles.py
+PASS certificate replay: pentagrid-golden-metric.py
+PASS certificate replay: pentagrid-golden-metric-torus.py
+PASS certificate replay: pentagrid-golden-metric-periodic.py
+PASS certificate replay: pentagrid_monohedral_family_filter.py
+PASS certificate replay: pentagrid-golden-metric-two-length-stars.py
+PASS certificate replay: pentagrid-golden-metric-area-compatible.py
+PASS certificate replay: regular_pentagon_private_octagon_geometry.py
+PASS certificate replay: all_obtuse_pentagon_regular_heptagon_witness.py
+PASS certificate replay: pentagrid-area-family-edge-stars.py
+PASS certificate replay: pentagrid-u-w-periodic-continuum.py
+PASS certificate replay: pentagrid-golden-metric-robinson-partitions.py
+PASS certificate replay: pentagrid-golden-metric-robinson-boundary.py
+PASS certificate replay: obtuse_pentagon_regular_dodecagon_witness.py
+PASS certificate replay: pentagrid-robinson-height-boundary.py
+PASS certificate replay: pentagrid-robinson-diagonal-boundary.py
+PASS certificate replay: pentagrid-robinson-boundary-completion.py
+PASS certificate replay: pentagrid-v-w-periodic-continuum.py
+PASS certificate replay: pentagrid-v-v-double-y-periodic.py
+PASS certificate replay: pentagrid-v-v-general-double-y.py
+PASS certificate replay: two-angle-5-7-metric-continuum.py
+PASS certificate replay: two-angle-5-7-equal-private-scaffold.py
+PASS certificate replay: new-octagon-q3-metric-deformation.py
+PASS certificate replay: private-octagon-equal-private-unit-closure.py
+PASS certificate replay: hexagon-adjacent-repeat-periodic-cone.py
+PASS certificate replay: pentagrid-v-v-reciprocal-partial-periodic.py
+PASS certificate replay: branching-hexagon-rational-deformation.py
+PASS certificate replay: branching-hexagon-new-chirality-collapse.py
+PASS verifier: pentagon-y-unrestricted-2026-10-15.py
+PASS verifier: y-pentagon-family-2026-10-15.py
+PASS verifier: y-family-independent-hostile-check-2026-10-15.py
+PASS verifier: pentagon-y-bb-contact-check-2026-10-14.py
+PASS verifier: ammann-c-seam-intrinsic-feature-2026-10-14.py
+PASS verifier: pentagon-y-bb-partial-independent-2026-10-14.py
+PASS verifier: ammann-c-seam-feature-independent-2026-10-14.py
+PASS verifier: verify_new_interface_stopping_gates_2026_10_14.py
+PASS verifier: ammann-directed-offset-residual-invariants-2026-10-14.py
+PASS verifier: ammann-directed-offset-residual-independent-2026-10-14.py
+PASS verifier: ammann-directed-offset-unit-chord-check-2026-10-14.py
+PASS verifier: ammann-directed-offset-independent-2026-10-14.py
+PASS verifier: pentagon-y-6p4q-flat-torus-cpsat-2026-10-14.py
+PASS verifier: pentagon-y-no-full-edge-independent-2026-10-14.py
+PASS verifier: ammann-mark-altitude-independent-2026-10-14.py
+PASS verifier: pentagon-y-full-edge-balance-hostile-2026-10-14.py
+PASS verifier: ammann-bipartite-tree-pentagons-2026-10-14.py
+PASS verifier: verify_ammann_bipartite_tree_pentagons_independent.py
+PASS verifier: pentagon-y-interface-2026-10-14-independent.py
+PASS verifier: two-hexagon-strip-cycle-independent-2026-10-14.py
+PASS verifier: pentagon-y-equal-count-torus-obstruction-2026-10-14.py
+PASS verifier: ammann-fractional-resection-2026-10-14-independent.py
+PASS verifier: ammann-fractional-resection-2026-10-14-mixed-parent-review.py
+PASS verifier: mixed-partial-parent-2026-10-14-p5q14-review.py
+PASS verifier: p5q14-orientation-transition-2026-10-14.py
+PASS verifier: p5q14-orientation-transition-2026-10-14-verifier.py
+PASS verifier: mixed-partial-parent-2026-10-14-verify.py
+PASS verifier: ammann-fractional-resection-2026-10-14.py
+PASS verifier: verify_p5q14_mandatory_palette_witnesses.py
+PASS verifier: construction-adversary-2026-10-14-p5q14-palette.py
+PASS verifier: verify_construction_adversary_one_q_orbit.py
+PASS verifier: verify_nonconvex_parent_construction_2026_10_14_independent.py
+PASS verifier: construction-adversary-2026-10-14-p5q14-independent.py
+PASS verifier: contact-structure-ammann-corner-triad-gate.py
+PASS verifier: contact-structure-ammann-double-corner-gate.py
+PASS verifier: contact-structure-ammann-double-corner-six-six-escape.py
+PASS verifier: contact-structure-ammann-j-star-resection.py
+PASS verifier: verify_ammann_cross_source_resections_independent.py
+PASS verifier: verify_eight_child_support_reflection_independent.py
+PASS verifier: contact-pentagon-heptagon-branched-periodic-carrier.py
+PASS verifier: contact-pentagon-heptagon-branched-independent.py
+PASS verifier: contact-pentagon-120-105-dodecagon-independent.py
+PASS verifier: contact-non-equiangular-public-h-four-equal.py
+PASS verifier: contact-non-equiangular-public-h-periodic-independent.py
+PASS verifier: affine-two-convex-pinwheel-four-face-gate.py
+PASS verifier: affine-two-convex-pinwheel-four-face-independent.py
+PASS verifier: contact-non-equiangular-two-support-host-candidate.py
+PASS verifier: contact-non-equiangular-two-support-carrier-independent.py
+PASS verifier: contact-non-equiangular-two-support-family-third-check.py
+PASS verifier: contact-non-equiangular-four-equal-true-host.py
+PASS verifier: contact-non-equiangular-four-equal-independent.py
+PASS verifier: contact-non-equiangular-four-equal-true-host-independent.py
+PASS verifier: contact-non-equiangular-octagon-alias-candidate.py
+PASS verifier: contact-non-equiangular-alias-independent.py
+PASS verifier: contact-right-angle-no-qq-zero-private-321-mask-check.py
+PASS verifier: contact-right-angle-zero-private-native-independent.py
+PASS verifier: contact-non-equiangular-octagon-one-deformation.py
+PASS verifier: contact-structure-one-private-x2v-closure.py
+PASS verifier: contact-structure-one-private-whole-bridge-closure.py
+PASS verifier: contact-right-angle-one-private-hosted-carrier-check.py
+PASS verifier: contact-symmetric-two-private-symbolic-carrier.py
+PASS verifier: contact-symmetric-two-private-symbolic-carrier-check.py
+PASS verifier: contact-right-angle-one-private-generic-closure-check.py
+PASS verifier: contact-right-angle-no-qq-independent.py
+PASS verifier: contact-right-angle-nonsymmetric-carrier.py
+PASS verifier: contact-right-angle-nonsymmetric-carrier-check.py
+PASS verifier: contact-right-angle-distance-three-ring-check.py
+PASS verifier: regular-pentagon-six-wheel-exact.py
+PASS verifier: pinwheel-three-triangle-independent-check.py
+PASS verifier: contact-structure-right-carrier-independent-check.py
+PASS verifier: current-exact-convex-source-six-hostile-check.py
+PASS verifier: current-exact-convex-source-six-profile.py
+PASS verifier: resumed_intrinsic_repeated_u.py
+PASS verifier: resumed-repeated-u-wheel-independent.py
+PASS verifier: resumed_intrinsic_wheel_d3.py
+PASS verifier: resumed-two-size-wheel-complete-counts-independent.py
+PASS verifier: resumed_intrinsic_two_size_wheel.py
+PASS verifier: resumed-two-size-wheel-independent.py
+PASS verifier: resumed_intrinsic_voronoi_pair.py
+PASS verifier: resumed-source-fan-check.py
+PASS verifier: resumed-higher-partner-fixture-check.py
+PASS verifier: resumed_higher_voronoi_verify.py
+PASS verifier: resumed-adjacent-octagon-check.py
+PASS verifier: resumed_higher_adjacent_octagon_verify.py
+PASS verifier: construction-cycle-b.py
+PASS verifier: check_construction_cycle_a_independent.py
+PASS verifier: check_construction_cycle_b_independent.py
+PASS verifier: verify_five_one_010122_cross22_independent.py
+PASS verifier: verify_five_one_unused_aa22_support.py
+PASS verifier: terra-five-one-010122-cross-22-gate.py
+PASS verifier: check_two_hexagon_alternating_residual_periodic_actions.py
+PASS verifier: verify_reordered_acute_pentagon_four_face_carrier.py
+PASS verifier: verify_five_one_001212_011202_boundary_resources_independent.py
+PASS verifier: verify_terra_five_one_001212_boundary_transfer.py
+PASS verifier: verify_terra_five_one_011202_boundary_transfer.py
+PASS verifier: verify_terra_five_one_empty_boundaries.py
+PASS verifier: verify_terra_five_one_001122_cross_22_gate.py
+PASS verifier: verify_terra_cross22_luna.py
+PASS verifier: verify_terra_five_one_002112_chebyshev_gate.py
+PASS verifier: verify_terra_five_one_002112_corner_strip_gate.py
+PASS verifier: five-one-all-mask-no-cross-binary-lift.py
+PASS verifier: check_acute_long_edge_four_face_periods.py
+PASS verifier: check_pentagon_two_acute_monotile_gate.py
+PASS verifier: check_reordered_acute_pentagon_independent.py
+PASS verifier: check_two_hexagon_alternating_all_metric_chain.py
+PASS verifier: check_acute_obtuse_native_word_capacity_independent.py
+PASS verifier: check_hat_horizontal_two_junction_independent.py
+PASS verifier: check_acute_obtuse_angle_capacity.py
+PASS verifier: check_two_hexagon_interleaved_alternating_private_transport.py
+PASS verifier: check_two_hexagon_interleaved_alternating_equal_odd_torus.py
+PASS verifier: check_hat_interior_t_two_class_gate.py
+PASS verifier: check_two_hexagon_interleaved_symbolic_closure.py
+PASS verifier: check_hat_three_pentagon_one_hexagon_gate.py
+PASS verifier: check_doubleacute_six_tile_strip.py
+PASS verifier: check_two_hexagon_interleaved_local_side_gate.py
+PASS verifier: check_two_hexagon_rank_nine_colour_transport.py
+PASS verifier: check_hat_four_pentagon_deformation.py
+PASS verifier: check_two_hexagon_balanced_root_cyclic_orders.py
+PASS verifier: check_two_hexagon_odd_pair_graph_orders.py
+PASS verifier: verify_two_hexagon_unique_b_pair_graph.py
+PASS verifier: check_two_hexagon_unique_B_star_multiring.py
+PASS verifier: verify_two_hexagon_residue_wheel_action.py
+PASS verifier: check_hat_eight_kite_convex_clusters.py
+PASS verifier: verify_acute_long_edge_construction_features.py
+PASS verifier: check_two_hexagon_balanced_rank_five_ring.py
+PASS verifier: verify_two_hexagon_complete_angle_grid.py
+PASS verifier: verify_two_hexagon_corner_balance.py
+PASS verifier: verify_ammann_two_class_distance_audit.py
+PASS verifier: verify_ammann_generalized_recorded_points.py
+PASS verifier: kite-dart-edge-attachment-audit.py
+PASS verifier: two-hexagon-inherited-escape-check.py
+PASS verifier: verify_penrose_boundary_dual_trivalent_star.py
+PASS verifier: verify_ammann_forcing_repair_rereview.py
+PASS verifier: verify_two_hexagon_low_rank_registry.py
+PASS verifier: verify_two_hexagon_single_cross_palette_independent.py
+PASS verifier: verify_single_cross_palette_generic_constant_closure.py
+PASS verifier: verify_terra_ternary_aaa_equalities.py
+PASS verifier: verify_ternary_resonance_ledger_independent.py
+PASS verifier: verify_terra_noncentral_aaa_hexagon.py
+PASS verifier: verify_terra_001122_whole_copy_star.py
+PASS verifier: verify_terra_001122_b_neighbourhood_independent.py
+PASS verifier: verify_penrose_thin_deformation_omission_independent.py
+PASS verifier: check_penrose_dual_fusion_angle_palette.py
+PASS verifier: verify_two_hexagon_001221_rational_unit_independent.py
+PASS verifier: verify_terra_001221_native_ring_independent.py
+PASS verifier: verify_terra_001122_all_metric_rings.py
+PASS verifier: verify_terra_001122_residual_transfer_independent.py
+PASS verifier: verify_terra_001221_equal_length_gate.py
+PASS verifier: verify_terra_001221_connected_graphs_independent.py
+PASS verifier: verify_terra_001212_all_metric_rings.py
+PASS verifier: verify_terra_001212_metric_transfer_independent.py
+PASS verifier: verify_terra_010212_all_metric_rings.py
+PASS verifier: verify_ternary_native_word_coverage_independent.py
+PASS verifier: check_penrose_dual_fusion_exterior_budget.py
+PASS verifier: verify_ternary_angular_filter_resonances_independent.py
+PASS verifier: verify_ternary_angular_filter.py
+PASS verifier: verify_ammann_area_rank_three_independent.py
+PASS verifier: verify_terra_five_one_opposite_a_row_lift.py
+PASS verifier: verify_five_one_row_transfer_independent.py
+PASS verifier: verify_terra_five_one_002112_rational_geometry.py
+PASS verifier: verify_five_one_adjacent_pair_row_states_independent.py
+PASS verifier: verify_five_one_adjacent_pair_binary_rows.py
+PASS verifier: verify_terra_five_one_002112_boundary_interface.py
+PASS verifier: verify_five_one_opposite_private_interface_independent.py
+PASS verifier: verify_five_one_three_word_boundary_interface.py
+PASS verifier: verify_five_one_middle_mask_phase_independent.py
+PASS verifier: verify_five_one_middle_mask_no_aaa_phase_coverage.py
+PASS verifier: check_ammann_h_midpoint_cut_area_gate.py
+PASS verifier: verify_terra_five_one_b_chain_palette.py
+PASS verifier: check_penrose_dual_collapse_shared_edge.py
+PASS verifier: two-hexagon-global-check.py
+PASS verifier: verify_penrose_kite_dart_recomposition.py
+PASS verifier: verify_penrose_kite_dart_edge_stars.py
+PASS verifier: verify_partial_contact_cairo_first_corona_independent.py
+PASS verifier: verify_partial_contact_cairo_first_corona_geometry_extra.py
+PASS verifier: verify_two_homogeneous_center_pure_independent.py
+PASS verifier: verify_partial_contact_cairo_ray459_independent.py
+PASS verifier: verify_two_homogeneous_opposite_phase_independent.py
+PASS verifier: verify_two_homogeneous_opposite_full_independent.py
+PASS verifier: verify_partial_contact_cairo_lower_carriers_independent.py
+PASS verifier: verify_two_homogeneous_forward_obstruction_independent.py
+PASS verifier: verify_partial_contact_cairo_orbit6_flat239_independent.py
+PASS verifier: verify_partial_contact_cairo_orbit6_flat142_independent.py
+PASS verifier: verify_partial_contact_cairo_carrier_containment_independent.py
+PASS verifier: verify_branching_hexagon_pp_center_necessity_independent.py
+PASS verifier: verify_branching_hexagon_pp_center_cross_family_independent.py
+PASS verifier: verify_partial_contact_cairo_orbit0_flat23_complementary_independent.py
+PASS verifier: verify_partial_contact_cairo_orbit0_flat23_independent.py
+PASS verifier: verify_partial_contact_cairo_orbit0_flat11_complementary_independent.py
+PASS verifier: verify_partial_contact_cairo_orbit0_flat11_independent.py
+PASS verifier: verify_partial_contact_cairo_orbit7_flat12_independent.py
+PASS verifier: verify_partial_contact_cairo_orbit7_flat12_complementary_independent.py
+PASS verifier: verify_partial_contact_cairo_mixed_quotient_complementary_independent.py
+PASS verifier: verify_branching_hexagon_pp_center_family_independent.py
+PASS verifier: verify_partial_contact_cairo_mixed_quotient_independent.py
+PASS verifier: verify_branching_hexagon_one_noncentral_homogeneous_arc_independent.py
+PASS verifier: verify_walton_vertex_rank.py
+PASS verifier: verify_walton_relative_relabeling.py
+PASS verifier: verify_joint_5_6_two_ended.py
+PASS verifier: verify_two_obtuse_angle_pentagon.py
+PASS verifier: hexagon-holonomy-verify.py
+PASS verifier: hexagon-five-length-verify.py
+PASS verifier: verify_distinct_pentagon_higher.py
+PASS verifier: verify_two_angle_5_7_periodic.py
+PASS verifier: verify_two_equilateral_hexagons.py
+PASS verifier: hexagon-five-length-private-repeat-verify.py
+PASS verifier: verify_private_repeat_independent.py
+PASS verifier: verify_cairo_two_scalene.py
+PASS verifier: verify_cairo_two_scalene_independent.py
+PASS verifier: verify_cairo_distinct_side_ete.py
+PASS verifier: verify_cairo_distinct_side_independent.py
+PASS verifier: verify_three_angle_pentagon_periodic_independent.py
+PASS verifier: verify_three_pentagon_mixed_word_independent.py
+PASS verifier: verify_hexagon_affine_mirror_escape.py
+PASS verifier: verify_hexagon_affine_mirror_independent.py
+PASS verifier: verify_pentagrid_pentagon_angles.py
+PASS verifier: verify_pentagrid_golden_periodic_independent.py
+PASS verifier: verify_pentagrid_monohedral_filter.py
+PASS verifier: verify_pentagrid_two_length_edge_obstruction.py
+PASS verifier: verify_pentagrid_area_family_independent.py
+PASS verifier: verify_regular_pentagon_private_octagon_geometry.py
+PASS verifier: verify_all_obtuse_regular_heptagon_independent.py
+PASS verifier: verify_pentagrid_area_family_edge_obstruction.py
+PASS verifier: verify_pentagrid_u_w_periodic_continuum.py
+PASS verifier: verify_pentagrid_robinson_partitions_independent.py
+PASS verifier: verify_regular_dodecagon_independent.py
+PASS verifier: verify_pentagrid_robinson_height_boundary_independent.py
+PASS verifier: verify_pentagrid_robinson_boundary_geometry_independent.py
+PASS verifier: verify_pentagrid_robinson_residual_independent.py
+PASS verifier: verify_pentagrid_v_w_periodic_continuum.py
+PASS verifier: verify_pentagrid_robinson_penrose_window_independent.py
+PASS verifier: verify_pentagrid_robinson_generalized_window_independent.py
+PASS verifier: verify_pentagrid_v_v_double_y_independent.py
+PASS verifier: verify_pentagrid_v_v_general_partner_independent.py
+PASS verifier: verify_general_y_partner_formal_independent.py
+PASS verifier: general-y-pentagon-partner-verify.py
+PASS verifier: verify_two_angle_5_7_metric_continuum.py
+PASS verifier: verify_private_octagon_pentagon_rigidity.py
+PASS verifier: verify_two_angle_5_7_corner_holonomy_fresh.py
+PASS verifier: pentagrid-v-w-general-metric.py
+PASS verifier: verify_pentagrid_v_w_general_metric_independent.py
+PASS verifier: verify_two_angle_5_7_equal_private_certificate.py
+PASS verifier: verify_octagon_q3_equal_private_independent.py
+PASS verifier: verify_private_octagon_equal_private_unit_independent.py
+PASS verifier: verify_reciprocal_v_partial_periodic_independent.py
+PASS verifier: verify_hexagon_adjacent_repeat_cone_independent.py
+PASS verifier: partial-contact-cairo-private-arms.py
+PASS verifier: verify_partial_contact_cairo_private_arms_independent.py
+PASS verifier: partial-contact-cairo-two-t-switch.py
+PASS verifier: verify_partial_contact_cairo_two_t_independent.py
+PASS verifier: angle-frequency-cover-counterexample.py
+PASS verifier: verify_angle_frequency_cover_independent.py
+PASS verifier: verify_branching_hexagon_rational_deformation_independent.py
+PASS verifier: verify_branching_hexagon_new_chirality_collapse_independent.py
+PASS verifier: partial-contact-cairo-swapped-arms-periodic.py
+PASS verifier: verify_partial_contact_cairo_swapped_arms_independent.py
+PASS verifier: partial-contact-cairo-generic-arm-patterns.py
+PASS verifier: verify_cairo_generic_arm_patterns_independent.py
+PASS verifier: partial-contact-cairo-alternate-resonances.py
+PASS verifier: partial-contact-cairo-alternate-endpoint-marginals.py
+PASS verifier: verify_cairo_alternate_endpoint_marginals_independent.py
+PASS verifier: verify_cairo_alternate_f2a_slot_edge_independent.py
+PASS verifier: partial-contact-cairo-repeated-arm-not-monotile.py
+PASS verifier: verify_cairo_repeated_arm_counterexample_independent.py
+PASS verifier: partial-contact-cairo-adjacent-repeat-obstruction.py
+PASS verifier: verify_cairo_alternate_eac_periodic_independent.py
+PASS verifier: verify_two_run_four_face_periodic_independent.py
+PASS verifier: verify_two_run_second_curve_periodic_independent.py
+PASS verifier: verify_two_run_catalog_slot_independent.py
+PASS verifier: verify_two_run_catalog_periodic_independent.py
+PASS verifier: verify_branching_hexagon_new_two_run_third_curve_independent.py
+PASS verifier: verify_branching_hexagon_new_two_run_two_parameter_cone_independent.py
+PASS verifier: partial-contact-cairo-single-shared-exception.py
+PASS verifier: verify_partial_contact_cairo_single_shared_notch_independent.py
+PASS verifier: verify_partial_contact_cairo_single_shared_family_independent.py
+PASS verifier: verify_cairo_single_shared_roots_independent.py
+PASS verifier: verify_partial_contact_cairo_single_shared_r1_periodic_independent.py
+PASS verifier: partial-contact-cairo-adjacent-repeat-periodic.py
+PASS verifier: verify_partial_contact_cairo_symmetric_monohedral_independent.py
+PASS verifier: verify_partial_contact_cairo_generic_repeated_patterns_independent.py
+PASS verifier: verify_partial_contact_cairo_single_shared_core_independent.py
+PASS verifier: partial-contact-cairo-paired-repeat-periodic.py
+PASS verifier: verify_partial_contact_cairo_one_shared_event_flats_independent.py
+PASS verifier: verify_cairo_one_shared_single_core_notch_independent.py
+PASS verifier: verify_branching_hexagon_new_complementary_pp_independent.py
+PASS verifier: verify_cairo_other_one_shared_flats_independent.py
+PASS verifier: verify_partial_contact_cairo_optional_seams_independent.py
+PASS verifier: verify_branching_hexagon_double_end_independent.py
+PASS verifier: verify_two_run_resonance_inventory_independent.py
+PASS verifier: verify_branching_hexagon_reverseqq_positive_reflection_independent.py
+PASS verifier: verify_branching_hexagon_mixed_pp_reverseqq_strata_independent.py
+PASS verifier: verify_branching_hexagon_mixed_pp_reverseqq_inventory_independent.py
+PASS verifier: verify_branching_hexagon_single_120_reverseqq_strata_independent.py
+PASS verifier: verify_branching_hexagon_single_120_reverseqq_inventory_independent.py
+PASS verifier: verify_branching_hexagon_mixed_pp_strata_independent.py
+PASS verifier: verify_branching_hexagon_mixed_pp_exceptional_inventory_independent.py
+PASS verifier: verify_partial_contact_cairo_two_cross_order_chambers_independent.py
+PASS verifier: verify_reverse_qq_actual_phases_independent.py
+PASS verifier: verify_mixed_pp_actual_phase_independent.py
+PASS verifier: verify_branching_hexagon_single_120_strata_independent.py
+PASS verifier: verify_branching_hexagon_single_120_exceptional_inventory_independent.py
+PASS verifier: verify_partial_contact_cairo_reversed_right_pair_cone_independent.py
+PASS verifier: verify_single_120_actual_phase_independent.py
+PASS verifier: verify_partial_contact_cairo_two_cross_orbits_independent.py
+PASS verifier: verify_branching_hexagon_single_120_obstruction_independent.py
+PASS verifier: verify_partial_contact_cairo_remaining_two_cross_seams_independent.py
+PASS verifier: verify_partial_contact_cairo_two_cross_seams_independent.py
+PASS verifier: verify_cairo_two_cross_flats_independent.py
+PASS verifier: verify_branching_hexagon_mixed_cover_independent.py
+PASS verifier: verify_branching_hexagon_no_homogeneous_swap_independent.py
+All 62 certificate replays and 310 verifiers passed; no certificates written.
+Research replay passed. Original research files are unchanged.
+
+Snapshot replay exit code: 0

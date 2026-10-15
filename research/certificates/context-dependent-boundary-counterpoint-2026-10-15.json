@@ -1,0 +1,389 @@
+{
+  "status": "PASS_PRECURSOR_ONLY",
+  "common_H_gate": "FAIL: m>1/2 contradicts unique36/72 opposite-diagonal metric constraint",
+  "domain": "one exact identical-donor fixture; all16 strict quads,4 source partitions,8 central triangles,8 receiving partitions",
+  "parameters": {
+    "tan_beta": "1/100",
+    "cos36": "(1+sqrt(5))/4",
+    "sin36": "sqrt(10-2*sqrt(5))/4",
+    "u": "(sin36+tan_beta*cos36)/(sin36*(1-tan_beta^2)+2*tan_beta*cos36)",
+    "h": "u/100",
+    "m": "u*((1+r^2)/(1+r*tan18)+1/1000000)",
+    "X_equals_Y": true
+  },
+  "exact_inequalities": {
+    "tail_angle_between_72_and_90": true,
+    "head_angle_between_54_and_90": true,
+    "m_less_than_u_minus_h_squared_over_u": true
+  },
+  "display_intervals_only": {
+    "beta": "0.57293869768348592684143?",
+    "tail": "72.005215811727343365877?",
+    "head": "70.848906792905684780441?",
+    "cross_tail_M": "108.341072731535375071200?"
+  },
+  "source_partitions": [
+    {
+      "species": "thin",
+      "parity": 0,
+      "valid": true
+    },
+    {
+      "species": "thin",
+      "parity": 1,
+      "valid": true
+    },
+    {
+      "species": "thick",
+      "parity": 0,
+      "valid": true
+    },
+    {
+      "species": "thick",
+      "parity": 1,
+      "valid": true
+    }
+  ],
+  "central_triangles": [
+    {
+      "species": "thin",
+      "parity": 0,
+      "receiver": 1,
+      "strict": true
+    },
+    {
+      "species": "thin",
+      "parity": 0,
+      "receiver": 3,
+      "strict": true
+    },
+    {
+      "species": "thin",
+      "parity": 1,
+      "receiver": 0,
+      "strict": true
+    },
+    {
+      "species": "thin",
+      "parity": 1,
+      "receiver": 2,
+      "strict": true
+    },
+    {
+      "species": "thick",
+      "parity": 0,
+      "receiver": 1,
+      "strict": true
+    },
+    {
+      "species": "thick",
+      "parity": 0,
+      "receiver": 3,
+      "strict": true
+    },
+    {
+      "species": "thick",
+      "parity": 1,
+      "receiver": 0,
+      "strict": true
+    },
+    {
+      "species": "thick",
+      "parity": 1,
+      "receiver": 2,
+      "strict": true
+    }
+  ],
+  "receiving_partitions": [
+    {
+      "species": "thin",
+      "parity": 0,
+      "receiver": 1,
+      "pairwise_disjoint": true,
+      "area_identity": true,
+      "contained_by_diagonal_splits": true
+    },
+    {
+      "species": "thin",
+      "parity": 0,
+      "receiver": 3,
+      "pairwise_disjoint": true,
+      "area_identity": true,
+      "contained_by_diagonal_splits": true
+    },
+    {
+      "species": "thin",
+      "parity": 1,
+      "receiver": 0,
+      "pairwise_disjoint": true,
+      "area_identity": true,
+      "contained_by_diagonal_splits": true
+    },
+    {
+      "species": "thin",
+      "parity": 1,
+      "receiver": 2,
+      "pairwise_disjoint": true,
+      "area_identity": true,
+      "contained_by_diagonal_splits": true
+    },
+    {
+      "species": "thick",
+      "parity": 0,
+      "receiver": 1,
+      "pairwise_disjoint": true,
+      "area_identity": true,
+      "contained_by_diagonal_splits": true
+    },
+    {
+      "species": "thick",
+      "parity": 0,
+      "receiver": 3,
+      "pairwise_disjoint": true,
+      "area_identity": true,
+      "contained_by_diagonal_splits": true
+    },
+    {
+      "species": "thick",
+      "parity": 1,
+      "receiver": 0,
+      "pairwise_disjoint": true,
+      "area_identity": true,
+      "contained_by_diagonal_splits": true
+    },
+    {
+      "species": "thick",
+      "parity": 1,
+      "receiver": 2,
+      "pairwise_disjoint": true,
+      "area_identity": true,
+      "contained_by_diagonal_splits": true
+    }
+  ],
+  "records": [
+    {
+      "retained_M_degrees_display": "109.0744175554138553119199?",
+      "species": "thin",
+      "parity": 0,
+      "receiver": 1,
+      "endpoint": 1,
+      "mark": "X",
+      "role": "head",
+      "adjacent_donor_mark": "X",
+      "adjacent_donor_endpoint": "head",
+      "source_angle": 144,
+      "strict": true,
+      "normalized_D_sign": -1
+    },
+    {
+      "retained_M_degrees_display": "179.994694215797631435484?",
+      "species": "thin",
+      "parity": 0,
+      "receiver": 1,
+      "endpoint": 2,
+      "mark": "X",
+      "role": "tail",
+      "adjacent_donor_mark": "Y",
+      "adjacent_donor_endpoint": "tail",
+      "source_angle": 36,
+      "strict": true,
+      "normalized_D_sign": 1
+    },
+    {
+      "retained_M_degrees_display": "109.0744175554138553119199?",
+      "species": "thin",
+      "parity": 0,
+      "receiver": 3,
+      "endpoint": 3,
+      "mark": "Y",
+      "role": "head",
+      "adjacent_donor_mark": "Y",
+      "adjacent_donor_endpoint": "head",
+      "source_angle": 144,
+      "strict": true,
+      "normalized_D_sign": -1
+    },
+    {
+      "retained_M_degrees_display": "179.994694215797631435484?",
+      "species": "thin",
+      "parity": 0,
+      "receiver": 3,
+      "endpoint": 0,
+      "mark": "Y",
+      "role": "tail",
+      "adjacent_donor_mark": "X",
+      "adjacent_donor_endpoint": "tail",
+      "source_angle": 36,
+      "strict": true,
+      "normalized_D_sign": 1
+    },
+    {
+      "retained_M_degrees_display": "179.994694215797631435484?",
+      "species": "thin",
+      "parity": 1,
+      "receiver": 0,
+      "endpoint": 0,
+      "mark": "X",
+      "role": "tail",
+      "adjacent_donor_mark": "Y",
+      "adjacent_donor_endpoint": "tail",
+      "source_angle": 36,
+      "strict": true,
+      "normalized_D_sign": 1
+    },
+    {
+      "retained_M_degrees_display": "109.0744175554138553119199?",
+      "species": "thin",
+      "parity": 1,
+      "receiver": 0,
+      "endpoint": 1,
+      "mark": "X",
+      "role": "head",
+      "adjacent_donor_mark": "X",
+      "adjacent_donor_endpoint": "head",
+      "source_angle": 144,
+      "strict": true,
+      "normalized_D_sign": -1
+    },
+    {
+      "retained_M_degrees_display": "179.994694215797631435484?",
+      "species": "thin",
+      "parity": 1,
+      "receiver": 2,
+      "endpoint": 2,
+      "mark": "Y",
+      "role": "tail",
+      "adjacent_donor_mark": "X",
+      "adjacent_donor_endpoint": "tail",
+      "source_angle": 36,
+      "strict": true,
+      "normalized_D_sign": 1
+    },
+    {
+      "retained_M_degrees_display": "109.0744175554138553119199?",
+      "species": "thin",
+      "parity": 1,
+      "receiver": 2,
+      "endpoint": 3,
+      "mark": "Y",
+      "role": "head",
+      "adjacent_donor_mark": "Y",
+      "adjacent_donor_endpoint": "head",
+      "source_angle": 144,
+      "strict": true,
+      "normalized_D_sign": -1
+    },
+    {
+      "retained_M_degrees_display": "108.341072731535375071200?",
+      "species": "thick",
+      "parity": 0,
+      "receiver": 1,
+      "endpoint": 1,
+      "mark": "Y",
+      "role": "tail",
+      "adjacent_donor_mark": "X",
+      "adjacent_donor_endpoint": "head",
+      "source_angle": 108,
+      "strict": true,
+      "normalized_D_sign": 1
+    },
+    {
+      "retained_M_degrees_display": "145.759170312685189770159?",
+      "species": "thick",
+      "parity": 0,
+      "receiver": 1,
+      "endpoint": 2,
+      "mark": "Y",
+      "role": "head",
+      "adjacent_donor_mark": "Y",
+      "adjacent_donor_endpoint": "head",
+      "source_angle": 72,
+      "strict": true,
+      "normalized_D_sign": -1
+    },
+    {
+      "retained_M_degrees_display": "144.247366766690199410423?",
+      "species": "thick",
+      "parity": 0,
+      "receiver": 3,
+      "endpoint": 3,
+      "mark": "X",
+      "role": "head",
+      "adjacent_donor_mark": "Y",
+      "adjacent_donor_endpoint": "tail",
+      "source_angle": 108,
+      "strict": true,
+      "normalized_D_sign": -1
+    },
+    {
+      "retained_M_degrees_display": "161.835546028602339517387?",
+      "species": "thick",
+      "parity": 0,
+      "receiver": 3,
+      "endpoint": 0,
+      "mark": "X",
+      "role": "tail",
+      "adjacent_donor_mark": "X",
+      "adjacent_donor_endpoint": "tail",
+      "source_angle": 72,
+      "strict": true,
+      "normalized_D_sign": 1
+    },
+    {
+      "retained_M_degrees_display": "161.835546028602339517387?",
+      "species": "thick",
+      "parity": 1,
+      "receiver": 0,
+      "endpoint": 0,
+      "mark": "X",
+      "role": "tail",
+      "adjacent_donor_mark": "X",
+      "adjacent_donor_endpoint": "tail",
+      "source_angle": 72,
+      "strict": true,
+      "normalized_D_sign": 1
+    },
+    {
+      "retained_M_degrees_display": "144.247366766690199410423?",
+      "species": "thick",
+      "parity": 1,
+      "receiver": 0,
+      "endpoint": 1,
+      "mark": "X",
+      "role": "head",
+      "adjacent_donor_mark": "Y",
+      "adjacent_donor_endpoint": "tail",
+      "source_angle": 108,
+      "strict": true,
+      "normalized_D_sign": -1
+    },
+    {
+      "retained_M_degrees_display": "145.759170312685189770159?",
+      "species": "thick",
+      "parity": 1,
+      "receiver": 2,
+      "endpoint": 2,
+      "mark": "Y",
+      "role": "head",
+      "adjacent_donor_mark": "Y",
+      "adjacent_donor_endpoint": "head",
+      "source_angle": 72,
+      "strict": true,
+      "normalized_D_sign": -1
+    },
+    {
+      "retained_M_degrees_display": "108.341072731535375071200?",
+      "species": "thick",
+      "parity": 1,
+      "receiver": 2,
+      "endpoint": 3,
+      "mark": "Y",
+      "role": "tail",
+      "adjacent_donor_mark": "X",
+      "adjacent_donor_endpoint": "head",
+      "source_angle": 108,
+      "strict": true,
+      "normalized_D_sign": 1
+    }
+  ]
+}

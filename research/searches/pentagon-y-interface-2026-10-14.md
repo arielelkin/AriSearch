@@ -1,5 +1,9 @@
 # Interface-first three-arm pentagon pair
 
+**Later status (2026-10-15):** [unrestricted untileability](../lemmas/pentagon-y-unrestricted-2026-10-15.md)
+now closes the former partial-contact gap for the fixed pair. This record
+retains its original scoped proof; historical existence questions below are superseded.
+
 Date: 2026-10-14. New fixed Y topology; no larger search of an old family.
 The bounded experiment certifies a mixed three-child parent, rules out both
 monohedral omissions, and rules out plane assemblies of intact copies of that

@@ -1,0 +1,145 @@
+{
+  "status": "UNREVIEWED_FINITE_SOLVER_EVIDENCE_NOT_PROOF_CERTIFICATE",
+  "runs": [
+    {
+      "argv": [
+        "1",
+        "5"
+      ],
+      "result": {
+        "status": "unsat",
+        "scope": "Necessary native angle budgets and full dihedral congruence correspondences ONLY",
+        "timeout_ms": 60000,
+        "boundary_edge_indices": [
+          1,
+          5
+        ],
+        "split_center": false,
+        "split_outer1": false,
+        "mixed_center7": false
+      }
+    },
+    {
+      "argv": [
+        "1",
+        "6"
+      ],
+      "result": {
+        "status": "unsat",
+        "scope": "Necessary native angle budgets and full dihedral congruence correspondences ONLY",
+        "timeout_ms": 60000,
+        "boundary_edge_indices": [
+          1,
+          6
+        ],
+        "split_center": false,
+        "split_outer1": false,
+        "mixed_center7": false
+      }
+    },
+    {
+      "argv": [
+        "2",
+        "5"
+      ],
+      "result": {
+        "status": "unsat",
+        "scope": "Necessary native angle budgets and full dihedral congruence correspondences ONLY",
+        "timeout_ms": 60000,
+        "boundary_edge_indices": [
+          2,
+          5
+        ],
+        "split_center": false,
+        "split_outer1": false,
+        "mixed_center7": false
+      }
+    },
+    {
+      "argv": [
+        "2",
+        "6"
+      ],
+      "result": {
+        "status": "unsat",
+        "scope": "Necessary native angle budgets and full dihedral congruence correspondences ONLY",
+        "timeout_ms": 60000,
+        "boundary_edge_indices": [
+          2,
+          6
+        ],
+        "split_center": false,
+        "split_outer1": false,
+        "mixed_center7": false
+      }
+    },
+    {
+      "argv": [
+        "--mixed"
+      ],
+      "result": {
+        "status": "unsat",
+        "scope": "Necessary native angle budgets and full dihedral congruence correspondences ONLY",
+        "timeout_ms": 60000,
+        "boundary_edge_indices": [
+          "native_h2",
+          5
+        ],
+        "split_center": false,
+        "split_outer1": false,
+        "mixed_center7": false
+      }
+    },
+    {
+      "argv": [
+        "--split-center"
+      ],
+      "result": {
+        "status": "unsat",
+        "scope": "Necessary native angle budgets and full dihedral congruence correspondences ONLY",
+        "timeout_ms": 60000,
+        "boundary_edge_indices": [
+          1,
+          5
+        ],
+        "split_center": true,
+        "split_outer1": false,
+        "mixed_center7": false
+      }
+    },
+    {
+      "argv": [
+        "--split-outer1"
+      ],
+      "result": {
+        "status": "unsat",
+        "scope": "Necessary native angle budgets and full dihedral congruence correspondences ONLY",
+        "timeout_ms": 60000,
+        "boundary_edge_indices": [
+          1,
+          5
+        ],
+        "split_center": false,
+        "split_outer1": true,
+        "mixed_center7": false
+      }
+    },
+    {
+      "argv": [
+        "--mixed-center7"
+      ],
+      "result": {
+        "status": "unsat",
+        "scope": "Necessary native angle budgets and full dihedral congruence correspondences ONLY",
+        "timeout_ms": 60000,
+        "boundary_edge_indices": [
+          1,
+          5
+        ],
+        "split_center": false,
+        "split_outer1": false,
+        "mixed_center7": true
+      }
+    }
+  ]
+}

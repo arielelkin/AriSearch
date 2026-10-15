@@ -1,5 +1,9 @@
 # Native-occurrence propagation excludes whole-edge Y-pair coverings
 
+**Later status (2026-10-15):** [unrestricted untileability](pentagon-y-unrestricted-2026-10-15.md)
+now closes the former partial-contact gap for the fixed pair. This record
+retains its original scoped proof; historical existence questions below are superseded.
+
 Date: 2026-10-14. Status: fresh independent hostile review VALID; see
 [review](../reviews/pentagon-y-no-full-edge-hostile-2026-10-14.md).
 No conclusion for unrestricted partial contacts is asserted.
