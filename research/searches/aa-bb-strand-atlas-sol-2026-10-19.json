@@ -1,0 +1,2226 @@
+{
+  "field": "Q(z), z=exp(2*pi*i/180), minimal polynomial Phi_180",
+  "scope": "fixed native seams and two strand seams at one Q; all forced adjacent P placements",
+  "results": [
+    {
+      "holonomy": [
+        {
+          "seam": 2,
+          "rotation_order": 5,
+          "power_translation": [
+            "0",
+            "0"
+          ],
+          "scope": "formal isometry composition only"
+        },
+        {
+          "seam": 3,
+          "square_linear_identity": true,
+          "square_translation": [
+            "zeta180^46 + zeta180^44 - zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + zeta180^18 - 3/2*zeta180^16 - zeta180^14 + zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 1",
+            "zeta180^47 + zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - 2*zeta180^33 - zeta180^31 + 1/2*zeta180^29 - zeta180^25 + 1/2*zeta180^11 + 2*zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + 2*zeta180^3 + zeta180"
+          ],
+          "square_translation_nonzero": true,
+          "scope": "formal isometry composition, no embedded infinite ribbon assertion"
+        }
+      ],
+      "word": "AABBAB",
+      "root_P_check": {
+        "P_overlap_edge_pairs": [],
+        "Q144_PP_common_vertices": [
+          [
+            "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 + 1/2",
+            "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      "Q_vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "zeta180^46 + zeta180^44 - 3/2*zeta180^42 + 1/2*zeta180^40 + zeta180^38 - zeta180^34 - zeta180^28 - zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - zeta180^16 - zeta180^14 + 3/2*zeta180^12 + 1/2*zeta180^10 + zeta180^4 + 3/2",
+          "zeta180^47 - 1/2*zeta180^45 - 1/2*zeta180^35 + 1/2*zeta180^33 - zeta180^31 + 1/2*zeta180^27 - 1/2*zeta180^25 + zeta180^11 - zeta180^9 + zeta180^7 + 1/2*zeta180^5 - 1/2*zeta180^3 + zeta180"
+        ],
+        [
+          "zeta180^46 + 3/2*zeta180^44 - 3/2*zeta180^42 + 1/2*zeta180^40 + 3/2*zeta180^38 - 3/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + 3/2*zeta180^18 - zeta180^16 - 3/2*zeta180^14 + 3/2*zeta180^12 + 1/2*zeta180^10 + zeta180^4 + 1/2*zeta180^2 + 3/2",
+          "zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - 1/2*zeta180^35 + 1/2*zeta180^33 - 3/2*zeta180^31 + 1/2*zeta180^27 - zeta180^25 + 3/2*zeta180^11 - zeta180^9 + 3/2*zeta180^7 + 1/2*zeta180^5 - 1/2*zeta180^3 + 3/2*zeta180"
+        ],
+        [
+          "zeta180^46 + zeta180^44 - 3/2*zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + 3/2*zeta180^18 - 3/2*zeta180^16 - zeta180^14 + 3/2*zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 3/2",
+          "zeta180^47 + 1/2*zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - 3/2*zeta180^33 - zeta180^31 + 1/2*zeta180^29 + 1/2*zeta180^27 - zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + 3/2*zeta180^3 + zeta180"
+        ],
+        [
+          "zeta180^46 + zeta180^44 - zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + zeta180^18 - 3/2*zeta180^16 - zeta180^14 + zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 3/2",
+          "zeta180^47 + 1/2*zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - zeta180^33 - zeta180^31 + 1/2*zeta180^29 - zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + zeta180^3 + zeta180"
+        ],
+        [
+          "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12",
+          "-1/2*zeta180^33 + 1/2*zeta180^27 + 1/2*zeta180^3"
+        ]
+      ],
+      "QQ_lengths": {
+        "1": "zeta180^46 + zeta180^34 - 2*zeta180^32 + zeta180^28 - 2*zeta180^26 + zeta180^10 + zeta180^8 - zeta180^4 + 2*zeta180^2",
+        "3": "zeta180^46 + zeta180^34 - 2*zeta180^32 + zeta180^28 - 2*zeta180^26 + zeta180^10 + zeta180^8 - zeta180^4 + 2*zeta180^2",
+        "5": "2*zeta180^46 - zeta180^44 + zeta180^34 - 2*zeta180^32 + zeta180^28 - 2*zeta180^26 + zeta180^10 + zeta180^8 - zeta180^4 + 2*zeta180^2"
+      },
+      "types": {
+        "1": "AA",
+        "3": "BB",
+        "5": "AB"
+      },
+      "seams": [
+        {
+          "id": 0,
+          "root_edge": 1,
+          "other_edge": 3,
+          "types": [
+            "AA",
+            "BB"
+          ],
+          "isometry": {
+            "reflection": false,
+            "linear": [
+              [
+                "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 - 1/2",
+                "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+              ],
+              [
+                "1/2*zeta180^45 - 1/2*zeta180^33 - 1/2*zeta180^27 + zeta180^9 + 1/2*zeta180^3",
+                "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 - 1/2"
+              ]
+            ],
+            "translation": [
+              "1/2*zeta180^46 + 1/2*zeta180^44 - 1/2*zeta180^42 - zeta180^40 + 3/2*zeta180^38 - 3/2*zeta180^34 - 1/2*zeta180^28 - 1/2*zeta180^22 + 1/2*zeta180^18 + 1/2*zeta180^16 - 1/2*zeta180^14 + 1/2*zeta180^12 + 3/2*zeta180^10 + 1/2*zeta180^4 + zeta180^2 + 1",
+              "1/2*zeta180^47 - 2*zeta180^45 + zeta180^43 - 3/2*zeta180^35 + 5/2*zeta180^33 - 1/2*zeta180^31 - zeta180^29 + 3/2*zeta180^27 + 3/2*zeta180^11 - 4*zeta180^9 + 3/2*zeta180^7 + 3/2*zeta180^5 - 5/2*zeta180^3 + 1/2*zeta180"
+            ],
+            "complex_c": "zeta180^36",
+            "complex_t": "zeta180^44 - 3*zeta180^42 + 3*zeta180^38 - 4*zeta180^36 + 2*zeta180^18 - zeta180^14 + 3*zeta180^12 + 2*zeta180^2 - 1"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 1,
+              "other_vertex": 4,
+              "root_P_edge": 0,
+              "other_P_edge": 4,
+              "P_vertices": [
+                [
+                  "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "1/2",
+                  "-1/2*zeta180^45 + zeta180^33 - zeta180^9 - zeta180^3"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 2,
+              "other_vertex": 3,
+              "root_P_edge": 2,
+              "other_P_edge": 2,
+              "P_vertices": [
+                [
+                  "zeta180^46 + zeta180^44 - 3/2*zeta180^42 + 1/2*zeta180^40 + zeta180^38 - zeta180^34 - zeta180^28 - zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - zeta180^16 - zeta180^14 + 3/2*zeta180^12 + 1/2*zeta180^10 + zeta180^4 + 3/2",
+                  "zeta180^47 - 1/2*zeta180^45 - 1/2*zeta180^35 + 1/2*zeta180^33 - zeta180^31 + 1/2*zeta180^27 - 1/2*zeta180^25 + zeta180^11 - zeta180^9 + zeta180^7 + 1/2*zeta180^5 - 1/2*zeta180^3 + zeta180"
+                ],
+                [
+                  "1/2*zeta180^46 + zeta180^44 - 3/2*zeta180^42 + zeta180^38 - zeta180^34 - 1/2*zeta180^28 - 1/2*zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - 1/2*zeta180^16 - zeta180^14 + 3/2*zeta180^12 + 1/2*zeta180^10 + 1/2*zeta180^4 + 1/2*zeta180^2 + 3/2",
+                  "1/2*zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - 1/2*zeta180^35 + 1/2*zeta180^33 - zeta180^31 + 1/2*zeta180^27 - 1/2*zeta180^25 + zeta180^11 - zeta180^9 + zeta180^7 + 1/2*zeta180^5 - 1/2*zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - 3/2*zeta180^42 + 3/2*zeta180^38 - 3/2*zeta180^34 - zeta180^28 - zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - 1/2*zeta180^16 - zeta180^14 + 3/2*zeta180^12 + zeta180^10 + zeta180^4 + 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 + 1/2*zeta180^33 - zeta180^31 - 1/2*zeta180^29 + 1/2*zeta180^27 - 1/2*zeta180^25 + 3/2*zeta180^11 - zeta180^9 + 3/2*zeta180^7 + zeta180^5 - 1/2*zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + 3/2*zeta180^44 - 3/2*zeta180^42 + 3/2*zeta180^38 - 3/2*zeta180^34 - zeta180^28 - zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - zeta180^16 - 3/2*zeta180^14 + 3/2*zeta180^12 + zeta180^10 + zeta180^4 + 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 + 1/2*zeta180^33 - 3/2*zeta180^31 + 1/2*zeta180^27 - 1/2*zeta180^25 + 3/2*zeta180^11 - zeta180^9 + 3/2*zeta180^7 + zeta180^5 - 1/2*zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "zeta180^46 + 3/2*zeta180^44 - 3/2*zeta180^42 + 1/2*zeta180^40 + 3/2*zeta180^38 - 3/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + 3/2*zeta180^18 - zeta180^16 - 3/2*zeta180^14 + 3/2*zeta180^12 + 1/2*zeta180^10 + zeta180^4 + 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - 1/2*zeta180^35 + 1/2*zeta180^33 - 3/2*zeta180^31 + 1/2*zeta180^27 - zeta180^25 + 3/2*zeta180^11 - zeta180^9 + 3/2*zeta180^7 + 1/2*zeta180^5 - 1/2*zeta180^3 + 3/2*zeta180"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        },
+        {
+          "id": 1,
+          "root_edge": 1,
+          "other_edge": 3,
+          "types": [
+            "AA",
+            "BB"
+          ],
+          "isometry": {
+            "reflection": true,
+            "linear": [
+              [
+                "1/2*zeta180^40 - 1/2*zeta180^20 - 1/2*zeta180^10",
+                "1/2*zeta180^35 - 1/2*zeta180^25 - 1/2*zeta180^5"
+              ],
+              [
+                "1/2*zeta180^35 - 1/2*zeta180^25 - 1/2*zeta180^5",
+                "-1/2*zeta180^40 + 1/2*zeta180^20 + 1/2*zeta180^10"
+              ]
+            ],
+            "translation": [
+              "1/2*zeta180^44 - 1/2*zeta180^42 - 3/2*zeta180^40 + zeta180^38 - zeta180^34 + 1/2*zeta180^20 + 1/2*zeta180^18 + 1/2*zeta180^16 - 1/2*zeta180^14 + 1/2*zeta180^12 + 3/2*zeta180^10 + zeta180^2 + 1/2",
+              "-3/2*zeta180^45 + zeta180^43 - 3/2*zeta180^35 + 5/2*zeta180^33 - 1/2*zeta180^31 - 1/2*zeta180^29 + 1/2*zeta180^27 + 1/2*zeta180^25 + zeta180^11 - 3*zeta180^9 + zeta180^7 + 3/2*zeta180^5 - 5/2*zeta180^3 + 1/2*zeta180"
+            ],
+            "complex_c": "-zeta180^20",
+            "complex_t": "zeta180^44 - 3*zeta180^42 + 2*zeta180^38 - 3*zeta180^36 + zeta180^20 + zeta180^18 - zeta180^14 + 3*zeta180^12 + 2*zeta180^2 - 1"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 1,
+              "other_vertex": 3,
+              "root_P_edge": 0,
+              "other_P_edge": 2,
+              "P_vertices": [
+                [
+                  "1",
+                  "0"
+                ],
+                [
+                  "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "1/2",
+                  "-1/2*zeta180^45 + zeta180^33 - zeta180^9 - zeta180^3"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "0",
+                  "0"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 2,
+              "other_vertex": 4,
+              "root_P_edge": 2,
+              "other_P_edge": 4,
+              "P_vertices": [
+                [
+                  "1/2*zeta180^46 + zeta180^44 - 3/2*zeta180^42 + zeta180^38 - zeta180^34 - 1/2*zeta180^28 - 1/2*zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - 1/2*zeta180^16 - zeta180^14 + 3/2*zeta180^12 + 1/2*zeta180^10 + 1/2*zeta180^4 + 1/2*zeta180^2 + 3/2",
+                  "1/2*zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - 1/2*zeta180^35 + 1/2*zeta180^33 - zeta180^31 + 1/2*zeta180^27 - 1/2*zeta180^25 + zeta180^11 - zeta180^9 + zeta180^7 + 1/2*zeta180^5 - 1/2*zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - 3/2*zeta180^42 + 1/2*zeta180^40 + zeta180^38 - zeta180^34 - zeta180^28 - zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - zeta180^16 - zeta180^14 + 3/2*zeta180^12 + 1/2*zeta180^10 + zeta180^4 + 3/2",
+                  "zeta180^47 - 1/2*zeta180^45 - 1/2*zeta180^35 + 1/2*zeta180^33 - zeta180^31 + 1/2*zeta180^27 - 1/2*zeta180^25 + zeta180^11 - zeta180^9 + zeta180^7 + 1/2*zeta180^5 - 1/2*zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + 3/2*zeta180^44 - 3/2*zeta180^42 + 1/2*zeta180^40 + 3/2*zeta180^38 - 3/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + 3/2*zeta180^18 - zeta180^16 - 3/2*zeta180^14 + 3/2*zeta180^12 + 1/2*zeta180^10 + zeta180^4 + 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - 1/2*zeta180^35 + 1/2*zeta180^33 - 3/2*zeta180^31 + 1/2*zeta180^27 - zeta180^25 + 3/2*zeta180^11 - zeta180^9 + 3/2*zeta180^7 + 1/2*zeta180^5 - 1/2*zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "zeta180^46 + 3/2*zeta180^44 - 3/2*zeta180^42 + 3/2*zeta180^38 - 3/2*zeta180^34 - zeta180^28 - zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - zeta180^16 - 3/2*zeta180^14 + 3/2*zeta180^12 + zeta180^10 + zeta180^4 + 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 + 1/2*zeta180^33 - 3/2*zeta180^31 + 1/2*zeta180^27 - 1/2*zeta180^25 + 3/2*zeta180^11 - zeta180^9 + 3/2*zeta180^7 + zeta180^5 - 1/2*zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - 3/2*zeta180^42 + 3/2*zeta180^38 - 3/2*zeta180^34 - zeta180^28 - zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - 1/2*zeta180^16 - zeta180^14 + 3/2*zeta180^12 + zeta180^10 + zeta180^4 + 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 + 1/2*zeta180^33 - zeta180^31 - 1/2*zeta180^29 + 1/2*zeta180^27 - 1/2*zeta180^25 + 3/2*zeta180^11 - zeta180^9 + 3/2*zeta180^7 + zeta180^5 - 1/2*zeta180^3 + zeta180"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        },
+        {
+          "id": 2,
+          "root_edge": 3,
+          "other_edge": 1,
+          "types": [
+            "BB",
+            "AA"
+          ],
+          "isometry": {
+            "reflection": false,
+            "linear": [
+              [
+                "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 - 1/2",
+                "1/2*zeta180^45 - 1/2*zeta180^33 - 1/2*zeta180^27 + zeta180^9 + 1/2*zeta180^3"
+              ],
+              [
+                "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3",
+                "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 - 1/2"
+              ]
+            ],
+            "translation": [
+              "zeta180^46 + zeta180^44 - zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + zeta180^18 - 3/2*zeta180^16 - zeta180^14 + zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 2",
+              "zeta180^47 + zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - 2*zeta180^33 - zeta180^31 + 1/2*zeta180^29 - zeta180^25 + 1/2*zeta180^11 + 2*zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + 2*zeta180^3 + zeta180"
+            ],
+            "complex_c": "-zeta180^42 - zeta180^36 + zeta180^18 + zeta180^12 - 1",
+            "complex_t": "2*zeta180^44 + zeta180^42 + zeta180^38 + 2*zeta180^36 - 2*zeta180^20 + zeta180^18 - 2*zeta180^14 - zeta180^12 - zeta180^2 + 3"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 3,
+              "other_vertex": 2,
+              "root_P_edge": 2,
+              "other_P_edge": 2,
+              "P_vertices": [
+                [
+                  "zeta180^46 + 3/2*zeta180^44 - 3/2*zeta180^42 + 3/2*zeta180^38 - 3/2*zeta180^34 - zeta180^28 - zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - zeta180^16 - 3/2*zeta180^14 + 3/2*zeta180^12 + zeta180^10 + zeta180^4 + 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 + 1/2*zeta180^33 - 3/2*zeta180^31 + 1/2*zeta180^27 - 1/2*zeta180^25 + 3/2*zeta180^11 - zeta180^9 + 3/2*zeta180^7 + zeta180^5 - 1/2*zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "zeta180^46 + 3/2*zeta180^44 - 3/2*zeta180^42 + 1/2*zeta180^40 + 3/2*zeta180^38 - 3/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + 3/2*zeta180^18 - zeta180^16 - 3/2*zeta180^14 + 3/2*zeta180^12 + 1/2*zeta180^10 + zeta180^4 + 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - 1/2*zeta180^35 + 1/2*zeta180^33 - 3/2*zeta180^31 + 1/2*zeta180^27 - zeta180^25 + 3/2*zeta180^11 - zeta180^9 + 3/2*zeta180^7 + 1/2*zeta180^5 - 1/2*zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - 3/2*zeta180^42 + 1/2*zeta180^40 + zeta180^38 - zeta180^34 - zeta180^28 - zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - zeta180^16 - zeta180^14 + 3/2*zeta180^12 + 1/2*zeta180^10 + zeta180^4 + 3/2",
+                  "zeta180^47 - 1/2*zeta180^45 - 1/2*zeta180^35 + 1/2*zeta180^33 - zeta180^31 + 1/2*zeta180^27 - 1/2*zeta180^25 + zeta180^11 - zeta180^9 + zeta180^7 + 1/2*zeta180^5 - 1/2*zeta180^3 + zeta180"
+                ],
+                [
+                  "1/2*zeta180^46 + zeta180^44 - 3/2*zeta180^42 + zeta180^38 - zeta180^34 - 1/2*zeta180^28 - 1/2*zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - 1/2*zeta180^16 - zeta180^14 + 3/2*zeta180^12 + 1/2*zeta180^10 + 1/2*zeta180^4 + 1/2*zeta180^2 + 3/2",
+                  "1/2*zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - 1/2*zeta180^35 + 1/2*zeta180^33 - zeta180^31 + 1/2*zeta180^27 - 1/2*zeta180^25 + zeta180^11 - zeta180^9 + zeta180^7 + 1/2*zeta180^5 - 1/2*zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - 3/2*zeta180^42 + 3/2*zeta180^38 - 3/2*zeta180^34 - zeta180^28 - zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - 1/2*zeta180^16 - zeta180^14 + 3/2*zeta180^12 + zeta180^10 + zeta180^4 + 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 + 1/2*zeta180^33 - zeta180^31 - 1/2*zeta180^29 + 1/2*zeta180^27 - 1/2*zeta180^25 + 3/2*zeta180^11 - zeta180^9 + 3/2*zeta180^7 + zeta180^5 - 1/2*zeta180^3 + zeta180"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 4,
+              "other_vertex": 1,
+              "root_P_edge": 4,
+              "other_P_edge": 0,
+              "P_vertices": [
+                [
+                  "zeta180^46 + zeta180^44 - 3/2*zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + 3/2*zeta180^18 - 3/2*zeta180^16 - zeta180^14 + 3/2*zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 + 1/2*zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - 3/2*zeta180^33 - zeta180^31 + 1/2*zeta180^29 + 1/2*zeta180^27 - zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + 3/2*zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + zeta180^18 - 3/2*zeta180^16 - zeta180^14 + zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 2",
+                  "zeta180^47 + zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - 2*zeta180^33 - zeta180^31 + 1/2*zeta180^29 - zeta180^25 + 1/2*zeta180^11 + 2*zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + 2*zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + zeta180^18 - 3/2*zeta180^16 - zeta180^14 + zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 1",
+                  "zeta180^47 + zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - 2*zeta180^33 - zeta180^31 + 1/2*zeta180^29 - zeta180^25 + 1/2*zeta180^11 + 2*zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + 2*zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - 1/2*zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + 1/2*zeta180^18 - 3/2*zeta180^16 - zeta180^14 + 1/2*zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 + 1/2*zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - 3/2*zeta180^33 - zeta180^31 + 1/2*zeta180^29 + 1/2*zeta180^27 - zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + 3/2*zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + zeta180^18 - 3/2*zeta180^16 - zeta180^14 + zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 + 1/2*zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - zeta180^33 - zeta180^31 + 1/2*zeta180^29 - zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + zeta180^3 + zeta180"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        },
+        {
+          "id": 3,
+          "root_edge": 3,
+          "other_edge": 1,
+          "types": [
+            "BB",
+            "AA"
+          ],
+          "isometry": {
+            "reflection": true,
+            "linear": [
+              [
+                "1/2*zeta180^40 - 1/2*zeta180^20 - 1/2*zeta180^10",
+                "1/2*zeta180^35 - 1/2*zeta180^25 - 1/2*zeta180^5"
+              ],
+              [
+                "1/2*zeta180^35 - 1/2*zeta180^25 - 1/2*zeta180^5",
+                "-1/2*zeta180^40 + 1/2*zeta180^20 + 1/2*zeta180^10"
+              ]
+            ],
+            "translation": [
+              "zeta180^46 + 3/2*zeta180^44 - 3/2*zeta180^42 + 3/2*zeta180^38 - 3/2*zeta180^34 - zeta180^28 - zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - zeta180^16 - 3/2*zeta180^14 + 3/2*zeta180^12 + zeta180^10 + zeta180^4 + 1/2*zeta180^2 + 3/2",
+              "zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 + 1/2*zeta180^33 - 3/2*zeta180^31 + 1/2*zeta180^27 - 1/2*zeta180^25 + 3/2*zeta180^11 - zeta180^9 + 3/2*zeta180^7 + zeta180^5 - 1/2*zeta180^3 + 3/2*zeta180"
+            ],
+            "complex_c": "-zeta180^20",
+            "complex_t": "3*zeta180^44 - 2*zeta180^42 + 3*zeta180^38 - zeta180^36 - zeta180^20 + 2*zeta180^18 - 3*zeta180^14 + 2*zeta180^12 + zeta180^2 + 1"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 3,
+              "other_vertex": 1,
+              "root_P_edge": 2,
+              "other_P_edge": 0,
+              "P_vertices": [
+                [
+                  "zeta180^46 + 3/2*zeta180^44 - 3/2*zeta180^42 + 1/2*zeta180^40 + 3/2*zeta180^38 - 3/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + 3/2*zeta180^18 - zeta180^16 - 3/2*zeta180^14 + 3/2*zeta180^12 + 1/2*zeta180^10 + zeta180^4 + 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - 1/2*zeta180^35 + 1/2*zeta180^33 - 3/2*zeta180^31 + 1/2*zeta180^27 - zeta180^25 + 3/2*zeta180^11 - zeta180^9 + 3/2*zeta180^7 + 1/2*zeta180^5 - 1/2*zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "zeta180^46 + 3/2*zeta180^44 - 3/2*zeta180^42 + 3/2*zeta180^38 - 3/2*zeta180^34 - zeta180^28 - zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - zeta180^16 - 3/2*zeta180^14 + 3/2*zeta180^12 + zeta180^10 + zeta180^4 + 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 + 1/2*zeta180^33 - 3/2*zeta180^31 + 1/2*zeta180^27 - 1/2*zeta180^25 + 3/2*zeta180^11 - zeta180^9 + 3/2*zeta180^7 + zeta180^5 - 1/2*zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - 3/2*zeta180^42 + 3/2*zeta180^38 - 3/2*zeta180^34 - zeta180^28 - zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - 1/2*zeta180^16 - zeta180^14 + 3/2*zeta180^12 + zeta180^10 + zeta180^4 + 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 + 1/2*zeta180^33 - zeta180^31 - 1/2*zeta180^29 + 1/2*zeta180^27 - 1/2*zeta180^25 + 3/2*zeta180^11 - zeta180^9 + 3/2*zeta180^7 + zeta180^5 - 1/2*zeta180^3 + zeta180"
+                ],
+                [
+                  "1/2*zeta180^46 + zeta180^44 - 3/2*zeta180^42 + zeta180^38 - zeta180^34 - 1/2*zeta180^28 - 1/2*zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - 1/2*zeta180^16 - zeta180^14 + 3/2*zeta180^12 + 1/2*zeta180^10 + 1/2*zeta180^4 + 1/2*zeta180^2 + 3/2",
+                  "1/2*zeta180^47 - 1/2*zeta180^45 + 1/2*zeta180^43 - 1/2*zeta180^35 + 1/2*zeta180^33 - zeta180^31 + 1/2*zeta180^27 - 1/2*zeta180^25 + zeta180^11 - zeta180^9 + zeta180^7 + 1/2*zeta180^5 - 1/2*zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - 3/2*zeta180^42 + 1/2*zeta180^40 + zeta180^38 - zeta180^34 - zeta180^28 - zeta180^22 - 1/2*zeta180^20 + 3/2*zeta180^18 - zeta180^16 - zeta180^14 + 3/2*zeta180^12 + 1/2*zeta180^10 + zeta180^4 + 3/2",
+                  "zeta180^47 - 1/2*zeta180^45 - 1/2*zeta180^35 + 1/2*zeta180^33 - zeta180^31 + 1/2*zeta180^27 - 1/2*zeta180^25 + zeta180^11 - zeta180^9 + zeta180^7 + 1/2*zeta180^5 - 1/2*zeta180^3 + zeta180"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 4,
+              "other_vertex": 2,
+              "root_P_edge": 4,
+              "other_P_edge": 2,
+              "P_vertices": [
+                [
+                  "zeta180^46 + zeta180^44 - zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + zeta180^18 - 3/2*zeta180^16 - zeta180^14 + zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 2",
+                  "zeta180^47 + zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - 2*zeta180^33 - zeta180^31 + 1/2*zeta180^29 - zeta180^25 + 1/2*zeta180^11 + 2*zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + 2*zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - 3/2*zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + 3/2*zeta180^18 - 3/2*zeta180^16 - zeta180^14 + 3/2*zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 + 1/2*zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - 3/2*zeta180^33 - zeta180^31 + 1/2*zeta180^29 + 1/2*zeta180^27 - zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + 3/2*zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + zeta180^18 - 3/2*zeta180^16 - zeta180^14 + zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 + 1/2*zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - zeta180^33 - zeta180^31 + 1/2*zeta180^29 - zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - 1/2*zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + 1/2*zeta180^18 - 3/2*zeta180^16 - zeta180^14 + 1/2*zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 + 1/2*zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - 3/2*zeta180^33 - zeta180^31 + 1/2*zeta180^29 + 1/2*zeta180^27 - zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + 3/2*zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + zeta180^18 - 3/2*zeta180^16 - zeta180^14 + zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 1",
+                  "zeta180^47 + zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - 2*zeta180^33 - zeta180^31 + 1/2*zeta180^29 - zeta180^25 + 1/2*zeta180^11 + 2*zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + 2*zeta180^3 + zeta180"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        },
+        {
+          "id": 4,
+          "root_edge": 5,
+          "other_edge": 5,
+          "types": [
+            "AB",
+            "AB"
+          ],
+          "isometry": {
+            "reflection": false,
+            "linear": [
+              [
+                "-1",
+                "0"
+              ],
+              [
+                "0",
+                "-1"
+              ]
+            ],
+            "translation": [
+              "zeta180^46 + zeta180^44 - 1/2*zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + 1/2*zeta180^18 - 3/2*zeta180^16 - zeta180^14 + 1/2*zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 3/2",
+              "zeta180^47 + 1/2*zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - 3/2*zeta180^33 - zeta180^31 + 1/2*zeta180^29 + 1/2*zeta180^27 - zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + 3/2*zeta180^3 + zeta180"
+            ],
+            "complex_c": "-1",
+            "complex_t": "2*zeta180^44 + zeta180^42 + zeta180^38 + zeta180^36 - 2*zeta180^20 + zeta180^18 - 2*zeta180^14 - zeta180^12 - zeta180^2 + 2"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 5,
+              "other_vertex": 6,
+              "root_P_edge": 4,
+              "other_P_edge": 6,
+              "P_vertices": [
+                [
+                  "zeta180^46 + zeta180^44 - 1/2*zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + 1/2*zeta180^18 - 3/2*zeta180^16 - zeta180^14 + 1/2*zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 + 1/2*zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - 3/2*zeta180^33 - zeta180^31 + 1/2*zeta180^29 + 1/2*zeta180^27 - zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + 3/2*zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + zeta180^18 - 3/2*zeta180^16 - zeta180^14 + zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 + 1/2*zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - zeta180^33 - zeta180^31 + 1/2*zeta180^29 - zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - 3/2*zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + 3/2*zeta180^18 - 3/2*zeta180^16 - zeta180^14 + 3/2*zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 3/2",
+                  "zeta180^47 + 1/2*zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - 3/2*zeta180^33 - zeta180^31 + 1/2*zeta180^29 + 1/2*zeta180^27 - zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + 3/2*zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + zeta180^18 - 3/2*zeta180^16 - zeta180^14 + zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 2",
+                  "zeta180^47 + zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - 2*zeta180^33 - zeta180^31 + 1/2*zeta180^29 - zeta180^25 + 1/2*zeta180^11 + 2*zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + 2*zeta180^3 + zeta180"
+                ],
+                [
+                  "zeta180^46 + zeta180^44 - zeta180^42 + 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - zeta180^28 - zeta180^22 - zeta180^20 + zeta180^18 - 3/2*zeta180^16 - zeta180^14 + zeta180^12 - 1/2*zeta180^10 + zeta180^4 - 1/2*zeta180^2 + 1",
+                  "zeta180^47 + zeta180^45 - 1/2*zeta180^43 + 1/2*zeta180^35 - 2*zeta180^33 - zeta180^31 + 1/2*zeta180^29 - zeta180^25 + 1/2*zeta180^11 + 2*zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 + 2*zeta180^3 + zeta180"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 6,
+              "other_vertex": 5,
+              "root_P_edge": 6,
+              "other_P_edge": 4,
+              "P_vertices": [
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12",
+                  "-1/2*zeta180^33 + 1/2*zeta180^27 + 1/2*zeta180^3"
+                ],
+                [
+                  "zeta180^42 - zeta180^18 - zeta180^12",
+                  "0"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 - 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "0",
+                  "0"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        }
+      ],
+      "strand_at_Q": [
+        {
+          "AA_seam": 0,
+          "BB_seam": 2,
+          "compatible": true,
+          "overlap_pairs": []
+        },
+        {
+          "AA_seam": 0,
+          "BB_seam": 3,
+          "compatible": true,
+          "overlap_pairs": []
+        },
+        {
+          "AA_seam": 1,
+          "BB_seam": 2,
+          "compatible": true,
+          "overlap_pairs": []
+        },
+        {
+          "AA_seam": 1,
+          "BB_seam": 3,
+          "compatible": true,
+          "overlap_pairs": []
+        }
+      ]
+    },
+    {
+      "holonomy": [
+        {
+          "seam": 2,
+          "rotation_order": 5,
+          "power_translation": [
+            "0",
+            "0"
+          ],
+          "scope": "formal isometry composition only"
+        },
+        {
+          "seam": 3,
+          "square_linear_identity": true,
+          "square_translation": [
+            "-1/2*zeta180^46 + 4*zeta180^44 - 13/2*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 7/2*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 + 1/2*zeta180^12 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 2",
+            "-3/2*zeta180^47 + 2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 5/2*zeta180^33 + 3/2*zeta180^31 - 1/2*zeta180^27 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + 2*zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 5/2*zeta180^3 - 2*zeta180"
+          ],
+          "square_translation_nonzero": true,
+          "scope": "formal isometry composition, no embedded infinite ribbon assertion"
+        }
+      ],
+      "word": "AABBBA",
+      "root_P_check": {
+        "P_overlap_edge_pairs": [],
+        "Q144_PP_common_vertices": [
+          [
+            "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 + 1/2",
+            "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      "Q_vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "-1/2*zeta180^46 + 2*zeta180^44 - 9/2*zeta180^42 + 5*zeta180^40 - 9/2*zeta180^38 + 29/10*zeta180^36 - 3/2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 5/2*zeta180^16 + 3/2*zeta180^14 + 9/10*zeta180^12 - 2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 4*zeta180^2 + 19/10",
+          "73/10*zeta180^47 - 71/10*zeta180^45 + 6*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 29/5*zeta180^35 + 53/10*zeta180^33 - 51/10*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 57/10*zeta180^11 - 47/10*zeta180^9 + 39/10*zeta180^7 + 47/10*zeta180^5 - 53/10*zeta180^3 + 31/5*zeta180"
+        ],
+        [
+          "-1/2*zeta180^46 + 5/2*zeta180^44 - 9/2*zeta180^42 + 5*zeta180^40 - 4*zeta180^38 + 29/10*zeta180^36 - 2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - 3/2*zeta180^20 + 27/10*zeta180^18 - 5/2*zeta180^16 + zeta180^14 + 9/10*zeta180^12 - 2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 7/2*zeta180^2 + 19/10",
+          "73/10*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 29/5*zeta180^35 + 53/10*zeta180^33 - 28/5*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 33/10*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 31/5*zeta180^11 - 47/10*zeta180^9 + 22/5*zeta180^7 + 47/10*zeta180^5 - 53/10*zeta180^3 + 67/10*zeta180"
+        ],
+        [
+          "-1/2*zeta180^46 + 4*zeta180^44 - 7*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 4*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 + zeta180^12 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 5/2",
+          "-3/2*zeta180^47 + 3/2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 2*zeta180^33 + 3/2*zeta180^31 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 2*zeta180^3 - 2*zeta180"
+        ],
+        [
+          "-1/2*zeta180^46 + 4*zeta180^44 - 13/2*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 7/2*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 + 1/2*zeta180^12 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 5/2",
+          "-3/2*zeta180^47 + 3/2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 3/2*zeta180^33 + 3/2*zeta180^31 - 1/2*zeta180^27 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 3/2*zeta180^3 - 2*zeta180"
+        ],
+        [
+          "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12",
+          "-1/2*zeta180^33 + 1/2*zeta180^27 + 1/2*zeta180^3"
+        ]
+      ],
+      "QQ_lengths": {
+        "1": "1/5*zeta180^46 - 3*zeta180^44 + 6*zeta180^42 - 39/5*zeta180^40 + 29/5*zeta180^38 - 21/5*zeta180^36 + 9/5*zeta180^34 + 3/5*zeta180^32 - 12/5*zeta180^30 + 17/5*zeta180^28 - 16/5*zeta180^26 + 9/5*zeta180^24 - 2/5*zeta180^22 + 12/5*zeta180^20 - 18/5*zeta180^18 + 21/5*zeta180^16 - 6/5*zeta180^14 - 6/5*zeta180^12 + 19/5*zeta180^10 - 22/5*zeta180^8 + 33/5*zeta180^6 - 36/5*zeta180^4 + 24/5*zeta180^2 - 11/5",
+        "3": "1/5*zeta180^46 - 3*zeta180^44 + 6*zeta180^42 - 39/5*zeta180^40 + 29/5*zeta180^38 - 21/5*zeta180^36 + 9/5*zeta180^34 + 3/5*zeta180^32 - 12/5*zeta180^30 + 17/5*zeta180^28 - 16/5*zeta180^26 + 9/5*zeta180^24 - 2/5*zeta180^22 + 12/5*zeta180^20 - 18/5*zeta180^18 + 21/5*zeta180^16 - 6/5*zeta180^14 - 6/5*zeta180^12 + 19/5*zeta180^10 - 22/5*zeta180^8 + 33/5*zeta180^6 - 36/5*zeta180^4 + 24/5*zeta180^2 - 11/5",
+        "5": "-zeta180^46 + 4*zeta180^44 - 8*zeta180^42 + 9*zeta180^40 - 7*zeta180^38 + 4*zeta180^36 - 2*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 3*zeta180^26 - zeta180^24 + zeta180^22 - 3*zeta180^20 + 5*zeta180^18 - 4*zeta180^16 + 2*zeta180^14 + 2*zeta180^12 - 4*zeta180^10 + 6*zeta180^8 - 7*zeta180^6 + 8*zeta180^4 - 6*zeta180^2 + 2"
+      },
+      "types": {
+        "1": "AA",
+        "3": "BB",
+        "5": "BA"
+      },
+      "seams": [
+        {
+          "id": 0,
+          "root_edge": 1,
+          "other_edge": 3,
+          "types": [
+            "AA",
+            "BB"
+          ],
+          "isometry": {
+            "reflection": false,
+            "linear": [
+              [
+                "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 - 1/2",
+                "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+              ],
+              [
+                "1/2*zeta180^45 - 1/2*zeta180^33 - 1/2*zeta180^27 + zeta180^9 + 1/2*zeta180^3",
+                "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 - 1/2"
+              ]
+            ],
+            "translation": [
+              "-3/2*zeta180^44 + 1/2*zeta180^42 - 3/2*zeta180^40 + 1/2*zeta180^38 - zeta180^36 + 1/2*zeta180^34 - 1/2*zeta180^30 + zeta180^28 + 1/2*zeta180^24 + zeta180^20 + zeta180^16 + 1/2*zeta180^14 + 1/2*zeta180^12 + 1/2*zeta180^10 - zeta180^8 + 3/2*zeta180^6 - zeta180^4 + 1/2*zeta180^2",
+              "12*zeta180^47 - 12*zeta180^45 + 21/2*zeta180^43 + 3*zeta180^41 - 11/2*zeta180^39 + 8*zeta180^37 - 19/2*zeta180^35 + 19/2*zeta180^33 - 17/2*zeta180^31 - 4*zeta180^29 + 5*zeta180^27 - 5*zeta180^25 - 6*zeta180^23 + 11/2*zeta180^21 - 5*zeta180^19 - 8*zeta180^17 + 19/2*zeta180^15 - 10*zeta180^13 + 19/2*zeta180^11 - 9*zeta180^9 + 13/2*zeta180^7 + 15/2*zeta180^5 - 19/2*zeta180^3 + 21/2*zeta180"
+            ],
+            "complex_c": "zeta180^36",
+            "complex_t": "-12*zeta180^46 + 9*zeta180^44 - 9*zeta180^42 - 6*zeta180^40 + 7*zeta180^38 - 10*zeta180^36 + 10*zeta180^34 - 10*zeta180^32 + 9*zeta180^30 + 5*zeta180^28 - 5*zeta180^26 + 6*zeta180^24 + 6*zeta180^22 - 4*zeta180^20 + 5*zeta180^18 + 9*zeta180^16 - 8*zeta180^14 + 10*zeta180^12 - 9*zeta180^10 + 7*zeta180^8 - 4*zeta180^6 - 10*zeta180^4 + 11*zeta180^2 - 12"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 1,
+              "other_vertex": 4,
+              "root_P_edge": 0,
+              "other_P_edge": 4,
+              "P_vertices": [
+                [
+                  "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "1/2",
+                  "-1/2*zeta180^45 + zeta180^33 - zeta180^9 - zeta180^3"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 2,
+              "other_vertex": 3,
+              "root_P_edge": 2,
+              "other_P_edge": 2,
+              "P_vertices": [
+                [
+                  "-1/2*zeta180^46 + 2*zeta180^44 - 9/2*zeta180^42 + 5*zeta180^40 - 9/2*zeta180^38 + 29/10*zeta180^36 - 3/2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 5/2*zeta180^16 + 3/2*zeta180^14 + 9/10*zeta180^12 - 2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 4*zeta180^2 + 19/10",
+                  "73/10*zeta180^47 - 71/10*zeta180^45 + 6*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 29/5*zeta180^35 + 53/10*zeta180^33 - 51/10*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 57/10*zeta180^11 - 47/10*zeta180^9 + 39/10*zeta180^7 + 47/10*zeta180^5 - 53/10*zeta180^3 + 31/5*zeta180"
+                ],
+                [
+                  "-zeta180^46 + 2*zeta180^44 - 9/2*zeta180^42 + 9/2*zeta180^40 - 9/2*zeta180^38 + 29/10*zeta180^36 - 3/2*zeta180^34 + 9/5*zeta180^30 - 5/2*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 2*zeta180^16 + 3/2*zeta180^14 + 9/10*zeta180^12 - 2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 5*zeta180^4 - 7/2*zeta180^2 + 19/10",
+                  "34/5*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 29/5*zeta180^35 + 53/10*zeta180^33 - 51/10*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 57/10*zeta180^11 - 47/10*zeta180^9 + 39/10*zeta180^7 + 47/10*zeta180^5 - 53/10*zeta180^3 + 31/5*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 2*zeta180^44 - 9/2*zeta180^42 + 9/2*zeta180^40 - 4*zeta180^38 + 29/10*zeta180^36 - 2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 2*zeta180^16 + 3/2*zeta180^14 + 9/10*zeta180^12 - 3/2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 7/2*zeta180^2 + 19/10",
+                  "73/10*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 63/10*zeta180^35 + 53/10*zeta180^33 - 51/10*zeta180^31 - 29/10*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 31/5*zeta180^11 - 47/10*zeta180^9 + 22/5*zeta180^7 + 26/5*zeta180^5 - 53/10*zeta180^3 + 31/5*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 5/2*zeta180^44 - 9/2*zeta180^42 + 9/2*zeta180^40 - 4*zeta180^38 + 29/10*zeta180^36 - 2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 5/2*zeta180^16 + zeta180^14 + 9/10*zeta180^12 - 3/2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 7/2*zeta180^2 + 19/10",
+                  "73/10*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 63/10*zeta180^35 + 53/10*zeta180^33 - 28/5*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 31/5*zeta180^11 - 47/10*zeta180^9 + 22/5*zeta180^7 + 26/5*zeta180^5 - 53/10*zeta180^3 + 67/10*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 5/2*zeta180^44 - 9/2*zeta180^42 + 5*zeta180^40 - 4*zeta180^38 + 29/10*zeta180^36 - 2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - 3/2*zeta180^20 + 27/10*zeta180^18 - 5/2*zeta180^16 + zeta180^14 + 9/10*zeta180^12 - 2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 7/2*zeta180^2 + 19/10",
+                  "73/10*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 29/5*zeta180^35 + 53/10*zeta180^33 - 28/5*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 33/10*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 31/5*zeta180^11 - 47/10*zeta180^9 + 22/5*zeta180^7 + 47/10*zeta180^5 - 53/10*zeta180^3 + 67/10*zeta180"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        },
+        {
+          "id": 1,
+          "root_edge": 1,
+          "other_edge": 3,
+          "types": [
+            "AA",
+            "BB"
+          ],
+          "isometry": {
+            "reflection": true,
+            "linear": [
+              [
+                "1/2*zeta180^40 - 1/2*zeta180^20 - 1/2*zeta180^10",
+                "1/2*zeta180^35 - 1/2*zeta180^25 - 1/2*zeta180^5"
+              ],
+              [
+                "1/2*zeta180^35 - 1/2*zeta180^25 - 1/2*zeta180^5",
+                "-1/2*zeta180^40 + 1/2*zeta180^20 + 1/2*zeta180^10"
+              ]
+            ],
+            "translation": [
+              "-3/2*zeta180^44 + 2*zeta180^42 - 7/2*zeta180^40 + 5/2*zeta180^38 - 21/10*zeta180^36 + zeta180^34 - 6/5*zeta180^30 + 2*zeta180^28 - 3/2*zeta180^26 + 9/10*zeta180^24 + zeta180^20 - 4/5*zeta180^18 + 2*zeta180^16 - 1/2*zeta180^14 + 2/5*zeta180^12 + 3/2*zeta180^10 - 2*zeta180^8 + 33/10*zeta180^6 - 7/2*zeta180^4 + 5/2*zeta180^2 - 1/10",
+              "44/5*zeta180^47 - 91/10*zeta180^45 + 17/2*zeta180^43 + 23/10*zeta180^41 - 9/2*zeta180^39 + 31/5*zeta180^37 - 73/10*zeta180^35 + 39/5*zeta180^33 - 71/10*zeta180^31 - 12/5*zeta180^29 + 17/5*zeta180^27 - 19/5*zeta180^25 - 23/5*zeta180^23 + 9/2*zeta180^21 - 39/10*zeta180^19 - 31/5*zeta180^17 + 7*zeta180^15 - 39/5*zeta180^13 + 36/5*zeta180^11 - 67/10*zeta180^9 + 49/10*zeta180^7 + 57/10*zeta180^5 - 39/5*zeta180^3 + 87/10*zeta180"
+            ],
+            "complex_c": "-zeta180^20",
+            "complex_t": "-44/5*zeta180^46 + 36/5*zeta180^44 - 29/5*zeta180^42 - 33/5*zeta180^40 + 37/5*zeta180^38 - 44/5*zeta180^36 + 41/5*zeta180^34 - 39/5*zeta180^32 + 29/5*zeta180^30 + 23/5*zeta180^28 - 27/5*zeta180^26 + 27/5*zeta180^24 + 21/5*zeta180^22 - 14/5*zeta180^20 + 13/5*zeta180^18 + 42/5*zeta180^16 - 38/5*zeta180^14 + 41/5*zeta180^12 - 29/5*zeta180^10 + 21/5*zeta180^8 - 6/5*zeta180^6 - 10*zeta180^4 + 11*zeta180^2 - 46/5"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 1,
+              "other_vertex": 3,
+              "root_P_edge": 0,
+              "other_P_edge": 2,
+              "P_vertices": [
+                [
+                  "1",
+                  "0"
+                ],
+                [
+                  "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "1/2",
+                  "-1/2*zeta180^45 + zeta180^33 - zeta180^9 - zeta180^3"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "0",
+                  "0"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 2,
+              "other_vertex": 4,
+              "root_P_edge": 2,
+              "other_P_edge": 4,
+              "P_vertices": [
+                [
+                  "-zeta180^46 + 2*zeta180^44 - 9/2*zeta180^42 + 9/2*zeta180^40 - 9/2*zeta180^38 + 29/10*zeta180^36 - 3/2*zeta180^34 + 9/5*zeta180^30 - 5/2*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 2*zeta180^16 + 3/2*zeta180^14 + 9/10*zeta180^12 - 2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 5*zeta180^4 - 7/2*zeta180^2 + 19/10",
+                  "34/5*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 29/5*zeta180^35 + 53/10*zeta180^33 - 51/10*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 57/10*zeta180^11 - 47/10*zeta180^9 + 39/10*zeta180^7 + 47/10*zeta180^5 - 53/10*zeta180^3 + 31/5*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 2*zeta180^44 - 9/2*zeta180^42 + 5*zeta180^40 - 9/2*zeta180^38 + 29/10*zeta180^36 - 3/2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 5/2*zeta180^16 + 3/2*zeta180^14 + 9/10*zeta180^12 - 2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 4*zeta180^2 + 19/10",
+                  "73/10*zeta180^47 - 71/10*zeta180^45 + 6*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 29/5*zeta180^35 + 53/10*zeta180^33 - 51/10*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 57/10*zeta180^11 - 47/10*zeta180^9 + 39/10*zeta180^7 + 47/10*zeta180^5 - 53/10*zeta180^3 + 31/5*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 5/2*zeta180^44 - 9/2*zeta180^42 + 5*zeta180^40 - 4*zeta180^38 + 29/10*zeta180^36 - 2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - 3/2*zeta180^20 + 27/10*zeta180^18 - 5/2*zeta180^16 + zeta180^14 + 9/10*zeta180^12 - 2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 7/2*zeta180^2 + 19/10",
+                  "73/10*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 29/5*zeta180^35 + 53/10*zeta180^33 - 28/5*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 33/10*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 31/5*zeta180^11 - 47/10*zeta180^9 + 22/5*zeta180^7 + 47/10*zeta180^5 - 53/10*zeta180^3 + 67/10*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 5/2*zeta180^44 - 9/2*zeta180^42 + 9/2*zeta180^40 - 4*zeta180^38 + 29/10*zeta180^36 - 2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 5/2*zeta180^16 + zeta180^14 + 9/10*zeta180^12 - 3/2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 7/2*zeta180^2 + 19/10",
+                  "73/10*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 63/10*zeta180^35 + 53/10*zeta180^33 - 28/5*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 31/5*zeta180^11 - 47/10*zeta180^9 + 22/5*zeta180^7 + 26/5*zeta180^5 - 53/10*zeta180^3 + 67/10*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 2*zeta180^44 - 9/2*zeta180^42 + 9/2*zeta180^40 - 4*zeta180^38 + 29/10*zeta180^36 - 2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 2*zeta180^16 + 3/2*zeta180^14 + 9/10*zeta180^12 - 3/2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 7/2*zeta180^2 + 19/10",
+                  "73/10*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 63/10*zeta180^35 + 53/10*zeta180^33 - 51/10*zeta180^31 - 29/10*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 31/5*zeta180^11 - 47/10*zeta180^9 + 22/5*zeta180^7 + 26/5*zeta180^5 - 53/10*zeta180^3 + 31/5*zeta180"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        },
+        {
+          "id": 2,
+          "root_edge": 3,
+          "other_edge": 1,
+          "types": [
+            "BB",
+            "AA"
+          ],
+          "isometry": {
+            "reflection": false,
+            "linear": [
+              [
+                "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 - 1/2",
+                "1/2*zeta180^45 - 1/2*zeta180^33 - 1/2*zeta180^27 + zeta180^9 + 1/2*zeta180^3"
+              ],
+              [
+                "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3",
+                "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 - 1/2"
+              ]
+            ],
+            "translation": [
+              "-1/2*zeta180^46 + 4*zeta180^44 - 13/2*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 7/2*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 + 1/2*zeta180^12 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 3",
+              "-3/2*zeta180^47 + 2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 5/2*zeta180^33 + 3/2*zeta180^31 - 1/2*zeta180^27 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + 2*zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 5/2*zeta180^3 - 2*zeta180"
+            ],
+            "complex_c": "-zeta180^42 - zeta180^36 + zeta180^18 + zeta180^12 - 1",
+            "complex_t": "zeta180^46 + 2*zeta180^44 - 4*zeta180^42 + 9*zeta180^40 - 7*zeta180^38 + 7*zeta180^36 - 4*zeta180^34 + 2*zeta180^32 + 2*zeta180^30 - 5*zeta180^28 + 5*zeta180^26 - 3*zeta180^24 - zeta180^20 + 3*zeta180^18 - 6*zeta180^16 + 3*zeta180^14 - 2*zeta180^12 - 2*zeta180^10 + 4*zeta180^8 - 7*zeta180^6 + 10*zeta180^4 - 8*zeta180^2 + 5"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 3,
+              "other_vertex": 2,
+              "root_P_edge": 2,
+              "other_P_edge": 2,
+              "P_vertices": [
+                [
+                  "-1/2*zeta180^46 + 5/2*zeta180^44 - 9/2*zeta180^42 + 9/2*zeta180^40 - 4*zeta180^38 + 29/10*zeta180^36 - 2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 5/2*zeta180^16 + zeta180^14 + 9/10*zeta180^12 - 3/2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 7/2*zeta180^2 + 19/10",
+                  "73/10*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 63/10*zeta180^35 + 53/10*zeta180^33 - 28/5*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 31/5*zeta180^11 - 47/10*zeta180^9 + 22/5*zeta180^7 + 26/5*zeta180^5 - 53/10*zeta180^3 + 67/10*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 5/2*zeta180^44 - 9/2*zeta180^42 + 5*zeta180^40 - 4*zeta180^38 + 29/10*zeta180^36 - 2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - 3/2*zeta180^20 + 27/10*zeta180^18 - 5/2*zeta180^16 + zeta180^14 + 9/10*zeta180^12 - 2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 7/2*zeta180^2 + 19/10",
+                  "73/10*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 29/5*zeta180^35 + 53/10*zeta180^33 - 28/5*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 33/10*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 31/5*zeta180^11 - 47/10*zeta180^9 + 22/5*zeta180^7 + 47/10*zeta180^5 - 53/10*zeta180^3 + 67/10*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 2*zeta180^44 - 9/2*zeta180^42 + 5*zeta180^40 - 9/2*zeta180^38 + 29/10*zeta180^36 - 3/2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 5/2*zeta180^16 + 3/2*zeta180^14 + 9/10*zeta180^12 - 2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 4*zeta180^2 + 19/10",
+                  "73/10*zeta180^47 - 71/10*zeta180^45 + 6*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 29/5*zeta180^35 + 53/10*zeta180^33 - 51/10*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 57/10*zeta180^11 - 47/10*zeta180^9 + 39/10*zeta180^7 + 47/10*zeta180^5 - 53/10*zeta180^3 + 31/5*zeta180"
+                ],
+                [
+                  "-zeta180^46 + 2*zeta180^44 - 9/2*zeta180^42 + 9/2*zeta180^40 - 9/2*zeta180^38 + 29/10*zeta180^36 - 3/2*zeta180^34 + 9/5*zeta180^30 - 5/2*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 2*zeta180^16 + 3/2*zeta180^14 + 9/10*zeta180^12 - 2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 5*zeta180^4 - 7/2*zeta180^2 + 19/10",
+                  "34/5*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 29/5*zeta180^35 + 53/10*zeta180^33 - 51/10*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 57/10*zeta180^11 - 47/10*zeta180^9 + 39/10*zeta180^7 + 47/10*zeta180^5 - 53/10*zeta180^3 + 31/5*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 2*zeta180^44 - 9/2*zeta180^42 + 9/2*zeta180^40 - 4*zeta180^38 + 29/10*zeta180^36 - 2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 2*zeta180^16 + 3/2*zeta180^14 + 9/10*zeta180^12 - 3/2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 7/2*zeta180^2 + 19/10",
+                  "73/10*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 63/10*zeta180^35 + 53/10*zeta180^33 - 51/10*zeta180^31 - 29/10*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 31/5*zeta180^11 - 47/10*zeta180^9 + 22/5*zeta180^7 + 26/5*zeta180^5 - 53/10*zeta180^3 + 31/5*zeta180"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 4,
+              "other_vertex": 1,
+              "root_P_edge": 4,
+              "other_P_edge": 0,
+              "P_vertices": [
+                [
+                  "-1/2*zeta180^46 + 4*zeta180^44 - 7*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 4*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 + zeta180^12 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 5/2",
+                  "-3/2*zeta180^47 + 3/2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 2*zeta180^33 + 3/2*zeta180^31 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 2*zeta180^3 - 2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 4*zeta180^44 - 13/2*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 7/2*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 + 1/2*zeta180^12 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 3",
+                  "-3/2*zeta180^47 + 2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 5/2*zeta180^33 + 3/2*zeta180^31 - 1/2*zeta180^27 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + 2*zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 5/2*zeta180^3 - 2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 4*zeta180^44 - 13/2*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 7/2*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 + 1/2*zeta180^12 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 2",
+                  "-3/2*zeta180^47 + 2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 5/2*zeta180^33 + 3/2*zeta180^31 - 1/2*zeta180^27 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + 2*zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 5/2*zeta180^3 - 2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 4*zeta180^44 - 6*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 3*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 5/2",
+                  "-3/2*zeta180^47 + 3/2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 2*zeta180^33 + 3/2*zeta180^31 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 2*zeta180^3 - 2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 4*zeta180^44 - 13/2*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 7/2*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 + 1/2*zeta180^12 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 5/2",
+                  "-3/2*zeta180^47 + 3/2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 3/2*zeta180^33 + 3/2*zeta180^31 - 1/2*zeta180^27 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 3/2*zeta180^3 - 2*zeta180"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        },
+        {
+          "id": 3,
+          "root_edge": 3,
+          "other_edge": 1,
+          "types": [
+            "BB",
+            "AA"
+          ],
+          "isometry": {
+            "reflection": true,
+            "linear": [
+              [
+                "1/2*zeta180^40 - 1/2*zeta180^20 - 1/2*zeta180^10",
+                "1/2*zeta180^35 - 1/2*zeta180^25 - 1/2*zeta180^5"
+              ],
+              [
+                "1/2*zeta180^35 - 1/2*zeta180^25 - 1/2*zeta180^5",
+                "-1/2*zeta180^40 + 1/2*zeta180^20 + 1/2*zeta180^10"
+              ]
+            ],
+            "translation": [
+              "-1/2*zeta180^46 + 5/2*zeta180^44 - 9/2*zeta180^42 + 9/2*zeta180^40 - 4*zeta180^38 + 29/10*zeta180^36 - 2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 5/2*zeta180^16 + zeta180^14 + 9/10*zeta180^12 - 3/2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 7/2*zeta180^2 + 19/10",
+              "73/10*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 63/10*zeta180^35 + 53/10*zeta180^33 - 28/5*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 31/5*zeta180^11 - 47/10*zeta180^9 + 22/5*zeta180^7 + 26/5*zeta180^5 - 53/10*zeta180^3 + 67/10*zeta180"
+            ],
+            "complex_c": "-zeta180^20",
+            "complex_t": "-39/5*zeta180^46 + 46/5*zeta180^44 - 49/5*zeta180^42 + 12/5*zeta180^40 + 2/5*zeta180^38 - 9/5*zeta180^36 + 21/5*zeta180^34 - 29/5*zeta180^32 + 39/5*zeta180^30 - 2/5*zeta180^28 - 2/5*zeta180^26 + 12/5*zeta180^24 + 21/5*zeta180^22 - 19/5*zeta180^20 + 28/5*zeta180^18 + 12/5*zeta180^16 - 23/5*zeta180^14 + 31/5*zeta180^12 - 39/5*zeta180^10 + 41/5*zeta180^8 - 41/5*zeta180^6 + 3*zeta180^2 - 26/5"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 3,
+              "other_vertex": 1,
+              "root_P_edge": 2,
+              "other_P_edge": 0,
+              "P_vertices": [
+                [
+                  "-1/2*zeta180^46 + 5/2*zeta180^44 - 9/2*zeta180^42 + 5*zeta180^40 - 4*zeta180^38 + 29/10*zeta180^36 - 2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - 3/2*zeta180^20 + 27/10*zeta180^18 - 5/2*zeta180^16 + zeta180^14 + 9/10*zeta180^12 - 2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 7/2*zeta180^2 + 19/10",
+                  "73/10*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 29/5*zeta180^35 + 53/10*zeta180^33 - 28/5*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 33/10*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 31/5*zeta180^11 - 47/10*zeta180^9 + 22/5*zeta180^7 + 47/10*zeta180^5 - 53/10*zeta180^3 + 67/10*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 5/2*zeta180^44 - 9/2*zeta180^42 + 9/2*zeta180^40 - 4*zeta180^38 + 29/10*zeta180^36 - 2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 5/2*zeta180^16 + zeta180^14 + 9/10*zeta180^12 - 3/2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 7/2*zeta180^2 + 19/10",
+                  "73/10*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 63/10*zeta180^35 + 53/10*zeta180^33 - 28/5*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 31/5*zeta180^11 - 47/10*zeta180^9 + 22/5*zeta180^7 + 26/5*zeta180^5 - 53/10*zeta180^3 + 67/10*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 2*zeta180^44 - 9/2*zeta180^42 + 9/2*zeta180^40 - 4*zeta180^38 + 29/10*zeta180^36 - 2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 2*zeta180^16 + 3/2*zeta180^14 + 9/10*zeta180^12 - 3/2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 7/2*zeta180^2 + 19/10",
+                  "73/10*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 63/10*zeta180^35 + 53/10*zeta180^33 - 51/10*zeta180^31 - 29/10*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 31/5*zeta180^11 - 47/10*zeta180^9 + 22/5*zeta180^7 + 26/5*zeta180^5 - 53/10*zeta180^3 + 31/5*zeta180"
+                ],
+                [
+                  "-zeta180^46 + 2*zeta180^44 - 9/2*zeta180^42 + 9/2*zeta180^40 - 9/2*zeta180^38 + 29/10*zeta180^36 - 3/2*zeta180^34 + 9/5*zeta180^30 - 5/2*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 2*zeta180^16 + 3/2*zeta180^14 + 9/10*zeta180^12 - 2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 5*zeta180^4 - 7/2*zeta180^2 + 19/10",
+                  "34/5*zeta180^47 - 71/10*zeta180^45 + 13/2*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 29/5*zeta180^35 + 53/10*zeta180^33 - 51/10*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 57/10*zeta180^11 - 47/10*zeta180^9 + 39/10*zeta180^7 + 47/10*zeta180^5 - 53/10*zeta180^3 + 31/5*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 2*zeta180^44 - 9/2*zeta180^42 + 5*zeta180^40 - 9/2*zeta180^38 + 29/10*zeta180^36 - 3/2*zeta180^34 + 9/5*zeta180^30 - 3*zeta180^28 + 5/2*zeta180^26 - 11/10*zeta180^24 + 1/2*zeta180^22 - zeta180^20 + 27/10*zeta180^18 - 5/2*zeta180^16 + 3/2*zeta180^14 + 9/10*zeta180^12 - 2*zeta180^10 + 7/2*zeta180^8 - 47/10*zeta180^6 + 11/2*zeta180^4 - 4*zeta180^2 + 19/10",
+                  "73/10*zeta180^47 - 71/10*zeta180^45 + 6*zeta180^43 + 9/5*zeta180^41 - 7/2*zeta180^39 + 47/10*zeta180^37 - 29/5*zeta180^35 + 53/10*zeta180^33 - 51/10*zeta180^31 - 12/5*zeta180^29 + 29/10*zeta180^27 - 14/5*zeta180^25 - 18/5*zeta180^23 + 7/2*zeta180^21 - 29/10*zeta180^19 - 47/10*zeta180^17 + 6*zeta180^15 - 29/5*zeta180^13 + 57/10*zeta180^11 - 47/10*zeta180^9 + 39/10*zeta180^7 + 47/10*zeta180^5 - 53/10*zeta180^3 + 31/5*zeta180"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 4,
+              "other_vertex": 2,
+              "root_P_edge": 4,
+              "other_P_edge": 2,
+              "P_vertices": [
+                [
+                  "-1/2*zeta180^46 + 4*zeta180^44 - 13/2*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 7/2*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 + 1/2*zeta180^12 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 3",
+                  "-3/2*zeta180^47 + 2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 5/2*zeta180^33 + 3/2*zeta180^31 - 1/2*zeta180^27 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + 2*zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 5/2*zeta180^3 - 2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 4*zeta180^44 - 7*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 4*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 + zeta180^12 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 5/2",
+                  "-3/2*zeta180^47 + 3/2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 2*zeta180^33 + 3/2*zeta180^31 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 2*zeta180^3 - 2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 4*zeta180^44 - 13/2*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 7/2*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 + 1/2*zeta180^12 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 5/2",
+                  "-3/2*zeta180^47 + 3/2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 3/2*zeta180^33 + 3/2*zeta180^31 - 1/2*zeta180^27 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 3/2*zeta180^3 - 2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 4*zeta180^44 - 6*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 3*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 5/2",
+                  "-3/2*zeta180^47 + 3/2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 2*zeta180^33 + 3/2*zeta180^31 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 2*zeta180^3 - 2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 4*zeta180^44 - 13/2*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 7/2*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 + 1/2*zeta180^12 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 2",
+                  "-3/2*zeta180^47 + 2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 5/2*zeta180^33 + 3/2*zeta180^31 - 1/2*zeta180^27 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + 2*zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 5/2*zeta180^3 - 2*zeta180"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        },
+        {
+          "id": 4,
+          "root_edge": 5,
+          "other_edge": 5,
+          "types": [
+            "BA",
+            "BA"
+          ],
+          "isometry": {
+            "reflection": false,
+            "linear": [
+              [
+                "-1",
+                "0"
+              ],
+              [
+                "0",
+                "-1"
+              ]
+            ],
+            "translation": [
+              "-1/2*zeta180^46 + 4*zeta180^44 - 6*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 3*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 5/2",
+              "-3/2*zeta180^47 + 3/2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 2*zeta180^33 + 3/2*zeta180^31 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 2*zeta180^3 - 2*zeta180"
+            ],
+            "complex_c": "-1",
+            "complex_t": "zeta180^46 + 2*zeta180^44 - 4*zeta180^42 + 9*zeta180^40 - 7*zeta180^38 + 6*zeta180^36 - 4*zeta180^34 + 2*zeta180^32 + 2*zeta180^30 - 5*zeta180^28 + 5*zeta180^26 - 3*zeta180^24 - zeta180^20 + 3*zeta180^18 - 6*zeta180^16 + 3*zeta180^14 - 2*zeta180^12 - 2*zeta180^10 + 4*zeta180^8 - 7*zeta180^6 + 10*zeta180^4 - 8*zeta180^2 + 4"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 5,
+              "other_vertex": 6,
+              "root_P_edge": 4,
+              "other_P_edge": 6,
+              "P_vertices": [
+                [
+                  "-1/2*zeta180^46 + 4*zeta180^44 - 6*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 3*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 5/2",
+                  "-3/2*zeta180^47 + 3/2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 2*zeta180^33 + 3/2*zeta180^31 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 2*zeta180^3 - 2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 4*zeta180^44 - 13/2*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 7/2*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 + 1/2*zeta180^12 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 5/2",
+                  "-3/2*zeta180^47 + 3/2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 3/2*zeta180^33 + 3/2*zeta180^31 - 1/2*zeta180^27 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 3/2*zeta180^3 - 2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 4*zeta180^44 - 7*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 4*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 + zeta180^12 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 5/2",
+                  "-3/2*zeta180^47 + 3/2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 2*zeta180^33 + 3/2*zeta180^31 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 2*zeta180^3 - 2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 4*zeta180^44 - 13/2*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 7/2*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 + 1/2*zeta180^12 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 3",
+                  "-3/2*zeta180^47 + 2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 5/2*zeta180^33 + 3/2*zeta180^31 - 1/2*zeta180^27 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + 2*zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 5/2*zeta180^3 - 2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 + 4*zeta180^44 - 13/2*zeta180^42 + 8*zeta180^40 - 13/2*zeta180^38 + 5*zeta180^36 - 3*zeta180^34 + 3*zeta180^30 - 5*zeta180^28 + 4*zeta180^26 - 2*zeta180^24 + 1/2*zeta180^22 - 2*zeta180^20 + 7/2*zeta180^18 - 9/2*zeta180^16 + 3/2*zeta180^14 + 1/2*zeta180^12 - 3*zeta180^10 + 11/2*zeta180^8 - 8*zeta180^6 + 9*zeta180^4 - 6*zeta180^2 + 2",
+                  "-3/2*zeta180^47 + 2*zeta180^45 - 2*zeta180^43 - 1/2*zeta180^41 + zeta180^39 - 3/2*zeta180^37 + zeta180^35 - 5/2*zeta180^33 + 3/2*zeta180^31 - 1/2*zeta180^27 + zeta180^25 + zeta180^23 - zeta180^21 + zeta180^19 + 3/2*zeta180^17 - zeta180^15 + 2*zeta180^13 - zeta180^11 + 2*zeta180^9 - 1/2*zeta180^7 - 1/2*zeta180^5 + 5/2*zeta180^3 - 2*zeta180"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 6,
+              "other_vertex": 5,
+              "root_P_edge": 6,
+              "other_P_edge": 4,
+              "P_vertices": [
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12",
+                  "-1/2*zeta180^33 + 1/2*zeta180^27 + 1/2*zeta180^3"
+                ],
+                [
+                  "zeta180^42 - zeta180^18 - zeta180^12",
+                  "0"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 - 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "0",
+                  "0"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        }
+      ],
+      "strand_at_Q": [
+        {
+          "AA_seam": 0,
+          "BB_seam": 2,
+          "compatible": true,
+          "overlap_pairs": []
+        },
+        {
+          "AA_seam": 0,
+          "BB_seam": 3,
+          "compatible": true,
+          "overlap_pairs": []
+        },
+        {
+          "AA_seam": 1,
+          "BB_seam": 2,
+          "compatible": true,
+          "overlap_pairs": []
+        },
+        {
+          "AA_seam": 1,
+          "BB_seam": 3,
+          "compatible": true,
+          "overlap_pairs": []
+        }
+      ]
+    },
+    {
+      "holonomy": [
+        {
+          "seam": 3,
+          "rotation_order": 5,
+          "power_translation": [
+            "0",
+            "0"
+          ],
+          "scope": "formal isometry composition only"
+        },
+        {
+          "seam": 4,
+          "square_linear_identity": true,
+          "square_translation": [
+            "1/2*zeta180^46 + 3/2*zeta180^44 - 1/2*zeta180^42 + zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 - 1/2*zeta180^28 - 1/2*zeta180^22 - zeta180^20 + 1/2*zeta180^18 - 3/2*zeta180^16 - 3/2*zeta180^14 + 1/2*zeta180^12 - 1/2*zeta180^10 + 1/2*zeta180^4 - 1/2",
+            "1/2*zeta180^47 - 3/2*zeta180^45 + 1/2*zeta180^35 + 5/2*zeta180^33 - 3/2*zeta180^31 + zeta180^29 + 1/2*zeta180^27 - zeta180^25 + 1/2*zeta180^11 - 3*zeta180^9 + 1/2*zeta180^7 - 1/2*zeta180^5 - 5/2*zeta180^3 + 3/2*zeta180"
+          ],
+          "square_translation_nonzero": true,
+          "scope": "formal isometry composition, no embedded infinite ribbon assertion"
+        }
+      ],
+      "word": "ABAABB",
+      "root_P_check": {
+        "P_overlap_edge_pairs": [],
+        "Q144_PP_common_vertices": [
+          [
+            "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 + 1/2",
+            "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      "Q_vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "-1/2*zeta180^46 - 3/2*zeta180^44 + zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4",
+          "-1/2*zeta180^47 + zeta180^45 - 1/2*zeta180^35 - 2*zeta180^33 + 3/2*zeta180^31 - zeta180^29 + zeta180^25 - 1/2*zeta180^11 + 2*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 2*zeta180^3 - 3/2*zeta180"
+        ],
+        [
+          "-1/2*zeta180^46 - 3/2*zeta180^44 + 3/2*zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - 3/2*zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - 3/2*zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4 + 1/2",
+          "-1/2*zeta180^47 + 3/2*zeta180^45 - 1/2*zeta180^35 - 5/2*zeta180^33 + 3/2*zeta180^31 - zeta180^29 - 1/2*zeta180^27 + zeta180^25 - 1/2*zeta180^11 + 3*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 5/2*zeta180^3 - 3/2*zeta180"
+        ],
+        [
+          "-1/2*zeta180^44 + 2*zeta180^42 - 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 + zeta180^20 - 2*zeta180^18 + zeta180^16 + 1/2*zeta180^14 - 2*zeta180^12 + 3/2*zeta180^10 + 1/2*zeta180^2 - 1/2",
+          "1/2*zeta180^45 + 1/2*zeta180^43 - 3/2*zeta180^35 - zeta180^33 + 1/2*zeta180^31 - zeta180^29 + zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 + 3/2*zeta180^5 + zeta180^3 - 1/2*zeta180"
+        ],
+        [
+          "-1/2*zeta180^44 + 2*zeta180^42 - zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 + 1/2*zeta180^20 - 2*zeta180^18 + zeta180^16 + 1/2*zeta180^14 - 2*zeta180^12 + zeta180^10 + 1/2*zeta180^2 - 1/2",
+          "1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 - zeta180^33 + 1/2*zeta180^31 - zeta180^29 + 1/2*zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 + zeta180^5 + zeta180^3 - 1/2*zeta180"
+        ],
+        [
+          "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12",
+          "-1/2*zeta180^33 + 1/2*zeta180^27 + 1/2*zeta180^3"
+        ]
+      ],
+      "QQ_lengths": {
+        "1": "-zeta180^46 + 2*zeta180^44 - 2*zeta180^34 + zeta180^32 - 2*zeta180^28 + zeta180^26 + zeta180^10 + zeta180^8 + 2*zeta180^4 - zeta180^2",
+        "3": "zeta180^44 - 2*zeta180^34 + zeta180^32 - 2*zeta180^28 + zeta180^26 + zeta180^10 + zeta180^8 + 2*zeta180^4 - zeta180^2",
+        "5": "zeta180^44 - 2*zeta180^34 + zeta180^32 - 2*zeta180^28 + zeta180^26 + zeta180^10 + zeta180^8 + 2*zeta180^4 - zeta180^2"
+      },
+      "types": {
+        "1": "AB",
+        "3": "AA",
+        "5": "BB"
+      },
+      "seams": [
+        {
+          "id": 0,
+          "root_edge": 1,
+          "other_edge": 1,
+          "types": [
+            "AB",
+            "AB"
+          ],
+          "isometry": {
+            "reflection": false,
+            "linear": [
+              [
+                "-1",
+                "0"
+              ],
+              [
+                "0",
+                "-1"
+              ]
+            ],
+            "translation": [
+              "-1/2*zeta180^46 - 3/2*zeta180^44 + zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4 + 1",
+              "-1/2*zeta180^47 + zeta180^45 - 1/2*zeta180^35 - 2*zeta180^33 + 3/2*zeta180^31 - zeta180^29 + zeta180^25 - 1/2*zeta180^11 + 2*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 2*zeta180^3 - 3/2*zeta180"
+            ],
+            "complex_c": "-1",
+            "complex_t": "-3*zeta180^44 + 3*zeta180^42 - zeta180^38 + 2*zeta180^36 + 2*zeta180^20 - zeta180^18 + 3*zeta180^14 - 3*zeta180^12 + 2"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 1,
+              "other_vertex": 2,
+              "root_P_edge": 0,
+              "other_P_edge": 2,
+              "P_vertices": [
+                [
+                  "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "1/2",
+                  "-1/2*zeta180^45 + zeta180^33 - zeta180^9 - zeta180^3"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 2,
+              "other_vertex": 1,
+              "root_P_edge": 2,
+              "other_P_edge": 0,
+              "P_vertices": [
+                [
+                  "-1/2*zeta180^46 - 3/2*zeta180^44 + zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4",
+                  "-1/2*zeta180^47 + zeta180^45 - 1/2*zeta180^35 - 2*zeta180^33 + 3/2*zeta180^31 - zeta180^29 + zeta180^25 - 1/2*zeta180^11 + 2*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 2*zeta180^3 - 3/2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 - 3/2*zeta180^44 + zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4 + 1",
+                  "-1/2*zeta180^47 + zeta180^45 - 1/2*zeta180^35 - 2*zeta180^33 + 3/2*zeta180^31 - zeta180^29 + zeta180^25 - 1/2*zeta180^11 + 2*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 2*zeta180^3 - 3/2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 - 3/2*zeta180^44 + 1/2*zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - 1/2*zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - 1/2*zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4 + 1/2",
+                  "-1/2*zeta180^47 + 3/2*zeta180^45 - 1/2*zeta180^35 - 5/2*zeta180^33 + 3/2*zeta180^31 - zeta180^29 - 1/2*zeta180^27 + zeta180^25 - 1/2*zeta180^11 + 3*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 5/2*zeta180^3 - 3/2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 - 3/2*zeta180^44 + zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4 + 1/2",
+                  "-1/2*zeta180^47 + 3/2*zeta180^45 - 1/2*zeta180^35 - 3*zeta180^33 + 3/2*zeta180^31 - zeta180^29 + zeta180^25 - 1/2*zeta180^11 + 3*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 3*zeta180^3 - 3/2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 - 3/2*zeta180^44 + 3/2*zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - 3/2*zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - 3/2*zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4 + 1/2",
+                  "-1/2*zeta180^47 + 3/2*zeta180^45 - 1/2*zeta180^35 - 5/2*zeta180^33 + 3/2*zeta180^31 - zeta180^29 - 1/2*zeta180^27 + zeta180^25 - 1/2*zeta180^11 + 3*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 5/2*zeta180^3 - 3/2*zeta180"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        },
+        {
+          "id": 1,
+          "root_edge": 3,
+          "other_edge": 5,
+          "types": [
+            "AA",
+            "BB"
+          ],
+          "isometry": {
+            "reflection": false,
+            "linear": [
+              [
+                "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 - 1/2",
+                "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+              ],
+              [
+                "1/2*zeta180^45 - 1/2*zeta180^33 - 1/2*zeta180^27 + zeta180^9 + 1/2*zeta180^3",
+                "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 - 1/2"
+              ]
+            ],
+            "translation": [
+              "-1/2*zeta180^46 - 3/2*zeta180^44 + zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4 + 1/2",
+              "-1/2*zeta180^47 + 3/2*zeta180^45 - 1/2*zeta180^35 - 3*zeta180^33 + 3/2*zeta180^31 - zeta180^29 + zeta180^25 - 1/2*zeta180^11 + 3*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 3*zeta180^3 - 3/2*zeta180"
+            ],
+            "complex_c": "zeta180^36",
+            "complex_t": "-3*zeta180^44 + 4*zeta180^42 - zeta180^38 + 3*zeta180^36 + 2*zeta180^20 - zeta180^18 + 3*zeta180^14 - 4*zeta180^12 + 2"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 3,
+              "other_vertex": 6,
+              "root_P_edge": 2,
+              "other_P_edge": 6,
+              "P_vertices": [
+                [
+                  "-1/2*zeta180^46 - 3/2*zeta180^44 + zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4 + 1/2",
+                  "-1/2*zeta180^47 + 3/2*zeta180^45 - 1/2*zeta180^35 - 3*zeta180^33 + 3/2*zeta180^31 - zeta180^29 + zeta180^25 - 1/2*zeta180^11 + 3*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 3*zeta180^3 - 3/2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 - 3/2*zeta180^44 + 3/2*zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - 3/2*zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - 3/2*zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4 + 1/2",
+                  "-1/2*zeta180^47 + 3/2*zeta180^45 - 1/2*zeta180^35 - 5/2*zeta180^33 + 3/2*zeta180^31 - zeta180^29 - 1/2*zeta180^27 + zeta180^25 - 1/2*zeta180^11 + 3*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 5/2*zeta180^3 - 3/2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 - 3/2*zeta180^44 + zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4",
+                  "-1/2*zeta180^47 + zeta180^45 - 1/2*zeta180^35 - 2*zeta180^33 + 3/2*zeta180^31 - zeta180^29 + zeta180^25 - 1/2*zeta180^11 + 2*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 2*zeta180^3 - 3/2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 - 3/2*zeta180^44 + zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4 + 1",
+                  "-1/2*zeta180^47 + zeta180^45 - 1/2*zeta180^35 - 2*zeta180^33 + 3/2*zeta180^31 - zeta180^29 + zeta180^25 - 1/2*zeta180^11 + 2*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 2*zeta180^3 - 3/2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 - 3/2*zeta180^44 + 1/2*zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - 1/2*zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - 1/2*zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4 + 1/2",
+                  "-1/2*zeta180^47 + 3/2*zeta180^45 - 1/2*zeta180^35 - 5/2*zeta180^33 + 3/2*zeta180^31 - zeta180^29 - 1/2*zeta180^27 + zeta180^25 - 1/2*zeta180^11 + 3*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 5/2*zeta180^3 - 3/2*zeta180"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 4,
+              "other_vertex": 5,
+              "root_P_edge": 4,
+              "other_P_edge": 4,
+              "P_vertices": [
+                [
+                  "-1/2*zeta180^44 + 2*zeta180^42 - 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 + zeta180^20 - 2*zeta180^18 + zeta180^16 + 1/2*zeta180^14 - 2*zeta180^12 + 3/2*zeta180^10 + 1/2*zeta180^2 - 1/2",
+                  "1/2*zeta180^45 + 1/2*zeta180^43 - 3/2*zeta180^35 - zeta180^33 + 1/2*zeta180^31 - zeta180^29 + zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 + 3/2*zeta180^5 + zeta180^3 - 1/2*zeta180"
+                ],
+                [
+                  "2*zeta180^42 - 3/2*zeta180^40 + zeta180^38 - zeta180^34 + 1/2*zeta180^20 - 2*zeta180^18 + zeta180^16 - 2*zeta180^12 + 3/2*zeta180^10 + zeta180^2 - 1/2",
+                  "1/2*zeta180^45 + zeta180^43 - 3/2*zeta180^35 - zeta180^33 - zeta180^29 + 1/2*zeta180^25 + zeta180^11 + zeta180^9 + zeta180^7 + 3/2*zeta180^5 + zeta180^3"
+                ],
+                [
+                  "1/2*zeta180^46 + 2*zeta180^42 - zeta180^40 + zeta180^38 - zeta180^34 - 1/2*zeta180^28 - 1/2*zeta180^22 + 1/2*zeta180^20 - 2*zeta180^18 + 1/2*zeta180^16 - 2*zeta180^12 + 3/2*zeta180^10 + 1/2*zeta180^4 + 1/2*zeta180^2 - 1/2",
+                  "1/2*zeta180^47 + 1/2*zeta180^45 + 1/2*zeta180^43 - 3/2*zeta180^35 - zeta180^33 - zeta180^29 + 1/2*zeta180^25 + zeta180^11 + zeta180^9 + zeta180^7 + 3/2*zeta180^5 + zeta180^3"
+                ],
+                [
+                  "2*zeta180^42 - zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 + 1/2*zeta180^20 - 2*zeta180^18 + 1/2*zeta180^16 - 2*zeta180^12 + zeta180^10 + 1/2*zeta180^2 - 1/2",
+                  "1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 - zeta180^33 - 1/2*zeta180^29 + 1/2*zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 + zeta180^5 + zeta180^3"
+                ],
+                [
+                  "-1/2*zeta180^44 + 2*zeta180^42 - zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 + 1/2*zeta180^20 - 2*zeta180^18 + zeta180^16 + 1/2*zeta180^14 - 2*zeta180^12 + zeta180^10 + 1/2*zeta180^2 - 1/2",
+                  "1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 - zeta180^33 + 1/2*zeta180^31 - zeta180^29 + 1/2*zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 + zeta180^5 + zeta180^3 - 1/2*zeta180"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        },
+        {
+          "id": 2,
+          "root_edge": 3,
+          "other_edge": 5,
+          "types": [
+            "AA",
+            "BB"
+          ],
+          "isometry": {
+            "reflection": true,
+            "linear": [
+              [
+                "1/2*zeta180^46 + 1/2*zeta180^38 - 1/2*zeta180^34 - 1/2*zeta180^28 - 1/2*zeta180^22 + 1/2*zeta180^10 + 1/2*zeta180^4",
+                "1/2*zeta180^47 - 1/2*zeta180^35 - 1/2*zeta180^29 + 1/2*zeta180^11 + 1/2*zeta180^7 + 1/2*zeta180^5"
+              ],
+              [
+                "1/2*zeta180^47 - 1/2*zeta180^35 - 1/2*zeta180^29 + 1/2*zeta180^11 + 1/2*zeta180^7 + 1/2*zeta180^5",
+                "-1/2*zeta180^46 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 - 1/2*zeta180^10 - 1/2*zeta180^4"
+              ]
+            ],
+            "translation": [
+              "2*zeta180^42 - 3/2*zeta180^40 + zeta180^38 - zeta180^34 + 1/2*zeta180^20 - 2*zeta180^18 + zeta180^16 - 2*zeta180^12 + 3/2*zeta180^10 + zeta180^2 - 1/2",
+              "1/2*zeta180^45 + zeta180^43 - 3/2*zeta180^35 - zeta180^33 - zeta180^29 + 1/2*zeta180^25 + zeta180^11 + zeta180^9 + zeta180^7 + 3/2*zeta180^5 + zeta180^3"
+            ],
+            "complex_c": "zeta180^38",
+            "complex_t": "3*zeta180^42 + 2*zeta180^38 + zeta180^36 + zeta180^20 - 2*zeta180^18 - 3*zeta180^12 + 2*zeta180^2"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 3,
+              "other_vertex": 5,
+              "root_P_edge": 2,
+              "other_P_edge": 4,
+              "P_vertices": [
+                [
+                  "-1/2*zeta180^46 - 3/2*zeta180^44 + 3/2*zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - 3/2*zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - 3/2*zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4 + 1/2",
+                  "-1/2*zeta180^47 + 3/2*zeta180^45 - 1/2*zeta180^35 - 5/2*zeta180^33 + 3/2*zeta180^31 - zeta180^29 - 1/2*zeta180^27 + zeta180^25 - 1/2*zeta180^11 + 3*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 5/2*zeta180^3 - 3/2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 - 3/2*zeta180^44 + zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4 + 1/2",
+                  "-1/2*zeta180^47 + 3/2*zeta180^45 - 1/2*zeta180^35 - 3*zeta180^33 + 3/2*zeta180^31 - zeta180^29 + zeta180^25 - 1/2*zeta180^11 + 3*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 3*zeta180^3 - 3/2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 - 3/2*zeta180^44 + 1/2*zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - 1/2*zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - 1/2*zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4 + 1/2",
+                  "-1/2*zeta180^47 + 3/2*zeta180^45 - 1/2*zeta180^35 - 5/2*zeta180^33 + 3/2*zeta180^31 - zeta180^29 - 1/2*zeta180^27 + zeta180^25 - 1/2*zeta180^11 + 3*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 5/2*zeta180^3 - 3/2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 - 3/2*zeta180^44 + zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4 + 1",
+                  "-1/2*zeta180^47 + zeta180^45 - 1/2*zeta180^35 - 2*zeta180^33 + 3/2*zeta180^31 - zeta180^29 + zeta180^25 - 1/2*zeta180^11 + 2*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 2*zeta180^3 - 3/2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^46 - 3/2*zeta180^44 + zeta180^42 - zeta180^40 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 + zeta180^20 - zeta180^18 + 3/2*zeta180^16 + 3/2*zeta180^14 - zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^4",
+                  "-1/2*zeta180^47 + zeta180^45 - 1/2*zeta180^35 - 2*zeta180^33 + 3/2*zeta180^31 - zeta180^29 + zeta180^25 - 1/2*zeta180^11 + 2*zeta180^9 - 1/2*zeta180^7 + 1/2*zeta180^5 + 2*zeta180^3 - 3/2*zeta180"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 4,
+              "other_vertex": 6,
+              "root_P_edge": 4,
+              "other_P_edge": 6,
+              "P_vertices": [
+                [
+                  "2*zeta180^42 - 3/2*zeta180^40 + zeta180^38 - zeta180^34 + 1/2*zeta180^20 - 2*zeta180^18 + zeta180^16 - 2*zeta180^12 + 3/2*zeta180^10 + zeta180^2 - 1/2",
+                  "1/2*zeta180^45 + zeta180^43 - 3/2*zeta180^35 - zeta180^33 - zeta180^29 + 1/2*zeta180^25 + zeta180^11 + zeta180^9 + zeta180^7 + 3/2*zeta180^5 + zeta180^3"
+                ],
+                [
+                  "-1/2*zeta180^44 + 2*zeta180^42 - 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 + zeta180^20 - 2*zeta180^18 + zeta180^16 + 1/2*zeta180^14 - 2*zeta180^12 + 3/2*zeta180^10 + 1/2*zeta180^2 - 1/2",
+                  "1/2*zeta180^45 + 1/2*zeta180^43 - 3/2*zeta180^35 - zeta180^33 + 1/2*zeta180^31 - zeta180^29 + zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 + 3/2*zeta180^5 + zeta180^3 - 1/2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^44 + 2*zeta180^42 - zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 + 1/2*zeta180^20 - 2*zeta180^18 + zeta180^16 + 1/2*zeta180^14 - 2*zeta180^12 + zeta180^10 + 1/2*zeta180^2 - 1/2",
+                  "1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 - zeta180^33 + 1/2*zeta180^31 - zeta180^29 + 1/2*zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 + zeta180^5 + zeta180^3 - 1/2*zeta180"
+                ],
+                [
+                  "2*zeta180^42 - zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 + 1/2*zeta180^20 - 2*zeta180^18 + 1/2*zeta180^16 - 2*zeta180^12 + zeta180^10 + 1/2*zeta180^2 - 1/2",
+                  "1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 - zeta180^33 - 1/2*zeta180^29 + 1/2*zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 + zeta180^5 + zeta180^3"
+                ],
+                [
+                  "1/2*zeta180^46 + 2*zeta180^42 - zeta180^40 + zeta180^38 - zeta180^34 - 1/2*zeta180^28 - 1/2*zeta180^22 + 1/2*zeta180^20 - 2*zeta180^18 + 1/2*zeta180^16 - 2*zeta180^12 + 3/2*zeta180^10 + 1/2*zeta180^4 + 1/2*zeta180^2 - 1/2",
+                  "1/2*zeta180^47 + 1/2*zeta180^45 + 1/2*zeta180^43 - 3/2*zeta180^35 - zeta180^33 - zeta180^29 + 1/2*zeta180^25 + zeta180^11 + zeta180^9 + zeta180^7 + 3/2*zeta180^5 + zeta180^3"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        },
+        {
+          "id": 3,
+          "root_edge": 5,
+          "other_edge": 3,
+          "types": [
+            "BB",
+            "AA"
+          ],
+          "isometry": {
+            "reflection": false,
+            "linear": [
+              [
+                "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 - 1/2",
+                "1/2*zeta180^45 - 1/2*zeta180^33 - 1/2*zeta180^27 + zeta180^9 + 1/2*zeta180^3"
+              ],
+              [
+                "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3",
+                "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 - 1/2"
+              ]
+            ],
+            "translation": [
+              "zeta180^46 + zeta180^44 + 5/2*zeta180^42 - 1/2*zeta180^40 + 3/2*zeta180^38 - 3/2*zeta180^34 - zeta180^28 - zeta180^22 - 5/2*zeta180^18 - 1/2*zeta180^16 - zeta180^14 - 5/2*zeta180^12 + 3/2*zeta180^10 + zeta180^4 + 1/2*zeta180^2",
+              "zeta180^47 - zeta180^45 + 1/2*zeta180^43 - 3/2*zeta180^35 + 3/2*zeta180^33 - zeta180^31 - 1/2*zeta180^29 + 1/2*zeta180^27 + 3/2*zeta180^11 - 2*zeta180^9 + 3/2*zeta180^7 + 3/2*zeta180^5 - 3/2*zeta180^3 + zeta180"
+            ],
+            "complex_c": "-zeta180^42 - zeta180^36 + zeta180^18 + zeta180^12 - 1",
+            "complex_t": "2*zeta180^44 + zeta180^42 + 3*zeta180^38 - 2*zeta180^36 - 2*zeta180^18 - 2*zeta180^14 - zeta180^12 + zeta180^2 - 1"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 5,
+              "other_vertex": 4,
+              "root_P_edge": 4,
+              "other_P_edge": 4,
+              "P_vertices": [
+                [
+                  "2*zeta180^42 - zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 + 1/2*zeta180^20 - 2*zeta180^18 + 1/2*zeta180^16 - 2*zeta180^12 + zeta180^10 + 1/2*zeta180^2 - 1/2",
+                  "1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 - zeta180^33 - 1/2*zeta180^29 + 1/2*zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 + zeta180^5 + zeta180^3"
+                ],
+                [
+                  "-1/2*zeta180^44 + 2*zeta180^42 - zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 + 1/2*zeta180^20 - 2*zeta180^18 + zeta180^16 + 1/2*zeta180^14 - 2*zeta180^12 + zeta180^10 + 1/2*zeta180^2 - 1/2",
+                  "1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 - zeta180^33 + 1/2*zeta180^31 - zeta180^29 + 1/2*zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 + zeta180^5 + zeta180^3 - 1/2*zeta180"
+                ],
+                [
+                  "-1/2*zeta180^44 + 2*zeta180^42 - 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 + zeta180^20 - 2*zeta180^18 + zeta180^16 + 1/2*zeta180^14 - 2*zeta180^12 + 3/2*zeta180^10 + 1/2*zeta180^2 - 1/2",
+                  "1/2*zeta180^45 + 1/2*zeta180^43 - 3/2*zeta180^35 - zeta180^33 + 1/2*zeta180^31 - zeta180^29 + zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 + 3/2*zeta180^5 + zeta180^3 - 1/2*zeta180"
+                ],
+                [
+                  "2*zeta180^42 - 3/2*zeta180^40 + zeta180^38 - zeta180^34 + 1/2*zeta180^20 - 2*zeta180^18 + zeta180^16 - 2*zeta180^12 + 3/2*zeta180^10 + zeta180^2 - 1/2",
+                  "1/2*zeta180^45 + zeta180^43 - 3/2*zeta180^35 - zeta180^33 - zeta180^29 + 1/2*zeta180^25 + zeta180^11 + zeta180^9 + zeta180^7 + 3/2*zeta180^5 + zeta180^3"
+                ],
+                [
+                  "1/2*zeta180^46 + 2*zeta180^42 - zeta180^40 + zeta180^38 - zeta180^34 - 1/2*zeta180^28 - 1/2*zeta180^22 + 1/2*zeta180^20 - 2*zeta180^18 + 1/2*zeta180^16 - 2*zeta180^12 + 3/2*zeta180^10 + 1/2*zeta180^4 + 1/2*zeta180^2 - 1/2",
+                  "1/2*zeta180^47 + 1/2*zeta180^45 + 1/2*zeta180^43 - 3/2*zeta180^35 - zeta180^33 - zeta180^29 + 1/2*zeta180^25 + zeta180^11 + zeta180^9 + zeta180^7 + 3/2*zeta180^5 + zeta180^3"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 6,
+              "other_vertex": 3,
+              "root_P_edge": 6,
+              "other_P_edge": 2,
+              "P_vertices": [
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12",
+                  "-1/2*zeta180^33 + 1/2*zeta180^27 + 1/2*zeta180^3"
+                ],
+                [
+                  "zeta180^42 - zeta180^18 - zeta180^12",
+                  "0"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 - 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "0",
+                  "0"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        },
+        {
+          "id": 4,
+          "root_edge": 5,
+          "other_edge": 3,
+          "types": [
+            "BB",
+            "AA"
+          ],
+          "isometry": {
+            "reflection": true,
+            "linear": [
+              [
+                "1/2*zeta180^46 + 1/2*zeta180^38 - 1/2*zeta180^34 - 1/2*zeta180^28 - 1/2*zeta180^22 + 1/2*zeta180^10 + 1/2*zeta180^4",
+                "1/2*zeta180^47 - 1/2*zeta180^35 - 1/2*zeta180^29 + 1/2*zeta180^11 + 1/2*zeta180^7 + 1/2*zeta180^5"
+              ],
+              [
+                "1/2*zeta180^47 - 1/2*zeta180^35 - 1/2*zeta180^29 + 1/2*zeta180^11 + 1/2*zeta180^7 + 1/2*zeta180^5",
+                "-1/2*zeta180^46 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 - 1/2*zeta180^10 - 1/2*zeta180^4"
+              ]
+            ],
+            "translation": [
+              "1/2*zeta180^46 + 3/2*zeta180^44 + 3/2*zeta180^42 - 1/2*zeta180^40 + 3/2*zeta180^38 - 3/2*zeta180^34 - 1/2*zeta180^28 - 1/2*zeta180^22 - 1/2*zeta180^20 - 3/2*zeta180^18 - 1/2*zeta180^16 - 3/2*zeta180^14 - 3/2*zeta180^12 + zeta180^10 + 1/2*zeta180^4 + zeta180^2 - 1",
+              "1/2*zeta180^47 - zeta180^45 + zeta180^43 - zeta180^35 + 3/2*zeta180^33 - 3/2*zeta180^31 + 1/2*zeta180^27 - 1/2*zeta180^25 + 3/2*zeta180^11 - 2*zeta180^9 + 3/2*zeta180^7 + zeta180^5 - 3/2*zeta180^3 + 3/2*zeta180"
+            ],
+            "complex_c": "zeta180^38",
+            "complex_t": "3*zeta180^44 + 3*zeta180^38 - 2*zeta180^36 - zeta180^20 - zeta180^18 - 3*zeta180^14 + 2*zeta180^2 - 2"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 5,
+              "other_vertex": 3,
+              "root_P_edge": 4,
+              "other_P_edge": 2,
+              "P_vertices": [
+                [
+                  "-1/2*zeta180^44 + 2*zeta180^42 - zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 + 1/2*zeta180^20 - 2*zeta180^18 + zeta180^16 + 1/2*zeta180^14 - 2*zeta180^12 + zeta180^10 + 1/2*zeta180^2 - 1/2",
+                  "1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 - zeta180^33 + 1/2*zeta180^31 - zeta180^29 + 1/2*zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 + zeta180^5 + zeta180^3 - 1/2*zeta180"
+                ],
+                [
+                  "2*zeta180^42 - zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 + 1/2*zeta180^20 - 2*zeta180^18 + 1/2*zeta180^16 - 2*zeta180^12 + zeta180^10 + 1/2*zeta180^2 - 1/2",
+                  "1/2*zeta180^45 + 1/2*zeta180^43 - zeta180^35 - zeta180^33 - 1/2*zeta180^29 + 1/2*zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 + zeta180^5 + zeta180^3"
+                ],
+                [
+                  "1/2*zeta180^46 + 2*zeta180^42 - zeta180^40 + zeta180^38 - zeta180^34 - 1/2*zeta180^28 - 1/2*zeta180^22 + 1/2*zeta180^20 - 2*zeta180^18 + 1/2*zeta180^16 - 2*zeta180^12 + 3/2*zeta180^10 + 1/2*zeta180^4 + 1/2*zeta180^2 - 1/2",
+                  "1/2*zeta180^47 + 1/2*zeta180^45 + 1/2*zeta180^43 - 3/2*zeta180^35 - zeta180^33 - zeta180^29 + 1/2*zeta180^25 + zeta180^11 + zeta180^9 + zeta180^7 + 3/2*zeta180^5 + zeta180^3"
+                ],
+                [
+                  "2*zeta180^42 - 3/2*zeta180^40 + zeta180^38 - zeta180^34 + 1/2*zeta180^20 - 2*zeta180^18 + zeta180^16 - 2*zeta180^12 + 3/2*zeta180^10 + zeta180^2 - 1/2",
+                  "1/2*zeta180^45 + zeta180^43 - 3/2*zeta180^35 - zeta180^33 - zeta180^29 + 1/2*zeta180^25 + zeta180^11 + zeta180^9 + zeta180^7 + 3/2*zeta180^5 + zeta180^3"
+                ],
+                [
+                  "-1/2*zeta180^44 + 2*zeta180^42 - 3/2*zeta180^40 + 1/2*zeta180^38 - 1/2*zeta180^34 + zeta180^20 - 2*zeta180^18 + zeta180^16 + 1/2*zeta180^14 - 2*zeta180^12 + 3/2*zeta180^10 + 1/2*zeta180^2 - 1/2",
+                  "1/2*zeta180^45 + 1/2*zeta180^43 - 3/2*zeta180^35 - zeta180^33 + 1/2*zeta180^31 - zeta180^29 + zeta180^25 + 1/2*zeta180^11 + zeta180^9 + 1/2*zeta180^7 + 3/2*zeta180^5 + zeta180^3 - 1/2*zeta180"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 6,
+              "other_vertex": 4,
+              "root_P_edge": 6,
+              "other_P_edge": 4,
+              "P_vertices": [
+                [
+                  "zeta180^42 - zeta180^18 - zeta180^12",
+                  "0"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12",
+                  "-1/2*zeta180^33 + 1/2*zeta180^27 + 1/2*zeta180^3"
+                ],
+                [
+                  "0",
+                  "0"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 - 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        }
+      ],
+      "strand_at_Q": [
+        {
+          "AA_seam": 1,
+          "BB_seam": 3,
+          "compatible": true,
+          "overlap_pairs": []
+        },
+        {
+          "AA_seam": 1,
+          "BB_seam": 4,
+          "compatible": true,
+          "overlap_pairs": []
+        },
+        {
+          "AA_seam": 2,
+          "BB_seam": 3,
+          "compatible": true,
+          "overlap_pairs": []
+        },
+        {
+          "AA_seam": 2,
+          "BB_seam": 4,
+          "compatible": true,
+          "overlap_pairs": []
+        }
+      ]
+    },
+    {
+      "holonomy": [
+        {
+          "seam": 3,
+          "rotation_order": 5,
+          "power_translation": [
+            "0",
+            "0"
+          ],
+          "scope": "formal isometry composition only"
+        },
+        {
+          "seam": 4,
+          "square_linear_identity": true,
+          "square_translation": [
+            "-3/2*zeta180^46 + 1/2*zeta180^44 + 2*zeta180^42 + zeta180^40 + zeta180^36 + 1/2*zeta180^34 - 1/2*zeta180^32 - 1/2*zeta180^30 + 3/2*zeta180^28 - 3/2*zeta180^24 + 1/2*zeta180^22 - 3/2*zeta180^20 - 3/2*zeta180^18 + 1/2*zeta180^16 - zeta180^12 - 2*zeta180^10 - 1/2*zeta180^8 - 1/2*zeta180^6 - zeta180^4 + zeta180^2 + 1",
+            "5/2*zeta180^47 - zeta180^43 + 1/2*zeta180^41 - 1/2*zeta180^39 - 1/2*zeta180^37 + zeta180^33 - zeta180^29 - 1/2*zeta180^27 + 1/2*zeta180^25 - zeta180^23 + 1/2*zeta180^21 + zeta180^19 - 2*zeta180^17 - 1/2*zeta180^15 - 1/2*zeta180^13 + 1/2*zeta180^11 + 3/2*zeta180^5 - zeta180^3 - 3/2*zeta180"
+          ],
+          "square_translation_nonzero": true,
+          "scope": "formal isometry composition, no embedded infinite ribbon assertion"
+        }
+      ],
+      "word": "BAAABB",
+      "root_P_check": {
+        "P_overlap_edge_pairs": [],
+        "Q144_PP_common_vertices": [
+          [
+            "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 + 1/2",
+            "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      "Q_vertices": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "3/2*zeta180^46 - 1/2*zeta180^44 - 3/2*zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + zeta180^18 - 1/2*zeta180^16 + 1/2*zeta180^12 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 3/2",
+          "-5/2*zeta180^47 - 1/2*zeta180^45 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - 1/2*zeta180^33 + zeta180^29 + zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - zeta180^9 - 3/2*zeta180^5 + 1/2*zeta180^3 + 3/2*zeta180"
+        ],
+        [
+          "3/2*zeta180^46 - 1/2*zeta180^44 - zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + 1/2*zeta180^18 - 1/2*zeta180^16 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 1",
+          "-5/2*zeta180^47 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - zeta180^33 + zeta180^29 + 1/2*zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - 3/2*zeta180^5 + zeta180^3 + 3/2*zeta180"
+        ],
+        [
+          "1/2*zeta180^46 - 1/2*zeta180^44 - zeta180^40 + 1/2*zeta180^38 - 2/5*zeta180^36 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + zeta180^20 - 1/5*zeta180^18 - 2/5*zeta180^12 + zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 1/2*zeta180^2 - 2/5",
+          "-13/10*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 - 1/5*zeta180^35 - 4/5*zeta180^33 - 2/5*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 1/5*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 - 1/5*zeta180^11 + 1/5*zeta180^9 + 1/10*zeta180^7 - 7/10*zeta180^5 + 4/5*zeta180^3 + 13/10*zeta180"
+        ],
+        [
+          "1/2*zeta180^46 - 1/2*zeta180^44 - 1/2*zeta180^40 + 1/2*zeta180^38 - 2/5*zeta180^36 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 2/5*zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 1/2*zeta180^2 - 2/5",
+          "-13/10*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 + 3/10*zeta180^35 - 4/5*zeta180^33 - 2/5*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 - 1/5*zeta180^11 + 1/5*zeta180^9 + 1/10*zeta180^7 - 6/5*zeta180^5 + 4/5*zeta180^3 + 13/10*zeta180"
+        ],
+        [
+          "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12",
+          "-1/2*zeta180^33 + 1/2*zeta180^27 + 1/2*zeta180^3"
+        ]
+      ],
+      "QQ_lengths": {
+        "1": "zeta180^46 - 2*zeta180^44 - 2*zeta180^42 - 2*zeta180^40 - zeta180^38 - zeta180^36 + zeta180^34 + 2*zeta180^32 - zeta180^28 + zeta180^24 + zeta180^22 + 2*zeta180^20 + 2*zeta180^18 + 2*zeta180^12 + zeta180^10 + zeta180^6 - zeta180^4 - 2*zeta180^2 - 2",
+        "3": "-4/5*zeta180^46 + zeta180^42 + 1/5*zeta180^40 - 1/5*zeta180^38 + 4/5*zeta180^36 - 1/5*zeta180^34 - 2/5*zeta180^32 - 2/5*zeta180^30 + 2/5*zeta180^28 - 1/5*zeta180^26 - 6/5*zeta180^24 + 3/5*zeta180^22 - 3/5*zeta180^20 - 3/5*zeta180^18 + 6/5*zeta180^16 + 4/5*zeta180^14 - 1/5*zeta180^12 - 1/5*zeta180^10 + 3/5*zeta180^8 - 2/5*zeta180^6 - 1/5*zeta180^4 + 4/5*zeta180^2 + 9/5",
+        "5": "-4/5*zeta180^46 + zeta180^42 + 1/5*zeta180^40 - 1/5*zeta180^38 + 4/5*zeta180^36 - 1/5*zeta180^34 - 2/5*zeta180^32 - 2/5*zeta180^30 + 2/5*zeta180^28 - 1/5*zeta180^26 - 6/5*zeta180^24 + 3/5*zeta180^22 - 3/5*zeta180^20 - 3/5*zeta180^18 + 6/5*zeta180^16 + 4/5*zeta180^14 - 1/5*zeta180^12 - 1/5*zeta180^10 + 3/5*zeta180^8 - 2/5*zeta180^6 - 1/5*zeta180^4 + 4/5*zeta180^2 + 9/5"
+      },
+      "types": {
+        "1": "BA",
+        "3": "AA",
+        "5": "BB"
+      },
+      "seams": [
+        {
+          "id": 0,
+          "root_edge": 1,
+          "other_edge": 1,
+          "types": [
+            "BA",
+            "BA"
+          ],
+          "isometry": {
+            "reflection": false,
+            "linear": [
+              [
+                "-1",
+                "0"
+              ],
+              [
+                "0",
+                "-1"
+              ]
+            ],
+            "translation": [
+              "3/2*zeta180^46 - 1/2*zeta180^44 - 3/2*zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + zeta180^18 - 1/2*zeta180^16 + 1/2*zeta180^12 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 1/2",
+              "-5/2*zeta180^47 - 1/2*zeta180^45 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - 1/2*zeta180^33 + zeta180^29 + zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - zeta180^9 - 3/2*zeta180^5 + 1/2*zeta180^3 + 3/2*zeta180"
+            ],
+            "complex_c": "-1",
+            "complex_t": "4*zeta180^46 + zeta180^44 - zeta180^42 - 2*zeta180^36 - zeta180^34 + zeta180^32 + zeta180^30 - 2*zeta180^28 - zeta180^26 + zeta180^24 - 2*zeta180^22 + zeta180^20 + 2*zeta180^18 - 2*zeta180^16 + 2*zeta180^10 + zeta180^8 + zeta180^6 + 3*zeta180^4 - 1"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 1,
+              "other_vertex": 2,
+              "root_P_edge": 0,
+              "other_P_edge": 2,
+              "P_vertices": [
+                [
+                  "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "1",
+                  "0"
+                ],
+                [
+                  "0",
+                  "0"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "1/2",
+                  "-1/2*zeta180^45 + zeta180^33 - zeta180^9 - zeta180^3"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 2,
+              "other_vertex": 1,
+              "root_P_edge": 2,
+              "other_P_edge": 0,
+              "P_vertices": [
+                [
+                  "3/2*zeta180^46 - 1/2*zeta180^44 - 3/2*zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + zeta180^18 - 1/2*zeta180^16 + 1/2*zeta180^12 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 3/2",
+                  "-5/2*zeta180^47 - 1/2*zeta180^45 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - 1/2*zeta180^33 + zeta180^29 + zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - zeta180^9 - 3/2*zeta180^5 + 1/2*zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "3/2*zeta180^46 - 1/2*zeta180^44 - 3/2*zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + zeta180^18 - 1/2*zeta180^16 + 1/2*zeta180^12 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 1/2",
+                  "-5/2*zeta180^47 - 1/2*zeta180^45 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - 1/2*zeta180^33 + zeta180^29 + zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - zeta180^9 - 3/2*zeta180^5 + 1/2*zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "3/2*zeta180^46 - 1/2*zeta180^44 - 2*zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + 3/2*zeta180^18 - 1/2*zeta180^16 + zeta180^12 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 1",
+                  "-5/2*zeta180^47 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - zeta180^33 + zeta180^29 + 1/2*zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - 3/2*zeta180^5 + zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "3/2*zeta180^46 - 1/2*zeta180^44 - 3/2*zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + zeta180^18 - 1/2*zeta180^16 + 1/2*zeta180^12 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 1",
+                  "-5/2*zeta180^47 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - 3/2*zeta180^33 + zeta180^29 + zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - 3/2*zeta180^5 + 3/2*zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "3/2*zeta180^46 - 1/2*zeta180^44 - zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + 1/2*zeta180^18 - 1/2*zeta180^16 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 1",
+                  "-5/2*zeta180^47 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - zeta180^33 + zeta180^29 + 1/2*zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - 3/2*zeta180^5 + zeta180^3 + 3/2*zeta180"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        },
+        {
+          "id": 1,
+          "root_edge": 3,
+          "other_edge": 5,
+          "types": [
+            "AA",
+            "BB"
+          ],
+          "isometry": {
+            "reflection": false,
+            "linear": [
+              [
+                "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 - 1/2",
+                "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+              ],
+              [
+                "1/2*zeta180^45 - 1/2*zeta180^33 - 1/2*zeta180^27 + zeta180^9 + 1/2*zeta180^3",
+                "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 - 1/2"
+              ]
+            ],
+            "translation": [
+              "3/2*zeta180^46 - 1/2*zeta180^44 - 3/2*zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + zeta180^18 - 1/2*zeta180^16 + 1/2*zeta180^12 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 1",
+              "-5/2*zeta180^47 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - 3/2*zeta180^33 + zeta180^29 + zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - 3/2*zeta180^5 + 3/2*zeta180^3 + 3/2*zeta180"
+            ],
+            "complex_c": "zeta180^36",
+            "complex_t": "4*zeta180^46 + zeta180^44 - zeta180^36 - zeta180^34 + zeta180^32 + zeta180^30 - 2*zeta180^28 - zeta180^26 + zeta180^24 - 2*zeta180^22 + zeta180^20 + 2*zeta180^18 - 2*zeta180^16 - zeta180^12 + 2*zeta180^10 + zeta180^8 + zeta180^6 + 3*zeta180^4 - 1"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 3,
+              "other_vertex": 6,
+              "root_P_edge": 2,
+              "other_P_edge": 6,
+              "P_vertices": [
+                [
+                  "3/2*zeta180^46 - 1/2*zeta180^44 - 3/2*zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + zeta180^18 - 1/2*zeta180^16 + 1/2*zeta180^12 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 1",
+                  "-5/2*zeta180^47 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - 3/2*zeta180^33 + zeta180^29 + zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - 3/2*zeta180^5 + 3/2*zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "3/2*zeta180^46 - 1/2*zeta180^44 - zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + 1/2*zeta180^18 - 1/2*zeta180^16 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 1",
+                  "-5/2*zeta180^47 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - zeta180^33 + zeta180^29 + 1/2*zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - 3/2*zeta180^5 + zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "3/2*zeta180^46 - 1/2*zeta180^44 - 3/2*zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + zeta180^18 - 1/2*zeta180^16 + 1/2*zeta180^12 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 3/2",
+                  "-5/2*zeta180^47 - 1/2*zeta180^45 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - 1/2*zeta180^33 + zeta180^29 + zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - zeta180^9 - 3/2*zeta180^5 + 1/2*zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "3/2*zeta180^46 - 1/2*zeta180^44 - 3/2*zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + zeta180^18 - 1/2*zeta180^16 + 1/2*zeta180^12 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 1/2",
+                  "-5/2*zeta180^47 - 1/2*zeta180^45 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - 1/2*zeta180^33 + zeta180^29 + zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - zeta180^9 - 3/2*zeta180^5 + 1/2*zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "3/2*zeta180^46 - 1/2*zeta180^44 - 2*zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + 3/2*zeta180^18 - 1/2*zeta180^16 + zeta180^12 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 1",
+                  "-5/2*zeta180^47 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - zeta180^33 + zeta180^29 + 1/2*zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - 3/2*zeta180^5 + zeta180^3 + 3/2*zeta180"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 4,
+              "other_vertex": 5,
+              "root_P_edge": 4,
+              "other_P_edge": 4,
+              "P_vertices": [
+                [
+                  "1/2*zeta180^46 - 1/2*zeta180^44 - zeta180^40 + 1/2*zeta180^38 - 2/5*zeta180^36 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + zeta180^20 - 1/5*zeta180^18 - 2/5*zeta180^12 + zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 1/2*zeta180^2 - 2/5",
+                  "-13/10*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 - 1/5*zeta180^35 - 4/5*zeta180^33 - 2/5*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 1/5*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 - 1/5*zeta180^11 + 1/5*zeta180^9 + 1/10*zeta180^7 - 7/10*zeta180^5 + 4/5*zeta180^3 + 13/10*zeta180"
+                ],
+                [
+                  "1/2*zeta180^46 - zeta180^40 + zeta180^38 - 2/5*zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 1/2*zeta180^14 - 2/5*zeta180^12 + zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 2/5",
+                  "-13/10*zeta180^47 - 2/5*zeta180^45 + zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 - 1/5*zeta180^35 - 4/5*zeta180^33 - 9/10*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 + 3/10*zeta180^11 + 1/5*zeta180^9 + 3/5*zeta180^7 - 7/10*zeta180^5 + 4/5*zeta180^3 + 9/5*zeta180"
+                ],
+                [
+                  "zeta180^46 - 1/2*zeta180^40 + zeta180^38 - 2/5*zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/5*zeta180^30 - zeta180^28 + 3/5*zeta180^24 - zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 1/2*zeta180^16 - 1/2*zeta180^14 - 2/5*zeta180^12 + zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 + 1/2*zeta180^4 - 1/2*zeta180^2 - 2/5",
+                  "-4/5*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 - 1/5*zeta180^35 - 4/5*zeta180^33 - 9/10*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 + 3/10*zeta180^11 + 1/5*zeta180^9 + 3/5*zeta180^7 - 7/10*zeta180^5 + 4/5*zeta180^3 + 9/5*zeta180"
+                ],
+                [
+                  "1/2*zeta180^46 - 1/2*zeta180^40 + 1/2*zeta180^38 - 2/5*zeta180^36 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 1/2*zeta180^16 - 1/2*zeta180^14 - 2/5*zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 1/2*zeta180^2 - 2/5",
+                  "-13/10*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 + 3/10*zeta180^35 - 4/5*zeta180^33 - 9/10*zeta180^31 + 7/5*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 - 1/5*zeta180^11 + 1/5*zeta180^9 + 1/10*zeta180^7 - 6/5*zeta180^5 + 4/5*zeta180^3 + 9/5*zeta180"
+                ],
+                [
+                  "1/2*zeta180^46 - 1/2*zeta180^44 - 1/2*zeta180^40 + 1/2*zeta180^38 - 2/5*zeta180^36 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 2/5*zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 1/2*zeta180^2 - 2/5",
+                  "-13/10*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 + 3/10*zeta180^35 - 4/5*zeta180^33 - 2/5*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 - 1/5*zeta180^11 + 1/5*zeta180^9 + 1/10*zeta180^7 - 6/5*zeta180^5 + 4/5*zeta180^3 + 13/10*zeta180"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        },
+        {
+          "id": 2,
+          "root_edge": 3,
+          "other_edge": 5,
+          "types": [
+            "AA",
+            "BB"
+          ],
+          "isometry": {
+            "reflection": true,
+            "linear": [
+              [
+                "1/2*zeta180^46 + 1/2*zeta180^38 - 1/2*zeta180^34 - 1/2*zeta180^28 - 1/2*zeta180^22 + 1/2*zeta180^10 + 1/2*zeta180^4",
+                "1/2*zeta180^47 - 1/2*zeta180^35 - 1/2*zeta180^29 + 1/2*zeta180^11 + 1/2*zeta180^7 + 1/2*zeta180^5"
+              ],
+              [
+                "1/2*zeta180^47 - 1/2*zeta180^35 - 1/2*zeta180^29 + 1/2*zeta180^11 + 1/2*zeta180^7 + 1/2*zeta180^5",
+                "-1/2*zeta180^46 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 - 1/2*zeta180^10 - 1/2*zeta180^4"
+              ]
+            ],
+            "translation": [
+              "1/2*zeta180^46 - zeta180^40 + zeta180^38 - 2/5*zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 1/2*zeta180^14 - 2/5*zeta180^12 + zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 2/5",
+              "-13/10*zeta180^47 - 2/5*zeta180^45 + zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 - 1/5*zeta180^35 - 4/5*zeta180^33 - 9/10*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 + 3/10*zeta180^11 + 1/5*zeta180^9 + 3/5*zeta180^7 - 7/10*zeta180^5 + 4/5*zeta180^3 + 9/5*zeta180"
+            ],
+            "complex_c": "zeta180^38",
+            "complex_t": "9/5*zeta180^46 + 9/5*zeta180^44 + 4/5*zeta180^42 - 2/5*zeta180^40 + 8/5*zeta180^38 - 1/5*zeta180^36 - 1/5*zeta180^34 + 4/5*zeta180^32 + 6/5*zeta180^30 - 3/5*zeta180^28 - 3/5*zeta180^26 + 3/5*zeta180^24 - 6/5*zeta180^22 - 1/5*zeta180^20 + 2/5*zeta180^18 - 2/5*zeta180^16 - 7/5*zeta180^14 - 6/5*zeta180^12 + 4/5*zeta180^10 - 1/5*zeta180^8 + 1/5*zeta180^6 + zeta180^4 + zeta180^2 - 4/5"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 3,
+              "other_vertex": 5,
+              "root_P_edge": 2,
+              "other_P_edge": 4,
+              "P_vertices": [
+                [
+                  "3/2*zeta180^46 - 1/2*zeta180^44 - zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + 1/2*zeta180^18 - 1/2*zeta180^16 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 1",
+                  "-5/2*zeta180^47 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - zeta180^33 + zeta180^29 + 1/2*zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - 3/2*zeta180^5 + zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "3/2*zeta180^46 - 1/2*zeta180^44 - 3/2*zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + zeta180^18 - 1/2*zeta180^16 + 1/2*zeta180^12 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 1",
+                  "-5/2*zeta180^47 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - 3/2*zeta180^33 + zeta180^29 + zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - 3/2*zeta180^5 + 3/2*zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "3/2*zeta180^46 - 1/2*zeta180^44 - 2*zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + 3/2*zeta180^18 - 1/2*zeta180^16 + zeta180^12 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 1",
+                  "-5/2*zeta180^47 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - zeta180^33 + zeta180^29 + 1/2*zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - 3/2*zeta180^5 + zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "3/2*zeta180^46 - 1/2*zeta180^44 - 3/2*zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + zeta180^18 - 1/2*zeta180^16 + 1/2*zeta180^12 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 1/2",
+                  "-5/2*zeta180^47 - 1/2*zeta180^45 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - 1/2*zeta180^33 + zeta180^29 + zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - zeta180^9 - 3/2*zeta180^5 + 1/2*zeta180^3 + 3/2*zeta180"
+                ],
+                [
+                  "3/2*zeta180^46 - 1/2*zeta180^44 - 3/2*zeta180^42 - zeta180^40 - zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 3/2*zeta180^28 + 3/2*zeta180^24 - 1/2*zeta180^22 + 3/2*zeta180^20 + zeta180^18 - 1/2*zeta180^16 + 1/2*zeta180^12 + 2*zeta180^10 + 1/2*zeta180^8 + 1/2*zeta180^6 + zeta180^4 - zeta180^2 - 3/2",
+                  "-5/2*zeta180^47 - 1/2*zeta180^45 + zeta180^43 - 1/2*zeta180^41 + 1/2*zeta180^39 + 1/2*zeta180^37 - 1/2*zeta180^33 + zeta180^29 + zeta180^27 - 1/2*zeta180^25 + zeta180^23 - 1/2*zeta180^21 - zeta180^19 + 2*zeta180^17 + 1/2*zeta180^15 + 1/2*zeta180^13 - 1/2*zeta180^11 - zeta180^9 - 3/2*zeta180^5 + 1/2*zeta180^3 + 3/2*zeta180"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 4,
+              "other_vertex": 6,
+              "root_P_edge": 4,
+              "other_P_edge": 6,
+              "P_vertices": [
+                [
+                  "1/2*zeta180^46 - zeta180^40 + zeta180^38 - 2/5*zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 1/2*zeta180^14 - 2/5*zeta180^12 + zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 2/5",
+                  "-13/10*zeta180^47 - 2/5*zeta180^45 + zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 - 1/5*zeta180^35 - 4/5*zeta180^33 - 9/10*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 + 3/10*zeta180^11 + 1/5*zeta180^9 + 3/5*zeta180^7 - 7/10*zeta180^5 + 4/5*zeta180^3 + 9/5*zeta180"
+                ],
+                [
+                  "1/2*zeta180^46 - 1/2*zeta180^44 - zeta180^40 + 1/2*zeta180^38 - 2/5*zeta180^36 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + zeta180^20 - 1/5*zeta180^18 - 2/5*zeta180^12 + zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 1/2*zeta180^2 - 2/5",
+                  "-13/10*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 - 1/5*zeta180^35 - 4/5*zeta180^33 - 2/5*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 1/5*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 - 1/5*zeta180^11 + 1/5*zeta180^9 + 1/10*zeta180^7 - 7/10*zeta180^5 + 4/5*zeta180^3 + 13/10*zeta180"
+                ],
+                [
+                  "1/2*zeta180^46 - 1/2*zeta180^44 - 1/2*zeta180^40 + 1/2*zeta180^38 - 2/5*zeta180^36 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 2/5*zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 1/2*zeta180^2 - 2/5",
+                  "-13/10*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 + 3/10*zeta180^35 - 4/5*zeta180^33 - 2/5*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 - 1/5*zeta180^11 + 1/5*zeta180^9 + 1/10*zeta180^7 - 6/5*zeta180^5 + 4/5*zeta180^3 + 13/10*zeta180"
+                ],
+                [
+                  "1/2*zeta180^46 - 1/2*zeta180^40 + 1/2*zeta180^38 - 2/5*zeta180^36 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 1/2*zeta180^16 - 1/2*zeta180^14 - 2/5*zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 1/2*zeta180^2 - 2/5",
+                  "-13/10*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 + 3/10*zeta180^35 - 4/5*zeta180^33 - 9/10*zeta180^31 + 7/5*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 - 1/5*zeta180^11 + 1/5*zeta180^9 + 1/10*zeta180^7 - 6/5*zeta180^5 + 4/5*zeta180^3 + 9/5*zeta180"
+                ],
+                [
+                  "zeta180^46 - 1/2*zeta180^40 + zeta180^38 - 2/5*zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/5*zeta180^30 - zeta180^28 + 3/5*zeta180^24 - zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 1/2*zeta180^16 - 1/2*zeta180^14 - 2/5*zeta180^12 + zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 + 1/2*zeta180^4 - 1/2*zeta180^2 - 2/5",
+                  "-4/5*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 - 1/5*zeta180^35 - 4/5*zeta180^33 - 9/10*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 + 3/10*zeta180^11 + 1/5*zeta180^9 + 3/5*zeta180^7 - 7/10*zeta180^5 + 4/5*zeta180^3 + 9/5*zeta180"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        },
+        {
+          "id": 3,
+          "root_edge": 5,
+          "other_edge": 3,
+          "types": [
+            "BB",
+            "AA"
+          ],
+          "isometry": {
+            "reflection": false,
+            "linear": [
+              [
+                "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 - 1/2",
+                "1/2*zeta180^45 - 1/2*zeta180^33 - 1/2*zeta180^27 + zeta180^9 + 1/2*zeta180^3"
+              ],
+              [
+                "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3",
+                "-1/2*zeta180^42 + 1/2*zeta180^18 + 1/2*zeta180^12 - 1/2"
+              ]
+            ],
+            "translation": [
+              "1/2*zeta180^46 - 1/2*zeta180^44 + 1/2*zeta180^42 + 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^32 + 1/2*zeta180^30 - 1/2*zeta180^28 + 1/2*zeta180^24 - zeta180^22 + 1/2*zeta180^20 - zeta180^18 - 1/2*zeta180^16 - 3/2*zeta180^12 - zeta180^8 - 1/2*zeta180^6 - zeta180^2",
+              "-3/2*zeta180^47 - zeta180^45 + 2*zeta180^43 + 1/2*zeta180^41 + 1/2*zeta180^39 + zeta180^37 - 1/2*zeta180^33 - 2*zeta180^31 + 2*zeta180^29 + zeta180^27 - 3/2*zeta180^25 + 1/2*zeta180^23 - 1/2*zeta180^21 - 2*zeta180^19 + zeta180^17 + 3/2*zeta180^15 - 1/2*zeta180^13 - 1/2*zeta180^11 - zeta180^9 + 1/2*zeta180^7 - 3/2*zeta180^5 + 1/2*zeta180^3 + 7/2*zeta180"
+            ],
+            "complex_c": "-zeta180^42 - zeta180^36 + zeta180^18 + zeta180^12 - 1",
+            "complex_t": "2*zeta180^46 + 3*zeta180^44 + zeta180^42 + zeta180^38 - zeta180^36 + 2*zeta180^30 - zeta180^28 - 2*zeta180^26 - 2*zeta180^22 - zeta180^20 - 2*zeta180^14 - 2*zeta180^12 + 2*zeta180^4 + zeta180^2 - 1"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 5,
+              "other_vertex": 4,
+              "root_P_edge": 4,
+              "other_P_edge": 4,
+              "P_vertices": [
+                [
+                  "1/2*zeta180^46 - 1/2*zeta180^40 + 1/2*zeta180^38 - 2/5*zeta180^36 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 1/2*zeta180^16 - 1/2*zeta180^14 - 2/5*zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 1/2*zeta180^2 - 2/5",
+                  "-13/10*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 + 3/10*zeta180^35 - 4/5*zeta180^33 - 9/10*zeta180^31 + 7/5*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 - 1/5*zeta180^11 + 1/5*zeta180^9 + 1/10*zeta180^7 - 6/5*zeta180^5 + 4/5*zeta180^3 + 9/5*zeta180"
+                ],
+                [
+                  "1/2*zeta180^46 - 1/2*zeta180^44 - 1/2*zeta180^40 + 1/2*zeta180^38 - 2/5*zeta180^36 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 2/5*zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 1/2*zeta180^2 - 2/5",
+                  "-13/10*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 + 3/10*zeta180^35 - 4/5*zeta180^33 - 2/5*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 - 1/5*zeta180^11 + 1/5*zeta180^9 + 1/10*zeta180^7 - 6/5*zeta180^5 + 4/5*zeta180^3 + 13/10*zeta180"
+                ],
+                [
+                  "1/2*zeta180^46 - 1/2*zeta180^44 - zeta180^40 + 1/2*zeta180^38 - 2/5*zeta180^36 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + zeta180^20 - 1/5*zeta180^18 - 2/5*zeta180^12 + zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 1/2*zeta180^2 - 2/5",
+                  "-13/10*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 - 1/5*zeta180^35 - 4/5*zeta180^33 - 2/5*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 1/5*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 - 1/5*zeta180^11 + 1/5*zeta180^9 + 1/10*zeta180^7 - 7/10*zeta180^5 + 4/5*zeta180^3 + 13/10*zeta180"
+                ],
+                [
+                  "1/2*zeta180^46 - zeta180^40 + zeta180^38 - 2/5*zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 1/2*zeta180^14 - 2/5*zeta180^12 + zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 2/5",
+                  "-13/10*zeta180^47 - 2/5*zeta180^45 + zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 - 1/5*zeta180^35 - 4/5*zeta180^33 - 9/10*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 + 3/10*zeta180^11 + 1/5*zeta180^9 + 3/5*zeta180^7 - 7/10*zeta180^5 + 4/5*zeta180^3 + 9/5*zeta180"
+                ],
+                [
+                  "zeta180^46 - 1/2*zeta180^40 + zeta180^38 - 2/5*zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/5*zeta180^30 - zeta180^28 + 3/5*zeta180^24 - zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 1/2*zeta180^16 - 1/2*zeta180^14 - 2/5*zeta180^12 + zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 + 1/2*zeta180^4 - 1/2*zeta180^2 - 2/5",
+                  "-4/5*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 - 1/5*zeta180^35 - 4/5*zeta180^33 - 9/10*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 + 3/10*zeta180^11 + 1/5*zeta180^9 + 3/5*zeta180^7 - 7/10*zeta180^5 + 4/5*zeta180^3 + 9/5*zeta180"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 6,
+              "other_vertex": 3,
+              "root_P_edge": 6,
+              "other_P_edge": 2,
+              "P_vertices": [
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12",
+                  "-1/2*zeta180^33 + 1/2*zeta180^27 + 1/2*zeta180^3"
+                ],
+                [
+                  "zeta180^42 - zeta180^18 - zeta180^12",
+                  "0"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 - 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "0",
+                  "0"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        },
+        {
+          "id": 4,
+          "root_edge": 5,
+          "other_edge": 3,
+          "types": [
+            "BB",
+            "AA"
+          ],
+          "isometry": {
+            "reflection": true,
+            "linear": [
+              [
+                "1/2*zeta180^46 + 1/2*zeta180^38 - 1/2*zeta180^34 - 1/2*zeta180^28 - 1/2*zeta180^22 + 1/2*zeta180^10 + 1/2*zeta180^4",
+                "1/2*zeta180^47 - 1/2*zeta180^35 - 1/2*zeta180^29 + 1/2*zeta180^11 + 1/2*zeta180^7 + 1/2*zeta180^5"
+              ],
+              [
+                "1/2*zeta180^47 - 1/2*zeta180^35 - 1/2*zeta180^29 + 1/2*zeta180^11 + 1/2*zeta180^7 + 1/2*zeta180^5",
+                "-1/2*zeta180^46 - 1/2*zeta180^38 + 1/2*zeta180^34 + 1/2*zeta180^28 + 1/2*zeta180^22 - 1/2*zeta180^10 - 1/2*zeta180^4"
+              ]
+            ],
+            "translation": [
+              "-zeta180^46 + 1/2*zeta180^44 + 2*zeta180^42 + zeta180^38 + 3/5*zeta180^36 - 3/10*zeta180^30 + zeta180^28 - 9/10*zeta180^24 - zeta180^20 - 17/10*zeta180^18 + 1/2*zeta180^16 - 1/2*zeta180^14 - 7/5*zeta180^12 - zeta180^10 - zeta180^8 - 3/10*zeta180^6 - zeta180^4 + zeta180^2 + 3/5",
+              "6/5*zeta180^47 - 2/5*zeta180^45 + 1/5*zeta180^41 - 1/2*zeta180^39 - 1/5*zeta180^37 - 1/5*zeta180^35 + 1/5*zeta180^33 - 9/10*zeta180^31 - 1/10*zeta180^29 + 1/10*zeta180^27 - 1/5*zeta180^25 - 2/5*zeta180^23 + 1/2*zeta180^21 + 2/5*zeta180^19 - 4/5*zeta180^17 + 1/2*zeta180^15 - 1/5*zeta180^13 + 4/5*zeta180^11 + 1/5*zeta180^9 + 3/5*zeta180^7 + 4/5*zeta180^5 - 1/5*zeta180^3 + 3/10*zeta180"
+            ],
+            "complex_c": "zeta180^38",
+            "complex_t": "-11/5*zeta180^46 + 4/5*zeta180^44 + 9/5*zeta180^42 - 2/5*zeta180^40 + 8/5*zeta180^38 + 4/5*zeta180^36 + 4/5*zeta180^34 - 1/5*zeta180^32 + 1/5*zeta180^30 + 7/5*zeta180^28 + 2/5*zeta180^26 - 2/5*zeta180^24 + 4/5*zeta180^22 - 6/5*zeta180^20 - 8/5*zeta180^18 + 8/5*zeta180^16 - 7/5*zeta180^14 - 6/5*zeta180^12 - 6/5*zeta180^10 - 6/5*zeta180^8 - 4/5*zeta180^6 - 2*zeta180^4 + zeta180^2 + 1/5"
+          },
+          "endpoints": [
+            {
+              "root_vertex": 5,
+              "other_vertex": 3,
+              "root_P_edge": 4,
+              "other_P_edge": 2,
+              "P_vertices": [
+                [
+                  "1/2*zeta180^46 - 1/2*zeta180^44 - 1/2*zeta180^40 + 1/2*zeta180^38 - 2/5*zeta180^36 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 2/5*zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 1/2*zeta180^2 - 2/5",
+                  "-13/10*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 + 3/10*zeta180^35 - 4/5*zeta180^33 - 2/5*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 - 1/5*zeta180^11 + 1/5*zeta180^9 + 1/10*zeta180^7 - 6/5*zeta180^5 + 4/5*zeta180^3 + 13/10*zeta180"
+                ],
+                [
+                  "1/2*zeta180^46 - 1/2*zeta180^40 + 1/2*zeta180^38 - 2/5*zeta180^36 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 1/2*zeta180^16 - 1/2*zeta180^14 - 2/5*zeta180^12 + 1/2*zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 1/2*zeta180^2 - 2/5",
+                  "-13/10*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 + 3/10*zeta180^35 - 4/5*zeta180^33 - 9/10*zeta180^31 + 7/5*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 - 1/5*zeta180^11 + 1/5*zeta180^9 + 1/10*zeta180^7 - 6/5*zeta180^5 + 4/5*zeta180^3 + 9/5*zeta180"
+                ],
+                [
+                  "zeta180^46 - 1/2*zeta180^40 + zeta180^38 - 2/5*zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/5*zeta180^30 - zeta180^28 + 3/5*zeta180^24 - zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 1/2*zeta180^16 - 1/2*zeta180^14 - 2/5*zeta180^12 + zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 + 1/2*zeta180^4 - 1/2*zeta180^2 - 2/5",
+                  "-4/5*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 - 1/5*zeta180^35 - 4/5*zeta180^33 - 9/10*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 + 3/10*zeta180^11 + 1/5*zeta180^9 + 3/5*zeta180^7 - 7/10*zeta180^5 + 4/5*zeta180^3 + 9/5*zeta180"
+                ],
+                [
+                  "1/2*zeta180^46 - zeta180^40 + zeta180^38 - 2/5*zeta180^36 - 1/2*zeta180^34 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + 1/2*zeta180^20 - 1/5*zeta180^18 - 1/2*zeta180^14 - 2/5*zeta180^12 + zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 2/5",
+                  "-13/10*zeta180^47 - 2/5*zeta180^45 + zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 - 1/5*zeta180^35 - 4/5*zeta180^33 - 9/10*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 7/10*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 + 3/10*zeta180^11 + 1/5*zeta180^9 + 3/5*zeta180^7 - 7/10*zeta180^5 + 4/5*zeta180^3 + 9/5*zeta180"
+                ],
+                [
+                  "1/2*zeta180^46 - 1/2*zeta180^44 - zeta180^40 + 1/2*zeta180^38 - 2/5*zeta180^36 + 1/2*zeta180^32 + 1/5*zeta180^30 - 1/2*zeta180^28 + 3/5*zeta180^24 - 1/2*zeta180^22 + zeta180^20 - 1/5*zeta180^18 - 2/5*zeta180^12 + zeta180^10 - 1/2*zeta180^8 + 1/5*zeta180^6 - 1/2*zeta180^2 - 2/5",
+                  "-13/10*zeta180^47 - 2/5*zeta180^45 + 1/2*zeta180^43 - 3/10*zeta180^41 + 3/10*zeta180^37 - 1/5*zeta180^35 - 4/5*zeta180^33 - 2/5*zeta180^31 + 9/10*zeta180^29 + 3/5*zeta180^27 - 1/5*zeta180^25 + 3/5*zeta180^23 - 3/5*zeta180^19 + 6/5*zeta180^17 + zeta180^15 + 3/10*zeta180^13 - 1/5*zeta180^11 + 1/5*zeta180^9 + 1/10*zeta180^7 - 7/10*zeta180^5 + 4/5*zeta180^3 + 13/10*zeta180"
+                ]
+              ],
+              "coincident": true
+            },
+            {
+              "root_vertex": 6,
+              "other_vertex": 4,
+              "root_P_edge": 6,
+              "other_P_edge": 4,
+              "P_vertices": [
+                [
+                  "zeta180^42 - zeta180^18 - zeta180^12",
+                  "0"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12",
+                  "-1/2*zeta180^33 + 1/2*zeta180^27 + 1/2*zeta180^3"
+                ],
+                [
+                  "0",
+                  "0"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 + 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ],
+                [
+                  "1/2*zeta180^42 - 1/2*zeta180^18 - 1/2*zeta180^12 - 1/2",
+                  "-1/2*zeta180^45 + 1/2*zeta180^33 + 1/2*zeta180^27 - zeta180^9 - 1/2*zeta180^3"
+                ]
+              ],
+              "coincident": true
+            }
+          ],
+          "full_forced_P_neighborhood_overlap_pairs": [],
+          "compatible": true
+        }
+      ],
+      "strand_at_Q": [
+        {
+          "AA_seam": 1,
+          "BB_seam": 3,
+          "compatible": true,
+          "overlap_pairs": []
+        },
+        {
+          "AA_seam": 1,
+          "BB_seam": 4,
+          "compatible": true,
+          "overlap_pairs": []
+        },
+        {
+          "AA_seam": 2,
+          "BB_seam": 3,
+          "compatible": true,
+          "overlap_pairs": []
+        },
+        {
+          "AA_seam": 2,
+          "BB_seam": 4,
+          "compatible": true,
+          "overlap_pairs": []
+        }
+      ]
+    }
+  ]
+}

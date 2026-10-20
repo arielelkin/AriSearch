@@ -1,0 +1,330 @@
+{
+  "schema": "THIRTYTWO_STAR_END_CORNER_ANALYTIC_METRIC_IFT_SOL_V1",
+  "support_rank": 5,
+  "nullspace": [
+    [
+      "-1",
+      "0",
+      "0",
+      "-1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "-1",
+      "0",
+      "0",
+      "0",
+      "-1"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "1",
+      "1",
+      "0",
+      "1"
+    ],
+    [
+      "0",
+      "-1",
+      "0",
+      "0",
+      "-1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "-1",
+      "-1",
+      "-1",
+      "-1",
+      "-1"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "closure_angle_jacobian": [
+    [
+      "-sqrt(3)/2",
+      "sqrt(3)/2",
+      "0",
+      "-sqrt(3)",
+      "-sqrt(3)/2",
+      "0",
+      "0"
+    ],
+    [
+      "1/2",
+      "1/2",
+      "-2",
+      "-2",
+      "1/2",
+      "0",
+      "-2"
+    ],
+    [
+      "0",
+      "0",
+      "-sqrt(3)/2",
+      "-sqrt(3)",
+      "-sqrt(3)",
+      "-sqrt(3)/2",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1/2",
+      "0",
+      "-2",
+      "-5/2",
+      "-2"
+    ]
+  ],
+  "solved_minor": [
+    [
+      "-sqrt(3)/2",
+      "sqrt(3)/2",
+      "0",
+      "-sqrt(3)"
+    ],
+    [
+      "1/2",
+      "1/2",
+      "-2",
+      "-2"
+    ],
+    [
+      "0",
+      "0",
+      "-sqrt(3)/2",
+      "-sqrt(3)"
+    ],
+    [
+      "0",
+      "0",
+      "1/2",
+      "0"
+    ]
+  ],
+  "minor_determinant": "-3/4",
+  "base_lengths": [
+    2,
+    1,
+    1,
+    1,
+    1
+  ],
+  "base_angles": "all 2*pi/3",
+  "length_path": "(2,1+t,1+2*t,1+3*t,1+4*t)",
+  "free_coordinates": "x4=t,x5=x6=0; solve x0..x3 by analytic IFT",
+  "angle_derivatives": [
+    "-2*sqrt(3) - 1",
+    "4 + 3*sqrt(3)",
+    "-4 - sqrt(3)",
+    "2",
+    "-sqrt(3)",
+    "-1 + sqrt(3)",
+    "-2",
+    "sqrt(3) + 4",
+    "-3 - sqrt(3)",
+    "1",
+    "0",
+    "0"
+  ],
+  "H1_sum_derivatives": [
+    "-1",
+    "-1"
+  ],
+  "claim": "For every sufficiently small t>0, analytic IFT supplies exact strictly convex closed common-length hexagons with five distinct positive lengths. Both avoid H1/H2/H3. No local corona or plane tiling established.",
+  "full_dihedral_monohedral_audit": [
+    {
+      "polygon": 0,
+      "offset": 1,
+      "reverse": false,
+      "system": "H1",
+      "angle_indices": [
+        0,
+        1,
+        2
+      ],
+      "sum_derivative": "-1"
+    },
+    {
+      "polygon": 0,
+      "offset": 2,
+      "reverse": true,
+      "system": "H1",
+      "angle_indices": [
+        2,
+        1,
+        0
+      ],
+      "sum_derivative": "-1"
+    },
+    {
+      "polygon": 0,
+      "offset": 4,
+      "reverse": false,
+      "system": "H1",
+      "angle_indices": [
+        3,
+        4,
+        5
+      ],
+      "sum_derivative": "1"
+    },
+    {
+      "polygon": 0,
+      "offset": 5,
+      "reverse": true,
+      "system": "H1",
+      "angle_indices": [
+        5,
+        4,
+        3
+      ],
+      "sum_derivative": "1"
+    },
+    {
+      "polygon": 1,
+      "offset": 1,
+      "reverse": false,
+      "system": "H1",
+      "angle_indices": [
+        6,
+        7,
+        8
+      ],
+      "sum_derivative": "-1"
+    },
+    {
+      "polygon": 1,
+      "offset": 2,
+      "reverse": true,
+      "system": "H1",
+      "angle_indices": [
+        8,
+        7,
+        6
+      ],
+      "sum_derivative": "-1"
+    },
+    {
+      "polygon": 1,
+      "offset": 2,
+      "reverse": true,
+      "system": "H2",
+      "angle_indices": [
+        8,
+        7,
+        11
+      ],
+      "sum_derivative": "1"
+    },
+    {
+      "polygon": 1,
+      "offset": 4,
+      "reverse": false,
+      "system": "H1",
+      "angle_indices": [
+        9,
+        10,
+        11
+      ],
+      "sum_derivative": "1"
+    },
+    {
+      "polygon": 1,
+      "offset": 4,
+      "reverse": false,
+      "system": "H2",
+      "angle_indices": [
+        9,
+        10,
+        6
+      ],
+      "sum_derivative": "-1"
+    },
+    {
+      "polygon": 1,
+      "offset": 5,
+      "reverse": true,
+      "system": "H1",
+      "angle_indices": [
+        11,
+        10,
+        9
+      ],
+      "sum_derivative": "1"
+    }
+  ]
+}

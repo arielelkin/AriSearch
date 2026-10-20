@@ -2,7 +2,9 @@
 
 **Status:** The opening conditional fusion theorem has a
 [fresh independent VALID rereview](../reviews/convex-cluster-fusion-basic-fresh-rereview.md).
-Ancillary trivalent/cluster statements retain their separate review gates. The
+The ancillary trivalent-cluster obstruction has also passed
+[independent Sol re-review](../reviews/trivalent-fusion-sol-rereview-2026-10-19.md).
+The
 exact-patch, unrestricted-isometry, tile-level-partition, and distinct-class
 hypotheses required by that review are now stated here. See [research/reviews/convex-cluster-fusion-review.md](../reviews/convex-cluster-fusion-review.md).
 

@@ -1,0 +1,1427 @@
+{
+  "status": "EXACT_TRANSFER_ALL_ADMISSIBLE_PARAMETERS",
+  "domain": "real h > -t",
+  "t": "-zeta20^7 + zeta20^5 - zeta20^3 + 2*zeta20",
+  "k": "-zeta20^6 + zeta20^4",
+  "coefficient_field": "CyclotomicField(20), w=exp(2*pi*i/20)",
+  "ring": "K[h]",
+  "lattice": [
+    "zeta20*h + 2*zeta20^4 + zeta20^2 + 2",
+    "(zeta20^7 - zeta20^5 + zeta20^3 - zeta20)*h + 3*zeta20^6 - zeta20^4 + zeta20^2 - 3"
+  ],
+  "determinant": "(-1/2*zeta20^7 + 1/2*zeta20^3)*h^2 + (-3*zeta20^6 + 3*zeta20^4 + 5)*h - 21/2*zeta20^7 + 13/2*zeta20^5 - 5/2*zeta20^3 + 13*zeta20",
+  "determinant_in_x_h_plus_t": "(-1/2*zeta20^7 + 1/2*zeta20^3)*h^2 + (-zeta20^6 + zeta20^4 + 4)*h - 4*zeta20^7 + 2*zeta20^5 + 4*zeta20",
+  "strict_convexity_certificates": [
+    {
+      "face": "P",
+      "edge": 0,
+      "vertex": 2,
+      "polynomial": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20",
+      "in_x_h_plus_t": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20"
+    },
+    {
+      "face": "P",
+      "edge": 0,
+      "vertex": 3,
+      "polynomial": "-zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "-zeta20^7 + 1/2*zeta20^5 + zeta20"
+    },
+    {
+      "face": "P",
+      "edge": 0,
+      "vertex": 4,
+      "polynomial": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20",
+      "in_x_h_plus_t": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20"
+    },
+    {
+      "face": "P",
+      "edge": 1,
+      "vertex": 0,
+      "polynomial": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20",
+      "in_x_h_plus_t": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20"
+    },
+    {
+      "face": "P",
+      "edge": 1,
+      "vertex": 3,
+      "polynomial": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20",
+      "in_x_h_plus_t": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20"
+    },
+    {
+      "face": "P",
+      "edge": 1,
+      "vertex": 4,
+      "polynomial": "-zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "-zeta20^7 + 1/2*zeta20^5 + zeta20"
+    },
+    {
+      "face": "P",
+      "edge": 2,
+      "vertex": 0,
+      "polynomial": "-zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "-zeta20^7 + 1/2*zeta20^5 + zeta20"
+    },
+    {
+      "face": "P",
+      "edge": 2,
+      "vertex": 1,
+      "polynomial": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20",
+      "in_x_h_plus_t": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20"
+    },
+    {
+      "face": "P",
+      "edge": 2,
+      "vertex": 4,
+      "polynomial": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20",
+      "in_x_h_plus_t": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20"
+    },
+    {
+      "face": "P",
+      "edge": 3,
+      "vertex": 0,
+      "polynomial": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20",
+      "in_x_h_plus_t": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20"
+    },
+    {
+      "face": "P",
+      "edge": 3,
+      "vertex": 1,
+      "polynomial": "-zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "-zeta20^7 + 1/2*zeta20^5 + zeta20"
+    },
+    {
+      "face": "P",
+      "edge": 3,
+      "vertex": 2,
+      "polynomial": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20",
+      "in_x_h_plus_t": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20"
+    },
+    {
+      "face": "P",
+      "edge": 4,
+      "vertex": 1,
+      "polynomial": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20",
+      "in_x_h_plus_t": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20"
+    },
+    {
+      "face": "P",
+      "edge": 4,
+      "vertex": 2,
+      "polynomial": "-zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "-zeta20^7 + 1/2*zeta20^5 + zeta20"
+    },
+    {
+      "face": "P",
+      "edge": 4,
+      "vertex": 3,
+      "polynomial": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20",
+      "in_x_h_plus_t": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20"
+    },
+    {
+      "face": "Q",
+      "edge": 0,
+      "vertex": 2,
+      "polynomial": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h"
+    },
+    {
+      "face": "Q",
+      "edge": 0,
+      "vertex": 3,
+      "polynomial": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - 3/2*zeta20^7 + zeta20^5 - 1/2*zeta20^3 + 2*zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - 1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20"
+    },
+    {
+      "face": "Q",
+      "edge": 0,
+      "vertex": 4,
+      "polynomial": "h - 2*zeta20^7 + zeta20^5 + 2*zeta20",
+      "in_x_h_plus_t": "h - zeta20^7 + zeta20^3"
+    },
+    {
+      "face": "Q",
+      "edge": 0,
+      "vertex": 5,
+      "polynomial": "h - 3/2*zeta20^7 + zeta20^5 - 1/2*zeta20^3 + 2*zeta20",
+      "in_x_h_plus_t": "h - 1/2*zeta20^7 + 1/2*zeta20^3"
+    },
+    {
+      "face": "Q",
+      "edge": 0,
+      "vertex": 6,
+      "polynomial": "-1/2*zeta20^7 + 1/2*zeta20^3",
+      "in_x_h_plus_t": "-1/2*zeta20^7 + 1/2*zeta20^3"
+    },
+    {
+      "face": "Q",
+      "edge": 1,
+      "vertex": 0,
+      "polynomial": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h"
+    },
+    {
+      "face": "Q",
+      "edge": 1,
+      "vertex": 3,
+      "polynomial": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h"
+    },
+    {
+      "face": "Q",
+      "edge": 1,
+      "vertex": 4,
+      "polynomial": "(-1/2*zeta20^7 + 1/2*zeta20^3)*h^2 + (-2*zeta20^6 + 2*zeta20^4 + 5/2)*h - 3*zeta20^7 + 2*zeta20^5 - zeta20^3 + 4*zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^7 + 1/2*zeta20^3)*h^2 + 3/2*h"
+    },
+    {
+      "face": "Q",
+      "edge": 1,
+      "vertex": 5,
+      "polynomial": "(-1/2*zeta20^7 + 1/2*zeta20^3)*h^2 + (-5/2*zeta20^6 + 5/2*zeta20^4 + 5/2)*h - 7/2*zeta20^7 + 2*zeta20^5 - 1/2*zeta20^3 + 4*zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^7 + 1/2*zeta20^3)*h^2 + (-1/2*zeta20^6 + 1/2*zeta20^4 + 3/2)*h"
+    },
+    {
+      "face": "Q",
+      "edge": 1,
+      "vertex": 6,
+      "polynomial": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 3/2)*h - 2*zeta20^7 + 3/2*zeta20^5 - zeta20^3 + 3*zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 3/2)*h"
+    },
+    {
+      "face": "Q",
+      "edge": 2,
+      "vertex": 0,
+      "polynomial": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - 3/2*zeta20^7 + zeta20^5 - 1/2*zeta20^3 + 2*zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - 1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20"
+    },
+    {
+      "face": "Q",
+      "edge": 2,
+      "vertex": 1,
+      "polynomial": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h"
+    },
+    {
+      "face": "Q",
+      "edge": 2,
+      "vertex": 4,
+      "polynomial": "1/2*h - zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "1/2*h - 1/2*zeta20^7 + 1/2*zeta20^3"
+    },
+    {
+      "face": "Q",
+      "edge": 2,
+      "vertex": 5,
+      "polynomial": "1/2*h - 3/2*zeta20^7 + zeta20^5 - 1/2*zeta20^3 + 2*zeta20",
+      "in_x_h_plus_t": "1/2*h - zeta20^7 + 1/2*zeta20^5 + zeta20"
+    },
+    {
+      "face": "Q",
+      "edge": 2,
+      "vertex": 6,
+      "polynomial": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - 2*zeta20^7 + zeta20^5 + 2*zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - zeta20^7 + 1/2*zeta20^5 + zeta20"
+    },
+    {
+      "face": "Q",
+      "edge": 3,
+      "vertex": 0,
+      "polynomial": "(-1/2*zeta20^7 + 1/2*zeta20^3)*h^2 + (-zeta20^6 + zeta20^4 + 3)*h - 7/2*zeta20^7 + 2*zeta20^5 - 1/2*zeta20^3 + 4*zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^7 + 1/2*zeta20^3)*h^2 + (zeta20^6 - zeta20^4 + 2)*h - zeta20^7 - 1/2*zeta20^5 + 2*zeta20^3 - zeta20"
+    },
+    {
+      "face": "Q",
+      "edge": 3,
+      "vertex": 1,
+      "polynomial": "(-1/2*zeta20^7 + 1/2*zeta20^3)*h^2 + (-3/2*zeta20^6 + 3/2*zeta20^4 + 5/2)*h - 3*zeta20^7 + 2*zeta20^5 - zeta20^3 + 4*zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^7 + 1/2*zeta20^3)*h^2 + (1/2*zeta20^6 - 1/2*zeta20^4 + 3/2)*h - 1/2*zeta20^7 + 1/2*zeta20^3"
+    },
+    {
+      "face": "Q",
+      "edge": 3,
+      "vertex": 2,
+      "polynomial": "1/2*h - zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "1/2*h - 1/2*zeta20^7 + 1/2*zeta20^3"
+    },
+    {
+      "face": "Q",
+      "edge": 3,
+      "vertex": 5,
+      "polynomial": "1/2*h - zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "1/2*h - 1/2*zeta20^7 + 1/2*zeta20^3"
+    },
+    {
+      "face": "Q",
+      "edge": 3,
+      "vertex": 6,
+      "polynomial": "(-1/2*zeta20^7 + 1/2*zeta20^3)*h^2 + (-3/2*zeta20^6 + 3/2*zeta20^4 + 5/2)*h - 3*zeta20^7 + 2*zeta20^5 - zeta20^3 + 4*zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^7 + 1/2*zeta20^3)*h^2 + (1/2*zeta20^6 - 1/2*zeta20^4 + 3/2)*h - 1/2*zeta20^7 + 1/2*zeta20^3"
+    },
+    {
+      "face": "Q",
+      "edge": 4,
+      "vertex": 0,
+      "polynomial": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - 3/2*zeta20^7 + zeta20^5 - 1/2*zeta20^3 + 2*zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - 1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20"
+    },
+    {
+      "face": "Q",
+      "edge": 4,
+      "vertex": 1,
+      "polynomial": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - 2*zeta20^7 + zeta20^5 + 2*zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - zeta20^7 + 1/2*zeta20^5 + zeta20"
+    },
+    {
+      "face": "Q",
+      "edge": 4,
+      "vertex": 2,
+      "polynomial": "1/2*h - 3/2*zeta20^7 + zeta20^5 - 1/2*zeta20^3 + 2*zeta20",
+      "in_x_h_plus_t": "1/2*h - zeta20^7 + 1/2*zeta20^5 + zeta20"
+    },
+    {
+      "face": "Q",
+      "edge": 4,
+      "vertex": 3,
+      "polynomial": "1/2*h - zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "1/2*h - 1/2*zeta20^7 + 1/2*zeta20^3"
+    },
+    {
+      "face": "Q",
+      "edge": 4,
+      "vertex": 6,
+      "polynomial": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h"
+    },
+    {
+      "face": "Q",
+      "edge": 5,
+      "vertex": 0,
+      "polynomial": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h"
+    },
+    {
+      "face": "Q",
+      "edge": 5,
+      "vertex": 1,
+      "polynomial": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 3/2)*h - 2*zeta20^7 + 3/2*zeta20^5 - zeta20^3 + 3*zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 3/2)*h"
+    },
+    {
+      "face": "Q",
+      "edge": 5,
+      "vertex": 2,
+      "polynomial": "(-1/2*zeta20^7 + 1/2*zeta20^3)*h^2 + (-5/2*zeta20^6 + 5/2*zeta20^4 + 5/2)*h - 7/2*zeta20^7 + 2*zeta20^5 - 1/2*zeta20^3 + 4*zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^7 + 1/2*zeta20^3)*h^2 + (-1/2*zeta20^6 + 1/2*zeta20^4 + 3/2)*h"
+    },
+    {
+      "face": "Q",
+      "edge": 5,
+      "vertex": 3,
+      "polynomial": "(-1/2*zeta20^7 + 1/2*zeta20^3)*h^2 + (-2*zeta20^6 + 2*zeta20^4 + 5/2)*h - 3*zeta20^7 + 2*zeta20^5 - zeta20^3 + 4*zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^7 + 1/2*zeta20^3)*h^2 + 3/2*h"
+    },
+    {
+      "face": "Q",
+      "edge": 5,
+      "vertex": 4,
+      "polynomial": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h"
+    },
+    {
+      "face": "Q",
+      "edge": 6,
+      "vertex": 1,
+      "polynomial": "-1/2*zeta20^7 + 1/2*zeta20^3",
+      "in_x_h_plus_t": "-1/2*zeta20^7 + 1/2*zeta20^3"
+    },
+    {
+      "face": "Q",
+      "edge": 6,
+      "vertex": 2,
+      "polynomial": "h - 3/2*zeta20^7 + zeta20^5 - 1/2*zeta20^3 + 2*zeta20",
+      "in_x_h_plus_t": "h - 1/2*zeta20^7 + 1/2*zeta20^3"
+    },
+    {
+      "face": "Q",
+      "edge": 6,
+      "vertex": 3,
+      "polynomial": "h - 2*zeta20^7 + zeta20^5 + 2*zeta20",
+      "in_x_h_plus_t": "h - zeta20^7 + zeta20^3"
+    },
+    {
+      "face": "Q",
+      "edge": 6,
+      "vertex": 4,
+      "polynomial": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - 3/2*zeta20^7 + zeta20^5 - 1/2*zeta20^3 + 2*zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - 1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20"
+    },
+    {
+      "face": "Q",
+      "edge": 6,
+      "vertex": 5,
+      "polynomial": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h - zeta20^7 + 1/2*zeta20^5 + zeta20",
+      "in_x_h_plus_t": "(-1/2*zeta20^6 + 1/2*zeta20^4 + 1/2)*h"
+    }
+  ],
+  "reflection_symmetry": "w^8 conjugate(Q(h))=Q(h)",
+  "maps": [
+    {
+      "map": 0,
+      "pairs": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          6,
+          23
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          2,
+          21
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          7,
+          14
+        ],
+        [
+          8,
+          19
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          15,
+          22
+        ]
+      ],
+      "rotations": {
+        "0": "1",
+        "1": "-1",
+        "2": "-zeta20^6",
+        "3": "zeta20^6"
+      },
+      "translations": {
+        "0": "0",
+        "1": "1",
+        "2": "1",
+        "3": "0"
+      },
+      "edge_equations": [
+        {
+          "darts": [
+            0,
+            5
+          ],
+          "faces_edges": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "contact_type": "PP",
+          "opposite_edge_residual": "0",
+          "start_displacement": "0",
+          "end_displacement": "0",
+          "lattice_coefficients": [
+            0,
+            0
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            1,
+            16
+          ],
+          "faces_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "contact_type": "PQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "0",
+          "end_displacement": "0",
+          "lattice_coefficients": [
+            0,
+            0
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            6,
+            23
+          ],
+          "faces_edges": [
+            [
+              1,
+              1
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "contact_type": "PQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "0",
+          "end_displacement": "0",
+          "lattice_coefficients": [
+            0,
+            0
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            4,
+            17
+          ],
+          "faces_edges": [
+            [
+              0,
+              4
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "contact_type": "PQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "0",
+          "end_displacement": "0",
+          "lattice_coefficients": [
+            0,
+            0
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            9,
+            10
+          ],
+          "faces_edges": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "contact_type": "PQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "0",
+          "end_displacement": "0",
+          "lattice_coefficients": [
+            0,
+            0
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            2,
+            21
+          ],
+          "faces_edges": [
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "contact_type": "PQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "zeta20*h + 2*zeta20^4 + zeta20^2 + 2",
+          "end_displacement": "zeta20*h + 2*zeta20^4 + zeta20^2 + 2",
+          "lattice_coefficients": [
+            1,
+            0
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            3,
+            12
+          ],
+          "faces_edges": [
+            [
+              0,
+              3
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "contact_type": "PQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "(zeta20^7 - zeta20^5 + zeta20^3 - zeta20)*h + 3*zeta20^6 - zeta20^4 + zeta20^2 - 3",
+          "end_displacement": "(zeta20^7 - zeta20^5 + zeta20^3 - zeta20)*h + 3*zeta20^6 - zeta20^4 + zeta20^2 - 3",
+          "lattice_coefficients": [
+            0,
+            1
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            7,
+            14
+          ],
+          "faces_edges": [
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "contact_type": "PQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "-zeta20*h - 2*zeta20^4 - zeta20^2 - 2",
+          "end_displacement": "-zeta20*h - 2*zeta20^4 - zeta20^2 - 2",
+          "lattice_coefficients": [
+            -1,
+            0
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            8,
+            19
+          ],
+          "faces_edges": [
+            [
+              1,
+              3
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "contact_type": "PQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "(-zeta20^7 + zeta20^5 - zeta20^3 + zeta20)*h - 3*zeta20^6 + zeta20^4 - zeta20^2 + 3",
+          "end_displacement": "(-zeta20^7 + zeta20^5 - zeta20^3 + zeta20)*h - 3*zeta20^6 + zeta20^4 - zeta20^2 + 3",
+          "lattice_coefficients": [
+            0,
+            -1
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            11,
+            18
+          ],
+          "faces_edges": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "contact_type": "QQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "(-zeta20^7 + zeta20^5 - zeta20^3 + zeta20)*h - 3*zeta20^6 + zeta20^4 - zeta20^2 + 3",
+          "end_displacement": "(-zeta20^7 + zeta20^5 - zeta20^3 + zeta20)*h - 3*zeta20^6 + zeta20^4 - zeta20^2 + 3",
+          "lattice_coefficients": [
+            0,
+            -1
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            13,
+            20
+          ],
+          "faces_edges": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "contact_type": "QQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "(-zeta20^7 + zeta20^5 - zeta20^3 + 2*zeta20)*h - 3*zeta20^6 + 3*zeta20^4 + 5",
+          "end_displacement": "(-zeta20^7 + zeta20^5 - zeta20^3 + 2*zeta20)*h - 3*zeta20^6 + 3*zeta20^4 + 5",
+          "lattice_coefficients": [
+            1,
+            -1
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            15,
+            22
+          ],
+          "faces_edges": [
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "contact_type": "QQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "zeta20*h + 2*zeta20^4 + zeta20^2 + 2",
+          "end_displacement": "zeta20*h + 2*zeta20^4 + zeta20^2 + 2",
+          "lattice_coefficients": [
+            1,
+            0
+          ],
+          "lattice_residual": "0"
+        }
+      ],
+      "vertex_cycles": [
+        {
+          "darts": [
+            0,
+            6,
+            17
+          ],
+          "labels": [
+            "P",
+            "P",
+            "A"
+          ],
+          "angles_degrees": [
+            108,
+            108,
+            144
+          ],
+          "total_degrees": 360,
+          "vertex_holonomy_residual": "0"
+        },
+        {
+          "darts": [
+            1,
+            10,
+            5
+          ],
+          "labels": [
+            "P",
+            "A",
+            "P"
+          ],
+          "angles_degrees": [
+            108,
+            144,
+            108
+          ],
+          "total_degrees": 360,
+          "vertex_holonomy_residual": "0"
+        },
+        {
+          "darts": [
+            2,
+            22,
+            16
+          ],
+          "labels": [
+            "P",
+            "B",
+            "B"
+          ],
+          "angles_degrees": [
+            108,
+            126,
+            126
+          ],
+          "total_degrees": 360,
+          "vertex_holonomy_residual": "0"
+        },
+        {
+          "darts": [
+            3,
+            13,
+            21
+          ],
+          "labels": [
+            "P",
+            "B",
+            "B"
+          ],
+          "angles_degrees": [
+            108,
+            126,
+            126
+          ],
+          "total_degrees": 360,
+          "vertex_holonomy_residual": "0"
+        },
+        {
+          "darts": [
+            4,
+            18,
+            12
+          ],
+          "labels": [
+            "P",
+            "B",
+            "B"
+          ],
+          "angles_degrees": [
+            108,
+            126,
+            126
+          ],
+          "total_degrees": 360,
+          "vertex_holonomy_residual": "0"
+        },
+        {
+          "darts": [
+            7,
+            15,
+            23
+          ],
+          "labels": [
+            "P",
+            "B",
+            "B"
+          ],
+          "angles_degrees": [
+            108,
+            126,
+            126
+          ],
+          "total_degrees": 360,
+          "vertex_holonomy_residual": "0"
+        },
+        {
+          "darts": [
+            8,
+            20,
+            14
+          ],
+          "labels": [
+            "P",
+            "B",
+            "B"
+          ],
+          "angles_degrees": [
+            108,
+            126,
+            126
+          ],
+          "total_degrees": 360,
+          "vertex_holonomy_residual": "0"
+        },
+        {
+          "darts": [
+            9,
+            11,
+            19
+          ],
+          "labels": [
+            "P",
+            "B",
+            "B"
+          ],
+          "angles_degrees": [
+            108,
+            126,
+            126
+          ],
+          "total_degrees": 360,
+          "vertex_holonomy_residual": "0"
+        }
+      ],
+      "vertices": 8,
+      "edges": 12,
+      "faces": 4,
+      "euler_characteristic": 0,
+      "area_residual": "0"
+    },
+    {
+      "map": 1,
+      "pairs": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          9,
+          17
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          7,
+          21
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          15,
+          22
+        ]
+      ],
+      "rotations": {
+        "0": "1",
+        "1": "-1",
+        "3": "-zeta20^6",
+        "2": "zeta20^6"
+      },
+      "translations": {
+        "0": "0",
+        "1": "1",
+        "3": "1",
+        "2": "0"
+      },
+      "edge_equations": [
+        {
+          "darts": [
+            0,
+            5
+          ],
+          "faces_edges": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "contact_type": "PP",
+          "opposite_edge_residual": "0",
+          "start_displacement": "0",
+          "end_displacement": "0",
+          "lattice_coefficients": [
+            0,
+            0
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            1,
+            23
+          ],
+          "faces_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "contact_type": "PQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "0",
+          "end_displacement": "0",
+          "lattice_coefficients": [
+            0,
+            0
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            6,
+            16
+          ],
+          "faces_edges": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "contact_type": "PQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "0",
+          "end_displacement": "0",
+          "lattice_coefficients": [
+            0,
+            0
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            4,
+            10
+          ],
+          "faces_edges": [
+            [
+              0,
+              4
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "contact_type": "PQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "0",
+          "end_displacement": "0",
+          "lattice_coefficients": [
+            0,
+            0
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            9,
+            17
+          ],
+          "faces_edges": [
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "contact_type": "PQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "0",
+          "end_displacement": "0",
+          "lattice_coefficients": [
+            0,
+            0
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            2,
+            14
+          ],
+          "faces_edges": [
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "contact_type": "PQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "zeta20*h + 2*zeta20^4 + zeta20^2 + 2",
+          "end_displacement": "zeta20*h + 2*zeta20^4 + zeta20^2 + 2",
+          "lattice_coefficients": [
+            1,
+            0
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            3,
+            19
+          ],
+          "faces_edges": [
+            [
+              0,
+              3
+            ],
+            [
+              3,
+              2
+            ]
+          ],
+          "contact_type": "PQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "(zeta20^7 - zeta20^5 + zeta20^3 - zeta20)*h + 3*zeta20^6 - zeta20^4 + zeta20^2 - 3",
+          "end_displacement": "(zeta20^7 - zeta20^5 + zeta20^3 - zeta20)*h + 3*zeta20^6 - zeta20^4 + zeta20^2 - 3",
+          "lattice_coefficients": [
+            0,
+            1
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            7,
+            21
+          ],
+          "faces_edges": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "contact_type": "PQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "-zeta20*h - 2*zeta20^4 - zeta20^2 - 2",
+          "end_displacement": "-zeta20*h - 2*zeta20^4 - zeta20^2 - 2",
+          "lattice_coefficients": [
+            -1,
+            0
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            8,
+            12
+          ],
+          "faces_edges": [
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "contact_type": "PQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "(-zeta20^7 + zeta20^5 - zeta20^3 + zeta20)*h - 3*zeta20^6 + zeta20^4 - zeta20^2 + 3",
+          "end_displacement": "(-zeta20^7 + zeta20^5 - zeta20^3 + zeta20)*h - 3*zeta20^6 + zeta20^4 - zeta20^2 + 3",
+          "lattice_coefficients": [
+            0,
+            -1
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            11,
+            18
+          ],
+          "faces_edges": [
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "contact_type": "QQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "(zeta20^7 - zeta20^5 + zeta20^3 - zeta20)*h + 3*zeta20^6 - zeta20^4 + zeta20^2 - 3",
+          "end_displacement": "(zeta20^7 - zeta20^5 + zeta20^3 - zeta20)*h + 3*zeta20^6 - zeta20^4 + zeta20^2 - 3",
+          "lattice_coefficients": [
+            0,
+            1
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            13,
+            20
+          ],
+          "faces_edges": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "contact_type": "QQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "(zeta20^7 - zeta20^5 + zeta20^3 - 2*zeta20)*h + 3*zeta20^6 - 3*zeta20^4 - 5",
+          "end_displacement": "(zeta20^7 - zeta20^5 + zeta20^3 - 2*zeta20)*h + 3*zeta20^6 - 3*zeta20^4 - 5",
+          "lattice_coefficients": [
+            -1,
+            1
+          ],
+          "lattice_residual": "0"
+        },
+        {
+          "darts": [
+            15,
+            22
+          ],
+          "faces_edges": [
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "contact_type": "QQ",
+          "opposite_edge_residual": "0",
+          "start_displacement": "-zeta20*h - 2*zeta20^4 - zeta20^2 - 2",
+          "end_displacement": "-zeta20*h - 2*zeta20^4 - zeta20^2 - 2",
+          "lattice_coefficients": [
+            -1,
+            0
+          ],
+          "lattice_residual": "0"
+        }
+      ],
+      "vertex_cycles": [
+        {
+          "darts": [
+            0,
+            6,
+            10
+          ],
+          "labels": [
+            "P",
+            "P",
+            "A"
+          ],
+          "angles_degrees": [
+            108,
+            108,
+            144
+          ],
+          "total_degrees": 360,
+          "vertex_holonomy_residual": "0"
+        },
+        {
+          "darts": [
+            1,
+            17,
+            5
+          ],
+          "labels": [
+            "P",
+            "A",
+            "P"
+          ],
+          "angles_degrees": [
+            108,
+            144,
+            108
+          ],
+          "total_degrees": 360,
+          "vertex_holonomy_residual": "0"
+        },
+        {
+          "darts": [
+            2,
+            15,
+            23
+          ],
+          "labels": [
+            "P",
+            "B",
+            "B"
+          ],
+          "angles_degrees": [
+            108,
+            126,
+            126
+          ],
+          "total_degrees": 360,
+          "vertex_holonomy_residual": "0"
+        },
+        {
+          "darts": [
+            3,
+            20,
+            14
+          ],
+          "labels": [
+            "P",
+            "B",
+            "B"
+          ],
+          "angles_degrees": [
+            108,
+            126,
+            126
+          ],
+          "total_degrees": 360,
+          "vertex_holonomy_residual": "0"
+        },
+        {
+          "darts": [
+            4,
+            11,
+            19
+          ],
+          "labels": [
+            "P",
+            "B",
+            "B"
+          ],
+          "angles_degrees": [
+            108,
+            126,
+            126
+          ],
+          "total_degrees": 360,
+          "vertex_holonomy_residual": "0"
+        },
+        {
+          "darts": [
+            7,
+            22,
+            16
+          ],
+          "labels": [
+            "P",
+            "B",
+            "B"
+          ],
+          "angles_degrees": [
+            108,
+            126,
+            126
+          ],
+          "total_degrees": 360,
+          "vertex_holonomy_residual": "0"
+        },
+        {
+          "darts": [
+            8,
+            13,
+            21
+          ],
+          "labels": [
+            "P",
+            "B",
+            "B"
+          ],
+          "angles_degrees": [
+            108,
+            126,
+            126
+          ],
+          "total_degrees": 360,
+          "vertex_holonomy_residual": "0"
+        },
+        {
+          "darts": [
+            9,
+            18,
+            12
+          ],
+          "labels": [
+            "P",
+            "B",
+            "B"
+          ],
+          "angles_degrees": [
+            108,
+            126,
+            126
+          ],
+          "total_degrees": 360,
+          "vertex_holonomy_residual": "0"
+        }
+      ],
+      "vertices": 8,
+      "edges": 12,
+      "faces": 4,
+      "euler_characteristic": 0,
+      "area_residual": "0"
+    }
+  ],
+  "software": "10.9",
+  "method": "symbolic polynomial identities, exact AA coefficient signs, degree-one local-isometry coverage proof in companion markdown",
+  "solver": null,
+  "seed": null,
+  "timeout": null,
+  "complete": true
+}

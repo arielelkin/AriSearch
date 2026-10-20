@@ -1,0 +1,16 @@
+{
+  "status": "exact symbolic identities passed",
+  "domain": "all real u,v,w; geometry requires strict convexity",
+  "hexagon_area": "ux*vy + ux*wy - uy*vx - uy*wx + vx*wy - vy*wx",
+  "periods": [
+    "u+v",
+    "v+w"
+  ],
+  "side_pair_translations": [
+    "v+w",
+    "w-u",
+    "-u-v"
+  ],
+  "dissection_identity": "sum(6-n)=6-p+V_b+V_T+2X",
+  "scope": "identity certificate only; no source tiling enumeration or aperiodicity claim"
+}

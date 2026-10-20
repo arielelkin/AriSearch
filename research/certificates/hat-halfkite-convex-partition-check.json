@@ -1,0 +1,10 @@
+{
+  "status": "VALID",
+  "method": "Independent directed-edge cancellation, single boundary cycle, exact turn tests; full pairwise distances including reflection; exhaustive exact covers",
+  "subsets_checked": 65535,
+  "eligible_subsets": 13,
+  "shape_classes": 5,
+  "two_class_changed_covers": 0,
+  "python": "3.12.13 | packaged by conda-forge | (main, Aug 11 2026, 10:27:28) [GCC 14.4.0]",
+  "source": "research/certificates/hat-halfkite-convex-partition-gate.json"
+}

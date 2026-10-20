@@ -1,0 +1,33 @@
+# All balanced complementary-angle octagons have a periodic escape
+
+**Theorem.** Let P be the unit regular pentagon and let Q be any fixed strictly convex octagon with four angles A=144°, two angles B=α, and two angles C=252°−α, where 108°<α<126°. Copies may be translated, rotated, and reflected, with unrestricted contacts. If {P,Q} tiles the plane, it admits a tiling with a nonzero translation. No positive metric realization of the word `AABBAACC` tiles at all. This is a restricted theorem about this angle inventory; it does not classify arbitrary two-convex-polygon pairs.
+
+**Complete word reduction.** The [reviewed complementary-angle theorem](complementary-angle-flow-necessary-theorem-2026-10-19.md) proves full-edge trivalent contacts and reduces the cyclic Q word, up to rotation and reversal but without exchanging B and C, to exactly seven possibilities:
+
+| Word | Conditional result |
+|---|---|
+| `AABBAACC` | no tiling |
+| `AABCAABC` | period after two P steps on each chain |
+| `AABCAACB` | period after four P steps |
+| `AAABBACC` | period after four P steps |
+| `AAABCABC` | period after four P steps |
+| `AAABCACB` | period after four P steps |
+| `AAACBABC` | period after four P steps |
+
+The table states a period of a suitably purified tiling, not necessarily of the original tiling.
+
+**Purification and P backbones.** Every listed Q has exactly two AA sides. The square-window incidence identity is `p_R=2q_R+O(R+1)`. Each AA side faces P, and one P can face at most one such side. Thus the nonnegative deficits `1−a(P)`, where a(P) marks receipt of an AA side, total O(R+1) in every translated square. For each L a sufficiently large square contains a radius-L neighborhood free of all deficits. Translate these neighborhoods to the origin and take a locally finite geometric compactness limit; fixed positive-area, bounded-diameter polygon placements and the full-edge rule preserve the incidence. The limit is a plane tiling in which every P receives exactly one AA side. At α=120° a BBB corner is impossible *pointwise* for these words because each non-A run has length two and its outer sides face P. Thus resonance does not add a second defect type here.
+
+In the purified tiling, each P has two nonconsecutive PP sides flanking its distinguished AA-facing side. Its PP graph has degree two. The regular-pentagon apothem is `r=1/(2tan36°)`, so successive centers are distance 2r and the path turns by ±36°. When Q's two AA sides are disjoint, both endpoints selected across a PP edge are opposite, forcing alternating turn signs. Each PP component is a doubly infinite proper zigzag with two-step return v of length `4r cos18°`. When Q has an AAA run, its two adjacent AA sides face a pair of PP-neighbor pentagons. These marked PP edges form a perfect matching; marked and unmarked edges alternate. Selected endpoints agree on marked edges and oppose on unmarked edges, forcing turn signs `++--` cyclically. Each component has a four-step return w of length `4r(1+cos36°)>0`. Both kinds of center path lie in the interiors of their P tiles except at own PP midpoints, are proper graphs within bounded distance of their return axes, and cannot cross between components. Distinct nonparallel axes would cross, so all components have parallel axes. Their return vectors have one fixed length and are therefore common up to sign.
+
+**Disjoint AA sides.** For `AABBAACC`, its two AA edge directions differ by `432°−2α`, strictly between 180° and216°. Yet each AA side is parallel to its anchored P backbone axis, and all axes are parallel. This rules out a tiling.
+
+For `AABCAABC`, the two QQ sides are antiparallel; the other six unit PQ sides cancel in opposite pairs. Polygon closure forces equal QQ lengths, making the physical Q centrally symmetric. The PBC star imposes a period-two B/C label recurrence along each backbone, so its Q attachments repeat under v. For `AABCAACB`, axial closure forces equality of the two QQ lengths and yields an actual reflection symmetry of Q. Its two AA anchors have respective B,B and C,C flanks. The PBC star flips anchor type after two P steps, so Q placements repeat under 2v. The exact side directions and nonvanishing coefficients for all α are in the [analytic gate](../searches/balanced-octagon-aa-purification-sol-2026-10-19.md); its [independent Sol hostile review](../reviews/balanced-octagon-aa-purification-hostile-sol-2026-10-19.md) verified the metric symmetries after correcting one axial-component coefficient in the working report.
+
+**Adjacent AA sides.** For `AAABCACB` and `AAACBABC`, closure forces equal QQ side lengths. Reflection across the middle AAA angle then fixes the *metric* Q, so its placement on the two AA sides of a marked PP dimer is unique. Every Q repeats under w.
+
+For `AAABBACC` and `AAABCABC`, the two reflected rooted Q placements differ. On a marked PP dimer k, call its owner Q_k and let E_k be the Q whose isolated A corner occurs at the other endpoint of the marked PP edge. The two pentagons P_(2k),P_(2k+1) have unique PBC corners containing respectively `(Q_(k−1),E_k)` and `(E_k,Q_(k+1))`. This follows from the physical cyclic side order `PQ,PP,PQ,PQ,PP` around each pentagon, including reflections. The external AAA flanks of every Q have opposite B/C labels, as do its two isolated-A flanks. If s_k is the label on Q_k's forward AAA flank, the two PBC equations with the *same* guest E_k give `s_(k+1)=s_(k−1)`. Hence the rooted metric Q placement repeats after two dimers, exactly when the P dimer frame returns under w. The recurrence does not require classifying the transverse matching of guests. The [complete incidence proof](../searches/adjacent-aa-chirality-sol-2026-10-19.md) and [independent Sol hostile review](../reviews/adjacent-aa-chirality-hostile-sol-2026-10-19.md) check all reflection parities and the global return.
+
+Every Q is anchored to one AA side or pair of adjacent AA sides on a P backbone. The relevant label or metric symmetry proves each Q repeats under that backbone's return. All backbones share the same nonzero vector up to sign, so the union of all P and Q tiles in the purified tiling has a nonzero translation. ∎
+
+The theorem is conditional on plane tileability. It neither claims that every angle word admits a positive metric Q nor that every original tiling is periodic. The two component Sol hostile reviews above audit the complementary cases, and a [fresh whole-theorem hostile review](../reviews/balanced-octagon-whole-hostile-sol-2026-10-19.md) passed the complete synthesis, including reflections, unrestricted contacts and the 120° resonance.

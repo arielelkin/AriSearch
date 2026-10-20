@@ -1,0 +1,56 @@
+# Strategic progress assessment — 2026-10-19 20:52 UTC
+
+This is a fresh strategic assessment under research-protocol §§5,17,19, not a hostile review or mathematical certification. Read AGENTS.md, research-problem.md, research-protocol.md, the discovery-log registry and latest entries, the 20:22 assessment, the new full 126/144 synthesis and whole-proof review, and the junction-design and corner-branching reports. No Git or discovery-log edits. The unrestricted objective is **unresolved**.
+
+## Portfolio reset
+
+The new independently whole-proof-reviewed theorem is a real global advance: regular unit P5 plus any strictly convex partner with angles in {126°,144°} is periodic whenever tileable. It covers unrestricted contacts, reflected copies, arbitrary real metrics and omission. Q7 is settled throughout its real parameter interval; both surviving Q8 words have complete carriers; density excludes the other Q8 word and Q9/Q10. Close this entire palette. It is not a reduction of arbitrary convex pairs to a classified family, and novelty has not been audited.
+
+The constructive position has not improved comparably. Both fixed J=1 maps are angle-UNSAT. The interior-Q attempt fails a reviewed core obstruction. These are restricted failures, not a classification of substitutions. Penrose power cells retain two small unclassified weight gaps but no two-class survivor. Closing those gaps would add another exclusion, not a credible construction. Old 124/128 seam atlases have no global sequence invariant. No larger tori, neighborhoods, or weight sampling are justified.
+
+Exactly **two mathematically distinct directions** follow. Direction 1 receives protected constructive effort. Direction 2 tests a parameter-wide conservation law, not a numerical replacement of 126 by another angle.
+
+## 1. Protected construction: a genuine side subdivision in both parents
+
+**Exact object.** Retain the two-parent similarity inventory M=[[11,9],[2,3]], with P a strict convex pentagon and Q a strict convex heptagon. Its expansion area is mu=7+sqrt(34), so linear expansion is sqrt(mu). Seek complete parent dissections with exactly one interior T-junction per parent, J=D=0 and H=1. Here H counts flat child incidences: the T host has angle pi, while two genuine corners on its opposite side sum to pi. All other interior junctions have three genuine child corners. There are no additional flat incidences, higher-valence junctions, seams at parent corners, or repeated positive-length contacts between a pair of children.
+
+Restrict this one design cycle to distinct single-arc boundary children. The T host is a boundary child, and its subdivided native side is wholly internal to the parent. All six interior children are P. This avoids pretending that a new high-valence interior Q escapes the reviewed core obstruction. Do not reuse a rejected map with an unannounced collapsed edge: provide a complete new primal seam map and verify all incidences.
+
+**Budget derivation and correction to preliminary steering.** Let I count ALL interior seam junctions, including the T-junction, and B count seam endpoints inside parent sides. For F children and E internal seam edges, Euler gives E=I+F-1; internal degree three and boundary seam degree one give 2E=3I+B. Thus I+B=2F-2. At an ordinary interior node there are three native corners; at the T there are only two. The native corner ledger is therefore S=3I-1+2B+p, where p is the parent side count; its p untouched corners each belong to one child. Consequently:
+
+| parent | F | S | p | B | I | E | boundary children | interior children |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| P | 13 | 69 | 5 | 7 | 17 | 29 | 7 | 6 |
+| Q | 12 | 66 | 7 | 6 | 16 | 27 | 6 | 6 |
+
+Equivalently B+2J+2D+H is eight and seven respectively. My preliminary message incorrectly said five interior children; the correct count is six in both rows. A contact dual can still be triangulated, but the host has one extra contact along a single native side. Its contact degree cannot be identified with native side count. The old six-interior bounds are not bypassed: the proposed change is in corner and length equations, not a purported defeat of planar graph bounds.
+
+**First falsifiable gate.** In one analytic design cycle, produce both complete oriented primal maps and a shared exact strict angle witness. Include every child phase/reflection. At the T impose host flat incidence pi and the two opposite native angles summing to pi; everywhere else use the genuine native corner equations, ordinary boundary sums pi, and parent-corner identities. Reconstruct the host native word by suppressing the artificial flat vertex, so its five/seven genuine sides are not miscounted. Verify the displayed inventory and corner ledgers directly. A mere degree sequence is insufficient.
+
+The new mechanism replaces an interior three-native-corner equation by a supplementary pair and allows a long native side to meet two shorter sides. On a survivor, impose the exact additive host-side equation l_host=l_left+l_right, with positive lengths, and the complete simultaneous edge-vector/similarity equations. This is a credible difference from repeating J=1 native-only maps. It is not a claim of feasibility.
+
+**Whole-plane path and expected information.** A successful exact dissection of both convex parents supplies arbitrarily large tiled copies of either parent by iteration, with inradii growing as mu^(k/2). Center those patches at an inball center and take a locally finite tiling compactness limit; this establishes a whole-plane tiling, with all compactness hypotheses written explicitly. Exact dissection, positivity and nonoverlap come before that inference. Intrinsic recognition and elimination of periodic omissions remain separate obligations: the T does not itself force a hierarchy. After a metric survivor, require a concrete shape-determined recognition feature before expanding the construction programme.
+
+**§5 stop.** Stop after one complete-map/angle cycle if no simultaneous witness is obtained; record whether topology, exact UNSAT, timeout, or unsolved design is responsible. Do not add T-junctions, increase inventory, or vary wheel ears by default. If angles survive but metric realization or universal recognition has no concrete mechanism, preserve the exact survivor and mark that precise gap blocked. No proof is supplied by this assessment.
+
+## 2. Broader obstruction: complementary-angle conservation with an exceptional branching resonance
+
+**Exact object.** P is the unit regular pentagon; Q has all angles in {144°, alpha, 252°−alpha}, with real 108°<alpha<126°. Do not fix a new numerical alpha. The endpoint alpha=126° is already closed by the new theorem and is not reopened. This is a restricted but continuous family, intended to expose global obstructions shared by many angle words. It does not represent arbitrary convex polygons.
+
+Every angle is strictly between 108° and 144° inclusive. Thus the existing sector argument derives full-edge trivalent contacts. The first analytic gate is an exhaustive symbolic star and angle-sum classification, including resonances. Writing A=144°, B=alpha, C=252°−alpha, the expected generic stars are PPA and PBC. Checking all triples shows the additional interior resonance at alpha=120° is BBB: three 120° Q corners can meet. This list must be verified in the implementation, including omitted-type cases. At the excluded endpoint 126°, B=C and the completed symmetric theorem applies.
+
+**First global falsifiable gate.** Count native B and C incidences in square windows with uniform O(R) boundary error. Away from alpha=120°, PBC uses one of each, so (b−c)q_R=O(R), where b,c are their counts on one Q. Combine the P-corner equation and area growth to force b=c, without assuming a density limit. The Q angle sum then gives a+3b=10, hence only (a,b,c)=(10,0,0),(7,1,1),(4,2,2),(1,3,3), with n=10,9,8,7. This is a global necessary theorem over all real alpha in the interval except the resonance, not a list of legal patches. The implementation must prove the zero-frequency exclusion, not simply divide by an assumed positive density.
+
+At alpha=120°, count BBB vertices as z_R. The expected replacement is (b−c)q_R=3z_R+O(R), hence b>=c when a global source exists. Here the angle equation is 3a+5b+4c=30, giving an explicit finite inventory domain. This resonance supplies Q-only branching that was absent from the symmetric PQQ picture. Enumerate this finite integer domain analytically; do not omit n=6 or potential Q-only components. Any use of a monohedral hexagon classification must name and verify its exact hypothesis rather than assume an arbitrary equiangular hexagon tiles.
+
+**Next obligation within the same gate.** For the generic balanced inventories, derive QQ-edge endpoint compatibility with reflections and apply the AA-capacity argument across every cyclic word. For the exceptional inventory, derive the modified capacity/conservation inequality including z_R before attempting metrics. The intended output is a parameter-wide obstruction or a sharp exceptional survivor description. Do not repeat the already blocked 124/128 seam atlas on its survivors. A surviving signed word earns further work only if conservation provides a new global return restriction, a forced complete ribbon, or a specified symbolic periodic carrier; otherwise stop at the exact necessary theorem.
+
+**Expected information.** This tests whether the successful density mechanism extends from equal complementary corners to directed unequal corners, and isolates precisely where Q-only vertices invalidate that extension. It can exclude every unbalanced generic word independently of metric and can reduce the resonant case before any coordinate work. It may yield only a necessary condition; do not label that an impossibility theorem for the entire family.
+
+**Assessment of 120/132 as construction.** Splitting 126 into complementary 120/132 is not automatically orientation encoding. The newly legal QQQ120 star gives a branching/omission mechanism absent from the prior palette, while reflections still reverse any proposed arrow. Thus it is genuinely different in its vertex algebra, but presently has no whole-plane aperiodic existence mechanism or shape-only arrow proof. Study it as the explicit exceptional case of this conservation gate, not as a third protected construction or another local metric hunt.
+
+**§5 stop.** End after the complete symbolic resonance, window-conservation and capacity gate. If surviving configurations still require an unproved strand-extension or finite-carrier theorem, state that missing lemma and block them. No alpha grid, larger tori, patch growth, or numerical gap sampling. Reopening needs a new global invariant or exact constructive carrier.
+
+## Allocation and next checkpoint
+
+Assign the two gates independently. Protect the constructive attempt even if the obstruction direction quickly yields another clean lemma. Every substantive new result needs a fresh Sol hostile review; this Astra assessment supplies no such review. The next fresh Astra strategic assessment is due **21:22 UTC** if research remains active. Judge the next reset by global existence, intrinsic forcing, or wider proved obstruction, not the number of retained negative experiments.

@@ -1,0 +1,109 @@
+{
+  "source": "research/searches/penrose-kite-dart-patch.py step(), applied twice",
+  "atom_order": [
+    "A+",
+    "A-",
+    "O+",
+    "O-"
+  ],
+  "S": [
+    [
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1
+    ]
+  ],
+  "charpoly": "(x^2-3*x+1)*(x^2-x+1)",
+  "C": [
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "M": [
+    [
+      2,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "directed_positional_boundary_checks": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "atom_directional_imbalances": [
+    [
+      "-1",
+      "0",
+      "-zeta10^3 + zeta10^2",
+      "0",
+      "-1"
+    ],
+    [
+      "1",
+      "-1",
+      "0",
+      "-zeta10^3 + zeta10^2",
+      "0"
+    ],
+    [
+      "-1",
+      "-zeta10^3 + zeta10^2",
+      "0",
+      "0",
+      "zeta10^3 - zeta10^2"
+    ],
+    [
+      "1",
+      "zeta10^3 - zeta10^2",
+      "0",
+      "0",
+      "-zeta10^3 + zeta10^2"
+    ]
+  ],
+  "balanced_A_mirror_pair_imbalance": [
+    "0",
+    "-1",
+    "-zeta10^3 + zeta10^2",
+    "-zeta10^3 + zeta10^2",
+    "-1"
+  ],
+  "geometric_partition_certified": false,
+  "status": "inventory necessary condition only; no candidate output polygons"
+}

@@ -1,0 +1,38 @@
+{
+  "topology": "PASS",
+  "counts": {
+    "P": {
+      "V": 13,
+      "E": 29,
+      "F": 17,
+      "arc_corners": [
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    "Q": {
+      "V": 12,
+      "E": 27,
+      "F": 16,
+      "arc_corners": [
+        1,
+        3,
+        0,
+        1,
+        1,
+        0
+      ]
+    }
+  },
+  "P_angle_status": "unsat",
+  "seconds": 20.806820109995897,
+  "timeout_ms": 180000,
+  "z3": "4.16.0",
+  "input_sha256": "534241a47421d787898aecea6a3a3b4c983e9e24c702b45e5016b1c200cd8839",
+  "encoding": "explicit rotated and reversed native-angle orbit; exact strict LRA"
+}

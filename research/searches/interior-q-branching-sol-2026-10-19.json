@@ -1,0 +1,159 @@
+{
+  "status": "PASS arithmetic only; planar proof in adjacent Markdown",
+  "budgets": {
+    "P": {
+      "children": 13,
+      "boundary": 7,
+      "interior": 6,
+      "edges": 29,
+      "triangles": 17,
+      "core_edge_base": 8
+    },
+    "Q": {
+      "children": 12,
+      "boundary": 6,
+      "interior": 6,
+      "edges": 27,
+      "triangles": 16,
+      "core_edge_base": 9
+    }
+  },
+  "cut_vertex_cases": [
+    {
+      "block_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "edge_cap": 5
+    },
+    {
+      "block_sizes": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "edge_cap": 6
+    },
+    {
+      "block_sizes": [
+        1,
+        1,
+        3
+      ],
+      "edge_cap": 8
+    },
+    {
+      "block_sizes": [
+        1,
+        2,
+        2
+      ],
+      "edge_cap": 7
+    },
+    {
+      "block_sizes": [
+        1,
+        4
+      ],
+      "edge_cap": 10
+    },
+    {
+      "block_sizes": [
+        2,
+        3
+      ],
+      "edge_cap": 9
+    }
+  ],
+  "disconnected_cases": [
+    {
+      "component_sizes": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "edge_cap": 0
+    },
+    {
+      "component_sizes": [
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "edge_cap": 1
+    },
+    {
+      "component_sizes": [
+        1,
+        1,
+        1,
+        3
+      ],
+      "edge_cap": 3
+    },
+    {
+      "component_sizes": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "edge_cap": 2
+    },
+    {
+      "component_sizes": [
+        1,
+        1,
+        4
+      ],
+      "edge_cap": 6
+    },
+    {
+      "component_sizes": [
+        1,
+        2,
+        3
+      ],
+      "edge_cap": 4
+    },
+    {
+      "component_sizes": [
+        1,
+        5
+      ],
+      "edge_cap": 9
+    },
+    {
+      "component_sizes": [
+        2,
+        2,
+        2
+      ],
+      "edge_cap": 3
+    },
+    {
+      "component_sizes": [
+        2,
+        4
+      ],
+      "edge_cap": 7
+    },
+    {
+      "component_sizes": [
+        3,
+        3
+      ],
+      "edge_cap": 6
+    }
+  ],
+  "graph_enumeration": false
+}

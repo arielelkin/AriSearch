@@ -1,0 +1,355 @@
+{
+  "scope": "Necessary exact edge-direction constraints for all orientable saturated translation quotients with 4 P and 2 Q; excludes no larger quotient.",
+  "records": [
+    {
+      "word": "AAABBACC",
+      "reflected": false,
+      "qq_pairs": [
+        [
+          3,
+          3
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "q_rotation": [
+        180,
+        0
+      ],
+      "qq_candidates": null,
+      "pp_matchings": 105,
+      "survivors": [
+        {
+          "pairs": [
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                2,
+                2
+              ]
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            [
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                2
+              ]
+            ]
+          ],
+          "alpha": null
+        },
+        {
+          "pairs": [
+            [
+              [
+                0,
+                0
+              ],
+              [
+                2,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                2,
+                2
+              ]
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                2
+              ]
+            ]
+          ],
+          "alpha": null
+        }
+      ]
+    },
+    {
+      "word": "AAABBACC",
+      "reflected": false,
+      "qq_pairs": [
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "q_rotation": [
+        36,
+        0
+      ],
+      "qq_candidates": [],
+      "pp_matchings": 0,
+      "survivors": []
+    },
+    {
+      "word": "AAABBACC",
+      "reflected": true,
+      "qq_pairs": [
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "q_rotation": [
+        504,
+        -2
+      ],
+      "qq_candidates": [],
+      "pp_matchings": 0,
+      "survivors": []
+    },
+    {
+      "word": "AAABBACC",
+      "reflected": true,
+      "qq_pairs": [
+        [
+          3,
+          1
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "q_rotation": [
+        648,
+        -2
+      ],
+      "qq_candidates": null,
+      "pp_matchings": 105,
+      "survivors": []
+    },
+    {
+      "word": "AAABCABC",
+      "reflected": false,
+      "qq_pairs": [
+        [
+          3,
+          3
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "q_rotation": [
+        180,
+        0
+      ],
+      "qq_candidates": null,
+      "pp_matchings": 105,
+      "survivors": [
+        {
+          "pairs": [
+            [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                2,
+                2
+              ]
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            [
+              [
+                2,
+                0
+              ],
+              [
+                3,
+                2
+              ]
+            ]
+          ],
+          "alpha": null
+        },
+        {
+          "pairs": [
+            [
+              [
+                0,
+                0
+              ],
+              [
+                2,
+                0
+              ]
+            ],
+            [
+              [
+                0,
+                2
+              ],
+              [
+                2,
+                2
+              ]
+            ],
+            [
+              [
+                1,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                2
+              ]
+            ]
+          ],
+          "alpha": null
+        }
+      ]
+    },
+    {
+      "word": "AAABCABC",
+      "reflected": false,
+      "qq_pairs": [
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "q_rotation": [
+        36,
+        0
+      ],
+      "qq_candidates": [],
+      "pp_matchings": 0,
+      "survivors": []
+    },
+    {
+      "word": "AAABCABC",
+      "reflected": true,
+      "qq_pairs": [
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "q_rotation": [
+        504,
+        -2
+      ],
+      "qq_candidates": [],
+      "pp_matchings": 0,
+      "survivors": []
+    },
+    {
+      "word": "AAABCABC",
+      "reflected": true,
+      "qq_pairs": [
+        [
+          3,
+          1
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "q_rotation": [
+        648,
+        -2
+      ],
+      "qq_candidates": null,
+      "pp_matchings": 105,
+      "survivors": []
+    }
+  ]
+}

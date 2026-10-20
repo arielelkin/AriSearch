@@ -1,0 +1,368 @@
+{
+  "software": "SageMath version 10.9, Release Date: 2026-05-04",
+  "counts": {
+    "qq_tests": 4,
+    "qq_consistent": 2,
+    "pq_bijections": 1152,
+    "pq_rotational": 1,
+    "pp_matchings": 105,
+    "pp_rotational": 2,
+    "correct_stars": 1
+  },
+  "qq_tests": [
+    {
+      "reflected": false,
+      "source": [
+        3,
+        6
+      ],
+      "target": [
+        3,
+        6
+      ],
+      "relative_rotation": [
+        20,
+        20
+      ],
+      "consistent": true
+    },
+    {
+      "reflected": false,
+      "source": [
+        3,
+        6
+      ],
+      "target": [
+        6,
+        3
+      ],
+      "relative_rotation": [
+        4,
+        36
+      ],
+      "consistent": false
+    },
+    {
+      "reflected": true,
+      "source": [
+        3,
+        6
+      ],
+      "target": [
+        4,
+        1
+      ],
+      "relative_rotation": [
+        30,
+        22
+      ],
+      "consistent": false
+    },
+    {
+      "reflected": true,
+      "source": [
+        3,
+        6
+      ],
+      "target": [
+        1,
+        4
+      ],
+      "relative_rotation": [
+        6,
+        6
+      ],
+      "consistent": true
+    }
+  ],
+  "records": [
+    {
+      "reflected": false,
+      "pairs": [
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          10,
+          17
+        ],
+        [
+          1,
+          20
+        ],
+        [
+          3,
+          35
+        ],
+        [
+          4,
+          25
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          8,
+          24
+        ],
+        [
+          9,
+          30
+        ],
+        [
+          11,
+          28
+        ],
+        [
+          13,
+          27
+        ],
+        [
+          14,
+          33
+        ],
+        [
+          16,
+          29
+        ],
+        [
+          18,
+          32
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          23,
+          31
+        ],
+        [
+          26,
+          34
+        ]
+      ],
+      "cycles": [
+        [
+          0,
+          8,
+          25
+        ],
+        [
+          1,
+          21,
+          7
+        ],
+        [
+          2,
+          13,
+          20
+        ],
+        [
+          3,
+          28,
+          12
+        ],
+        [
+          4,
+          26,
+          35
+        ],
+        [
+          5,
+          16,
+          30
+        ],
+        [
+          6,
+          22,
+          15
+        ],
+        [
+          9,
+          31,
+          24
+        ],
+        [
+          10,
+          18,
+          33
+        ],
+        [
+          11,
+          29,
+          17
+        ],
+        [
+          14,
+          34,
+          27
+        ],
+        [
+          19,
+          23,
+          32
+        ]
+      ],
+      "rotations": [
+        12,
+        16,
+        32,
+        36,
+        0,
+        20
+      ],
+      "certificate": {
+        "lattice": [
+          "zeta40^12 - 2*zeta40^8 - zeta40^4 - 3",
+          "-zeta40^14 - 2*zeta40^12 - 2*zeta40^4 + 2"
+        ],
+        "determinant": "-10*zeta40^14 - 2*zeta40^12 + 6*zeta40^10 + 2*zeta40^8 - 2*zeta40^6 + 12*zeta40^2 + 7/2",
+        "total_area": "-10*zeta40^14 - 2*zeta40^12 + 6*zeta40^10 + 2*zeta40^8 - 2*zeta40^6 + 12*zeta40^2 + 7/2",
+        "shift_coefficients": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            -1
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "polygons": [
+          [
+            "0",
+            "zeta40^12",
+            "zeta40^12 - 1",
+            "zeta40^12 - zeta40^8 - 1",
+            "-zeta40^4"
+          ],
+          [
+            "zeta40^8 + 1",
+            "zeta40^12 + zeta40^4",
+            "zeta40^12",
+            "0",
+            "1"
+          ],
+          [
+            "2*zeta40^12 - zeta40^8 - 2",
+            "zeta40^12 - zeta40^8 - 2",
+            "zeta40^12 - zeta40^8 - 1",
+            "zeta40^12 - 1",
+            "2*zeta40^12 - zeta40^8 + zeta40^4 - 2"
+          ],
+          [
+            "zeta40^12 + zeta40^4",
+            "zeta40^8 + 1",
+            "zeta40^8 + zeta40^4 + 1",
+            "zeta40^12 + zeta40^8 + zeta40^4 + 1",
+            "zeta40^12 + zeta40^8 + zeta40^4"
+          ],
+          [
+            "zeta40^12 - 1",
+            "zeta40^12",
+            "zeta40^12 + zeta40^4",
+            "zeta40^12 + zeta40^8 + zeta40^4",
+            "zeta40^14 + 2*zeta40^12 + 2*zeta40^4 - 1",
+            "zeta40^14 + 2*zeta40^12 + 2*zeta40^4 - 2",
+            "zeta40^14 + 2*zeta40^12 + zeta40^4 - 2",
+            "2*zeta40^12 - zeta40^8 + zeta40^4 - 2"
+          ],
+          [
+            "zeta40^12 - zeta40^8 - 1",
+            "zeta40^12 - zeta40^8 - 2",
+            "zeta40^12 - zeta40^8 - zeta40^4 - 2",
+            "zeta40^12 - 2*zeta40^8 - zeta40^4 - 2",
+            "-zeta40^14 - zeta40^8 - 2*zeta40^4 - 1",
+            "-zeta40^14 - zeta40^8 - 2*zeta40^4",
+            "-zeta40^14 - zeta40^8 - zeta40^4",
+            "-zeta40^4"
+          ]
+        ],
+        "translations": [
+          "0",
+          "zeta40^8 + 1",
+          "2*zeta40^12 - zeta40^8 - 2",
+          "zeta40^12 + zeta40^4",
+          "zeta40^12 - 1",
+          "zeta40^12 - zeta40^8 - 1"
+        ]
+      }
+    }
+  ],
+  "scope": "All oriented full-edge translation quotients with exactly four P and two Q faces, up to face relabeling and global reflection. Each recorded certificate proves a periodic plane tiling; no claim about all larger inventories or the unrestricted two-convex-polygon problem."
+}

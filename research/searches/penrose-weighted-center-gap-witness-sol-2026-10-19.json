@@ -1,0 +1,276 @@
+{
+  "sample": "-3/4",
+  "source_rhombs": 430,
+  "source_triangles": 890,
+  "scanned_indices": [
+    25
+  ],
+  "witness": {
+    "status": "complete strict convex quadrilateral",
+    "index": 25,
+    "type": 1,
+    "supports": [
+      26,
+      70,
+      328,
+      374
+    ],
+    "center_cyclotomic": [
+      "1/2",
+      "0",
+      "1/2",
+      "-1/2"
+    ],
+    "vertices_affine_xy": [
+      {
+        "constant": [
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "delta_coefficient": [
+          [
+            "2",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "constant": [
+          [
+            "1/4",
+            "-1/4"
+          ],
+          [
+            "0",
+            "1/2"
+          ]
+        ],
+        "delta_coefficient": [
+          [
+            "-1",
+            "1"
+          ],
+          [
+            "4",
+            "-2"
+          ]
+        ]
+      },
+      {
+        "constant": [
+          [
+            "0",
+            "-1/2"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "delta_coefficient": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "constant": [
+          [
+            "1/4",
+            "-1/4"
+          ],
+          [
+            "0",
+            "-1/2"
+          ]
+        ],
+        "delta_coefficient": [
+          [
+            "-1",
+            "1"
+          ],
+          [
+            "-4",
+            "2"
+          ]
+        ]
+      }
+    ],
+    "maximal_finite_affine_support_interval": [
+      [
+        "-1/4",
+        "-1/2"
+      ],
+      [
+        "-1/44",
+        "-2/11"
+      ]
+    ],
+    "limiting_pairs": [
+      [
+        [
+          0,
+          70
+        ],
+        [
+          0,
+          116
+        ],
+        [
+          0,
+          156
+        ],
+        [
+          0,
+          202
+        ],
+        [
+          0,
+          242
+        ],
+        [
+          0,
+          288
+        ],
+        [
+          0,
+          328
+        ],
+        [
+          1,
+          116
+        ],
+        [
+          1,
+          156
+        ],
+        [
+          1,
+          202
+        ],
+        [
+          1,
+          242
+        ],
+        [
+          1,
+          288
+        ],
+        [
+          1,
+          328
+        ],
+        [
+          1,
+          374
+        ],
+        [
+          2,
+          26
+        ],
+        [
+          2,
+          116
+        ],
+        [
+          2,
+          202
+        ],
+        [
+          2,
+          288
+        ],
+        [
+          2,
+          374
+        ],
+        [
+          3,
+          26
+        ],
+        [
+          3,
+          70
+        ],
+        [
+          3,
+          116
+        ],
+        [
+          3,
+          156
+        ],
+        [
+          3,
+          202
+        ],
+        [
+          3,
+          242
+        ],
+        [
+          3,
+          288
+        ]
+      ],
+      [
+        [
+          0,
+          24
+        ],
+        [
+          0,
+          413
+        ]
+      ]
+    ],
+    "endpoint_turn_signs": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "endpoint_included": [
+      false,
+      true
+    ],
+    "boundary_distance_squared": [
+      "93/4",
+      "149/4"
+    ],
+    "uniform_interval_tail_certified": true,
+    "overlaps_reviewed_lower": false,
+    "overlaps_reviewed_upper": false
+  },
+  "scope": "one fixed sample, first quadrilateral candidate; no other delta samples or source enlargement",
+  "tail": "sample: D>3,R<1,|delta|<1; full interval: D>8,R<2,|delta|<2 gives D^2-2DR-|delta|>30"
+}

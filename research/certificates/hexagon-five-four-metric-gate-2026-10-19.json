@@ -1,0 +1,103 @@
+{
+  "schema": "FIXED_FIVE_FOUR_METRIC_GATE_V1",
+  "A": [
+    0,
+    1,
+    2,
+    0,
+    3,
+    4
+  ],
+  "B": [
+    0,
+    1,
+    1,
+    0,
+    2,
+    3
+  ],
+  "domain_subsets": 4194304,
+  "support_count": 446,
+  "support_counts_by_corona": [
+    254,
+    128,
+    128,
+    256,
+    128,
+    128,
+    256
+  ],
+  "support_sha256_ascending_3byte_little": "6114da92d9a00b6b96fb2073c6c58a21b6a0e94d59bf594dc80a207474d25372",
+  "minimal_supports": [
+    33416,
+    41032,
+    1118212,
+    2625540,
+    20774,
+    22550,
+    3543044
+  ],
+  "enumeration_seconds": 7.045766020000883,
+  "equiangular_matrix": [
+    [
+      0,
+      1,
+      -1,
+      -1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    [
+      0,
+      0,
+      -1,
+      1,
+      0
+    ],
+    [
+      0,
+      2,
+      -1,
+      -1,
+      0
+    ]
+  ],
+  "equiangular_kernel": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "metric_timeout_ms": 30000,
+  "metric_results": [
+    {
+      "support_mask": 33416,
+      "star_indices": [
+        3,
+        7,
+        9,
+        15
+      ],
+      "result": "unknown",
+      "seconds": 30.226316794000013,
+      "reason": "timeout"
+    }
+  ],
+  "status": "blocked"
+}

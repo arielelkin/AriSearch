@@ -1,0 +1,48 @@
+# Independent hostile Sol review: fixed native unrestricted periodicity
+
+Date: 2026-10-19. Reviewer: fresh independent Sol agent, not Astra. **Verdict: PASS** for the exact fixed-word implication, using the named imported monohedral classification. No author artifact was edited.
+
+Reviewed `research/lemmas/hexagon-five-four-fixed-native-unrestricted-periodicity-sol-2026-10-19.md`, its source reduction and defect-limit re-review, structural resumption review, forced-dimer and metric-gate independent reviews, both universal strip-omission reports, both carrier lemmas, and the independent33416 carrier PASS. The synthesis conservatively still marks33416 pending. Its linked carrier now has independent PASS, so that stated promotion gate is discharged by the existing review; updating the synthesis status is editorial work for its author.
+
+## Exact quantified conclusion
+
+For every pair of fixed closed simple strictly convex hexagons with counterclockwise native length words A=(0,1,2,0,3,4), B=(0,1,1,0,2,3), where the five common numerical lengths are positive and pairwise distinct, existence of any plane tiling by arbitrary isometric copies implies existence of a tiling with two independent translation periods. Reflections and omission of a species are permitted. This says nothing about periodicity of the initial tiling or any other side ordering. The proof does not need an actual tiling with exactly one of the seven minimal supports.
+
+## Hostile transfer audit
+
+1. **Unrestricted contacts.** The initial tiling can have partial-side contacts. The reviewed defect-free limit first produces an edge-to-edge everywhere-trivalent tiling of the same fixed pair. Its defect count, clean-disk compactness, and sector-disk separation preserve actual native vertices and full-edge matches. Neither a finite orientation set nor repetitivity is inserted. The limit may be monohedral; the synthesis handles that branch before invoking full twelve-corner coverage. This branch uses the named unrestricted monohedral convex-hexagon classification and its periodic sufficiency constructions, as already source-audited in the structural resumption review. This review accepts that imported theorem rather than claiming a new independent proof of its classification.
+
+2. **Forced dimer and signs.** In a mixed clean limit, distinct numerical lengths force A5 to meet only A5. Each A has exactly one such mate. Reflection across the seam would leave a third native (3,3) sector at its endpoint; neither native word permits one. Therefore the mate is the halfturn copy. A global reflection can orient the selected dimer positively without changing any permitted tiling or angle equation. Other tiles retain their actual signs; the atlas includes both signs and does not identify reflected stars. No species-wide handedness assumption is made.
+
+3. **Actual support inside the atlas.** Every actual signed native corner triple is initially color compatible. Its actual remote edge endpoints supply its seam continuations. Induction through monotone deletion therefore retains every actual triple at every round, placing the entire actual star set S inside the22-star atlas. This argument uses only finite signed native data, allowing infinitely many absolute orientations. It also shows that S itself is seam closed; membership in the larger fixed atlas alone would not establish that stronger fact.
+
+4. **Complete necessary predicate.** Since both species occur, each of their six native corner slots occurs somewhere, so S has full cover. Choose one actual A dimer and read its actual ten boundary factors; its exterior sectors and propagated native side frames give one of the seven enumerated cycles and a selected witnessing star at every factor. Exterior tiles may repeat and dimer boundary corners may flatten. The relaxed factor predicate does not demand exterior identities or a geometric ten-tile embedding, so these effects do not cause false negatives. Closure of S, full cover, and one completely witnessed corona are exactly the reviewed predicate, not merely three separate tests on the upper atlas.
+
+5. **Seven minima and metric implications.** The independent exhaustive predicate check gives precisely446 masks and minima {33416,41032,1118212,2625540,20774,22550,3543044}. Descending inside the retained subsets of the actual S produces a globally inclusion-minimal retained member; any smaller retained member would also be a subset of S. No upward-closure hypothesis is necessary. Every row of that member is an actual2pi angle equation because its selected star occurs in S. Its signs do not alter the genuine interior-angle magnitudes. The minimum need not itself be an exact realizable support.
+
+6. **Five strip escapes.** The three large masks force both polygons' consecutive triple-angle block sums2pi;20774 forces these sums for A;22550 forces them for both. The native corner convention is consistent with the exterior turn from side0 to side3. Positive exterior turns then make sides0 and3 antiparallel, and their native labels make their lengths equal. The universal strip proof covers arbitrary closed strictly convex metrics: monotone lateral chains, their midpoint halfturn symmetries, and a transverse strip period establish both coverage and disjoint interiors. The shear used to explain oblique periods conjugates translations and halfturns to translations and halfturns, so undoing it restores actual isometric copies of the original polygon. Additional equations in S cannot invalidate an implication from its subset.
+
+7. **Two mixed carriers.** Each carrier pairs every native side of four actual polygon discs exactly once with an equal-length side. Reflected B indexing is essential and correctly produces the four stated triples for each mask. The endpoint graphs are eight genuine triangle links, not merely union-find classes of size three. Boundary reversal gives orientability; face adjacency gives connectedness; V-E+F=0 gives a torus. Actual closed polygons supply their own vector closure. Equal-length edge gluings and circular links with total angle2pi give a compact nonsingular flat surface. Its complete simply connected universal cover develops globally isometrically onto the plane, yielding both coverage and disjoint interiors, rather than merely local compatibility. Orientation-preserving free deck isometries are translations, and compactness makes their vectors span two dimensions. This fully resolves the period and overlap obligations without assuming a finite patch extends.
+
+## Executed scoped checks
+
+All commands were run through `mise exec -- conda run --no-capture-output -n arisearch` and exited zero:
+
+- `python research/reviews/hexagon-five-four-forced-dimer-independent-check-2026-10-19.py`: independent reconstruction of180 atlases, pruning histories and corona sets PASS.
+- `python research/reviews/hexagon-five-four-metric-independent-check-2026-10-19.py`: exhaustive2^22 predicate reconstruction,446 supports, seven minima, corona counts and digest PASS.
+- `python research/searches/hexagon-five-four-four-support-structural-gate-2026-10-19.py`: exact remaining strip-angle consequences PASS.
+- `python research/searches/hexagon-five-four-nonresonant-support-2026-10-19.py`: exact three-support block implications and fixture PASS.
+- `python research/searches/hexagon-five-four-open-metric-gate-sol-2026-10-19.py`:41032 complete color/link/connectedness/Euler audit PASS.
+- `python research/searches/hexagon-five-four-mask33416-carrier-sol-2026-10-19.py`:33416 literal carrier audit PASS.
+
+The executable checks certify finite incidences and exact algebra; completeness and universal-cover development are mathematical arguments audited above. No nonlinear solver outcome, special metric sample, support realizability claim, deterministic propagation assumption, or finite-radius extension inference is used to prove the quantified result.
+
+## Verdict and limits
+
+No mathematical flaw or missing transfer obligation was found. **PASS** for the fixed native five-distinct-length theorem. The previously stated33416 independent-review condition is now satisfied. The imported monohedral classification remains an explicit external theorem dependency. The result does not classify other native words or settle the full two-convex-tile problem.
+
+## Post-review dihedral corollary audit
+
+**PASS** (2026-10-19). Independently formed all six rotations of B=(0,1,1,0,2,3) and of its reversal, and compared that set to every certificate row having full native-corner cover and exactly22 fixed stars. Both sets have cardinality12 and are exactly equal, among the180 distinct B rows. The earlier independent reconstruction already verified the underlying certificate atlas data. This comparison uses no color permutation and leaves A fixed.
+
+The geometric transfer is valid for arbitrary metrics, not merely congruent samples. A cyclic shift chooses another starting side. For a reversed cyclic word given in counterclockwise order, reflect that B reference polygon and select a starting side; its counterclockwise word is then the base word. Only B needs this reflection: the admitted set of all isometric copies of B is identical to that of its reflected reference, while A stays fixed. Thus initial tileability and any periodic witness transfer without changing lengths, strict convexity, periods, or the physical allowed tile set. Corner indexing and signed support need not be transported explicitly, since the base theorem is applied after this reference normalization. The corollary correctly extends only to this dihedral orbit and does not equate all full-cover atlas rows with the22-star rows. No author artifact was edited.

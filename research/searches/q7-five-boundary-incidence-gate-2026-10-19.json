@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "domain": "all 1024 labeled simple graphs on five vertices",
+  "counts": {
+    "graphs": 1024,
+    "edge_at_least_8": 56,
+    "outerplanar_edge_at_least_8": 0
+  },
+  "maximum_outerplanar_edges": 7,
+  "python": "3.12.13",
+  "networkx": "3.6.1",
+  "topological_counts": {
+    "children": 10,
+    "boundary_children": 5,
+    "interior_children": 5,
+    "seams": 22,
+    "boundary_boundary_edges_lower_bound": 5,
+    "interior_degree_sum_lower_bound": 25,
+    "interior_edges_lower_bound": 8
+  },
+  "seed": null
+}

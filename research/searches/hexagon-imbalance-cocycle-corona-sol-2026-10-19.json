@@ -1,0 +1,68 @@
+{
+  "domain": "one fixed B plus its six full-side neighbors; 24 states per neighbor; no outer extension",
+  "candidates": [
+    12,
+    12,
+    4,
+    8,
+    4,
+    12
+  ],
+  "labeled_coronas": 5184,
+  "first": [
+    {
+      "name": "A",
+      "r": 1,
+      "eps": -1,
+      "shift": [
+        2,
+        -3
+      ]
+    },
+    {
+      "name": "A",
+      "r": 0,
+      "eps": -1,
+      "shift": [
+        3,
+        -1
+      ]
+    },
+    {
+      "name": "B",
+      "r": 3,
+      "eps": -1,
+      "shift": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "A",
+      "r": 1,
+      "eps": -1,
+      "shift": [
+        -2,
+        5
+      ]
+    },
+    {
+      "name": "B",
+      "r": 3,
+      "eps": -1,
+      "shift": [
+        -3,
+        2
+      ]
+    },
+    {
+      "name": "A",
+      "r": 0,
+      "eps": -1,
+      "shift": [
+        -2,
+        -1
+      ]
+    }
+  ]
+}

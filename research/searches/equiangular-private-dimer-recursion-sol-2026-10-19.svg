@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700">
+<rect width="1000" height="700" fill="white"/>
+<style>text{font:16px sans-serif;fill:#17212b}.small{font-size:13px}polygon{stroke:#17212b;stroke-width:1.4}</style>
+<text x="25" y="28">AA: half-turn mate</text>
+<polygon points="197.0762,167.0000 302.9238,167.0000 334.6780,112.0000 302.9238,57.0000 218.2457,57.0000 175.9067,130.3333" fill="#dbeafe"/>
+<polygon points="302.9238,167.0000 197.0762,167.0000 165.3220,222.0000 197.0762,277.0000 281.7543,277.0000 324.0933,203.6667" fill="#fef3c7"/>
+<line x1="197.0762253242843" y1="167.0" x2="302.92377467571566" y2="167.0" stroke="#c22" stroke-width="3"/>
+<text x="255.0" y="162.0" class="small">private 5</text>
+<text x="25" y="305" class="small">Boundary: 3 3 4 4 2 | 3 3 4 4 2</text>
+<text x="25" y="328" class="small">Required third-corner pairs: 23 / 23</text>
+<text x="525" y="28">AA: reflection mate</text>
+<polygon points="691.7838,167.0000 797.6314,167.0000 829.3857,112.0000 797.6314,57.0000 712.9534,57.0000 670.6143,130.3333" fill="#dbeafe"/>
+<polygon points="691.7838,167.0000 797.6314,167.0000 829.3857,222.0000 797.6314,277.0000 712.9534,277.0000 670.6143,203.6667" fill="#fef3c7"/>
+<line x1="691.7838478567128" y1="167.0" x2="797.6313972081441" y2="167.0" stroke="#c22" stroke-width="3"/>
+<text x="749.7076225324284" y="162.0" class="small">private 5</text>
+<text x="525" y="305" class="small">Boundary: 3 3 4 4 2 | 2 4 4 3 3</text>
+<text x="525" y="328" class="small">Required third-corner pairs: 22 / 33</text>
+<text x="25" y="378">BB: half-turn mate</text>
+<polygon points="239.4152,517.0000 260.5848,517.0000 292.3390,462.0000 260.5848,407.0000 218.2457,407.0000 197.0762,443.6667" fill="#dbeafe"/>
+<polygon points="260.5848,517.0000 239.4152,517.0000 207.6610,572.0000 239.4152,627.0000 281.7543,627.0000 302.9238,590.3333" fill="#fef3c7"/>
+<line x1="239.41524506485686" y1="517.0" x2="260.5847549351431" y2="517.0" stroke="#c22" stroke-width="3"/>
+<text x="255.0" y="512.0" class="small">private 1</text>
+<text x="25" y="655" class="small">Boundary: 3 3 2 2 4 | 3 3 2 2 4</text>
+<text x="25" y="678" class="small">Required third-corner pairs: 34 / 34</text>
+<text x="525" y="378">BB: reflection mate</text>
+<polygon points="744.7076,517.0000 765.8771,517.0000 797.6314,462.0000 765.8771,407.0000 723.5381,407.0000 702.3686,443.6667" fill="#dbeafe"/>
+<polygon points="744.7076,517.0000 765.8771,517.0000 797.6314,572.0000 765.8771,627.0000 723.5381,627.0000 702.3686,590.3333" fill="#fef3c7"/>
+<line x1="744.7076225324284" y1="517.0" x2="765.8771324027147" y2="517.0" stroke="#c22" stroke-width="3"/>
+<text x="760.2923774675716" y="512.0" class="small">private 1</text>
+<text x="525" y="655" class="small">Boundary: 3 3 2 2 4 | 4 2 2 3 3</text>
+<text x="525" y="678" class="small">Required third-corner pairs: 44 / 33</text>
+</svg>

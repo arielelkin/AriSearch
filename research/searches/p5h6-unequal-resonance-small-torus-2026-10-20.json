@@ -1,0 +1,86 @@
+{
+  "scope": "Exactly 2P+2H orientable edge-to-edge trivalent quotient; all eight chirality assignments after fixing first P orientation; 6 s timeout each. SAT needs exact geometric verifier.",
+  "z3_version": "4.16.0",
+  "records": [
+    {
+      "reflections": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "unsat",
+      "seconds": 0.000815827999758767
+    },
+    {
+      "reflections": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "status": "unsat",
+      "seconds": 0.0005380069997045211
+    },
+    {
+      "reflections": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "status": "unsat",
+      "seconds": 0.000565168999855814
+    },
+    {
+      "reflections": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "status": "unsat",
+      "seconds": 0.0005501410005308571
+    },
+    {
+      "reflections": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "status": "unsat",
+      "seconds": 0.0005455310001707403
+    },
+    {
+      "reflections": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "status": "unsat",
+      "seconds": 0.0005224690003160504
+    },
+    {
+      "reflections": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "status": "unsat",
+      "seconds": 0.0005940619994362351
+    },
+    {
+      "reflections": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "status": "unsat",
+      "seconds": 0.0005169280002519372
+    }
+  ]
+}

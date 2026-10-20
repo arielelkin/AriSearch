@@ -1,0 +1,629 @@
+{
+  "scope": "ten dihedral words; forced alternating Q-Q/P-Q boundary; equal AA/BB seam lengths; exact AA closure and strict positivity",
+  "results": [
+    {
+      "angles": [
+        "144",
+        "124",
+        "124",
+        "124",
+        "128",
+        "128",
+        "128"
+      ],
+      "native_QQ_types": [
+        [
+          "124",
+          "124"
+        ],
+        [
+          "124",
+          "128"
+        ],
+        [
+          "128",
+          "128"
+        ]
+      ],
+      "positive": false,
+      "particular_approx": [
+        "-3.6602",
+        "-1.5398",
+        "-3.6602"
+      ]
+    },
+    {
+      "angles": [
+        "144",
+        "124",
+        "124",
+        "128",
+        "124",
+        "128",
+        "128"
+      ],
+      "positive": false,
+      "reason": "inconsistent closure and AA=BB"
+    },
+    {
+      "angles": [
+        "144",
+        "124",
+        "124",
+        "128",
+        "128",
+        "124",
+        "128"
+      ],
+      "native_QQ_types": [
+        [
+          "124",
+          "124"
+        ],
+        [
+          "128",
+          "128"
+        ],
+        [
+          "124",
+          "128"
+        ]
+      ],
+      "positive": true,
+      "particular_approx": [
+        "1.6966",
+        "1.6966",
+        "1.6269"
+      ],
+      "lengths_approx": [
+        "1.0000000",
+        "1.6966491",
+        "1.0000000",
+        "1.6966491",
+        "1.0000000",
+        "1.6268501",
+        "1.0000000"
+      ],
+      "lengths_exact_definition": "unique/one-parameter exact closure solution as reconstructed by this script",
+      "carrier": {
+        "status": "no 2P+2Q carrier for this metric",
+        "nodes": "1936"
+      }
+    },
+    {
+      "angles": [
+        "144",
+        "124",
+        "124",
+        "128",
+        "128",
+        "128",
+        "124"
+      ],
+      "native_QQ_types": [
+        [
+          "124",
+          "124"
+        ],
+        [
+          "128",
+          "128"
+        ],
+        [
+          "124",
+          "128"
+        ]
+      ],
+      "positive": true,
+      "particular_approx": [
+        "1.4390",
+        "1.4390",
+        "1.3420"
+      ],
+      "lengths_approx": [
+        "1.0000000",
+        "1.4389529",
+        "1.0000000",
+        "1.4389529",
+        "1.0000000",
+        "1.3420061",
+        "1.0000000"
+      ],
+      "lengths_exact_definition": "unique/one-parameter exact closure solution as reconstructed by this script",
+      "carrier": {
+        "status": "no 2P+2Q carrier for this metric",
+        "nodes": "3120"
+      }
+    },
+    {
+      "angles": [
+        "144",
+        "124",
+        "128",
+        "124",
+        "124",
+        "128",
+        "128"
+      ],
+      "native_QQ_types": [
+        [
+          "124",
+          "128"
+        ],
+        [
+          "124",
+          "124"
+        ],
+        [
+          "128",
+          "128"
+        ]
+      ],
+      "positive": true,
+      "particular_approx": [
+        "2.1751",
+        "2.1053",
+        "2.1053"
+      ],
+      "lengths_approx": [
+        "1.0000000",
+        "2.1750585",
+        "1.0000000",
+        "2.1052595",
+        "1.0000000",
+        "2.1052595",
+        "1.0000000"
+      ],
+      "lengths_exact_definition": "unique/one-parameter exact closure solution as reconstructed by this script",
+      "carrier": {
+        "status": "no 2P+2Q carrier for this metric",
+        "nodes": "1936"
+      }
+    },
+    {
+      "angles": [
+        "144",
+        "124",
+        "128",
+        "124",
+        "128",
+        "124",
+        "128"
+      ],
+      "native_QQ_types": [
+        [
+          "124",
+          "128"
+        ],
+        [
+          "124",
+          "128"
+        ],
+        [
+          "124",
+          "128"
+        ]
+      ],
+      "positive": true,
+      "particular_approx": [
+        "0.026661",
+        "0.73434",
+        "0.00000"
+      ],
+      "lengths_approx": [
+        "1.0000000",
+        "1.0266608",
+        "1.0000000",
+        "1.3523726",
+        "1.0000000",
+        "1.0000000",
+        "1.0000000"
+      ],
+      "lengths_exact_definition": "unique/one-parameter exact closure solution as reconstructed by this script",
+      "carrier": {
+        "status": "flat oriented torus found",
+        "reflections": [
+          false,
+          false,
+          false
+        ],
+        "pairs": [
+          [
+            "0",
+            "5"
+          ],
+          [
+            1,
+            16
+          ],
+          [
+            2,
+            21
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            4,
+            17
+          ],
+          [
+            6,
+            23
+          ],
+          [
+            7,
+            14
+          ],
+          [
+            8,
+            19
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            11,
+            18
+          ],
+          [
+            13,
+            20
+          ],
+          [
+            15,
+            22
+          ]
+        ],
+        "nodes": "468"
+      }
+    },
+    {
+      "angles": [
+        "144",
+        "124",
+        "128",
+        "124",
+        "128",
+        "128",
+        "124"
+      ],
+      "native_QQ_types": [
+        [
+          "124",
+          "128"
+        ],
+        [
+          "124",
+          "128"
+        ],
+        [
+          "124",
+          "128"
+        ]
+      ],
+      "positive": true,
+      "particular_approx": [
+        "0.026661",
+        "0.73434",
+        "0.00000"
+      ],
+      "lengths_approx": [
+        "1.0000000",
+        "1.0266608",
+        "1.0000000",
+        "1.2804806",
+        "1.0000000",
+        "0.98017181",
+        "1.0000000"
+      ],
+      "lengths_exact_definition": "unique/one-parameter exact closure solution as reconstructed by this script",
+      "carrier": {
+        "status": "flat oriented torus found",
+        "reflections": [
+          false,
+          false,
+          false
+        ],
+        "pairs": [
+          [
+            "0",
+            "5"
+          ],
+          [
+            1,
+            16
+          ],
+          [
+            2,
+            21
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            4,
+            17
+          ],
+          [
+            6,
+            23
+          ],
+          [
+            7,
+            14
+          ],
+          [
+            8,
+            19
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            11,
+            18
+          ],
+          [
+            13,
+            20
+          ],
+          [
+            15,
+            22
+          ]
+        ],
+        "nodes": "207"
+      }
+    },
+    {
+      "angles": [
+        "144",
+        "124",
+        "128",
+        "128",
+        "124",
+        "124",
+        "128"
+      ],
+      "native_QQ_types": [
+        [
+          "124",
+          "128"
+        ],
+        [
+          "124",
+          "128"
+        ],
+        [
+          "124",
+          "128"
+        ]
+      ],
+      "positive": true,
+      "particular_approx": [
+        "-0.026132",
+        "0.71978",
+        "0.00000"
+      ],
+      "lengths_approx": [
+        "1.0000000",
+        "1.0000000",
+        "1.0000000",
+        "1.3702912",
+        "1.0000000",
+        "1.0738449",
+        "1.0000000"
+      ],
+      "lengths_exact_definition": "unique/one-parameter exact closure solution as reconstructed by this script",
+      "carrier": {
+        "status": "flat oriented torus found",
+        "reflections": [
+          false,
+          false,
+          false
+        ],
+        "pairs": [
+          [
+            "0",
+            "5"
+          ],
+          [
+            1,
+            16
+          ],
+          [
+            2,
+            21
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            4,
+            17
+          ],
+          [
+            6,
+            23
+          ],
+          [
+            7,
+            14
+          ],
+          [
+            8,
+            19
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            11,
+            18
+          ],
+          [
+            13,
+            20
+          ],
+          [
+            15,
+            22
+          ]
+        ],
+        "nodes": "227"
+      }
+    },
+    {
+      "angles": [
+        "144",
+        "128",
+        "124",
+        "124",
+        "124",
+        "128",
+        "128"
+      ],
+      "native_QQ_types": [
+        [
+          "124",
+          "128"
+        ],
+        [
+          "124",
+          "124"
+        ],
+        [
+          "128",
+          "128"
+        ]
+      ],
+      "positive": true,
+      "particular_approx": [
+        "2.7783",
+        "2.6388",
+        "2.6388"
+      ],
+      "lengths_approx": [
+        "1.0000000",
+        "2.7782936",
+        "1.0000000",
+        "2.6387561",
+        "1.0000000",
+        "2.6387561",
+        "1.0000000"
+      ],
+      "lengths_exact_definition": "unique/one-parameter exact closure solution as reconstructed by this script",
+      "carrier": {
+        "status": "no 2P+2Q carrier for this metric",
+        "nodes": "3288"
+      }
+    },
+    {
+      "angles": [
+        "144",
+        "128",
+        "124",
+        "124",
+        "128",
+        "124",
+        "128"
+      ],
+      "native_QQ_types": [
+        [
+          "124",
+          "128"
+        ],
+        [
+          "124",
+          "128"
+        ],
+        [
+          "124",
+          "128"
+        ]
+      ],
+      "positive": true,
+      "particular_approx": [
+        "0.027347",
+        "0.73635",
+        "0.00000"
+      ],
+      "lengths_approx": [
+        "1.0000000",
+        "1.0273473",
+        "1.0000000",
+        "1.4122113",
+        "1.0000000",
+        "0.97489880",
+        "1.0000000"
+      ],
+      "lengths_exact_definition": "unique/one-parameter exact closure solution as reconstructed by this script",
+      "carrier": {
+        "status": "flat oriented torus found",
+        "reflections": [
+          false,
+          false,
+          false
+        ],
+        "pairs": [
+          [
+            "0",
+            "5"
+          ],
+          [
+            1,
+            16
+          ],
+          [
+            2,
+            21
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            4,
+            17
+          ],
+          [
+            6,
+            23
+          ],
+          [
+            7,
+            14
+          ],
+          [
+            8,
+            19
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            11,
+            18
+          ],
+          [
+            13,
+            20
+          ],
+          [
+            15,
+            22
+          ]
+        ],
+        "nodes": "218"
+      }
+    }
+  ]
+}

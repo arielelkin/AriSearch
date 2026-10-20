@@ -1,0 +1,661 @@
+{
+  "status": "rejected at native-side incidence gate",
+  "P": {
+    "triangles": [
+      [
+        "a",
+        "b",
+        "e"
+      ],
+      [
+        "b",
+        "c",
+        "e"
+      ],
+      [
+        "c",
+        "a",
+        "e"
+      ],
+      [
+        "b",
+        "d",
+        "c"
+      ],
+      [
+        "d",
+        "a",
+        "c"
+      ],
+      [
+        "a",
+        "b",
+        "u1"
+      ],
+      [
+        "b",
+        "u2",
+        "u1"
+      ],
+      [
+        "b",
+        "d",
+        "u2"
+      ],
+      [
+        "d",
+        "u3",
+        "u2"
+      ],
+      [
+        "d",
+        "u0",
+        "u3"
+      ],
+      [
+        "d",
+        "a",
+        "u0"
+      ],
+      [
+        "a",
+        "u1",
+        "u0"
+      ]
+    ],
+    "boundary": [
+      {
+        "child": "u0",
+        "word": [
+          "s3",
+          "s0"
+        ]
+      },
+      {
+        "child": "u1",
+        "word": [
+          "s0",
+          "p0",
+          "p1",
+          "s1"
+        ]
+      },
+      {
+        "child": "u2",
+        "word": [
+          "s1",
+          "p2",
+          "p3",
+          "s2"
+        ]
+      },
+      {
+        "child": "u3",
+        "word": [
+          "s2",
+          "p4",
+          "s3"
+        ]
+      }
+    ],
+    "seams": [
+      {
+        "children": [
+          "a",
+          "b"
+        ],
+        "ends": [
+          "v0",
+          "v5"
+        ]
+      },
+      {
+        "children": [
+          "a",
+          "c"
+        ],
+        "ends": [
+          "v2",
+          "v4"
+        ]
+      },
+      {
+        "children": [
+          "a",
+          "d"
+        ],
+        "ends": [
+          "v4",
+          "v10"
+        ]
+      },
+      {
+        "children": [
+          "a",
+          "e"
+        ],
+        "ends": [
+          "v0",
+          "v2"
+        ]
+      },
+      {
+        "children": [
+          "a",
+          "u0"
+        ],
+        "ends": [
+          "v10",
+          "v11"
+        ]
+      },
+      {
+        "children": [
+          "a",
+          "u1"
+        ],
+        "ends": [
+          "v5",
+          "v11"
+        ]
+      },
+      {
+        "children": [
+          "b",
+          "c"
+        ],
+        "ends": [
+          "v1",
+          "v3"
+        ]
+      },
+      {
+        "children": [
+          "b",
+          "d"
+        ],
+        "ends": [
+          "v3",
+          "v7"
+        ]
+      },
+      {
+        "children": [
+          "b",
+          "e"
+        ],
+        "ends": [
+          "v0",
+          "v1"
+        ]
+      },
+      {
+        "children": [
+          "b",
+          "u1"
+        ],
+        "ends": [
+          "v5",
+          "v6"
+        ]
+      },
+      {
+        "children": [
+          "b",
+          "u2"
+        ],
+        "ends": [
+          "v6",
+          "v7"
+        ]
+      },
+      {
+        "children": [
+          "c",
+          "d"
+        ],
+        "ends": [
+          "v3",
+          "v4"
+        ]
+      },
+      {
+        "children": [
+          "c",
+          "e"
+        ],
+        "ends": [
+          "v1",
+          "v2"
+        ]
+      },
+      {
+        "children": [
+          "d",
+          "u0"
+        ],
+        "ends": [
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "children": [
+          "d",
+          "u2"
+        ],
+        "ends": [
+          "v7",
+          "v8"
+        ]
+      },
+      {
+        "children": [
+          "d",
+          "u3"
+        ],
+        "ends": [
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "children": [
+          "u0",
+          "u1"
+        ],
+        "ends": [
+          "v11",
+          "s0"
+        ]
+      },
+      {
+        "children": [
+          "u0",
+          "u3"
+        ],
+        "ends": [
+          "v9",
+          "s3"
+        ]
+      },
+      {
+        "children": [
+          "u1",
+          "u2"
+        ],
+        "ends": [
+          "v6",
+          "s1"
+        ]
+      },
+      {
+        "children": [
+          "u2",
+          "u3"
+        ],
+        "ends": [
+          "v8",
+          "s2"
+        ]
+      }
+    ],
+    "species": {
+      "a": "P",
+      "b": "P",
+      "c": "P",
+      "d": "P",
+      "e": "P",
+      "u0": "P",
+      "u1": "Q",
+      "u2": "Q",
+      "u3": "P"
+    },
+    "native_sides": {
+      "a": 6,
+      "b": 6,
+      "e": 3,
+      "c": 4,
+      "d": 6,
+      "u1": 7,
+      "u2": 7,
+      "u3": 5,
+      "u0": 5
+    },
+    "failures": {
+      "a": {
+        "native_sides": 6,
+        "required": 5
+      },
+      "b": {
+        "native_sides": 6,
+        "required": 5
+      },
+      "e": {
+        "native_sides": 3,
+        "required": 5
+      },
+      "c": {
+        "native_sides": 4,
+        "required": 5
+      },
+      "d": {
+        "native_sides": 6,
+        "required": 5
+      }
+    }
+  },
+  "Q": {
+    "triangles": [
+      [
+        "a",
+        "b",
+        "e"
+      ],
+      [
+        "b",
+        "c",
+        "e"
+      ],
+      [
+        "c",
+        "a",
+        "e"
+      ],
+      [
+        "b",
+        "d",
+        "c"
+      ],
+      [
+        "d",
+        "a",
+        "c"
+      ],
+      [
+        "a",
+        "b",
+        "u1"
+      ],
+      [
+        "b",
+        "u2",
+        "u1"
+      ],
+      [
+        "b",
+        "d",
+        "u2"
+      ],
+      [
+        "d",
+        "u0",
+        "u2"
+      ],
+      [
+        "d",
+        "a",
+        "u0"
+      ],
+      [
+        "a",
+        "u1",
+        "u0"
+      ]
+    ],
+    "boundary": [
+      {
+        "child": "u0",
+        "word": [
+          "s2",
+          "p0",
+          "p1",
+          "p2",
+          "s0"
+        ]
+      },
+      {
+        "child": "u1",
+        "word": [
+          "s0",
+          "p3",
+          "p4",
+          "s1"
+        ]
+      },
+      {
+        "child": "u2",
+        "word": [
+          "s1",
+          "p5",
+          "p6",
+          "s2"
+        ]
+      }
+    ],
+    "seams": [
+      {
+        "children": [
+          "a",
+          "b"
+        ],
+        "ends": [
+          "v0",
+          "v5"
+        ]
+      },
+      {
+        "children": [
+          "a",
+          "c"
+        ],
+        "ends": [
+          "v2",
+          "v4"
+        ]
+      },
+      {
+        "children": [
+          "a",
+          "d"
+        ],
+        "ends": [
+          "v4",
+          "v9"
+        ]
+      },
+      {
+        "children": [
+          "a",
+          "e"
+        ],
+        "ends": [
+          "v0",
+          "v2"
+        ]
+      },
+      {
+        "children": [
+          "a",
+          "u0"
+        ],
+        "ends": [
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "children": [
+          "a",
+          "u1"
+        ],
+        "ends": [
+          "v5",
+          "v10"
+        ]
+      },
+      {
+        "children": [
+          "b",
+          "c"
+        ],
+        "ends": [
+          "v1",
+          "v3"
+        ]
+      },
+      {
+        "children": [
+          "b",
+          "d"
+        ],
+        "ends": [
+          "v3",
+          "v7"
+        ]
+      },
+      {
+        "children": [
+          "b",
+          "e"
+        ],
+        "ends": [
+          "v0",
+          "v1"
+        ]
+      },
+      {
+        "children": [
+          "b",
+          "u1"
+        ],
+        "ends": [
+          "v5",
+          "v6"
+        ]
+      },
+      {
+        "children": [
+          "b",
+          "u2"
+        ],
+        "ends": [
+          "v6",
+          "v7"
+        ]
+      },
+      {
+        "children": [
+          "c",
+          "d"
+        ],
+        "ends": [
+          "v3",
+          "v4"
+        ]
+      },
+      {
+        "children": [
+          "c",
+          "e"
+        ],
+        "ends": [
+          "v1",
+          "v2"
+        ]
+      },
+      {
+        "children": [
+          "d",
+          "u0"
+        ],
+        "ends": [
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "children": [
+          "d",
+          "u2"
+        ],
+        "ends": [
+          "v7",
+          "v8"
+        ]
+      },
+      {
+        "children": [
+          "u0",
+          "u1"
+        ],
+        "ends": [
+          "v10",
+          "s0"
+        ]
+      },
+      {
+        "children": [
+          "u0",
+          "u2"
+        ],
+        "ends": [
+          "v8",
+          "s2"
+        ]
+      },
+      {
+        "children": [
+          "u1",
+          "u2"
+        ],
+        "ends": [
+          "v6",
+          "s1"
+        ]
+      }
+    ],
+    "species": {
+      "a": "P",
+      "b": "P",
+      "c": "P",
+      "d": "P",
+      "e": "P",
+      "u0": "Q",
+      "u1": "Q",
+      "u2": "Q"
+    },
+    "native_sides": {
+      "a": 6,
+      "b": 6,
+      "e": 3,
+      "c": 4,
+      "d": 5,
+      "u1": 7,
+      "u2": 7,
+      "u0": 8
+    },
+    "failures": {
+      "a": {
+        "native_sides": 6,
+        "required": 5
+      },
+      "b": {
+        "native_sides": 6,
+        "required": 5
+      },
+      "e": {
+        "native_sides": 3,
+        "required": 5
+      },
+      "c": {
+        "native_sides": 4,
+        "required": 5
+      },
+      "u0": {
+        "native_sides": 8,
+        "required": 7
+      }
+    }
+  }
+}

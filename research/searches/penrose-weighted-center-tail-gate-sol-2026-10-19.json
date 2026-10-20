@@ -1,0 +1,218 @@
+{
+  "field": "Q(phi), phi^2=phi+1, phi>1; z=x+i sin(36deg)y",
+  "triangles": 890,
+  "rhombs": 430,
+  "search_order": "increasing exact squared center distance to origin, then index; stop first quadrilateral per type",
+  "scanned": {
+    "1": [
+      [
+        25,
+        4
+      ]
+    ],
+    "0": [
+      [
+        26,
+        4
+      ]
+    ]
+  },
+  "witnesses": [
+    {
+      "type": 1,
+      "index": 25,
+      "center_cyclotomic": [
+        "1/2",
+        "0",
+        "1/2",
+        "-1/2"
+      ],
+      "vertices_xy": [
+        [
+          [
+            "5/11",
+            "3/22"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1/3",
+            "0"
+          ],
+          [
+            "1/3",
+            "2/3"
+          ]
+        ],
+        [
+          [
+            "0",
+            "-1/2"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1/3",
+            "0"
+          ],
+          [
+            "-1/3",
+            "-2/3"
+          ]
+        ]
+      ],
+      "supports": [
+        24,
+        70,
+        328,
+        413
+      ],
+      "radius_squared": [
+        "11/36",
+        "11/36"
+      ],
+      "boundary_distance_squared": [
+        "93/4",
+        "149/4"
+      ],
+      "finite_worst_deficit": [
+        "1/4",
+        "1/3"
+      ],
+      "threshold": [
+        "1/4",
+        "1/3"
+      ],
+      "limiting_pairs": [
+        [
+          1,
+          26
+        ],
+        [
+          3,
+          374
+        ]
+      ],
+      "halfline": "delta >= threshold"
+    },
+    {
+      "type": 0,
+      "index": 26,
+      "center_cyclotomic": [
+        "1/2",
+        "1/2",
+        "1/2",
+        "0"
+      ],
+      "vertices_xy": [
+        [
+          [
+            "29/44",
+            "3/22"
+          ],
+          [
+            "-1/2",
+            "-1/2"
+          ]
+        ],
+        [
+          [
+            "23/76",
+            "5/19"
+          ],
+          [
+            "-3/38",
+            "23/38"
+          ]
+        ],
+        [
+          [
+            "-17/44",
+            "-1/22"
+          ],
+          [
+            "3/22",
+            "23/22"
+          ]
+        ],
+        [
+          [
+            "-1/4",
+            "-1/2"
+          ],
+          [
+            "-1/2",
+            "-1/2"
+          ]
+        ]
+      ],
+      "supports": [
+        29,
+        72,
+        116,
+        374
+      ],
+      "radius_squared": [
+        "1/2",
+        "3/4"
+      ],
+      "boundary_distance_squared": [
+        "41/2",
+        "129/4"
+      ],
+      "finite_worst_deficit": [
+        "21/44",
+        "9/22"
+      ],
+      "threshold": [
+        "-21/44",
+        "-9/22"
+      ],
+      "limiting_pairs": [
+        [
+          0,
+          24
+        ],
+        [
+          0,
+          413
+        ],
+        [
+          2,
+          69
+        ],
+        [
+          2,
+          115
+        ]
+      ],
+      "halfline": "delta <= threshold"
+    }
+  ],
+  "negative_overlap": false,
+  "positive_overlap": true,
+  "all_real_covered": false,
+  "positive_join_kind": "shared endpoint",
+  "uncovered_gaps": [
+    {
+      "lower": [
+        "-21/44",
+        "-9/22"
+      ],
+      "upper": [
+        "-1/4",
+        "0"
+      ],
+      "lower_included": false,
+      "upper_included": false
+    }
+  ]
+}

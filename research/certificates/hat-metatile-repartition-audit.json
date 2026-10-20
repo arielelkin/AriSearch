@@ -1,0 +1,7 @@
+{
+  "status": "PASSED",
+  "sha256": "2e633db488e3942617d1db68cf795c0782bca476256d0cb20fa4b2ac4f64121b",
+  "witnesses": 3304,
+  "classes": 3,
+  "scope": "Exact primitive disjointness, edge boundaries, strict convexity, all retained cover witnesses, congruence and periodic carrier matches. Enumeration completeness remains producer argument."
+}

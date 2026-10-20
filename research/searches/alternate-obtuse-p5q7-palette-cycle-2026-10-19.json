@@ -1,0 +1,159 @@
+{
+  "domain": "P nondecreasing 5 entries from 95..120 step5 sum540; Q nondecreasing 7 entries from120..150 step5 sum900; exclude previous fixed palette; typed angle triples sum360. Rational nonnegative stars match one P+one Q. Integer stars tested one and two of each.",
+  "pairs": 919,
+  "stats": {
+    "unused-angle": 266,
+    "rational-feasible": 453,
+    "rational-infeasible": 200
+  },
+  "four_face_inventory_obstructions": [],
+  "selected_palette": [
+    {
+      "P": [
+        95,
+        105,
+        110,
+        115,
+        115
+      ],
+      "Q": [
+        125,
+        125,
+        125,
+        125,
+        130,
+        130,
+        140
+      ],
+      "labels": [
+        [
+          "P",
+          95
+        ],
+        [
+          "P",
+          105
+        ],
+        [
+          "P",
+          110
+        ],
+        [
+          "P",
+          115
+        ],
+        [
+          "Q",
+          125
+        ],
+        [
+          "Q",
+          130
+        ],
+        [
+          "Q",
+          140
+        ]
+      ],
+      "stars": [
+        [
+          [
+            "P",
+            95
+          ],
+          [
+            "Q",
+            125
+          ],
+          [
+            "Q",
+            140
+          ]
+        ],
+        [
+          [
+            "P",
+            105
+          ],
+          [
+            "P",
+            115
+          ],
+          [
+            "Q",
+            140
+          ]
+        ],
+        [
+          [
+            "P",
+            105
+          ],
+          [
+            "Q",
+            125
+          ],
+          [
+            "Q",
+            130
+          ]
+        ],
+        [
+          [
+            "P",
+            110
+          ],
+          [
+            "P",
+            110
+          ],
+          [
+            "Q",
+            140
+          ]
+        ],
+        [
+          [
+            "P",
+            110
+          ],
+          [
+            "Q",
+            125
+          ],
+          [
+            "Q",
+            125
+          ]
+        ],
+        [
+          [
+            "P",
+            115
+          ],
+          [
+            "P",
+            115
+          ],
+          [
+            "Q",
+            130
+          ]
+        ]
+      ],
+      "rational_weights": [
+        "1",
+        "0",
+        "1",
+        "0",
+        "1",
+        "1"
+      ],
+      "one_and_two_each": [
+        "sat",
+        "sat"
+      ]
+    }
+  ],
+  "z3": "4.16.0"
+}

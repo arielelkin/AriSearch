@@ -1,0 +1,116 @@
+{
+  "status": "exact_metric_and_native_corner_support_only",
+  "field": "Q(zeta_72), embedding zeta_72=exp(2*pi*i/72)",
+  "P_angles": [
+    115,
+    115,
+    100,
+    110,
+    100
+  ],
+  "Q_angles": [
+    130,
+    130,
+    130,
+    125,
+    125,
+    125,
+    135
+  ],
+  "P_direction_exponents": [
+    0,
+    13,
+    29,
+    43,
+    59
+  ],
+  "Q_direction_exponents": [
+    0,
+    10,
+    20,
+    31,
+    42,
+    53,
+    62
+  ],
+  "L": {
+    "cyclotomic_basis": "zeta72^23 - zeta72^17 - zeta72^13 + zeta72^7 + zeta72^5",
+    "minimal_polynomial": "x^12 - 24*x^10 + 162*x^8 - 268*x^6 + 165*x^4 - 36*x^2 + 1",
+    "approx": 0.7930675650965846
+  },
+  "a": {
+    "cyclotomic_basis": "zeta72^19 - zeta72^17 - zeta72^13 + zeta72^11 + zeta72",
+    "minimal_polynomial": "x^12 - 24*x^10 + 162*x^8 - 268*x^6 + 165*x^4 - 36*x^2 + 1",
+    "approx": 0.9728413872067758
+  },
+  "b": {
+    "cyclotomic_basis": "-zeta72^20 - zeta72^19 + zeta72^14 + zeta72^13 - zeta72^11 - zeta72^10 + zeta72^8 + zeta72^7 + zeta72^5 + zeta72^4 - zeta72^2 - zeta72",
+    "minimal_polynomial": "x^12 - 48*x^10 + 68*x^9 + 180*x^8 - 252*x^7 - 246*x^6 + 288*x^5 + 153*x^4 - 112*x^3 - 36*x^2 + 12*x + 1",
+    "approx": 1.259272723569946
+  },
+  "P_coordinates": [
+    "0",
+    "zeta72^23 - zeta72^17 - zeta72^13 + zeta72^7 + zeta72^5",
+    "zeta72^23 - zeta72^17 + zeta72^7 + zeta72^5",
+    "zeta72^23 + zeta72^7",
+    "zeta72^23"
+  ],
+  "Q_coordinates": [
+    "0",
+    "1",
+    "-zeta72^23 + zeta72^21 + zeta72^17 - zeta72^15 + zeta72^11 - zeta72^5 + zeta72^3 + 1",
+    "-zeta72^23 + zeta72^21 + zeta72^20 + zeta72^17 - zeta72^15 + zeta72^11 - zeta72^5 + zeta72^3 + 1",
+    "zeta72^17 + zeta72^14 + zeta72^6 - zeta72^2",
+    "zeta72^17 + zeta72^14 - zeta72^2",
+    "zeta72^14 - zeta72^2"
+  ],
+  "all_angle_stars": [
+    [
+      [
+        100
+      ],
+      [
+        125,
+        135
+      ]
+    ],
+    [
+      [
+        100
+      ],
+      [
+        130,
+        130
+      ]
+    ],
+    [
+      [
+        110
+      ],
+      [
+        125,
+        125
+      ]
+    ],
+    [
+      [
+        110,
+        115
+      ],
+      [
+        135
+      ]
+    ],
+    [
+      [
+        115,
+        115
+      ],
+      [
+        130
+      ]
+    ]
+  ],
+  "corner_witness_count": 4,
+  "obligation": "Actual infinite compatible assignment or explicit periodic escape; no corona/patch/torus search performed."
+}

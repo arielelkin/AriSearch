@@ -1,0 +1,113 @@
+{
+  "scope": "one complete interior quadrilateral; no full congruence census or shape forcing",
+  "field": "phi^2=phi+1, phi>1; z=x+i*sin(36deg)*y, x,y in Q(phi)",
+  "source_url": "https://preshing.com/20110831/penrose-tiling-explained/",
+  "deflations": 5,
+  "triangles": 890,
+  "rhombs": 430,
+  "nested_seed_triangles": 20,
+  "source_index": 23,
+  "center_cyclotomic": [
+    "5/2",
+    "3/2",
+    "2",
+    "0"
+  ],
+  "boundary_distance_squared": [
+    "7",
+    "37/4"
+  ],
+  "cell_vertices_xy": [
+    [
+      [
+        "0",
+        "3/8"
+      ],
+      [
+        "1/4",
+        "0"
+      ]
+    ],
+    [
+      [
+        "-1/4",
+        "1/4"
+      ],
+      [
+        "0",
+        "1/2"
+      ]
+    ],
+    [
+      [
+        "-3/4",
+        "0"
+      ],
+      [
+        "1/2",
+        "-1/2"
+      ]
+    ],
+    [
+      [
+        "-1/4",
+        "1/4"
+      ],
+      [
+        "0",
+        "-1/2"
+      ]
+    ]
+  ],
+  "active_neighbors": [
+    21,
+    68,
+    18,
+    22
+  ],
+  "neighbor_centers_cyclotomic": [
+    [
+      "5/2",
+      "2",
+      "5/2",
+      "0"
+    ],
+    [
+      "2",
+      "3/2",
+      "5/2",
+      "0"
+    ],
+    [
+      "5/2",
+      "1",
+      "2",
+      "-1/2"
+    ],
+    [
+      "3",
+      "3/2",
+      "2",
+      "-1/2"
+    ]
+  ],
+  "cell_radius_squared": [
+    [
+      "3/16",
+      "1/8"
+    ],
+    [
+      "1/4",
+      "0"
+    ],
+    [
+      "1",
+      "-1/4"
+    ],
+    [
+      "1/4",
+      "0"
+    ]
+  ],
+  "certificate": "boundary distance >3, cell radius <1; omitted centers at distance >=3 cannot cut"
+}

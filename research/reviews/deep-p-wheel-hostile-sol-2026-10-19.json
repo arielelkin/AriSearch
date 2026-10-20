@@ -1,0 +1,44 @@
+{
+  "topology": "PASS",
+  "counts": {
+    "P": {
+      "V": 13,
+      "E": 29,
+      "F": 17,
+      "arc_corners": [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "native_total": 69,
+      "interior_P": 6,
+      "split_corner_count": 1
+    },
+    "Q": {
+      "V": 12,
+      "E": 27,
+      "F": 16,
+      "arc_corners": [
+        1,
+        2,
+        1,
+        0,
+        2,
+        0
+      ],
+      "native_total": 66,
+      "interior_P": 6,
+      "split_corner_count": 1
+    }
+  },
+  "P_angle_status": "unsat",
+  "seconds": 36.86149561499769,
+  "timeout_ms": 180000,
+  "z3": "4.16.0",
+  "input_sha256": "412bdd5ae5ae25714fa3c927d0fe6d63f75f93a4d06b172d26af59b28c491b93",
+  "encoding": "bounded integer phases, Boolean reflections, nested If native lookup; exact strict LRA"
+}

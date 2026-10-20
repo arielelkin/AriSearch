@@ -1,0 +1,16 @@
+{
+  "elapsed_seconds": 104.11408609500359,
+  "formula_sha256": "3f888d3c1b915563c7bc596e42df4f252dafc633ea74c81d029275d01fb10d08",
+  "input_sha256": "534241a47421d787898aecea6a3a3b4c983e9e24c702b45e5016b1c200cd8839",
+  "parents": [
+    "P",
+    "Q"
+  ],
+  "random_seed": 0,
+  "reason_unknown": "interrupted from keyboard",
+  "scope": "Exact retained P+Q incidence; all 10 or 14 dihedral assignments independently for each child; strict native angles in units pi; no metric constraints.",
+  "status": "unknown",
+  "symmetry_reductions": "none; parent indices remain fixed",
+  "timeout_ms": 180000,
+  "z3_version": "4.16.0"
+}

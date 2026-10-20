@@ -1,0 +1,172 @@
+{
+  "field": "Q(zeta_20), zeta_20=exp(2*pi*i/20)",
+  "domain": "all 70 labeled 4A4B angle words; dihedral canonical representatives with perfect matching of B vertices by two cycle edges",
+  "results": [
+    {
+      "word": "AABBAABB",
+      "qq_edges": [
+        2,
+        6
+      ],
+      "det": "0",
+      "status": "singular",
+      "compatible": true,
+      "unit_sum": "0",
+      "direction_ratio": "-1"
+    },
+    {
+      "word": "AAABBABB",
+      "qq_edges": [
+        3,
+        6
+      ],
+      "det": "-1/2*zeta20^7 + 1/2*zeta20^3",
+      "forced_p_collisions": [],
+      "verified_pp_at_A": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "immediate_qq_seams": [
+        {
+          "target": 3,
+          "source": 3,
+          "reflected": false,
+          "collisions": []
+        },
+        {
+          "target": 3,
+          "source": 3,
+          "reflected": true,
+          "collisions": []
+        },
+        {
+          "target": 3,
+          "source": 6,
+          "reflected": false,
+          "collisions": []
+        },
+        {
+          "target": 3,
+          "source": 6,
+          "reflected": true,
+          "collisions": []
+        },
+        {
+          "target": 6,
+          "source": 3,
+          "reflected": false,
+          "collisions": []
+        },
+        {
+          "target": 6,
+          "source": 3,
+          "reflected": true,
+          "collisions": []
+        },
+        {
+          "target": 6,
+          "source": 6,
+          "reflected": false,
+          "collisions": []
+        },
+        {
+          "target": 6,
+          "source": 6,
+          "reflected": true,
+          "collisions": []
+        }
+      ],
+      "lengths": [
+        "-zeta20^7 + zeta20^5 - zeta20^3 + 2*zeta20",
+        "-zeta20^7 + zeta20^5 - zeta20^3 + 2*zeta20"
+      ],
+      "approx": [
+        1.9021130325903073,
+        1.9021130325903073
+      ],
+      "positive": true,
+      "strict_convex": true,
+      "equal": true,
+      "status": "unique"
+    },
+    {
+      "word": "AAAABBBB",
+      "qq_edges": [
+        4,
+        6
+      ],
+      "det": "-1/2*zeta20^7 + 1/2*zeta20^5 - 1/2*zeta20^3 + zeta20",
+      "forced_p_collisions": [],
+      "verified_pp_at_A": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "immediate_qq_seams": [
+        {
+          "target": 4,
+          "source": 4,
+          "reflected": false,
+          "collisions": []
+        },
+        {
+          "target": 4,
+          "source": 4,
+          "reflected": true,
+          "collisions": []
+        },
+        {
+          "target": 4,
+          "source": 6,
+          "reflected": false,
+          "collisions": []
+        },
+        {
+          "target": 4,
+          "source": 6,
+          "reflected": true,
+          "collisions": []
+        },
+        {
+          "target": 6,
+          "source": 4,
+          "reflected": false,
+          "collisions": []
+        },
+        {
+          "target": 6,
+          "source": 4,
+          "reflected": true,
+          "collisions": []
+        },
+        {
+          "target": 6,
+          "source": 6,
+          "reflected": false,
+          "collisions": []
+        },
+        {
+          "target": 6,
+          "source": 6,
+          "reflected": true,
+          "collisions": []
+        }
+      ],
+      "lengths": [
+        "-zeta20^7 + zeta20^5 - zeta20^3 + 2*zeta20",
+        "-zeta20^7 + zeta20^5 - zeta20^3 + 2*zeta20"
+      ],
+      "approx": [
+        1.9021130325903073,
+        1.9021130325903073
+      ],
+      "positive": true,
+      "strict_convex": true,
+      "equal": true,
+      "status": "unique"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 # Angle-nonresonance forcing of edge-to-edge contacts
 
-**Status:** Proved internally; repaired after hostile review to include
-isolated point contacts; independent re-review of the repaired version is
-pending.
+**Status:** Proved; repaired after hostile review to include isolated point
+contacts; [independent Sol re-review](../reviews/angle-nonresonance-sol-rereview-2026-10-19.md)
+validated the repaired theorem.
 
 **Review:** [angle-nonresonance-review](../reviews/angle-nonresonance-review.md).
 
@@ -52,14 +52,18 @@ algebraic angle data represented through exact roots of unity, or for angles
 given as rational multiples of $\pi$, this is a finite exact rejection test.
 Numerical noncoincidence is not a certificate.
 
-Once edge-to-edge forcing is established, the possible tiling vertices are
-exactly the finite angle multisets summing to $2\pi$.  This separates two
+Once edge-to-edge forcing is established, every actual tiling vertex has
+an angle multiset summing to $2\pi$. The finite list of such multisets is
+an angle-compatible candidate list, not a realization theorem. This separates two
 design tasks that the all-obtuse condition conflates: excluding T-junctions
 requires avoiding sums of $\pi$, while selecting desired valences and corner
 languages requires controlling sums of $2\pi$.
 
 The all-obtuse theorem is the immediate special case in which one angle is
 less than $\pi$ and any two angles sum to more than $\pi$; it additionally
-forces every vertex to be trivalent.  Angle nonresonance by itself does not
-bound valence and therefore leaves room for the positive-density
-higher-valence defects required by a potential pentagon/hexagon encoding.
+forces every vertex to be trivalent. Angle nonresonance alone does not
+force trivalence or exclude higher-valence angle-compatible candidates;
+every fixed finite protoset still has the bound
+$\lfloor2\pi/\alpha_{\min}\rfloor$ on valence. This leaves open whether
+the higher-valence defects required by a proposed pentagon/hexagon encoding
+can actually occur.

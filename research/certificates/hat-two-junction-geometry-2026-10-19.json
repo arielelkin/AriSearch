@@ -1,0 +1,693 @@
+{
+  "z3_version": "4.16.0",
+  "solver": "QF_NRA; no timeout; no random seed or symmetry reduction",
+  "status": "COMPLETE",
+  "scope": "Corrected 32 signatures, exact polynomial convex-sector feasibility; y coordinates scaled by sqrt(3).",
+  "records": [
+    {
+      "junction_flats": [
+        null,
+        null
+      ],
+      "boundary_flats": [
+        null,
+        null,
+        1,
+        null
+      ],
+      "sides": [
+        6,
+        6,
+        5,
+        5
+      ],
+      "status": "sat",
+      "junctions_scaled": [
+        "1",
+        "-1/4",
+        "2",
+        "0"
+      ],
+      "at_most_two_classes": "unsat"
+    },
+    {
+      "junction_flats": [
+        null,
+        null
+      ],
+      "boundary_flats": [
+        null,
+        0,
+        1,
+        null
+      ],
+      "sides": [
+        5,
+        6,
+        5,
+        5
+      ],
+      "status": "sat",
+      "junctions_scaled": [
+        "7/4",
+        "-1/4",
+        "5/2",
+        "0"
+      ],
+      "at_most_two_classes": "unsat"
+    },
+    {
+      "junction_flats": [
+        null,
+        null
+      ],
+      "boundary_flats": [
+        null,
+        1,
+        null,
+        null
+      ],
+      "sides": [
+        6,
+        6,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        null,
+        null
+      ],
+      "boundary_flats": [
+        null,
+        1,
+        1,
+        null
+      ],
+      "sides": [
+        6,
+        5,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        null,
+        null
+      ],
+      "boundary_flats": [
+        0,
+        null,
+        1,
+        null
+      ],
+      "sides": [
+        5,
+        6,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        null,
+        null
+      ],
+      "boundary_flats": [
+        0,
+        1,
+        null,
+        null
+      ],
+      "sides": [
+        5,
+        6,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        null,
+        null
+      ],
+      "boundary_flats": [
+        0,
+        1,
+        1,
+        null
+      ],
+      "sides": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        null,
+        1
+      ],
+      "boundary_flats": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "sides": [
+        6,
+        6,
+        5,
+        5
+      ],
+      "status": "sat",
+      "junctions_scaled": [
+        "1",
+        "-1/4",
+        "2",
+        "-1/8"
+      ],
+      "at_most_two_classes": "unsat"
+    },
+    {
+      "junction_flats": [
+        null,
+        1
+      ],
+      "boundary_flats": [
+        null,
+        null,
+        1,
+        null
+      ],
+      "sides": [
+        6,
+        5,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        null,
+        1
+      ],
+      "boundary_flats": [
+        null,
+        0,
+        null,
+        null
+      ],
+      "sides": [
+        5,
+        6,
+        5,
+        5
+      ],
+      "status": "sat",
+      "junctions_scaled": [
+        "5/3",
+        "-1/3",
+        "2",
+        "-1/4"
+      ],
+      "at_most_two_classes": "unsat"
+    },
+    {
+      "junction_flats": [
+        null,
+        1
+      ],
+      "boundary_flats": [
+        null,
+        0,
+        1,
+        null
+      ],
+      "sides": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        null,
+        1
+      ],
+      "boundary_flats": [
+        null,
+        1,
+        null,
+        null
+      ],
+      "sides": [
+        6,
+        5,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        null,
+        1
+      ],
+      "boundary_flats": [
+        0,
+        null,
+        null,
+        null
+      ],
+      "sides": [
+        5,
+        6,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        null,
+        1
+      ],
+      "boundary_flats": [
+        0,
+        null,
+        1,
+        null
+      ],
+      "sides": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        null,
+        1
+      ],
+      "boundary_flats": [
+        0,
+        1,
+        null,
+        null
+      ],
+      "sides": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        0,
+        null
+      ],
+      "boundary_flats": [
+        null,
+        null,
+        1,
+        null
+      ],
+      "sides": [
+        5,
+        6,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        0,
+        null
+      ],
+      "boundary_flats": [
+        null,
+        1,
+        null,
+        null
+      ],
+      "sides": [
+        5,
+        6,
+        5,
+        5
+      ],
+      "status": "sat",
+      "junctions_scaled": [
+        "15/16",
+        "-5/16",
+        "1",
+        "-1/4"
+      ],
+      "at_most_two_classes": "unsat"
+    },
+    {
+      "junction_flats": [
+        0,
+        null
+      ],
+      "boundary_flats": [
+        null,
+        1,
+        1,
+        null
+      ],
+      "sides": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "status": "sat",
+      "junctions_scaled": [
+        "3/4",
+        "-1/4",
+        "1",
+        "0"
+      ],
+      "at_most_two_classes": "unsat"
+    },
+    {
+      "junction_flats": [
+        0,
+        1
+      ],
+      "boundary_flats": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "sides": [
+        5,
+        6,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        0,
+        1
+      ],
+      "boundary_flats": [
+        null,
+        null,
+        1,
+        null
+      ],
+      "sides": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        0,
+        1
+      ],
+      "boundary_flats": [
+        null,
+        1,
+        null,
+        null
+      ],
+      "sides": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "status": "sat",
+      "junctions_scaled": [
+        "9/11",
+        "-3/11",
+        "1",
+        "-1/4"
+      ],
+      "at_most_two_classes": "unsat"
+    },
+    {
+      "junction_flats": [
+        1,
+        null
+      ],
+      "boundary_flats": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "sides": [
+        6,
+        6,
+        5,
+        5
+      ],
+      "status": "sat",
+      "junctions_scaled": [
+        "3/2",
+        "-1/4",
+        "3/2",
+        "-1/8"
+      ],
+      "at_most_two_classes": "unsat"
+    },
+    {
+      "junction_flats": [
+        1,
+        null
+      ],
+      "boundary_flats": [
+        null,
+        null,
+        1,
+        null
+      ],
+      "sides": [
+        6,
+        5,
+        5,
+        5
+      ],
+      "status": "sat",
+      "junctions_scaled": [
+        "3/2",
+        "-1/4",
+        "3/2",
+        "0"
+      ],
+      "at_most_two_classes": "unsat"
+    },
+    {
+      "junction_flats": [
+        1,
+        null
+      ],
+      "boundary_flats": [
+        null,
+        0,
+        null,
+        null
+      ],
+      "sides": [
+        5,
+        6,
+        5,
+        5
+      ],
+      "status": "sat",
+      "junctions_scaled": [
+        "13/8",
+        "-3/8",
+        "7/4",
+        "-1/4"
+      ],
+      "at_most_two_classes": "unsat"
+    },
+    {
+      "junction_flats": [
+        1,
+        null
+      ],
+      "boundary_flats": [
+        null,
+        0,
+        1,
+        null
+      ],
+      "sides": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "status": "sat",
+      "junctions_scaled": [
+        "7/4",
+        "-1/4",
+        "2",
+        "0"
+      ],
+      "at_most_two_classes": "unsat"
+    },
+    {
+      "junction_flats": [
+        1,
+        null
+      ],
+      "boundary_flats": [
+        null,
+        1,
+        null,
+        null
+      ],
+      "sides": [
+        6,
+        5,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        1,
+        null
+      ],
+      "boundary_flats": [
+        0,
+        null,
+        null,
+        null
+      ],
+      "sides": [
+        5,
+        6,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        1,
+        null
+      ],
+      "boundary_flats": [
+        0,
+        null,
+        1,
+        null
+      ],
+      "sides": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        1,
+        null
+      ],
+      "boundary_flats": [
+        0,
+        1,
+        null,
+        null
+      ],
+      "sides": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        1,
+        1
+      ],
+      "boundary_flats": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "sides": [
+        6,
+        5,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        1,
+        1
+      ],
+      "boundary_flats": [
+        null,
+        0,
+        null,
+        null
+      ],
+      "sides": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "status": "unsat"
+    },
+    {
+      "junction_flats": [
+        1,
+        1
+      ],
+      "boundary_flats": [
+        0,
+        null,
+        null,
+        null
+      ],
+      "sides": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "status": "unsat"
+    }
+  ]
+}

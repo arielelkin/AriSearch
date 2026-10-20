@@ -1,0 +1,71 @@
+{
+  "status": "COMPLETE",
+  "source": "research/certificates/hat-eight-kite-convex-cluster-gate.json",
+  "coordinate_map": "(X,Y) -> (X/2,sqrt(3)*Y/2)",
+  "outline": [
+    [
+      0,
+      0
+    ],
+    [
+      -3,
+      -1
+    ],
+    [
+      -2,
+      -2
+    ],
+    [
+      2,
+      -2
+    ],
+    [
+      3,
+      -1
+    ],
+    [
+      6,
+      -2
+    ],
+    [
+      9,
+      -1
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "max_chords": 2,
+  "runtime_cap_seconds": 30,
+  "combinatorial_dissection_counts": [
+    1,
+    65,
+    1365
+  ],
+  "accepted_partitions": [],
+  "shape_class_count": 0,
+  "two_class_partitions": [],
+  "periodic_audit": "Not reached when no two-class partition exists",
+  "elapsed_seconds": 0.020102460999623872
+}

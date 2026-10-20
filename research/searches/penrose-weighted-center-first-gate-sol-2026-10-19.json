@@ -1,0 +1,150 @@
+{
+  "scope": "complete strict convex quadrilateral for every delta in [-1/4,phi/3+1/4); no classification outside this interval",
+  "weight_convention": "weight delta for blue/thick rhombs, zero for red/thin",
+  "field": "phi^2=phi+1, phi>1; z=x+i*sin(36deg)*y",
+  "source_triangles": 890,
+  "source_rhombs": 430,
+  "nested_seed_triangles": 20,
+  "source_index": 23,
+  "source_type": 0,
+  "center_cyclotomic": [
+    "5/2",
+    "3/2",
+    "2",
+    "0"
+  ],
+  "supports": [
+    21,
+    68,
+    18,
+    22
+  ],
+  "vertices_affine_xy": [
+    {
+      "constant": [
+        [
+          "0",
+          "3/8"
+        ],
+        [
+          "1/4",
+          "0"
+        ]
+      ],
+      "delta_coefficient": [
+        [
+          "0",
+          "-1/2"
+        ],
+        [
+          "-7/5",
+          "4/5"
+        ]
+      ]
+    },
+    {
+      "constant": [
+        [
+          "-1/4",
+          "1/4"
+        ],
+        [
+          "0",
+          "1/2"
+        ]
+      ],
+      "delta_coefficient": [
+        [
+          "1/5",
+          "-2/5"
+        ],
+        [
+          "-6/5",
+          "2/5"
+        ]
+      ]
+    },
+    {
+      "constant": [
+        [
+          "-3/4",
+          "0"
+        ],
+        [
+          "1/2",
+          "-1/2"
+        ]
+      ],
+      "delta_coefficient": [
+        [
+          "-1",
+          "1"
+        ],
+        [
+          "4",
+          "-2"
+        ]
+      ]
+    },
+    {
+      "constant": [
+        [
+          "-1/4",
+          "1/4"
+        ],
+        [
+          "0",
+          "-1/2"
+        ]
+      ],
+      "delta_coefficient": [
+        [
+          "3",
+          "-2"
+        ],
+        [
+          "-2",
+          "2"
+        ]
+      ]
+    }
+  ],
+  "finite_constraint_interval": [
+    [
+      "-1/4",
+      "0"
+    ],
+    [
+      "1/4",
+      "1/3"
+    ]
+  ],
+  "limiting_vertex_site_pairs": [
+    [
+      [
+        2,
+        27
+      ],
+      [
+        2,
+        71
+      ]
+    ],
+    [
+      [
+        0,
+        18
+      ],
+      [
+        3,
+        21
+      ]
+    ]
+  ],
+  "source_boundary_distance_squared": [
+    "7",
+    "37/4"
+  ],
+  "tail_certificate": "distance >=3; vertex radius <1; |delta|<1; D^2-2D-1>=2>0",
+  "interval_upper_endpoint": "excluded: two turns vanish"
+}

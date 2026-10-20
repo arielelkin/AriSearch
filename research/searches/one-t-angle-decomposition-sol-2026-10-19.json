@@ -1,0 +1,259 @@
+{
+  "coverage_ledger": [
+    {
+      "P_map": 0,
+      "Q_map": 0,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 0,
+      "Q_map": 1,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 0,
+      "Q_map": 2,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 0,
+      "Q_map": 3,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 0,
+      "Q_map": 4,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 0,
+      "Q_map": 5,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 1,
+      "Q_map": 0,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 1,
+      "Q_map": 1,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 1,
+      "Q_map": 2,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 1,
+      "Q_map": 3,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 1,
+      "Q_map": 4,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 1,
+      "Q_map": 5,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 2,
+      "Q_map": 0,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 2,
+      "Q_map": 1,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 2,
+      "Q_map": 2,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 2,
+      "Q_map": 3,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 2,
+      "Q_map": 4,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 2,
+      "Q_map": 5,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 3,
+      "Q_map": 0,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 3,
+      "Q_map": 1,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 3,
+      "Q_map": 2,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 3,
+      "Q_map": 3,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 3,
+      "Q_map": 4,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 3,
+      "Q_map": 5,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 4,
+      "Q_map": 0,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 4,
+      "Q_map": 1,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 4,
+      "Q_map": 2,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 4,
+      "Q_map": 3,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 4,
+      "Q_map": 4,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 4,
+      "Q_map": 5,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 5,
+      "Q_map": 0,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 5,
+      "Q_map": 1,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 5,
+      "Q_map": 2,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 5,
+      "Q_map": 3,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 5,
+      "Q_map": 4,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 5,
+      "Q_map": 5,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 6,
+      "Q_map": 0,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 6,
+      "Q_map": 1,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 6,
+      "Q_map": 2,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 6,
+      "Q_map": 3,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 6,
+      "Q_map": 4,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 6,
+      "Q_map": 5,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 7,
+      "Q_map": 0,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 7,
+      "Q_map": 1,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 7,
+      "Q_map": 2,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 7,
+      "Q_map": 3,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 7,
+      "Q_map": 4,
+      "status": "unresolved"
+    },
+    {
+      "P_map": 7,
+      "Q_map": 5,
+      "status": "unresolved"
+    }
+  ],
+  "elapsed_seconds": 180.01853186800145,
+  "formula_precheck_sha256": "410501398f4478e0a77f066c0950afd618b5aa1dec9e4579cc52db5ae0a82265",
+  "formula_smt2_sha256": "b7bbe5da6d852d703b8f420fa1d3cae62296ef18b8af909fdc6a4e6d78ab4aa4",
+  "input_sha256": "33d0b6da814916e886daa93daee3b095519749120e42b0eaabfe6e84e550a47b",
+  "projection": "disjoint-node pivot substitution; fixed-phase branch shared-angle affine rows",
+  "reason_unknown": "timeout",
+  "scheduling_note": "Single aggregate check launched before later 30-second branch scheduling instruction; parent permitted completion; no branch retries.",
+  "seed": 0,
+  "status": "unknown",
+  "timeout_ms": 180000,
+  "variant_counts": {
+    "P": 8,
+    "Q": 6
+  },
+  "z3_version": "4.16.0"
+}

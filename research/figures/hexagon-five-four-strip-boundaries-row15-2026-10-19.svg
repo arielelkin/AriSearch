@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650"><rect width="1000" height="650" fill="white"/><text x="20" y="28">Row15: two exposed chains; diagnostic only, not plane coverage proof</text>
+<polyline fill="none" stroke="#165a9a" stroke-width="3" points="348.888,600 384.813,537.776 469.813,537.776 487.776,506.664 458.425,455.827"/>
+<text x="366.85" y="563.888" font-size="13">B2</text>
+<text x="427.313" y="532.776" font-size="13">B0</text>
+<text x="478.794" y="517.22" font-size="13">B5</text>
+<text x="473.1" y="476.245" font-size="13">B4</text>
+<polyline fill="none" stroke="#165a9a" stroke-width="3" points="458.425,455.827 494.35,393.603 579.35,393.603 597.313,362.491 567.963,311.654"/>
+<text x="476.388" y="419.715" font-size="13">B2</text>
+<text x="536.85" y="388.603" font-size="13">B0</text>
+<text x="588.332" y="373.047" font-size="13">B5</text>
+<text x="582.638" y="332.072" font-size="13">B4</text>
+<polyline fill="none" stroke="#165a9a" stroke-width="3" points="567.963,311.654 603.888,249.43 688.888,249.43 706.85,218.318 677.5,167.481"/>
+<text x="585.925" y="275.542" font-size="13">B2</text>
+<text x="646.388" y="244.43" font-size="13">B0</text>
+<text x="697.869" y="228.874" font-size="13">B5</text>
+<text x="692.175" y="187.899" font-size="13">B4</text>
+<polyline fill="none" stroke="#b83a32" stroke-width="3" points="178.888,311.654 142.963,373.878 57.9626,373.878 40,404.991 69.3505,455.827"/>
+<text x="160.925" y="337.766" font-size="13">B2</text>
+<text x="100.463" y="368.878" font-size="13">B0</text>
+<text x="48.9813" y="384.434" font-size="13">B5</text>
+<text x="54.6752" y="425.409" font-size="13">B4</text>
+<polyline fill="none" stroke="#b83a32" stroke-width="3" points="288.425,167.481 252.5,229.705 167.5,229.705 149.537,260.818 178.888,311.654"/>
+<text x="270.463" y="193.593" font-size="13">B2</text>
+<text x="210" y="224.705" font-size="13">B0</text>
+<text x="158.519" y="240.262" font-size="13">B5</text>
+<text x="164.213" y="281.236" font-size="13">B4</text>
+<polyline fill="none" stroke="#b83a32" stroke-width="3" points="397.963,23.3082 362.037,85.5325 277.037,85.5325 259.075,116.645 288.425,167.481"/>
+<text x="380" y="49.4203" font-size="13">B2</text>
+<text x="319.537" y="80.5325" font-size="13">B0</text>
+<text x="268.056" y="96.0886" font-size="13">B5</text>
+<text x="273.75" y="137.063" font-size="13">B4</text>
+</svg>

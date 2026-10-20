@@ -1,0 +1,54 @@
+{
+  "P": [
+    95,
+    105,
+    110,
+    115,
+    115
+  ],
+  "Q": [
+    125,
+    125,
+    125,
+    125,
+    130,
+    130,
+    140
+  ],
+  "field": "CyclotomicField(144); z=exp(2*pi*i/144)",
+  "vertices_P": [
+    "-2*zeta144^46 + 2*zeta144^44 + 2*zeta144^42 - 2*zeta144^40 - 2*zeta144^38 + 2*zeta144^36 - 2*zeta144^32 + 2*zeta144^28 - 2*zeta144^24 + 2*zeta144^22 - 2*zeta144^18 + 2*zeta144^14 - 2*zeta144^10 + 2*zeta144^6 - 2*zeta144^2 + 2",
+    "2*zeta144^42 - 2*zeta144^36 + 2*zeta144^24 - 2*zeta144^18 + 2*zeta144^6",
+    "-2*zeta144^42 + 2*zeta144^38 + 2*zeta144^26 - 2*zeta144^22 + 2*zeta144^18 - 2*zeta144^10 + 2*zeta144^6 - 2*zeta144^2",
+    "2*zeta144^44 - 2*zeta144^42 + 2*zeta144^38 - 2*zeta144^36 + 2*zeta144^34 - 2*zeta144^30 + 2*zeta144^28 - 2*zeta144^24 + 2*zeta144^22 - 2*zeta144^20 + 2*zeta144^16 - 2*zeta144^14 - 2*zeta144^8 + 2*zeta144^6 - 2*zeta144^2 + 2",
+    "-2*zeta144^44 + 2*zeta144^42 - 2*zeta144^38 + 2*zeta144^36 - 2*zeta144^34 + 2*zeta144^30 - 2*zeta144^28 + 2*zeta144^24 - 2*zeta144^22 + 2*zeta144^20 - 2*zeta144^16 + 2*zeta144^14 - 2*zeta144^12 + 2*zeta144^8 - 2*zeta144^6 + 2*zeta144^2 - 2"
+  ],
+  "vertices_Q": [
+    "2*zeta144^46 - 2*zeta144^42 + 2*zeta144^40 - 2*zeta144^36 + 2*zeta144^34 - 2*zeta144^30 + 2*zeta144^28 - 2*zeta144^24 - 2*zeta144^22 + 2*zeta144^20 - 2*zeta144^16 + 2*zeta144^14 - 2*zeta144^10 + 2*zeta144^8 - 2*zeta144^4 + 2*zeta144^2 + 2",
+    "-2*zeta144^46 + 2*zeta144^42 - 2*zeta144^40 + 2*zeta144^36 - 2*zeta144^34 + 2*zeta144^30 - 2*zeta144^28 + 2*zeta144^24 + 2*zeta144^22 - 2*zeta144^20 + 2*zeta144^16 - 2*zeta144^14 + 2*zeta144^10 - 2*zeta144^8 + 2*zeta144^4 - 2*zeta144^2",
+    "2*zeta144^46 - 2*zeta144^42 + 2*zeta144^40 - 2*zeta144^36 + 2*zeta144^34 - 2*zeta144^30 + 2*zeta144^28 - 2*zeta144^24 + 2*zeta144^20 - 2*zeta144^16 + 2*zeta144^14 - 2*zeta144^10 + 2*zeta144^8 - 2*zeta144^4 + 2*zeta144^2",
+    "-2*zeta144^46 + 2*zeta144^44 + 2*zeta144^42 - 2*zeta144^40 + 2*zeta144^36 - 2*zeta144^34 + 2*zeta144^30 - 2*zeta144^28 + 2*zeta144^24 - 2*zeta144^20 + 2*zeta144^16 - 2*zeta144^14 + 2*zeta144^10 - 2*zeta144^8 + 2*zeta144^4 - 2*zeta144^2",
+    "-2*zeta144^46 + 2*zeta144^38 - 2*zeta144^30 + 2*zeta144^26 + 2*zeta144^22 - 2*zeta144^18 - 2*zeta144^14 + 2*zeta144^10 - 2*zeta144^2",
+    "2*zeta144^46 - 2*zeta144^38 + 2*zeta144^30 - 2*zeta144^26 - 2*zeta144^22 + 2*zeta144^18 - 2*zeta144^10 + 2*zeta144^2",
+    "2*zeta144^42 - 2*zeta144^34 - 2*zeta144^26 + 2*zeta144^10"
+  ],
+  "side_lengths_P": [
+    "-2*zeta144^46 - 2*zeta144^44 + 2*zeta144^40 - 2*zeta144^38 - 2*zeta144^36 + 2*zeta144^34 + 2*zeta144^26 + 2*zeta144^20 - 2*zeta144^16 + 4*zeta144^12 - 2*zeta144^8 + 2*zeta144^4 - 4",
+    "-2*zeta144^44 - 2*zeta144^42 - 2*zeta144^32 + 2*zeta144^30 + 2*zeta144^28 + 2*zeta144^16 + 2*zeta144^8 - 4",
+    "-2*zeta144^46 - 2*zeta144^44 + 2*zeta144^42 - 2*zeta144^40 + 2*zeta144^36 - 2*zeta144^34 + 2*zeta144^26 + 2*zeta144^20 - 2*zeta144^18 + 2*zeta144^16 + 2*zeta144^14 - 4*zeta144^12 + 2*zeta144^10 + 2*zeta144^8 - 2*zeta144^6 + 2*zeta144^4 - 4",
+    "-4*zeta144^46 + 4*zeta144^42 - 4*zeta144^40 + 2*zeta144^36 - 4*zeta144^34 + 4*zeta144^32 - 4*zeta144^28 + 4*zeta144^26 + 4*zeta144^20 - 4*zeta144^18 + 4*zeta144^14 - 4*zeta144^12 + 4*zeta144^10 - 4*zeta144^6 + 4*zeta144^4 - 4",
+    "-4*zeta144^46 - 2*zeta144^44 + 4*zeta144^42 - 2*zeta144^38 + 2*zeta144^32 - 2*zeta144^30 - 2*zeta144^28 + 4*zeta144^26 + 4*zeta144^20 - 2*zeta144^18 - 2*zeta144^16 + 2*zeta144^14 + 2*zeta144^10 - 2*zeta144^8 - 2*zeta144^6 + 4*zeta144^4 - 4"
+  ],
+  "side_lengths_Q": [
+    "4*zeta144^44 - 4*zeta144^42 + 4*zeta144^38 - 2*zeta144^36 - 4*zeta144^34 + 4*zeta144^32 - 4*zeta144^28 + 4*zeta144^26 - 4*zeta144^22 + 4*zeta144^18 - 4*zeta144^16 + 4*zeta144^12 - 4*zeta144^8 + 4*zeta144^6 - 4*zeta144^2 + 4",
+    "4*zeta144^44 - 4*zeta144^42 + 4*zeta144^38 - 2*zeta144^36 - 4*zeta144^34 + 4*zeta144^32 - 4*zeta144^28 + 4*zeta144^26 - 4*zeta144^22 + 4*zeta144^18 - 4*zeta144^16 + 4*zeta144^12 - 4*zeta144^8 + 4*zeta144^6 - 4*zeta144^2 + 4",
+    "4*zeta144^44 - 4*zeta144^42 + 4*zeta144^38 - 2*zeta144^36 - 4*zeta144^34 + 4*zeta144^32 - 4*zeta144^28 + 4*zeta144^26 - 4*zeta144^22 + 4*zeta144^18 - 4*zeta144^16 + 4*zeta144^12 - 4*zeta144^8 + 4*zeta144^6 - 4*zeta144^2 + 4",
+    "2*zeta144^44 - 2*zeta144^42 + 2*zeta144^40 + 2*zeta144^38 - 2*zeta144^36 - 2*zeta144^34 + 2*zeta144^26 - 2*zeta144^22 - 2*zeta144^20 + 2*zeta144^18 - 2*zeta144^16 + 4*zeta144^12 - 2*zeta144^8 + 2*zeta144^6 - 2*zeta144^4 - 2*zeta144^2 + 4",
+    "4*zeta144^40 - 2*zeta144^36 - 4*zeta144^32 + 4*zeta144^28 - 4*zeta144^20 + 4*zeta144^12 - 4*zeta144^4 + 4",
+    "2*zeta144^44 + 2*zeta144^40 - 2*zeta144^36 - 2*zeta144^32 - 2*zeta144^20 + 4*zeta144^12 - 2*zeta144^4 + 2",
+    "4*zeta144^44 - 2*zeta144^42 + 2*zeta144^38 - 2*zeta144^36 - 2*zeta144^34 + 2*zeta144^32 - 4*zeta144^28 + 2*zeta144^26 - 2*zeta144^22 + 2*zeta144^18 - 2*zeta144^16 + 4*zeta144^12 - 2*zeta144^8 + 2*zeta144^6 - 2*zeta144^2 + 2"
+  ],
+  "cross_equalities": [],
+  "strict_convexity": true,
+  "status": "Exact convex pair; killed by no cross-type equal edge length. No plane tiling."
+}

@@ -1,0 +1,804 @@
+{
+  "schema": "THIRTYTWO_CORONA_INDEX_OBSTRUCTION_SOL_V1",
+  "angle_derivatives": [
+    "5/4 - 5*sqrt(3)/4",
+    "3/4 + 9*sqrt(3)/4",
+    "-3*sqrt(3)/2 - 3/2",
+    "1/2 + sqrt(3)/2",
+    "sqrt(3)/2 + 3/2",
+    "-5/2 - sqrt(3)/2",
+    "-sqrt(3)/2 - 1/2",
+    "3/2 + 3*sqrt(3)/2",
+    "-2 - sqrt(3)",
+    "1",
+    "0",
+    "0"
+  ],
+  "stars": [
+    {
+      "index": 0,
+      "star": [
+        [
+          0,
+          -1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        1,
+        3,
+        2
+      ],
+      "residual_derivative": "-1/4 + 5*sqrt(3)/4"
+    },
+    {
+      "index": 1,
+      "star": [
+        [
+          0,
+          -1
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          7,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        1,
+        3,
+        8
+      ],
+      "residual_derivative": "-3/4 + 7*sqrt(3)/4"
+    },
+    {
+      "index": 2,
+      "star": [
+        [
+          0,
+          -1
+        ],
+        [
+          8,
+          -1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        1,
+        9,
+        2
+      ],
+      "residual_derivative": "1/4 + 3*sqrt(3)/4"
+    },
+    {
+      "index": 3,
+      "star": [
+        [
+          0,
+          -1
+        ],
+        [
+          8,
+          -1
+        ],
+        [
+          7,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        1,
+        9,
+        8
+      ],
+      "residual_derivative": "-1/4 + 5*sqrt(3)/4"
+    },
+    {
+      "index": 4,
+      "star": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "actual_angle_indices": [
+        1,
+        2,
+        3
+      ],
+      "residual_derivative": "-1/4 + 5*sqrt(3)/4"
+    },
+    {
+      "index": 5,
+      "star": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "actual_angle_indices": [
+        1,
+        2,
+        9
+      ],
+      "residual_derivative": "1/4 + 3*sqrt(3)/4"
+    },
+    {
+      "index": 6,
+      "star": [
+        [
+          0,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "actual_angle_indices": [
+        1,
+        8,
+        3
+      ],
+      "residual_derivative": "-3/4 + 7*sqrt(3)/4"
+    },
+    {
+      "index": 7,
+      "star": [
+        [
+          0,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "actual_angle_indices": [
+        1,
+        8,
+        9
+      ],
+      "residual_derivative": "-1/4 + 5*sqrt(3)/4"
+    },
+    {
+      "index": 8,
+      "star": [
+        [
+          1,
+          -1
+        ],
+        [
+          6,
+          -1
+        ],
+        [
+          2,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        2,
+        7,
+        3
+      ],
+      "residual_derivative": "1/2 + sqrt(3)/2"
+    },
+    {
+      "index": 9,
+      "star": [
+        [
+          1,
+          -1
+        ],
+        [
+          6,
+          -1
+        ],
+        [
+          8,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        2,
+        7,
+        9
+      ],
+      "residual_derivative": "1"
+    },
+    {
+      "index": 10,
+      "star": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "actual_angle_indices": [
+        2,
+        3,
+        7
+      ],
+      "residual_derivative": "1/2 + sqrt(3)/2"
+    },
+    {
+      "index": 11,
+      "star": [
+        [
+          1,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "actual_angle_indices": [
+        2,
+        9,
+        7
+      ],
+      "residual_derivative": "1"
+    },
+    {
+      "index": 12,
+      "star": [
+        [
+          2,
+          -1
+        ],
+        [
+          7,
+          -1
+        ],
+        [
+          6,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        3,
+        8,
+        7
+      ],
+      "residual_derivative": "sqrt(3)"
+    },
+    {
+      "index": 13,
+      "star": [
+        [
+          2,
+          -1
+        ],
+        [
+          7,
+          -1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "actual_angle_indices": [
+        3,
+        8,
+        6
+      ],
+      "residual_derivative": "-2 - sqrt(3)"
+    },
+    {
+      "index": 14,
+      "star": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "actual_angle_indices": [
+        3,
+        7,
+        8
+      ],
+      "residual_derivative": "sqrt(3)"
+    },
+    {
+      "index": 15,
+      "star": [
+        [
+          2,
+          1
+        ],
+        [
+          11,
+          -1
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "actual_angle_indices": [
+        3,
+        6,
+        8
+      ],
+      "residual_derivative": "-2 - sqrt(3)"
+    },
+    {
+      "index": 16,
+      "star": [
+        [
+          3,
+          -1
+        ],
+        [
+          5,
+          -1
+        ],
+        [
+          4,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        4,
+        0,
+        5
+      ],
+      "residual_derivative": "1/4 - 5*sqrt(3)/4"
+    },
+    {
+      "index": 17,
+      "star": [
+        [
+          3,
+          -1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          10,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        4,
+        7,
+        11
+      ],
+      "residual_derivative": "3 + 2*sqrt(3)"
+    },
+    {
+      "index": 18,
+      "star": [
+        [
+          3,
+          -1
+        ],
+        [
+          11,
+          -1
+        ],
+        [
+          10,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        4,
+        6,
+        11
+      ],
+      "residual_derivative": "1"
+    },
+    {
+      "index": 19,
+      "star": [
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "actual_angle_indices": [
+        4,
+        5,
+        0
+      ],
+      "residual_derivative": "1/4 - 5*sqrt(3)/4"
+    },
+    {
+      "index": 20,
+      "star": [
+        [
+          3,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          6,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        4,
+        11,
+        7
+      ],
+      "residual_derivative": "3 + 2*sqrt(3)"
+    },
+    {
+      "index": 21,
+      "star": [
+        [
+          3,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "actual_angle_indices": [
+        4,
+        11,
+        6
+      ],
+      "residual_derivative": "1"
+    },
+    {
+      "index": 22,
+      "star": [
+        [
+          4,
+          -1
+        ],
+        [
+          9,
+          -1
+        ],
+        [
+          5,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        5,
+        10,
+        0
+      ],
+      "residual_derivative": "-7*sqrt(3)/4 - 5/4"
+    },
+    {
+      "index": 23,
+      "star": [
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          9,
+          1
+        ]
+      ],
+      "actual_angle_indices": [
+        5,
+        0,
+        10
+      ],
+      "residual_derivative": "-7*sqrt(3)/4 - 5/4"
+    },
+    {
+      "index": 24,
+      "star": [
+        [
+          6,
+          -1
+        ],
+        [
+          8,
+          -1
+        ],
+        [
+          7,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        7,
+        9,
+        8
+      ],
+      "residual_derivative": "1/2 + sqrt(3)/2"
+    },
+    {
+      "index": 25,
+      "star": [
+        [
+          6,
+          -1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ],
+      "actual_angle_indices": [
+        7,
+        10,
+        11
+      ],
+      "residual_derivative": "3/2 + 3*sqrt(3)/2"
+    },
+    {
+      "index": 26,
+      "star": [
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "actual_angle_indices": [
+        7,
+        8,
+        9
+      ],
+      "residual_derivative": "1/2 + sqrt(3)/2"
+    },
+    {
+      "index": 27,
+      "star": [
+        [
+          6,
+          1
+        ],
+        [
+          10,
+          -1
+        ],
+        [
+          9,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        7,
+        11,
+        10
+      ],
+      "residual_derivative": "3/2 + 3*sqrt(3)/2"
+    },
+    {
+      "index": 28,
+      "star": [
+        [
+          7,
+          -1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          8,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        8,
+        6,
+        9
+      ],
+      "residual_derivative": "-3*sqrt(3)/2 - 3/2"
+    },
+    {
+      "index": 29,
+      "star": [
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          11,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        8,
+        9,
+        6
+      ],
+      "residual_derivative": "-3*sqrt(3)/2 - 3/2"
+    },
+    {
+      "index": 30,
+      "star": [
+        [
+          9,
+          -1
+        ],
+        [
+          11,
+          -1
+        ],
+        [
+          10,
+          -1
+        ]
+      ],
+      "actual_angle_indices": [
+        10,
+        6,
+        11
+      ],
+      "residual_derivative": "-sqrt(3)/2 - 1/2"
+    },
+    {
+      "index": 31,
+      "star": [
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "actual_angle_indices": [
+        10,
+        11,
+        6
+      ],
+      "residual_derivative": "-sqrt(3)/2 - 1/2"
+    }
+  ],
+  "star_count": 32,
+  "formal_corona_count": 100,
+  "corona59": [
+    [
+      10,
+      1
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      6,
+      -1
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      6,
+      -1
+    ],
+    [
+      10,
+      1
+    ]
+  ],
+  "claim": "All 32 builder stars and therefore all 100 builder coronas fail actual angle compatibility for sufficiently small nonzero t in the specified IFT family. A corrected corner-indexed IFT family is outside this certificate."
+}

@@ -1,0 +1,240 @@
+{
+  "domain": "all HNF <(a,0),(b,c)> with ac<=6, 0<=b<a; all 24 states; monohedral permitted",
+  "budget_seconds": 60,
+  "elapsed_seconds": 3.2833480869958294,
+  "z3_version": "4.16.0",
+  "records": [
+    {
+      "a": 1,
+      "b": 0,
+      "c": 1,
+      "n": 1,
+      "result": "unsat"
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "c": 2,
+      "n": 2,
+      "result": "unsat"
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "c": 1,
+      "n": 2,
+      "result": "unsat"
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "c": 1,
+      "n": 2,
+      "result": "unsat"
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "c": 3,
+      "n": 3,
+      "result": "unsat"
+    },
+    {
+      "a": 3,
+      "b": 0,
+      "c": 1,
+      "n": 3,
+      "result": "unsat"
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "c": 1,
+      "n": 3,
+      "result": "unsat"
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "c": 1,
+      "n": 3,
+      "result": "unsat"
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "c": 4,
+      "n": 4,
+      "result": "unsat"
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "c": 2,
+      "n": 4,
+      "result": "unsat"
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "c": 2,
+      "n": 4,
+      "result": "unsat"
+    },
+    {
+      "a": 4,
+      "b": 0,
+      "c": 1,
+      "n": 4,
+      "result": "unsat"
+    },
+    {
+      "a": 4,
+      "b": 1,
+      "c": 1,
+      "n": 4,
+      "result": "unsat"
+    },
+    {
+      "a": 4,
+      "b": 2,
+      "c": 1,
+      "n": 4,
+      "result": "unsat"
+    },
+    {
+      "a": 4,
+      "b": 3,
+      "c": 1,
+      "n": 4,
+      "result": "unsat"
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "c": 5,
+      "n": 5,
+      "result": "unsat"
+    },
+    {
+      "a": 5,
+      "b": 0,
+      "c": 1,
+      "n": 5,
+      "result": "unsat"
+    },
+    {
+      "a": 5,
+      "b": 1,
+      "c": 1,
+      "n": 5,
+      "result": "unsat"
+    },
+    {
+      "a": 5,
+      "b": 2,
+      "c": 1,
+      "n": 5,
+      "result": "unsat"
+    },
+    {
+      "a": 5,
+      "b": 3,
+      "c": 1,
+      "n": 5,
+      "result": "unsat"
+    },
+    {
+      "a": 5,
+      "b": 4,
+      "c": 1,
+      "n": 5,
+      "result": "unsat"
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "c": 6,
+      "n": 6,
+      "result": "unsat"
+    },
+    {
+      "a": 2,
+      "b": 0,
+      "c": 3,
+      "n": 6,
+      "result": "unsat"
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "c": 3,
+      "n": 6,
+      "result": "unsat"
+    },
+    {
+      "a": 3,
+      "b": 0,
+      "c": 2,
+      "n": 6,
+      "result": "unsat"
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "c": 2,
+      "n": 6,
+      "result": "unsat"
+    },
+    {
+      "a": 3,
+      "b": 2,
+      "c": 2,
+      "n": 6,
+      "result": "unsat"
+    },
+    {
+      "a": 6,
+      "b": 0,
+      "c": 1,
+      "n": 6,
+      "result": "unsat"
+    },
+    {
+      "a": 6,
+      "b": 1,
+      "c": 1,
+      "n": 6,
+      "result": "unsat"
+    },
+    {
+      "a": 6,
+      "b": 2,
+      "c": 1,
+      "n": 6,
+      "result": "unsat"
+    },
+    {
+      "a": 6,
+      "b": 3,
+      "c": 1,
+      "n": 6,
+      "result": "unsat"
+    },
+    {
+      "a": 6,
+      "b": 4,
+      "c": 1,
+      "n": 6,
+      "result": "unsat"
+    },
+    {
+      "a": 6,
+      "b": 5,
+      "c": 1,
+      "n": 6,
+      "result": "unsat"
+    }
+  ],
+  "witness": null
+}
