@@ -1,12 +1,327 @@
 # Current research state for two convex tiles
 
+## Pre-commit review completed 2026-10-25
+
+**Unresolved; zero live leads; no new research search started.** Reviewed all
+tracked changes and all 64 new discovery files. The standalone mixed catalogue
+checker accepted incorrect species labels, unchecked aggregate counts and
+duplicate support definitions. Those checks are now enforced; three regression
+cases failed before the fix and pass afterwards. Retained evidence has the
+correct data, and scientific engine/source hashes remain unchanged.
+
+Post-fix full checkpoint validation **PASSED**: locked environment, **95 tests**,
+all five fresh finite-bundle replays, all seven checks returning 0, and no
+source/evidence changes during validation. The
+[validation record](research/discovery/checkpoint-validation-2026-10-25.json)
+was saved after checks completed; final documentation records this outcome.
+The separate historical replay registry was not rerun.
+
+The [review and file audit](research/discovery/commit-review-2026-10-25.md)
+recommends retaining every original diff file, including exact negative evidence
+and linked diagnostic galleries; no disposable or unrelated files were found.
+No commit has been created. Progress is bounded elimination, reproducibility
+and earlier angular rejection; no candidate with a plane-existence or universal
+forcing proof emerged. The joint contact/metric pilot remains proposed only,
+with extension and recognition obligations unchanged.
+
+## Discovery checkpoint prepared 2026-10-24
+
+**Unresolved; zero live leads; all declared experiments complete.** Start at
+[CHECKPOINT.md](research/discovery/CHECKPOINT.md) for the current inventory,
+replay commands, independent review, effective runtime limits, and bounded
+next proposal. The experiment entries below preserve their individual scopes.
+
+A fresh Astra diff review found no retained-result correctness defect. It
+identified unsafe historical generator defaults, ambiguous replay scope, and
+differing CPU-limit meanings. New guarded fresh-output generation, a small
+consolidated checkpoint driver, mise tasks, and clearer documentation address
+those workflow issues without modifying hash-pinned scientific engines or
+retained evidence. Direct historical generator defaults remain unsafe; use the
+guarded entry point. No data deletion or broad refactor was undertaken.
+
+Full checkpoint validation **PASSED**: locked environment, 92 discovery tests,
+all five fresh finite-bundle replays, and unchanged source/evidence during
+validation. The [validation record](research/discovery/checkpoint-validation-2026-10-24.json)
+contains all seven check outcomes. Historical `mise run replay` is separate;
+use `mise run discovery-checkpoint` or `mise run discovery-replay` for this work.
+The user's older October 20 strategy text and all prior research remain intact.
+
+**Next direction proposed, not started:** contact-first joint geometry. Generate
+complete reflected first-neighborhood templates around both species, then
+solve their shared native edge equalities and polygon closures with exact
+positive lengths. This changes candidate construction rather than merely
+adding independent support metrics. Include Q105 in a declared complete
+strictly-obtuse 15-degree word domain, compare templates with stopped routes,
+and verify actual exact rings before extension/period challenges. Cap the pilot
+at one implementation session, 5,000 canonical paired templates, 20 realized
+representatives and ten search CPU minutes. One structurally interesting
+realized survivor can justify follow-up; there is no fixed minimum lead count.
+Full obligations, controls and stop/go conditions are in the checkpoint.
+
+
+## Angular-first ordering completed 2026-10-24
+
+**Optimization complete; globally unresolved, zero final leads.** At the
+user's request, a new entry point applies the necessary angular first-surround
+check before constructing support polygons or screening metric contacts.
+The nominal finite domain is unchanged: P105^4/120, all 16 Q angle words,
+unit-normal support offsets `{1,2}`, all mixed-edge relative scales. Prior
+source files, scientific hashes and retained evidence remain unchanged.
+
+Both root-species angle proofs reject two Q words before geometry, covering
+256 raw support assignments. The remaining 1,824 assignments yield 502 active
+definitions, 20 P + 371 Q = 391 classes. Metric work covers 7,420 shape pairs,
+150,102 raw scales, 7,526 common-scale duplicates and 142,576 unique cases, all failing
+native-corner support. All 357 star geometry checks and 14 incidence solves from
+the previous order are avoided. The new catalogue is explicitly filtered;
+angle certificates cover the rest of the original 2,080-assignment domain.
+
+A fresh full baseline and angular-first pass ran in separate cold Python
+processes. The full baseline matches the original catalogue/preflight/gzip
+fingerprints. Measured total CPU 66.09 -> 49.46 seconds (~25% less); metric phase
+56.71 -> 41.15 seconds. These are single-run measurements, not a general benchmark.
+Work removed is independently reproducible: 256 support constructions,
+43 active-signature computations,27 Q classes, 540 shape pairs, 8,162 raw scales,
+7,650 unique metric cases, 357 star checks and 14 LPs. Final leads/gate remain 0/false.
+
+Independent audit rechecks all 16 angular proof traces, exact reduced-catalogue
+identity/defining-data equality, complete 2080 = 1824 + 256 coverage, and every 150,102
+remaining scale row against the accepted-Q subset of the original audit,
+including common-scale references. A fresh optimized-only replay matches all
+scientific hashes. **84 discovery tests passed**, including early-order,
+output-reuse and adversarial evidence checks. Historical replay unchanged.
+
+The [comparison report](research/discovery/angular-first-report-2026-10-24.md)
+records all phases, work counters, scope and commands. The
+[manifest](research/discovery/runs/mixed-angular-first-2026-10-24/manifest.json)
+binds early proofs, filtered catalogue, scale audit, old fingerprints and
+measurements. Standalone verification through the required mise/conda wrapper:
+`python -m research.discovery.angular_first_verify --replay`.
+Use the new `angular_first` entry point for this ordering; the old pipeline
+remains the immutable replay baseline. No larger library or growth engine
+was run as part of this optimization.
+
+## Astra-directed follow-up completed 2026-10-24
+
+**Unresolved globally; both bounded experiments complete, zero final leads.**
+The user explicitly authorized following fresh Astra recommendations: one
+cheap length-eight calibration and a gated mixed-angle contact audit. Sol
+agents separately implemented and independently reviewed both experiments.
+No growth engine was built because the gate failed. Earlier source hashes,
+retained evidence, and the user's older log edits are preserved.
+
+**Length-eight calibration:** complete 330-class hexagon catalogue, 120 central
+monohedral omissions, 210 noncentral shapes, all 21,945 pairs. With an early
+eight-face periodic cutoff and native radii 1/2/4, outcomes are 21,660 local
+finite failures, 55 larger finite failures, 230 periodic witnesses, zero
+survivors/UNKNOWNs/unfinished cases. Core search took 4.52 CPU seconds within
+the 600-second cap. No stronger follow-up or M9 ran. This extends the M6
+census; those pair counts are not disjoint. Independent enumeration, 273
+patch checks, 230 periodic checks and fresh nonwriting replay all pass.
+Evidence: `research/discovery/runs/boundary-m8-2026-10-24/`.
+
+**Mixed-angle preflight:** P5 angles `(105,105,105,105,120)`, all 16 Q7 cyclic
+words from `(120^3,135^4)`, `(120^4,135^2,150)`, `(120^5,150^2)`; exact unit-normal
+support offsets `{1,2}` over Q(sqrt(2),sqrt(3)). Of 2,080 raw definitions,
+545 active definitions give 20 P + 398 Q congruence classes. The P palette
+has a prior regular-dodecagon source route; this different Q7 experiment has
+no novelty claim. Complete contact census: 7,960 shape pairs, 158,264 mixed-edge
+ratio cases, 8,038 common-scale duplicates, 150,226 inequivalent cases. Exactly
+14 pass every-native-corner star support; seven fail rational incidence with
+Farkas certificates, seven pass incidence, and all seven then fail the cheap
+angular first-surround endpoint-cycle check. Final strong survivors: zero.
+Final preflight used 62.45 CPU seconds under its 540-second cap; no larger
+support domain or other angle family was searched.
+
+Both angle-only root-cycle failures are Q words with nonadjacent 150-degree
+corners and no 135. Each P105 corner needs P105 + Q150. A Q neighbor along
+a P105-to-P105 side would need adjacent Q150 corners; without those, all
+three consecutive such P sides force P neighbors, contradicting the required
+P/Q star at the middle P105. The finite reflected endpoint-cycle traces
+independently confirm this. All 14 corner-supported cases use these two
+patterns, so run this cheap angle test before metric enumeration next time.
+
+The full [combined report](research/discovery/astra-followup-report-2026-10-24.md)
+records exact bounds, counts, allocation gates, certificates, hashes and
+limitations. [M8 gallery](research/discovery/runs/boundary-m8-2026-10-24/gallery.html)
+and [mixed catalogue sample](research/discovery/runs/mixed-obtuse-2026-10-24/gallery.svg)
+show the searched geometry. Mixed exact records and the compressed complete
+scale audit live in `research/discovery/runs/mixed-obtuse-2026-10-24/`.
+
+Verification: **74 discovery tests passed**. Independent mixed rational-field
+arithmetic checks the full catalogue/scale domain, all 357 star geometries,
+seven primal and seven Farkas certificates, and all 16 angle-cycle traces.
+Fresh scientific regeneration matches catalogue/preflight/gzip hashes;
+gzip timestamp and filename are fixed for deterministic replay. Standalone
+replays through the required mise/conda wrapper:
+`python -m research.discovery.calibration_verify --replay` and
+`python -m research.discovery.mixed_verify --replay`.
+The historical replay registry is unchanged.
+
+**Stop/go decision:** stop both declared domains. The practical engine gate
+(at least ten inequivalent pairs across at least three Q words) failed even
+before the angular obstruction removed the last seven. Thresholds remain
+allocation heuristics, not a tiling theorem. Do not automatically expand M9,
+support offsets or patch radii. A next mixed-angle proposal should pass a
+cyclic-neighborhood check early and offer an actual first-surround mechanism
+before engine investment. These empty finite censuses do not resolve the
+unrestricted convex-pair problem or weaken its proof/review criteria.
+
+## Exact boundary-word comparison completed 2026-10-24
+
+**Unresolved globally; bounded experiment complete.** At the user's request,
+separate Sol agents implemented and audited a finite exact boundary-length
+library, fast native-edge solver, static patch/period galleries, and independent
+geometric verification. Root integrated full replay and retained records.
+
+Scope: all closed convex equiangular 120-degree hexagon words with integer lengths
+1 through 6, modulo cyclic shifts/reversal, absolute sizes preserved. Coordinates
+`(x,y)` mean `(x,y*sqrt(3))`; exact edge vectors are
+`(2,0),(1,1),(-1,1),(-2,0),(-1,-1),(1,-1)`. Complete catalogue 126 classes;
+56 central monohedral omissions; 70 noncentral shapes; all 2,415 unordered pairs.
+This broadens length coverage in a known 120-degree angle family, not the angle family
+or a new forcing mechanism. Known fixtures are marked as prior work.
+
+Baseline: 2,328 seeded radius-one failures, 62 periodic tilings through four
+honeycomb faces, 21 radius-two failures, 4 initial survivors with exact native
+radius-four 61-tile patches at each seed. Deterministic finite solver outcomes,
+not proofs of unrestricted nontilability. Root then authorized a targeted
+challenge on exactly those four survivors, HNF index <= 16 and radius cap eight, with
+10,000 nodes / 500,000 revisions per solve and 60 CPU seconds per pair, within the
+original ten CPU minute cap. **All four yielded eight-face periodic witnesses**
+at HNF`(2,0,4)` before radius-eight growth. Final: 2,328 local failures, 21 deeper
+finite failures, 66 independently checked periodic pairs, **zero surviving
+leads, zero UNKNOWNs**. No length>6 or other direction library was searched.
+No absence-of-period or infinite-extension claim is made.
+
+The [self-contained report](research/discovery/boundary-report-2026-10-24.md)
+records bounds, exhaustive generator checks, both-stage funnels, exact four
+false positives, resource measurements and next allocation. The
+[manifest](research/discovery/runs/boundary-m6-2026-10-24/manifest.json) binds all
+five evidence bundles. [Initial patch gallery](research/discovery/runs/boundary-m6-2026-10-24/gallery.html)
+and [first stronger periodic resolution](research/discovery/runs/boundary-m6-2026-10-24/followup-01/gallery.html)
+are inspectable; the report links all four resolutions.
+
+Verification: locked environment passed; 57 discovery tests passed; independent
+six-loop enumeration reproduces the full 126-class length-six library; all 103
+retained patches and 66 periodic certificates pass exact seam/holonomy,
+no-overlap/contact, area and lattice-translate checks. Fresh nonwriting replay
+reproduces all five result hashes, with complete or explicitly focused pair coverage.
+Manifest SHA-256:`3436cdfbc9fb2c4f702087b2395772424cd68a8586b53ed621483c23e76bb0bc`. The previous kite pilot and historical replay
+registry remain unchanged. Standalone command:
+
+`mise exec -- conda run --no-capture-output -n arisearch python -m research.discovery.boundary_replay`
+
+**Stop/go decision:** stop this declared length-six experiment. Initial shallow
+period budgets created four false positives despite deep local growth; use an
+eight-face periodic cutoff early for another campaign in this family. A new
+comparison should vary exact angle/direction sequences rather than enlarge
+length bounds automatically. Fixed-patch interaction was deferred after all
+leads resolved; `--pair`/`--grow` produce fresh bounded patches and do not claim
+to extend a particular saved assignment. This empty census does not rule out
+larger integer, noninteger, or other-angle pairs. Existing proof criteria are
+unchanged.
+
+## Convex-polykite discovery pilot completed 2026-10-24
+
+**Unresolved globally; bounded pilot complete.** The user authorized discovery-first
+screening after an independent Astra ROI review, superseding the historical
+pause/proof-first allocation below for this experiment. Separate Sol agents
+implemented exact catalogue generation, bounded screening, and independent
+witness verification. Existing user edits below are preserved.
+
+The six-cell preflight and the complete eight-cell follow-up each contain
+six convex congruence classes. Exact per-size counts for 1 through 8 kites:
+`1,1,2,0,0,2,0,0`. All six shapes have explicit index-one periodic monohedral
+tilings, independently checked for congruence, exact coverage, and all
+potential overlapping lattice translates. Thus all 15 unordered pairs are
+excluded by singletons; **zero eligible pairs, zero flags, zero UNKNOWNs**.
+No mixed-pair or patch-growth search was necessary. This is not an exclusion
+of larger convex-polykite families or a result on the unrestricted problem.
+
+The [self-contained finite report](research/discovery/pilot-report-2026-10-24.md)
+records the domain, safe convex-closure completeness argument, witnesses,
+resource decisions, and limitations. [Exact records](research/discovery/runs/kite-n8-2026-10-24/screen.json)
+and [gallery](research/discovery/runs/kite-n8-2026-10-24/gallery.html) are retained.
+The [pilot README](research/discovery/README.md) gives standalone commands.
+
+Verification: locked environment passed; 27 new tests passed; unpruned connected
+polyforms independently agree through eight cells; independent witness audit
+passed; fresh catalogue/solver replay reproduces stable hash
+`92e423c7ba3986fce16009f99916895df625679c1489fdc4f6ca761b86bd5ea5` without rewriting evidence.
+The existing historical replay registry is unchanged.
+
+**Stop/go decision:** stop this declared small-area catalogue rather than
+increase its size automatically. No survivors justify general placement,
+complete-corona scoring, or a polished workbench yet. Next high-ROI comparison:
+a finite exact boundary-direction/length library conditioned on plausible
+contact compatibility; state its own bounds and compare geometric diversity
+and nontrivial growth yield. That comparison is complete in the newer entry above. The scientific
+acceptance criteria remain unchanged, and finite patches or bounded period
+failures will not be presented as aperiodicity.
+
 **End-of-day checkpoint, 2026-10-20:** **Unresolved.** No pair of distinct
 unmarked convex polygons has both an established plane tiling and a proof
 that every such tiling is nonperiodic. Today's reviewed results close the
 specific four-congruent-pentagon convex-hexagon first parent by a periodic
 pentagon-only omission and prove the latest fixed tangential P5/Q7 trial
 plane-nontilable. Research exploration is stopped for today at the user's
-request; the items below are historical findings and replay pointers.
+request. The next-direction recommendation below applies when research resumes;
+the subsequent findings and replay pointers preserve the historical state.
+
+## Next research direction: a bounded trial of a new construction mechanism
+
+**Recommendation recorded at the user's request, 2026-10-20.** Continue concrete
+shape exploration, with a stricter threshold for sustained investment. The
+latest rounds produced useful structural exclusions but no surviving pair
+with both plane existence and unrestricted aperiodicity established. Several
+pairs fail within a few contacts; others have periodic escapes or no global
+extension mechanism. Nearby metric variants and larger inventories now show
+diminishing returns. These restricted failures do not establish impossibility
+for arbitrary convex pairs.
+
+The next session should test **one substantially different construction
+mechanism in a bounded design cycle**. Compare it against the existing
+mechanism registry and stopped routes before implementation. State what new
+contact, extension, or recognition mechanism justifies the trial; a changed
+angle word, area eigenvalue, metric, or child count alone is insufficient.
+This recommendation governs the next allocation of effort and refines the
+historical shape-first priority below. It does not resume exploration today.
+
+1. **Run structural preflight before metric fitting.** Apply the existing
+   partition bounds, admissible topology and angle conditions, and sufficient
+   periodic omission tests. In particular, use the reviewed
+   [seven-child exclusion](research/lemmas/seven-child-convex-pentagon-all-pentagons-2026-10-20.md),
+   [eight-child classification](research/lemmas/eight-child-pentagon-one-hexagon-2026-10-20.md),
+   and [four-P/hexagon omission theorem](research/reviews/four-pentagon-hexagon-hostile-2026-10-20.md)
+   wherever their hypotheses apply. Keep their scopes explicit. A zero-hit
+   pentagon-family filter does not prove monohedral non-tilability.
+2. **Make infinite extension the first constructive milestone.** Early
+   sketches and finite patches may guide discovery. Before substantial patch
+   growth or parameter search, supply a specific proposed extension mechanism:
+   for example, a complete admissible substitution design or a repeatable
+   extension rule with explicit coverage and nonoverlap obligations. Work
+   toward an exact full-plane existence proof. Larger patches and negative
+   finite quotient searches do not discharge that obligation.
+3. **Identify how the shapes could force the proposed structure.** State a
+   concrete intrinsic recognition mechanism or another route to universal
+   aperiodicity, including reflections, partial contacts, and tilings using
+   only one species. Attack whole-side alternatives and mixed periodic
+   carriers early. A valid substitution alone does not force arbitrary
+   tilings to follow it; an equally broad unproved recognition conjecture is
+   a blocker, not a near-complete construction.
+
+Before starting the cycle, record its finite scope, resource cap, and first
+falsifiable milestone. Early sketches need not already solve extension and
+recognition, but continued investment requires concrete progress on those
+obligations. Stop at the declared cap or a decisive obstruction; preserve the
+exact result and missing lemma. Do not extend the cycle by growing patches,
+increasing child counts, or retuning a stopped metric without new mathematics.
+If no new mechanism survives, record that outcome and reconsider the strategy
+before another construction round. Judge progress by a genuine extension or
+forcing mechanism, or a reusable family-level theorem, rather than the number
+of exact failed fixtures.
+
 
 **P5/Q7 tangential fixed trial (15:57 UTC, independently reviewed):** The
 [exact construction and replay](research/searches/p5q7-fresh-build-2026-10-20.md)
@@ -296,6 +611,8 @@ original unrestricted objective, and no unrestricted impossibility proof, had
 been found.
 
 ## Shape-first exploration priority (set 2026-10-19)
+
+**Historical priority; refined by the next research direction at the top of this log.**
 
 The user wants the next research session to focus on **hands-on exploration
 of concrete pairs of convex shapes and the patches they make**. Spend the

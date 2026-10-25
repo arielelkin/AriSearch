@@ -1,0 +1,294 @@
+{
+  "schema": "mixed-angular-first-worker-v1",
+  "filtered": true,
+  "cooperative_cpu_cap_seconds": 540.0,
+  "outer_process_cpu_limit_seconds": 300,
+  "source_sha256": "96e117586ec10bc1b91f41a3c7a5ff51c4687df34579bbf2a786975ea8eb576f",
+  "engine_source_sha256": "40126e82f44e19805ba7f129abf2235efb8394438e9cef449ce5eb6fcecba907",
+  "catalogue_content_sha256": "830a0ee1cfa547f2f9c75f9c99e68c0ad6d7f34d11e7cdf148e8ca9b8100969e",
+  "preflight_content_sha256": "693b8e965a9be0d93e82b81853bf0ababd5c743974cbee6decb070c995075fa1",
+  "scale_audit_sha256": "4799efe3b96b467d844dfea0bd92cdc49b2cfafc63a299c903279d9822857bc3",
+  "catalogue_stats": {
+    "P_angle_words": 1,
+    "Q_angle_words": 14,
+    "attempted": 1824,
+    "inactive_or_zero": 1322,
+    "by_angle_word": [
+      {
+        "species": "P",
+        "angles": [
+          105,
+          105,
+          105,
+          105,
+          120
+        ],
+        "attempted": 32,
+        "valid_definitions": 32,
+        "congruence_classes": 20
+      },
+      {
+        "species": "Q",
+        "angles": [
+          120,
+          120,
+          120,
+          120,
+          120,
+          150,
+          150
+        ],
+        "attempted": 128,
+        "valid_definitions": 19,
+        "congruence_classes": 13
+      },
+      {
+        "species": "Q",
+        "angles": [
+          120,
+          120,
+          120,
+          120,
+          135,
+          135,
+          150
+        ],
+        "attempted": 128,
+        "valid_definitions": 24,
+        "congruence_classes": 24
+      },
+      {
+        "species": "Q",
+        "angles": [
+          120,
+          120,
+          120,
+          120,
+          135,
+          150,
+          135
+        ],
+        "attempted": 128,
+        "valid_definitions": 19,
+        "congruence_classes": 13
+      },
+      {
+        "species": "Q",
+        "angles": [
+          120,
+          120,
+          120,
+          135,
+          120,
+          135,
+          150
+        ],
+        "attempted": 128,
+        "valid_definitions": 24,
+        "congruence_classes": 24
+      },
+      {
+        "species": "Q",
+        "angles": [
+          120,
+          120,
+          120,
+          135,
+          120,
+          150,
+          135
+        ],
+        "attempted": 128,
+        "valid_definitions": 24,
+        "congruence_classes": 24
+      },
+      {
+        "species": "Q",
+        "angles": [
+          120,
+          120,
+          120,
+          135,
+          135,
+          120,
+          150
+        ],
+        "attempted": 128,
+        "valid_definitions": 33,
+        "congruence_classes": 33
+      },
+      {
+        "species": "Q",
+        "angles": [
+          120,
+          120,
+          120,
+          135,
+          135,
+          135,
+          135
+        ],
+        "attempted": 128,
+        "valid_definitions": 51,
+        "congruence_classes": 30
+      },
+      {
+        "species": "Q",
+        "angles": [
+          120,
+          120,
+          135,
+          120,
+          120,
+          135,
+          150
+        ],
+        "attempted": 128,
+        "valid_definitions": 24,
+        "congruence_classes": 24
+      },
+      {
+        "species": "Q",
+        "angles": [
+          120,
+          120,
+          135,
+          120,
+          135,
+          120,
+          150
+        ],
+        "attempted": 128,
+        "valid_definitions": 33,
+        "congruence_classes": 33
+      },
+      {
+        "species": "Q",
+        "angles": [
+          120,
+          120,
+          135,
+          120,
+          135,
+          135,
+          135
+        ],
+        "attempted": 128,
+        "valid_definitions": 51,
+        "congruence_classes": 51
+      },
+      {
+        "species": "Q",
+        "angles": [
+          120,
+          120,
+          135,
+          120,
+          150,
+          120,
+          135
+        ],
+        "attempted": 128,
+        "valid_definitions": 33,
+        "congruence_classes": 21
+      },
+      {
+        "species": "Q",
+        "angles": [
+          120,
+          120,
+          135,
+          135,
+          120,
+          120,
+          150
+        ],
+        "attempted": 128,
+        "valid_definitions": 33,
+        "congruence_classes": 21
+      },
+      {
+        "species": "Q",
+        "angles": [
+          120,
+          120,
+          135,
+          135,
+          120,
+          135,
+          135
+        ],
+        "attempted": 128,
+        "valid_definitions": 51,
+        "congruence_classes": 30
+      },
+      {
+        "species": "Q",
+        "angles": [
+          120,
+          135,
+          120,
+          135,
+          120,
+          135,
+          135
+        ],
+        "attempted": 128,
+        "valid_definitions": 51,
+        "congruence_classes": 30
+      }
+    ],
+    "nominal_Q_angle_words": 16,
+    "nominal_attempted": 2080,
+    "early_rejected_supports": 256,
+    "P_tiles": 20,
+    "Q_tiles": 371,
+    "elapsed_seconds": 6.099834582999392
+  },
+  "funnel": {
+    "native_tile_pairs": 7420,
+    "native_pair_scales": 150102,
+    "common_scale_duplicates": 7526,
+    "unique_pair_scales": 142576,
+    "missing_native_corner_support": 142576,
+    "geometry_checked_pair_scales": 0,
+    "geometry_checked_stars": 0,
+    "incidence_infeasible": 0,
+    "incidence_feasible": 0,
+    "angular_endpoint_cycle_infeasible": 0,
+    "strong_survivors": 0
+  },
+  "allocation_gate": {
+    "minimum_pairs": 10,
+    "minimum_Q_angle_words": 3,
+    "actual_pairs": 0,
+    "actual_Q_angle_words": 0,
+    "passed": false,
+    "heuristic_only": true
+  },
+  "complete": true,
+  "measurements": {
+    "import_exact_engine": {
+      "cpu_seconds": 1.521166012,
+      "wall_seconds": 0.8553508259992668
+    },
+    "early_angular_filter": {
+      "cpu_seconds": 0.020986072999999994,
+      "wall_seconds": 0.02149608899890154
+    },
+    "support_catalogue": {
+      "cpu_seconds": 6.760828474,
+      "wall_seconds": 6.7603631460006
+    },
+    "metric_preflight": {
+      "cpu_seconds": 41.154054335,
+      "wall_seconds": 41.15703245899931
+    },
+    "total": {
+      "cpu_seconds": 49.457034894,
+      "wall_seconds": 48.79426331899958
+    }
+  },
+  "prefilter_content_sha256": "b9c93841ac0a412663b8585ce04ae121592e562da428117163dee9ae6ef97470",
+  "content_sha256": "fe648da72d1007036138c29e19bc42f5e3e71da2745e13aa49a1280ed37a2487"
+}

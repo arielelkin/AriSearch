@@ -1,0 +1,50 @@
+{
+  "baseline": {
+    "path": "boundary-screen.json",
+    "result_sha256": "8bfef360d999f8b25bb98e4f2d5c971a452d1e2b0a30d09cba63dd61b507376a"
+  },
+  "date": "2026-10-24",
+  "final_flags": 0,
+  "final_pair_status_counts": {
+    "FINITE_EXTENSION_FAILURE": 21,
+    "LOCAL_OBSTRUCTION": 2328,
+    "PERIODIC_WITNESS": 66
+  },
+  "followups": [
+    {
+      "path": "followup-01/boundary-screen.json",
+      "result_sha256": "ce237ad25775ed8845b5cd4ab85ac52e6c04f4565d4cce36c5fef11c7307d0d7",
+      "selected_pair": [
+        "bw120-1-3-2-2-2-3",
+        "bw120-2-4-4-3-3-5"
+      ]
+    },
+    {
+      "path": "followup-02/boundary-screen.json",
+      "result_sha256": "88c6caf4fca7b695ba5a05521aa60dff0f0a2dc3f69c8e5ccf9dc29b91adfb87",
+      "selected_pair": [
+        "bw120-1-3-3-2-2-4",
+        "bw120-3-4-4-4-3-5"
+      ]
+    },
+    {
+      "path": "followup-03/boundary-screen.json",
+      "result_sha256": "e5e6c51e6bdc9008e31e711f50932bfda66b7d35472f90f3b5676fedfe5f9a44",
+      "selected_pair": [
+        "bw120-2-4-3-3-3-4",
+        "bw120-3-5-5-4-4-6"
+      ]
+    },
+    {
+      "path": "followup-04/boundary-screen.json",
+      "result_sha256": "da98b9ce52bb7755293b05f6de765acb24549304bed0bbb7125bfc7f00cb9b39",
+      "selected_pair": [
+        "bw120-2-4-4-3-3-5",
+        "bw120-4-5-5-5-4-6"
+      ]
+    }
+  ],
+  "manifest_sha256": "3436cdfbc9fb2c4f702087b2395772424cd68a8586b53ed621483c23e76bb0bc",
+  "schema": "arisearch.discovery.boundary-manifest.v1",
+  "scope": "Full exact integer boundary library through length6; all noncentral pairs at index4, with declared index16 challenges of the four initial survivors. All four challenges found index8 periodic witnesses."
+}

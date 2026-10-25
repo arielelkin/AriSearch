@@ -45,6 +45,14 @@ falsified. The discovery log indexes the subject-specific proofs, exact
 searches, certificates, literature findings, and reviews under `research/`,
 including verification scope and remaining research obligations.
 
+The bounded discovery experiments have their own
+[restart checkpoint](research/discovery/CHECKPOINT.md). Their complete checks
+and fresh replays are `mise run discovery-checkpoint` and
+`mise run discovery-replay`; these are separate from the historical registry
+below. The checkpoint records zero live leads and the next proposed generation
+experiment. The [pre-commit review](research/discovery/commit-review-2026-10-25.md)
+records the latest fixes, validation and file-retention audit.
+
 Run the registered certificate replays and independent checks without
 overwriting retained certificates (the registry does not cover every search):
 

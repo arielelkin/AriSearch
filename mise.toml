@@ -44,3 +44,11 @@ sed -i '/^[[:space:]]*url:/ s/%21/!/g' environment/conda-lock.yml
 [tasks.clean]
 description = "Remove Conda package caches while preserving installed environments"
 run = "conda clean --all --yes"
+
+[tasks.discovery-checkpoint]
+description = "Verify the complete retained discovery checkpoint without regeneration"
+run = "conda run --no-capture-output -n arisearch python -m research.discovery.checkpoint"
+
+[tasks.discovery-replay]
+description = "Verify the discovery checkpoint and freshly replay every declared finite run"
+run = "conda run --no-capture-output -n arisearch python -m research.discovery.checkpoint --replay"

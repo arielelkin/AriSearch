@@ -1,0 +1,52 @@
+{
+  "status": "PASSED",
+  "fresh_replays": true,
+  "source_and_evidence_unchanged": true,
+  "elapsed_seconds": 260.951,
+  "checked_file_count": 73,
+  "checks": [
+    {
+      "check": "locked environment",
+      "returncode": 0,
+      "elapsed_seconds": 2.289,
+      "output": "SageMath 10.9\nZ3 4.16.0\nOR-Tools 9.15.6755\npytest 9.1.1\nHypothesis 6.165.7\nNumPy 2.5.2\nMatplotlib 3.11.1\nNauty/Traces, Graphviz, jq, Poppler, ripgrep, and librsvg commands found\nAll locked Conda builds and Python distributions match; research commands use the Conda prefix"
+    },
+    {
+      "check": "discovery tests",
+      "returncode": 0,
+      "elapsed_seconds": 42.375,
+      "output": "........................................................................ [ 75%]\n.......................                                                  [100%]\n95 passed in 40.76s"
+    },
+    {
+      "check": "kite pilot",
+      "returncode": 0,
+      "elapsed_seconds": 0.416,
+      "output": "{\"catalogue\": 6, \"fresh_search_seconds\": 0.0434, \"independent_verification\": {\"catalogue_records\": 6, \"funnel\": {\"catalogue\": 6, \"monohedral_periodic\": 6, \"monohedral_theorem\": 0, \"periodic_pairs\": 0, \"remaining_unordered_pairs\": 0, \"unresolved_pairs\": 0, \"unresolved_singletons\": 0}, \"kind\": \"screen\", \"scope\": \"all supplied records verified; catalogue completeness requires generator proof and replay\", \"valid\": true, \"witnesses\": [{\"area2\": 144, \"kind\": \"periodic\", \"placements\": 6, \"tile\": \"K0000\", \"translated_overlap_checks\": 38, \"valid\": true}, {\"area2\": 144, \"kind\": \"periodic\", \"placements\": 3, \"tile\": \"K0001\", \"translated_overlap_checks\": 16, \"valid\": true}, {\"area2\": 144, \"kind\": \"periodic\", \"placements\": 2, \"tile\": \"K0002\", \"translated_overlap_checks\": 25, \"valid\": true}, {\"area2\": 144, \"kind\": \"periodic\", \"placements\": 2, \"tile\": \"K0003\", \"translated_overlap_checks\": 25, \"valid\": true}, {\"area2\": 144, \"kind\": \"periodic\", \"placements\": 1, \"tile\": \"K0004\", \"translated_overlap_checks\": 8, \"valid\": true}, {\"area2\": 144, \"kind\": \"periodic\", \"placements\": 1, \"tile\": \"K0005\", \"translated_overlap_checks\": 8, \"valid\": true}]}, \"periodic_witnesses\": 6, \"result_sha256\": \"92e423c7ba3986fce16009f99916895df625679c1489fdc4f6ca761b86bd5ea5\", \"scope\": \"Retained finite catalogue and bounded search only; original evidence unchanged.\", \"status\": \"PASSED\"}"
+    },
+    {
+      "check": "length-six baseline and four challenges",
+      "returncode": 0,
+      "elapsed_seconds": 7.825,
+      "output": "{\"elapsed_seconds\": 7.7361, \"final_pair_status_counts\": {\"FINITE_EXTENSION_FAILURE\": 21, \"LOCAL_OBSTRUCTION\": 2328, \"PERIODIC_WITNESS\": 66}, \"manifest_sha256\": \"3436cdfbc9fb2c4f702087b2395772424cd68a8586b53ed621483c23e76bb0bc\", \"records\": [{\"fresh_search_matched\": true, \"pairs\": 2415, \"path\": \"/home/ariel/workspaces/AriSearch/research/discovery/runs/boundary-m6-2026-10-24/boundary-screen.json\", \"result_sha256\": \"8bfef360d999f8b25bb98e4f2d5c971a452d1e2b0a30d09cba63dd61b507376a\", \"verified_witnesses\": {\"patch\": 103, \"periodic\": 62}}, {\"fresh_search_matched\": true, \"pairs\": 1, \"path\": \"/home/ariel/workspaces/AriSearch/research/discovery/runs/boundary-m6-2026-10-24/followup-01/boundary-screen.json\", \"result_sha256\": \"ce237ad25775ed8845b5cd4ab85ac52e6c04f4565d4cce36c5fef11c7307d0d7\", \"verified_witnesses\": {\"periodic\": 1}}, {\"fresh_search_matched\": true, \"pairs\": 1, \"path\": \"/home/ariel/workspaces/AriSearch/research/discovery/runs/boundary-m6-2026-10-24/followup-02/boundary-screen.json\", \"result_sha256\": \"88c6caf4fca7b695ba5a05521aa60dff0f0a2dc3f69c8e5ccf9dc29b91adfb87\", \"verified_witnesses\": {\"periodic\": 1}}, {\"fresh_search_matched\": true, \"pairs\": 1, \"path\": \"/home/ariel/workspaces/AriSearch/research/discovery/runs/boundary-m6-2026-10-24/followup-03/boundary-screen.json\", \"result_sha256\": \"e5e6c51e6bdc9008e31e711f50932bfda66b7d35472f90f3b5676fedfe5f9a44\", \"verified_witnesses\": {\"periodic\": 1}}, {\"fresh_search_matched\": true, \"pairs\": 1, \"path\": \"/home/ariel/workspaces/AriSearch/research/discovery/runs/boundary-m6-2026-10-24/followup-04/boundary-screen.json\", \"result_sha256\": \"da98b9ce52bb7755293b05f6de765acb24549304bed0bbb7125bfc7f00cb9b39\", \"verified_witnesses\": {\"periodic\": 1}}], \"scope\": \"Exact bounded library, finite CSP replay and independently checked positive geometry; evidence unchanged.\", \"status\": \"PASSED\"}"
+    },
+    {
+      "check": "length-eight calibration",
+      "returncode": 0,
+      "elapsed_seconds": 5.133,
+      "output": "{\"central\": 120, \"followup_eligible_pairs\": 0, \"fresh_replay\": true, \"funnel\": {\"central_theorem_omissions\": 120, \"library\": 330, \"noncentral_singletons\": 210, \"pair_status_counts\": {\"FINITE_EXTENSION_FAILURE\": 55, \"LOCAL_OBSTRUCTION\": 21660, \"PERIODIC_WITNESS\": 230}, \"positive_singleton_periodic\": 0, \"unordered_pairs\": 21945}, \"kind\": \"boundary_batch\", \"library\": 330, \"manifest_sha256\": \"4e8177d66f3506c415ebbe4bf9e10406018818ff69436f5fde9d5666267acd1b\", \"noncentral\": 210, \"pairs\": 21945, \"result_sha256\": \"f319f48d58bc8849fbde2e52fe92eb9bd8eae36c32caae1529962757c0be8b6c\", \"scope\": \"all retained positive geometry verified; negative solver labels require fresh replay; finite library only\", \"valid\": true, \"verified_witnesses\": {\"patch\": 273, \"periodic\": 230}}"
+    },
+    {
+      "check": "mixed-angle support preflight",
+      "returncode": 0,
+      "elapsed_seconds": 152.795,
+      "output": "{\"allocation_gate\": {\"actual_Q_angle_words\": 0, \"actual_pairs\": 0, \"heuristic_only\": true, \"minimum_Q_angle_words\": 3, \"minimum_pairs\": 10, \"passed\": false}, \"catalogue\": {\"P_tiles\": 20, \"Q_angle_words\": 16, \"Q_tiles\": 398, \"kind\": \"mixed_catalogue\", \"scope\": \"complete specified binary support-offset domain only\", \"tiles\": 418, \"valid\": true}, \"content_sha256\": \"12371eb9470c8eee718cefeca1d31b79adfa3d5658b786dc132d64fdc04afdbf\", \"fresh_replay\": true, \"funnel\": {\"angular_endpoint_cycle_infeasible\": 7, \"common_scale_duplicates\": 8038, \"geometry_checked_pair_scales\": 14, \"geometry_checked_stars\": 357, \"incidence_feasible\": 7, \"incidence_infeasible\": 7, \"missing_native_corner_support\": 150212, \"native_pair_scales\": 158264, \"native_tile_pairs\": 7960, \"strong_survivors\": 0, \"unique_pair_scales\": 150226}, \"kind\": \"mixed_preflight\", \"scope\": \"complete fixed support/edge-ratio domain; local stars, exact rational incidence and necessary angle cycles only\", \"valid\": true}"
+    },
+    {
+      "check": "angular-first ordering comparison",
+      "returncode": 0,
+      "elapsed_seconds": 50.062,
+      "output": "{\"catalogue_tiles\": 391, \"content_sha256\": \"946d590e4283d02f23e6ec6106e1b768632ec5caea6514ec0d611524bf12e9b7\", \"early_rejected_support_assignments\": 256, \"enumerated_support_assignments\": 1824, \"filtered_metric_funnel\": {\"angular_endpoint_cycle_infeasible\": 0, \"common_scale_duplicates\": 7526, \"geometry_checked_pair_scales\": 0, \"geometry_checked_stars\": 0, \"incidence_feasible\": 0, \"incidence_infeasible\": 0, \"missing_native_corner_support\": 142576, \"native_pair_scales\": 150102, \"native_tile_pairs\": 7420, \"strong_survivors\": 0, \"unique_pair_scales\": 142576}, \"final_leads\": 0, \"fresh_replay\": true, \"kind\": \"angular_first_comparison\", \"measured_cpu_seconds\": {\"angular_first\": 49.457034894, \"baseline\": 66.093153278}, \"nominal_support_assignments\": 2080, \"scope\": \"same finite nominal domain; early angle proof plus exact filtered old metric audit; timings are single-run measurements\", \"valid\": true, \"work_avoided\": {\"P_Q_native_pairs\": 540, \"geometry_checked_pair_scales\": 14, \"geometry_checked_stars\": 357, \"incidence_feasible\": 7, \"incidence_infeasible\": 7, \"native_pair_scales\": 8162, \"support_geometry_calls\": 256, \"unique_pair_scales\": 7650, \"valid_support_signature_calls\": 43}}"
+    }
+  ],
+  "scope": "Discovery checkpoint only; historical research registry is separate; no global tiling claim."
+}
