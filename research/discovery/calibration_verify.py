@@ -17,6 +17,7 @@ from pathlib import Path
 from .boundary_verify import (DIRECTIONS, STEPS, _bound_witness, canonical_word,
                               word_polygon)
 from .verify import area2, digest, points, require
+from ..replay_provenance import matches_retained_digest
 
 
 def independent_library(max_length):
@@ -279,8 +280,8 @@ def verify_manifest(manifest_path,replay=False):
                              propagation_budget=50000,cpu_seconds=600,output_dir=None)
         replayed['experiment_provenance'] = {'orchestrator_source_sha256':orchestrator,'stage':'M8_BASELINE'}
         replayed['effort_summary'] = _effort(replayed)
-        replay_hash = digest({k:v for k,v in replayed.items() if k not in ('result_sha256','execution')})
-        require(replay_hash == baseline['result_sha256'],'fresh M8 computation differs from retained result')
+        require(matches_retained_digest(replayed, baseline, digest),
+                'fresh M8 computation differs from retained result')
         result['fresh_replay'] = True
     return result
 

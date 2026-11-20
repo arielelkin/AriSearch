@@ -14,7 +14,8 @@ import time
 
 from .kite_grid import enumerate_convex
 from .screen import run_screen
-from .verify import verify_screen
+from .verify import digest, verify_screen
+from ..replay_provenance import matches_retained_digest
 
 DEFAULT = Path(__file__).parent / "runs/kite-n8-2026-10-24/screen.json"
 
@@ -46,7 +47,7 @@ def replay(path: Path) -> dict:
         provenance=provenance,
     )
     verify_screen(regenerated)
-    if regenerated["result_sha256"] != retained["result_sha256"]:
+    if not matches_retained_digest(regenerated, retained, digest):
         raise ValueError("Regenerated search differs from the retained search; evidence was not overwritten.")
     if path.read_bytes() != original:
         raise ValueError("Retained evidence changed during replay.")

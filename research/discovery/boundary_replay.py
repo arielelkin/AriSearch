@@ -14,6 +14,7 @@ import time
 
 from .boundary_screen import digest, run_batch, _effort_summary
 from .boundary_verify import verify_batch
+from ..replay_provenance import matches_retained_digest
 
 DEFAULT = Path(__file__).parent / "runs/boundary-m6-2026-10-24/manifest.json"
 
@@ -43,8 +44,7 @@ def replay_record(path, retained, *, fresh=True):
             pair_filter=selected,
         )
         regenerated["effort_summary"] = _effort_summary(regenerated)
-        regenerated["result_sha256"] = digest(regenerated)
-        if regenerated["result_sha256"] != retained["result_sha256"]:
+        if not matches_retained_digest(regenerated, retained, digest):
             raise ValueError(f"Fresh finite search differs from retained run: {path}")
     return {"path":str(path), "result_sha256":retained["result_sha256"],
             "pairs":checked["pairs"], "verified_witnesses":checked["verified_witnesses"],

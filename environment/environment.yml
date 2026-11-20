@@ -2,7 +2,7 @@ name: arisearch
 channels:
 - conda-forge
 dependencies:
-- python==3.12.13
+- python==3.12.16
 - sage==10.9
 - z3-solver==4.16.0.0
 - nauty==2.9.3
@@ -16,6 +16,6 @@ dependencies:
 - pytest==9.1.1
 - ripgrep==15.2.0
 - pyyaml==6.0.3
-- pip==26.2.1
+- pip==26.2.2
 - pip:
   - ortools==9.15.6755

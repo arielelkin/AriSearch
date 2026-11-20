@@ -16,10 +16,12 @@ Mise installs the pinned Conda CLI and runs setup and verification tasks. Conda
 owns every research dependency, including Python, SageMath, solvers and
 scientific command-line tools. Setup installs the existing
 [linux-64 lock](environment/conda-lock.yml), using
-`conda-lock==4.0.2` through host uv. Everything installed for research stays
+`conda-lock==4.0.4` through host uv. Everything installed for research stays
 under ignored `.local/conda/`; setup never edits shell startup files or agent
-settings. Enable mise's shell integration or use `mise exec --` when running
-Conda commands directly.
+settings. The generated lock determines the installed pip version. Check its
+pip entry when changing the pip pin because conda-lock loosens that constraint
+when resolving a `pip:` section. Enable mise's shell integration or use
+`mise exec --` when running Conda commands directly.
 
 Setup reports when an environment already exists and always verifies it against
 the current lock. A failed verification makes setup fail. After stopping any

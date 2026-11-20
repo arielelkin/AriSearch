@@ -15,11 +15,16 @@ from itertools import combinations
 from pathlib import Path
 from platform import python_version
 import runpy
+import sys
 
 from sage.all import QQ
 from sage.env import SAGE_VERSION
 
 ROOT = Path(__file__).resolve().parents[1]
+if not __package__:
+    sys.path.insert(0, str(ROOT.parent))
+from research.replay_provenance import with_retained_python
+
 D = runpy.run_path(str(ROOT/'reviews'/'construction-adversary-2026-10-14-p5q14-independent.py'))
 K, z, P = D['K'], D['z'], tuple(D['P'])
 conj, cross, real, sign = D['conj'], D['cross'], D['real'], D['sign']
@@ -319,7 +324,8 @@ def main():
     check = args.compact_check if compact else args.check
     output = args.compact_output if compact else args.output
     if check:
-        assert json.loads(check.read_text()) == data
+        retained = json.loads(check.read_text())
+        assert with_retained_python(data, retained, ('software',)) == retained
     if output:
         with output.open('x') as out:
             json.dump(data, out, indent=2, sort_keys=True)

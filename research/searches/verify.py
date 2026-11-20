@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Nondestructively replay retained certificates and independent verifiers.
 
-Run with the arisearch Conda environment. Outputs are captured in memory and
-compared as parsed JSON; retained certificates are never overwritten.
+Run with the arisearch Conda environment. Results are compared as parsed JSON.
+Only Python patch provenance can differ. Retained certificates are never overwritten.
 This verifies the recorded finite computations, not global mathematical proofs.
 """
 import argparse
@@ -13,6 +13,10 @@ import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[2]
+if not __package__:
+    sys.path.insert(0, str(ROOT))
+from research.replay_provenance import with_retained_python
+
 SEARCHES = ROOT / "research/searches"
 CERTIFICATE_DIR = ROOT / "research/certificates"
 CERTIFICATES = (
@@ -527,6 +531,11 @@ def run(script):
     return result.stdout
 
 
+def certificate_matches(actual, expected):
+    """Compare research results exactly while preserving recorded Python provenance."""
+    return with_retained_python(actual, expected, ("software", "environment")) == expected
+
+
 def main():
     if sys.flags.optimize:
         print("FAIL: assertions must be enabled; do not use python -O or PYTHONOPTIMIZE.",
@@ -548,7 +557,7 @@ def main():
         try:
             expected = json.loads((CERTIFICATE_DIR / certificate).read_text())
             actual = json.loads(run(SEARCHES / script))
-            if actual != expected:
+            if not certificate_matches(actual, expected):
                 raise ValueError(f"generated JSON differs from {certificate}")
             print(f"PASS certificate replay: {script}", flush=True)
         except (OSError, ValueError, RuntimeError) as error:
@@ -567,7 +576,7 @@ def main():
                     raise ValueError("endpoint verifier did not certify no plane tiling")
             if script.name in VERIFIER_CERTIFICATES:
                 expected = json.loads((CERTIFICATE_DIR / VERIFIER_CERTIFICATES[script.name]).read_text())
-                if json.loads(output) != expected:
+                if not certificate_matches(json.loads(output), expected):
                     raise ValueError(f"independent verification JSON differs for {script.name}")
             print(f"PASS verifier: {script.name}", flush=True)
         except (OSError, ValueError, KeyError, RuntimeError) as error:
